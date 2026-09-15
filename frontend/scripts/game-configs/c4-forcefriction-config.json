@@ -1,0 +1,46 @@
+{
+  "gameTitle": "ForceFrictionGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\ForceFrictionGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part8.marker",
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part9.marker",
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part10.marker",
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part11.marker",
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part12.marker",
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part13.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_phy_008 (Push and pull as examples of force), c4_phy_009 (Force changes shape and direction), c4_phy_010 (Muscular, gravitational, magnetic, frictional forces), c4_phy_011 (Friction as a force), c4_phy_012 (Uses and harmful effects of friction), c4_phy_013 (Reducing friction using oil and powder)",
+  "mascotName": "Engineer Esha",
+  "mascotDescription": "a friendly mechanical engineer with a hard hat, a gear badge, a wrench, and a bicycle model. Custom SVG, not an owl.",
+  "sceneDescription": "physics workshop scene with sky gradient, a workshop building, a bicycle, a carrom board, a magnet, and various objects being pushed and pulled",
+  "svgObjects": [
+    { "name": "PushIcon", "description": "a hand pushing an object away" },
+    { "name": "PullIcon", "description": "a hand pulling an object closer" },
+    { "name": "ForceArrowIcon", "description": "an arrow showing force direction" },
+    { "name": "MuscleIcon", "description": "a muscle showing muscular force" },
+    { "name": "GravityIcon", "description": "an apple falling (gravitational force)" },
+    { "name": "MagnetIcon", "description": "a magnet attracting metal (magnetic force)" },
+    { "name": "FrictionIcon", "description": "two rough surfaces rubbing (frictional force)" },
+    { "name": "BicycleIcon", "description": "a bicycle chain needing oil" },
+    { "name": "OilCanIcon", "description": "an oil can for lubrication" },
+    { "name": "PowderIcon", "description": "powder on a carrom board" },
+    { "name": "CarromIcon", "description": "a carrom board with striker" },
+    { "name": "ShapeChangeIcon", "description": "a ball being squeezed (force changes shape)" },
+    { "name": "DirectionIcon", "description": "a ball changing direction (force changes direction)" },
+    { "name": "ShoeSoleIcon", "description": "a shoe sole worn out by friction" }
+  ],
+  "challengeTypes": [
+    "identify: What is a FORCE? (A push or a pull that acts on an object vs A type of sound vs A type of light)",
+    "sort: Drag each action to Push or Pull (Push: pushing a door open, pushing a shopping cart, pushing a football, pushing a swing | Pull: pulling a drawer open, pulling a rope in tug-of-war, pulling a trolley bag, pulling a bucket from a well)",
+    "identify: What can a force do to an object? (Change its speed, direction, or shape vs Only make it heavier vs Only make it colder)",
+    "sort: Drag each force to its correct type (Muscular force: pushing a cart with your hands | Gravitational force: an apple falling from a tree | Magnetic force: a magnet attracting iron nails | Frictional force: a ball slowing down on rough ground)",
+    "identify: Why does a rolling ball eventually STOP on the ground? (Friction between the ball and the ground slows it down vs Gravity pushes it down vs The ball runs out of energy)",
+    "sort: Drag each item to Useful Friction or Harmful Friction (Useful: walking without slipping, braking a bicycle, writing with a pencil, holding a cup, lighting a matchstick | Harmful: wearing out shoe soles, bicycle chain wearing out, tyres becoming smooth, machine parts heating up)",
+    "identify: What can we use to REDUCE friction on a bicycle chain? (Oil or grease vs Sand vs Water)",
+    "sort: Drag each method to Reduce Friction or Increase Friction (Reduce: oil on bicycle chain, powder on carrom board, grease on door hinges, smooth surfaces | Increase: rough rubber soles on shoes, tread on tyres, rough road surface, brake pads)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Push and pull — force is a push or pull. Push: moves object AWAY from you (pushing a door, cart, swing, football). Pull: brings object CLOSER to you (pulling a drawer, rope, trolley, bucket from well). Both are force — the difference is direction. (2) Force changes shape and direction — force can: start motion, stop motion, change speed, change direction, change shape. Squeezing a ball changes its shape. Kicking a ball changes its direction. (3) Four types of force — muscular force (force of muscles — pushing, pulling, lifting). gravitational force (Earth pulls objects down — apple falling, ball dropping). magnetic force (magnet attracts iron — no contact needed). frictional force (opposes motion when surfaces rub — ball slows down). (4) Friction as a force — friction opposes motion when two surfaces rub. Always acts OPPOSITE to the direction of motion. Rough surfaces = more friction. Smooth surfaces = less friction. Ball rolls farther on marble floor than on grass. (5) Uses and harmful effects — useful: walking (without friction we slip), braking, writing, holding things, lighting matchstick. Harmful: wears out shoe soles, bicycle chain, tyres. Machine parts heat up. (6) Reducing friction — oil on bicycle chain (forms slippery layer, parts move smoothly). Grease on door hinges. Powder on carrom board (striker glides easily). These are called lubricants. Misconceptions: 'push and pull are different forces' (push and pull are the SAME force — the only difference is the DIRECTION: push is away, pull is toward), 'friction always slows things down so it is always bad' (friction is USEFUL — without it we could not walk, write, or hold things — it only needs to be reduced in machines), 'a rolling ball stops because it runs out of energy' (the ball stops because FRICTION between the ball and ground opposes its motion — it does not run out of energy), 'oil makes surfaces rougher' (oil makes surfaces SMOOTHER by filling in tiny bumps — it reduces friction, it does not increase it), 'gravity only pulls light things' (gravity pulls ALL objects toward Earth — heavy and light alike). Default width=720, height=560. Use named export (export function ForceFrictionGame), NOT export default. Export interface ForceFrictionGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

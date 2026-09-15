@@ -1,0 +1,867 @@
+[
+  {
+    "id": "C12_PhysicsCurrentElectricitySim",
+    "success": false,
+    "error": "API returned 500: {\"error\":{\"message\":\"fetch failed\",\"type\":\"api_error\"}}"
+  },
+  {
+    "id": "C12_PhysicsPotentialCapacitanceSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011YiBHCbtVEyHZmAIWuClVffOG\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"The user wants me to generate a comprehensive React TypeScript simulation component for a CISCE (ISC) Class 12 Physics learning platform. This component needs to cover 12 physics nodes related to electric potential, capacitance, and energy density. Let me build this step by step. Let me create a rich, interactive simulation component that: 1. Teaches all 12 nodes 2. Uses interact"
+  },
+  {
+    "id": "C12_PhysicsEMWavesSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011ULDZQBe5AtDl16B7iVwmsmFN\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me carefully analyze all the requirements and generate a comprehensive React TypeScript simulation component for the CISCE Class 12 Physics EM Waves learning platform. Key requirements: 1. File: components/simulations/c9_12/C12_PhysicsEMWavesSim.tsx 2. Must include all 4 node IDs as string literals: c12_phy_072, c12_phy_073, c12_phy_074, c12_phy_075 3. 1000+ lines, targeting "
+  },
+  {
+    "id": "C12_PhysicsACCircuitsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011ajmQXZdvdSA0l3r3ktdJQRg0\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me carefully analyze this request and create a comprehensive React TypeScript simulation component for CISCE (ISC) Class 12 Physics - AC Circuits. The component needs to cover 10 specific nodes: 1. c12_phy_064: AC quantities (peak, mean, RMS values) 2. c12_phy_065: AC through resistor (V and I in phase) 3. c12_phy_066: AC through inductor (I lags V by 90°) 4. c12_phy_067: AC "
+  },
+  {
+    "id": "C12_PhysicsRayOpticsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011CzPW1RUZwbLBH7grCX5mqK9s\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"This is a massive component generation request. Let me break down what I need to build: 1. A comprehensive Ray Optics simulation component for CISCE Class 12 Physics 2. It needs to cover 12 nodes (c12_phy_076 through c12_phy_087) 3. Must include all the enrichment data provided 4. Must be interactive with 3+ controls, live readouts, progressive hints 5. Must use Confetti, Success"
+  },
+  {
+    "id": "C12_PhysicsMagnetismSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011VryFBzMrHkwqgLWkcHGyHKoO\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Considering the user's request.\",\"signature\":\"bf1cb7535bcb4617af975a2de657ddf6\"},{\"type\":\"text\",\"text\":\"```tsx\\n'use client'\\n\\nimport { useState, useEffect, useRef, useCallback, useMemo } from 'react'\\nimport { audioManager, speechManager, Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine'\\n\\n// ===== TYPES =====\\ntype Difficulty = 'foundation' | "
+  },
+  {
+    "id": "C12_PhysicsWaveOpticsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011YNzq7N576ilv1ftZo8zWL0dT\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Considering the user's request.\",\"signature\":\"543b26eb89f54ad59b8f1f0534e26948\"},{\"type\":\"text\",\"text\":\"```tsx\\n'use client'\\n\\nimport { useState, useEffect, useRef, useCallback, type ChangeEvent, type FormEvent } from 'react'\\nimport { audioManager, speechManager, Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine'\\n\\n// ─── Types ─────────────────"
+  },
+  {
+    "id": "C12_PhysicsEMISim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011PhXp4xqs3ZKW8EQNyuh5IN22\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me carefully analyze this request and generate a comprehensive React TypeScript simulation component for the CISCE (ISC) Class 12 Physics EMI (Electromagnetic Induction) learning platform. The component needs to cover 8 nodes: 1. c12_phy_056: Magnetic flux 2. c12_phy_057: Faraday's laws of electromagnetic induction 3. c12_phy_058: Lenzc12_physics_C12_PhysicsEMISim_mastery'. I"
+  },
+  {
+    "id": "C12_PhysicsMagneticMaterialsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011x2EdbQVFRQiWrN2g0mc1wQxw\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me carefully analyze all the requirements and generate this comprehensive React TypeScript simulation component for the CISCE Class 12 Physics simulation on Magnetic Materials. Key requirements: 1. File: components/simulations/c9_12/C12_PhysicsMagneticMaterialsSim.tsx 2. Must cover 6 nodes: c12_phy_050 through c12_phy_055 3. All node IDs must appear as string literals 4. 1000"
+  },
+  {
+    "id": "C12_PhysicsElectrostaticsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011wh7qzNrS5yXctYhN0OT2h8cv\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"The user wants me to generate a comprehensive React TypeScript simulation component for a CISCE (ISC) Class 12 Physics Electrostatics learning platform. Let me analyze the requirements carefully: 1. **File**: `components/simulations/c9_12/C12_PhysicsElectrostaticsSim.tsx` 2. **Nodes to cover**: c12_phy_001 through c12_phy_015 (15 nodes total) 3. **Node IDs must appear as string l"
+  },
+  {
+    "id": "C12_PhysicsDualNatureSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011himZ8TwFpONmpRjjDxBZ1V4H\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Considering the user's request.\",\"signature\":\"3247f468a0db4c14bb7a3b699724bb8e\"},{\"type\":\"text\",\"text\":\"```tsx\\n'use client';\\n\\nimport { useState, useEffect, useRef, useCallback, useMemo } from 'react';\\nimport { audioManager, speechManager, Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine';\\n\\n// ═════════════════════════════════════════════════"
+  },
+  {
+    "id": "C12_MathsInverseTrigSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011rM4YwFzAiNpp0QEXnJhqe5VR\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me carefully analyze this request. I need to generate a React TypeScript simulation component for a CISCE (ISC) Class 12 learning platform about Inverse Trigonometric Functions. This is a legitimate educational request - creating an interactive learning component for students. Let me plan the component: 1. **Structure**: - 'use client../../../lib/sim-enginell render interacti"
+  },
+  {
+    "id": "C12_MathsMatricesSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011LqvyLezMmZlH8ArIXGcMGqR6\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me create a comprehensive React TypeScript simulation component for the CISCE Class 12 Mathematics Matrices topic. This is a complex component that needs to cover all 9 nodes with interactive, visual, adaptive learning. Let me plan the structure: 1. Import required modules 2. Define TypeScript interfaces 3. Create the main component with state management 4. Implement interact"
+  },
+  {
+    "id": "C12_MathsContinuityDiffSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011QZtdrc8OUoUKQEtQfLAxfmXX\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me analyze this request carefully. I need to generate a comprehensive React TypeScript simulation component for a CISCE (ISC) Class 12 learning platform. The component teaches continuity and differentiability concepts through interactive, visual, adaptive learning. Let me plan the component structure: 1. **File**: `components/simulations/c9_12/C12_MathsContinuityDiffSim.tsx` "
+  },
+  {
+    "id": "C12_PhysicsElectronicsCommSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011TYmfbvpN6LUUHQplukvRKjUN\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me analyze this comprehensive request carefully. I need to create a React TypeScript simulation component for a CISCE (ISC) Class 12 learning platform that teaches electronics and communication physics concepts. This is a massive component with 8 nodes to cover. Let me plan the structure: 1. **Node IDs that must appear as string literals**: c12_phy_125, c12_phy_126, c12_phy_1"
+  },
+  {
+    "id": "C12_PhysicsSemiconductorsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_0119Eu8fLf2priq1NOw3yBklOSG\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"The user wants me to generate a comprehensive React TypeScript simulation component for a CISCE (ISC) Class 12 Physics learning platform focused on semiconductors. Let me break down all the requirements: 1. File path: `components/simulations/c9_12/C12_PhysicsSemiconductorsSim.tsx` 2. Must cover 12 nodes with specific node IDs that must appear as string literals 3. Each node has: "
+  },
+  {
+    "id": "C12_MathsRelationsFunctionsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011Q9IbYOuy14RJWIrFUx0ugGYz\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me analyze this complex request carefully. I need to generate a React TypeScript simulation component for a CISCE (ISC) Class 12 learning platform. This is a massive file that needs to teach 7 specific nodes about relations and functions. Let me plan the structure: 1. **File**: `components/simulations/c9_12/C12_MathsRelationsFunctionsSim.tsx` 2. **Stream**: science, **Subject"
+  },
+  {
+    "id": "C12_PhysicsAtomsNucleiSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011f4X3L9QmypcI5ivARPyts1Ph\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"The user wants me to create a comprehensive React TypeScript simulation component for a CISCE Class 12 Physics learning platform focused on Atoms and Nuclei. This is a massive component with 17 different nodes covering topics from alpha-particle scattering to Soddy-Fajans displacement laws. Let me plan the component structure: 1. Interactive visualizations for each major topic 2."
+  },
+  {
+    "id": "C12_MathsDeterminantsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_0111LrCc7usCzP16lGzX6V7HTso\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Considering the user's request.\",\"signature\":\"8d96d10b18af45ed808f029e4d16ab42\"},{\"type\":\"text\",\"text\":\"```tsx\\n'use client'\\n\\nimport { useState, useEffect, useRef, useCallback, useMemo } from 'react'\\n\\n// ============================================================\\n// TYPE DEFINITIONS\\n// ============================================================\\ninterface SimProps {\\n  no"
+  },
+  {
+    "id": "C12_MathsDifferentialCalculusAppSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011Wuo1fA5l1b4TPvRFSGPiUJ80\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me analyze this carefully. I need to create a comprehensive React TypeScript simulation component for a CISCE Class 12 Differential Calculus learning platform. This is a complex educational component that needs to: 1. Cover 5 specific nodes (c12_math_044 through c12_math_048) 2. Be 1000+ lines (target 1200-1800) 3. Include interactive elements, visualizations, and adaptive le"
+  },
+  {
+    "id": "C12_MathsIntegrationSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011v6qgxQ4lAt2hTnNnFW0q3yOe\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me analyze this carefully. I need to create a comprehensive React TypeScript simulation component for a CISCE (ISC) Class 12 Mathematics Integration learning platform. This is a massive component that needs to cover all 14 nodes related to integration. Let me plan the structure: 1. File: `components/simulations/c9_12/C12_MathsIntegrationSim.tsx` 2. Must include all node IDs a"
+  },
+  {
+    "id": "C12_MathsDifferentialEquationsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011189j3O3Q0YM5JTrMEYLqGhY2\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me create a comprehensive React TypeScript simulation component for CISCE (ISC) Class 12 Differential Equations. This needs to be a rich, interactive learning experience that covers all 8 nodes with progressive challenges, interactive visualizations, and proper TypeScript typing. Let me plan the structure: 1. Header with title and progress 2. Interactive visualization area (u"
+  },
+  {
+    "id": "C12_ChemSolutionsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011vc49rp72mfTt1mM4oKG8cx6r\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me carefully plan this React TypeScript component. I need to create a comprehensive, interactive simulation for teaching solutions chemistry to ISC Class 12 students. Let me break down what I need: 1. **6 node IDs** that must appear as string literals: c12_chem_008, c12_chem_009, c12_chem_010, c12_chem_011, c12_chem_012, c12_chem_013 2. **Interactive controls** (3+): - Mole f"
+  },
+  {
+    "id": "C12_MathsAreaApplicationSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_0111Pkc6pqupJQUEPffMSKRKsrX\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me create a comprehensive React TypeScript simulation component for the CISCE (ISC) Class 12 Mathematics Area Application topic. This needs to be a single, self-contained file that teaches all four nodes through interactive, visual, adaptive learning. Let me plan the structure: 1. Import section with all required dependencies 2. Props interface 3. Main component with state ma"
+  },
+  {
+    "id": "C12_MathsVectorsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011h9TrifBHrX5MEIYgVWTwmbrh\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Considering the user's request.\",\"signature\":\"3f9e7c5794bb4c5da85cf5da6b3149e9\"}],\"model\":\"claude-opus-5\",\"stop_reason\":\"max_tokens\",\"stop_sequence\":null,\"usage\":{\"input_tokens\":45639,\"output_tokens\":16000,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0}}"
+  },
+  {
+    "id": "C12_Maths3DGeometrySim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011Zh3MW5s86x4nbiE7GlBPziol\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me generate a comprehensive React TypeScript simulation component for CISCE Class 12 3D Geometry. This needs to be a substantial component (1200-1800 lines) covering all 10 nodes with interactive 3D visualization. Let me plan the structure: 1. File header with 'use clientll use Canvas-based 3D rendering for the visualization since we need self-contained code without external "
+  },
+  {
+    "id": "C12_MathsLPPSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011dL5Bk8K8h00AaEZGSwZDzbqc\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me create a comprehensive React TypeScript simulation component for Linear Programming Problems (LPP) that covers all four nodes as specified. This needs to be a substantial, interactive component with: 1. Multiple interactive controls (sliders, buttons, toggles) 2. Live readouts 3. Progressive hints 4. All enrichment data from the 4 nodes 5. SVG-based visualizations for grap"
+  },
+  {
+    "id": "C12_MathsProbabilitySim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011V5KKMcwFULuUMUqFcrkzGsoh\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"The user wants me to create a React TypeScript simulation component for teaching probability concepts to CISCE (ISC) Class 12 students. This is a complex component that needs to cover 7 nodes about probability theory and the binomial distribution. Let me plan the component: 1. **Structure**: 'use client theorem tree diagram builder - Random variable distribution table builder - M"
+  },
+  {
+    "id": "C12_MathsCalculusTheoremsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011ljw0IT5BZfL0QYvN2D2PPJcG\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Considering the user's request.\",\"signature\":\"4af5f3f5a00f4dd8b988e877528d5c0d\"},{\"type\":\"text\",\"text\":\"```tsx\\n'use client';\\n\\nimport { useState, useEffect, useRef, useCallback, useMemo } from 'react';\\n\\n// ============================================================\\n// TYPE DEFINITIONS\\n// ============================================================\\n\\ninterface SimProps {\\n"
+  },
+  {
+    "id": "C12_ChemSolidStateSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011q0ux5NSdPWdoHp3wxEVotNiL\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me generate a comprehensive React TypeScript simulation component for the CISCE Class 12 Chemistry Solid State topic. This needs to be a substantial, interactive component that teaches all 7 nodes through guided discovery with 3D visualizations, interactive controls, and adaptive learning. Let me plan the structure: 1. The component will use React Three Fiber for 3D crystal l"
+  },
+  {
+    "id": "C12_ChemElectrochemistrySim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_0114y5dEWQANYsRyE0SIU6PqZ8M\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Considering the user's request.\",\"signature\":\"41764579ae9d48cfa5fa418da9d6c1bb\"},{\"type\":\"text\",\"text\":\"```tsx\\n'use client'\\nimport React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'\\n\\n// ─── Types ───────────────────────────────────────────────────────────────────\\ninterface SimProps {\\n  nodeId?: string\\n  title?: string\\n  definition?: string\\n  eli5?:"
+  },
+  {
+    "id": "C12_ChemSurfaceChemistrySim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011XDEvXvjCrvXV9ipX6AVLCpYK\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me carefully plan this React TypeScript simulation component. This is a complex component that needs to teach 7 different nodes about surface chemistry. Let me break down what I need: 1. **Structure**: 'use client', default export, typed props interface 2. **Imports**: from '../../../lib/sim-enginec12_chem_C12_ChemSurfaceChemistrySim_masterym picturing a tabbed interface wher"
+  },
+  {
+    "id": "C12_ChempBlockSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011w0fWVEgrgdIDVzvpaT42XtsI\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me analyze this request carefully. I need to create a comprehensive React TypeScript simulation component for a CISCE Class 12 chemistry learning platform. This component needs to cover p-Block elements with interactive visualizations, challenges, and adaptive learning features. Let me plan the structure: 1. The component needs to be a client component with 'use clientm build"
+  },
+  {
+    "id": "C12_ChemdBlockSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011g3eMhNrgiu6beTO1ASSmA68d\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me generate a comprehensive React TypeScript simulation component for the CISCE Class 12 d-block and f-block chemistry learning platform. This needs to be a substantial file (1200-1800 lines) covering all 6 nodes with interactive elements, visualizations, and educational content. Let me plan the structure: 1. Import statements and type definitions 2. Component with state mana"
+  },
+  {
+    "id": "C12_ChemBiomoleculesSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_ChemPolymersSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_ChemEverydayLifeSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BioPlantReproductionSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BioHumanReproductionSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BioGeneticsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BioMolecularBiologySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_ChemCoordinationCompoundsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011RsRc9KWuFeZTaQ873vCtiHBa\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me create a comprehensive React TypeScript simulation component for teaching coordination compounds. This is a large component that needs to cover all 7 nodes with interactive visualizations, proper typing, and all the required imports and features. Let me plan the structure: 1. Props interface 2. Node data with all 7 nodes 3. Interactive visualization components: - Coordinat"
+  },
+  {
+    "id": "C12_BioEvolutionSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BioHumanHealthSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BioMicrobesSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BioBiotechnologySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BioEcologySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BioAnimalHusbandrySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BiotechNucleicAcidsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BiotechGeneExpressionSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BiotechRDNAtoolsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BiotechApplicationsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BiotechMolecularToolsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BiotechFermentationSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BiotechPlantTissueSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BiotechAdvancedSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CSDigitalLogicSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CSDataStructuresSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CSJavaAdvancedSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CSNetworksSecuritySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CSDatabasesSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CSWebCloudSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CSJavaProjectsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CSSoftwareEngSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CSAdvancedTopicsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CSExamPrepSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AppMathRelationsFunctionsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AppMathMatricesDetSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AppMathCalculusSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AppMathIntegrationSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AppMathDifferentialEqSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AppMathProbabilitySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AppMathLPPSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AppMathFinancialSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EconElasticitySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EconSupplySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EconDemandSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EconMarketSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EconProductionCostSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EconKeynesianSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EconMoneyBankingSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_ChemKineticsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_0117cYkl30SymiZlubumAejRMXO\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Considering the user's request.\",\"signature\":\"18679a5c0fb746db97edd194a91920cc\"},{\"type\":\"text\",\"text\":\"```tsx\\n'use client';\\n\\nimport { useState, useEffect, useRef, useCallback } from 'react';\\nimport { audioManager, speechManager, Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine';\\n\\n// ===== TYPE DEFINITIONS =====\\ninterface Particle {\\n  id: "
+  },
+  {
+    "id": "C12_EconIntlEconSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EconFiscalPolicySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EconNationalIncomeSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AccPartnershipSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AccGoodwillSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AccPartnershipChangesSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AccShareCapitalSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AccDebenturesSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AccCompanyBalanceSheetSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AccComparativeStatementsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_ChemMetallurgySim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011D9hlc5fy6Lg1WDanAmLSyGOg\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me analyze this comprehensive request for a React TypeScript simulation component for CISCE (ISC) Class 12 Chemistry - Metallurgy. I need to create a detailed, interactive learning component that covers all 6 nodes while meeting strict technical requirements. Let me plan the structure: 1. **Component Structure**: - 'use clientll use React hooks, SVG for diagrams, and vanilla "
+  },
+  {
+    "id": "C12_AccCashFlowSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AccRatioAnalysisSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_AccAccountingTechSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CommBusinessEnvSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CommManagementSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CommBusinessFinanceSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CommStockMarketSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CommMarketingSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_CommConsumerProtectionSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BSBusinessEnvSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BSManagementSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BSBusinessFinanceSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BSStockMarketSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BSMarketingSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_BSConsumerProtectionSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HistIndependenceSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HistPostIndepSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HistWarsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HistWomenSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HistWWIISim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HistDecolonisationSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HistColdWarSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HistMiddleEastSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_GeoIndiaPhysiographySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_GeoClimateSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_GeoPopulationSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_GeoResourcesSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_GeoEconomySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EVSFoundationsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EVSPopulationSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EVSMonitoringSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_EVSResourcesSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HomeCookingSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HomeMealPlanningSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HomeFinanceSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HomeAdolescentSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HomeTextilesSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_HomeSanitationSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_LegalCriminalSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_LegalADRSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_LegalContractsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_LegalTortSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_LegalConstitutionalSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_LegalMaximsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_MassMediaJournalismSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_MassMediaTVAdSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_MassMediaFilmSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_MassMediaRadioSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_MassMediaCinemaSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_MassMediaSocialSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_MassMediaNewMediaSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PolStateTypesSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PolConstitutionSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PolDemocracySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PolLegislatureSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PolExecutiveSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PolJudiciarySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PolIndianConstitutionSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PolLocalGovtSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PolIndianDemocracySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PsyIntelligenceSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PsyPersonalitySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PsyDevelopmentSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PsyStressSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PsyAbnormalSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PsySocialSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_PsyCounsellingSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_SocInstitutionsSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_SocMarriageFamilySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_SocReligionSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_SocEconomySim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_SocTribalSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_SocStratificationSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_SocGenderSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_SocChangeSim",
+    "success": false,
+    "error": "Response too short"
+  },
+  {
+    "id": "C12_ChemHaloalkanesSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_0114oMly3EtD5h83xMbfkQ8GIh1\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"The user wants me to generate a comprehensive React TypeScript simulation component for a CISCE (ISC) Class 12 chemistry learning platform. This is a large, complex component that teaches about haloalkanes and haloarenes. Let me plan this out: 1. The component needs to be self-contained, client-side only 2. It needs to cover 5 specific nodes (c12_chem_063 through c12_chem_067) 3."
+  },
+  {
+    "id": "C12_ChemAldehydesKetonesSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011jYQ5ZYVbcGfJ7MYy0eLbqBvr\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Let me generate a comprehensive React TypeScript simulation component for the CISCE Class 12 Chemistry learning platform covering Aldehydes and Ketones. I need to include all three nodes, interactive elements, visualizations, and meet all the mandatory requirements. Let me plan the structure: 1. Props interface with nodeId?, title?, definition?, eli5?, misconceptions?, diagnostic"
+  },
+  {
+    "id": "C12_ChemAlcoholsPhenolsEthersSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011PHEao2NyZafOgkc8vQxhXwoD\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Considering the user's request.\",\"signature\":\"c1d6b47581e94c5c8470eb982f00ef3d\"},{\"type\":\"text\",\"text\":\"```tsx\\n'use client'\\n\\nimport { useState, useEffect, useRef, useCallback } from 'react'\\nimport { audioManager, speechManager, Confetti, SuccessBanner, HintBubble, SparkleBurst } from '../../../lib/sim-engine'\\n\\n// ─── Types ───────────────────────────────────────────────────"
+  },
+  {
+    "id": "C12_ChemCarboxylicAcidsSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_011gSuMOcELyWZaSn6brzwvKDHi\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Considering the user's request.\",\"signature\":\"988f95cdedfa461ebda5ae3d70f31370\"},{\"type\":\"text\",\"text\":\"```typescript\\n'use client'\\n\\nimport { useState, useEffect, useRef, useCallback } from 'react'\\n\\nimport {\\n  audioManager,\\n  speechManager,\\n  Confetti,\\n  SuccessBanner,\\n  HintBubble,\\n  SparkleBurst,\\n} from '../../../lib/sim-engine'\\n\\n// ─── TYPE DEFINITIONS ───────────"
+  },
+  {
+    "id": "C12_ChemAminesSim",
+    "success": false,
+    "error": "No text in API response: {\"id\":\"msg_0113nDkYg3WedXtF7pFtPVHIjnk\",\"type\":\"message\",\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"Considering the user's request.\",\"signature\":\"7769d16dcd93454a8ea76a72545d9df0\"},{\"type\":\"text\",\"text\":\"```tsx\\n'use client'\\n\\nimport React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'\\nimport { Canvas, useFrame, useThree } from '@react-three/fiber'\\nimport { OrbitControls, Sphere, Cylinder, Text } from '@react-three/drei'\\nimport * as THREE from 'three'\\n"
+  }
+]

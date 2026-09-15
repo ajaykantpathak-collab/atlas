@@ -1,0 +1,1160 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete ClassificationSorterSimulation.tsx component about Classification and Sorting (living things, plant types, animal groups).
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Biology Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c7_bio_022",
+    "title": "Animal classification and behaviour - vertebrates and invertebrates",
+    "subject": "bio",
+    "classLevel": 7,
+    "definition": "The animal kingdom, which you first met through the five-kingdom system, is so varied that it would be impossible to study every creature one by one. To bring order, scientists classify animals by body plan, and the simplest big division is based on the presence or absence of a backbone, also called the vertebral column. An animal that possesses a backbone made of many small bones or cartilage is called a vertebrate, while an animal without such an internal support column is called an invertebrate. The backbone does more than hold the body upright; it protects the delicate spinal cord and gives a firm place for muscles to pull during movement.\r\n\r\nVertebrates are divided into five main classes. Fish are cold-blooded, water-dwelling animals with a stream-lined shape, fins for swimming, a body usually covered with scales, and gills for extracting oxygen dissolved in water. Amphibians are also cold-blooded, but their life is split between water and land. They have moist, smooth skin that can absorb water and gases, and their young, such as tadpoles, breathe through gills while the adults develop lungs for life on land; this is why we say amphibians lead a dual life. Reptiles are cold-blooded vertebrates with dry, horny scales or scutes that prevent water loss; they breathe entirely with lungs and usually lay eggs with leathery or hard shells on land. Birds are warm-blooded, covered with feathers, have beaks instead of teeth, and have wings that are modified fore-limbs. Feathers keep the body warm and, in many birds, help in flight. Mammals are warm-blooded, have hair or fur at some stage of life, and the females possess mammary glands that produce milk to feed the young.\r\n\r\nInvertebrates, although they lack a backbone, are the most numerous animals on Earth. The groups mentioned in your syllabus are insects, worms, molluscs and arthropods. Insects have a body divided into head, thorax and abdomen, six jointed legs, and often one or two pairs of wings. Worms, such as earthworms, have long, soft, segmented bodies. Molluscs, like snails and mussels, usually have soft bodies and many carry a hard shell. Arthropods is a larger group with jointed legs and a hard outer covering called an exoskeleton; it includes insects, spiders, crabs and centipedes.\r\n\r\nClassification is not the only way to understand animals. How they behave is equally important. Migration is a regular seasonal journey from one region to another, usually in search of food, warmth or a safe breeding place. Siberian cranes fly thousands of kilometres to spend winter in Keoladeo National Park at Bharatpur, and blue whales move through the Indian Ocean on similar long journeys. Hibernation is a long winter sleep in which an animal lowers its body activity to save energy; the Himalayan black bear, for example, rests in a den through the cold months. Courtship is the special behaviour that animals use to attract a mate, such as the Indian peafowl spreading its fan of tail feathers or birds singing. Social behaviour is the way some animals live and work together; honeybees have division of labour in a hive, ants cooperate in a colony, and Indian elephants in places such as Kaziranga move and protect one another as a herd. By putting classification and behaviour together, you can see why each animal looks and acts the way it does in its habitat.",
+    "eli5": "Animals can be sorted into two big groups. Some have a strong bone called a backbone inside their body; these are vertebrates. Others do not; these are invertebrates. Vertebrates include fish, frogs, lizards, birds and animals like dogs and cats. Invertebrates include insects, spiders, snails and worms. Animals also do special things to survive, such as flying long distances when it gets cold, sleeping deeply through winter, finding a mate, or living together in groups.",
+    "misconceptions": [
+      {
+        "belief": "Examiners have noted that students often confuse closely related terms. In the board exam analysis report, candidates \"mixed up antibody with antibiotic and wrote Penicillin as the answer.\" In the same way, many Class 7 students confuse amphibian with reptile or warm-blooded with cold-blooded. The correction is to stop and match the exact defining feature: amphibians have moist skin and a water-to-land life cycle, while reptiles have dry scales and lay eggs on land. Do not rely on a single picture or colour.",
+        "correction": ""
+      },
+      {
+        "belief": "The board exam analysis also observed that candidates gave \"names of medicines like Avil, Cetrizine, Allegra\" instead of explaining what an antibody is. The parallel error in animal classification is naming an animal without giving the class character. If you write \"Elephant\" and stop, you have not classified it. The correction is to say, \"The elephant is a mammal because it has hair, gives birth to live young and has mammary glands.\"",
+        "correction": ""
+      },
+      {
+        "belief": "The board exam analysis reported that students sometimes \"associated 'plant matter' with 'soil fertility' rather than 'microbial life'\" by inventing their own connections. In animal classification, students often invent features such as \"all flying animals are birds\" or \"all animals that swim are fish.\" The correction is to check the real body features: a bat flies but is a mammal, a whale swims but is a mammal, and a snake has no legs but is a reptile. Always use the evidence, not the first impression.",
+        "correction": ""
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "List the five classes of vertebrates and describe two key characteristics of each. Why is a king cobra a reptile and not an amphibian?",
+        "answer": "The five classes of vertebrates are fish, amphibians, reptiles, birds and mammals. Fish are cold-blooded animals that live in water, breathe through gills and usually have bodies covered with scales. Amphibians are cold-blooded animals with moist skin that usually live both in water as young and on land as adults; the young often breathe through gills and the adults through lungs. Reptiles are cold-blooded animals with dry scales or scutes, breathe through lungs all their life and usually lay eggs on land with leathery or hard shells. Birds are warm-blooded animals with feathers, beaks and wings; they lay hard-shelled eggs and most can fly. Mammals are warm-blooded animals with hair or fur, give birth to live young and the females have mammary glands that produce milk. A king cobra is a reptile, not an amphibian, because it has dry scales and no moist, water-absorbing skin, because it breathes only through lungs even as a young animal, and because it lays eggs on land. An amphibian such as the Indian bullfrog would have moist skin and a tadpole stage that lives in water and breathes through gills."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A young student says that a bat is a bird because it can fly. Explain why a bat is a mammal, using at least four pieces of evidence. Use examples from the Indian context.",
+        "answer": "Although a bat has wings and can fly, it is a mammal and not a bird. The first piece of evidence is that the body of a bat is covered with fur or hair, whereas a bird is covered with feathers. The second is that a female bat gives birth to live young, while birds lay eggs. The third is that the mother bat feeds her young with milk produced by mammary glands, which no bird can do. The fourth is that bats have a single bone in the lower jaw and other mammalian ear bones, and their body temperature is regulated internally, making them warm-blooded. In India, fruit bats such as the Indian flying fox can be seen roosting in large groups in trees in places like the Western Ghats. They fly at night to find fruit, but their social groups and the way they care for their young are mammalian. Therefore, the ability to fly is not the deciding feature for being a bird; feathers, a beak and egg-laying are the correct signs of a bird."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student claims: \"All warm-blooded animals are covered in hair or feathers, so any animal that looks hairless cannot be warm-blooded.\" Evaluate this statement using examples from the vertebrate classes you have studied.",
+        "answer": "This statement is partly true but not fully correct, so it should be used with care. It is true that the warm-blooded vertebrates we study in Class 7 are birds and mammals, and birds have feathers while mammals have hair or fur. A sparrow in a Delhi garden is warm-blooded and covered with feathers, and a tiger in the Sundarbans is warm-blooded and covered with fur. In ordinary life, the presence of feathers or fur is a good clue that an animal is warm-blooded. However, the statement is also misleading because it confuses a useful sign with the actual meaning of warm-blooded. Warm-blooded, or endothermic, means that the animal can keep its body temperature steady by producing heat inside the body, no matter how the outside temperature changes. The covering is only one adaptation that helps keep the heat in; it is not the definition itself. There are many birds and mammals that may look almost hairless or featherless. A newborn rat is nearly naked but is still warm-blooded. Whales and dolphins are mammals that have only a few bristles at birth and may appear hairless, yet they are warm-blooded and feed their young with milk. An ostrich has bare skin on its neck and legs but is still a warm-blooded bird. A better rule is: \"If an animal has feathers or fur, it is almost certainly warm-blooded, but to decide, you should also check the other class features such as beak and egg-laying for birds, or live birth and milk production for mammals.\" Therefore, the claim is a helpful starting point but should not be treated as an absolute rule."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "During a nature walk in the Western Ghats, your class sees an animal with dry, rough scales, clawed feet and visible eyelids. It is active during the day and you later find a leathery-shelled egg buried in warm soil. (a) Is this animal a vertebrate or an invertebrate? (b) Name the vertebrate class to which it belongs and justify your choice with three features. (c) Suggest one Indian example and one behaviour you might expect from this animal.",
+        "answer": "This animal is a vertebrate because it has claws and a body shape that shows an internal skeleton supporting its limbs; an invertebrate with a similar size, such as a crab or a large insect, would have an exoskeleton and jointed legs rather than claws and eyelids. The animal belongs to the class Reptilia. The first supporting feature is the dry, rough scales that cover the body; this is the classic reptile skin covering that prevents water loss. The second is the leathery-shelled egg laid on land; reptiles lay eggs with tough or leathery shells, unlike the soft eggs or water-breeding stages of amphibians. The third is the clawed feet and visible eyelids, which are common in lizards. A good Indian example is the Indian monitor lizard or the common garden lizard seen in many parts of India. One behaviour you might expect is basking in the morning sun on a rock, because reptiles are cold-blooded and need warmth from the environment to become active. If threatened, the same lizard might open its mouth wide or dart into a crevice."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple field guide for your school's nature club that helps a Class 5 student decide whether a common local animal is a vertebrate or an invertebrate, and if it is a vertebrate, which class it belongs to. Include at least three Indian animals, the correct group for each, and explain one behaviour each animal shows.",
+        "answer": "The field guide should be called \"Look, Ask and Decide: A Simple Guide to Indian Animals.\" The first step is the backbone check. The guide asks, \"Can you see a hard body line running along the back, or does the animal have a soft body or hard shell on the outside?\" If the answer is a hard internal line, the animal is a vertebrate; if not, it is an invertebrate. The next steps are only for vertebrates. Step 2 asks, \"Is the body covered with scales and does it live in water and use gills?\" If yes, it is a fish. Step 3 asks, \"Is the skin moist and does the life begin in water and later move to land?\" If yes, it is an amphibian. Step 4 asks, \"Does it have dry scales and lay eggs on land?\" If yes, it is a reptile. Step 5 asks, \"Does it have feathers and a beak?\" If yes, it is a bird. Step 6 asks, \"Does it have hair, give birth to live young and feed milk?\" If yes, it is a mammal. The guide can include three Indian animals. First, the Indian peafowl is a bird; it has feathers, a beak and it shows courtship when the male spreads his tail. Second, the Indian elephant is a mammal; it has sparse hair, gives birth to live young and shows social behaviour by living in herds. Third, the common house lizard is a reptile; it has dry scales, clawed feet and can be seen basking on walls to warm itself. For invertebrates, the guide can show a honeybee as an insect because it has six legs, three body parts and shows social behaviour by working in a hive. The guide should use pictures and arrows, with the rule: never guess from one feature; always look for the combination of body covering, breathing and life history."
+      }
+    ],
+    "masteryCriteria": "Can distinguish between vertebrates (with backbone: fish, frog, bird, mammal) and invertebrates (no backbone: insect, worm, jellyfish); can name two examples of each; can state one feature used to classify each group.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_bio_008",
+    "title": "Classification concept and 5-kingdom system",
+    "subject": "bio",
+    "classLevel": 7,
+    "definition": "Classification, or taxonomy, is the scientific practice of sorting living organisms into groups according to their shared and distinguishing characteristics. At its heart, classification is an answer to a very practical problem: our planet contains millions of different kinds of living things, and no human mind can study, remember, or communicate about them if every organism is treated as an isolated case. When we group organisms that resemble one another and separate those that differ, we create an organised framework that makes identification, study, and the understanding of relationships among organisms possible. The need for classification is therefore easy to feel: without it, naming every plant, animal, or microbe would lead to confusion, and biology would become an unmanageable list of disconnected facts. Classification gives us an organised way to study life, helps avoid confusion in naming, and allows us to predict features of an organism once we know which group it belongs to.\r\n\r\nThe five-kingdom system proposed by R.H. Whittaker is one of the most important schemes used at the Class 7 level. Whittaker's classification is based on five major criteria: cell structure, body organisation, mode of nutrition, reproduction, and phylogenetic relationship. Cell structure asks whether the organism is a prokaryote, which lacks a true membrane-bound nucleus and membrane-bound cell organelles, or a eukaryote, which has both. Body organisation asks whether the organism is unicellular, made of a single cell, or multicellular, made of many cells working together. Mode of nutrition deals with how the organism obtains its food--some make their own food, some feed on dead or decaying matter, and some ingest other organisms. Reproduction and phylogenetic relationship, which looks at the evolutionary history or ancestry of organisms, complete the set of characteristics that form the basis of the five-kingdom classification.\r\n\r\nOn the basis of these criteria, all living organisms are placed into five kingdoms: Monera, Protista, Fungi, Plantae, and Animalia. Monera includes unicellular prokaryotes, such as bacteria and cyanobacteria, which may be found almost everywhere from the soil of the Ganga plain to the roots of leguminous plants. Protista contains unicellular eukaryotes, such as Amoeba, Paramecium, and Euglena, organisms that are more complex than Monera but still mostly microscopic. Fungi are mostly multicellular eukaryotes that lack chlorophyll and feed on dead or decaying organic matter; common Indian examples include bread mould such as Rhizopus and the yeast used in kitchens. Plantae includes all multicellular eukaryotes that contain chlorophyll and can make their own food through photosynthesis, from the neem tree of the dry plains to the mango tree grown widely across India. Animalia contains multicellular eukaryotes that cannot make their own food and depend on other organisms for nutrition, ranging from tiny earthworms in the soil to the Royal Bengal Tiger of the Sundarbans. Understanding these kingdom names and the basis on which they are separated is the central learning goal of this node.",
+    "eli5": "Imagine your room is messy with toys, books, and clothes. If you sort them into boxes, you can find what you need quickly. Scientists do the same with living things. They look at how each organism is made and how it lives, then they put similar ones into groups called kingdoms. The five biggest boxes are Monera, Protista, Fungi, Plantae, and Animalia. Each box holds living things that share the same important features.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define classification and list the five kingdoms in Whittaker's system.",
+        "answer": "Classification is the scientific process of grouping living organisms on the basis of their similarities and differences in characteristics such as structure, nutrition, and organisation. This grouping, which is also called taxonomy, helps us identify organisms, study them in an organised way, and understand the relationships among them. Without classification, the huge variety of living things on Earth would be confusing and difficult to study. R.H. Whittaker proposed a five-kingdom classification in which all living organisms are placed into the kingdoms Monera, Protista, Fungi, Plantae, and Animalia. Monera contains prokaryotic, mostly unicellular organisms; Protista contains unicellular eukaryotes; Fungi contains heterotrophic, mostly multicellular eukaryotes without chlorophyll; Plantae contains multicellular, autotrophic eukaryotes with chlorophyll; and Animalia contains multicellular, heterotrophic eukaryotes that depend on other organisms for food."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Why did Whittaker choose cell structure, body organisation, mode of nutrition, reproduction, and phylogenetic relationship as the basis of the five-kingdom classification? Explain with one example for each.",
+        "answer": "Whittaker's basis gives a complete picture of an organism rather than relying on a single feature. Cell structure is important because it separates prokaryotes, which lack a membrane-bound nucleus and organelles, from eukaryotes, which have them. Body organisation tells us whether an organism is unicellular or multicellular; this is why both Amoeba and a mango tree can be placed in different kingdoms even though one is tiny and the other is huge. Mode of nutrition separates producers such as green plants from consumers such as animals and decomposers such as fungi. Reproduction is included because different kingdoms have different reproductive strategies--some reproduce by fission, some by budding, and some by seeds. Phylogenetic relationship brings in the evolutionary history and ancestry of organisms, which helps place them in their correct natural group rather than just a convenient one. Together, these five criteria make the classification stable and scientifically meaningful."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"The 5-kingdom system is now outdated, so it is not worth learning.\" Evaluate this statement.",
+        "answer": "This statement is only partly true and needs careful evaluation. It is correct that modern biologists now use more advanced tools such as molecular studies and genetic sequencing, and they sometimes classify organisms into three domains--Archaea, Bacteria, and Eukarya--or split Protista into many smaller groups. These newer systems are based on more detailed evidence and are therefore more accurate in some ways. However, this does not mean the 5-kingdom system is useless. For a Class 7 student, the 5-kingdom system is still an excellent starting point because it organises the living world into clear, memorable groups and helps students understand the major differences in cell structure, body organisation, and mode of nutrition. It is also still part of the CISCE syllabus and is regularly asked in board examinations. In addition, the 5-kingdom classification captures the most important divisions of life accurately enough for school-level work. Therefore, while the 5-kingdom system may not be the final word in modern taxonomy, it remains a valid and valuable learning tool. The student's statement overstates the case and ignores the educational and practical value of the system at this level."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A student looks at a wet mount of pond water from a garden in Kolkata and sees a unicellular organism with a clear nucleus and cilia. Another sample from a school garden in Dehradun shows a green, multicellular organism with a cell wall. Place each organism in the correct kingdom and justify your answer.",
+        "answer": "The unicellular organism with a clear nucleus and cilia belongs to the kingdom Protista. It is unicellular, which means it is made of a single cell, but the presence of a clear, membrane-bound nucleus shows that it is a eukaryote. Cilia are tiny hair-like structures used for movement, and organisms such as Paramecium belong to this group. It is not in Monera because Monera contains prokaryotes, which do not have a true nucleus. The green, multicellular organism with a cell wall belongs to the kingdom Plantae. It has many cells, so it is multicellular; it is green because it contains chlorophyll, which means it can make its own food through photosynthesis; and it has a cell wall, which is a feature of plant cells. It is not in Fungi because fungi lack chlorophyll, and it is not in Animalia because animal cells do not have cell walls and animals cannot make their own food. This example shows that a single feature is not enough; we must look at the combination of cell structure, body organisation, and mode of nutrition."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple two-step identification key that a Class 7 student can use to place five organisms from a local pond or garden into the correct kingdom.",
+        "answer": "A useful two-step key can start by asking about the cell structure and then about the mode of nutrition. Step 1: Does the organism have a membrane-bound nucleus? If no, it is a prokaryote and goes to Kingdom Monera. If yes, it is a eukaryote and moves to the next step. Step 2: Is the organism unicellular or multicellular? If unicellular with a nucleus, it goes to Kingdom Protista. If multicellular, proceed to Step 3. Step 3: How does the organism obtain its nutrition? If it makes its own food with chlorophyll, it goes to Kingdom Plantae. If it absorbs nutrients from dead or decaying matter and has no chlorophyll, it goes to Kingdom Fungi. If it ingests other organisms and cannot make its own food, it goes to Kingdom Animalia. Using this key, the student can classify the neem tree as Plantae because it is multicellular, has a nucleus, and makes its own food; the bread mould Rhizopus as Fungi because it is multicellular, has a nucleus, but has no chlorophyll and feeds on decaying matter; the Paramecium from pond water as Protista because it is unicellular and has a nucleus; a bacterium from the soil as Monera because it has no nucleus; and a butterfly from the school garden as Animalia because it is multicellular, has a nucleus, and ingests food."
+      }
+    ],
+    "masteryCriteria": "Can define classification and state two reasons for classifying organisms (easier study, understanding relationships); can name the five kingdoms (Monera, Protista, Fungi, Plantae, Animalia) and give one example of each.",
+    "cognitiveLevel": "apply"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE ClassificationSorterSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

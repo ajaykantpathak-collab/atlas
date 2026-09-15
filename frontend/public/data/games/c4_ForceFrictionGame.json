@@ -1,0 +1,846 @@
+{
+  "gameFile": "ForceFrictionGame",
+  "classLevel": 4,
+  "cisceNodes": [],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Push and Pull! 🚪",
+      "text": "A force is a push or a pull! A push sends things AWAY from you, like pushing a heavy classroom door. A pull brings things CLOSER to you, like pulling a desk drawer out!",
+      "emoji": "🚪",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "A force is a push or a pull! A push sends things away from you, and a pull brings things closer to you!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Force Changes Shape & Direction! ⚽",
+      "text": "Force can change an object's shape — like squeezing a soft clay ball! Force can also change a moving object's direction — like hitting a cricket ball with a bat!",
+      "emoji": "⚽",
+      "bgColor": "from-emerald-500 to-teal-600",
+      "spoken": "Force can change an object's shape like squeezing clay, and change a moving object's direction like hitting a cricket ball!",
+      "diagram": {
+        "type": "balance-scale",
+        "animate": true,
+        "data": {
+          "leftWeight": 5,
+          "rightWeight": 5
+        }
+      }
+    },
+    {
+      "title": "Four Types of Forces! 🌍",
+      "text": "Forces come from different sources! Muscular force (from muscles), gravitational force (the Earth pulling things down), magnetic force (magnets pulling iron), and frictional force!",
+      "emoji": "🌍",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "Forces come from four sources: muscular force, gravitational force, magnetic force, and frictional force!",
+      "diagram": {
+        "type": "balance-scale",
+        "animate": true,
+        "data": {
+          "leftWeight": 5,
+          "rightWeight": 5
+        }
+      }
+    },
+    {
+      "title": "Friction as a Force! 🛑",
+      "text": "Friction is the force that opposes motion when two surfaces rub together. It acts opposite to the direction of motion, which is why a rolling ball gradually slows down and stops!",
+      "emoji": "🛑",
+      "bgColor": "from-purple-500 to-indigo-600",
+      "spoken": "Friction is the force that opposes motion when two surfaces rub together, making a rolling ball slow down and stop!",
+      "diagram": {
+        "type": "balance-scale",
+        "animate": true,
+        "data": {
+          "leftWeight": 5,
+          "rightWeight": 5
+        }
+      }
+    },
+    {
+      "title": "Using Oil and Powder! 🛢️",
+      "text": "Friction can be useful for walking and braking, but harmful in machines. We use oil, grease, and fine powder to make surfaces smooth and reduce friction so parts move easily!",
+      "emoji": "🛢️",
+      "bgColor": "from-cyan-500 to-blue-600",
+      "spoken": "We use oil and powder to make surfaces smooth and reduce friction so machine parts move easily!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is a force?",
+      "answer": "A push or a pull that acts on an object",
+      "options": [
+        "A push or a pull that acts on an object",
+        "A type of sound made by metal",
+        "A glowing light in the sky"
+      ],
+      "hint": "Think about everyday actions like opening a door or pulling a drawer!",
+      "misconception": "A force is not sound or light — it is a push or a pull that can make things move, stop, or change shape!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A push or a pull that acts on an object",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A type of sound made by metal",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A glowing light in the sky",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A push or a pull that acts on an object",
+          "A type of sound made by metal"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each action into Push or Pull!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Push sends things away from you. Pull brings things closer to you!",
+      "misconception": "Remember: push sends an object away from your body, while pull brings an object closer to your body!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "p1",
+            "label": "Pushing a door open",
+            "correctBin": "push-bin"
+          },
+          {
+            "id": "p2",
+            "label": "Pushing a shopping cart",
+            "correctBin": "push-bin"
+          },
+          {
+            "id": "p3",
+            "label": "Pulling a desk drawer",
+            "correctBin": "pull-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "p1",
+          "kind": "circle",
+          "label": "Pushing a door open",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "push-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "push-bin"
+        },
+        {
+          "id": "p2",
+          "kind": "circle",
+          "label": "Pushing a shopping cart",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "push-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "push-bin"
+        },
+        {
+          "id": "p3",
+          "kind": "circle",
+          "label": "Pulling a desk drawer",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pull-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "pull-bin"
+        },
+        {
+          "id": "p4",
+          "kind": "circle",
+          "label": "Pulling a trolley bag",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pull-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "pull-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "p1",
+          "label": "Pushing a door open",
+          "emoji": "",
+          "correctBin": "push-bin"
+        },
+        {
+          "id": "p2",
+          "label": "Pushing a shopping cart",
+          "emoji": "",
+          "correctBin": "push-bin"
+        },
+        {
+          "id": "p3",
+          "label": "Pulling a desk drawer",
+          "emoji": "",
+          "correctBin": "pull-bin"
+        },
+        {
+          "id": "p4",
+          "label": "Pulling a trolley bag",
+          "emoji": "",
+          "correctBin": "pull-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "push-bin",
+          "label": "Push (Away) ➡️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "pull-bin",
+          "label": "Pull (Toward) ⬅️",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What can a force do to an object?",
+      "answer": "Change its speed, direction, or shape",
+      "options": [
+        "Change its speed, direction, or shape",
+        "Only make it heavier immediately",
+        "Only make it colder in the dark"
+      ],
+      "hint": "Think about hitting a cricket ball or squeezing soft clay!",
+      "misconception": "Force can change an object speed, direction of motion, and shape, but it does not change its weight or temperature directly!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Change its speed, direction, or shape",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Only make it heavier immediately",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Only make it colder in the dark",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Only make it heavier immediately",
+          "Change its speed, direction, or shape"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each action to the correct Type of Force!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Muscles = muscular. Earth = gravitational. Magnet = magnetic. Rubbing = frictional!",
+      "misconception": "Check the source: muscles for muscular, Earth for gravity, magnets for magnetic, and rubbing surfaces for friction!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "f1",
+            "label": "Lifting a water bucket",
+            "correctBin": "muscular"
+          },
+          {
+            "id": "f2",
+            "label": "Apple falling from tree",
+            "correctBin": "gravitational"
+          },
+          {
+            "id": "f3",
+            "label": "Magnet picking iron nails",
+            "correctBin": "magnetic"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "f1",
+          "kind": "water-drop",
+          "label": "Lifting a water bucket",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "muscular",
+          "interaction": "drag-to-bin",
+          "targetBin": "muscular"
+        },
+        {
+          "id": "f2",
+          "kind": "apple",
+          "label": "Apple falling from tree",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ff4444",
+          "category": "gravitational",
+          "interaction": "drag-to-bin",
+          "targetBin": "gravitational"
+        },
+        {
+          "id": "f3",
+          "kind": "circle",
+          "label": "Magnet picking iron nails",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "magnetic",
+          "interaction": "drag-to-bin",
+          "targetBin": "magnetic"
+        },
+        {
+          "id": "f4",
+          "kind": "circle",
+          "label": "Ball stopping on grass",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "frictional",
+          "interaction": "drag-to-bin",
+          "targetBin": "frictional"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "f1",
+          "label": "Lifting a water bucket",
+          "emoji": "",
+          "correctBin": "muscular"
+        },
+        {
+          "id": "f2",
+          "label": "Apple falling from tree",
+          "emoji": "",
+          "correctBin": "gravitational"
+        },
+        {
+          "id": "f3",
+          "label": "Magnet picking iron nails",
+          "emoji": "",
+          "correctBin": "magnetic"
+        },
+        {
+          "id": "f4",
+          "label": "Ball stopping on grass",
+          "emoji": "",
+          "correctBin": "frictional"
+        }
+      ],
+      "bins": [
+        {
+          "id": "muscular",
+          "label": "Muscular 🦾",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "gravitational",
+          "label": "Gravitational 🍎",
+          "color": "#EF4444"
+        },
+        {
+          "id": "magnetic",
+          "label": "Magnetic 🧲",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "frictional",
+          "label": "Frictional 🛑",
+          "color": "#06B6D4"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Why does a rolling ball eventually STOP on the ground?",
+      "answer": "Friction between the ball and the ground slows it down",
+      "options": [
+        "Friction between the ball and the ground slows it down",
+        "Gravity pulls the ball downward into the earth",
+        "The ball runs out of stored internal energy"
+      ],
+      "hint": "No one pushes it backward, so what rubbing force acts against it?",
+      "misconception": "A moving object does not carry a supply of force that gets used up. It stops because friction from the ground acts against its motion!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "ball",
+          "label": "Friction between the ball and the ground slows it down",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "ball",
+          "label": "Gravity pulls the ball downward into the earth",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "ball",
+          "label": "The ball runs out of stored internal energy",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Friction between the ball and the ground slows it down",
+          "Gravity pulls the ball downward into the earth"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Sort into Useful Friction or Harmful Friction!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Useful = walking, braking, writing. Harmful = shoe wear, machine heat!",
+      "misconception": "Remember: friction helps us walk and brake (useful), but it also wears out shoes and heats up machine parts (harmful)!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "u1",
+            "label": "Walking without slipping",
+            "correctBin": "useful"
+          },
+          {
+            "id": "u2",
+            "label": "Braking a bicycle",
+            "correctBin": "useful"
+          },
+          {
+            "id": "u3",
+            "label": "Shoe soles wearing thin",
+            "correctBin": "harmful"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "u1",
+          "kind": "circle",
+          "label": "Walking without slipping",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "useful",
+          "interaction": "drag-to-bin",
+          "targetBin": "useful"
+        },
+        {
+          "id": "u2",
+          "kind": "circle",
+          "label": "Braking a bicycle",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "useful",
+          "interaction": "drag-to-bin",
+          "targetBin": "useful"
+        },
+        {
+          "id": "u3",
+          "kind": "circle",
+          "label": "Shoe soles wearing thin",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "harmful",
+          "interaction": "drag-to-bin",
+          "targetBin": "harmful"
+        },
+        {
+          "id": "u4",
+          "kind": "circle",
+          "label": "Machine parts overheating",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "harmful",
+          "interaction": "drag-to-bin",
+          "targetBin": "harmful"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "u1",
+          "label": "Walking without slipping",
+          "emoji": "",
+          "correctBin": "useful"
+        },
+        {
+          "id": "u2",
+          "label": "Braking a bicycle",
+          "emoji": "",
+          "correctBin": "useful"
+        },
+        {
+          "id": "u3",
+          "label": "Shoe soles wearing thin",
+          "emoji": "",
+          "correctBin": "harmful"
+        },
+        {
+          "id": "u4",
+          "label": "Machine parts overheating",
+          "emoji": "",
+          "correctBin": "harmful"
+        }
+      ],
+      "bins": [
+        {
+          "id": "useful",
+          "label": "Useful Friction ✅",
+          "color": "#10B981"
+        },
+        {
+          "id": "harmful",
+          "label": "Harmful Friction ⚠️",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What can we use to REDUCE friction on a bicycle chain?",
+      "answer": "Oil or grease",
+      "options": [
+        "Oil or grease",
+        "Coarse dry sand",
+        "Clean cold water"
+      ],
+      "hint": "This slippery substance forms a smooth layer between the metal parts!",
+      "misconception": "Oil and grease form a smooth, slippery layer that fills tiny gaps, reducing friction so moving parts slide easily!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Oil or grease",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Coarse dry sand",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Clean cold water",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Coarse dry sand",
+          "Oil or grease"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each method to Reduce Friction or Increase Friction!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Oil and powder reduce friction. Tread and rubber soles increase friction!",
+      "misconception": "Oil, grease, and powder make surfaces smooth to reduce friction. Tyre treads and rubber shoe soles increase friction for grip!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "m1",
+            "label": "Oil on bicycle chain",
+            "correctBin": "reduce"
+          },
+          {
+            "id": "m2",
+            "label": "Powder on carrom board",
+            "correctBin": "reduce"
+          },
+          {
+            "id": "m3",
+            "label": "Deep tread on tyres",
+            "correctBin": "increase"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "m1",
+          "kind": "circle",
+          "label": "Oil on bicycle chain",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "reduce",
+          "interaction": "drag-to-bin",
+          "targetBin": "reduce"
+        },
+        {
+          "id": "m2",
+          "kind": "circle",
+          "label": "Powder on carrom board",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "reduce",
+          "interaction": "drag-to-bin",
+          "targetBin": "reduce"
+        },
+        {
+          "id": "m3",
+          "kind": "circle",
+          "label": "Deep tread on tyres",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "increase",
+          "interaction": "drag-to-bin",
+          "targetBin": "increase"
+        },
+        {
+          "id": "m4",
+          "kind": "circle",
+          "label": "Rough rubber shoe soles",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "increase",
+          "interaction": "drag-to-bin",
+          "targetBin": "increase"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "m1",
+          "label": "Oil on bicycle chain",
+          "emoji": "",
+          "correctBin": "reduce"
+        },
+        {
+          "id": "m2",
+          "label": "Powder on carrom board",
+          "emoji": "",
+          "correctBin": "reduce"
+        },
+        {
+          "id": "m3",
+          "label": "Deep tread on tyres",
+          "emoji": "",
+          "correctBin": "increase"
+        },
+        {
+          "id": "m4",
+          "label": "Rough rubber shoe soles",
+          "emoji": "",
+          "correctBin": "increase"
+        }
+      ],
+      "bins": [
+        {
+          "id": "reduce",
+          "label": "Reduce Friction 🛢️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "increase",
+          "label": "Increase Friction 👟",
+          "color": "#10B981"
+        }
+      ]
+    }
+  ],
+  "theme": "lab",
+  "storyArc": {
+    "theme": "A curious physicist explores the forces of nature",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Physics Lab Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_ForceFrictionGame",
+    "region": "Physics Realm",
+    "mapX": 0.48000000000000004,
+    "mapY": 0.8700000000000001,
+    "icon": "⚡",
+    "prerequisites": []
+  },
+  "subject": "physics"
+}

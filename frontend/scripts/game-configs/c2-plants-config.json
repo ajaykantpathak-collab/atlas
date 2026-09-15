@@ -1,0 +1,37 @@
+{
+  "gameTitle": "PlantsGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\PlantsGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c2_biology_enrichment_part10.marker",
+    "D:\\cisce\\bio\\enrichment\\c2_biology_enrichment_part11.marker",
+    "D:\\cisce\\bio\\enrichment\\c2_biology_enrichment_part12.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_bio_010 (Parts of plants), c2_bio_011 (Plant products and their uses), c2_bio_012 (Plant modifications)",
+  "mascotName": "Mali Kavya",
+  "mascotDescription": "a friendly female gardener with a straw hat, green apron, trowel in hand, and a sunflower pin. Custom SVG, not an owl.",
+  "sceneDescription": "garden scene with sky gradient, sun, soil ground, a watering can, flower pots, and green leaves",
+  "svgObjects": [
+    { "name": "RootIcon", "description": "plant roots spreading underground" },
+    { "name": "StemIcon", "description": "a plant stem with nodes" },
+    { "name": "LeafIcon", "description": "a green leaf with veins" },
+    { "name": "FlowerIcon", "description": "a colorful flower with petals" },
+    { "name": "FruitIcon", "description": "a mango fruit" },
+    { "name": "SeedIcon", "description": "a seed with a sprout" },
+    { "name": "CarrotIcon", "description": "a carrot (modified root)" },
+    { "name": "PotatoIcon", "description": "a potato (modified stem)" },
+    { "name": "MedicineIcon", "description": "medicine bottle from plant" },
+    { "name": "ClothesIcon", "description": "cotton clothes from plant" }
+  ],
+  "challengeTypes": [
+    "identify: Which part of the plant holds it firmly in the soil? (Root vs Leaf vs Flower)",
+    "identify: Which part of the plant carries water to all parts? (Stem vs Root vs Fruit)",
+    "identify: Which part of the plant makes food using sunlight? (Leaf vs Root vs Seed)",
+    "sort: Drag each plant part to its function (Root: holds plant, absorbs water | Stem: carries water | Leaf: makes food | Flower: makes seeds | Fruit: holds seeds | Seed: grows new plant)",
+    "identify: Carrot is which part of the plant? (Root vs Stem vs Leaf)",
+    "identify: Potato is which part of the plant? (Stem vs Root vs Seed)",
+    "sort: Drag plant products to what they give us (Medicine: neem, tulsi | Food: rice, wheat, fruits | Clothes: cotton | Wood: timber, furniture | Oil: mustard, coconut)",
+    "sort: Drag plant parts to whether they are modified root or modified stem (Modified root: carrot, radish, beetroot | Modified stem: potato, ginger, onion)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Parts of plants — root (holds plant firmly in soil, absorbs water and minerals), stem (carries water and food to all parts), leaf (makes food using sunlight — photosynthesis), flower (makes seeds, beautiful, attracts insects), fruit (holds and protects seeds), seed (grows into a new plant). (2) Plant products and uses — food (rice, wheat, fruits, vegetables), medicine (neem, tulsi, aloe vera), clothes (cotton from cotton plant), wood (timber, furniture, paper), oil (mustard oil, coconut oil). (3) Plant modifications — modified roots store food (carrot, radish, beetroot, sweet potato), modified stems store food (potato, ginger, onion). Misconceptions: 'carrot is a stem' (carrot is a modified ROOT that stores food), 'potato is a root' (potato is a modified STEM that stores food), 'leaf just decorates the plant' (leaf makes food for the whole plant using sunlight), 'flower is useless' (flower makes seeds which grow into new plants). Default width=720, height=560. Use named export (export function PlantsGame), NOT export default. Export interface PlantsGameProps with width?, height?, onComplete?: (score: number) => void."
+}

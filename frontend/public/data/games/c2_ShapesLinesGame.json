@@ -1,0 +1,805 @@
+{
+  "gameFile": "ShapesLinesGame",
+  "classLevel": 2,
+  "cisceNodes": [
+    "c2_math_015",
+    "c2_math_016",
+    "c2_math_017",
+    "c2_math_018",
+    "c2_math_019"
+  ],
+  "mascot": "Artist Anaya — a friendly paper craft artist with a colorful apron, scissors,",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Meet Shapes & Paper Folding! 📐",
+      "text": "We can create 2D shapes by folding and cutting paper! When we fold a square paper diagonally from corner to corner and cut it, we get two triangles. Folding paper creates a sharp crease which is a straight line!",
+      "emoji": "📄",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "",
+      "diagram": {
+        "type": "shape-sorter",
+        "animate": true,
+        "data": {
+          "shapes": [
+            "triangle",
+            "square",
+            "circle",
+            "rectangle"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Sides and Corners! 🔺⏹️",
+      "text": "A side is a straight line on the edge of a shape. A corner is where two sides meet! A triangle has 3 sides and 3 corners. A square has 4 equal sides and 4 corners. A rectangle has 4 sides (2 long, 2 short) and 4 corners!",
+      "emoji": "⭐",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Circles and Ovals! ⭕🥚",
+      "text": "A circle is round with a smooth curved edge — it has 0 sides and 0 corners! An oval is like a stretched circle, also with 0 sides and 0 corners!",
+      "emoji": "🔵",
+      "bgColor": "from-pink-400 to-rose-500",
+      "spoken": "",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Straight Lines & Orientations! 📏",
+      "text": "A straight line never bends! It can be horizontal (flat, left to right like a table edge), vertical (standing tall, up and down like a door edge), or slanting (diagonal like a slide railing)!",
+      "emoji": "📏",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Curved Lines! 🌈",
+      "text": "A curved line bends smoothly as you trace it — like a rainbow, a river, or the rim of a round cup. Straight lines do not bend; curved lines bend!",
+      "emoji": "🌈",
+      "bgColor": "from-purple-400 to-violet-500",
+      "spoken": "",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "How many straight sides does a TRIANGLE have?",
+      "answer": "3",
+      "options": [
+        "3",
+        "4",
+        "0"
+      ],
+      "hint": "Count the straight edges of a pizza slice or triangle shape: 1, 2, 3!",
+      "misconception": "A triangle has exactly 3 straight sides and 3 corners! 4 sides belong to squares and rectangles.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "triangle",
+          "label": "3",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff6b6b",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "triangle",
+          "label": "4",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff6b6b",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "triangle",
+          "label": "0",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff6b6b",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "3",
+          "4"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "How many corners does a SQUARE have?",
+      "answer": "4",
+      "options": [
+        "3",
+        "4",
+        "0"
+      ],
+      "hint": "Feel the pointy corners of a square handkerchief: 1, 2, 3, 4!",
+      "misconception": "A square has 4 corners and 4 EQUAL sides! All four sides are the exact same length.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "3",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "4",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "0",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "3",
+          "4"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "Which shape has 0 sides and 0 corners?",
+      "answer": "Circle",
+      "options": [
+        "Triangle",
+        "Square",
+        "Circle"
+      ],
+      "hint": "Think of a coin or a bangle. Does it have straight sides or sharp corners?",
+      "misconception": "A circle has 0 sides and 0 corners because its boundary is a smooth curve, not straight lines!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Triangle",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Square",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Circle",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Circle",
+          "Triangle"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each shape to its correct number of sides!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Count the straight edges: Triangle=3, Square=4, Rectangle=4, Circle=0!",
+      "misconception": "Count carefully! Triangles have 3 sides, squares and rectangles have 4 sides, and circles have 0 sides!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tri",
+            "label": "Triangle (3 sides)",
+            "correctBin": "three"
+          },
+          {
+            "id": "sq",
+            "label": "Square (4 sides)",
+            "correctBin": "four"
+          },
+          {
+            "id": "rect",
+            "label": "Rectangle (4 sides)",
+            "correctBin": "four"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tri",
+          "kind": "circle",
+          "label": "Triangle (3 sides)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "three",
+          "interaction": "drag-to-bin",
+          "targetBin": "three"
+        },
+        {
+          "id": "sq",
+          "kind": "circle",
+          "label": "Square (4 sides)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "four",
+          "interaction": "drag-to-bin",
+          "targetBin": "four"
+        },
+        {
+          "id": "rect",
+          "kind": "circle",
+          "label": "Rectangle (4 sides)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "four",
+          "interaction": "drag-to-bin",
+          "targetBin": "four"
+        },
+        {
+          "id": "circ",
+          "kind": "circle",
+          "label": "Circle (0 sides)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "zero",
+          "interaction": "drag-to-bin",
+          "targetBin": "zero"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tri",
+          "label": "Triangle (3 sides)",
+          "emoji": "",
+          "correctBin": "three"
+        },
+        {
+          "id": "sq",
+          "label": "Square (4 sides)",
+          "emoji": "",
+          "correctBin": "four"
+        },
+        {
+          "id": "rect",
+          "label": "Rectangle (4 sides)",
+          "emoji": "",
+          "correctBin": "four"
+        },
+        {
+          "id": "circ",
+          "label": "Circle (0 sides)",
+          "emoji": "",
+          "correctBin": "zero"
+        }
+      ],
+      "bins": [
+        {
+          "id": "three",
+          "label": "3 Sides 🔺",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "four",
+          "label": "4 Sides ⏹️",
+          "color": "#10B981"
+        },
+        {
+          "id": "zero",
+          "label": "0 Sides ⭕",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which line goes flat from left to right like a table top?",
+      "answer": "Horizontal line",
+      "options": [
+        "Horizontal line",
+        "Vertical line",
+        "Curved line"
+      ],
+      "hint": "Think of the horizon where the sky meets the sea — it lies flat!",
+      "misconception": "A horizontal line lies flat from left to right! Vertical stands up-and-down, and curved bends.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Horizontal line",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Vertical line",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Curved line",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Horizontal line",
+          "Vertical line"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify",
+      "question": "Which line stands tall from up to down like a flagpole?",
+      "answer": "Vertical line",
+      "options": [
+        "Horizontal line",
+        "Vertical line",
+        "Slanting line"
+      ],
+      "hint": "Think of a tall tree trunk or a door edge standing straight up!",
+      "misconception": "A vertical line stands upright from up to down! Horizontal is flat, and slanting is diagonal.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Horizontal line",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Vertical line",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Slanting line",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Vertical line",
+          "Horizontal line"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each line or object to its correct orientation/type!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Table edge = horizontal, Door edge = vertical, Ladder = slanting, Rainbow = curved!",
+      "misconception": "Check the direction: Flat = horizontal, Up-down = vertical, Diagonal = slanting, Bending = curved!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "horiz",
+            "label": "Table Top Edge",
+            "correctBin": "h"
+          },
+          {
+            "id": "vert",
+            "label": "Door Side",
+            "correctBin": "v"
+          },
+          {
+            "id": "slant",
+            "label": "Slide Railing",
+            "correctBin": "s"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "horiz",
+          "kind": "circle",
+          "label": "Table Top Edge",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "h",
+          "interaction": "drag-to-bin",
+          "targetBin": "h"
+        },
+        {
+          "id": "vert",
+          "kind": "circle",
+          "label": "Door Side",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "v",
+          "interaction": "drag-to-bin",
+          "targetBin": "v"
+        },
+        {
+          "id": "slant",
+          "kind": "circle",
+          "label": "Slide Railing",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "s",
+          "interaction": "drag-to-bin",
+          "targetBin": "s"
+        },
+        {
+          "id": "curve",
+          "kind": "circle",
+          "label": "Rainbow Arc",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "c",
+          "interaction": "drag-to-bin",
+          "targetBin": "c"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "horiz",
+          "label": "Table Top Edge",
+          "emoji": "",
+          "correctBin": "h"
+        },
+        {
+          "id": "vert",
+          "label": "Door Side",
+          "emoji": "",
+          "correctBin": "v"
+        },
+        {
+          "id": "slant",
+          "label": "Slide Railing",
+          "emoji": "",
+          "correctBin": "s"
+        },
+        {
+          "id": "curve",
+          "label": "Rainbow Arc",
+          "emoji": "",
+          "correctBin": "c"
+        }
+      ],
+      "bins": [
+        {
+          "id": "h",
+          "label": "Horizontal ➖",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "v",
+          "label": "Vertical ⬇️",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "s",
+          "label": "Slanting ↗️",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "c",
+          "label": "Curved 🌙",
+          "color": "#EC4899"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag each shape or line to match its special property!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Square=4 equal sides, Rectangle=2 long 2 short, Circle=curved boundary, Straight line=no bend!",
+      "misconception": "Remember: Squares have all 4 sides equal, rectangles have opposite sides equal, circles have curved boundaries!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "p1",
+            "label": "Square (4 equal sides)",
+            "correctBin": "bin-sq"
+          },
+          {
+            "id": "p2",
+            "label": "Rectangle (2 long, 2 short)",
+            "correctBin": "bin-rect"
+          },
+          {
+            "id": "p3",
+            "label": "Circle (0 sides)",
+            "correctBin": "bin-circ"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "p1",
+          "kind": "circle",
+          "label": "Square (4 equal sides)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-sq",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-sq"
+        },
+        {
+          "id": "p2",
+          "kind": "circle",
+          "label": "Rectangle (2 long, 2 short)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-rect",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-rect"
+        },
+        {
+          "id": "p3",
+          "kind": "circle",
+          "label": "Circle (0 sides)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-circ",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-circ"
+        },
+        {
+          "id": "p4",
+          "kind": "circle",
+          "label": "Straight line (no bend)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-line",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-line"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "p1",
+          "label": "Square (4 equal sides)",
+          "emoji": "",
+          "correctBin": "bin-sq"
+        },
+        {
+          "id": "p2",
+          "label": "Rectangle (2 long, 2 short)",
+          "emoji": "",
+          "correctBin": "bin-rect"
+        },
+        {
+          "id": "p3",
+          "label": "Circle (0 sides)",
+          "emoji": "",
+          "correctBin": "bin-circ"
+        },
+        {
+          "id": "p4",
+          "label": "Straight line (no bend)",
+          "emoji": "",
+          "correctBin": "bin-line"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-sq",
+          "label": "4 Equal Sides",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-rect",
+          "label": "Opposite Sides Equal",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-circ",
+          "label": "Curved Boundary",
+          "color": "#EF4444"
+        },
+        {
+          "id": "bin-line",
+          "label": "Never Bends",
+          "color": "#8B5CF6"
+        }
+      ]
+    }
+  ],
+  "theme": "art",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c2_math_015",
+    "region": "Mathland",
+    "mapX": 0.84,
+    "mapY": 0.71,
+    "icon": "🔢",
+    "prerequisites": [
+      "c2_math_016"
+    ]
+  },
+  "subject": "maths"
+}

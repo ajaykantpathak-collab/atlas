@@ -1,0 +1,823 @@
+{
+  "gameFile": "AgricultureHygieneGame",
+  "classLevel": 5,
+  "cisceNodes": [
+    "c5_bio_019",
+    "c5_bio_020",
+    "c5_bio_021",
+    "c5_bio_022",
+    "c5_bio_023"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Plant Modifications: Stems, Roots & Leaves 🌱",
+      "text": "Plants modify their parts to survive! Potato and ginger are underground stems that store starch (they have buds called eyes). Carrot and radish are swollen storage roots. Cactus leaves become sharp spines to save water!",
+      "emoji": "🌱",
+      "bgColor": "from-emerald-400 to-green-600",
+      "spoken": "Plants modify their parts to survive! Potato and ginger are underground stems that store starch. Carrot and radish are swollen storage roots. Cactus leaves become sharp spines to save water!",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Animal Habitats & Feeding Habits 🐾",
+      "text": "An animal's home is its habitat (forest, desert, water, polar region). Animals are grouped by what they eat: Herbivores eat plants (cow, deer), Carnivores eat meat (lion, tiger), and Omnivores eat both (bear, human, crow)!",
+      "emoji": "🐾",
+      "bgColor": "from-amber-400 to-orange-600",
+      "spoken": "An animal's home is its habitat! Animals are grouped by what they eat: Herbivores eat plants like cows, carnivores eat meat like tigers, and omnivores eat both like humans!",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Grasshopper",
+            "Frog",
+            "Snake"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Crop Types: Kharif & Rabi 🌾",
+      "text": "Farmers grow crops in two main seasons! Kharif crops are sown in monsoon (June-July) and harvested in autumn (rice, maize, cotton). Rabi crops are sown in winter (October-November) and harvested in spring (wheat, gram, mustard).",
+      "emoji": "🌾",
+      "bgColor": "from-yellow-400 to-amber-600",
+      "spoken": "Farmers grow crops in two main seasons! Kharif crops are sown in monsoon, like rice and maize. Rabi crops are sown in winter, like wheat and mustard.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Food Adulteration & Common Adulterants 🔍",
+      "text": "Food adulteration is mixing cheap or harmful things into food for profit! Water in milk, chalk in sugar, and banned yellow dye (metanil yellow) in turmeric are dangerous adulterants that cause illness.",
+      "emoji": "🔍",
+      "bgColor": "from-red-400 to-rose-600",
+      "spoken": "Food adulteration is mixing cheap or harmful things into food for profit! Water in milk and chalk in sugar are dangerous adulterants that cause illness.",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Goat",
+            "Lion"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Personal Hygiene & Clean Surroundings 🧼",
+      "text": "Keep clean to stay healthy! Wash hands with soap before eating, bathe daily, and brush teeth twice. Keep surroundings free of stagnant water so mosquitoes don't breed and spread dengue and malaria!",
+      "emoji": "🧼",
+      "bgColor": "from-blue-400 to-indigo-600",
+      "spoken": "Keep clean to stay healthy! Wash hands with soap before eating and bathe daily. Keep surroundings free of stagnant water so mosquitoes don't breed and spread dengue!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which of the following is a KHARIF crop (sown at the beginning of the monsoon)?",
+      "answer": "Rice",
+      "options": [
+        "Rice",
+        "Wheat",
+        "Mustard",
+        "Gram"
+      ],
+      "hint": "Kharif crops need plenty of water and are grown during the rainy season. Think of what grows in flooded paddy fields!",
+      "misconception": "Rice is a Kharif crop grown in monsoon! Wheat, mustard, and gram are Rabi crops grown in winter. Do not confuse monsoon crops with winter crops.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Rice",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Wheat",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Mustard",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Gram",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Wheat",
+          "Rice"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each crop into the correct farming season: Kharif vs Rabi!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Kharif crops are sown in June-July (monsoon). Rabi crops are sown in October-November (winter)!",
+      "misconception": "Remember: Rice, maize, and cotton need monsoon rain (Kharif). Wheat, gram, and mustard grow best in cool winter weather (Rabi)!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "rice",
+            "label": "Rice",
+            "correctBin": "kharif"
+          },
+          {
+            "id": "wheat",
+            "label": "Wheat",
+            "correctBin": "rabi"
+          },
+          {
+            "id": "maize",
+            "label": "Maize",
+            "correctBin": "kharif"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "rice",
+          "kind": "circle",
+          "label": "Rice",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "kharif",
+          "interaction": "drag-to-bin",
+          "targetBin": "kharif"
+        },
+        {
+          "id": "wheat",
+          "kind": "circle",
+          "label": "Wheat",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "rabi",
+          "interaction": "drag-to-bin",
+          "targetBin": "rabi"
+        },
+        {
+          "id": "maize",
+          "kind": "circle",
+          "label": "Maize",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "kharif",
+          "interaction": "drag-to-bin",
+          "targetBin": "kharif"
+        },
+        {
+          "id": "mustard",
+          "kind": "star",
+          "label": "Mustard",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ffd700",
+          "category": "rabi",
+          "interaction": "drag-to-bin",
+          "targetBin": "rabi"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "rice",
+          "label": "Rice",
+          "emoji": "",
+          "correctBin": "kharif"
+        },
+        {
+          "id": "wheat",
+          "label": "Wheat",
+          "emoji": "",
+          "correctBin": "rabi"
+        },
+        {
+          "id": "maize",
+          "label": "Maize",
+          "emoji": "",
+          "correctBin": "kharif"
+        },
+        {
+          "id": "mustard",
+          "label": "Mustard",
+          "emoji": "",
+          "correctBin": "rabi"
+        }
+      ],
+      "bins": [
+        {
+          "id": "kharif",
+          "label": "Kharif (Monsoon) 🌧️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "rabi",
+          "label": "Rabi (Winter) ❄️",
+          "color": "#F97316"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "A potato is an underground plant part with small buds called \"eyes\". What is it?",
+      "answer": "Modified stem",
+      "options": [
+        "Modified stem",
+        "Modified root",
+        "Modified leaf",
+        "Modified flower"
+      ],
+      "hint": "Even though it grows under the soil, it has buds called eyes which prove it is a stem!",
+      "misconception": "A potato is a modified underground STEM, NOT a root! Because it grows underground, students often mistake it for a root, but its eyes (buds) prove it is a stem.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Modified stem",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Modified root",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Modified leaf",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "leaf",
+          "label": "Modified flower",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Modified root",
+          "Modified stem"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each plant part to its correct plant modification type!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Potato & ginger are stems; carrot & radish are roots; cactus spines are leaves!",
+      "misconception": "Check original plant parts carefully! Potato has buds (stem), carrot tapers and stores food (root), cactus spines protect against water loss (leaf).",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "pot",
+            "label": "Potato",
+            "correctBin": "stem"
+          },
+          {
+            "id": "car",
+            "label": "Carrot",
+            "correctBin": "root"
+          },
+          {
+            "id": "cac",
+            "label": "Cactus Spines",
+            "correctBin": "leaf"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "pot",
+          "kind": "circle",
+          "label": "Potato",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "stem",
+          "interaction": "drag-to-bin",
+          "targetBin": "stem"
+        },
+        {
+          "id": "car",
+          "kind": "circle",
+          "label": "Carrot",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "root",
+          "interaction": "drag-to-bin",
+          "targetBin": "root"
+        },
+        {
+          "id": "cac",
+          "kind": "circle",
+          "label": "Cactus Spines",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "leaf",
+          "interaction": "drag-to-bin",
+          "targetBin": "leaf"
+        },
+        {
+          "id": "gin",
+          "kind": "circle",
+          "label": "Ginger",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "stem",
+          "interaction": "drag-to-bin",
+          "targetBin": "stem"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "pot",
+          "label": "Potato",
+          "emoji": "",
+          "correctBin": "stem"
+        },
+        {
+          "id": "car",
+          "label": "Carrot",
+          "emoji": "",
+          "correctBin": "root"
+        },
+        {
+          "id": "cac",
+          "label": "Cactus Spines",
+          "emoji": "",
+          "correctBin": "leaf"
+        },
+        {
+          "id": "gin",
+          "label": "Ginger",
+          "emoji": "",
+          "correctBin": "stem"
+        }
+      ],
+      "bins": [
+        {
+          "id": "stem",
+          "label": "Modified Stem 🥔",
+          "color": "#A16207"
+        },
+        {
+          "id": "root",
+          "label": "Modified Root 🥕",
+          "color": "#F97316"
+        },
+        {
+          "id": "leaf",
+          "label": "Modified Leaf 🌵",
+          "color": "#22C55E"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is food adulteration?",
+      "answer": "The deliberate mixing of cheap or harmful substances into food for profit",
+      "options": [
+        "The deliberate mixing of cheap or harmful substances into food for profit",
+        "Washing fruits and vegetables before eating",
+        "Storing grain in clean silos"
+      ],
+      "hint": "Think about dishonest sellers adding water to milk or chalk to sugar to make more money!",
+      "misconception": "Food adulteration is dishonest mixing of impurities for profit, NOT washing or storing food safely! Adulterants lower quality and cause illness.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "The deliberate mixing of cheap or harmful substances into food for profit",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Washing fruits and vegetables before eating",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Storing grain in clean silos",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "The deliberate mixing of cheap or harmful substances into food for profit",
+          "Washing fruits and vegetables before eating"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each food item to its common adulterant!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Milk has water added; turmeric has metanil yellow dye; sugar has chalk powder!",
+      "misconception": "Each food has specific common adulterants: Milk is diluted with water, turmeric is coloured with banned metanil yellow, and sugar is mixed with chalk powder!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. Milk has water added; turmeric has metanil yellow dye; sugar has chalk powder!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "milk",
+          "kind": "circle",
+          "label": "Milk",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "water-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "water-bin"
+        },
+        {
+          "id": "turmeric",
+          "kind": "circle",
+          "label": "Turmeric",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "dye-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "dye-bin"
+        },
+        {
+          "id": "sugar",
+          "kind": "circle",
+          "label": "Sugar",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "chalk-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "chalk-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "milk",
+          "label": "Milk",
+          "emoji": "",
+          "correctBin": "water-bin"
+        },
+        {
+          "id": "turmeric",
+          "label": "Turmeric",
+          "emoji": "",
+          "correctBin": "dye-bin"
+        },
+        {
+          "id": "sugar",
+          "label": "Sugar",
+          "emoji": "",
+          "correctBin": "chalk-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "water-bin",
+          "label": "Water Added 💧",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "dye-bin",
+          "label": "Metanil Yellow Dye 🧪",
+          "color": "#EF4444"
+        },
+        {
+          "id": "chalk-bin",
+          "label": "Chalk Powder ⚪",
+          "color": "#94A3B8"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which disease can spread if surroundings have stagnant water where mosquitoes breed?",
+      "answer": "Dengue and Malaria",
+      "options": [
+        "Dengue and Malaria",
+        "Tooth decay",
+        "Common cold from dust"
+      ],
+      "hint": "Think about mosquitoes laying eggs in puddles and water coolers during the monsoon!",
+      "misconception": "Stagnant water breeds mosquitoes that spread dengue and malaria! Tooth decay comes from not brushing teeth, not from stagnant water.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "Dengue and Malaria",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "Tooth decay",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Common cold from dust",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Dengue and Malaria",
+          "Tooth decay"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each personal hygiene practice to its correct health benefit!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Handwashing prevents diarrhoea; brushing teeth prevents cavities; bathing removes skin germs!",
+      "misconception": "Every hygiene habit prevents a specific problem: washing hands stops stomach germs, bathing stops skin infections, and brushing teeth stops dental cavities!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Handwashing prevents diarrhoea; brushing teeth prevents cavities; bathing removes skin germs!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "hw",
+          "kind": "circle",
+          "label": "Wash hands with soap",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "stomach",
+          "interaction": "drag-to-bin",
+          "targetBin": "stomach"
+        },
+        {
+          "id": "bt",
+          "kind": "circle",
+          "label": "Brush teeth twice daily",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "teeth",
+          "interaction": "drag-to-bin",
+          "targetBin": "teeth"
+        },
+        {
+          "id": "bd",
+          "kind": "circle",
+          "label": "Bathe daily",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "skin",
+          "interaction": "drag-to-bin",
+          "targetBin": "skin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "hw",
+          "label": "Wash hands with soap",
+          "emoji": "",
+          "correctBin": "stomach"
+        },
+        {
+          "id": "bt",
+          "label": "Brush teeth twice daily",
+          "emoji": "",
+          "correctBin": "teeth"
+        },
+        {
+          "id": "bd",
+          "label": "Bathe daily",
+          "emoji": "",
+          "correctBin": "skin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "stomach",
+          "label": "Prevents Diarrhoea 🦠",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "teeth",
+          "label": "Prevents Cavities 🦷",
+          "color": "#EAB308"
+        },
+        {
+          "id": "skin",
+          "label": "Prevents Skin Infection 🚿",
+          "color": "#10B981"
+        }
+      ]
+    }
+  ],
+  "theme": "garden",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_bio_019",
+    "region": "Biosphere",
+    "mapX": 0.5,
+    "mapY": 0.9500000000000001,
+    "icon": "🌱",
+    "prerequisites": [
+      "c5_bio_020"
+    ]
+  },
+  "subject": "biology"
+}

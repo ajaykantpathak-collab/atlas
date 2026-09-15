@@ -1,0 +1,774 @@
+{
+  "gameFile": "ComputerBasicsGame",
+  "classLevel": 2,
+  "cisceNodes": [
+    "c2_cs_001",
+    "c2_cs_002",
+    "c2_cs_003",
+    "c2_cs_004",
+    "c2_cs_005",
+    "c2_cs_006"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Computer as an Electronic Device 💻",
+      "text": "A computer is an electronic machine that works only when plugged into electricity or running on battery! It is fast, accurate, never gets tired, and stores lots of information.",
+      "emoji": "⚡",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "A computer is an electronic machine that works only when plugged into electricity!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output",
+            "Store"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Input Devices ⌨️",
+      "text": "Input devices send data TO the computer! The keyboard lets us type letters and numbers. The mouse helps us point and click. Scanners copy pictures, microphones record sound, and webcams capture video!",
+      "emoji": "🖱️",
+      "bgColor": "from-cyan-500 to-blue-600",
+      "spoken": "Input devices send data to the computer like the keyboard, mouse, and microphone!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Output Devices 🖥️",
+      "text": "Output devices show results FROM the computer! The monitor displays pictures and videos. The printer puts text on paper. Speakers play sound, and projectors show big images on a wall!",
+      "emoji": "🖨️",
+      "bgColor": "from-teal-500 to-cyan-600",
+      "spoken": "Output devices show results from the computer like monitors, printers, and speakers!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Keyboard Special Keys 🔤",
+      "text": "The keyboard has special keys! Hold Shift to type capital letters and symbols like @ and ₹. Caps Lock makes all letters capital. Enter starts a new line, and Backspace deletes characters!",
+      "emoji": "⌨️",
+      "bgColor": "from-indigo-500 to-purple-600",
+      "spoken": "The keyboard has special keys like Shift for capitals, Enter for new lines, and Backspace to delete!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Mouse Operations & Daily Life 🖱️",
+      "text": "The mouse can left-click to select, right-click to open menus, scroll to move pages up and down, and drag-and-drop to move objects! We use computers for education, entertainment, and communication!",
+      "emoji": "🌟",
+      "bgColor": "from-purple-500 to-pink-600",
+      "spoken": "The mouse can click, scroll, and drag. We use computers for education, entertainment, and communication!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_device",
+      "question": "Why is a computer called an electronic device?",
+      "answer": "It works only when electricity passes through it",
+      "options": [
+        "It works only when electricity passes through it",
+        "It can work completely without any power",
+        "It is a mechanical toy that runs on wind-up keys"
+      ],
+      "hint": "Think about what happens to a fan or mixer when the power goes off! Computers need electricity too.",
+      "misconception": "A computer is an electronic device because it always needs electricity, from a plug or a battery, to start and keep working! Even laptops need electrical power.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "It works only when electricity passes through it",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "It can work completely without any power",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "It is a mechanical toy that runs on wind-up keys",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "It works only when electricity passes through it",
+          "It can work completely without any power"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_input",
+      "question": "Which of these is an INPUT device?",
+      "answer": "Keyboard",
+      "options": [
+        "Keyboard",
+        "Monitor",
+        "Printer"
+      ],
+      "hint": "Input devices send data TO the computer. Which one do you use to type your name?",
+      "misconception": "The keyboard is an INPUT device because you type data into it! Monitors and printers are output devices because they show or print results from the computer.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Keyboard",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Monitor",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Printer",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Keyboard",
+          "Monitor"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_output",
+      "question": "Which of these is an OUTPUT device?",
+      "answer": "Monitor",
+      "options": [
+        "Monitor",
+        "Mouse",
+        "Keyboard"
+      ],
+      "hint": "Output devices show results FROM the computer. Which one has a screen to watch videos?",
+      "misconception": "The monitor is an OUTPUT device because the computer displays pictures and videos on its screen! Mouse and keyboard are input devices.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Monitor",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Mouse",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Keyboard",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Mouse",
+          "Monitor"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_io",
+      "question": "Drag each device to the correct bin: Is it INPUT or OUTPUT?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Keyboard and mouse send data IN (Input). Monitor and printer show results OUT (Output).",
+      "misconception": "Input devices send information into the computer (keyboard, mouse). Output devices show results to you (monitor, printer, speaker).",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "kb",
+            "label": "Keyboard",
+            "correctBin": "input"
+          },
+          {
+            "id": "mouse",
+            "label": "Mouse",
+            "correctBin": "input"
+          },
+          {
+            "id": "mon",
+            "label": "Monitor",
+            "correctBin": "output"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "kb",
+          "kind": "circle",
+          "label": "Keyboard",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "input",
+          "interaction": "drag-to-bin",
+          "targetBin": "input"
+        },
+        {
+          "id": "mouse",
+          "kind": "circle",
+          "label": "Mouse",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "input",
+          "interaction": "drag-to-bin",
+          "targetBin": "input"
+        },
+        {
+          "id": "mon",
+          "kind": "circle",
+          "label": "Monitor",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "output",
+          "interaction": "drag-to-bin",
+          "targetBin": "output"
+        },
+        {
+          "id": "print",
+          "kind": "circle",
+          "label": "Printer",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "output",
+          "interaction": "drag-to-bin",
+          "targetBin": "output"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "kb",
+          "label": "Keyboard",
+          "emoji": "",
+          "correctBin": "input"
+        },
+        {
+          "id": "mouse",
+          "label": "Mouse",
+          "emoji": "",
+          "correctBin": "input"
+        },
+        {
+          "id": "mon",
+          "label": "Monitor",
+          "emoji": "",
+          "correctBin": "output"
+        },
+        {
+          "id": "print",
+          "label": "Printer",
+          "emoji": "",
+          "correctBin": "output"
+        }
+      ],
+      "bins": [
+        {
+          "id": "input",
+          "label": "Input Device 📥",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "output",
+          "label": "Output Device 📤",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify_shift",
+      "question": "What happens when you hold the SHIFT key and press an alphabet key?",
+      "answer": "It types a capital letter",
+      "options": [
+        "It types a capital letter",
+        "It deletes the letter completely",
+        "It turns off the computer"
+      ],
+      "hint": "Shift is a modifier key. When you hold it and press A, you get a big capital A!",
+      "misconception": "The Shift key makes capital letters and upper symbols! It does NOT delete letters — Backspace is used for deleting.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "It types a capital letter",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "It deletes the letter completely",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "It turns off the computer",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "It types a capital letter",
+          "It deletes the letter completely"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_mouse",
+      "question": "What does a single LEFT CLICK on the mouse usually do?",
+      "answer": "Selects or opens an item",
+      "options": [
+        "Selects or opens an item",
+        "Deletes everything on screen",
+        "Turns off the monitor"
+      ],
+      "hint": "Left click is your primary way to tell the computer: \"I want this item!\"",
+      "misconception": "Left click selects or opens an item! Right click opens a menu with extra options. Left click never deletes everything.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Selects or opens an item",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Deletes everything on screen",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Turns off the monitor",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Deletes everything on screen",
+          "Selects or opens an item"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_mouse",
+      "question": "Drag each mouse action to what it does!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Left click = select/open. Right click = menu. Scroll = move page. Double click = open program.",
+      "misconception": "Each mouse action has a special job! Left click selects, right click opens a menu, scroll moves pages up and down, double click opens programs.",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "lc",
+            "label": "Left Click",
+            "correctBin": "select"
+          },
+          {
+            "id": "rc",
+            "label": "Right Click",
+            "correctBin": "menu"
+          },
+          {
+            "id": "sc",
+            "label": "Scroll Wheel",
+            "correctBin": "page"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "lc",
+          "kind": "circle",
+          "label": "Left Click",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "select",
+          "interaction": "drag-to-bin",
+          "targetBin": "select"
+        },
+        {
+          "id": "rc",
+          "kind": "circle",
+          "label": "Right Click",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "menu",
+          "interaction": "drag-to-bin",
+          "targetBin": "menu"
+        },
+        {
+          "id": "sc",
+          "kind": "circle",
+          "label": "Scroll Wheel",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "page",
+          "interaction": "drag-to-bin",
+          "targetBin": "page"
+        },
+        {
+          "id": "dc",
+          "kind": "circle",
+          "label": "Double Click",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "open",
+          "interaction": "drag-to-bin",
+          "targetBin": "open"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "lc",
+          "label": "Left Click",
+          "emoji": "",
+          "correctBin": "select"
+        },
+        {
+          "id": "rc",
+          "label": "Right Click",
+          "emoji": "",
+          "correctBin": "menu"
+        },
+        {
+          "id": "sc",
+          "label": "Scroll Wheel",
+          "emoji": "",
+          "correctBin": "page"
+        },
+        {
+          "id": "dc",
+          "label": "Double Click",
+          "emoji": "",
+          "correctBin": "open"
+        }
+      ],
+      "bins": [
+        {
+          "id": "select",
+          "label": "Select Item 🖱️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "menu",
+          "label": "Open Menu 📋",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "page",
+          "label": "Move Page 📜",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "open",
+          "label": "Open App 🚀",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "sort_roles",
+      "question": "Drag each computer activity to its correct daily life role!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Learning lessons = Education. Playing games = Entertainment. Video calling = Communication.",
+      "misconception": "Computers play many roles: Education (learning in school), Entertainment (games & videos), Communication (video calls & email), and Work (typing documents)!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Learning lessons = Education. Playing games = Entertainment. Video calling = Communication."
+      },
+      "interactiveObjects": [
+        {
+          "id": "learn",
+          "kind": "circle",
+          "label": "Learning lessons",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "edu",
+          "interaction": "drag-to-bin",
+          "targetBin": "edu"
+        },
+        {
+          "id": "game",
+          "kind": "circle",
+          "label": "Playing fun games",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "ent",
+          "interaction": "drag-to-bin",
+          "targetBin": "ent"
+        },
+        {
+          "id": "call",
+          "kind": "circle",
+          "label": "Video calling grandma",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "comm",
+          "interaction": "drag-to-bin",
+          "targetBin": "comm"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "learn",
+          "label": "Learning lessons",
+          "emoji": "",
+          "correctBin": "edu"
+        },
+        {
+          "id": "game",
+          "label": "Playing fun games",
+          "emoji": "",
+          "correctBin": "ent"
+        },
+        {
+          "id": "call",
+          "label": "Video calling grandma",
+          "emoji": "",
+          "correctBin": "comm"
+        }
+      ],
+      "bins": [
+        {
+          "id": "edu",
+          "label": "Education 📚",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "ent",
+          "label": "Entertainment 🎮",
+          "color": "#EC4899"
+        },
+        {
+          "id": "comm",
+          "label": "Communication 💬",
+          "color": "#10B981"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A tech-savvy kid learns how computers work",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-structure",
+    "title": "Computer Tower",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c2_cs_001",
+    "region": "Tech City",
+    "mapX": 0.6799999999999999,
+    "mapY": 0.47,
+    "icon": "💻",
+    "prerequisites": [
+      "c2_cs_002"
+    ]
+  },
+  "subject": "cs"
+}

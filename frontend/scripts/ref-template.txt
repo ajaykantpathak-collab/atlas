@@ -1,0 +1,1001 @@
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+

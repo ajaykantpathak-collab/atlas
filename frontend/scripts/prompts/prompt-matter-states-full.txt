@@ -1,0 +1,1337 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete MatterStatesSimulation.tsx component about States of Matter (solid, liquid, gas, particle behavior, kinetic theory).
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Physics Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c7_phy_001",
+    "title": "Physical nature of matter",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "Matter is defined as anything that occupies space and has mass. Every object you can see, touch, or even feel indirectly -- a stone, a drop of water, the air inside a balloon, the pages of a book -- is matter because each of these takes up room (has volume) and can be weighed on a balance (has mass). These two characteristics -- occupying space and possessing mass -- are the fundamental, inseparable properties of matter; if something lacks either one, it is not matter. Mass is the quantity of matter contained in a body and is measured using a physical or electronic balance, commonly in grams or kilograms. The space a body occupies is called its volume and is measured in cubic centimetres or litres. Together, mass and volume describe the physical nature of matter.\r\n\r\nIt is equally important to recognise what is NOT matter. Light, heat, sound, electricity and shadows are intangible -- they do not occupy space in the way a substance does, and they cannot be weighed on a balance. A shadow, for instance, is merely the absence of light on a surface; it has no mass and no volume. Heat is a form of energy that flows from a hotter body to a cooler one, but it is not a substance. Sound travels through air as a vibration, yet the sound itself is not matter -- the air that carries it is. Distinguishing the tangible substance (matter) from the intangible phenomenon (non-matter) is a core skill tested at the ICSE board level.\r\n\r\nEvidence that matter occupies space is observed daily. When a stone is lowered into a glass filled to the brim with water, the water overflows -- the stone has displaced a volume of water equal to its own volume, proving it occupies space. When a gas is released into an empty container, it spreads and fills the entire container, showing that gases too occupy space. Evidence that matter has mass is obtained by placing objects on a balance: a brick registers more grams than a feather because it contains more matter. Even air has mass -- a balloon inflated with air weighs slightly more than an empty one.\r\n\r\nMatter exists in three physical states -- solid, liquid and gas -- which will be studied in detail in later nodes. A brief overview here sets the stage: a solid such as a piece of iron has a fixed shape and volume; a liquid such as water has a fixed volume but takes the shape of its container; a gas such as oxygen has neither a fixed shape nor a fixed volume. All three, however, share the two fundamental properties -- they occupy space and have mass -- confirming that the physical nature of matter is consistent across its states.",
+    "eli5": "Matter is anything that takes up room and weighs something. Think of your school bag -- it fills space on your back and you can feel its weight when you lift it, so it is matter. The light from a torch and the sound of a bell are NOT matter, because you cannot fill a box with light or weigh a sound on a scale. Everything around you that you can touch, or that fills a container, is matter.",
+    "misconceptions": [
+      {
+        "belief": "Air is not matter because we cannot see it or hold it.",
+        "correction": "Air occupies space and has mass -- both fundamental properties of matter. The inverted-glass activity proves air occupies space (water cannot enter the glass because air is already there), and weighing an inflated balloon against a deflated one proves air has mass. Invisibility does not disqualify something from being matter; the test is space and mass, not sight. CISCE examiners have repeatedly observed that candidates lose marks through guesswork on such classification questions \"due to lack of clarity regarding the fundamentals\" -- the remedy is to apply the two-property test, not to rely on what can be seen."
+      },
+      {
+        "belief": "Heat and light are matter because they come from the Sun and we can feel them.",
+        "correction": "Heat and light are forms of energy, not substances. They do not occupy space as a material body does, and they cannot be weighed on a balance. The Sun itself (a ball of hot gases) is matter, but the heat and light it radiates are not. Feeling a sensation is not the same as a thing having mass and volume."
+      },
+      {
+        "belief": "A shadow is matter because it has a shape and appears on a surface.",
+        "correction": "A shadow is simply the absence of light where an object blocks it. It has no mass and no volume; it cannot be collected in a container or weighed. Shape alone does not make something matter -- both fundamental properties must be present."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define matter and state its two fundamental properties with one example each.",
+        "answer": "Matter is anything that occupies space and has mass. The two fundamental properties are: (1) matter occupies space -- for example, a stone lowered into a glass of brim-full water causes the water to overflow, showing the stone takes up space (volume); (2) matter has mass -- for example, placing the same stone on a balance gives a reading in grams, showing it contains a measurable quantity of matter. Both properties must be present for something to be classified as matter. A body that occupies space but has no mass, or that has mass but occupies no space, would not qualify. This two-property definition is the foundation on which the entire study of matter in Class 7 Physics is built, and it is the standard definition expected in the ICSE board examination."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain why air is classified as matter even though it is invisible, using two pieces of experimental evidence.",
+        "answer": "Air is classified as matter because it satisfies both fundamental properties -- it occupies space and it has mass -- and the test for matter is these two properties, not visibility. The first piece of evidence comes from the inverted-glass activity: when an empty glass is pushed mouth-downward into a bowl of water, the water does not enter the glass because the air trapped inside already occupies that space. Tilting the glass releases bubbles of air that rise to the surface, and water then rushes in to fill the vacated space. This proves air occupies space. The second piece of evidence comes from weighing: a rubber balloon is weighed, then inflated with air and weighed again. The inflated balloon is slightly heavier, the difference being the mass of the air that was forced into it. This proves air has mass. Since air satisfies both requirements of the definition, it is matter, regardless of the fact that it cannot be seen with the naked eye."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student states, \"Heat from a hot iron is matter because it flows from the iron to my hand and I can feel it.\" Evaluate this statement and give a balanced argument.",
+        "answer": "The statement is incorrect. Although the student's observation is real -- heat does flow from a hotter body to a cooler one and is felt as a sensation -- the conclusion that heat is matter does not follow from the definition of matter. To classify something as matter, it must satisfy BOTH fundamental properties: it must occupy space (have volume) and it must have mass (be weighable on a balance). Heat fails on both counts. Heat is a form of energy in transit, not a substance; it cannot be collected in a container and measured in cubic centimetres, and it cannot be placed on a balance and weighed in grams. A fair counter-argument that the student might raise is that heat \"travels\" and \"affects\" things, which sounds like the behaviour of a substance. However, travelling and affecting are not the defining tests -- the defining tests are space and mass. Compare heat with the hot iron itself: the iron is matter because it has a fixed volume and a measurable mass on a balance; the heat it gives off is energy that passes through the iron and the surrounding air but is not itself a material substance. The air that carries the heat, by contrast, IS matter. This distinction -- between the tangible substance and the intangible form of energy -- is exactly the kind of classification the ICSE board examiners have flagged as poorly handled, with candidates choosing wrong options \"due to lack of clarity regarding the fundamentals.\" The correct evaluation is therefore: the sensation of heat is real, but heat is non-matter because it has neither volume nor mass."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You are given five items -- a piece of chalk, a sunbeam, the sound of a bell, a bottle of water, and the shadow of a tree. Classify each as matter or non-matter and justify each classification using the two-property test.",
+        "answer": "(1) Piece of chalk -- MATTER. It occupies space (it displaces water if immersed) and has mass (it can be weighed on a balance in grams). Both properties are present. (2) Sunbeam -- NON-MATTER. A sunbeam is light, a form of energy; it has no mass and no volume and cannot be weighed or contained. (3) Sound of a bell -- NON-MATTER. Sound is a vibration that travels through the surrounding air, but the sound itself has no mass and no volume; the air carrying it is matter, the sound is not. (4) Bottle of water -- MATTER. The water occupies the volume of the bottle and has a measurable mass on a balance; it is a liquid state of matter. (5) Shadow of a tree -- NON-MATTER. A shadow is the region where the tree blocks sunlight; it has no mass and no volume and cannot be collected or weighed. Applying the two-property test consistently -- does it occupy space AND does it have mass? -- gives a reliable classification for every item."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple home experiment, using only everyday objects, to demonstrate to a Class 5 student that air occupies space. Describe the steps, the expected observation, and the conclusion in your own words.",
+        "answer": "Take a clear plastic bottle with its cap, a bowl of water, and a small piece of coloured paper. Step 1: Crumple the coloured paper loosely and push it into the bottom of the bottle so that it stays wedged near the closed end and does not fall out when the bottle is turned upside down. Step 2: Turn the bottle upside down and lower it mouth-first into the bowl of water, keeping it vertical. Step 3: Push the bottle down until the mouth is well below the water surface, but do not tilt it. Step 4: Observe -- the water does not enter the bottle, and the coloured paper stays dry, because the air trapped inside the bottle occupies the space and prevents the water from rising. Step 5: Now tilt the bottle slightly while it is still under water. Bubbles of air escape and rise to the surface, and water rushes into the bottle, wetting the paper. Conclusion: The air inside the bottle was taking up space -- that is why the water could not enter at first. When the air was allowed to escape, the water took its place. This shows that air, though invisible, occupies space, and is therefore one of the two fundamental properties that make it matter. The experiment is safe, uses only household objects, and gives a Class 5 student a clear, visible proof of an otherwise invisible fact."
+      }
+    ],
+    "masteryCriteria": "Can define matter as anything that occupies space and has mass, using the exact wording expected at ICSE board level; can give at least two examples of matter (e.g. stone, water, air, book) and two examples of non-matter (e.g. light, heat, sound, shadow) with justification using the two-property test; can describe one experimental evidence that matter occupies space (e.g. a solid immersed in water displaces it; the inverted-glass activity showing air occupies space) and one evidence that matter has mass (e.g. weighing objects on a balance; an inflated balloon weighs more than a deflated one); can state that matter exists in three states -- solid, liquid and gas -- with one example each.",
+    "cognitiveLevel": "remember"
+  },
+  {
+    "nodeId": "c7_phy_002",
+    "title": "Particle nature of matter",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "Matter is anything that has mass and occupies space, and according to the particle nature of matter, all matter -- whether a solid, a liquid, or a gas -- is made up of extremely tiny particles that are too small to be seen by the unaided eye. These particles are microscopic units of a substance and are separated from one another by spaces called interparticle spaces. The size of these particles is far smaller than anything we encounter in daily life; a single grain of common salt (sodium chloride) crushed and dissolved in a beaker of water splits into countless invisible particles that spread evenly throughout the water, which is direct evidence that matter is particulate.\r\n\r\nTwo classic pieces of evidence establish the particle nature of matter at the Class 7 level. The first is diffusion, the spontaneous movement and spreading of particles from a region of higher concentration to a region of lower concentration until they are evenly distributed. When a drop of ink is gently placed in a beaker of still water, the colour slowly spreads through the whole beaker without stirring; when a few crystals of potassium permanganate are dropped into water, the purple colour gradually fills the entire vessel. Likewise, when perfume is sprayed at one corner of a room, the smell reaches a person standing at the opposite corner within seconds -- the particles of the scent travel through the air and spread out. Diffusion shows that particles of matter are constantly moving and that there must be empty space between them for the moving particles to occupy.\r\n\r\nThe second piece of evidence is compressibility, the property by which matter can be forced into a smaller volume because of the interparticle spaces. When a gas such as air is trapped in a syringe and the nozzle is blocked, pushing the plunger reduces the volume noticeably; the particles, which are widely spaced in a gas, are pushed closer together. A liquid in a similar syringe can be compressed only very slightly, and a solid (such as a piece of iron or chalk placed in a syringe) can scarcely be compressed at all. This comparison shows that the interparticle space is largest in gases, very small in liquids, and almost negligible in solids.\r\n\r\nThe arrangement of particles differs across the three states of matter and explains their observable properties. In solids the particles are closely packed in a fixed, orderly arrangement with very tiny interparticle spaces; this gives solids a definite shape and volume and makes them incompressible. In liquids the particles are loosely packed -- they are still close to one another but can slide past each other, so a liquid has a definite volume but takes the shape of its container. In gases the particles are widely spaced and move freely at high kinetic energy, so a gas has neither a definite shape nor a definite volume and fills any container completely. Thus the particle model -- tiny, separated, moving particles whose spacing changes with the state -- explains the physical behaviour of matter that was first observed in the previous node on the physical nature of matter.",
+    "eli5": "Imagine everything around you is built from invisibly tiny beads -- your pencil, the milk in your glass, even the air you breathe. In a solid the beads are packed tight like marbles in a jar, so it keeps its shape. In a liquid the beads are close but can slide, so it pours. In a gas the beads are far apart and zoom around, so you can squash the air in a syringe. When a drop of ink spreads in water, the beads are wandering and mixing -- that is diffusion.",
+    "misconceptions": [
+      {
+        "belief": "Particles of matter are stationary and only move when we stir or heat them.",
+        "correction": "Particles of matter are always in motion, even in a solid where they vibrate about fixed positions. Diffusion of potassium permanganate in still water and the spread of perfume in an unventilated room happen without any stirring, which proves the particles move on their own. This aligns with the CISCE examiner observation (PPA 2020) that students often fail to mention the role of particle motion and instead attribute spreading to external causes; teachers are advised to demonstrate the concept and stress the key idea of spontaneous movement."
+      },
+      {
+        "belief": "Diffusion and mixing by stirring are the same thing.",
+        "correction": "Stirring is a mechanical process that forces particles together quickly; diffusion is the spontaneous, unaided spreading of particles due to their own motion and the presence of interparticle space. Examiners (PPA 2020, 2024) have repeatedly flagged that candidates use loose or wrong terminology -- for example, using \"reflection\" or \"dispersion\" where \"scattering\" was required -- and the same carelessness appears with diffusion. Always use the precise term and state that diffusion needs no external help."
+      },
+      {
+        "belief": "Solids cannot be compressed at all because they have no interparticle space.",
+        "correction": "Solids have very small interparticle spaces, not zero space. They are nearly incompressible, not absolutely incompressible. The syringe experiment shows a tiny response even for a solid, and under enormous forces solids can be compressed slightly. Stating \"no space\" is an overstatement; the correct statement is \"very small interparticle space, hence almost incompressible.\""
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State two pieces of experimental evidence that show matter is made up of tiny particles, and give one example of each.",
+        "answer": "Two classic pieces of evidence for the particle nature of matter are diffusion and compressibility. Diffusion is the spontaneous spreading of particles of a substance from a region of higher concentration to a region of lower concentration without any stirring. A clear example is dropping a crystal of potassium permanganate into a beaker of still water: the purple colour slowly spreads until the whole beaker is uniformly coloured, showing that the crystal broke into tiny moving particles that travelled through the water. Another example is spraying perfume at one corner of a room and detecting the smell at the opposite corner within seconds. Compressibility is the second piece of evidence: when a gas such as air is trapped in a syringe with the nozzle blocked, pushing the plunger reduces the volume easily because the gas particles are widely spaced and the interparticle space can be squeezed. Together, these two observations prove that matter is made of tiny, separated, moving particles."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain why a gas can be compressed easily in a syringe but a solid placed in a syringe can hardly be compressed, using the particle model.",
+        "answer": "According to the particle model, the compressibility of a substance depends on the size of the interparticle spaces. In a gas the particles are very far apart with large empty spaces between them, so when the plunger is pushed the particles are simply forced closer together and the volume decreases a great deal -- this is why air in a blocked syringe is easily compressed. In a solid the particles are closely packed in a fixed, orderly arrangement with almost no space between them; the particles are already in contact, so pushing the plunger cannot squeeze them much closer and the volume barely changes. The same reasoning applies to a liquid, which has small interparticle spaces and is therefore only slightly compressible. Thus the difference in compressibility between a gas and a solid is direct evidence that the spacing of particles differs across the three states of matter: large in gases, small in liquids, and almost negligible in solids."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student writes, \"Diffusion happens because the particles of a substance are heavy and sink to the bottom, so the colour spreads downward only.\" Evaluate this statement and correct it with a proper explanation.",
+        "answer": "The statement is incorrect on two counts. First, diffusion is not caused by particles being \"heavy and sinking\"; it is caused by the constant, random motion of particles and the presence of interparticle space. Particles of matter move on their own, even without stirring or heating, and they move in all directions -- not only downward. Second, the claim that the colour spreads \"downward only\" is contradicted by everyday observation. When a crystal of potassium permanganate is placed at the bottom of a beaker of still water, the purple colour rises and fills the entire beaker, including the upper layers, proving that particles move upward as well as downward. Similarly, perfume sprayed near the floor of a room is soon detected at head height, again showing movement in all directions. The correct explanation is that particles move randomly from a region of higher concentration to a region of lower concentration until they are evenly distributed throughout the available space; gravity is not the driving force. This matters in the ICSE board context because examiners (PPA 2020, 2024) have repeatedly observed that candidates use vague or incorrect reasoning and fail to mention the key idea of random particle motion. A strong answer always names the process (diffusion), states the mechanism (random motion of particles through interparticle space), and gives the direction (all directions, until uniform)."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You are given three sealed syringes -- one containing air, one containing water, and one containing a small piece of iron. Describe what you will observe when you press the plunger of each, and state what each observation tells you about the arrangement of particles in that state of matter.",
+        "answer": "When the plunger of the air-filled syringe is pressed (with the nozzle blocked), the plunger moves down easily and the volume decreases significantly. This shows that the particles of a gas are widely spaced with large interparticle spaces, so they can be pushed closer together; a gas has no definite volume and fills the container. When the plunger of the water-filled syringe is pressed, the plunger moves only a very small distance, indicating that the particles of a liquid are close to one another with very little interparticle space; a liquid has a definite volume but takes the shape of the container. When the plunger of the syringe containing the piece of iron is pressed, the plunger hardly moves at all, showing that the particles of a solid are closely packed in a fixed arrangement with almost no space between them; a solid has a definite shape and a definite volume and is nearly incompressible. The experiment therefore demonstrates that interparticle space is largest in gases, very small in liquids, and almost negligible in solids, and that this difference in arrangement explains the differing compressibility of the three states."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple home experiment, using only household materials, to demonstrate diffusion in a liquid. State the materials, the steps, what you expect to observe, and how each observation supports the particle nature of matter.",
+        "answer": "Materials needed: a clear glass tumbler, tap water, a single drop of dark food colour or ink, and a steady table. Steps: (1) Fill the tumbler about three-quarters full with tap water and let it stand for a minute so that it is perfectly still. (2) Using the tip of a spoon or a dropper, gently place one drop of the food colour or ink at the centre of the water surface, taking care not to stir. (3) Watch the tumbler without disturbing it for the next thirty minutes, noting the position of the colour at intervals. Expected observations: immediately after the drop is added, a small concentrated patch of colour appears at the surface. Within a few minutes thin threads of colour begin to spread outward and downward. After about half an hour the entire tumbler is uniformly coloured, with no stirring having been done. How this supports the particle nature of matter: the colour did not spread by itself if the water were a continuous, featureless substance; the spreading shows that both the coloured substance and the water are made of tiny particles with space between them. The coloured particles move randomly through the spaces between the water particles, from the region where they are concentrated (the drop) to the regions where they are absent, until they are evenly distributed. This spontaneous, unaided spreading is diffusion, and it is direct evidence that matter is particulate. The experiment also shows that the particles are in constant motion, since no external force was applied."
+      }
+    ],
+    "masteryCriteria": "Can state that matter is made up of tiny particles separated by interparticle spaces; can describe diffusion as the spontaneous spreading of particles from high to low concentration using the potassium permanganate-in-water and perfume-in-air examples; can explain compressibility using the syringe experiment (gas easily compressed, liquid slightly, solid almost not at all); can relate particle spacing and arrangement to the three states of matter (closely packed in solids, loosely packed in liquids, widely spaced in gases) and link this to definite shape and volume.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_phy_003",
+    "title": "Solid state - properties and particle arrangement",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "The solid state is one of the three fundamental states of matter in which a substance possesses a definite shape and a definite volume of its own, regardless of the container in which it is placed. A block of stone, an iron rod, a piece of wood, and a cube of ice in a freezer all retain their own shape and size whether they sit on a table, lie in a trough, or are dropped into a beaker -- this is the defining macroscopic property of a solid. Solids are also incompressible: because the particles are already packed so closely that there is almost no empty space between them, applying ordinary pressure cannot force them closer together, which is why a brick or an iron nail cannot be squeezed into a smaller volume by hand. Solids do not flow; unlike a liquid that pours or a gas that spreads, a solid stays where it is and must be moved as a whole rigid body. This rigidity is a direct consequence of the very strong interparticle forces of attraction that hold the particles in place.\r\n\r\nAt the microscopic level, the particle arrangement in a solid is tightly packed, usually in a regular, ordered pattern, with each particle occupying a fixed position relative to its neighbours. The particles of a solid are not motionless -- they possess energy and therefore vibrate about their fixed mean positions, but they cannot move freely past one another or travel through the substance as the particles of a liquid or gas can. The interparticle force in a solid is very strong, which is why the particles remain bound in their positions and only oscillate through tiny distances. Because the particles cannot change places, the solid keeps its shape and volume. Common examples from the syllabus include stone, iron, wood, and ice -- each is rigid, keeps its own shape, has a fixed volume, and cannot be compressed or made to flow. A simple activity demonstrates these properties: a solid block placed successively in a square tray, a round bowl, and a tall cylinder keeps the same shape and volume in each container, and an attempt to compress the block by pressing it between the palms fails, confirming that solids are incompressible and rigid.",
+    "eli5": "Imagine a class photo where every student stands in a marked square on the floor, shoulder to shoulder, and is only allowed to wiggle in place but not step out of their square. Because nobody can move to a new spot, the whole class keeps the same shape and size no matter which room you put them in. That is a solid: particles packed tight, each stuck in its own spot, only jiggling, never walking -- so the solid stays rigid, keeps its shape and volume, and cannot be squeezed or poured.",
+    "misconceptions": [
+      {
+        "belief": "The particles of a solid are completely at rest because a solid is rigid.",
+        "correction": "This is a common error flagged by CISCE examiners, who observe that candidates often treat \"fixed position\" as \"no motion.\" The particles of a solid are NOT stationary. They possess energy and vibrate continuously about their fixed mean positions; they simply cannot move freely or change places. \"Fixed position\" fixes the average location, not the motion -- the particle oscillates about that point. So a solid is rigid because particles cannot translate past one another, not because they are motionless."
+      },
+      {
+        "belief": "A solid takes the shape of its container because it is inside the container.",
+        "correction": "Examiners note that some candidates confuse solids with liquids and state that the solid's shape changes with the vessel. A solid keeps its OWN definite shape and definite volume regardless of the container. An iron block remains rectangular whether placed in a square box or a round bowl; it does not adopt the container's shape. Only liquids and gases take the shape of the vessel."
+      },
+      {
+        "belief": "Solids can be slightly compressed because everything can be squeezed a little.",
+        "correction": "At the Class 7 level, solids are treated as incompressible under ordinary pressure. The particles are already tightly packed with negligible space between them, so applying hand or ordinary mechanical pressure produces no measurable change in volume. Claiming a solid can be compressed usually comes from confusing the tiny elastic deformation of the container or surface with compression of the solid itself. The syllabus property to state is: solids are incompressible."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State three properties of a solid and give two examples of solids from the syllabus.",
+        "answer": "A solid has a definite shape and a definite volume of its own, it is incompressible (cannot be squeezed into a smaller volume by ordinary pressure), and it does not flow -- it remains rigid and must be moved as a whole. Two examples of solids from the syllabus are iron, which is a hard solid used for nails and rods, and ice, which is the solid state of water and keeps its shape in a freezer. Other valid examples include stone and wood. Each of these solids, when placed in containers of different shapes, retains its own shape and volume, confirming the defining properties of the solid state."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain, using the particle model, why a solid has a definite shape and a definite volume but a liquid does not.",
+        "answer": "In a solid the particles are tightly packed in a regular arrangement and are held in fixed positions by very strong interparticle forces of attraction. The particles can only vibrate about their fixed mean positions; they cannot move past one another or travel through the substance. Because no particle can change its place, the overall arrangement -- and therefore the shape and volume of the solid -- stays the same regardless of the container. In a liquid, by contrast, the interparticle forces are weaker and the particles are less tightly packed, so they can slide past one another and move to new positions. This mobility lets a liquid take the shape of its vessel while keeping a definite volume. Thus the difference in particle freedom, set by the strength of the interparticle force and the closeness of packing, explains why a solid has a definite shape and volume while a liquid has only a definite volume."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"A solid is rigid because its particles do not move at all.\" Evaluate this statement and give a corrected explanation.",
+        "answer": "The statement is incorrect and reflects a common misunderstanding of the word \"fixed position.\" A solid is indeed rigid, but the rigidity does not come from the particles being motionless. The particles of a solid possess energy and are in continuous vibratory motion about fixed mean positions; they oscillate to and fro through tiny distances but never leave their average locations. What makes the solid rigid is that the particles cannot translate -- they cannot move past one another or flow to new positions -- because the interparticle forces are very strong and the packing is tight. So the correct explanation has two parts: the particles vibrate (they are not at rest), and they are confined to fixed positions (they cannot relocate). The first part addresses the motion, the second part addresses the rigidity. Stating that the particles \"do not move at all\" wrongly equates \"fixed position\" with \"no motion\" and loses the idea that particles always possess kinetic energy. A balanced answer therefore acknowledges that the particles are in motion (vibration) while explaining that rigidity arises from the inability to change positions, which is a consequence of strong interparticle forces and tight packing. This correction matters because the same misconception leads students to wrongly predict that cooling a solid further will stop all particle motion, which is not consistent with the particle model taught at this level."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You are given a solid wooden block. Describe an activity to demonstrate that the block has a definite shape, a definite volume, and is incompressible.",
+        "answer": "To demonstrate a definite shape and definite volume, place the wooden block successively in three different containers -- a square tray, a round bowl, and a tall cylindrical jar. Observe and measure the block before and after each transfer. You will find that the block retains the same dimensions (length, breadth, height) and the same shape in every container; it does not take the shape of the vessel and its volume does not change. This shows that a solid has its own definite shape and definite volume. To demonstrate incompressibility, place the block on a flat surface and press it firmly between your palms or between two flat boards, applying as much pressure as you comfortably can. Measure the block's dimensions again afterwards. You will observe no measurable change in volume because the particles of the wood are already tightly packed with negligible space between them, so ordinary pressure cannot force them closer. These two simple activities together verify the three key properties of the solid state: definite shape, definite volume, and incompressibility."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple analogy, using objects or people from everyday Indian life, to explain the particle arrangement of a solid to a Class 5 student. State what each part of your analogy represents.",
+        "answer": "Imagine a crowded local train compartment at a busy station where every passenger is standing tightly shoulder to shoulder in a fixed spot, holding the same handrail, and can only sway or jiggle slightly as the train moves but cannot walk to another seat or swap places with a neighbour. In this analogy, each passenger represents a particle of the solid; the tight shoulder-to-shoulder packing represents the tightly packed, regular arrangement of particles in a solid; the handrail each passenger grips represents the strong interparticle force that holds each particle in its fixed position; the small swaying or jiggling motion represents the vibration of particles about their fixed mean positions; and the fact that no passenger can walk past another to a new spot represents why the solid is rigid and cannot flow. Because every passenger stays in their own place and only wiggles, the whole compartment keeps its shape and size -- just as a solid block of iron or ice keeps its definite shape and definite volume no matter where it is placed. This analogy uses a familiar Indian scene to make the abstract idea of fixed-position vibration concrete and memorable for a young learner."
+      }
+    ],
+    "masteryCriteria": "Can state the three properties of a solid -- definite shape and definite volume, incompressible, and does not flow -- and give examples (stone, iron, wood, ice). Can describe the particle arrangement in a solid as tightly packed in a regular pattern with particles vibrating about fixed positions held by strong interparticle forces. Can explain, using the particle model, why a solid has a definite shape and volume (particles cannot move past one another) and why it is incompressible (negligible space between particles). Can distinguish a solid from a liquid by linking each macroscopic property to its particle-level cause.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_phy_004",
+    "title": "Liquid state - properties and particle arrangement",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "The liquid state is one of the three fundamental states of matter in which a substance has a definite volume but no fixed shape. A liquid always takes the shape of the container it is poured into, yet the amount (volume) of the liquid remains the same regardless of the container's form. For example, 100 mL of water poured from a tall glass into a wide shallow dish still measures 100 mL, but the water spreads out to match the dish's shape. This behaviour arises directly from the particle arrangement inside a liquid: the particles are loosely packed compared with a solid, with larger interparticle spaces between them, and they are not held rigidly in place. Instead, the particles can slide past one another, which is why a liquid flows and takes the shape of its container. Because the particles remain close enough to be held together by attractive forces, the liquid keeps a fixed volume -- it does not expand to fill the whole container the way a gas does.\r\n\r\nLiquids are therefore described as fluids -- substances that can flow. Common examples include water, oil, milk, alcohol, and honey. A liquid is only slightly compressible: because the interparticle spaces in a liquid are small, applying high pressure reduces the volume only marginally, far less than in a gas but more than in a solid (which is practically incompressible). This is why liquids are often used to transmit pressure in hydraulic systems, such as car brakes. The ability of liquid particles to slide past one another also explains why liquids pour, spread, and form a horizontal upper surface when at rest in a container -- gravity pulls the sliding particles downward until the surface is level. The interparticle spaces in a liquid are larger than those in a solid but much smaller than those in a gas, placing the liquid state between the solid and gaseous states in terms of particle freedom. Understanding the liquid state therefore requires the particle model of matter: it is the loosely packed, sliding arrangement of particles that gives liquids their characteristic properties of definite volume, indefinite shape, and the ability to flow.",
+    "eli5": "Imagine a crowd of people walking through a corridor. They stay close together, so the whole group keeps the same size (definite volume), but because they can shuffle and slide past each other, the crowd bends around corners and fills the shape of the corridor (no fixed shape, can flow). That is exactly how liquid particles behave -- loosely packed and sliding, which is why water, oil, and milk flow and take the shape of their container.",
+    "misconceptions": [
+      {
+        "belief": "A liquid has no fixed volume because it takes the shape of its container.",
+        "correction": "Taking the shape of the container is about shape, not volume. The volume of a liquid stays the same no matter what container it is in -- 100 mL of water is still 100 mL in a glass, a bowl, or a tray. CISCE examiners have repeatedly observed that students confuse \"shape\" with \"volume\" and lose marks; always keep the two ideas separate -- a liquid has definite volume but indefinite shape."
+      },
+      {
+        "belief": "Liquids are completely incompressible, just like solids.",
+        "correction": "Liquids are only slightly compressible, not perfectly incompressible. The interparticle spaces in a liquid are small but larger than in a solid, so under very high pressure the volume reduces a little. Treating liquids as totally incompressible is an approximation used in simple problems, but the syllabus term is \"slightly compressible.\""
+      },
+      {
+        "belief": "Liquid particles are free to move anywhere like gas particles.",
+        "correction": "Liquid particles can slide past one another but they remain close together, held by interparticle forces of attraction. They are not free to fly off and fill the whole container the way gas particles do. That is why a liquid has a definite volume while a gas does not. Examiners note that rote-learned answers often blur the liquid and gas states; always anchor your answer in the particle arrangement -- loosely packed and sliding, not free-moving."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State the three main properties of a liquid and give one example from the syllabus.",
+        "answer": "A liquid has three key properties. First, it has a definite volume -- the amount of liquid stays the same no matter which container it is poured into. Second, it has no fixed shape; it takes the shape of the container. Third, it can flow. A common example from the syllabus is water: if you pour 100 mL of water from a tall glass into a wide dish, the water still measures 100 mL (definite volume) but spreads out to match the dish (no fixed shape), and when you tilt the glass the water flows out. Other examples include oil and milk, which also flow and take the shape of their bottles or vessels."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Using the particle model, explain why a liquid has a definite volume but no fixed shape.",
+        "answer": "The behaviour of a liquid comes from how its particles are arranged. In a liquid, the particles are loosely packed -- they are close to one another but not locked into fixed positions as they are in a solid. The interparticle spaces are larger than in a solid but still small. Because the particles are not rigidly held, they can slide past one another, and this sliding lets them rearrange to fit the walls of any container, giving the liquid its indefinite shape. However, the particles remain close enough to be held together by interparticle forces of attraction, so the liquid does not expand to fill the whole container; its total volume stays fixed. Thus the same particle arrangement -- loosely packed and able to slide -- explains both properties at once: sliding gives indefinite shape, while closeness and attraction give definite volume."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"Since a liquid takes the shape of its container, it must be a gas, because gases also fill their container.\" Evaluate this statement and explain the difference between a liquid and a gas using the particle model.",
+        "answer": "The student's statement is incorrect and confuses two very different states of matter. It is true that both liquids and gases take the shape of their container, but the similarity ends there. A gas has neither a definite volume nor a definite shape -- it expands to fill the entire container, however large. A liquid, by contrast, has a definite volume even though its shape changes. The difference lies in the particle arrangement. In a gas, the particles are very far apart, the interparticle spaces are huge, and the particles are free to move in all directions with very weak forces of attraction between them; that is why a gas spreads to fill the whole vessel. In a liquid, the particles are loosely packed but still close together, held by stronger interparticle forces, and they can only slide past one another -- they cannot fly apart. So the liquid keeps its volume while changing shape, whereas the gas changes both. A fair evaluation must acknowledge the partial truth -- both states do take the container's shape -- but must then distinguish them on volume and on the freedom of their particles. Marking this distinction correctly is exactly what ICSE examiners look for when they ask students to compare states of matter using the particle model."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You are given 250 mL of milk in a measuring cylinder. You pour it into a round bowl, then into a flat tray, and finally back into the measuring cylinder. Describe what happens to the shape and volume of the milk at each step, and explain your observation using the particle arrangement.",
+        "answer": "When the 250 mL of milk is in the measuring cylinder, it has a tall, narrow cylindrical shape and a volume of 250 mL. When poured into the round bowl, the milk takes the round, shallow shape of the bowl, but the volume is still 250 mL. When poured into the flat tray, the milk spreads out into a thin, wide layer matching the tray, yet again the volume remains 250 mL. When poured back into the measuring cylinder, the milk returns to its tall cylindrical shape and still reads 250 mL. This shows that the shape of the milk changes with the container, but the volume stays constant. Using the particle model, the milk particles are loosely packed and can slide past one another, so they rearrange to fit each container's shape. Because the particles remain close together and are held by interparticle forces, the total volume does not change. This single activity demonstrates both the indefinite shape and the definite volume of a liquid."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple experiment using only household items to show that a liquid flows and takes the shape of its container, while keeping a definite volume. List the steps and state what each step demonstrates.",
+        "answer": "Take three transparent containers of different shapes -- a tall glass, a round bowl, and a flat plate -- and a measuring jug. Step 1: Pour 200 mL of water into the measuring jug and note the reading (200 mL). This establishes the definite volume of the liquid. Step 2: Pour the water from the jug into the tall glass and observe that the water forms a tall, narrow column -- it has taken the shape of the glass. Step 3: Pour the same water into the round bowl and observe that it now forms a shallow, round layer -- the shape has changed again, showing indefinite shape. Step 4: Pour the water into the flat plate and watch it spread out thinly -- still a different shape. Step 5: Tilt the glass gently and let the water pour into the bowl; the smooth stream of water shows that the liquid flows, because its loosely packed particles can slide past one another. Step 6: Finally, pour all the water back into the measuring jug and check the reading -- it still shows 200 mL, proving the volume never changed. This experiment demonstrates all three properties of a liquid -- definite volume, indefinite shape, and flow -- using the particle idea that liquid particles are loosely packed and can slide past each other."
+      }
+    ],
+    "masteryCriteria": "Can state the three key properties of a liquid -- definite volume, no fixed shape (takes shape of container), and ability to flow -- with a correct example such as water taking the shape of a glass while keeping its 100 mL volume. Can explain that liquid particles are loosely packed with interparticle spaces larger than in a solid but smaller than in a gas, and that the particles can slide past one another. Can distinguish a liquid from a solid (fixed shape vs indefinite shape) and from a gas (definite volume vs no definite volume) using the particle model. Can give at least three examples of liquids (water, oil, milk) and explain why a liquid is only slightly compressible.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_phy_005",
+    "title": "Gaseous state - properties and particle arrangement",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "A gas is the state of matter in which the constituent particles are so widely spaced apart that they are essentially free from one another's pull, and they move rapidly and randomly in all directions. Because of this widely spaced, freely moving particle arrangement, a gas has no definite shape and no definite volume of its own -- it takes the shape of whatever container it is placed in and expands to fill the entire available space, however large or small that container may be. This is why the same amount of air can fill a small balloon, a football, or an entire room: the gas particles simply spread out until they occupy every corner. Gases are therefore said to have indefinite shape and indefinite volume.\r\n\r\nA second key property follows directly from the large empty spaces between particles: gases are highly compressible. When you push the plunger of a sealed syringe filled with air, the gas shrinks to a fraction of its original volume because the particles are forced closer together into the empty space between them. Solids and liquids, by contrast, can barely be compressed because their particles are already tightly packed. Gases also flow freely -- they are fluids in the scientific sense (anything that flows is a fluid), and like liquids they take the shape of the lower part of the container, but unlike liquids they also fill the upper part and spread in all directions.\r\n\r\nThe rapid, random motion of gas particles produces a phenomenon called diffusion -- the spontaneous spreading out of one gas through another until it is evenly mixed. The smell of incense sticks (agarbatti) lit at one end of a room reaching the other end within seconds is a familiar Indian example of gaseous diffusion. Common examples of gases from everyday life include air (a mixture mainly of nitrogen and oxygen), oxygen (the gas we breathe in, released by plants), carbon dioxide (the gas we exhale and that plants use in photosynthesis), nitrogen (used to fill packaged food packets to keep them fresh), and water vapour (steam from a hot cup of chai). The particle model of matter -- that matter is made of tiny particles with space between them -- is what explains every one of these properties: because the particles are far apart and move freely, a gas has no fixed shape, no fixed volume, is easily compressed, flows, and diffuses rapidly.",
+    "eli5": "Imagine a huge empty playground with only a few children running wildly in every direction, bumping into each other and the fence. That is a gas -- the children are the particles and the playground is the container. Because they are so few and far apart, they fill the whole playground, take its shape, and you can easily squeeze them into a smaller ground by pushing the fences closer. That is why gases have no fixed shape or volume and are easy to compress.",
+    "misconceptions": [
+      {
+        "belief": "A gas has no volume.",
+        "correction": "A gas has no definite or fixed volume of its own, but it certainly has a volume at any moment -- the volume of whatever container it fills. Saying \"no volume\" is wrong; the correct phrase is \"no definite volume\" or \"indefinite volume\", meaning the volume changes with the container."
+      },
+      {
+        "belief": "Gases cannot be compressed because they are already spread out.",
+        "correction": "It is exactly the opposite. Because the particles are widely spaced with large empty gaps between them, gases are the most compressible state of matter -- the plunger of a sealed air-filled syringe can be pushed in easily, forcing particles into the empty space. Solids and liquids, whose particles are already touching, are nearly incompressible.\r\n\r\nMisconception 3 (grounded in CISCE examiner observations): Examiners have repeatedly noted that students rely on rote learning -- listing properties like \"no shape, no volume, compressible\" without linking them to the particle arrangement, just as they confused energy conversions by rote in the doorbell question. Correction: Every property of a gas must be explained using the particle model. Write \"because the particles are widely spaced and move rapidly and randomly, the gas has no definite shape or volume and is highly compressible.\" Reasoning, not recall, earns the marks."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State three properties of gases and explain how each follows from the arrangement and motion of gas particles.",
+        "answer": "Three properties of gases are: (1) no definite shape, (2) no definite volume, and (3) high compressibility. (1) A gas has no definite shape because its particles are widely spaced and not held in any fixed pattern; they move rapidly and randomly in all directions, so the gas simply takes the shape of whatever container it is placed in. (2) A gas has no definite volume because the freely moving particles spread out until they fill the entire container, whether it is a small balloon or a large room -- the volume is always the volume of the container. (3) A gas is highly compressible because there are large empty spaces between the widely spaced particles; when pressure is applied, the particles are pushed closer together into this empty space, reducing the volume greatly. Each property is a direct consequence of the widely spaced, freely moving particle arrangement, which is why the particle model is central to understanding the gaseous state."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "When air is trapped in a sealed syringe and the plunger is pushed in, the volume of air decreases easily. When water is trapped in the same syringe, the plunger can barely move. Explain this difference using the particle model.",
+        "answer": "In air, the gas particles are very far apart with large empty spaces between them -- in fact, most of the volume of a gas is empty space. When you push the plunger, you are simply forcing these widely spaced particles closer together by squeezing the empty gaps; the particles themselves are not crushed, only the space between them is reduced, so the volume shrinks easily. In water, however, the liquid particles are already close together and almost touching, with very little empty space between them. When you try to push the plunger, there is almost no gap to squeeze, so the particles cannot be forced closer and the plunger barely moves. This contrast shows that compressibility depends on how much empty space exists between particles: gases have a great deal, liquids have very little, and solids have almost none. The syringe experiment therefore directly demonstrates that the large inter-particle spaces in a gas are what make it highly compressible, while the tightly packed particles of a liquid make it nearly incompressible."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student writes in an exam: \"Gases have no volume, so they can be compressed easily.\" Evaluate the accuracy of this statement and give a corrected version with full reasoning.",
+        "answer": "The statement is partly correct in its conclusion but wrong in its reasoning and wording. The phrase \"gases have no volume\" is incorrect -- every sample of gas occupies some volume at any given moment; that volume is simply the volume of the container it fills. The correct description is that a gas has no definite or fixed volume, meaning its volume is not fixed but changes depending on the size of the container. A small amount of air can fill a tiny balloon or an entire hall; in both cases the gas has a volume, but that volume is not its own -- it is the container's. The second part, \"so they can be compressed easily,\" reaches the right conclusion but for the wrong reason. Gases are compressible not because they \"have no volume\" but because the particles are widely spaced with large empty spaces between them; when pressure is applied, the particles are pushed closer together into these empty spaces, reducing the volume. A corrected statement would be: \"A gas has no definite volume because its widely spaced particles spread to fill any container; the large empty spaces between the particles make gases highly compressible.\" This version links the property correctly to the particle arrangement, which is what ICSE examiners expect. The broader lesson, noted repeatedly in CISCE examiner reports, is that students must avoid loose wording and rote phrases -- precise language and particle-based reasoning earn the marks."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You light an agarbatti (incense stick) at one end of a closed classroom. Within a few seconds the smell is detected at the other end, several metres away. Name the process involved and explain it using the particle model of gases.",
+        "answer": "The process is called diffusion -- the spontaneous spreading of one gas (here, the vapour from the agarbatti) through another gas (the air in the classroom) until it is evenly mixed. According to the particle model, the particles of a gas are widely spaced and move rapidly and randomly in straight lines in all directions, constantly colliding with each other and with the walls. When the incense vapour is released at one point, its particles begin to move quickly in every direction, mixing with the air particles and spreading outward. Because the air particles are also moving and there is plenty of empty space between them, the vapour particles travel through the air rapidly and reach every corner of the room within seconds. The smell becomes uniform after some time because the particles continue moving until they are evenly distributed. This everyday Indian example shows that diffusion in gases is fast precisely because gas particles are far apart and move freely -- the same properties that give gases no definite shape or volume also make diffusion rapid."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple classroom activity using a balloon and two containers of very different sizes to demonstrate that a gas has no definite volume. Describe the steps, what students should observe, and how you would explain the observation using the particle model.",
+        "answer": "Activity -- \"The Balloon that Fills Any Space\". Materials: one small balloon, one small transparent box (about 1 litre), one large transparent box or fish-tank-style container (about 10 litres), a short tube and clip. Steps: (1) Inflate the balloon to a fixed, moderate size and tie it, then release the same air through the tube into the small sealed box; observe that the air fills the small box completely. (2) Now take the same amount of air (use a syringe to measure an equal volume) and release it into the large sealed box; observe that the air again fills the entire large box, spreading to every corner. (3) Ask students to compare the volume the gas occupied in the two boxes. Observations: The same quantity of air filled both the small 1-litre box and the large 10-litre box completely; the gas took the volume of whichever container it was in. Explanation: Because gas particles are widely spaced and move rapidly and randomly in all directions, they are not bound to any fixed volume. They spread out until they occupy all the available space, so the gas has no definite volume of its own -- its volume is always the volume of the container. This activity directly demonstrates the indefinite volume property of gases and links it to the particle model, giving students a hands-on, memorable illustration they can describe in a board exam."
+      }
+    ],
+    "masteryCriteria": "Can state the three key properties of gases -- no definite shape, no definite volume, highly compressible -- and link each to the widely spaced, rapidly and randomly moving particle arrangement; can explain why a gas fills any container using the particle model (e.g., air filling a 1-litre box or a 10-litre box); can describe the syringe experiment to show that gases are compressible while liquids are not, citing the large empty spaces between gas particles; can give at least three examples of gases (air, oxygen, carbon dioxide) and describe diffusion using an everyday example such as agarbatti smell spreading through a room.",
+    "cognitiveLevel": "understand"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE MatterStatesSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

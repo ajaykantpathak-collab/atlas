@@ -1,0 +1,1341 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete EnergyLeverSimulation.tsx component about Energy, Work, Power and Machines (levers, mechanical advantage, turning effect, moment of force).
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Physics Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_phy_017",
+    "title": "Energy as the capacity to do work",
+    "subject": "physics",
+    "classLevel": 6,
+    "definition": "Energy is the capacity to do work. Whenever a force acts on a body and causes it to move through some distance (displacement), work is said to be done; the measure of how much work a body is able to do is called its energy. In other words, energy is that hidden quantity stored in a body, in food, in fuel, or in a battery, which can be spent to push, pull, lift, heat, light, or move something. Because work and energy are two sides of the same coin, they share the same SI unit -- the joule (J). One joule is the amount of work done when a force of one newton moves a body through a displacement of one metre in the direction of the force; therefore 1 J = 1 N x 1 m. Although the joule is the standard unit, in daily life we also meet larger units such as the kilojoule (1 kJ = 1000 J) when we read food labels, and the kilowatt-hour when we pay our electricity bill, but at Class 6 level the joule is the unit to remember.\r\n\r\nEnergy exists in several forms. Mechanical energy is the energy a body has because of its position or motion, and it has two sub-forms: kinetic energy, which a moving body possesses (a running child, a rolling ball, flowing river water at Bhakra Nangal), and potential energy, which a body stores because of its position or shape (a book on a high shelf, water held behind a dam, a stretched rubber band). Heat energy is the energy that flows from a hotter body to a colder body and is felt as warmth -- the heat from a chulha, a solar cooker, or an electric heater. Light energy is the energy that enables us to see; it travels from sources such as the Sun, a glowing electric bulb, or a lit diya. Sound energy is produced by vibrating bodies and travels as waves we hear -- a ringing school bell, a honking auto-rickshaw, or a clap of thunder. Electrical energy is the energy carried by moving charges in a circuit; it runs our ceiling fans, refrigerators, and the metro trains in Delhi.\r\n\r\nEnergy is needed to perform any work in daily life. Food gives energy to our body to do daily activities such as walking to school, carrying a school bag, or playing kabaddi. Electricity provides energy to run appliances such as a mixer-grinder, a washing machine, or a tube-light. Fuel (petrol, diesel, LPG, coal) gives energy to vehicles such as a bus, a car, or an aeroplane, and also to power plants that generate electricity. Without energy, no work -- large or small -- can be done; a body with zero energy is simply unable to cause any displacement, however tiny.",
+    "eli5": "Think of energy as money in a piggy bank and work as the toys you buy with it. You cannot buy any toy (do any work) unless you have money (energy) in the bank. The rupee is the smallest coin you count with; in science, the joule is the smallest unit we count energy in. Food, fuel, and electricity are ways of putting \"money\" into different piggy banks so they can later \"buy\" work like running, moving a car, or spinning a fan.",
+    "misconceptions": [
+      {
+        "belief": "Energy and force are the same thing.",
+        "correction": "A force is a push or a pull acting on a body right now; energy is the stored capacity that makes that force able to do work over a distance. You can apply a force briefly without doing work (pushing a wall that does not move), but to do work you must spend energy. Force is measured in newtons (N); energy is measured in joules (J)."
+      },
+      {
+        "belief": "CISCE examiners (2024) observed that some candidates confused gravitational potential energy with sound energy in a doorbell question, \"thinking that the bell is fixed at a height.",
+        "correction": "The height of a device does not decide its energy form. A doorbell works because an electric current energises an electromagnet that strikes a gong -- that is electrical energy changing into sound energy. The fact that the bell is mounted high on a wall is irrelevant; gravitational potential energy would matter only if the bell were falling. Always identify the form by what is actually happening (current -> vibration -> sound), not by where the object is placed."
+      },
+      {
+        "belief": "Examiners also noted candidates writing \"electrical to sound\" by rote learning without understanding.",
+        "correction": "Rote-listing energy conversions without reasoning leads to errors when the example changes. Instead, trace the actual process: identify the input (what supplies the energy), the output (what work or effect you observe), and name both forms. For a doorbell the input is electrical, the output is sound; for an electric bulb the input is electrical, the outputs are heat and light."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define energy and state its SI unit. Express one joule in terms of newton and metre.",
+        "answer": "Energy is defined as the capacity to do work. It is the hidden quantity stored in a body, in food, in fuel, or in a battery that can be spent to push, pull, lift, heat, light, or move something. Because work and energy are two sides of the same coin, they share the same SI unit -- the joule, symbol J. One joule is defined as the amount of work done when a force of one newton moves a body through a displacement of one metre in the direction of the force. Therefore 1 J = 1 N x 1 m. A useful everyday feel for the size of a joule is that lifting a medium-sized tomato (about 100 g) through one metre against gravity requires roughly one joule of energy. Because the joule is a small unit, larger units such as the kilojoule (1 kJ = 1000 J) are used on food labels, and the kilowatt-hour is used on electricity bills, but at Class 6 level the joule is the unit to remember and quote in the board examination."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain why a person pushing a stationary wall does no work even though they feel tired, and link this to the definition of energy.",
+        "answer": "Work is done only when a force produces displacement in the direction of the force. When a person pushes a stationary wall, the wall does not move, so the displacement is zero. Since work = force x displacement in the direction of the force, and displacement here is zero, the work done on the wall is zero even though the person feels tired. The tiredness comes from energy spent inside the muscles (chemical energy from food being converted and lost as heat), not from work done on the wall. This example highlights the precise meaning of energy as the capacity to do work: energy is counted as work only when it actually produces displacement through a force. A body or person may possess energy, but unless that energy results in a force moving something through a distance, no work is recorded in the physics sense. Hence \"feeling tired\" and \"doing work\" are not the same -- work requires both force and displacement."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"A ceiling fan mounted high on the ceiling has gravitational potential energy, so the form of energy used by the fan is potential energy.\" Evaluate this statement, giving a balanced argument and the correct reasoning.",
+        "answer": "The student's statement contains a partial truth but reaches the wrong conclusion, so it must be evaluated carefully. It is true that any body at a height above the ground possesses gravitational potential energy by virtue of its position, and a ceiling fan fixed high on the ceiling does technically have some gravitational potential energy relative to the floor. So the first part of the reasoning -- that height gives potential energy -- is correct in principle. However, the conclusion that \"the form of energy used by the fan is potential energy\" is wrong, because the question is about which form of energy the fan actually uses to do its job, not which form it happens to possess by being mounted high. A ceiling fan rotates because electric current flows through its motor; that current supplies electrical energy, which the motor converts into kinetic energy of the rotating blades (and some heat due to friction). The gravitational potential energy of the fan plays no role in turning the blades -- it would only matter if the fan were to fall. This is exactly the kind of confusion CISCE examiners flagged in 2024, when candidates answered a doorbell question by calling the energy \"gravitational potential\" simply because the bell was fixed at a height. The correct approach is to identify the form of energy by what is actually happening in the device -- the input that does the work -- not by where the device is mounted. Therefore the correct statement is: \"The ceiling fan uses electrical energy, which is converted into kinetic energy of the blades; its height gives it some potential energy, but that is not the energy being used.\" This balanced view respects the truth in the student's observation while correcting the misuse of the energy form."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "For each of the following daily activities, identify the form of energy used and the work it does: (a) eating rice and then running a 100 m race; (b) switching on an electric iron; (c) burning LPG in a kitchen stove; (d) a ringing school bell.",
+        "answer": "(a) The rice stores chemical energy (from carbohydrates). When you run, this chemical energy is converted in your muscles into kinetic energy of your body and heat; the work done is moving your body through 100 m against air resistance and friction. (b) An electric iron draws electrical energy from the mains; this is converted mainly into heat energy that smooths the clothes by removing wrinkles, and a little into light (the glowing indicator). The work done is heating the sole-plate. (c) LPG stores chemical energy; on burning it releases heat energy, which cooks the food by raising its temperature and causing chemical changes. The work done is heating the vessel and its contents. (d) A school bell receives electrical energy (in an electric bell) or is struck mechanically; the energy sets the gong vibrating, producing sound energy that travels through the air to reach students' ears. The work done is setting the air particles vibrating so that sound is heard. In every case, name the input form of energy and the work or effect it produces -- this is the format expected in the ICSE board."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple \"energy diary\" for one school day from morning to night. List six activities and, for each, state the form of energy used and the work it does. Then write one sentence summarising what your diary shows about energy in daily life.",
+        "answer": "A sample energy diary for a school day: (1) Morning -- I eat breakfast of roti and dal; the chemical energy in the food will do the work of keeping my body alive and letting me walk to the bus stop. (2) I ride the school bus; the diesel fuel's chemical energy does the work of moving the bus and its passengers several kilometres to school. (3) In class, the teacher switches on the tube-light; electrical energy does the work of producing light so we can read. (4) During the lunch break, the canteen staff cook rice on an LPG stove; the chemical energy of LPG becomes heat energy that cooks the rice. (5) In the games period, I run and play football; the chemical energy from my lunch becomes kinetic energy of my body and heat. (6) At night, I switch on a table fan; electrical energy becomes kinetic energy of the blades, moving air to cool me. Summary sentence: My diary shows that every single activity of my day -- eating, travelling, studying, cooking, playing, sleeping comfortably -- depends on some form of energy doing work, and that energy keeps changing from one form to another to keep life going. This is the kind of activity the syllabus asks for: list daily activities and identify the form of energy used in each, then give examples of energy doing work in daily life."
+      }
+    ],
+    "masteryCriteria": "Can define energy as the capacity to do work in own words; can state the SI unit of energy as the joule (J) and express 1 J = 1 N x 1 m; can name the five forms of energy (mechanical-kinetic and potential, heat, light, sound, electrical) with one Indian example each (e.g., Bhakra Nangal water for kinetic, dam-stored water for potential, LPG stove for heat, lit diya for light, school bell for sound, ceiling fan for electrical); can give two examples of energy doing work in daily life, each pairing the form of energy with the work performed.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_phy_019",
+    "title": "Potential energy (energy of position)",
+    "subject": "physics",
+    "classLevel": 6,
+    "definition": "Potential energy is the energy that an object possesses because of its position or shape (its \"condition\"), and which is stored inside the object waiting to be released. It is therefore called the energy of position. Unlike kinetic energy, which an object has only while it is moving, potential energy is stored energy -- it is present even when the object is at rest, because of where the object is or how it has been shaped. The word \"potential\" means \"capable of becoming actual\"; the energy is not being used right now, but it can be converted into motion or work the moment it is released.\r\n\r\nPotential energy appears in two everyday forms that a Class 6 student can observe directly. The first is energy of position due to height: a book placed on a high shelf, a brick held above the ground, or water stored behind a dam (such as the Bhakra Nangal or Hirakud dam) all have potential energy because gravity can pull them downwards and make them do work as they fall. The higher the object is raised, the more potential energy it stores. The second is energy of shape: when a force changes the shape of an object, energy gets stored in that changed shape. A stretched rubber band, a compressed spring inside a wind-up toy, a drawn bow with its string pulled back, a squeezed sponge, and a bent bamboo stick all hold potential energy in their deformed shape. The moment the deforming force is removed, the object returns to its original shape and the stored energy is released -- the rubber band snaps, the spring uncoils, the bow fires the arrow.\r\n\r\nThe distinction between kinetic and potential energy is the heart of this topic. Kinetic energy (learned in node c6_phy_018) is the energy of motion -- a rolling ball, a flowing river, a running boy. Potential energy is the energy of position or shape -- a ball resting on a roof, water held behind a dam, a stretched rubber band. Together, kinetic and potential energy are the two sides of mechanical energy. An object can switch from one to the other: a ball dropped from a shelf loses potential energy as it falls and gains kinetic energy as it speeds up, but at Class 6 level we only need to recognise which form is present at a given moment -- we do not yet calculate amounts using PE = mgh.\r\n\r\nA simple activity demonstrates the idea: stretch a rubber band and release it to launch a small paper pellet. While the band is stretched and held still, it has potential energy stored in its shape. On release, that stored energy becomes the motion of the pellet. This shows that potential energy is real, usable energy -- it is just waiting for its chance to act.",
+    "eli5": "Imagine a stretched rubber band held still in your fingers. It is not moving, but it is \"loaded\" -- it wants to snap back. That hidden, waiting energy is potential energy. A book on a high shelf and water behind a dam are the same: nothing is moving yet, but because they are up high they can fall and do work. So potential energy is energy that is stored in an object's position or shape, just waiting to be set free.",
+    "misconceptions": [
+      {
+        "belief": "A stretched rubber band has kinetic energy because it is tense and ready to move.",
+        "correction": "Kinetic energy is the energy of motion -- the object must actually be moving. A stretched rubber band held still is not moving, so it has no kinetic energy. The energy it has is stored in its changed shape, and that is potential energy. Tension is not motion. The CISCE examiner reports repeatedly flag students confusing the condition of an object (its position or shape) with the action of the object -- the same habit that makes students write \"equipotential surface\" when they mean a position-related idea, or misplace an object's position in ray-diagram questions. The remedy is to always ask first: \"Is the object moving right now?\" If not, the energy is potential, not kinetic."
+      },
+      {
+        "belief": "Only objects high up have potential energy; a compressed spring on the ground has no potential energy because it is not raised.",
+        "correction": "Potential energy comes from position OR shape. A compressed spring on a tabletop has potential energy because its shape has been changed by a force, even though it is not at a height. A stretched rubber band lying flat on a desk still stores energy in its stretched shape. Height is only one source of potential energy; deformation is the other. Ignoring the shape-based form is a common error, similar to the examiner-noted habit of focusing on a single feature (like \"broadside-on position\") and missing the full picture."
+      },
+      {
+        "belief": "Potential energy is being used up while the object is just sitting there.",
+        "correction": "Potential energy is stored, not used, while the object stays in its raised or deformed condition. It is only released (converted into motion or work) when the object is allowed to fall, snap back, or uncoil. A book on a shelf keeps the same potential energy for hours; it does not \"use up\" anything until it falls. The word \"stored\" is the key -- like money in a piggy bank, it stays put until you take it out."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define potential energy and give two everyday examples, one from position and one from shape.",
+        "answer": "Potential energy is the stored energy that an object possesses because of its position or shape (its condition); it is also called the energy of position. It is present even when the object is at rest, and it can be released to do work. An example from position is a book placed on a high shelf: the book is not moving, but because it is raised against gravity it can fall and do work, so it has potential energy. An example from shape is a stretched rubber band: while it is held stretched and still, energy is stored in its changed shape, and on release the band snaps back and can launch a small object. Other valid examples include water stored behind a dam (position) and a compressed spring in a wind-up toy (shape). In each case the energy is stored, not active, and is released only when the object is allowed to change its condition."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A ball is resting on the roof of a house, and an identical ball is rolling along the ground below. Which ball has potential energy and which has kinetic energy? Explain your reasoning.",
+        "answer": "The ball on the roof has potential energy, and the ball rolling on the ground has kinetic energy. The reasoning rests on the definitions of the two forms of energy. Kinetic energy is the energy of motion -- it belongs to an object that is actually moving. The ball rolling on the ground is in motion, so it possesses kinetic energy; because it is at ground level and not raised, it has essentially no potential energy due to height. Potential energy is the energy of position or shape -- it belongs to an object that is in a raised position or a deformed shape, even though it is not moving. The ball on the roof is at rest but is raised above the ground, so gravity can pull it downwards and make it do work as it falls. That stored ability is its potential energy. The two balls show the contrast clearly: one is storing energy in its position, the other is spending energy in its motion. If the roof ball were pushed off, it would lose potential energy as it falls and gain kinetic energy as it speeds up -- but at the moment described, the roof ball has potential energy and the ground ball has kinetic energy."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"A compressed spring lying flat on a table has no potential energy because it is not at any height.\" Evaluate this statement and give a balanced argument.",
+        "answer": "The statement is incorrect, and the error comes from thinking that height is the only source of potential energy. A balanced argument must consider both forms of potential energy that a Class 6 student is expected to know. On one side, it is true that the spring is not raised -- it is lying flat on a table, so it does not have potential energy due to position or height. The student is right to rule out the height-based form. On the other side, potential energy also arises from shape. A compressed spring has had its shape changed by a force: its coils have been squeezed together, and the spring pushes back, wanting to return to its original length. That push is stored energy -- it is potential energy stored in the deformed shape. The moment the spring is released, it uncoils and can move a toy or jump off the table, proving that energy was stored in it. Therefore, even though the spring has no height-based potential energy, it does have shape-based potential energy, so the student's claim that it has \"no potential energy\" is wrong. The correct statement would be: \"A compressed spring on a table has potential energy due to its changed shape, even though it has no potential energy due to height.\" This example shows why the definition of potential energy must always include both position AND shape -- leaving out either one leads to exactly this kind of mistake. In the ICSE board, examiners look for this completeness: an answer that mentions only height, or only shape, is treated as partial and loses marks."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You are given a rubber band, a small paper pellet, and a ruler. Describe a simple activity that shows potential energy being stored and then released, and state at each step which form of energy is present.",
+        "answer": "First, hold the rubber band stretched between the thumb and forefinger of one hand, and place the small paper pellet against the stretched band. At this stage the band is not moving, but its shape has been changed by the pulling force of your fingers. The band therefore stores potential energy in its stretched shape; the pellet is also at rest and has no kinetic energy. Second, release one end of the rubber band. The band snaps back to its original shape, and as it does so it pushes the pellet forward. At the instant of release, the stored potential energy of the band is converted into the kinetic energy of the moving pellet. Third, after the pellet leaves the band, the band is back to its loose shape and has little stored potential energy, while the pellet flies through the air with kinetic energy. If the pellet then lands on a high shelf, it would come to rest and again have potential energy due to its raised position. This activity directly demonstrates the definition: potential energy is stored energy due to shape (the stretched band), and it can be released to produce motion (the flying pellet), which is kinetic energy."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple toy that uses potential energy stored in a stretched or compressed shape to make something move. Describe the parts, how the energy is stored, and how it is released.",
+        "answer": "A suitable design is a \"rubber-band-powered cardboard car.\" The parts needed are a small cardboard body, two wooden skewers as axles, four bottle caps as wheels, and one thick rubber band. The front axle is fixed firmly to the cardboard so it cannot turn. The rear axle passes through holes in the cardboard and can rotate freely; one end of the rubber band is looped around the rear axle and the other end is hooked to a pin at the front of the car. To store energy, wind the rear axle several times so that the rubber band twists and tightens. While the axle is held still, the rubber band is stretched and twisted -- its shape has been changed by the winding force, so it stores potential energy. The car is not moving, so it has no kinetic energy at this stage. To release the energy, place the car on the floor and let go of the axle. The rubber band unwinds, returning to its original shape, and as it does so it turns the rear axle, which turns the wheels, and the car moves forward. At the moment of release, the stored potential energy is converted into the kinetic energy of the moving car. This toy shows the full cycle: a force changes a shape (winding), energy is stored as potential energy in the deformed rubber band, and on release that stored energy becomes motion. It uses only materials found at home and demonstrates the core idea of this node -- potential energy is stored energy of shape, waiting to be released."
+      }
+    ],
+    "masteryCriteria": "Can define potential energy as stored energy due to an object's position or shape (its condition), and can state that it is also called the energy of position. Can give at least two everyday examples -- one from position (book on a high shelf, water behind a dam such as Bhakra Nangal) and one from shape (stretched rubber band, compressed spring, drawn bow). Can distinguish potential energy from kinetic energy by asking whether the object is moving (kinetic) or raised/deformed but at rest (potential), and can correctly classify a given situation such as \"a ball on a roof\" as potential and \"a ball rolling on the ground\" as kinetic.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_phy_013",
+    "title": "Law of conservation of energy",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "The law of conservation of energy states that energy can neither be created nor destroyed; it can only be transformed from one form to another, or transferred from one object to another. The total amount of energy in a closed system -- a system that does not exchange energy with its surroundings -- therefore remains constant. A closed system is one in which no energy enters from outside and no energy leaves to the outside; whatever transformations happen inside, the sum of all forms of energy (kinetic, potential, heat, light, sound, chemical, electrical, and so on) always adds up to the same total. This is why the law is called a conservation law: the total energy is \"conserved\", that is, kept the same.\r\n\r\nTo understand the law, recall that energy is the capacity to do work, measured in joules (J). Energy exists in many forms -- kinetic energy (energy of motion), potential energy (stored energy due to position or shape), chemical energy (stored in fuels and batteries), electrical energy, heat energy, light energy, and sound energy. When a torch is switched on, the chemical energy stored in the battery is transformed into electrical energy, which the bulb then transforms into light and heat. The chemical energy decreases, but the light and heat energy together equal the chemical energy used up -- nothing is destroyed, the energy has merely changed form.\r\n\r\nA classic example is a swinging pendulum. At the highest point of its swing, the pendulum is momentarily at rest: its kinetic energy is zero and its potential energy is maximum. As it swings downward, the potential energy is gradually transformed into kinetic energy, reaching maximum kinetic energy at the lowest point. As it rises on the other side, kinetic energy is transformed back into potential energy. In an ideal (frictionless) pendulum, the total energy -- kinetic plus potential -- stays constant at every instant. In a real pendulum, some energy appears to be \"lost\" because friction with air and at the pivot transforms a small part of the mechanical energy into heat and sound. That energy is not destroyed; it has simply changed into forms that spread out into the surroundings, so the grand total of energy in the universe remains unchanged.\r\n\r\nAnother example is a ball rolling down a hill. At the top, the ball has maximum potential energy and minimum kinetic energy. As it rolls down, potential energy is transformed into kinetic energy, so the ball moves faster. At the bottom, the potential energy is minimum and kinetic energy is maximum. If the ball then rolls up another slope, the kinetic energy is transformed back into potential energy. The key distinction is between energy transformation (energy changing from one form to another) and energy loss (energy disappearing). Energy is never truly lost -- it only changes form or moves to the surroundings. This qualitative understanding, without any mathematical treatment or the work-energy theorem, is the foundation on which Class 9 and Class 10 will later build the quantitative version of the law.",
+    "eli5": "Imagine energy is like money in a set of piggy banks. You cannot print new money (create energy) and you cannot burn the money (destroy energy). You can only move it from one piggy bank to another -- from the \"motion\" bank to the \"height\" bank, or from the \"chemical\" bank to the \"light\" bank. In a closed room where no money comes in or goes out, the total money in all the piggy banks together always stays the same. That is the law of conservation of energy.",
+    "misconceptions": [
+      {
+        "belief": "When a pendulum stops swinging, its energy has been destroyed or lost.\" This is the single most common error. The CISCE 2019 examiner report (Question 18) noted that several candidates wrote incomplete or technically loose statements for laws and principles, and the remedy was to memorise technical terms \"only after complete understanding.",
+        "correction": "The mechanical energy of the pendulum has not been destroyed; it has been transformed into heat energy (due to friction at the pivot and air resistance) and sound energy. These forms spread into the surroundings, so the pendulum's visible mechanical energy decreases, but the total energy of the pendulum plus the surroundings stays constant."
+      },
+      {
+        "belief": "Energy conservation means using less electricity, like switching off fans.",
+        "correction": "In daily life \"conservation of energy\" does mean saving electricity, but in physics the law of conservation of energy means something different -- the total energy of a closed system remains constant because energy can only be transformed, not created or destroyed. Switching off a fan does not destroy the electrical energy; it simply stops more energy from being transformed from electrical to kinetic and heat. The two meanings must not be mixed in an exam answer."
+      },
+      {
+        "belief": "A torch battery 'runs out' of energy, so energy is destroyed.",
+        "correction": "The battery's chemical energy has been transformed into electrical energy and then into light and heat. The chemicals have reached a state where they can no longer release energy in this form, but the energy they originally held has already left as light and heat. Nothing has been destroyed; the energy has only changed form and moved into the surroundings."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State the law of conservation of energy and explain the meaning of a closed system.",
+        "answer": "The law of conservation of energy states that energy can neither be created nor destroyed; it can only be transformed from one form to another, or transferred from one object to another. As a result, the total energy of a closed system remains constant. A closed system is one in which no energy enters from the outside and no energy leaves to the outside -- energy may be transferred between objects within the system or transformed between forms (for example, from kinetic to potential, or from chemical to electrical to light), but the sum of all forms of energy inside the system always adds up to the same total. In real life a perfectly closed system is an idealisation because some energy usually escapes as heat or sound, but the concept lets us account for energy accurately. The unit of energy is the joule (J), and because the total is constant, the energy measured in joules before a transformation equals the energy measured in joules after the transformation, when all forms are added up."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A ball is held at rest at the top of a smooth hill and then released. It rolls down, speeds up, and reaches the bottom. Explain, using the law of conservation of energy, what happens to the ball's potential and kinetic energy during the motion.",
+        "answer": "At the top of the hill, the ball is at rest and at its greatest height, so its gravitational potential energy is maximum and its kinetic energy is zero (it is not moving). As the ball rolls down, it loses height and gains speed. The potential energy is gradually transformed into kinetic energy: the lower the ball goes, the less potential energy it has and the more kinetic energy it has. At the bottom of the hill, the ball is moving fastest, so its kinetic energy is maximum and its potential energy is minimum. According to the law of conservation of energy, the total energy (potential + kinetic) at any instant is the same as the total energy at the top, provided we ignore friction. If friction with the ground and air is considered, a small part of the mechanical energy is transformed into heat and sound, but the grand total -- mechanical energy plus heat plus sound -- still remains constant. The energy has not been destroyed; it has only changed form. This is exactly what the law of conservation of energy predicts: energy is transformed, not lost."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student writes in an exam: \"When a real pendulum eventually stops swinging, the law of conservation of energy has been violated because the pendulum's energy has disappeared.\" Evaluate this statement and give a balanced explanation of what actually happens.",
+        "answer": "The student's statement is incorrect and reflects a common confusion between \"mechanical energy of the pendulum\" and \"total energy of the system\". The law of conservation of energy is never violated; it is the student's interpretation that is wrong. To evaluate fairly, we must consider two things: what the student observed, and what the law actually says. What the student observed is correct -- a real pendulum does swing through smaller and smaller arcs and eventually comes to rest. Its visible mechanical energy (the sum of its kinetic and gravitational potential energy) does decrease to zero. So the student is right that the pendulum's mechanical energy \"disappears\" from the pendulum. However, the law of conservation of energy does not say that the mechanical energy of one object must stay constant; it says that the total energy of a closed system stays constant. In a real pendulum, two dissipative forces act: friction at the pivot and air resistance. At every swing, a small amount of the pendulum's mechanical energy is transformed by these forces into heat energy (warming the pivot and the surrounding air slightly) and sound energy (the faint swishing sound of the swing). These forms of energy are not visible as motion, so they look like \"loss\", but they are real forms of energy that spread out into the surroundings. If we draw the boundary of our system to include the pendulum, the air, and the support, then no energy has left the system -- it has only been redistributed among the objects and transformed among the forms. The total energy, measured in joules, is exactly the same before and after. Therefore the law of conservation of energy is upheld, not violated. The correct statement is: \"The pendulum's mechanical energy is gradually transformed into heat and sound energy due to friction and air resistance; the total energy of the pendulum plus its surroundings remains constant.\" A balanced answer must acknowledge that the student's observation is real but the conclusion is wrong, and then explain the transformation that accounts for the \"missing\" energy."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A torch is switched on for ten minutes and then the battery is found to be \"dead\". Trace the energy transformations that have taken place and show that energy has been conserved, not destroyed.",
+        "answer": "When the torch is switched on, the chemical energy stored in the dry cells (battery) is the source of energy. This chemical energy is first transformed into electrical energy, which flows as a current through the wires and the filament of the bulb. Inside the bulb, the electrical energy is transformed into heat energy (the filament becomes very hot) and light energy (the hot filament glows and gives out light). Some of the energy is also transformed into a small amount of sound energy (a faint hum) and heat in the wires due to their resistance. Over ten minutes, the chemicals in the battery gradually reach a state in which they can no longer release energy in this form, and we say the battery is \"dead\". But the energy has not been destroyed. The chemical energy that was originally stored in the battery has been transformed, step by step, into light, heat, and a little sound, all of which have spread out into the room and the surroundings. If we could collect and measure every joule of light, heat, and sound given out during those ten minutes, the total would equal the chemical energy that left the battery. Thus the total energy has remained constant; it has only changed form and moved into the surroundings. This is a direct application of the law of conservation of energy: energy is transformed, not destroyed."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple classroom demonstration using a swinging pendulum (a small weight on a string) that shows the transformation between kinetic and potential energy, and explain how you would use it to convince a Class 7 student that energy is conserved even though the pendulum eventually stops.",
+        "answer": "To design the demonstration, suspend a small heavy weight (such as a metal nut or a small iron ball) from a fixed hook using a strong thread about one metre long -- this is a simple pendulum. Use a metre scale and a piece of chalk to mark the highest point on each side of the swing on a board behind the pendulum. Pull the bob to one side until it touches the chalk mark and hold it there; at this point the bob is at rest, so its kinetic energy is zero and its potential energy is maximum. Release it and ask the class to watch three moments: the highest point on the starting side (rest, maximum height, maximum potential energy, zero kinetic energy), the lowest point of the swing (fastest motion, minimum height, maximum kinetic energy, minimum potential energy), and the highest point on the opposite side (again momentarily at rest, maximum potential energy, zero kinetic energy). Point out that the bob rises to almost the same height on the other side, showing that the potential energy it had at the start has been transformed into kinetic energy at the bottom and back into potential energy on the other side -- the total has stayed the same. Now let the pendulum swing for a few minutes until it noticeably slows down and stops. Ask the class to touch the string near the pivot and the surrounding air -- they will feel a tiny warmth and may have heard a faint swishing sound. Explain that the \"lost\" mechanical energy has been transformed into heat (at the pivot and in the air) and sound, and that if we could measure every joule of heat and sound, the total would equal the original potential energy. Conclude that energy has been conserved -- transformed, not destroyed -- which is exactly what the law of conservation of energy states."
+      }
+    ],
+    "masteryCriteria": "Can state the law of conservation of energy in own words -- \"energy can neither be created nor destroyed, only transformed from one form to another\"; can explain that in a closed system the total energy (measured in joules) remains constant because energy is only transformed, not lost; can describe the pendulum example showing kinetic energy becoming potential energy at the top and back again at the bottom, with total energy constant in the ideal case; can distinguish energy transformation (energy changing form, e.g. chemical to electrical to light in a torch) from energy loss (energy appearing to disappear but actually becoming heat and sound in the surroundings).",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_phy_014",
+    "title": "Energy conversion between forms",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "Energy conversion (also called energy transformation) is the process by which energy changes from one form to another while the total amount of energy remains constant, as required by the law of conservation of energy. In any conversion, the form of energy at the start is called the input and the form produced at the end is called the output. A careful distinction must be made between energy transformation and energy transfer: transformation means one form of energy changes into another form within the same object or device (for example, the chemical energy of a battery changing into electrical energy), whereas energy transfer means energy moves from one object or place to another without necessarily changing form (for example, heat travelling from a hot cup of tea to your hand, or a bat passing kinetic energy to a ball).\r\n\r\nEveryday examples of energy conversion are numerous. A falling ball or water flowing downhill from a tank to a water wheel converts gravitational potential energy into kinetic energy as height decreases and speed increases. A swinging pendulum continuously interconverts potential energy (maximum at the highest points of the swing) and kinetic energy (maximum at the lowest point), while the total mechanical energy stays the same in an ideal case. An electric bulb converts electrical energy mainly into light energy and heat energy -- the desired output is light, but heat is also produced as a by-product. A battery or dry cell converts chemical energy stored in its chemicals into electrical energy, which is why a torch lights up when switched on; the chain continues as the bulb turns that electrical energy into light and heat. An electric fan converts electrical energy into mechanical energy (rotation of the blades) and a small amount of heat and sound. A solar panel (solar cell) converts light energy from the Sun into electrical energy, much as a green plant converts sunlight into chemical energy during photosynthesis. A doorbell converts electrical energy into sound energy -- a point on which CISCE examiners have noted that some students incorrectly answer \"gravitational potential energy to sound energy\" because the bell is fixed at a height, or write \"electrical to sound\" by rote without reasoning.\r\n\r\nA conversion chain traces energy through several stages. For a torch: chemical energy (battery) -> electrical energy (current in the circuit) -> light and heat energy (bulb). At every step the total energy is conserved -- the energy that leaves one stage enters the next, and any \"lost\" energy simply appears in another form such as heat or sound, never destroyed. The law of conservation of energy applies to each conversion: when one form decreases, another form increases by exactly the same amount.",
+    "eli5": "Energy is like money that can change from coins to notes but never disappears. A ball held high has \"height money\" (potential energy); as it falls, that changes into \"speed money\" (kinetic energy), but the total money stays the same. A bulb turns \"electric money\" into \"light money\" plus a little \"heat money\". A battery turns \"chemical money\" into \"electric money\". The total never changes -- it only changes form.",
+    "misconceptions": [
+      {
+        "belief": "A doorbell converts gravitational potential energy to sound energy because the bell is fixed at a height.\" This was actually observed by CISCE examiners in 2024.",
+        "correction": "The height of the bell has nothing to do with the conversion happening inside it. A doorbell works because an electric current energises an electromagnet that strikes the bell -- the conversion is electrical energy to sound energy. The fact that the bell is mounted high does not make gravitational potential energy the input."
+      },
+      {
+        "belief": "An electric bulb converts electrical energy only into light energy.",
+        "correction": "A real bulb also produces heat -- touch a glowing bulb and it is hot. The correct statement is electrical energy -> light energy + heat energy. Ignoring heat violates the law of conservation of energy because the input energy must appear in some output form; the \"missing\" energy has simply become heat."
+      },
+      {
+        "belief": "Confusing energy transformation with energy transfer.",
+        "correction": "Transformation is one form changing into another within the same device (electrical becoming light in a bulb). Transfer is energy moving from one object to another, often keeping the same form (heat moving from a hot cup to your hand). Both conserve total energy, but they are different processes and examiners expect you to distinguish them."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Name the input and output energy forms for each of the following devices: (a) an electric bulb, (b) a battery-powered torch, (c) an electric fan, (d) a solar panel, (e) a doorbell.",
+        "answer": "(a) An electric bulb takes electrical energy as input and converts it into light energy and heat energy as outputs. (b) A battery-powered torch is a conversion chain: chemical energy stored in the battery is the initial input, which becomes electrical energy in the circuit, which finally becomes light energy and heat energy in the bulb. (c) An electric fan takes electrical energy as input and converts it into mechanical energy (the rotation of the blades) as the useful output, with a small amount of heat and sound energy as by-products. (d) A solar panel (solar cell) takes light energy from the Sun as input and converts it into electrical energy as output. (e) A doorbell takes electrical energy as input and converts it into sound energy as output. In every case the total energy is conserved -- the sum of all output energies equals the input energy, with any \"unused\" energy appearing as heat or sound. Naming every output form, including by-products such as heat, is essential for full marks."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A ball is dropped from a height of 5 m. Explain, using the law of conservation of energy, how its potential and kinetic energies change as it falls, and why the total mechanical energy stays constant.",
+        "answer": "At the top, at height 5 m, the ball is at rest, so its kinetic energy is zero and its gravitational potential energy is maximum (PE = mgh). As the ball falls, its height above the ground decreases, so its potential energy decreases. At the same time, its speed increases under gravity, so its kinetic energy increases. The decrease in potential energy is exactly equal to the increase in kinetic energy at every instant, because energy is being transformed from one form to the other, not destroyed. Just before the ball touches the ground, its height is zero so its potential energy is zero, and its speed is maximum so its kinetic energy is maximum. Throughout the fall, the sum PE + KE remains constant and equal to the initial potential energy mgh. This is the law of conservation of energy applied to a single conversion: potential energy transforms into kinetic energy, and the total mechanical energy is conserved at every step. The same reasoning applies to a pendulum swinging back and forth, where energy continuously interconverts between potential and kinetic forms."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student writes, \"In an electric bulb, electrical energy is converted into light energy, so the law of conservation of energy is not obeyed because some energy seems to disappear as the bulb is not 100% bright.\" Evaluate this statement and explain whether the student is correct.",
+        "answer": "The student is incorrect. The law of conservation of energy is always obeyed in every energy conversion, including in an electric bulb. The student's error is in assuming that light is the only output of the bulb. In reality, an electric bulb converts electrical energy into both light energy and heat energy. A significant portion of the electrical energy becomes heat -- which is why a glowing bulb feels hot to the touch and why filament bulbs are often called inefficient. When we account for all the output forms -- light energy plus heat energy (and a tiny amount of sound) -- the total output energy exactly equals the input electrical energy. Nothing disappears; it simply appears in a form the student did not consider. This is a classic example of why, when applying the conservation law, one must list every output form, including by-products such as heat and sound. The student's reasoning reflects a common misconception that \"useful output\" equals \"total output.\" In energy conversion, the useful output is only part of the story; the rest of the energy appears as unwanted heat or sound, but it is still energy and it is still conserved. A correct statement would be: \"Electrical energy is converted into light energy and heat energy; the sum of light and heat equals the electrical energy supplied, so energy is conserved.\" This distinction between useful output and total output becomes the basis for efficiency calculations in higher classes (Class 9), but at Class 7 level the key point is simply that all output forms must be accounted for to confirm conservation."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Trace the energy conversion chain in a torch from the moment it is switched on, and state the principle involved at each step.",
+        "answer": "When a torch is switched on, the following conversion chain occurs. Step 1: The chemicals inside the battery undergo reactions, converting chemical energy (stored in the chemicals) into electrical energy. This electrical energy flows as current through the wires and switch. Step 2: The electrical energy reaches the bulb's filament. The filament converts the electrical energy into light energy (the useful output that lets us see) and heat energy (a by-product that warms the bulb). The complete chain is: chemical energy -> electrical energy -> light energy + heat energy. The principle involved at every step is the law of conservation of energy: the total energy at the start of each step equals the total energy at the end of that step. When chemical energy decreases in the battery, electrical energy increases by the same amount. When electrical energy decreases in the bulb, light and heat energy increase by the same amount. No energy is created or destroyed at any stage; it only changes form. This is why we say energy is conserved throughout the conversion chain."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple device or system (real or imagined) that uses at least three energy conversions in a chain. Identify the input energy, each intermediate conversion, and all final output energies, and explain how conservation of energy is satisfied.",
+        "answer": "Consider a solar-powered fan used in a greenhouse. The chain has three conversions. First, a solar panel placed on the roof receives light energy from the Sun and converts it into electrical energy -- this is the first conversion (light to electrical). Second, the electrical energy is stored briefly in a rechargeable battery, which means it is converted into chemical energy inside the battery -- this is the second conversion (electrical to chemical). Third, when the fan is switched on, the battery releases its chemical energy as electrical energy, which the motor of the fan converts into mechanical energy (the rotating blades) along with a small amount of heat and sound energy -- this is the third conversion (chemical to electrical to mechanical + heat + sound). The input energy is sunlight (light energy). The intermediate conversions are light -> electrical -> chemical -> electrical. The final outputs are mechanical energy (useful, cooling the greenhouse), heat energy, and sound energy. The law of conservation of energy is satisfied because at every stage the total energy entering equals the total energy leaving: the light energy from the Sun equals the electrical energy from the panel; the electrical energy equals the chemical energy stored; the chemical energy released equals the mechanical plus heat plus sound energy produced. Nothing is lost -- only transformed. This design shows how a renewable source (sunlight) can drive a useful device through a chain of conversions while fully obeying conservation of energy."
+      }
+    ],
+    "masteryCriteria": "Can identify at least three energy conversions in everyday devices (e.g., bulb: electrical to light and heat; battery: chemical to electrical; fan: electrical to mechanical; solar panel: light to electrical; doorbell: electrical to sound). Can trace energy through a multi-step conversion chain (e.g., torch: chemical -> electrical -> light + heat) and state that total energy is conserved at each step. Can distinguish energy transformation (one form changing to another within the same device) from energy transfer (energy moving from one object to another). Can apply the law of conservation of energy to each conversion by accounting for all output forms including by-products such as heat and sound.",
+    "cognitiveLevel": "apply"
+  },
+  {
+    "nodeId": "c7_phy_033",
+    "title": "Machines and mechanical advantage - introduction to MA concept",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "A machine is any device that makes work easier by altering how a force is applied. Machines do not create energy; they only transform the way effort is used so that a task becomes more convenient. A machine can make work easier in one of three ways: by changing the direction of the applied force (for example, a single fixed pulley lets you pull down on a rope to lift a load upward), by increasing the magnitude of the force so that a small effort overcomes a large load (a lever used as a crowbar), or by increasing the speed at which the load moves (the gear system of a bicycle, where a small effort on the pedal produces a faster rotation of the rear wheel). The central quantitative idea that captures \"how much easier\" a machine makes a task is called mechanical advantage, abbreviated MA. Mechanical advantage is defined as the ratio of the load overcome by the machine to the effort applied to operate it: MA = load / effort. The load is the weight or resistance that the machine is designed to overcome, measured in newtons (N), and the effort is the force applied by the user, also in newtons. Because both quantities are forces, MA is a pure number with no unit. When MA is greater than 1, the machine multiplies force -- a small effort lifts a large load -- and the machine is called a force multiplier (for example, a lever with the load arm shorter than the effort arm). When MA is less than 1, the machine trades force for speed -- the load moves faster than the effort -- and the machine is called a speed multiplier (for example, the high gears of a bicycle where the rear wheel turns many times for one pedal stroke). When MA equals 1, the machine only changes the direction of force, as in a single fixed pulley. An important distinction exists between ideal MA and actual MA. Ideal MA is the value calculated assuming no friction and no energy loss; it depends only on the geometry of the machine. Actual MA is the value measured in real use, and it is always less than the ideal MA because friction at the moving parts and the weight of the machine itself consume some of the effort. Friction acts like a hidden tax on the machine, reducing the useful output and lowering the actual MA below the ideal value. Six types of simple machines are recognised: the lever, the pulley, the inclined plane, the screw, the wheel and axle, and the wedge. Each can be classified as a force multiplier or a speed multiplier depending on how it is arranged. Students calculate MA for simple machines from given values of load and effort and then classify the machine as a force multiplier (MA > 1) or a speed multiplier (MA < 1).",
+    "eli5": "A machine is a helper that makes your work lighter. Imagine lifting a heavy bucket straight up -- hard. Now loop a rope over a pulley and pull down instead: easier, because pulling down feels natural. Mechanical advantage is just a number that tells you how many times easier the machine made it. If you pull with 10 N and lift 50 N, the machine gave you five times the force -- MA = 5. Some machines do the opposite: they give less force but more speed, like bicycle gears. Friction steals a little of your effort, so the real MA is always a bit less than the perfect one.",
+    "misconceptions": [
+      {
+        "belief": "MA must always be greater than 1, otherwise the machine is useless.",
+        "correction": "MA can be less than 1 when the machine is designed as a speed multiplier, such as the high gears of a bicycle. A machine with MA < 1 trades force for speed -- the load moves faster than the effort. The machine is still useful; it just serves a different purpose. The CISCE 2024 examiners noted that candidates \"were not clear with the concept and answered by guesswork,\" often assuming every machine must multiply force."
+      },
+      {
+        "belief": "Actual MA equals ideal MA.",
+        "correction": "Actual MA is always less than ideal MA because friction at the moving parts and the weight of the machine itself consume part of the effort. Ideal MA is calculated from geometry alone, ignoring friction. The 2024 examiner report explicitly reminded teachers to \"review topic fundamentals\" because students confused the two and forgot that friction reduces the real output."
+      },
+      {
+        "belief": "MA has a unit of newton.",
+        "correction": "MA = load / effort, and since both load and effort are forces measured in newtons, the newtons cancel. MA is a pure number with no unit. Examiners in 2024 insisted that students \"express every physical quantity with proper unit\" -- but MA is the exception: it has no unit, and writing \"MA = 4 N\" is wrong."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define mechanical advantage and write its formula. State the six types of simple machines.",
+        "answer": "Mechanical advantage (MA) is the ratio of the load overcome by a machine to the effort applied to operate it; it tells us how many times the machine multiplies the applied force. The formula is MA = load / effort, where both load and effort are forces measured in newtons, so MA is a pure number with no unit. The six types of simple machines are: (1) the lever, (2) the pulley, (3) the inclined plane, (4) the screw, (5) the wheel and axle, and (6) the wedge. Each of these can be arranged as either a force multiplier (MA > 1) or a speed multiplier (MA < 1) depending on its geometry. A single fixed pulley, for instance, has MA = 1 and only changes the direction of force. A lever with a short load arm and a long effort arm has MA > 1 and acts as a force multiplier, like a crowbar lifting a heavy stone."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A lever lifts a load of 75 N when an effort of 25 N is applied. Calculate the MA and explain whether the machine is a force multiplier or a speed multiplier.",
+        "answer": "First write the formula: MA = load / effort. Substitute the given values with units: MA = 75 N / 25 N = 3. The newtons cancel, so MA = 3 (no unit). Because MA = 3, which is greater than 1, the machine multiplies the applied force by three -- a small effort of 25 N overcomes a larger load of 75 N. Therefore this lever is a force multiplier. The reasoning is that whenever MA > 1, the load is greater than the effort, meaning the machine trades a larger distance moved by the effort for a smaller distance moved by the load, giving a bigger output force. This is exactly how a crowbar or a long-handled nutcracker works: you push down a long way with a small force and the short end lifts a heavy object a short distance. If the MA had been less than 1, we would instead call it a speed multiplier, where the load moves faster than the effort."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"A machine with MA less than 1 is useless because it gives less force than you put in.\" Evaluate this statement.",
+        "answer": "The statement is incorrect and reflects a common misunderstanding that the only purpose of a machine is to multiply force. In reality, machines make work easier in three different ways: by changing the direction of force, by increasing the magnitude of force (MA > 1, a force multiplier), or by increasing the speed of the load (MA < 1, a speed multiplier). A machine with MA < 1 is not useless -- it is deliberately designed to trade force for speed. The classic example is the gear system of a bicycle. When you shift to a high gear on flat road, you apply a large effort on the pedal but the rear wheel turns many times for each pedal stroke, so the bicycle moves fast. The force at the wheel is less than the force at the pedal (MA < 1), but the speed at the wheel is greater than the speed at the pedal. This is exactly what a cyclist wants on a straight, flat road -- speed, not extra force. Another example is the wheels of a hand-driven grinding wheel: a small movement of the handle produces a fast spin of the grinding stone. So a machine with MA < 1 is a speed multiplier, and it is just as useful as a force multiplier -- it simply serves a different purpose. The value of a machine lies in what it is designed to do, not in whether MA is greater or less than 1. A balanced view recognises that force multipliers (MA > 1) are ideal for heavy lifting, speed multipliers (MA < 1) are ideal for fast motion, and machines with MA = 1 (like a single fixed pulley) are ideal when only a change of direction is needed."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A pulley system is used to lift a load of 120 N. The effort applied is 40 N. Calculate the MA. Then state whether the actual MA would be more than, less than, or equal to the ideal MA, and explain why.",
+        "answer": "Write the formula: MA = load / effort = 120 N / 40 N = 3. The newtons cancel, so MA = 3 (no unit). Since MA > 1, this pulley system is a force multiplier -- the effort is multiplied three times. Now, the value of 3 calculated above is the actual MA, because it uses the real measured effort of 40 N. The ideal MA, calculated from the geometry of the pulley system assuming no friction, would be greater than 3. The reason is that in any real machine, friction acts at the axles of the pulleys and between the rope and the grooves, and the weight of the moving parts also consumes part of the effort. This means some of the 40 N effort is wasted overcoming friction instead of lifting the load, so the actual output is less than it would be in a frictionless ideal machine. Therefore actual MA is always less than ideal MA. Friction is the hidden tax that lowers the real performance below the theoretical value."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple machine arrangement for lifting a bucket of water weighing 90 N from a well, using an effort of only 30 N. State which simple machine you would use, calculate the MA, and explain how you would arrange it to achieve this MA.",
+        "answer": "I would use a pulley system -- specifically a block and tackle with three pulleys (or a single movable pulley with two supporting rope segments combined with a fixed pulley for direction). The required MA is load / effort = 90 N / 30 N = 3. To achieve an MA of 3, the pulley system must have three rope segments supporting the load, so that the load is shared equally among three strands and each strand carries one third of the load. With three strands sharing 90 N, the tension in each strand is 30 N, which is exactly the effort I need to apply at the free end of the rope. A fixed pulley at the top changes the direction so I can pull downward comfortably, while the movable pulley attached to the bucket provides the force multiplication. In practice, because of friction at the pulley axles, the actual effort needed would be slightly more than 30 N, so I would choose a system with an ideal MA a little above 3 to ensure the real effort stays around 30 N. This arrangement is a force multiplier because MA = 3 > 1, and it is exactly the kind of device used in real wells and construction sites to lift heavy loads with modest human effort."
+      }
+    ],
+    "masteryCriteria": "Can state the formula MA = load / effort and explain that MA is a unitless ratio of two forces measured in newtons. Can calculate MA from given load and effort values (e.g., load 60 N, effort 15 N gives MA = 4) and classify the machine as a force multiplier (MA > 1) or speed multiplier (MA < 1). Can distinguish ideal MA (no friction, from geometry) from actual MA (real, always less due to friction). Can list all six simple machines: lever, pulley, inclined plane, screw, wheel and axle, wedge.",
+    "cognitiveLevel": "understand"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE EnergyLeverSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

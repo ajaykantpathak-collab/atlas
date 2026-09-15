@@ -1,0 +1,1127 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete BodySystemsSimulation.tsx component about Human body systems: digestive, respiratory, circulatory, nervous, excretory, skeletal, endocrine.
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "Simple Explanation (ELI5)", "Biology Theory", "Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- misconceptions items: { belief: string; correction: string }
+- diagnosticQuestions items: { number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint? }
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall -> apply -> evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \\frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_bio_013",
+    "title": "Digestive system (detailed)",
+    "definition": "Digestion is the process by which the complex food we eat is broken down into simpler, soluble substances that the body can absorb and use. The human digestive system consists of a long tube called the alimentary canal and a few accessory organs that help in digestion. The alimentary canal, in order, includes the mouth, oesophagus, stomach, small intestine, large intestine, rectum and anus. The accessory organs are the liver and pancreas, while the salivary glands in the mouth also play an important role. Each part has a special job. In the mouth, food is chewed and mixed with saliva, which contains an enzyme called salivary amylase that begins the digestion of carbohydrates such as the starch present in rice, chapati or potatoes. Saliva also makes the food moist and easier to swallow. From the mouth, the chewed food passes into the oesophagus, a muscular tube that pushes it downward into the stomach by a squeezing movement called peristalsis. The stomach is a bag-like organ that stores food, churns it and mixes it with gastric juice. Gastric juice contains hydrochloric acid and an enzyme called pepsin, which begins the digestion of proteins such as those in dal, paneer, fish or eggs. The food now becomes a thick acidic paste called chyme. From the stomach, the chyme moves into the small intestine, which is the main site for the completion of digestion and the absorption of nutrients. The small intestine receives bile from the liver through the gall bladder, and pancreatic juice from the pancreas. Bile is not an enzyme, but it breaks large fat droplets into tiny ones in a process called emulsification, which makes it easier for the enzyme lipase to digest fats. Pancreatic juice contains trypsin for proteins, pancreatic amylase for carbohydrates and lipase for fats. The intestinal wall also produces intestinal juice which further breaks down the partially digested food. Carbohydrates are finally converted into glucose, proteins into amino acids, and fats into fatty acids and glycerol. These simple, soluble nutrients are absorbed through the finger-like villi lining the small intestine into the blood. The remaining undigested food passes into the large intestine, where water is absorbed and the waste becomes semi-solid. The waste is stored in the rectum and finally passed out through the anus. Enzymes are therefore the chemical helpers that speed up digestion, while the digestive juices provide the right conditions and substances for these enzymes to work.",
+    "textWalkthrough": "Do you remember what you studied in the earlier node c4_bio_006? There, you learned the names of the digestive organs and their basic functions. You already know that food travels from the mouth to the oesophagus, then to the stomach, then to the small and large intestines, and finally out through the anus. That sequence is your starting point. The deeper idea in c4_bio_007, and now in this c6 node, is that digestion is not just a journey through a tube; it is a chemical process. Each nutrient is broken down in a particular organ by particular digestive juices and enzymes. So let us walk through the journey of an Indian lunch, perhaps a plate of rice, dal and a little ghee, and see what happens at each stop.\r\n\r\nImagine a spoonful of rice entering your mouth. Your teeth cut and grind it, and your tongue mixes it with saliva. The starch in the rice begins to break down because saliva contains salivary amylase. This is the only place where carbohydrate digestion begins. If you wrote in your answer, \"Carbohydrates are digested in the mouth,\" that is partly true, but a better answer is, \"The digestion of carbohydrates begins in the mouth by the action of salivary amylase in saliva, and it is completed in the small intestine by pancreatic amylase and intestinal enzymes.\" The good answer tells the examiner that digestion starts in the mouth but does not end there.\r\n\r\nNext, the chewed food is pushed down the oesophagus by peristalsis. Remember that no digestion happens here; the oesophagus is only a passage. A common weak answer is, \"The oesophagus digests food and sends it to the stomach.\" That is incorrect. The good answer is, \"The oesophagus carries food from the mouth to the stomach by wave-like muscular contractions called peristalsis.\" When the food reaches the stomach, the real work on proteins begins. The stomach walls produce gastric juice containing hydrochloric acid and pepsin. The acid kills germs and provides the right medium for pepsin to act, and pepsin starts breaking the proteins in the dal or egg into simpler substances called peptones. So the stomach is both a storage and a protein-digesting organ. A weak answer would say, \"The stomach digests all food.\" A strong answer would say, \"The stomach begins the digestion of proteins with the enzyme pepsin, while the churning of its walls turns food into a semi-liquid chyme.\"\r\n\r\nNow the chyme enters the small intestine, the most important digestive organ at this stage. Here the liver sends bile and the pancreas sends pancreatic juice. Bile does not contain any enzyme, yet it is essential for fats. It emulsifies the ghee or oil into tiny droplets so that the enzyme lipase can attack them more easily. Many students write, \"Bile digests fats,\" and lose marks. Bile does not digest; it only helps in digestion. The correct statement is, \"Bile emulsifies fats, and the enzyme lipase in pancreatic juice and intestinal juice digests fats into fatty acids and glycerol.\" At the same time, trypsin in pancreatic juice completes the digestion of proteins, and pancreatic amylase completes the digestion of carbohydrates. Finally, intestinal juice finishes the work, turning the food into glucose, amino acids, fatty acids and glycerol. These simple nutrients pass through the villi into the blood.\r\n\r\nThe large intestine absorbs water, and the rectum stores waste until it leaves through the anus. When you write your board answer, always mention the order of organs correctly, the specific enzyme or juice in each place, and the final absorbed form of each nutrient. Examiners expect clear, specific statements rather than vague, repeated points. For instance, instead of writing, \"The stomach digests food\" and then \"Digestion happens in the stomach,\" write distinct, accurate points. End your answer with a neat sequence: mouth for starch, stomach for protein, small intestine for completion of all three nutrients.",
+    "eli5": "When you eat food, your body has to break it into tiny pieces it can use. Your teeth and spit start breaking starchy foods like bread and rice. Your stomach begins breaking proteins like dal and eggs. In your small intestine, special helpers called enzymes finish the job, making sugars, building blocks for muscles, and tiny fat pieces. Then your blood carries them to the rest of your body.",
+    "misconceptionText": "board examiners, in their BOARD EXAM ANALYSIS analyses, often note that students confuse closely related structures or terms, and that they sometimes repeat the same idea using different words. These same weaknesses appear in digestive-system answers.\r\n\r\nMisconception 1: Bile is an enzyme that digests fats. This is like the confusion examiners saw between hydathodes and stomata, or between vestigial and non-essential organs. Bile is not an enzyme. It is a yellow-green liquid made by the liver, stored in the gall bladder, and released into the small intestine. Its job is emulsification, which means breaking large fat droplets into tiny droplets. The actual digestion of fats is done by the enzyme lipase. Correction: Bile emulsifies fats; lipase digests fats into fatty acids and glycerol.\r\n\r\nMisconception 2: Protein digestion is completed in the stomach. Many candidates, like those who gave reasons for drug addiction instead of effects, miss the exact location asked for. Pepsin in the stomach only begins the digestion of proteins into peptones. Protein digestion is completed in the small intestine by trypsin from pancreatic juice and other enzymes in intestinal juice. Correction: Protein digestion begins in the stomach with pepsin and is completed in the small intestine by trypsin and peptidases.\r\n\r\nMisconception 3: Repeating the same point in different ways, for example writing \"food is digested in the stomach\" and then \"the stomach digests food.\" The board exam guidance warned against this very habit. Each sentence in an answer should add a new, precise fact, such as the name of an enzyme, the organ where it acts, or the product formed. Correction: Avoid repetition; give one clear, complete statement and then move to the next organ or enzyme.",
+    "diagnosticText": "Q1 (recall): List the organs of the digestive system in the correct order and state one important function of each organ.\r\nAnswer: The organs of the digestive system, in the correct order, are the mouth, oesophagus, stomach, small intestine, large intestine, rectum and anus. The mouth is where food is chewed and mixed with saliva; saliva contains salivary amylase, which begins the digestion of carbohydrates. The oesophagus is the muscular tube that carries food from the mouth to the stomach by wave-like contractions called peristalsis. The stomach stores food, churns it and begins the digestion of proteins with the enzyme pepsin present in gastric juice. The small intestine is where digestion is completed; it receives bile from the liver and pancreatic juice from the pancreas, and it also produces intestinal juice. The small intestine is also the main site for the absorption of nutrients through villi. The large intestine absorbs water from the remaining undigested food and helps form solid waste. The rectum stores the waste, and the anus is the opening through which waste is removed from the body. The liver and pancreas are accessory organs: the liver produces bile, and the pancreas produces pancreatic juice containing enzymes such as trypsin, pancreatic amylase and lipase. Each organ is therefore a separate step in a continuous process, and an answer that lists them in order with their functions shows a clear understanding of the system.\r\n\r\nQ2 (reasoning): Bile does not contain any enzyme, yet it is important for fat digestion. Explain why.\r\nAnswer: Bile is produced by the liver and stored in the gall bladder before being released into the small intestine. It is not an enzyme, so it does not chemically break down fats into smaller molecules. However, it is still very important because it performs emulsification. Fats and oils are insoluble in water and tend to form large droplets. Bile breaks these large fat droplets into many tiny droplets, increasing the surface area available for the enzyme lipase to act. Because lipase is a water-soluble enzyme and fats are not, emulsification makes it much easier for lipase to reach and digest the fat. Once the fats are in tiny droplets, lipase from pancreatic juice and intestinal juice can split them into fatty acids and glycerol, which can be absorbed by the small intestine. Without bile, fat digestion would be very slow and incomplete. This is why a person with a liver or gall-bladder problem may have trouble digesting fatty foods. The correct scientific statement is therefore that bile emulsifies fats, while the enzyme lipase digests them.\r\n\r\nQ3 (evaluate): A student says, \"Protein digestion is completed in the stomach by the enzyme pepsin.\" Evaluate this statement.\r\nAnswer: This statement is only partly correct and is therefore not fully accurate. It is true that protein digestion begins in the stomach, and that the enzyme pepsin plays an important role there. The stomach lining produces gastric juice, which contains hydrochloric acid and pepsin. Pepsin acts on proteins and breaks them down into simpler substances called peptones. So the first part of the statement, that protein digestion starts in the stomach, is correct. However, the second part, that protein digestion is completed in the stomach, is wrong. The completion of protein digestion happens in the small intestine. The partially digested proteins from the stomach pass into the small intestine as chyme. Here the pancreas releases pancreatic juice, which contains the enzyme trypsin. Trypsin continues the breakdown of proteins into smaller peptides. Then enzymes in the intestinal juice, called peptidases, further break these peptides into amino acids, which are the simplest form of proteins. These amino acids are then absorbed through the villi of the small intestine into the bloodstream. Therefore, the correct statement would be that protein digestion begins in the stomach with pepsin but is completed in the small intestine by trypsin and other enzymes. The original statement is incomplete and would not receive full marks in an ICSE answer unless corrected and expanded.\r\n\r\nQ4 (apply): A child eats a meal of rice, cooked lentils and a spoonful of ghee. Trace the digestion of each type of nutrient from the mouth to the small intestine, naming the organs, juices and enzymes involved.\r\nAnswer: The rice is rich in carbohydrates, the lentils are rich in proteins, and the ghee is a fat. When the child chews the food in the mouth, the starch in the rice is mixed with saliva, which contains salivary amylase. This enzyme begins the conversion of starch into sugar. The proteins and fats are not digested in the mouth. The chewed food is then swallowed and passes down the oesophagus to the stomach by peristalsis. In the stomach, the gastric juice containing hydrochloric acid and pepsin begins the digestion of the proteins in the lentils. The food becomes chyme. The carbohydrates and fats are not digested in the stomach. From the stomach, the chyme enters the small intestine. Here the liver sends bile, which emulsifies the ghee into tiny droplets. The pancreas sends pancreatic juice, which contains trypsin for proteins, pancreatic amylase for carbohydrates and lipase for fats. The intestinal juice also helps. The carbohydrates in the rice are finally converted into glucose, the proteins in the lentils into amino acids, and the ghee into fatty acids and glycerol. These simple nutrients are then absorbed through the villi into the blood. This shows that each nutrient has a different digestive path and uses different enzymes in the digestive system.\r\n\r\nQ5 (create): Design a labelled classroom poster that shows the journey of a chapati, a piece of paneer and a little ghee through the digestive system. What labels, arrows and captions would you include?\r\nAnswer: The poster would begin with a large heading such as \"The Digestive Journey of an Indian Meal.\" At the left side, I would draw a mouth with teeth and label it \"Mouth: chewing + saliva (salivary amylase).\" I would place an arrow to the chapati and write the caption, \"Starch in chapati begins to break down here.\" Next, I would draw the oesophagus as a tube with wavy arrows and label it \"Oesophagus: peristalsis pushes food down.\" Then I would draw the stomach and label it \"Stomach: gastric juice with pepsin starts protein digestion.\" Beside the paneer, I would write, \"Paneer protein is attacked by pepsin and turned into peptones.\" From the stomach, an arrow would lead to a long, coiled small intestine. I would draw the liver and gall bladder above it, with a label \"Liver makes bile; gall bladder stores it.\" Another arrow would come from the pancreas, labelled \"Pancreas makes pancreatic juice with trypsin, pancreatic amylase and lipase.\" I would add the caption, \"Bile emulsifies ghee; lipase digests it into fatty acids and glycerol.\" At the end of the small intestine, I would draw villi and label them \"Villi absorb glucose, amino acids, fatty acids and glycerol into blood.\" Finally, a short large intestine, rectum and anus would be shown at the right. The poster would use colour-coded arrows: red for proteins, brown for carbohydrates and yellow for fats. This would make it easy for a class 6 student to see which nutrient is digested where and by which enzyme.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can name the digestive organs in order (mouth, oesophagus, stomach, small intestine, large intestine, anus); can state the function of each organ; can explain where digestion, absorption, and elimination occur.",
+    "subject": "bio",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_bio_014",
+    "title": "Respiratory system (detailed)",
+    "definition": "The respiratory system is the organised set of organs and tubes that carry air into the body, exchange oxygen for carbon dioxide, and then push the waste air out again. The journey of air begins at the two openings we call nostrils. The hollow space behind the nostrils is the nasal cavity, which is lined with fine hairs and a sticky layer of mucus. These hairs and mucus trap dust, germs, pollen and other unwanted particles, while tiny blood vessels in the lining warm the air and cells add moisture. After being cleaned, warmed and moistened, the air passes from the nasal cavity into the pharynx, a muscular tube at the back of the throat that is also used by food on its way to the stomach. Below the pharynx lies the larynx, or voice box, a small chamber that contains the vocal cords and produces sound. The larynx also helps guard the airway: a small flap called the epiglottis closes over the larynx when we swallow, so that food and drink go down the food pipe and not into the windpipe. From the larynx, air enters the trachea, commonly called the windpipe. The trachea is a strong tube about ten to twelve centimetres long in an adult, kept open by a series of C-shaped rings of cartilage. These rings stop the trachea from collapsing when air rushes through it. At the lower end, the trachea splits into two branches called the left and right bronchi, one going to each lung. Inside each lung, the bronchus divides again and again into smaller tubes called bronchioles, which finally end in tiny thin-walled air sacs called alveoli. It is in the alveoli, surrounded by a dense network of blood capillaries, that oxygen passes from the air into the blood and carbon dioxide leaves the blood to be breathed out. The two soft, spongy lungs fill the chest, or thoracic, cavity and are protected by the bony rib cage. The floor of the chest cavity is a large, dome-shaped sheet of muscle called the diaphragm. Breathing is not the same thing as respiration. Breathing, or ventilation, is the physical process of moving air in and out of the lungs through inhalation and exhalation. Respiration, by contrast, is the chemical process that takes place inside every living cell, in which oxygen is used to break down food and release energy, producing carbon dioxide and water as waste. The breathing mechanism depends on changes in the size and pressure of the chest cavity. During inhalation, the external intercostal muscles between the ribs contract, pulling the rib cage upwards and outwards, while the diaphragm contracts and moves downwards to become flatter. The chest cavity becomes larger, the pressure inside the lungs falls below the atmospheric pressure outside, and air rushes in through the nose, pharynx, larynx, trachea and bronchi to the alveoli. During exhalation, the intercostal muscles and the diaphragm relax, the ribs move downwards and inwards, the diaphragm returns to its dome shape, the chest cavity becomes smaller, and the increased pressure pushes air out through the same passages in the opposite direction. By repeating this cycle about twelve to twenty times a minute at rest, the respiratory system keeps the blood supplied with oxygen and helps remove the carbon dioxide produced by the body's cells.",
+    "textWalkthrough": "Let us begin by remembering what you already studied in the earlier node c3_bio_004. There, you learnt that when you breathe in, fresh air enters through the nose, travels down a tube called the windpipe, and reaches the lungs; when you breathe out, the used air is pushed back out again. That picture is correct, but it is only the beginning of the story. In this node, we are going to map every main stop along the air passage and understand why breathing happens at all -- not just that it happens.\r\n\r\nThe first question to ask is: why does the air not rush straight from the nose to the lungs? Why are there so many middle stations -- the pharynx, the larynx, the trachea and the bronchi? Think of the respiratory tract as a branching road. The nose is the toll gate where the air is cleaned, warmed and dampened before it is allowed to enter. From there the road widens into the pharynx, a shared corridor for both air and food. Imagine a school corridor where one lane is for students going to the library and another lane is for students going to the canteen; the pharynx is just such a shared corridor, and it needs careful traffic control. The traffic control point is the larynx, with its flap-like epiglottis that closes the airway when you swallow so that food slips down the oesophagus and not into the windpipe. After the larynx, the air enters the trachea. The trachea is like the main highway, and the C-shaped rings of cartilage are like the pillars and beams of a tunnel that keep the road open even when the wind rushes through. The highway then divides into the two bronchi, just as a national highway might split to serve two major cities; in your chest, these cities are the two lungs.\r\n\r\nOnce the air reaches the lungs, the bronchi branch into bronchioles, and these end in the alveoli. The alveoli are like thousands of tiny balloons wrapped in blood vessels. Because their walls are extremely thin and surrounded by capillaries, oxygen can easily move from the air into the blood, and carbon dioxide can easily move from the blood into the air. This is the real purpose of the whole journey: the nose, pharynx, larynx, trachea and bronchi are all there to deliver air safely to the alveoli so that the blood can collect oxygen and unload carbon dioxide.\r\n\r\nNow, how is the air actually pushed in and pulled out? Many students imagine that the lungs themselves squeeze and expand like a pair of hands. That is not true. The lungs are passive; they follow the movement of the chest wall and the diaphragm. Let us look at the breathing mechanism step by step. When you inhale, the external intercostal muscles contract and lift the ribs upwards and outwards. At the same time, the diaphragm contracts and flattens, moving slightly downwards. The chest cavity therefore becomes larger, like a box whose lid is lifted and base is pulled down. Because the box is larger, the air pressure inside the lungs becomes lower than the pressure outside the body, and atmospheric air flows in. When you exhale, the muscles relax, the ribs move down and in, and the diaphragm returns to its dome shape. The box becomes smaller, the pressure inside rises above the outside pressure, and air is pushed out. A good way to remember this is: inhalation is active, with muscles contracting; exhalation at rest is mostly passive, with muscles relaxing.\r\n\r\nLet us look at one good example and one weak example that students often write in the examination. A strong answer might say: \"During inhalation, the ribs move upwards and outwards, the diaphragm contracts and flattens, and the chest cavity enlarges, so the air pressure inside the lungs decreases and air rushes in.\" A weak answer would be: \"We breathe in and the air goes into the lungs.\" The weak answer misses the muscles, the pressure change and the direction of movement, so it cannot earn full marks. board examiners expect you to use the correct order of parts and the correct scientific words such as pharynx, larynx, trachea, bronchi, bronchioles, alveoli, diaphragm, inhalation and exhalation.\r\n\r\nIn the ICSE and ISC board examinations, questions on this topic usually appear as short-answer items asking you to name the parts of the respiratory system in order or to describe the mechanism of breathing. The examiner will also look for the difference between breathing and respiration. Keep your answer clear, use the exact terms, and remember the sequence: nose, pharynx, larynx, trachea, bronchi, bronchioles, alveoli, lungs, ribs and diaphragm. If you can draw and label this pathway accurately and explain one full cycle of inhalation and exhalation, you will meet the mastery criteria for this node.",
+    "eli5": "Imagine your body is a house. Fresh air comes in through two front doors called nostrils, walks down a hallway called the pharynx, passes a guard room called the larynx, rides a strong pipe called the trachea, then splits into two side roads called bronchi. These roads end in tiny balloons called alveoli inside the lungs. A big muscle floor called the diaphragm moves up and down like a pump to pull air in and push it out.",
+    "misconceptionText": "Misconception 1 -- \"Breathing and respiration mean the same thing.\"\r\nThis is one of the most common errors in answers about this topic. board exam guidance often note that students lose marks by confusing terms that sound alike but are scientifically different, just as they confuse centrosome and centromere or osmosis and guttation in other topics. Correction: Breathing is only the physical movement of air into and out of the lungs -- inhalation and exhalation. Respiration is a much broader process in which oxygen is used inside the cells to release energy from food. Breathing supplies oxygen for respiration, but the two words do not mean the same thing.\r\n\r\nMisconception 2 -- \"Air and food travel down the same pipe, and the diaphragm moves up when we inhale.\"\r\nMany students mix the trachea with the oesophagus and also get the diaphragm direction wrong. Correction: The pharynx is shared, but the larynx and the epiglottis direct air into the trachea and food into the oesophagus. During inhalation, the diaphragm contracts and moves downwards to become flatter; during exhalation, it relaxes and returns to its dome shape, moving upwards. The ribs also move out and up during inhalation, not in and down.\r\n\r\nMisconception 3 -- \"The lungs actively pull air in by themselves.\"\r\nSome students write that the lungs expand and contract on their own. Correction: The lungs are soft and passive. They expand because the chest cavity is enlarged by the movement of the ribs and the diaphragm. The change in chest volume creates a pressure difference, and it is this pressure difference, not the lungs themselves, that makes air move in and out.",
+    "diagnosticText": "Q1 (recall): Write the main parts of the human respiratory system in the correct order, starting from where air first enters the body, and give one function of each part.\r\nAnswer: Air first enters through the nostrils of the nose. The nose filters dust and germs through nasal hairs and mucus, warms the air and adds moisture. The next part is the pharynx, or throat, which is a muscular passage through which both air and food pass. Below the pharynx is the larynx, or voice box, which contains the vocal cords and also protects the airway by closing with the epiglottis during swallowing. After the larynx comes the trachea, or windpipe, a strong tube supported by C-shaped cartilage rings that carries air towards the lungs. The trachea then divides into the left and right bronchi, which are the two main branches entering each lung. Inside the lungs, the bronchi divide into smaller bronchioles, which spread the air throughout the lung tissue. The bronchioles finally end in alveoli, tiny thin-walled air sacs where oxygen enters the blood and carbon dioxide leaves it. The lungs are the two spongy organs in which this exchange occurs, and they are protected by the rib cage. The diaphragm is the dome-shaped muscle at the base of the chest cavity that helps change the chest volume during breathing. Altogether, these parts form a single air passage that delivers air to the blood for the body to use.\r\n\r\nQ2 (reasoning): Why does the trachea have C-shaped rings of cartilage, and why is it important for these rings to remain open while we breathe?\r\nAnswer: The trachea, or windpipe, is a tube that must stay open at all times so that air can move freely between the larynx and the bronchi. It is supported by C-shaped rings of cartilage. Cartilage is a firm but slightly flexible tissue, and the C-shape gives it the strength to hold the trachea open while still allowing the tube to bend a little when the neck moves. If the trachea were made of soft tissue only, it could collapse when air rushes through it or when the chest changes shape, and then air would not reach the lungs. The rings also help protect the trachea from being squeezed shut by the surrounding organs and muscles. This is important because the trachea is the only main highway for air between the upper air passage and the bronchi; any blockage would quickly stop oxygen from reaching the alveoli. The C-shaped design is therefore a clever compromise between strength and flexibility, keeping the airway open without making the throat stiff.\r\n\r\nQ3 (evaluate): A student wrote in her answer: \"During inhalation, the ribs move in and down, the diaphragm becomes dome-shaped, and the pressure inside the lungs increases.\" Is this statement correct? Evaluate it carefully, giving reasons and a correct explanation.\r\nAnswer: The student's statement is not correct; in fact, it describes almost the opposite of what happens during inhalation. First, during inhalation the external intercostal muscles between the ribs contract, pulling the rib cage upwards and outwards. This increases the width and the front-to-back depth of the chest cavity. Second, during inhalation the diaphragm contracts and moves downwards, becoming flatter rather than more dome-shaped. The combined movement of the ribs and diaphragm makes the chest cavity larger. Because the chest cavity is larger but the amount of air inside has not yet changed, the pressure inside the lungs falls below the atmospheric pressure outside the body. Air always moves from a region of higher pressure to a region of lower pressure, so fresh air rushes in through the nostrils, pharynx, larynx, trachea and bronchi to fill the lungs. The student has described the events of exhalation, not inhalation. During exhalation, the intercostal muscles and the diaphragm relax, the ribs move in and down, the diaphragm becomes dome-shaped again, the chest cavity becomes smaller, and the pressure inside the lungs rises above the outside pressure, pushing air out. Therefore, the student's statement is correct only if it is moved to the exhalation part of the answer, and it must be corrected for the inhalation part.\r\n\r\nQ4 (apply): During a 100-metre race on your school sports day, your breathing rate and depth increase. Explain, using the roles of the diaphragm and the ribs, why you breathe faster and more deeply when you run.\r\nAnswer: When you run, your muscles work harder and need more energy. To release more energy through respiration, your muscle cells need more oxygen and also produce more carbon dioxide that must be removed. Your brain detects the increased carbon dioxide in the blood and sends signals to make the breathing muscles work more often and more strongly. The diaphragm and the intercostal muscles between the ribs contract more frequently, so the number of breaths per minute increases. They also contract more powerfully, so the ribs move further upwards and outwards and the diaphragm moves further downwards. This makes the chest cavity much larger than it is at rest, lowering the pressure inside the lungs more sharply, so more air rushes in with each inhalation. The same muscles relax more forcefully during exhalation, shrinking the chest cavity further and pushing more used air out. In this way, the faster and deeper movements of the diaphragm and ribs increase both the amount of oxygen taken in and the amount of carbon dioxide removed, matching the needs of the exercising body.\r\n\r\nQ5 (create): Design a simple working model of the human breathing system using a transparent plastic bottle, two balloons, a Y-shaped tube, some clay and a sheet of rubber. Explain how each part of your model matches a part of the real respiratory system and how moving the rubber sheet shows inhalation and exhalation.\r\nAnswer: The transparent plastic bottle represents the chest cavity, or thoracic cavity, of the human body. The Y-shaped tube pushed through the neck of the bottle represents the trachea splitting into the left and right bronchi. Each branch of the Y-tube is attached to a small balloon, and the two balloons represent the two lungs. The sheet of rubber stretched across the cut bottom of the bottle represents the diaphragm. A little clay around the Y-tube at the neck of the bottle makes the seal airtight. When you pull the rubber sheet down, the space inside the bottle becomes larger, the pressure inside drops, and the two balloons expand as air flows in through the Y-tube. This is like inhalation, because the real diaphragm contracts and moves down, the ribs move up and out, and the lungs expand as air enters. When you push the rubber sheet up, the space inside the bottle becomes smaller, the pressure rises, and the balloons deflate as air is forced out of the tube. This is like exhalation, because the real diaphragm relaxes and becomes dome-shaped, the ribs move in and down, and air is pushed out of the lungs. The model therefore shows how the movement of the diaphragm and the rib cage changes the chest volume and drives the physical process of breathing.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can name the respiratory organs (nose, pharynx, larynx, trachea, bronchi, lungs); can describe the path of air from nose to lungs; can state where gaseous exchange occurs (alveoli in lungs).",
+    "subject": "bio",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_bio_015",
+    "title": "Respiration vs breathing",
+    "definition": "Breathing and respiration are two words that are often used as if they mean the same thing, but in biology they describe two different processes that work closely together. Breathing is the physical process of taking air into the body and pushing it out. It is also called ventilation. When you breathe in, the air rich in oxygen enters through your nose, travels down the windpipe, and reaches the lungs. This inward movement is called inhalation. When you breathe out, air rich in carbon dioxide leaves the lungs and passes out through the nose or mouth. This outward movement is called exhalation. The nose, nasal passage, windpipe, bronchi, and lungs are all parts of the respiratory tract, and this is where breathing happens. It is a mechanical movement of the diaphragm and ribs that creates pressure changes, so air moves in and out. Breathing itself does not release energy from food.\r\n\r\nRespiration, on the other hand, is a chemical or biochemical process that happens inside the cells of the body, mainly in tiny organelles called mitochondria. During respiration, the cells break down glucose and other food substances with the help of oxygen to release energy. This energy is stored in a molecule called ATP, which the cell uses for all its activities such as moving, growing, dividing, and maintaining body temperature. A simple word equation for aerobic respiration is: glucose + oxygen -> carbon dioxide + water + energy. The oxygen needed for this chemical reaction is brought to the cells by breathing, and the carbon dioxide produced as waste is carried back to the lungs and removed by breathing. So breathing supports respiration by supplying oxygen and removing carbon dioxide, but it is not respiration itself.\r\n\r\nThe two key differences are easy to remember. First, breathing is a physical process because it is about movement of air in and out of the respiratory tract, while respiration is a chemical process because it involves the oxidation of food inside cells. Second, breathing occurs in the lungs and the passages connected to them, whereas respiration occurs in the cells of the body. You can stop thinking about breathing for a few seconds, but your cells continue to respire all the time, even when you are sleeping. Without breathing for a long time, respiration cannot continue efficiently because the cells would run out of oxygen and carbon dioxide would build up.\r\n\r\nThe vocabulary of this topic is important. Inhalation is breathing in, exhalation is breathing out, oxygen is the gas taken in, carbon dioxide is the gas given out, glucose is a simple sugar used in respiration, and mitochondria are the power houses of the cell where much of respiration takes place. ATP is the energy currency that cells spend to do work. Both breathing and respiration are necessary for life, but they are not the same.",
+    "textWalkthrough": "Let us begin by remembering what you already know. In Class 4, you studied node c4_bio_018, where you learnt about breathing and burning. You observed that both breathing and burning use oxygen and both release energy. That was an important first step because it taught you that oxygen is needed when something releases energy. Now, in Class 6, we are taking the next step. You have just finished c6_bio_014, where you learnt the organs of the respiratory system and how air moves in and out of your body through the nose, windpipe, bronchi, and lungs. With that fresh in your mind, we can now clearly separate two ideas: breathing, which is the physical movement of air, and respiration, which is the chemical release of energy inside cells.\r\n\r\nThink of it this way. When you open and close a window, you are not creating the warmth inside the room; you are only letting fresh air in and stale air out. Breathing is like that window. It is the physical action of moving air in and out. Your diaphragm flattens and your rib cage rises during inhalation, so air rushes in. Then the diaphragm relaxes and the rib cage falls during exhalation, so air rushes out. The lungs are like spongy bags that fill and empty, but no food is being broken down there.\r\n\r\nNow, inside your cells, something much quieter but much more important is happening. Each cell is like a tiny factory. It takes in glucose from digested food and oxygen from the air you breathed. In the mitochondria, these combine in a controlled way to release energy. This is the chemical process of respiration. The energy is packaged into ATP molecules. Without this energy, muscles cannot contract, nerves cannot carry messages, and new cells cannot be made. A useful comparison is that breathing is like a delivery truck bringing firewood to a fireplace, and respiration is the actual burning of the wood to release heat.\r\n\r\nLet us look at a good answer and a weak answer, because the board examiners expect you to keep these ideas separate. A weak answer might say, \"Breathing is respiration because both use oxygen.\" That would lose marks because it misses the main point. A good answer would say, \"Breathing is the physical process of inhalation and exhalation that takes oxygen into the lungs and removes carbon dioxide, while respiration is the chemical process in cells that breaks down glucose with oxygen to release energy for the body.\" Notice how the good answer names the locations and the nature of each process.\r\n\r\nAnother good comparison is the balloon example. A balloon being pumped full of air is like breathing, because it is only a movement of air. The engine of a car burning fuel is like respiration, because it is a chemical change that releases energy. Always remember that breathing supports respiration by bringing in oxygen and carrying away carbon dioxide, but the actual release of energy from food happens inside the cells, especially in the mitochondria.\r\n\r\nIn the ICSE board exam, you may be asked to define breathing and respiration, list differences, or explain how one supports the other. The examiners will look for the words physical and chemical, the correct locations of the two processes, and the names of the gases involved. Do not confuse respiration with excretion or breathing with photosynthesis. Keep the definitions clean, and you will earn full marks.",
+    "eli5": "Breathing is moving air in and out of your body through your nose and lungs. Respiration is the tiny work inside your cells that turns food and oxygen into energy. Breathing brings the oxygen that respiration needs, and takes away the waste carbon dioxide.",
+    "misconceptionText": "Misconception 1: Many students use the words \"breathing\" and \"respiration\" as if they are the same thing. board exam guidance from the 2024 and board exam analysis papers show that candidates often confuse closely related biological terms, such as excretion with egestion and defecation. This same pattern appears with breathing and respiration. The correction is to remember that breathing is only the physical movement of air, while respiration is the chemical release of energy inside cells.\r\n\r\nMisconception 2: Some students think that breathing releases energy from food. This is not true. Breathing does not break down glucose. Only respiration, which takes place in the mitochondria of cells, releases the stored energy from glucose and other food substances by combining them with oxygen.\r\n\r\nMisconception 3: Some candidates give vague objectives in their answers, such as saying a process is there \"to keep the body clean\" without relating it to the actual scientific goal. In this topic, a weak answer might say, \"Breathing is needed to give us energy.\" The correction is to be precise: breathing itself does not give energy, but it supplies the oxygen and removes the carbon dioxide so that respiration can give the cells energy.",
+    "diagnosticText": "Q1 (recall): Define breathing and respiration in your own words.\r\nAnswer: Breathing is the physical process by which living organisms take in oxygen-rich air from the surroundings and give out carbon dioxide-rich air. It involves two movements: inhalation, which is the taking in of air through the nose into the lungs, and exhalation, which is the giving out of air from the lungs. Breathing occurs in the respiratory tract, which includes the nose, nasal passage, windpipe, bronchi, and lungs. It is controlled by the movements of the diaphragm and the ribs. Respiration, however, is the chemical process that takes place inside the cells, especially in the mitochondria, where glucose and other food substances are oxidised in the presence of oxygen to release energy. This energy is stored in the form of ATP and is used by the cell for all life activities. The waste product carbon dioxide is produced during respiration and is removed from the body through breathing.\r\n\r\nQ2 (reasoning): Breathing and respiration both involve oxygen. Why are they not the same process?\r\nAnswer: Breathing and respiration are connected but different because one is a physical movement and the other is a chemical change. Breathing is the physical process of moving air in and out of the lungs. During inhalation, oxygen enters the body, and during exhalation, carbon dioxide leaves the body. This is like a delivery system. Respiration is the chemical process in which the oxygen delivered by breathing is used inside the cells to break down glucose. The glucose comes from the food we eat, and the oxygen comes from the air we breathe. When these two combine in the mitochondria, energy is released. The word equation is glucose plus oxygen gives carbon dioxide plus water plus energy. Without breathing, respiration would stop after a while because the cells would have no oxygen and the waste carbon dioxide would build up. So breathing supports respiration, but the two are not the same because they occur at different places and in different ways.\r\n\r\nQ3 (evaluate): A student says, \"Breathing is just the same as respiration because both of them use oxygen.\" Is this statement correct? Give a balanced argument.\r\nAnswer: The student's statement is not correct, but it does contain a partial truth that must be acknowledged. It is true that both breathing and respiration are related to oxygen. Breathing takes oxygen from the air into the lungs, and respiration uses that oxygen inside the cells. So the student is right in saying that oxygen is involved in both. However, the statement is wrong because it treats the two processes as the same. Breathing is a physical process of moving air in and out through the nose and lungs. It does not release energy. It only helps to supply oxygen and remove carbon dioxide. Respiration, on the other hand, is a chemical or biochemical process that happens in the cells, mainly in the mitochondria. It breaks down glucose with oxygen to release energy for the body. One good analogy is that breathing is like the wind that brings fuel to a fire, while respiration is the fire itself that gives heat and light. Another way to see it is that breathing is the transport system, and respiration is the factory that produces energy. Therefore, although both processes are linked and both involve oxygen, they are clearly different in location, nature, and function. The student should be praised for noticing the connection but corrected for missing the distinction.\r\n\r\nQ4 (apply): Suppose a person is holding their breath under water for a short time. Explain what will happen to the breathing and to the respiration in their cells, and why they must come up for air.\r\nAnswer: When a person holds their breath under water, breathing stops temporarily. No fresh oxygen is entering the lungs through inhalation, and carbon dioxide is not being removed through exhalation. However, the cells of the body are still carrying out respiration for a short time because they are using the oxygen that is already stored in the blood and lungs. As the seconds pass, the oxygen in the blood gets used up and the amount of carbon dioxide in the blood increases. The cells need a constant supply of oxygen because respiration requires oxygen to break down glucose and release ATP. If oxygen is not available, the cells cannot release enough energy to keep the body working properly. The build-up of carbon dioxide also makes the blood more acidic and signals the brain to start breathing again. That is why the person must come up for air: to start breathing again so that oxygen is brought in and carbon dioxide is removed, allowing respiration to continue normally.\r\n\r\nQ5 (create): Design a simple classroom demonstration that could help younger students understand the difference between breathing and respiration.\r\nAnswer: For this demonstration, I would use two simple props. First, I would take a balloon and a small hand pump. This represents breathing. When I squeeze the pump, air goes into the balloon, just like the diaphragm and ribs move to fill the lungs. When I release the air, it is like exhalation. I would explain that the balloon is not changing the air into energy; it is only moving air in and out. Second, I would use a small candle inside a closed glass jar. The candle flame needs oxygen and produces carbon dioxide and heat. This represents respiration, because it is a chemical change that releases energy from a fuel. I would tell the students that the flame is like a cell using oxygen to break down glucose inside the mitochondria. I would make sure the room is well-ventilated and the candle is safely placed. Then I would ask the students to compare the two: the balloon shows a physical movement of air, while the candle shows a chemical release of energy. This would help them remember that breathing is the physical process in the respiratory tract and respiration is the chemical process inside the cells.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can define breathing (physical process of inhaling and exhaling) and respiration (chemical process of releasing energy from food); can state two differences between them; can write the word equation for respiration (glucose + oxygen -> carbon dioxide + water + energy).",
+    "subject": "bio",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_bio_016",
+    "title": "Common respiratory diseases",
+    "definition": "The respiratory system helps us take in oxygen and remove carbon dioxide, but several common diseases can disturb this work. In this node we study four important respiratory diseases: asthma, bronchitis, pneumonia and tuberculosis or T.B. Asthma is a condition in which the air passages, especially the bronchi, become narrow and swollen, causing wheezing and breathlessness. It is often brought on by dust, pollen, smoke, strong smells or polluted air in crowded Indian cities such as Delhi, Kanpur and Mumbai. Bronchitis is the inflammation of the bronchi, the two main tubes that carry air from the windpipe into the lungs. It produces cough and mucus, and is usually made worse by breathing dirty air or tobacco smoke. Pneumonia is an infection of the lungs in which the tiny air sacs called alveoli fill with fluid or pus, leading to fever, cough, chest pain and breathing difficulty. A virus, bacterium or fungus may act as the pathogen that causes it. Tuberculosis, commonly called T.B., is a bacterial infection of the lungs caused by Mycobacterium tuberculosis. It damages the lung tissue and causes a persistent cough that may last for weeks, often with weight loss, fever and night sweats. It is a major public health concern in India, where free diagnosis and treatment are provided under the government DOTS programme and children are given the BCG vaccine at birth. Each disease affects a particular organ: asthma and bronchitis affect the bronchi, while pneumonia and tuberculosis affect the lungs. The symptom is the sign or feeling that tells us something is wrong, such as wheezing, cough, fever or breathing difficulty. The best prevention is to breathe clean air, avoid smoking and bidi smoke, keep away from known triggers, and seek medical help early.",
+    "textWalkthrough": "Let us begin by remembering what you already know. In node c3_bio_005 you learned that air pollution causes breathing problems, and you saw how dirty air irritates the nose, throat and chest. That idea is the starting point for this lesson. In node c6_bio_014 you studied the respiratory system and learned that air moves through the windpipe into the bronchi and then into the lungs. You must keep that picture in mind, because every disease we are going to meet now attacks a specific part of that pathway. So, before we name the diseases, ask yourself: where does air go after the windpipe? It enters the bronchi, then the lungs. Good, now we are ready.\r\n\r\nFirst comes asthma. Imagine you are drinking through a straw and someone suddenly pinches it. Less liquid can rise, and you have to suck harder. That is exactly what happens in asthma: the muscles around the bronchi tighten and the lining swells, so the air passages become narrow. The person makes a whistling sound called wheezing and feels breathless. A good answer in an exam would say, \"Asthma affects the bronchi; it narrows the air passages and causes wheezing and breathlessness.\" A weak answer would only say, \"It is a breathing problem,\" because that does not name the organ or the symptom.\r\n\r\nNext comes bronchitis. The bronchi become inflamed, which means they are red, swollen and irritated. The body produces extra mucus, so the person coughs to clear it. You can think of it as a pipe that has become swollen and rough inside. A good answer is, \"Bronchitis is the inflammation of the bronchi; it causes cough and mucus.\" A weak answer is, \"It is a bad cough,\" because many illnesses cause cough; bronchitis is specifically the inflammation of the bronchi.\r\n\r\nNow think about pneumonia. Here the infection is not in the bronchi but deeper, in the lungs. The alveoli fill with fluid, just as a sponge soaks up water and can no longer hold air. That is why a person with pneumonia has fever and difficulty breathing. A strong answer is, \"Pneumonia is an infection of the lungs that fills the alveoli with fluid and causes fever and breathing difficulty.\" A weak answer is, \"It is a lung problem,\" because it does not explain what happens inside the lungs.\r\n\r\nFinally, tuberculosis or T.B. It is a bacterial infection of the lungs that slowly damages the lung tissue. Picture rust damaging a metal pipe from inside; the pipe looks all right from the outside but is being eaten away. T.B. causes a persistent cough, often for weeks, and the person may lose weight and feel feverish at night. A good answer is, \"T.B. is a bacterial infection of the lungs that causes persistent cough and weight loss.\" A weak answer is, \"It is caused by a virus,\" which is wrong, because T.B. is caused by bacteria.\r\n\r\nYou should also remember prevention. Clean air, avoiding smoking and reducing exposure to dust and smoke protect the respiratory system. In the ICSE board exam, examiners expect you to name the four diseases correctly, identify whether each affects the bronchi or the lungs, and describe one clear symptom for each. They do not want vague answers such as \"cough\" or \"breathing problem\" without the correct disease name and organ.",
+    "eli5": "Sometimes the parts we use to breathe get sick. Asthma makes the breathing tubes narrow and whistle. Bronchitis makes them sore and full of slimy cough. Pneumonia fills the lungs with watery fluid. Tuberculosis is a germ that slowly harms the lungs. Clean air, no smoking and seeing a doctor help keep our breathing healthy.",
+    "misconceptionText": "The board exam guidance from board exam analysis show a pattern that is very relevant here. In the board exam analysis, examiners reported that \"several candidates mentioned names other than AIDS, such as dengue, chikungunya, and common cough and cold,\" and that some candidates confused the symptoms of one disease with another. The same mistake appears when students learn respiratory diseases: they may answer \"common cough and cold\" when asked to name a specific disease, or they may mix up asthma and bronchitis because both involve cough. The correction is to learn the exact four names in this node, asthma, bronchitis, pneumonia and tuberculosis, and to remember that each has a distinct symptom and organ.\r\n\r\nAnother examiner observation in board exam analysis is that \"the name of the virus mentioned by some candidates did not match the diseases.\" Respiratory disease students often say that T.B. is caused by a virus. That is wrong. T.B. is a bacterial infection of the lungs, whereas asthma is not caused by an infection at all; it is a condition in which the bronchi become narrow and inflamed. Pneumonia can be caused by different pathogens, including bacteria, viruses or fungi. The correction is to match each disease with its correct cause.\r\n\r\nA third common error is to think that all four diseases are the same because they all affect breathing. Students may write, \"All of them cause cough,\" and stop. While cough and breathing difficulty may appear in several of them, the organ affected and the main symptom are different. The correction is to compare the diseases in a small table in your mind: asthma and bronchitis affect the bronchi; pneumonia and T.B. affect the lungs; asthma gives wheezing, bronchitis gives mucus cough, pneumonia gives fever and fluid-filled lungs, and T.B. gives a long cough with weight loss.",
+    "diagnosticText": "Q1 (recall): Name the four common respiratory diseases you have studied, and for each one write the organ it affects and one main symptom.\r\nAnswer: The four common respiratory diseases are asthma, bronchitis, pneumonia and tuberculosis or T.B. Asthma affects the bronchi, the two main air tubes leading into the lungs, and its main symptom is wheezing along with breathlessness. Bronchitis also affects the bronchi, but here the problem is inflammation, and the main symptom is cough with mucus. Pneumonia affects the lungs, especially the tiny air sacs called alveoli, and its main symptoms are fever and breathing difficulty because the sacs fill with fluid. Tuberculosis affects the lungs too, and its main symptom is a persistent cough that continues for weeks, often accompanied by weight loss and fever. Remembering the organ and the symptom together helps you avoid confusing one disease with another in the exam.\r\n\r\nQ2 (reasoning): A person starts wheezing and finds it hard to breathe after walking through a dusty street. Explain why this could be an asthma attack, using the idea of narrowing of the bronchi.\r\nAnswer: When a person with asthma breathes in dust or other triggers, the muscles around the bronchi tighten and the lining of the bronchi becomes swollen. This makes the air passages narrow, so the amount of air that can pass through is reduced. The body has to pull air through these narrow tubes, and this produces a whistling sound called wheezing. At the same time, because less air reaches the lungs, the person feels breathless. This is similar to trying to drink through a straw that has been pinched almost shut; you can still get some liquid, but you have to work much harder. Moving away from the dust, sitting upright and using prescribed medicine help the bronchi to open again.\r\n\r\nQ3 (evaluate): A student says, \"Pneumonia and tuberculosis both affect the lungs, so they must have the same cause and the same treatment.\" Evaluate this statement.\r\nAnswer: This statement is partly correct in one way but wrong overall. It is true that both pneumonia and tuberculosis affect the lungs and that both can cause cough and fever, so they do share some symptoms. However, the causes are different. Pneumonia can be caused by several different pathogens, including bacteria, viruses or fungi, and the alveoli fill with fluid or pus. Tuberculosis is specifically a bacterial infection caused by Mycobacterium tuberculosis, and it damages the lung tissue over a long time. Because the causes are different, the treatments are also different. Pneumonia may be treated with rest, fluids and antibiotics chosen by a doctor based on the type of infection. Tuberculosis needs a much longer course of special anti-TB medicines, usually for six months, under a programme such as DOTS. Giving the wrong medicine or stopping treatment early can make the disease worse or allow it to spread to others. Therefore, we cannot treat them as the same disease, and a doctor must diagnose each one carefully.\r\n\r\nQ4 (apply): During Diwali, the air in an Indian city such as Delhi becomes full of smoke from crackers. A child starts coughing with mucus and has a mild fever the next morning. Which respiratory disease from this node is most likely, and what two preventive steps could the family have taken?\r\nAnswer: The most likely disease from this node is bronchitis, because the bronchi have become inflamed by the smoke and the child is producing mucus, which leads to cough. It could also trigger asthma if the child already has it and begins to wheeze, but the presence of mucus and the description of cough point more clearly to bronchitis. The family could have prevented this by avoiding the smoke from crackers and staying indoors when the air was very polluted, or by using a simple mask if going outside was necessary. They should also make sure that no one at home smokes, because tobacco smoke is another common cause of bronchitis. If the cough and fever continue, they must take the child to a doctor to check whether it has become pneumonia.\r\n\r\nQ5 (create): Design a school poster for a \"Clean Air, Healthy Lungs\" campaign. What main message would you write, and which two pictures would you draw to explain respiratory diseases?\r\nAnswer: My poster would carry the message, \"Breathe clean air, stay away from smoke, and keep lungs healthy.\" I would draw two pictures. The first picture would show the four organs affected: the bronchi for asthma and bronchitis, and the lungs for pneumonia and tuberculosis. Next to each organ I would write the disease name and one main symptom, such as \"Asthma: wheezing bronchi\" and \"T.B.: damaged lungs.\" The second picture would show the prevention side: a child walking past a smoking vehicle with a mask, a family planting a tree, and a crossed-out cigarette with the words \"No smoking.\" I would also add the Indian example that cities like Delhi and Mumbai see more breathing problems when the air is dirty, so walking, cycling, using buses and avoiding crackers help everyone.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can name three common respiratory diseases (asthma, bronchitis, pneumonia); can state one cause and one symptom of each; can describe two ways to prevent respiratory diseases (avoid smoking, clean air).",
+    "subject": "bio",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_bio_017",
+    "title": "Circulatory system (detailed)",
+    "definition": "The circulatory system is the organ system responsible for transporting blood throughout the human body, ensuring that every living cell receives oxygen and nutrients while waste products such as carbon dioxide are carried away. At the centre of this system lies the heart, a muscular organ roughly the size of a clenched fist, located slightly to the left of the middle of the chest. The heart is divided into four chambers: the two upper auricles (atria) and the two lower ventricles. The right auricle and right ventricle receive deoxygenated blood from the body and pump it to the lungs, while the left auricle and left ventricle receive oxygenated blood from the lungs and pump it to the rest of the body. The wall of the left ventricle is especially thick because it must generate enough force to send blood to every part of the body, from the brain to the toes.\r\n\r\nBlood itself is a remarkable liquid connective tissue made up of four components. Red blood cells, or erythrocytes, contain a protein called hemoglobin that binds to oxygen and gives blood its red colour; they are responsible for carrying oxygen from the lungs to the tissues. White blood cells, or leukocytes, are the soldiers of the blood, defending the body against harmful germs and foreign particles. Platelets, or thrombocytes, are tiny cell fragments that help in clotting and prevent excessive bleeding when a blood vessel is injured. Plasma is the pale, straw-coloured liquid portion of blood in which these cells are suspended; it is mostly water but also contains dissolved salts, proteins, hormones, and nutrients.\r\n\r\nThe blood travels through a network of blood vessels. Arteries are vessels that carry oxygenated blood away from the heart to the body tissues, except for the pulmonary artery, which carries deoxygenated blood to the lungs. Veins are vessels that carry deoxygenated blood back to the heart from the body, except for the pulmonary vein, which carries oxygenated blood from the lungs to the heart. Arteries have thick, elastic walls because blood flows through them under high pressure, whereas veins have thinner walls and often contain valves that prevent blood from flowing backward. Capillaries are the smallest and thinnest blood vessels, with walls only one cell thick, and they form a vast network between arteries and veins. It is in the capillaries that the actual exchange of materials--oxygen, carbon dioxide, nutrients, and waste products--takes place between blood and body cells.\r\n\r\nThe process of circulation is double circulation in humans, meaning blood passes through the heart twice in one complete circuit. In the pulmonary circulation, deoxygenated blood travels from the right ventricle through the pulmonary artery to the lungs, where it releases carbon dioxide and picks up oxygen, then returns as oxygenated blood through the pulmonary vein to the left auricle. In the systemic circulation, oxygenated blood leaves the left ventricle through the aorta, the largest artery, and is distributed to all parts of the body through smaller arteries and arterioles. After oxygen and nutrients are delivered to the cells through the capillaries, the blood becomes deoxygenated and is collected by venules and then veins, eventually returning to the right auricle through the superior and inferior vena cava. The heart continuously pumps, creating the pressure needed to keep this cycle going without pause, even when a person is asleep.",
+    "textWalkthrough": "You already know from Class 5, node c5_bio_003, that the heart is like a pump that pushes blood through arteries and veins. That was the big picture. Now, in Class 6, we are going to look under the hood and understand why the heart is such a powerful pump, what blood is actually made of, and how the blood follows a precise pathway through the body. Think of the earlier idea as knowing that a city has roads and traffic; now we are going to study the road map, the vehicles, and the exact route each vehicle takes.\r\n\r\nLet us begin with the heart itself. Imagine the heart as a house with four rooms. The two rooms on top are called auricles, and the two rooms below are called ventricles. The right side of the heart receives deoxygenated blood from the body and sends it to the lungs to pick up oxygen. The left side receives oxygenated blood from the lungs and pumps it to the entire body. Notice that the left ventricle has a much thicker wall than the right ventricle. Why is that? The right ventricle only needs to push blood to the nearby lungs, but the left ventricle must push blood all the way to the fingers, toes, and brain. So, would a muscular wall matter more for the right or the left ventricle? The answer is the left ventricle.\r\n\r\nNow, what is blood? If you were to spin a test tube of blood in a machine, you would see that it separates into layers. The bottom layer is made of red blood cells. These cells look like tiny red discs with no nucleus, and they contain hemoglobin, which loves oxygen. The thin, pale middle layer is white blood cells and platelets. White blood cells protect you from diseases by attacking germs, and platelets help form a plug when you cut yourself, preventing too much blood from flowing out. The top, yellowish liquid is plasma, which carries dissolved food, hormones, and waste. A good answer to a question about blood components should name all four parts and briefly say what each does. A weak answer might just say \"blood has red and white cells\" and forget platelets and plasma.\r\n\r\nNext, consider the blood vessels. Arteries, veins, and capillaries are like the three types of roads in our city example. Arteries are wide, strong, one-way highways carrying oxygenated blood away from the heart, except for the pulmonary artery. Veins are the return lanes bringing deoxygenated blood back to the heart, except for the pulmonary vein. Capillaries are the narrow lanes or alleyways where the real action happens; they are so thin that oxygen and nutrients can step out of the blood and into the cells, while carbon dioxide and other wastes step in. Exam papers often ask students to name the blood vessel where exchange of materials occurs, and the correct answer is capillary, not simply \"blood vessel.\" Saying \"blood vessel\" is too vague and may cost you marks.\r\n\r\nThe pathway of blood through the body follows a beautiful double loop. First, the pulmonary loop: right ventricle to pulmonary artery to lungs to pulmonary vein to left auricle. Then, the systemic loop: left ventricle to aorta to arteries to arterioles to capillaries to venules to veins to vena cava to right auricle. This is called double circulation because the blood goes through the heart twice for one complete trip around the body. When you draw a diagram, be sure to show oxygenated blood in red and deoxygenated blood in blue, label the four chambers, and indicate the correct directions with arrows. board examiners frequently note that students lose marks in diagram-based questions when they do not label all parts clearly or confuse arteries with veins.\r\n\r\nWhen you face board questions, remember the examiners expect you to be precise. If asked where exchange of materials takes place, say \"capillaries\" and explain that their walls are one cell thick. If asked about diapedesis, remember it is the process by which white blood cells squeeze out through the thin walls of capillaries to fight germs at the site of infection. Many students confuse blood vessels and miss this capillary detail. A well-practised, correctly labelled diagram is one of the best ways to secure full marks.",
+    "eli5": "Your heart is a strong pump with four rooms. It pushes blood through tubes called arteries to every part of your body. Tiny tubes called capillaries swap oxygen and food for waste. Then blood comes back through veins to the heart again.",
+    "misconceptionText": "Misconception 1: Students often write \"blood vessels\" instead of \"capillaries\" when asked where exchange of materials takes place. board examiners observed this exact error in the board exam analysis data, where a number of candidates wrote \"blood vessels\" instead of \"capillaries\" and lost marks. Correction: capillaries are the specific blood vessels responsible for exchange of materials because their walls are only one cell thick, allowing substances to pass through easily.\r\n\r\nMisconception 2: Students confuse arteries and veins and believe that all arteries carry oxygenated blood and all veins carry deoxygenated blood. This leads to errors when the pulmonary artery and pulmonary vein appear in questions. Correction: in general, arteries carry blood away from the heart and veins carry blood to the heart. The pulmonary artery is the exception because it carries deoxygenated blood away from the heart to the lungs, and the pulmonary vein carries oxygenated blood back to the heart.\r\n\r\nMisconception 3: Students draw diagrams without correct labels or confuse the left and right sides of the heart. The board examiner observations repeatedly stress the need for repeated practice of diagram-based questions with correct labels and for stressing the role of all labelled parts. Correction: always label the four chambers, the main arteries, the main veins, the lungs, and use arrows to show the direction of blood flow. The left side of the heart should be shown receiving oxygenated blood and pumping it to the body.",
+    "diagnosticText": "Q1 (recall): Name the four chambers of the heart and the four components of blood. State one function of each.\r\nAnswer: The heart has four chambers: the right auricle, the right ventricle, the left auricle, and the left ventricle. The right auricle receives deoxygenated blood from the body through the vena cava, while the right ventricle pumps this blood to the lungs through the pulmonary artery. The left auricle receives oxygenated blood from the lungs through the pulmonary vein, and the left ventricle pumps this oxygen-rich blood to the entire body through the aorta. Blood is made up of four components: red blood cells, white blood cells, platelets, and plasma. Red blood cells contain hemoglobin and carry oxygen from the lungs to the tissues. White blood cells protect the body against infections by attacking germs. Platelets help in the clotting of blood when a vessel is injured. Plasma is the liquid part of blood that transports dissolved nutrients, hormones, waste products, and blood cells themselves throughout the body.\r\n\r\nQ2 (reasoning): Arteries generally carry oxygenated blood, but the pulmonary artery is an exception. Explain why the pulmonary artery carries deoxygenated blood and describe what would happen if it carried oxygenated blood instead.\r\nAnswer: The function of an artery is not defined by the oxygen content of the blood it carries, but by the direction of blood flow: arteries carry blood away from the heart. The pulmonary artery carries deoxygenated blood away from the right ventricle of the heart to the lungs. In the lungs, this blood releases carbon dioxide and absorbs oxygen. If the pulmonary artery were to carry oxygenated blood to the lungs, it would create a serious problem. The lungs are the organs where blood picks up oxygen and releases carbon dioxide; sending blood that is already oxygenated to the lungs would be pointless and would disturb the entire exchange process. The body needs deoxygenated blood in the lungs so that the oxygen concentration gradient drives oxygen into the blood and carbon dioxide out of it. This is why the pulmonary artery is the only artery in the body that carries deoxygenated blood, and it is an important exception that students must remember for their exams.\r\n\r\nQ3 (evaluate): A student says, \"Veins always carry deoxygenated blood, so the pulmonary vein must be a vein that carries deoxygenated blood.\" Evaluate this statement, giving reasons for your answer and explaining the importance of the pulmonary vein in double circulation.\r\nAnswer: This statement is not correct. It is true that most veins carry deoxygenated blood, but the pulmonary vein is an important exception. A vein is defined as a blood vessel that carries blood towards the heart, not necessarily by the oxygen content of the blood. The pulmonary vein carries oxygenated blood from the lungs back to the left auricle of the heart. During pulmonary circulation, deoxygenated blood is pumped from the right ventricle to the lungs through the pulmonary artery. In the lungs, in the capillaries surrounding the alveoli, carbon dioxide leaves the blood and oxygen enters it. The blood is now oxygenated and must return to the heart so that the left ventricle can pump it to the rest of the body. The pulmonary vein is therefore essential because it completes the pulmonary loop by returning freshly oxygenated blood to the heart. Without the pulmonary vein, oxygen-rich blood would not reach the left side of the heart, and the body would be deprived of oxygen. The statement ignores the rule that veins return blood to the heart and overgeneralises the idea that veins carry deoxygenated blood. The correct answer must recognise the pulmonary vein as the exception and explain its role in double circulation.\r\n\r\nQ4 (apply): A person has a cut on the finger that starts bleeding. After a few minutes, a dark red scab forms and the bleeding stops. Explain the role of the blood components involved, with special reference to capillaries and platelets.\r\nAnswer: When the finger is cut, blood flows out from the capillaries, which are the tiny blood vessels in the skin. Capillaries have very thin, one-cell-thick walls, so a small cut can easily damage them and cause bleeding. As soon as a blood vessel is injured, platelets in the blood rush to the site. Platelets are small, disc-shaped cell fragments that stick to the broken edges of the blood vessel and to each other, forming a plug. They also release substances that start a chain of reactions to form a fibrin thread, which traps more blood cells and creates a clot. This clot dries and becomes a scab, sealing the wound and preventing further blood loss. Meanwhile, red blood cells are trapped in the clot, giving it a dark red colour. White blood cells may also move through the walls of the capillaries by diapedesis to reach the injured area and protect it from germs that might enter through the cut. Thus, platelets and capillaries work together to stop bleeding and begin the healing process.\r\n\r\nQ5 (create): Design a simple, labelled diagram of the human circulatory system for a Class 6 student. List the five most important labels and one sentence describing the role of each labelled part.\r\nAnswer: A good diagram of the human circulatory system should show the heart in the centre, the lungs on either side, and the major blood vessels connecting them to the rest of the body. The five most important labels are: (1) Heart: the muscular pump that keeps blood moving through the blood vessels; it has four chambers that separate oxygenated and deoxygenated blood. (2) Lungs: the organs where blood picks up oxygen and releases carbon dioxide during pulmonary circulation. (3) Arteries: the blood vessels that carry oxygenated blood away from the heart to the body, except for the pulmonary artery. (4) Veins: the blood vessels that carry deoxygenated blood back to the heart from the body, except for the pulmonary vein. (5) Capillaries: the smallest blood vessels with one-cell-thick walls where oxygen, nutrients, carbon dioxide, and waste products are exchanged between blood and body cells. The diagram should use red to show oxygenated blood and blue to show deoxygenated blood, with arrows showing the direction of blood flow through the pulmonary and systemic circulations.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can name the four chambers of the heart (right and left atria, right and left ventricles); can describe the path of blood through the heart; can distinguish between arteries and veins (arteries: thick walls, away from heart; veins: valves, towards heart).",
+    "subject": "bio",
+    "classLevel": 6
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE BodySystemsSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

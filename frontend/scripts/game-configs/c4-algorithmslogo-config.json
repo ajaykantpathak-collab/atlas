@@ -1,0 +1,45 @@
+{
+  "gameTitle": "AlgorithmsLogoGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\AlgorithmsLogoGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\cs\\enrichment\\c4_cs_enrichment_part14.marker",
+    "D:\\cisce\\cs\\enrichment\\c4_cs_enrichment_part15.marker",
+    "D:\\cisce\\cs\\enrichment\\c4_cs_enrichment_part16.marker",
+    "D:\\cisce\\cs\\enrichment\\c4_cs_enrichment_part17.marker",
+    "D:\\cisce\\cs\\enrichment\\c4_cs_enrichment_part18.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_cs_014 (Stepwise thinking - breaking problems into steps), c4_cs_015 (Algorithms - flowcharts and pseudocode), c4_cs_016 (LOGO introduction - turtle graphics), c4_cs_017 (LOGO primitives - FD, BK, RT, LT, HT, ST), c4_cs_018 (LOGO drawing shapes - square, rectangle, triangle using turtle)",
+  "mascotName": "Coder Kabir",
+  "mascotDescription": "a friendly coding teacher with a turtle badge, a flowchart, a laptop, and a pencil. Custom SVG, not an owl.",
+  "sceneDescription": "coding classroom scene with sky gradient, a school building, a turtle robot on a grid, a flowchart on a whiteboard, and LOGO command cards on desks",
+  "svgObjects": [
+    { "name": "TurtleIcon", "description": "a LOGO turtle (small triangle/arrow shape)" },
+    { "name": "ForwardIcon", "description": "FD command arrow pointing forward" },
+    { "name": "BackwardIcon", "description": "BK command arrow pointing backward" },
+    { "name": "RightTurnIcon", "description": "RT command curved arrow turning right" },
+    { "name": "LeftTurnIcon", "description": "LT command curved arrow turning left" },
+    { "name": "FlowchartIcon", "description": "a flowchart with start, process, End boxes" },
+    { "name": "AlgorithmIcon", "description": "an algorithm step list" },
+    { "name": "StepIcon", "description": "a single step in a sequence" },
+    { "name": "SquareIcon", "description": "a square drawn by turtle (FD 100 RT 90 x 4)" },
+    { "name": "TriangleIcon", "description": "a triangle drawn by turtle" },
+    { "name": "RectangleIcon", "description": "a rectangle drawn by turtle" },
+    { "name": "PseudocodeIcon", "description": "a pseudocode block" },
+    { "name": "CommanderIcon", "description": "the LOGO commander window" },
+    { "name": "HideTurtleIcon", "description": "HT (hide turtle) command icon" }
+  ],
+  "challengeTypes": [
+    "identify: What is STEPWISE THINKING? (Breaking a big task into small, ordered steps vs Doing everything at once vs Skipping steps to finish faster)",
+    "sort: Drag the steps of making a sandwich in the CORRECT order (1. Get the bread | 2. Spread butter on the bread | 3. Place the filling inside | 4. Close with another slice | 5. Cut into halves)",
+    "identify: What is an ALGORITHM? (A set of ordered steps that solves a problem vs A type of computer vs A programming language)",
+    "sort: Drag each flowchart symbol to its correct meaning (Oval: Start or End | Rectangle: Process or action | Diamond: Decision or question | Parallelogram: Input or output | Arrow: Direction of flow)",
+    "identify: What does the FD command do in LOGO? (Moves the turtle forward by the given number of steps, drawing a line vs Turns the turtle right vs Hides the turtle)",
+    "sort: Drag each LOGO primitive to its correct meaning (FD: move forward, draws a line | BK: move backward, draws a line | RT: turn right by given degrees | LT: turn left by given degrees | HT: hide the turtle | ST: show the turtle)",
+    "identify: Which LOGO commands would draw a SQUARE? (FD 100 RT 90 repeated 4 times vs FD 100 LT 30 repeated 3 times vs FD 50 BK 50)",
+    "sort: Drag the LOGO commands to draw a square in order (1. FD 100 | 2. RT 90 | 3. FD 100 | 4. RT 90 | 5. FD 100 | 6. RT 90 | 7. FD 100 | 8. RT 90)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Stepwise thinking — looking at a task as a chain of small ordered actions. Each part is a step. The arrangement is the sequence/order. Breaking down = cutting big task into small pieces. Example: making a sandwich — get bread, spread butter, place filling, close, cut. Order matters — cutting before spreading makes a mess. (2) Algorithms and flowcharts — algorithm = set of ordered steps that solves a problem. Flowchart = diagram showing steps using symbols. Oval = Start/End. Rectangle = Process/action. Diamond = Decision/question. Parallelogram = Input/output. Arrow = direction of flow. Pseudocode = writing steps in simple language close to code. (3) LOGO introduction — LOGO is a programming language with a turtle robot. Two parts: drawing area (where turtle moves and draws) and commander window (where you type commands). Turtle is a small triangle pointing up at start. (4) LOGO primitives — FD (Forward): move forward N steps, draws a line. BK (Backward): move backward N steps, draws a line. RT (Right Turn): turn right by N degrees, no movement. LT (Left Turn): turn left by N degrees, no movement. HT (Hide Turtle): hide the turtle arrow. ST (Show Turtle): show the turtle arrow. (5) Drawing shapes — Square: FD 100 RT 90 repeated 4 times (4 equal sides, 4 right angle turns). Rectangle: FD 100 RT 90 FD 50 RT 90 repeated twice (2 long, 2 short sides). Triangle: FD 100 RT 120 repeated 3 times (equilateral triangle, 120 degree turns). Misconceptions: 'the order of steps does not matter' (order MATTERS — making a sandwich by cutting before spreading does not work, the sequence is essential), 'FD and BK are the same' (FD moves FORWARD and BK moves BACKWARD — they go in opposite directions), 'RT moves the turtle forward and turns right' (RT only TURNS the turtle right — it does NOT move the turtle forward, the turtle stays in place), 'a square needs 3 turns' (a square has 4 sides and needs 4 turns of 90 degrees each — RT 90 four times), 'FD 100 RT 90 draws a complete square' (FD 100 RT 90 draws only ONE side and ONE turn — you must repeat it 4 times to complete the square). Default width=720, height=560. Use named export (export function AlgorithmsLogoGame), NOT export default. Export interface AlgorithmsLogoGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

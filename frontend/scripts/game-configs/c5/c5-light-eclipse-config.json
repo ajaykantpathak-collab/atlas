@@ -1,0 +1,43 @@
+{
+  "gameTitle": "LightEclipseGame",
+  "classLevel": 5,
+  "ageRange": "10-11",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class5\\LightEclipseGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part9.marker",
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part10.marker",
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part11.marker",
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part12.marker",
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part13.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\LightGame.tsx",
+  "cisceNodes": "c5_phy_009 (Luminous and non-luminous objects), c5_phy_010 (Transparent, translucent and opaque objects), c5_phy_011 (Conditions for shadow formation), c5_phy_012 (Day and night formation - earth's rotation), c5_phy_013 (Solar and lunar eclipses)",
+  "mascotName": "Astronomer Aryan",
+  "mascotDescription": "an astronomer with a telescope, star map, and a moon badge. He studies light, shadows, day/night, and eclipses. Custom SVG, not an owl.",
+  "sceneDescription": "night sky observatory with star gradient, a telescope, the sun moon and earth in eclipse positions, a shadow formation diagram, transparent translucent and opaque object examples, and a day-night rotation diagram",
+  "svgObjects": [
+    { "name": "SunIcon", "description": "the sun (luminous object)" },
+    { "name": "MoonIcon", "description": "the moon (non-luminous, reflects sun)" },
+    { "name": "EarthIcon", "description": "the earth with rotation arrow" },
+    { "name": "StarIcon", "description": "a star (luminous)" },
+    { "name": "TransparentIcon", "description": "a transparent glass (clear)" },
+    { "name": "TranslucentIcon", "description": "a translucent object (frosted glass)" },
+    { "name": "OpaqueIcon", "description": "an opaque object (wooden block)" },
+    { "name": "ShadowIcon", "description": "a shadow formation diagram with light source, object, and screen" },
+    { "name": "SolarEclipseIcon", "description": "a solar eclipse diagram (moon between sun and earth)" },
+    { "name": "LunarEclipseIcon", "description": "a lunar eclipse diagram (earth between sun and moon)" },
+    { "name": "TelescopeIcon", "description": "a telescope" },
+    { "name": "DayNightIcon", "description": "a day-night diagram showing earth's rotation" }
+  ],
+  "challengeTypes": [
+    "identify: Which of these is a LUMINOUS object? (Sun vs Moon vs Book vs Mirror)",
+    "sort: Drag each object to luminous or non-luminous (Sun = Luminous | Moon = Non-luminous | Star = Luminous | Book = Non-luminous | Candle flame = Luminous | Mirror = Non-luminous | Light bulb (on) = Luminous | Chair = Non-luminous)",
+    "identify: Through which material can you see clearly? (Transparent glass vs Translucent frosted glass vs Opaque wood vs Opaque metal)",
+    "sort: Drag each material to transparent, translucent, or opaque (Clear glass = Transparent | Frosted glass = Translucent | Wood = Opaque | Clear plastic = Transparent | Wax paper = Translucent | Stone = Opaque | Water = Transparent | Tissue paper = Translucent)",
+    "identify: What are the THREE conditions needed for shadow formation? (Light source, opaque object, screen vs Light source, transparent object, screen vs Light source, object, no screen vs Sun, air, ground)",
+    "sort: Drag each shadow property to its correct description (Shadow is always on the opposite side of the light = True | Shadow is the same size as the object = False, depends on distance | Shadow forms when light is blocked by an opaque object = True | Shadow is darkest when light is brightest and object is close = True | Transparent objects cast clear shadows = False | Shadow changes size with distance from light = True)",
+    "identify: What causes day and night on Earth? (Earth's rotation on its axis vs Moon moving around Earth vs Sun moving around Earth vs Earth moving away from Sun)",
+    "sort: Drag each eclipse to its correct description (Solar eclipse = Moon between Sun and Earth | Lunar eclipse = Earth between Sun and Moon | Solar eclipse = Moon's shadow falls on Earth | Lunar eclipse = Earth's shadow falls on Moon | Solar eclipse = occurs during day | Lunar eclipse = occurs at night | Solar eclipse = Sun is blocked | Lunar eclipse = Moon is blocked)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Luminous and non-luminous objects — Luminous: produce their own light. Sun, stars, candle flame, light bulb (on), firefly. Non-luminous: do not produce light, only reflect light from luminous objects. Moon, book, chair, mirror, planets. We see non-luminous objects because light from a luminous source bounces off them and reaches our eyes. (2) Transparent, translucent, opaque — Transparent: light passes through completely, you can see clearly. Clear glass, water, clear plastic. Translucent: light passes through partially, you see a blurred image. Frosted glass, wax paper, tissue paper, butter paper. Opaque: no light passes through, you cannot see through. Wood, stone, metal, cardboard. (3) Shadow formation — Three conditions: a light source, an opaque object, and a surface (screen/ground). Shadow forms on the opposite side of the light source. Shadow size changes with distance: closer to light = bigger shadow, farther from light = smaller shadow. Transparent objects do not cast shadows. Opaque objects cast dark shadows. (4) Day and night — Earth rotates on its axis (an imaginary line from North Pole to South Pole). One rotation takes 24 hours. The side facing the sun has day, the side away from the sun has night. As Earth rotates, different parts face the sun, causing day and night. (5) Solar and lunar eclipses — Solar eclipse: Moon comes between Sun and Earth, Moon's shadow falls on Earth, Sun appears blocked. Occurs during the day. Lunar eclipse: Earth comes between Sun and Moon, Earth's shadow falls on Moon, Moon appears dark. Occurs at night. Misconceptions: 'the moon produces its own light' (WRONG — the moon is non-luminous; it reflects sunlight), 'transparent and translucent are the same' (WRONG — transparent allows full light through and clear vision; translucent allows partial light and blurred vision), 'shadows form without a screen' (WRONG — a shadow needs a surface to fall on; without a screen or ground, the shadow has nothing to be seen on), 'day and night are caused by the sun moving' (WRONG — day and night are caused by Earth rotating on its axis; the sun does not move around Earth), 'solar eclipse and lunar eclipse are the same' (WRONG — solar eclipse: moon blocks sun; lunar eclipse: earth blocks sun from reaching moon)."
+}

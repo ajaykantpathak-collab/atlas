@@ -1,0 +1,51 @@
+{
+  "gameTitle": "PercentageDataGame",
+  "classLevel": 5,
+  "ageRange": "10-11",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class5\\PercentageDataGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part55.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part56.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part57.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part58.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part59.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part60.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part61.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part62.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part63.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part64.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part65.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part66.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part67.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\OperationsGame.tsx",
+  "cisceNodes": "c5_math_055 (Introduction of percentages), c5_math_056 (Relationship between fractions, decimals and percentage), c5_math_057 (Pictorial representation of percentage), c5_math_058 (Conversion of fractions to percentages and percentages to Fractions), c5_math_059 (Conversion of decimals to percentages and percentages to decimals), c5_math_060 (Simple word problems on percentage), c5_math_061 (Pictorial representation of the raw data), c5_math_062 (Interpretation of Bar graph, line graph and pie chart), c5_math_063 (Patterns with a unit of repeat and their extension), c5_math_064 (Progressive patterns), c5_math_065 (Extension of progressive patterns), c5_math_066 (Patterns with more than one characteristic), c5_math_067 (Triangular and square numbers)",
+  "mascotName": "Reporter Riya",
+  "mascotDescription": "a news reporter with a press badge, notebook, and microphone. She reports on percentages, data charts, and number patterns. Custom SVG, not an owl.",
+  "sceneDescription": "newsroom studio with sky gradient through a window, a desk with charts and graphs on the wall, a bar graph, a pie chart, a line graph, percentage signs, and pattern sequences displayed on a screen",
+  "svgObjects": [
+    { "name": "PercentIcon", "description": "a percentage sign (%) in a circle" },
+    { "name": "PieChartIcon", "description": "a pie chart divided into sections" },
+    { "name": "BarGraphIcon", "description": "a bar graph with bars of different heights" },
+    { "name": "LineGraphIcon", "description": "a line graph showing a trend" },
+    { "name": "FractionIcon", "description": "a fraction bar showing parts of a whole" },
+    { "name": "DecimalIcon", "description": "a decimal number with a point" },
+    { "name": "PatternIcon", "description": "a repeating pattern of shapes" },
+    { "name": "ProgressivePatternIcon", "description": "a growing pattern like 2, 4, 6, 8" },
+    { "name": "TriangleNumbersIcon", "description": "triangular dots arranged as 1, 3, 6, 10" },
+    { "name": "SquareNumbersIcon", "description": "square dots arranged as 1, 4, 9, 16" },
+    { "name": "MicrophoneIcon", "description": "a news reporter microphone" },
+    { "name": "NotebookIcon", "description": "a reporter notebook with data" }
+  ],
+  "challengeTypes": [
+    "identify: What is 25% as a fraction? (1/4 vs 25/100 only vs 1/25 vs 25/10)",
+    "sort: Drag each percentage to its correct fraction form (25% = 1/4 | 50% = 1/2 | 75% = 3/4 | 20% = 1/5 | 10% = 1/10 | 100% = 1/1)",
+    "identify: What is 0.45 as a percentage? (45% vs 4.5% vs 450% vs 0.45%)",
+    "sort: Drag each decimal to its correct percentage (0.3 = 30% | 0.75 = 75% | 0.08 = 8% | 1.5 = 150% | 0.6 = 60% | 0.125 = 12.5%)",
+    "identify: In a class of 40 students, 60% are girls. How many girls are there? (24 vs 60 vs 16 vs 20)",
+    "sort: Drag each word problem to its correct answer (20% of 50 = 10 | 15% of 200 = 30 | 25% of 80 = 20 | 10% of 450 = 45 | 50% of 120 = 60 | 75% of 40 = 30)",
+    "identify: Look at the pattern 3, 6, 9, 12, ... What are the next two terms? (15, 18 vs 13, 14 vs 18, 21 vs 15, 21)",
+    "sort: Drag each pattern to its rule (2, 4, 6, 8, 10 = add 2 | 3, 6, 12, 24, 48 = multiply by 2 | 1, 3, 6, 10, 15 = triangular numbers | 1, 4, 9, 16, 25 = square numbers | 5, 10, 15, 20, 25 = add 5 | 1, 4, 9, 16, 25 = n squared)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Percentage — percent means 'per hundred'. 25% means 25 out of 100. The symbol % means /100. (2) Fraction-Decimal-Percentage relationship — 1/4 = 0.25 = 25%. 1/2 = 0.5 = 50%. 3/4 = 0.75 = 75%. 1/5 = 0.2 = 20%. To convert fraction to percentage: multiply by 100. 1/4 x 100 = 25%. To convert percentage to fraction: write as /100 and simplify. 25% = 25/100 = 1/4. (3) Decimal to percentage: multiply by 100 (move decimal right 2 places). 0.45 x 100 = 45%. Percentage to decimal: divide by 100 (move decimal left 2 places). 45% = 0.45. (4) Pictorial representation — 100-grid showing shaded portions. 25% = 25 squares shaded out of 100. (5) Word problems — 'x% of N' means (x/100) x N. 20% of 50 = (20/100) x 50 = 10. 60% of 40 students = (60/100) x 40 = 24 girls. (6) Data handling — pictograph uses pictures to represent data. Bar graph uses bars of different heights. Line graph shows trends over time. Pie chart shows parts of a whole as sectors. (7) Patterns — unit of repeat: ABABAB (repeat AB). Progressive: 2, 4, 6, 8 (add 2 each time). 3, 6, 12, 24 (multiply by 2). Multi-characteristic: alternating color and shape while growing. Triangular numbers: 1, 3, 6, 10, 15 (add 2, add 3, add 4, add 5). Square numbers: 1, 4, 9, 16, 25 (1x1, 2x2, 3x3, 4x4, 5x5). Misconceptions: 'percent means out of 10' (WRONG — percent means out of 100), '0.5 = 5%' (WRONG — 0.5 x 100 = 50%, not 5%), '25% of 40 is 25 x 40 = 1000' (WRONG — 25% of 40 means 25/100 x 40 = 10, not 25 times 40), 'triangular numbers are the same as square numbers' (WRONG — triangular: 1,3,6,10,15 (adding increasing amounts); square: 1,4,9,16,25 (n times n)), 'a progressive pattern always adds' (WRONG — progressive patterns can also multiply, like 2, 4, 8, 16)."
+}

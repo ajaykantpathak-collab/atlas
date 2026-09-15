@@ -1,0 +1,42 @@
+{
+  "gameTitle": "DirectionsMapsGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\DirectionsMapsGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\geo\\enrichment\\c3_geography_enrichment_part6.marker",
+    "D:\\cisce\\geo\\enrichment\\c3_geography_enrichment_part7.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_geo_006 (Directions - eight cardinal points), c3_geo_007 (Map vs globe)",
+  "mascotName": "Navigator Nisha",
+  "mascotDescription": "a friendly navigator with a compass, a map, a torch, and hiking boots. Custom SVG, not an owl.",
+  "sceneDescription": "navigation scene with sky gradient, a large compass rose, a map on a table, a globe nearby, and directional signposts",
+  "svgObjects": [
+    { "name": "CompassRoseIcon", "description": "a compass rose showing 8 directions" },
+    { "name": "NorthIcon", "description": "North direction arrow (N)" },
+    { "name": "SouthIcon", "description": "South direction arrow (S)" },
+    { "name": "EastIcon", "description": "East direction arrow (E)" },
+    { "name": "WestIcon", "description": "West direction arrow (W)" },
+    { "name": "NEIcon", "description": "North-East direction" },
+    { "name": "NWIcon", "description": "North-West direction" },
+    { "name": "SEIcon", "description": "South-East direction" },
+    { "name": "SWIcon", "description": "South-West direction" },
+    { "name": "MapIcon", "description": "a flat map" },
+    { "name": "GlobeIcon", "description": "a round globe" },
+    { "name": "SignpostIcon", "description": "a signpost with directions" },
+    { "name": "SunriseIcon", "description": "sun rising in the east" },
+    { "name": "SunsetIcon", "description": "sun setting in the west" }
+  ],
+  "challengeTypes": [
+    "identify: In which direction does the SUN rise? (East vs West vs North)",
+    "identify: If you face the rising sun, which direction is on your RIGHT? (South vs North vs West)",
+    "sort: Drag each cardinal direction to its correct position (North: top | South: bottom | East: right | West: left)",
+    "identify: How many main (cardinal) directions are there? (4 vs 8 vs 6)",
+    "sort: Drag each intermediate direction to its correct position (North-East: between N and E | North-West: between N and W | South-East: between S and E | South-West: between S and W)",
+    "identify: Which is better for showing the TRUE shape of Earth? (Globe vs Map vs Drawing on paper)",
+    "sort: Drag each feature to Globe or Map (Globe: round 3D, true shape of earth, shows all continents correctly, cannot be folded | Map: flat 2D, can be folded and carried, shows less detail, can show small streets)",
+    "sort: Drag each use to Globe or Map (Use Globe: see true shape of countries, understand earth is round, see oceans and continents | Use Map: find your city streets, carry in a bag, plan a road trip, see directions to a place)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Directions — 8 cardinal and intermediate directions. 4 main (cardinal): North (N, top), South (S, bottom), East (E, right), West (W, left). 4 intermediate: North-East (NE, between N and E), North-West (NW, between N and W), South-East (SE, between S and E), South-West (SW, between S and W). To find directions: sun rises in the EAST, sets in the WEST. If you face East, your right hand points SOUTH, left hand points NORTH, back is WEST. A compass always points North. (2) Map vs globe — Globe: round 3D model of earth, shows true shape and size of continents and oceans, accurate but cannot show small details, cannot be folded, expensive. Map: flat 2D drawing, can be folded and carried easily, can show small details like streets, but distorts shapes near the edges, cheaper. Use globe for understanding earth's shape and continents. Use map for finding specific places, streets, and planning travel. Misconceptions: 'sun rises in the north' (sun rises in the EAST and sets in the WEST), 'if you face east, north is on your right' (if you face east, SOUTH is on your right and NORTH is on your left), 'there are only 4 directions' (there are 8 — 4 cardinal + 4 intermediate), 'map and globe are the same' (globe is 3D and round showing true shapes, map is 2D and flat showing more detail but distorted shapes), 'compass points to any direction' (compass needle always points to NORTH). Default width=720, height=560. Use named export (export function DirectionsMapsGame), NOT export default. Export interface DirectionsMapsGameProps with width?, height?, onComplete?: (score: number) => void."
+}

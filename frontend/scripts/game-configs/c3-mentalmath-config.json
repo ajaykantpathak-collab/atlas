@@ -1,0 +1,43 @@
+{
+  "gameTitle": "MentalMathGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\MentalMathGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part14.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part15.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part16.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_math_014 (Mental computation of sum and difference of two digit numbers), c3_math_015 (Mental multiplication of two numbers without paper and pencil), c3_math_016 (Estimation of sum, difference and product and verification by actual computation)",
+  "mascotName": "Mental Math Wizard Mira",
+  "mascotDescription": "a friendly mental math wizard with a thinking cap with numbers, a glowing brain, a magic wand, and floating math symbols. Custom SVG, not an owl.",
+  "sceneDescription": "brain training scene with sky gradient, a large glowing brain, floating numbers and symbols, a mental math arena, and estimation jars",
+  "svgObjects": [
+    { "name": "BrainIcon", "description": "a glowing brain (mental math)" },
+    { "name": "LightbulbIcon", "description": "a lightbulb (idea/mental)" },
+    { "name": "PlusIcon", "description": "addition symbol (+)" },
+    { "name": "MinusIcon", "description": "subtraction symbol (-)" },
+    { "name": "TimesIcon", "description": "multiplication symbol (x)" },
+    { "name": "EstimateIcon", "description": "an estimation jar with approximate count" },
+    { "name": "RoundingIcon", "description": "a rounding arrow (up or down)" },
+    { "name": "NumberBubbleIcon", "description": "a bubble with a number" },
+    { "name": "StrategyIcon", "description": "a strategy gear (mental strategies)" },
+    { "name": "VerifyIcon", "description": "a checkmark for verification" },
+    { "name": "ApproxIcon", "description": "an approximate symbol (~)" },
+    { "name": "StarIcon", "description": "a star reward" },
+    { "name": "CalculatorIcon", "description": "a calculator (for verification only)" },
+    { "name": "PencilIcon", "description": "a pencil (no paper needed for mental math)" }
+  ],
+  "challengeTypes": [
+    "identify: What is 45 + 23 mentally? (Break: 45+20=65, 65+3=68 → 68 vs 68 vs 423)",
+    "identify: What is 80 - 35 mentally? (Break: 80-30=50, 50-5=45 → 45 vs 45 vs 115)",
+    "sort: Drag each mental math strategy to its correct explanation (Break apart: split 23 into 20+3, add separately | Round and adjust: round 48 to 50, add, then subtract 2 | Compatible numbers: 25+75=100, easy round numbers | Skip counting: count by 10s or 5s mentally)",
+    "identify: What is 15 x 4 mentally? (15+15+15+15 = 60 or 10x4=40, 5x4=20, 40+20=60 → 60 vs 60 vs 19)",
+    "sort: Drag each mental multiplication to its correct answer (12x5=60 | 15x3=45 | 20x4=80 | 25x2=50 | 11x9=99)",
+    "identify: ESTIMATE: 48 + 31 (round to nearest 10). What is the best estimate? (50+30=80 vs 80 vs 79)",
+    "sort: Drag each estimation to its correct rounded form (48 rounds to 50 | 31 rounds to 50 | 73 rounds to 70 | 85 rounds to 90 | 24 rounds to 20)",
+    "sort: Drag each problem to its estimated answer and actual answer (48+31: estimate 80, actual 79 | 73-28: estimate 40, actual 45 | 25x4: estimate 100, actual 100 | 85-31: estimate 60, actual 54)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. Use speechManager.speakNumber() for reading numbers aloud. The game must teach: (1) Mental addition and subtraction — strategies: break apart (45+23 = 45+20+3 = 65+3 = 68), round and adjust (48+23 → 50+23=73, subtract 2 → 71), compatible numbers (25+75=100). For subtraction: 80-35 = 80-30-5 = 50-5 = 45. Practice doing math in your head without paper. (2) Mental multiplication — strategies: break apart (15x4 = 10x4 + 5x4 = 40+20 = 60), repeated addition (12x5 = 12+12+12+12+12 = 60), use known facts (10x anything = add a zero, 11x = multiply by 10 and add the number). (3) Estimation — round to nearest 10: 48→50, 31→30, 73→70, 85→90, 24→20. Rounding rule: 0-4 round down, 5-9 round up. Estimate sum: 48+31 ≈ 50+30 = 80 (actual: 79). Estimate difference: 73-28 ≈ 70-30 = 40 (actual: 45). Estimate product: 25x4 ≈ 30x4 = 120 (actual: 100) or keep 25 as is. Always verify by actual computation after estimating. Misconceptions: 'mental math means guessing' (mental math uses strategies, not guessing — you get exact answers), 'estimation is the same as the actual answer' (estimation is APPROXIMATE — close to but not exactly the actual answer), 'you always round up' (0-4 round DOWN, 5-9 round UP — 24 rounds to 20, not 30), 'rounding 48 gives 40' (48 rounds to 50 because 8 is 5 or more, so round up), '15x4 = 15+4 = 19' (multiplication is repeated addition: 15x4 = 15+15+15+15 = 60, not 15+4). Default width=720, height=560. Use named export (export function MentalMathGame), NOT export default. Export interface MentalMathGameProps with width?, height?, onComplete?: (score: number) => void."
+}

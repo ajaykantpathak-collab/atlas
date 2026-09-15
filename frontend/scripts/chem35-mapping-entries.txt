@@ -1,0 +1,642 @@
+    "C6_ChemistryMatteranditscompositionSim": {
+      "cisce_nodes": [
+        "c6_chem_001",
+        "c6_chem_002",
+        "c6_chem_003",
+        "c6_chem_004",
+        "c6_chem_005",
+        "c6_chem_006",
+        "c6_chem_007",
+        "c6_chem_008"
+      ],
+      "cbse_nodes":       []
+    },
+    "C6_ChemistryCarbondioxideandnitrogeninairSim": {
+      "cisce_nodes": [
+        "c6_chem_017",
+        "c6_chem_018",
+        "c6_chem_019"
+      ],
+      "cbse_nodes":       []
+    },
+    "C6_ChemistryAtomicstructuresubatomicparticlesSim": {
+      "cisce_nodes": [
+        "c6_chem_009",
+        "c6_chem_010",
+        "c6_chem_011",
+        "c6_chem_012",
+        "c6_chem_013",
+        "c6_chem_014",
+        "c6_chem_015",
+        "c6_chem_016"
+      ],
+      "cbse_nodes":       []
+    },
+    "C7_ChemistryAtomicstructureelectronsprotonsneutronsSim": {
+      "cisce_nodes": [
+        "c7_chem_009",
+        "c7_chem_010",
+        "c7_chem_011",
+        "c7_chem_012",
+        "c7_chem_013",
+        "c7_chem_014",
+        "c7_chem_015",
+        "c7_chem_016"
+      ],
+      "cbse_nodes":       []
+    },
+    "C7_ChemistryMatterclassificationrevisitedSim": {
+      "cisce_nodes": [
+        "c7_chem_001",
+        "c7_chem_002",
+        "c7_chem_003",
+        "c7_chem_004",
+        "c7_chem_005",
+        "c7_chem_006",
+        "c7_chem_007",
+        "c7_chem_008"
+      ],
+      "cbse_nodes":       []
+    },
+    "C7_ChemistryWaterauniversalsolventSim": {
+      "cisce_nodes": [
+        "c7_chem_017",
+        "c7_chem_018",
+        "c7_chem_019",
+        "c7_chem_020"
+      ],
+      "cbse_nodes":       []
+    },
+    "C8_ChemistryChemicalequationsbalancingSim": {
+      "cisce_nodes": [
+        "c8_chem_009",
+        "c8_chem_010",
+        "c8_chem_011",
+        "c8_chem_012",
+        "c8_chem_013",
+        "c8_chem_014",
+        "c8_chem_015",
+        "c8_chem_016"
+      ],
+      "cbse_nodes":       []
+    },
+    "C8_ChemistryMatterstatesandinterconversionrevisitedSim": {
+      "cisce_nodes": [
+        "c8_chem_001",
+        "c8_chem_002",
+        "c8_chem_003",
+        "c8_chem_004",
+        "c8_chem_005",
+        "c8_chem_006",
+        "c8_chem_007",
+        "c8_chem_008"
+      ],
+      "cbse_nodes":       []
+    },
+    "C8_ChemistryWaterpropertiesandcompositionSim": {
+      "cisce_nodes": [
+        "c8_chem_017",
+        "c8_chem_018",
+        "c8_chem_019",
+        "c8_chem_020"
+      ],
+      "cbse_nodes":       []
+    },
+    "C9_ChemistryAcidraincompositionandcausesSim": {
+      "cisce_nodes": [
+        "c9_chem_051",
+        "c9_chem_052",
+        "c9_chem_053",
+        "c9_chem_054"
+      ],
+      "cbse_nodes":       []
+    },
+    "C9_ChemistryCovalentbondingSim": {
+      "cisce_nodes": [
+        "c9_chem_031",
+        "c9_chem_032",
+        "c9_chem_033",
+        "c9_chem_034",
+        "c9_chem_035",
+        "c9_chem_036",
+        "c9_chem_037",
+        "c9_chem_038",
+        "c9_chem_039",
+        "c9_chem_040"
+      ],
+      "cbse_nodes":       []
+    },
+    "C9_ChemistryEnergychangesinchemicalreactionsSim": {
+      "cisce_nodes": [
+        "c9_chem_011",
+        "c9_chem_012",
+        "c9_chem_013",
+        "c9_chem_014",
+        "c9_chem_015",
+        "c9_chem_016",
+        "c9_chem_017",
+        "c9_chem_018",
+        "c9_chem_019",
+        "c9_chem_020"
+      ],
+      "cbse_nodes":       []
+    },
+    "C9_ChemistryLaboratorypreparationofhydrogenSim": {
+      "cisce_nodes": [
+        "c9_chem_041",
+        "c9_chem_042",
+        "c9_chem_043",
+        "c9_chem_044",
+        "c9_chem_045",
+        "c9_chem_046",
+        "c9_chem_047",
+        "c9_chem_048",
+        "c9_chem_049",
+        "c9_chem_050"
+      ],
+      "cbse_nodes":       []
+    },
+    "C9_ChemistrySoftwaterandhardwaterSim": {
+      "cisce_nodes": [
+        "c9_chem_021",
+        "c9_chem_022",
+        "c9_chem_023",
+        "c9_chem_024",
+        "c9_chem_025",
+        "c9_chem_026",
+        "c9_chem_027",
+        "c9_chem_028",
+        "c9_chem_029",
+        "c9_chem_030"
+      ],
+      "cbse_nodes":       []
+    },
+    "C9_ChemistrySymbolsofelementsSim": {
+      "cisce_nodes": [
+        "c9_chem_001",
+        "c9_chem_002",
+        "c9_chem_003",
+        "c9_chem_004",
+        "c9_chem_005",
+        "c9_chem_006",
+        "c9_chem_007",
+        "c9_chem_008",
+        "c9_chem_009",
+        "c9_chem_010"
+      ],
+      "cbse_nodes":       []
+    },
+    "C10_ChemistryAlkanesgeneralformulaandpreparationSim": {
+      "cisce_nodes": [
+        "c10_chem_071",
+        "c10_chem_072",
+        "c10_chem_073",
+        "c10_chem_074",
+        "c10_chem_075",
+        "c10_chem_076",
+        "c10_chem_077",
+        "c10_chem_078",
+        "c10_chem_079",
+        "c10_chem_080"
+      ],
+      "cbse_nodes":       []
+    },
+    "C10_ChemistryAlloysandamalgamsSim": {
+      "cisce_nodes": [
+        "c10_chem_051",
+        "c10_chem_052",
+        "c10_chem_053",
+        "c10_chem_054",
+        "c10_chem_055",
+        "c10_chem_056",
+        "c10_chem_057",
+        "c10_chem_058",
+        "c10_chem_059",
+        "c10_chem_060"
+      ],
+      "cbse_nodes":       []
+    },
+    "C10_ChemistryClassificationofbasesSim": {
+      "cisce_nodes": [
+        "c10_chem_021",
+        "c10_chem_022",
+        "c10_chem_023",
+        "c10_chem_024",
+        "c10_chem_025",
+        "c10_chem_026",
+        "c10_chem_027",
+        "c10_chem_028",
+        "c10_chem_029",
+        "c10_chem_030"
+      ],
+      "cbse_nodes":       []
+    },
+    "C10_ChemistryElectrolysisofspecificcompoundsSim": {
+      "cisce_nodes": [
+        "c10_chem_041",
+        "c10_chem_042",
+        "c10_chem_043",
+        "c10_chem_044",
+        "c10_chem_045",
+        "c10_chem_046",
+        "c10_chem_047",
+        "c10_chem_048",
+        "c10_chem_049",
+        "c10_chem_050"
+      ],
+      "cbse_nodes":       []
+    },
+    "C10_ChemistryPeriodicpropertiesatomicsizeSim": {
+      "cisce_nodes": [
+        "c10_chem_001",
+        "c10_chem_002",
+        "c10_chem_003",
+        "c10_chem_004",
+        "c10_chem_005",
+        "c10_chem_006",
+        "c10_chem_007",
+        "c10_chem_008",
+        "c10_chem_009",
+        "c10_chem_010"
+      ],
+      "cbse_nodes":       []
+    },
+    "C10_ChemistryPolarandnonpolarcovalentcompoundsSim": {
+      "cisce_nodes": [
+        "c10_chem_011",
+        "c10_chem_012",
+        "c10_chem_013",
+        "c10_chem_014",
+        "c10_chem_015",
+        "c10_chem_016",
+        "c10_chem_017",
+        "c10_chem_018",
+        "c10_chem_019",
+        "c10_chem_020"
+      ],
+      "cbse_nodes":       []
+    },
+    "C10_ChemistrySulphuricacidContactprocessSim": {
+      "cisce_nodes": [
+        "c10_chem_061",
+        "c10_chem_062",
+        "c10_chem_063",
+        "c10_chem_064",
+        "c10_chem_065",
+        "c10_chem_066",
+        "c10_chem_067",
+        "c10_chem_068",
+        "c10_chem_069",
+        "c10_chem_070"
+      ],
+      "cbse_nodes":       []
+    },
+    "C10_ChemistryVapourdensityandmolecularmassSim": {
+      "cisce_nodes": [
+        "c10_chem_031",
+        "c10_chem_032",
+        "c10_chem_033",
+        "c10_chem_034",
+        "c10_chem_035",
+        "c10_chem_036",
+        "c10_chem_037",
+        "c10_chem_038",
+        "c10_chem_039",
+        "c10_chem_040"
+      ],
+      "cbse_nodes":       []
+    },
+    "C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c11_chem_cbse_003", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_004", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_005", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_007", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_008", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_009", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_010", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_011", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_012", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_013", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_021", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_023", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_024", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_025", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_026", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_027", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_028", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_029", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"],
+        ["c11_chem_cbse_030", "Organic Chemistry – Some Basic Principles and Techniques (Part 1)"]
+      ]
+    },
+    "C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c11_chem_cbse_004", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_005", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_006", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_007", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_008", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_009", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_010", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_011", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_012", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_013", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_014", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_015", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_016", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_017", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_018", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"],
+        ["c11_chem_cbse_019", "Organic Chemistry: Some Basic Principles and Techniques – Part 2"]
+      ]
+    },
+    "C11_ChemistryRedoxReactionsCBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c11_chem_cbse_004", "Redox Reactions"],
+        ["c11_chem_cbse_006", "Redox Reactions"],
+        ["c11_chem_cbse_007", "Redox Reactions"],
+        ["c11_chem_cbse_010", "Redox Reactions"],
+        ["c11_chem_cbse_013", "Redox Reactions"],
+        ["c11_chem_cbse_014", "Redox Reactions"],
+        ["c11_chem_cbse_015", "Redox Reactions"],
+        ["c11_chem_cbse_016", "Redox Reactions"],
+        ["c11_chem_cbse_017", "Redox Reactions"],
+        ["c11_chem_cbse_018", "Redox Reactions"],
+        ["c11_chem_cbse_020", "Redox Reactions"],
+        ["c11_chem_cbse_021", "Redox Reactions"],
+        ["c11_chem_cbse_022", "Redox Reactions"],
+        ["c11_chem_cbse_023", "Redox Reactions"],
+        ["c11_chem_cbse_024", "Redox Reactions"],
+        ["c11_chem_cbse_025", "Redox Reactions"],
+        ["c11_chem_cbse_026", "Redox Reactions"],
+        ["c11_chem_cbse_027", "Redox Reactions"],
+        ["c11_chem_cbse_028", "Redox Reactions"],
+        ["c11_chem_cbse_029", "Redox Reactions"]
+      ]
+    },
+    "C11_ChemistrySomeBasicConceptsofChemistryCBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c11_chem_cbse_002", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_003", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_004", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_005", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_007", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_008", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_009", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_010", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_011", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_012", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_013", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_014", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_015", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_016", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_017", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_018", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_019", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_020", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_021", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_022", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_023", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_024", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_026", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_032", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_033", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_044", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_045", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_046", "Some Basic Concepts of Chemistry"],
+        ["c11_chem_cbse_049", "Some Basic Concepts of Chemistry"]
+      ]
+    },
+    "C11_ChemistryThermodynamicsCBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c11_chem_cbse_006", "Thermodynamics"],
+        ["c11_chem_cbse_007", "Thermodynamics"],
+        ["c11_chem_cbse_008", "Thermodynamics"],
+        ["c11_chem_cbse_009", "Thermodynamics"],
+        ["c11_chem_cbse_010", "Thermodynamics"],
+        ["c11_chem_cbse_011", "Thermodynamics"],
+        ["c11_chem_cbse_012", "Thermodynamics"],
+        ["c11_chem_cbse_013", "Thermodynamics"],
+        ["c11_chem_cbse_014", "Thermodynamics"],
+        ["c11_chem_cbse_015", "Thermodynamics"],
+        ["c11_chem_cbse_016", "Thermodynamics"],
+        ["c11_chem_cbse_017", "Thermodynamics"],
+        ["c11_chem_cbse_018", "Thermodynamics"],
+        ["c11_chem_cbse_019", "Thermodynamics"],
+        ["c11_chem_cbse_020", "Thermodynamics"],
+        ["c11_chem_cbse_021", "Thermodynamics"],
+        ["c11_chem_cbse_022", "Thermodynamics"],
+        ["c11_chem_cbse_023", "Thermodynamics"],
+        ["c11_chem_cbse_024", "Thermodynamics"],
+        ["c11_chem_cbse_025", "Thermodynamics"],
+        ["c11_chem_cbse_026", "Thermodynamics"],
+        ["c11_chem_cbse_027", "Thermodynamics"],
+        ["c11_chem_cbse_028", "Thermodynamics"]
+      ]
+    },
+    "C12_ChemistryAldehydesKetonesandCarboxylicACBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c12_chem_cbse_302", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_303", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_304", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_305", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_306", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_307", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_308", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_309", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_310", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_311", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_312", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_313", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_314", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_315", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_316", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_317", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_318", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_319", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_320", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_321", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_322", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_323", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_324", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_325", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_326", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_327", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_328", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_329", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_330", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_331", "Aldehydes, Ketones and Carboxylic Acids"],
+        ["c12_chem_cbse_332", "Aldehydes, Ketones and Carboxylic Acids"]
+      ]
+    },
+    "C12_ChemistryAminesandDiazoniumSaltsCBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c12_chem_cbse_300", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_301", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_302", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_303", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_304", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_305", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_306", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_307", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_308", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_309", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_310", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_311", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_312", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_313", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_314", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_315", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_316", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_317", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_318", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_319", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_320", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_321", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_322", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_323", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_324", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_325", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_326", "Amines and Diazonium Salts"],
+        ["c12_chem_cbse_327", "Amines and Diazonium Salts"]
+      ]
+    },
+    "C12_ChemistryBiomoleculesCBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c12_chem_cbse_301", "Biomolecules"],
+        ["c12_chem_cbse_302", "Biomolecules"],
+        ["c12_chem_cbse_303", "Biomolecules"],
+        ["c12_chem_cbse_304", "Biomolecules"],
+        ["c12_chem_cbse_305", "Biomolecules"],
+        ["c12_chem_cbse_308", "Biomolecules"],
+        ["c12_chem_cbse_309", "Biomolecules"],
+        ["c12_chem_cbse_310", "Biomolecules"],
+        ["c12_chem_cbse_311", "Biomolecules"],
+        ["c12_chem_cbse_312", "Biomolecules"],
+        ["c12_chem_cbse_313", "Biomolecules"],
+        ["c12_chem_cbse_314", "Biomolecules"],
+        ["c12_chem_cbse_315", "Biomolecules"],
+        ["c12_chem_cbse_316", "Biomolecules"],
+        ["c12_chem_cbse_317", "Biomolecules"],
+        ["c12_chem_cbse_318", "Biomolecules"],
+        ["c12_chem_cbse_323", "Biomolecules"],
+        ["c12_chem_cbse_324", "Biomolecules"],
+        ["c12_chem_cbse_326", "Biomolecules"],
+        ["c12_chem_cbse_328", "Biomolecules"],
+        ["c12_chem_cbse_329", "Biomolecules"],
+        ["c12_chem_cbse_331", "Biomolecules"],
+        ["c12_chem_cbse_332", "Biomolecules"],
+        ["c12_chem_cbse_333", "Biomolecules"],
+        ["c12_chem_cbse_335", "Biomolecules"]
+      ]
+    },
+    "C12_ChemistryCoordinationCompoundsCBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c12_chem_cbse_302", "Coordination Compounds"],
+        ["c12_chem_cbse_303", "Coordination Compounds"],
+        ["c12_chem_cbse_305", "Coordination Compounds"],
+        ["c12_chem_cbse_307", "Coordination Compounds"],
+        ["c12_chem_cbse_308", "Coordination Compounds"],
+        ["c12_chem_cbse_309", "Coordination Compounds"],
+        ["c12_chem_cbse_313", "Coordination Compounds"],
+        ["c12_chem_cbse_318", "Coordination Compounds"],
+        ["c12_chem_cbse_319", "Coordination Compounds"],
+        ["c12_chem_cbse_320", "Coordination Compounds"],
+        ["c12_chem_cbse_321", "Coordination Compounds"],
+        ["c12_chem_cbse_322", "Coordination Compounds"]
+      ]
+    },
+    "C12_ChemistryElectrochemistryCBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c12_chem_cbse_300", "Electrochemistry"],
+        ["c12_chem_cbse_301", "Electrochemistry"],
+        ["c12_chem_cbse_303", "Electrochemistry"],
+        ["c12_chem_cbse_304", "Electrochemistry"],
+        ["c12_chem_cbse_306", "Electrochemistry"],
+        ["c12_chem_cbse_307", "Electrochemistry"],
+        ["c12_chem_cbse_308", "Electrochemistry"],
+        ["c12_chem_cbse_309", "Electrochemistry"],
+        ["c12_chem_cbse_311", "Electrochemistry"],
+        ["c12_chem_cbse_312", "Electrochemistry"],
+        ["c12_chem_cbse_315", "Electrochemistry"],
+        ["c12_chem_cbse_317", "Electrochemistry"],
+        ["c12_chem_cbse_318", "Electrochemistry"],
+        ["c12_chem_cbse_319", "Electrochemistry"],
+        ["c12_chem_cbse_321", "Electrochemistry"],
+        ["c12_chem_cbse_322", "Electrochemistry"],
+        ["c12_chem_cbse_323", "Electrochemistry"],
+        ["c12_chem_cbse_324", "Electrochemistry"],
+        ["c12_chem_cbse_325", "Electrochemistry"],
+        ["c12_chem_cbse_326", "Electrochemistry"],
+        ["c12_chem_cbse_327", "Electrochemistry"],
+        ["c12_chem_cbse_333", "Electrochemistry"]
+      ]
+    },
+    "C12_ChemistryHaloalkanesandHaloarenesCBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c12_chem_cbse_267", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_268", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_269", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_302", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_303", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_304", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_306", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_307", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_308", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_310", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_311", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_312", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_313", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_314", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_315", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_316", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_317", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_321", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_322", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_323", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_324", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_325", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_327", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_328", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_330", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_331", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_332", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_333", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_334", "Haloalkanes and Haloarenes"],
+        ["c12_chem_cbse_335", "Haloalkanes and Haloarenes"]
+      ]
+    },
+    "C12_ChemistrySolutionsCBSESim": {
+      "cisce_nodes": [],
+      "cbse_nodes": [
+        ["c12_chem_cbse_267", "Solutions"],
+        ["c12_chem_cbse_302", "Solutions"],
+        ["c12_chem_cbse_303", "Solutions"],
+        ["c12_chem_cbse_304", "Solutions"],
+        ["c12_chem_cbse_305", "Solutions"],
+        ["c12_chem_cbse_306", "Solutions"],
+        ["c12_chem_cbse_307", "Solutions"],
+        ["c12_chem_cbse_308", "Solutions"],
+        ["c12_chem_cbse_309", "Solutions"],
+        ["c12_chem_cbse_311", "Solutions"],
+        ["c12_chem_cbse_313", "Solutions"],
+        ["c12_chem_cbse_314", "Solutions"],
+        ["c12_chem_cbse_315", "Solutions"],
+        ["c12_chem_cbse_316", "Solutions"],
+        ["c12_chem_cbse_317", "Solutions"],
+        ["c12_chem_cbse_320", "Solutions"],
+        ["c12_chem_cbse_321", "Solutions"],
+        ["c12_chem_cbse_332", "Solutions"],
+        ["c12_chem_cbse_333", "Solutions"]
+      ]
+    }

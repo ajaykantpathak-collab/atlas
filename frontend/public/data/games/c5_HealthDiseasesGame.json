@@ -1,0 +1,928 @@
+{
+  "gameFile": "HealthDiseasesGame",
+  "classLevel": 5,
+  "cisceNodes": [],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Junk Food and Its Effects 🍔",
+      "text": "Junk food is food high in fat, sugar, and salt but low in nutrients. Regular consumption leads to obesity, tooth decay, low energy, and weakened immunity. Choose healthy Indian foods like sprouts, fruit chaat, and idli!",
+      "emoji": "🍔",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Junk food is high in fat, sugar, and salt but low in nutrients. Eating too much junk food causes obesity, tooth decay, and low energy.",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Goat",
+            "Lion"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Deficiency Diseases 🛡️",
+      "text": "When our diet lacks specific nutrients for a long time, we get deficiency diseases. Lack of Vitamin C causes scurvy (bleeding gums). Lack of Vitamin D and calcium causes rickets (weak bones).",
+      "emoji": "🛡️",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Deficiency diseases happen when our diet lacks specific nutrients. For example, lack of vitamin C causes scurvy, and lack of vitamin D causes rickets.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Iron & Vitamin Deficiencies 🩸",
+      "text": "Lack of iron causes anaemia, making us feel tired and pale (prevent with green leafy vegetables and jaggery). Lack of Vitamin A causes night blindness. Lack of Iodine causes goitre (swollen neck).",
+      "emoji": "🩸",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "Lack of iron causes anaemia, making you feel tired and weak. Vitamin A prevents night blindness, and iodine prevents goitre.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Lifestyle Diseases 🏃‍♂️",
+      "text": "Lifestyle diseases develop over years due to poor daily habits like eating junk food, lack of exercise, stress, and sleeping late. Common examples include diabetes, obesity, high blood pressure, and heart disease.",
+      "emoji": "🏃‍♂️",
+      "bgColor": "from-purple-400 to-pink-500",
+      "spoken": "Lifestyle diseases develop over time due to poor eating habits and lack of physical activity, such as diabetes and high blood pressure.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Preventing Disease & Staying Healthy ✨",
+      "text": "We can prevent lifestyle and deficiency diseases by eating a balanced diet with fruits, vegetables, pulses, and whole grains, exercising daily, drinking plenty of water, and sleeping for eight hours!",
+      "emoji": "✨",
+      "bgColor": "from-cyan-400 to-blue-600",
+      "spoken": "Protect yourself by eating a balanced diet, exercising daily, drinking enough water, and getting plenty of rest.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which of these is a deficiency disease caused by lack of Vitamin C?",
+      "answer": "Scurvy",
+      "options": [
+        "Scurvy",
+        "Diabetes",
+        "Obesity",
+        "Heart disease"
+      ],
+      "hint": "Think about sailors who had no fresh fruits and got bleeding gums!",
+      "misconception": "Scurvy is caused by a lack of vitamin C and makes gums spongy and bleeding. Diabetes and obesity are lifestyle diseases, not vitamin deficiencies.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Scurvy",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Diabetes",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Obesity",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Heart disease",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Diabetes",
+          "Scurvy"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each food item to Healthy Food or Junk Food!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Fresh fruits and green vegetables are healthy; burgers and chips are junk food!",
+      "misconception": "Junk food is high in fat, sugar, and salt with low nutrients (like burgers and chips), whereas healthy food gives vitamins, proteins, and fibre (like apples and milk).",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "apple",
+            "label": "Fresh Apple",
+            "correctBin": "healthy"
+          },
+          {
+            "id": "veg",
+            "label": "Green Veggies",
+            "correctBin": "healthy"
+          },
+          {
+            "id": "milk",
+            "label": "Glass of Milk",
+            "correctBin": "healthy"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "apple",
+          "kind": "apple",
+          "label": "Fresh Apple",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ff4444",
+          "category": "healthy",
+          "interaction": "drag-to-bin",
+          "targetBin": "healthy"
+        },
+        {
+          "id": "veg",
+          "kind": "circle",
+          "label": "Green Veggies",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "healthy",
+          "interaction": "drag-to-bin",
+          "targetBin": "healthy"
+        },
+        {
+          "id": "milk",
+          "kind": "circle",
+          "label": "Glass of Milk",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "healthy",
+          "interaction": "drag-to-bin",
+          "targetBin": "healthy"
+        },
+        {
+          "id": "burger",
+          "kind": "circle",
+          "label": "Tasty Burger",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "junk",
+          "interaction": "drag-to-bin",
+          "targetBin": "junk"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "apple",
+          "label": "Fresh Apple",
+          "emoji": "",
+          "correctBin": "healthy"
+        },
+        {
+          "id": "veg",
+          "label": "Green Veggies",
+          "emoji": "",
+          "correctBin": "healthy"
+        },
+        {
+          "id": "milk",
+          "label": "Glass of Milk",
+          "emoji": "",
+          "correctBin": "healthy"
+        },
+        {
+          "id": "burger",
+          "label": "Tasty Burger",
+          "emoji": "",
+          "correctBin": "junk"
+        }
+      ],
+      "bins": [
+        {
+          "id": "healthy",
+          "label": "Healthy Food 🥗",
+          "color": "#10B981"
+        },
+        {
+          "id": "junk",
+          "label": "Junk Food 🍟",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What disease is caused by deficiency of iron in the diet?",
+      "answer": "Anaemia",
+      "options": [
+        "Anaemia",
+        "Rickets",
+        "Goitre",
+        "Night blindness"
+      ],
+      "hint": "This condition makes a person feel weak, tired, and pale because blood carries less oxygen.",
+      "misconception": "Anaemia is caused by an iron deficiency. Rickets is lack of Vitamin D/calcium, goitre is lack of iodine, and night blindness is lack of Vitamin A.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Anaemia",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Rickets",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Goitre",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Night blindness",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Rickets",
+          "Anaemia"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each deficiency disease to its missing nutrient!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Scurvy = Vitamin C, Rickets = Vitamin D & Calcium, Night Blindness = Vitamin A, Goitre = Iodine!",
+      "misconception": "Each deficiency disease links directly to a missing nutrient. Mixing them up leads to wrong prevention methods! Scurvy is Vitamin C, Rickets is Vitamin D & calcium.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "scurvy",
+            "label": "Scurvy",
+            "correctBin": "vitc"
+          },
+          {
+            "id": "rickets",
+            "label": "Rickets",
+            "correctBin": "vitd"
+          },
+          {
+            "id": "goitre",
+            "label": "Goitre",
+            "correctBin": "iodine"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "scurvy",
+          "kind": "circle",
+          "label": "Scurvy",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "vitc",
+          "interaction": "drag-to-bin",
+          "targetBin": "vitc"
+        },
+        {
+          "id": "rickets",
+          "kind": "circle",
+          "label": "Rickets",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "vitd",
+          "interaction": "drag-to-bin",
+          "targetBin": "vitd"
+        },
+        {
+          "id": "goitre",
+          "kind": "circle",
+          "label": "Goitre",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "iodine",
+          "interaction": "drag-to-bin",
+          "targetBin": "iodine"
+        },
+        {
+          "id": "anaemia",
+          "kind": "circle",
+          "label": "Anaemia",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "iron",
+          "interaction": "drag-to-bin",
+          "targetBin": "iron"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "scurvy",
+          "label": "Scurvy",
+          "emoji": "",
+          "correctBin": "vitc"
+        },
+        {
+          "id": "rickets",
+          "label": "Rickets",
+          "emoji": "",
+          "correctBin": "vitd"
+        },
+        {
+          "id": "goitre",
+          "label": "Goitre",
+          "emoji": "",
+          "correctBin": "iodine"
+        },
+        {
+          "id": "anaemia",
+          "label": "Anaemia",
+          "emoji": "",
+          "correctBin": "iron"
+        }
+      ],
+      "bins": [
+        {
+          "id": "vitc",
+          "label": "Vitamin C 🍊",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "vitd",
+          "label": "Vitamin D & Ca 🦴",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "iodine",
+          "label": "Iodine 🧂",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "iron",
+          "label": "Iron 🩸",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of these is a lifestyle disease caused by poor daily habits?",
+      "answer": "Diabetes",
+      "options": [
+        "Diabetes",
+        "Scurvy",
+        "Rickets",
+        "Beriberi"
+      ],
+      "hint": "It relates to how the body handles sugar after years of unhealthy eating and little exercise.",
+      "misconception": "Diabetes and hypertension are lifestyle diseases caused by diet and lack of exercise. Scurvy and rickets are deficiency diseases caused by missing nutrients.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Diabetes",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Scurvy",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Rickets",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Beriberi",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Scurvy",
+          "Diabetes"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each lifestyle disease or habit to its main cause!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Obesity = overeating & no exercise; Diabetes = too much sugar & poor diet!",
+      "misconception": "Lifestyle diseases are not caused by germs. They develop due to poor food habits, lack of physical activity, and stress accumulating over time.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "obesity",
+            "label": "Obesity",
+            "correctBin": "excess"
+          },
+          {
+            "id": "diabetes",
+            "label": "Diabetes",
+            "correctBin": "sugar"
+          },
+          {
+            "id": "hypertension",
+            "label": "High BP",
+            "correctBin": "salt"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "obesity",
+          "kind": "circle",
+          "label": "Obesity",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "excess",
+          "interaction": "drag-to-bin",
+          "targetBin": "excess"
+        },
+        {
+          "id": "diabetes",
+          "kind": "circle",
+          "label": "Diabetes",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "sugar",
+          "interaction": "drag-to-bin",
+          "targetBin": "sugar"
+        },
+        {
+          "id": "hypertension",
+          "kind": "circle",
+          "label": "High BP",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "salt",
+          "interaction": "drag-to-bin",
+          "targetBin": "salt"
+        },
+        {
+          "id": "active",
+          "kind": "circle",
+          "label": "Exercise",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "good",
+          "interaction": "drag-to-bin",
+          "targetBin": "good"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "obesity",
+          "label": "Obesity",
+          "emoji": "",
+          "correctBin": "excess"
+        },
+        {
+          "id": "diabetes",
+          "label": "Diabetes",
+          "emoji": "",
+          "correctBin": "sugar"
+        },
+        {
+          "id": "hypertension",
+          "label": "High BP",
+          "emoji": "",
+          "correctBin": "salt"
+        },
+        {
+          "id": "active",
+          "label": "Exercise",
+          "emoji": "",
+          "correctBin": "good"
+        }
+      ],
+      "bins": [
+        {
+          "id": "excess",
+          "label": "Too much junk food 🍔",
+          "color": "#EF4444"
+        },
+        {
+          "id": "sugar",
+          "label": "Excess sugar & carbs 🍩",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "salt",
+          "label": "Too much salt & stress 🧂",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "good",
+          "label": "Active & Healthy ⚽",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What should you do to prevent lifestyle diseases effectively?",
+      "answer": "Eat balanced diet and exercise regularly",
+      "options": [
+        "Eat balanced diet and exercise regularly",
+        "Eat more junk food and watch TV all day",
+        "Skip breakfast and sleep late every night",
+        "Avoid all physical activity and drink soda"
+      ],
+      "hint": "Prevention requires healthy food choices, physical movement, and good rest!",
+      "misconception": "Lifestyle diseases are prevented by healthy habits: balanced nutrition, daily sports or exercise, proper sleep, and drinking enough water.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Eat balanced diet and exercise regularly",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Eat more junk food and watch TV all day",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Skip breakfast and sleep late every night",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Avoid all physical activity and drink soda",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Eat more junk food and watch TV all day",
+          "Eat balanced diet and exercise regularly"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each health action to its correct prevention goal!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Drink milk = Build bones; Exercise daily = Prevent lifestyle disease; Eat fruits = Boost immunity!",
+      "misconception": "Different healthy actions serve different roles: milk builds bones with calcium, exercise prevents lifestyle diseases, and fruits provide immunity-boosting vitamins.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "milk",
+            "label": "Drink Milk",
+            "correctBin": "bones"
+          },
+          {
+            "id": "exercise",
+            "label": "Exercise Daily",
+            "correctBin": "lifestyle"
+          },
+          {
+            "id": "fruit",
+            "label": "Eat Fresh Fruits",
+            "correctBin": "immunity"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "milk",
+          "kind": "circle",
+          "label": "Drink Milk",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bones",
+          "interaction": "drag-to-bin",
+          "targetBin": "bones"
+        },
+        {
+          "id": "exercise",
+          "kind": "circle",
+          "label": "Exercise Daily",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "lifestyle",
+          "interaction": "drag-to-bin",
+          "targetBin": "lifestyle"
+        },
+        {
+          "id": "fruit",
+          "kind": "apple",
+          "label": "Eat Fresh Fruits",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ff4444",
+          "category": "immunity",
+          "interaction": "drag-to-bin",
+          "targetBin": "immunity"
+        },
+        {
+          "id": "water",
+          "kind": "water-drop",
+          "label": "Drink 8 Glasses Water",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "hydration",
+          "interaction": "drag-to-bin",
+          "targetBin": "hydration"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "milk",
+          "label": "Drink Milk",
+          "emoji": "",
+          "correctBin": "bones"
+        },
+        {
+          "id": "exercise",
+          "label": "Exercise Daily",
+          "emoji": "",
+          "correctBin": "lifestyle"
+        },
+        {
+          "id": "fruit",
+          "label": "Eat Fresh Fruits",
+          "emoji": "",
+          "correctBin": "immunity"
+        },
+        {
+          "id": "water",
+          "label": "Drink 8 Glasses Water",
+          "emoji": "",
+          "correctBin": "hydration"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bones",
+          "label": "Strong Bones 🦴",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "lifestyle",
+          "label": "Stop Lifestyle Illness 🏃‍♂️",
+          "color": "#10B981"
+        },
+        {
+          "id": "immunity",
+          "label": "Boost Immunity 🍊",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "hydration",
+          "label": "Stay Hydrated 💧",
+          "color": "#06B6D4"
+        }
+      ]
+    }
+  ],
+  "theme": "body",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_HealthDiseasesGame",
+    "region": "Biosphere",
+    "mapX": 0.74,
+    "mapY": 1.31,
+    "icon": "🌱",
+    "prerequisites": []
+  },
+  "subject": "biology"
+}

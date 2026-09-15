@@ -1,0 +1,878 @@
+{
+  "gameFile": "PlantsGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_bio_014",
+    "c3_bio_015",
+    "c3_bio_016",
+    "c3_bio_017"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Five Main Parts of a Plant! 🌱",
+      "text": "A plant has five main parts: root, stem, leaf, flower, and fruit! Each part has a special job that keeps the plant alive and growing.",
+      "emoji": "🌱",
+      "bgColor": "from-emerald-400 to-green-600",
+      "spoken": "A plant has five main parts: root, stem, leaf, flower, and fruit! Each part has a special job that keeps the plant alive.",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Roots and Stems: Drink & Transport! 🌿",
+      "text": "Roots anchor the plant firmly in the soil and absorb water and minerals like a straw! Stems hold leaves up to sunlight and carry water and food like a pipe!",
+      "emoji": "🌿",
+      "bgColor": "from-green-500 to-teal-600",
+      "spoken": "Roots anchor the plant and absorb water like a drinking straw. Stems support the plant and carry water like a pipe!",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Leaves: The Tiny Kitchens! 🍃",
+      "text": "Leaves are flat and green because of chlorophyll! They make food for the plant using sunlight, water, and air in a process called photosynthesis!",
+      "emoji": "🍃",
+      "bgColor": "from-teal-500 to-emerald-700",
+      "spoken": "Leaves are flat and green. They make food for the plant using sunlight, water, and air in a process called photosynthesis!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Seeds & Germination! 🌱",
+      "text": "Inside every fruit are seeds with a seed coat, stored food in cotyledons, and an embryo! With water, air, and warmth, a seed germinates into a baby seedling!",
+      "emoji": "🌱",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "Inside every fruit are seeds with a seed coat, stored food, and a baby plant. With water, air, and warmth, seeds germinate into seedlings!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Plant Types: Herbs, Shrubs, Trees & Climbers! 🌳",
+      "text": "Plants come in 4 types! Herbs have soft green stems like mint. Shrubs have woody stems like rose. Trees have thick trunks like mango. Climbers need support like pea!",
+      "emoji": "🌳",
+      "bgColor": "from-lime-500 to-emerald-600",
+      "spoken": "Plants come in four types: herbs with soft stems, shrubs with woody branches, tall trees with thick trunks, and climbers that need support!",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which plant part holds the plant firmly in the soil and absorbs water?",
+      "answer": "Root",
+      "options": [
+        "Root",
+        "Leaf",
+        "Flower"
+      ],
+      "hint": "Think about what grows underground and acts like a drinking straw for water!",
+      "misconception": "Roots do more than just hold the plant — they act like a drinking straw to absorb water and minerals from the soil!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Root",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Leaf",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Flower",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Root",
+          "Leaf"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "Which plant part makes food using sunlight, water, and carbon dioxide?",
+      "answer": "Leaf",
+      "options": [
+        "Stem",
+        "Leaf",
+        "Root"
+      ],
+      "hint": "Think about the green part that acts like a tiny kitchen cooking food!",
+      "misconception": "Leaves are the plant kitchens! They contain chlorophyll and make food through photosynthesis using sunlight!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Stem",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Leaf",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Root",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Leaf",
+          "Stem"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each plant part to its correct function!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Roots absorb water, stems carry food and water, leaves make food, flowers make seeds!",
+      "misconception": "Remember every part has a job: roots drink, stems carry, leaves cook, flowers make fruits, and fruits protect seeds!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "root-part",
+            "label": "Root",
+            "correctBin": "bin-root"
+          },
+          {
+            "id": "stem-part",
+            "label": "Stem",
+            "correctBin": "bin-stem"
+          },
+          {
+            "id": "leaf-part",
+            "label": "Leaf",
+            "correctBin": "bin-leaf"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "root-part",
+          "kind": "circle",
+          "label": "Root",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-root",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-root"
+        },
+        {
+          "id": "stem-part",
+          "kind": "circle",
+          "label": "Stem",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-stem",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-stem"
+        },
+        {
+          "id": "leaf-part",
+          "kind": "leaf",
+          "label": "Leaf",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "bin-leaf",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-leaf"
+        },
+        {
+          "id": "flower-part",
+          "kind": "flower",
+          "label": "Flower",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ff69b4",
+          "category": "bin-flower",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-flower"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "root-part",
+          "label": "Root",
+          "emoji": "",
+          "correctBin": "bin-root"
+        },
+        {
+          "id": "stem-part",
+          "label": "Stem",
+          "emoji": "",
+          "correctBin": "bin-stem"
+        },
+        {
+          "id": "leaf-part",
+          "label": "Leaf",
+          "emoji": "",
+          "correctBin": "bin-leaf"
+        },
+        {
+          "id": "flower-part",
+          "label": "Flower",
+          "emoji": "",
+          "correctBin": "bin-flower"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-root",
+          "label": "Absorbs water & anchors",
+          "color": "#8D6E63"
+        },
+        {
+          "id": "bin-stem",
+          "label": "Supports & transports",
+          "color": "#795548"
+        },
+        {
+          "id": "bin-leaf",
+          "label": "Makes food (photosynthesis)",
+          "color": "#4CAF50"
+        },
+        {
+          "id": "bin-flower",
+          "label": "Develops into fruit",
+          "color": "#E91E63"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What are the THREE main parts found inside and outside a seed?",
+      "answer": "Seed coat, cotyledon, embryo",
+      "options": [
+        "Seed coat, cotyledon, embryo",
+        "Root, stem, leaf",
+        "Petals, pollen, nectar"
+      ],
+      "hint": "Think of the protective cover, the food store, and the tiny baby plant inside!",
+      "misconception": "A seed has a tough seed coat outside, a cotyledon storing food, and an embryo (baby plant) inside!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Seed coat, cotyledon, embryo",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Root, stem, leaf",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Petals, pollen, nectar",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Root, stem, leaf",
+          "Seed coat, cotyledon, embryo"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag the seed germination steps in the correct order!",
+      "answer": "sort",
+      "options": [],
+      "hint": "First water is absorbed, then coat bursts, root grows down, shoot grows up!",
+      "misconception": "The root always grows downward before the shoot appears upward! The seed must swell with water first.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "step-1",
+            "label": "1. Seed absorbs water",
+            "correctBin": "bin-step1"
+          },
+          {
+            "id": "step-2",
+            "label": "2. Seed coat bursts",
+            "correctBin": "bin-step2"
+          },
+          {
+            "id": "step-3",
+            "label": "3. Root grows downward",
+            "correctBin": "bin-step3"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "step-1",
+          "kind": "water-drop",
+          "label": "1. Seed absorbs water",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "bin-step1",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-step1"
+        },
+        {
+          "id": "step-2",
+          "kind": "circle",
+          "label": "2. Seed coat bursts",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-step2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-step2"
+        },
+        {
+          "id": "step-3",
+          "kind": "circle",
+          "label": "3. Root grows downward",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-step3",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-step3"
+        },
+        {
+          "id": "step-4",
+          "kind": "circle",
+          "label": "4. Shoot grows upward",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-step4",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-step4"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "step-1",
+          "label": "1. Seed absorbs water",
+          "emoji": "",
+          "correctBin": "bin-step1"
+        },
+        {
+          "id": "step-2",
+          "label": "2. Seed coat bursts",
+          "emoji": "",
+          "correctBin": "bin-step2"
+        },
+        {
+          "id": "step-3",
+          "label": "3. Root grows downward",
+          "emoji": "",
+          "correctBin": "bin-step3"
+        },
+        {
+          "id": "step-4",
+          "label": "4. Shoot grows upward",
+          "emoji": "",
+          "correctBin": "bin-step4"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-step1",
+          "label": "Step 1: Swells up",
+          "color": "#03A9F4"
+        },
+        {
+          "id": "bin-step2",
+          "label": "Step 2: Breaks open",
+          "color": "#FF9800"
+        },
+        {
+          "id": "bin-step3",
+          "label": "Step 3: Radicle (root)",
+          "color": "#795548"
+        },
+        {
+          "id": "bin-step4",
+          "label": "Step 4: Plumule (shoot)",
+          "color": "#8BC34A"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What THREE conditions are required for a seed to germinate?",
+      "answer": "Water, air, and warmth",
+      "options": [
+        "Water, air, and warmth",
+        "Only sunlight",
+        "Only dry soil"
+      ],
+      "hint": "Seeds need moisture to drink, oxygen to breathe, and the right temperature to wake up!",
+      "misconception": "Seeds do NOT need sunlight to germinate — they are under the soil! They need water, air (oxygen), and warmth!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Water, air, and warmth",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Only sunlight",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Only dry soil",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Water, air, and warmth",
+          "Only sunlight"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each plant to its correct plant type!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Mint is a herb, rose is a shrub, mango is a tree, pumpkin is a climber!",
+      "misconception": "Check the stem and height: herbs have soft green stems, shrubs have woody stems near base, trees have thick trunks, climbers need support!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "mint",
+            "label": "Mint (Herb)",
+            "correctBin": "bin-herb"
+          },
+          {
+            "id": "rose",
+            "label": "Rose (Shrub)",
+            "correctBin": "bin-shrub"
+          },
+          {
+            "id": "mango",
+            "label": "Mango (Tree)",
+            "correctBin": "bin-tree"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "mint",
+          "kind": "circle",
+          "label": "Mint (Herb)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-herb",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-herb"
+        },
+        {
+          "id": "rose",
+          "kind": "circle",
+          "label": "Rose (Shrub)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-shrub",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-shrub"
+        },
+        {
+          "id": "mango",
+          "kind": "circle",
+          "label": "Mango (Tree)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-tree",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-tree"
+        },
+        {
+          "id": "pea",
+          "kind": "circle",
+          "label": "Pea (Climber)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-climber",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-climber"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "mint",
+          "label": "Mint (Herb)",
+          "emoji": "",
+          "correctBin": "bin-herb"
+        },
+        {
+          "id": "rose",
+          "label": "Rose (Shrub)",
+          "emoji": "",
+          "correctBin": "bin-shrub"
+        },
+        {
+          "id": "mango",
+          "label": "Mango (Tree)",
+          "emoji": "",
+          "correctBin": "bin-tree"
+        },
+        {
+          "id": "pea",
+          "label": "Pea (Climber)",
+          "emoji": "",
+          "correctBin": "bin-climber"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-herb",
+          "label": "Herb (Soft stem)",
+          "color": "#8BC34A"
+        },
+        {
+          "id": "bin-shrub",
+          "label": "Shrub (Woody base)",
+          "color": "#8D6E63"
+        },
+        {
+          "id": "bin-tree",
+          "label": "Tree (Thick trunk)",
+          "color": "#5D4037"
+        },
+        {
+          "id": "bin-climber",
+          "label": "Climber (Weak stem)",
+          "color": "#00BCD4"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag each feature to the correct plant type!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Soft green stem = herb, woody branches near base = shrub, thick trunk = tree, weak stem needing support = climber!",
+      "misconception": "Both height and stem type determine plant classification. A plant with a weak stem needing support is always a climber!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "feat-herb",
+            "label": "Short, soft green stem",
+            "correctBin": "bin-herb-feat"
+          },
+          {
+            "id": "feat-shrub",
+            "label": "Medium, woody near base",
+            "correctBin": "bin-shrub-feat"
+          },
+          {
+            "id": "feat-tree",
+            "label": "Tall with thick trunk",
+            "correctBin": "bin-tree-feat"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "feat-herb",
+          "kind": "circle",
+          "label": "Short, soft green stem",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-herb-feat",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-herb-feat"
+        },
+        {
+          "id": "feat-shrub",
+          "kind": "circle",
+          "label": "Medium, woody near base",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-shrub-feat",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-shrub-feat"
+        },
+        {
+          "id": "feat-tree",
+          "kind": "circle",
+          "label": "Tall with thick trunk",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-tree-feat",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-tree-feat"
+        },
+        {
+          "id": "feat-climber",
+          "kind": "circle",
+          "label": "Weak stem needing support",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-climber-feat",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-climber-feat"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "feat-herb",
+          "label": "Short, soft green stem",
+          "emoji": "",
+          "correctBin": "bin-herb-feat"
+        },
+        {
+          "id": "feat-shrub",
+          "label": "Medium, woody near base",
+          "emoji": "",
+          "correctBin": "bin-shrub-feat"
+        },
+        {
+          "id": "feat-tree",
+          "label": "Tall with thick trunk",
+          "emoji": "",
+          "correctBin": "bin-tree-feat"
+        },
+        {
+          "id": "feat-climber",
+          "label": "Weak stem needing support",
+          "emoji": "",
+          "correctBin": "bin-climber-feat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-herb-feat",
+          "label": "Herb Feature",
+          "color": "#8BC34A"
+        },
+        {
+          "id": "bin-shrub-feat",
+          "label": "Shrub Feature",
+          "color": "#8D6E63"
+        },
+        {
+          "id": "bin-tree-feat",
+          "label": "Tree Feature",
+          "color": "#5D4037"
+        },
+        {
+          "id": "bin-climber-feat",
+          "label": "Climber Feature",
+          "color": "#00BCD4"
+        }
+      ]
+    }
+  ],
+  "theme": "garden",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_bio_014",
+    "region": "Biosphere",
+    "mapX": 0.6200000000000001,
+    "mapY": 1.03,
+    "icon": "🌱",
+    "prerequisites": [
+      "c3_bio_015"
+    ]
+  },
+  "subject": "biology"
+}

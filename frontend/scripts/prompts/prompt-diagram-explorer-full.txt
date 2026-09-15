@@ -1,0 +1,1315 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete DiagramExplorerSimulation.tsx component about Biology Diagrams (cells, tissues, organs, plant anatomy, human body systems).
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Biology Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_bio_001",
+    "title": "Leaf structure and types",
+    "subject": "bio",
+    "classLevel": 6,
+    "definition": "A leaf is one of the most important organs of a green plant, and in Class 6 we study it not merely as a flat green thing that hangs from a stem, but as a precisely organised structure with a clear external design. The broad, flat portion of a typical leaf is called the lamina, also known as the leaf blade. It is the large, green, expanded part that is usually thin and wide so that it can receive as much sunlight as possible. The lamina is attached to the stem of the plant by a stalk called the petiole; if you gently pull a mango or peepal leaf, the slender stalk that separates the blade from the stem is the petiole. Running down the centre of the lamina is the midrib, a thick, strong vein that forms the central support of the leaf. From the midrib, many smaller veins spread out in a network across the leaf surface. The pattern in which these veins are arranged is called venation. When the veins spread and branch like a spider's web or a fishing net, as in the leaves of the mango, peepal, rose and hibiscus, the leaf is said to show reticulate venation. When the veins run straight and side by side from the base of the leaf towards the tip, as in grass, banana, paddy, wheat, maize and most members of the grass family, the leaf is said to show parallel venation.\r\n\r\nAt the tip of the leaf blade we find the leaf apex, which may be pointed, rounded or notched; at the lower end we find the leaf base, which joins the petiole and may sometimes carry a pair of small outgrowths called stipules. The edge of the lamina is the leaf margin, and it may be smooth, toothed or lobed. All these parts together make up the external structure of a leaf. Leaves are also classified according to the nature of the blade. A simple leaf has a single, undivided blade, even though that blade may be lobed; the mango, peepal, banana and banyan are familiar Indian examples. A compound leaf, on the other hand, has a blade that is divided into several separate leaf-like parts called leaflets; the rose, neem, tamarind and mimosa are common examples. It is important to understand that in a compound leaf the entire leaflets are only parts of one leaf, and the whole structure is considered a single compound leaf, not many separate leaves.\r\n\r\nThese structural details are not just names to remember; they help a student observe any leaf in the school garden or at home and identify its parts, decide whether it is simple or compound, and work out whether it has reticulate or parallel venation. The observation of real leaves, followed by labelling and classification, is a practical skill that this topic expects every Class 6 student to acquire.",
+    "eli5": "A leaf is like a little green plate on a plant. The wide flat part is the lamina, the stalk that joins it to the plant is the petiole, and the thick middle line is the midrib. Veins run through the leaf like roads. Some leaves have one single blade, like a mango, and are called simple. Some are split into many small leaflets, like a rose, and are called compound. In some leaves the veins make a net, and in others they run straight like railway lines.",
+    "misconceptions": [
+      {
+        "belief": "A compound leaf is a group of many separate leaves.",
+        "correction": "A compound leaf is a single leaf whose blade is divided into leaflets. The rose and neem leaves you see are one compound leaf each, not a bunch of tiny leaves. In the ICSE examiner data, students often give vague or imprecise answers because they do not clearly distinguish a whole leaf from a leaflet; correct labelling in the diagram prevents this error."
+      },
+      {
+        "belief": "Venation is the same as the midrib.",
+        "correction": "The midrib is only the central, thick vein running down the middle of the lamina. Venation is the entire arrangement of all the veins in the leaf. The board examiner observations note that candidates lose marks when they confuse one labelled part with the whole pattern, so remember: reticulate venation means the entire net-like pattern, and parallel venation means the entire side-by-side arrangement of veins."
+      },
+      {
+        "belief": "Any flat green structure that falls from a plant is a leaf, and we can write 'leaf' or 'leaves' instead of naming the correct part.",
+        "correction": "In biology, exact language matters. If a question asks about the edge of a leaf, the correct term is leaf margin; if it asks about the pointed tip, it is the leaf apex. The CISCE board exam analysis data specifically observed that some candidates simply wrote \"leaves\" instead of \"margins or tips of leaves,\" and some confused hydathodes with stomata. Always use the precise term requested: lamina, petiole, midrib, margin, apex, base, or leaflet, and never replace a specific part name with the general word \"leaves.\""
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Name the main external parts of a typical leaf and give one function or description of each part.",
+        "answer": "A typical leaf has several clear external parts. The lamina, also called the leaf blade, is the broad, flat green part of the leaf that is mainly responsible for catching sunlight. The petiole is the stalk that attaches the lamina to the stem of the plant and holds the blade out in a good position to receive light. The midrib is the thick central vein that runs down the middle of the lamina and gives support; from the midrib, smaller veins spread out across the blade. The leaf apex is the pointed or rounded tip of the lamina, the leaf base is the lower part of the lamina where it joins the petiole, and the leaf margin is the edge or border of the lamina. Two small leaf-like outgrowths, called stipules, may be found on either side of the leaf base in some plants. All these parts can be clearly seen when a mango or peepal leaf is held up to the light and carefully observed."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A student says that a rose leaf is made up of many small leaves joined together, so it is not a single leaf. Is the student correct? Explain with the correct terminology.",
+        "answer": "The student is not correct. A rose leaf is a compound leaf, which means it is a single leaf whose lamina is divided into many small leaf-like parts called leaflets. Each leaflet is a part of the same compound leaf and not an independent leaf. In a typical rose leaf, several leaflets are arranged along a common central stalk, and the whole structure -- the stalk plus all the leaflets -- is one compound leaf. In contrast, a simple leaf, such as the leaf of a mango or a peepal, has a single undivided blade. The key idea to remember is that the number of blades matters: one undivided blade means a simple leaf, while a blade divided into separate leaflets means a compound leaf. Therefore, the rose leaf is one compound leaf with many leaflets, not many small leaves joined together."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "\"All flat, green leaves of plants show reticulate venation because the veins always form a network.\" Evaluate this statement.",
+        "answer": "This statement is not correct as it stands, because it ignores the fact that leaves can have two different venation patterns. Reticulate venation is a net-like arrangement of veins, which is indeed found in the leaves of plants such as the mango, peepal, rose and hibiscus. In these leaves, the midrib gives rise to smaller veins that branch repeatedly and form a network. However, parallel venation is also common, especially in the grass, banana, paddy, wheat and maize families. In these leaves, the veins run straight and parallel to one another from the base of the leaf towards the apex, without forming a network. A good example is the long leaf of a banana plant or the narrow leaf of ordinary lawn grass, where you can clearly see parallel lines running the length of the blade. Therefore, the statement is only partly true: some leaves show reticulate venation, but many others show parallel venation. The correct general rule is that the venation type depends on the plant, and the two main types are reticulate and parallel."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Your teacher gives you two leaves from the school garden: one is a long, narrow grass blade, and the other is a broad mango leaf. Describe how you would classify each one as simple or compound, and how you would decide the type of venation in each.",
+        "answer": "First, I would hold each leaf up to the light and look at its overall structure. The mango leaf has one broad, undivided blade attached to a stalk, or petiole, so it is a simple leaf. Its blade shows a clear midrib in the centre, and from the midrib many smaller veins branch out and join each other to form a network; this is reticulate venation. The grass blade, on the other hand, is long and narrow and has almost no petiole. Its blade is not divided into leaflets, so it is also a simple leaf. When I look at the veins in the grass blade, I will see that they run straight from the base of the leaf to the tip, side by side, like railway tracks. This is parallel venation. Thus, both leaves are simple, but the mango has reticulate venation while the grass has parallel venation. To confirm, I would also trace the veins with a pencil on a piece of paper so that the pattern is clear."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple observation chart that a Class 6 student could use to study ten different leaves in the school garden and record the type of leaf and venation.",
+        "answer": "A useful observation chart should have clear columns so that the student can collect the data systematically. The first column would be the serial number, from 1 to 10. The second column would record the name of the plant, such as mango, rose, peepal, grass, banana, neem, hibiscus, marigold, tamarind or any other plant available. The third column would describe the shape and size of the leaf in one or two words, for example \"broad and flat\" or \"long and narrow.\" The fourth column would record whether the leaf is simple or compound. The fifth column would note the type of venation, either reticulate or parallel, and the student could support this by sketching the vein pattern. Finally, the sixth column would be a small space for a diagram or for noting any special features, such as a toothed margin, a pointed apex or the presence of stipules. Before going to the garden, the student should make sure the chart is ready with headings such as \"Plant name,\" \"Leaf shape,\" \"Simple or compound,\" \"Venation\" and \"Diagram/Remarks.\" After collecting the leaves, the student should lay each one on a white page, hold it up to the light, and fill in the chart for every plant. This chart would then be a neat record that could be checked by the teacher and used to revise the topic for the board examination."
+      }
+    ],
+    "masteryCriteria": "Can draw and label a leaf (lamina, midrib, veins, petiole); can distinguish between simple and compound leaves with one example each; can state two functions of leaf veins (transport water and food).",
+    "cognitiveLevel": "apply"
+  },
+  {
+    "nodeId": "c6_bio_010",
+    "title": "The cell and cell organelles",
+    "subject": "bio",
+    "classLevel": 6,
+    "definition": "A cell is the smallest unit of life that can exist on its own and perform all the activities needed to keep a living thing alive. Every plant, animal, fungus, and microorganism is made up of one or more cells, and within each cell there are tiny working parts called organelles. The term \"organelle\" simply means \"little organ,\" because each part has a special job, just as the heart and lungs have special jobs in our body. In Class 6, you study six important cell parts: the cell wall, the cell membrane, plastids, the nucleus, the vacuole, and the cytoplasm. A plant cell and an animal cell share many of these parts, but they are not identical. A plant cell has a rigid cell wall outside the cell membrane. This wall is made mainly of cellulose and gives the plant its shape and support, which is why a tree or a neem stem can stand tall without bones. Just inside the wall is the cell membrane, a thin, flexible barrier that controls what enters and leaves the cell. It is like a security gate that allows useful substances such as water, oxygen, and nutrients to come in, while keeping harmful substances out. The cytoplasm is the jelly-like substance that fills the space between the cell membrane and the nucleus; all the organelles float in it, and many important chemical reactions happen here. The nucleus is the large, dark, usually round body near the center of the cell. It is the control center because it contains the instructions that direct all cell activities, including growth and reproduction. Plastids are small structures found mostly in plant cells. The most important plastids are chloroplasts, which contain the green pigment chlorophyll and carry out photosynthesis to make food from sunlight, water, and carbon dioxide. Some plastids called chromoplasts give bright colours to flowers, fruits, and roots such as the orange colour of a carrot or the red of a ripe tomato. The vacuole is a large, fluid-filled sac. In plant cells it is especially big and stores water, dissolved nutrients, and waste products. Because of the water it holds, the vacuole also helps keep the plant firm and upright. When labelling a plant cell diagram, you should be able to show the cell wall, cell membrane, cytoplasm, nucleus, large central vacuole, and plastids including chloroplasts. When labelling an animal cell diagram, you should show the cell membrane, cytoplasm, nucleus, and small vacuoles; you must not draw a cell wall or large plastids. Remembering the exact structure and function of each organelle, and being able to tell a plant cell from an animal cell, is the main goal of this topic.",
+    "eli5": "A cell is like a tiny bag full of jelly called cytoplasm. Around it is a thin skin called the cell membrane. Plant cells have a stiff wall outside that skin. Inside the cell there is a bossy ball called the nucleus that tells the cell what to do. Green specks called chloroplasts make food from sunlight. A big water balloon called the vacuole stores water and keeps the plant stiff.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Name the six cell organelles studied in this topic and state one function of each.",
+        "answer": "The six cell organelles are the cell wall, the cell membrane, plastids, the nucleus, the vacuole, and the cytoplasm. The cell wall is a rigid outer layer found in plant cells; it is made of cellulose and gives the cell shape, support, and protection. The cell membrane is a thin, flexible covering that controls the entry and exit of substances into and out of the cell. Plastids are small structures found mainly in plant cells; chloroplasts carry out photosynthesis to make food from sunlight, and chromoplasts give colour to flowers and fruits. The nucleus is the control center of the cell because it contains the instructions that direct all cell activities, including growth and division. The vacuole is a large, fluid-filled sac that stores water, dissolved nutrients, and waste products, and in plant cells it also helps keep the cell firm. The cytoplasm is the jelly-like substance in which all the organelles are suspended and in which many chemical reactions occur."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A student looks at two slides under the microscope. Slide A has cells with a thick outer layer, large green structures, and a big central water-filled space. Slide B has cells with a thin outer border, no green structures, and no large water-filled space. Which slide shows a plant cell, and how can you tell?",
+        "answer": "Slide A shows a plant cell. A plant cell has a thick, rigid cell wall made of cellulose outside the cell membrane, which gives it a firm outer layer. It also contains plastids, such as chloroplasts, which are green because they contain chlorophyll and carry out photosynthesis. In addition, a plant cell has a large central vacuole that is filled with cell sap, which stores water, nutrients, and waste. Slide B shows an animal cell because it only has a thin, flexible cell membrane at the outer edge, it lacks a cell wall, it has no green plastids, and its vacuoles are small and temporary. The three key differences are therefore the cell wall, plastids, and the large central vacuole. If the student simply saw the outer layer and guessed, the answer would be weak; a strong answer uses all three structural clues together."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"Plant and animal cells are exactly the same because both have a cell membrane, cytoplasm, and a nucleus.\" Is this statement correct? Give a balanced argument.",
+        "answer": "This statement is only partly correct. It is true that plant and animal cells are similar in several ways. Both have a cell membrane that controls what enters and leaves, a cytoplasm in which the organelles float, and a nucleus that acts as the control center. These shared features remind us that all living cells have a common plan. However, the statement is also incorrect because plant and animal cells have important differences. A plant cell has a rigid cell wall made of cellulose outside the cell membrane, while an animal cell has no cell wall. A plant cell has large, permanent plastids, especially chloroplasts for photosynthesis, whereas an animal cell has no plastids. A plant cell also has one large central vacuole that helps keep it firm, but an animal cell has only small, temporary vacuoles or none at all. Therefore, the two kinds of cells are similar in basic structure but different in important details, and the statement must be rejected as fully correct."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Your teacher asks you to draw and label an animal cell. You must also explain why you should not draw a cell wall or large plastids in it. How would you answer?",
+        "answer": "In an animal cell diagram, I would label the cell membrane, the cytoplasm, the nucleus, and possibly one or more small vacuoles. I would not draw a cell wall because animal cells do not have a rigid cellulose wall; only plant cells have this protective and supportive layer. I would not draw large plastids or chloroplasts because plastids, especially green chloroplasts, are found mainly in plant cells that perform photosynthesis. Animal cells cannot make their own food from sunlight, so they do not need chloroplasts. If I added a cell wall to an animal cell, the diagram would be marked wrong. A neat, correctly labelled diagram with clear boundaries and correct spelling of each label would help me score full marks in the board exam."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Imagine that you are the manager of a tiny cell factory. Assign one job to each of the six organelles you have learned and explain how they work together to keep the factory running.",
+        "answer": "In my cell factory, the cell wall is the strong outer boundary wall that keeps the building from collapsing, especially in the plant branch. The cell membrane is the security gate that checks everything entering or leaving, allowing in raw materials and sending out finished products and waste. The cytoplasm is the factory floor, a jelly-like workspace where all the machines are placed and where the actual work happens. The nucleus is the manager's office; it stores all the instructions and sends orders to the rest of the factory so that every worker knows what to do. The plastids, especially chloroplasts, are the solar power units that capture sunlight and turn it into food or energy for the factory. The vacuole is the storage tank that holds water, nutrients, and waste until they are needed or removed. Together, these six organelles form a complete working system: the wall and membrane protect and control the factory, the cytoplasm provides the working space, the nucleus gives directions, the plastids provide energy, and the vacuole stores supplies. If any one of them stops working, the whole cell factory would be in trouble."
+      }
+    ],
+    "masteryCriteria": "Can define a cell as the basic unit of life; can name and state one function of five organelles (nucleus: control, cell membrane: boundary, cytoplasm: jelly, mitochondria: energy, vacuole: storage); can draw and label a simple cell.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_bio_011",
+    "title": "Plant vs animal cell differences",
+    "subject": "bio",
+    "classLevel": 6,
+    "definition": "A cell is the smallest unit of life, and although all living cells share certain basic parts, plant cells and animal cells are not built exactly the same way. In Class 3 you learned that living things grow, move, reproduce, and need food and water; now, in Class 6, you are learning that these life processes depend on tiny structures inside cells called organelles. The most important differences between a typical plant cell and a typical animal cell are three in number, and each difference has a special significance that helps the organism survive. First, a plant cell is surrounded by a rigid cell wall outside the cell membrane, while an animal cell has only a flexible cell membrane and no cell wall. The cell wall is made chiefly of a substance called cellulose, and it gives the plant cell a fixed, box-like shape and provides mechanical support to the entire plant. Without this wall, a plant would not be able to stand upright. Second, plant cells contain plastids, especially chloroplasts, which are green organelles that carry out photosynthesis, the process by which plants make their own food using sunlight, water, and carbon dioxide. Animal cells do not contain chloroplasts and therefore cannot make their own food; they must obtain food from outside. Third, plant cells usually have one or a few large, permanent vacuoles that can occupy up to 90 percent of the cell volume and store water, food, and waste. This large vacuole helps maintain turgor pressure, keeping the plant firm and stiff. Animal cells, by contrast, have small, temporary vacuoles, if they have them at all. Other parts such as the nucleus and cytoplasm are present in both cell types. When you compare the two cells in a table, you must remember that the wall, chloroplasts, and vacuoles are the three clear marks that distinguish a plant cell from an animal cell.",
+    "eli5": "Imagine a plant cell as a tiny green box. It has a hard wall outside, little green kitchens inside that make food using sunlight, and a big water balloon that keeps it stiff. An animal cell is more like a soft jelly ball. It has no hard wall, no green kitchens, and only tiny water bubbles. These three things make plant and animal cells different.",
+    "misconceptions": [
+      {
+        "belief": "Confusing the cell wall with the cell membrane. Some students write that both plant and animal cells have a cell wall. In reality, the cell wall is present only in plant cells, outside the cell membrane. Animal cells have only a cell membrane. The board exam guidance for 2024 note that candidates often confuse similar-sounding terms such as centrosome, centromere, and centriole. This tells us that biology students at this level frequently mix up terms that look or sound alike. To avoid this error, always remember: the membrane is thin and flexible and is present in all cells; the wall is thick, rigid, and present only in plant cells.",
+        "correction": ""
+      },
+      {
+        "belief": "Thinking that animal cells are larger than plant cells or that plant cells have no vacuoles at all. Some students also confuse the drawings of plant and animal cells in the examination and interchanged their labels. This matches the CISCE 2023 examiner observation that candidates were confused between the types of cells and interchanged them incorrectly, identifying figures as the L.S. of a leaf and swapping the characteristic features. The correction is to look for the three clear markers: the cell wall for plant cells, the chloroplasts for plant cells, and the large central vacuole for plant cells. If the diagram shows a regular shape with a thick outline and a large empty space in the middle, it is a plant cell.",
+        "correction": ""
+      },
+      {
+        "belief": "Believing that all green parts of a plant contain chloroplasts. While green leaves and young green stems contain chloroplasts, roots and some non-green parts usually do not. However, for the purpose of comparing a typical plant cell with an animal cell, remember that the presence of chloroplasts is a general feature of plant cells, not animal cells. A common error in the board exam analysis was that candidates used related but incorrect terms such as \"photolysis\" and \"polymerisation\" instead of \"photophosphorylation\" when describing photosynthesis. Although that exact term is beyond Class 6, the lesson is that you should use the correct words your syllabus gives you, such as chloroplast, photosynthesis, and chlorophyll, and not replace them with confusing terms.",
+        "correction": ""
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "List any three differences between a plant cell and an animal cell and state the significance of each difference.",
+        "answer": "The first difference is that a plant cell has a rigid cell wall made of cellulose outside the cell membrane, while an animal cell has no cell wall and is covered only by a flexible cell membrane. The significance is that the cell wall gives a fixed shape to the plant cell and provides support and protection, enabling the plant to stand upright. The second difference is that a plant cell contains plastids, especially chloroplasts, which have a green pigment called chlorophyll, while an animal cell lacks plastids and chlorophyll. The significance is that chloroplasts enable the plant to carry out photosynthesis and make its own food using sunlight, water, and carbon dioxide. The third difference is that a plant cell has one or more large, permanent vacuoles that store water, food, and waste, while an animal cell has only small, temporary vacuoles, if any. The significance is that the large vacuole in the plant cell helps maintain turgor pressure and keeps the plant firm and upright; when it loses water, the plant wilts."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Why does a plant cell need a cell wall and a large vacuole, while an animal cell can manage without them?",
+        "answer": "A plant cell needs a cell wall because plants cannot move from place to place and must remain standing in one position throughout their life. The cell wall provides mechanical strength and a fixed shape to each cell, and thousands of such rigid cells together support the entire plant against gravity and wind. A plant cell also needs a large vacuole because it must store water for long periods, especially when the soil may become dry. A full vacuole presses the cytoplasm against the cell wall and keeps the cell turgid, which is why a well-watered plant looks stiff and upright. An animal cell does not need a cell wall because animals can move and change shape; their flexible cell membrane allows them to bend, crawl, and take in food by processes such as phagocytosis. Animal cells also do not need a large permanent vacuole because their cells are surrounded by a circulating fluid environment that provides water quickly, and their small temporary vacuoles are enough for short-term storage and transport of materials."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"The cell wall is not important because the cell membrane alone can protect the cell.\" Do you agree or disagree? Give reasons for your answer.",
+        "answer": "I disagree with this statement because the cell wall has a very important role that the cell membrane cannot perform alone. The cell membrane is a thin, flexible layer that controls what enters and leaves the cell, but it is not strong enough to give shape or support to a tall plant. The cell wall, on the other hand, is a thick, rigid layer made of cellulose that lies outside the cell membrane in plant cells. It gives the plant cell a definite shape and provides mechanical strength. This is why plants such as the neem tree, the banyan tree, or a sunflower can grow tall and stand upright without falling. If only the cell membrane were present, the plant cells would be soft like animal cells and the plant would collapse. However, the statement does contain a small truth: the cell membrane is still important for protection in its own way because it forms a barrier between the cell and the outside environment and regulates the movement of water, food, and waste. But the cell wall is not unimportant; it is essential for the rigidity and support of plant cells. Therefore, the student's view is incorrect, and both the cell wall and the cell membrane have their own special and necessary functions."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Look at the following list of features and identify which belong to a plant cell, which belong to an animal cell, and which belong to both: cell wall, chloroplast, large permanent vacuole, small temporary vacuole, cell membrane, nucleus, cytoplasm, ability to carry out photosynthesis.",
+        "answer": "Features that belong to a plant cell are the cell wall, chloroplast, large permanent vacuole, and the ability to carry out photosynthesis. The cell wall is a thick, rigid covering made of cellulose that gives shape and support. The chloroplast is the green organelle that contains chlorophyll and is the site of photosynthesis. The large permanent vacuole stores water and helps maintain turgor pressure. Features that belong to an animal cell are the small temporary vacuole, which may appear for short-term storage and transport. Features that belong to both plant and animal cells are the cell membrane, nucleus, and cytoplasm. The cell membrane is the thin, flexible outer covering that controls the movement of substances in and out of the cell. The nucleus is the control centre that contains genetic material and directs all cell activities. The cytoplasm is the jelly-like substance inside the cell in which all the organelles are suspended and many chemical reactions take place. Therefore, both cells share the basic machinery of life, but the plant cell has the extra structures that allow it to stand upright and make its own food."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Imagine you are a science reporter for your school magazine. Write a short paragraph in which you compare a plant cell to a cardboard box, an animal cell to a soft balloon, a chloroplast to a kitchen, and a vacuole to a water bottle. Explain which comparison fits best and why.",
+        "answer": "A plant cell is like a cardboard box because it has a hard, rigid cell wall on the outside that keeps its shape and protects the softer parts inside, just as a cardboard box keeps its shape and protects whatever is packed within it. An animal cell is like a soft balloon because it has only a thin, flexible cell membrane and can change its shape, just as a balloon can be squeezed and still return to shape. A chloroplast is like a tiny green kitchen because it uses sunlight as fuel and turns simple ingredients such as water and carbon dioxide into food for the plant, just as a kitchen turns raw ingredients into a meal. A vacuole is like a water bottle because it stores a large amount of water, and when it is full the plant becomes stiff and firm, just as a filled water bottle stands upright. The best comparison is that of the plant cell to a cardboard box because it directly shows why the cell wall is important: without the box-like wall, the plant cell would not have a fixed shape and the plant could not stand. The comparison of the chloroplast to a kitchen is also strong because it makes the process of photosynthesis easy to understand for a young reader."
+      }
+    ],
+    "masteryCriteria": "Can state three differences between plant and animal cells (cell wall: plant only, chloroplast: plant only, vacuole size: large in plant, small in animal); can identify a cell as plant or animal from a diagram.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_bio_012",
+    "title": "Unicellular and multicellular organisms",
+    "subject": "bio",
+    "classLevel": 6,
+    "definition": "The living world is built from tiny units called cells, and the number of cells an organism possesses is one of the simplest ways to classify it. A unicellular organism is a complete living thing made of just one cell. That single cell is the entire organism: it must capture or make food, breathe, move, grow, respond to stimuli, excrete wastes, and reproduce -- all within the same microscopic boundary. Classic examples include Amoeba, which appears as a shapeless blob under the microscope and changes its form constantly; Paramecium, a slipper-shaped protist covered with tiny hair-like cilia; Chlamydomonas, a green, single-celled alga commonly found in freshwater puddles and ditches; and even the far smaller bacteria and yeast that are single-celled and invisible without strong magnification. Because a unicellular organism has no separate tissues or organs, its one cell carries every life process and each part of the cell performs multiple functions.\r\n\r\nIn contrast, a multicellular organism is made of many cells that are usually organised into tissues, organs, and organ systems. A human being, a mango tree, a rose bush, an earthworm, and a cat are all multicellular. In these organisms, different groups of cells become specialised for particular jobs: some cells form the covering layer, others contract to produce movement, still others conduct food and water, and many are devoted to protection or reproduction. This specialisation is possible because the cells cooperate and show a division of labor. For example, in the human body, red blood cells transport oxygen, nerve cells carry messages, and muscle cells bring about movement. In a mango tree, root hair cells absorb water, leaf cells carry out photosynthesis, and xylem cells transport water upward. The key difference between the two kinds of organisms is therefore not simply the number of cells, but how life processes are managed. In a unicellular organism, one cell does everything; in a multicellular organism, many specialised cells work together so that the organism as a whole can live, grow, and reproduce more efficiently.\r\n\r\nSome students wonder whether a colony of cells, such as Volvox, counts as a multicellular organism. A true colony is a group of similar cells living together, but the individual cells may still be quite independent. This is different from a multicellular organism, in which cells are specialised and depend on one another. The concepts of unicellular and multicellular organisms are the first step toward understanding why larger, more complex organisms need different tissues and why the cell is truly the basic unit of life.",
+    "eli5": "Some living things are made of just one tiny cell, and that one cell does every job -- eating, moving, and growing all by itself. Amoeba is like this. Other living things, like you or a mango tree, are made of millions of cells. Different cells do different jobs, so they work as a team. One cell does everything alone; many cells work together.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define unicellular organism and multicellular organism. Give two examples of each.",
+        "answer": "A unicellular organism is a living thing that is made up of a single cell, and this one cell performs all the life processes necessary for survival, such as nutrition, respiration, excretion, growth, response to stimuli, and reproduction. Examples of unicellular organisms are Amoeba, a shapeless protozoan found in pond water that moves by forming pseudopodia, and Paramecium, a slipper-shaped ciliated protozoan. Other common unicellular organisms are Chlamydomonas, a green alga, bacteria, and yeast. A multicellular organism, on the other hand, is made up of many cells that are usually organised into tissues and organs. These specialised cells perform different functions, showing a division of labor. Examples include a human being, in which cells are specialised as nerve cells, muscle cells, blood cells, and skin cells, and a mango tree, in which root cells absorb water, leaf cells make food, and wood cells provide support."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A student says, \"A unicellular organism cannot be complete because it has only one cell.\" Explain why this statement is incorrect.",
+        "answer": "This statement is incorrect because a unicellular organism is a complete organism even though it is made of a single cell. The single cell is able to carry out all the life processes that keep the organism alive. For example, Amoeba uses its cell membrane and pseudopodia to capture food particles, digests the food inside food vacuoles, removes waste materials, responds to changes in its surroundings, grows in size, and finally divides into two daughter Amoebae to reproduce. Similarly, Paramecium swims with cilia, takes in food through an oral groove, and reproduces by fission. Because the cell contains all the necessary structures and organelles, the organism does not need separate tissues or organs. A cell is the basic unit of life, and in unicellular organisms, one cell is the whole living thing. The presence of many cells is not required for an organism to be complete; it is the ability to perform life processes that makes it a true organism."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "\"All organisms that live in groups or colonies are multicellular.\" Evaluate this statement with a balanced argument.",
+        "answer": "This statement is not entirely correct and needs careful evaluation. On one hand, many multicellular organisms do live in groups or show social behaviour. However, living in a group is not the same as being multicellular. A multicellular organism is made of many cells that are specialised for different functions and are usually organised into tissues and organs. In contrast, some organisms form colonies made of many similar cells that are not specialised. For example, Volvox forms a spherical colony of many green algal cells, but the individual cells are mostly alike and can often survive on their own. This is a colony of unicellular organisms, not a true multicellular organism. On the other hand, a sponge or a human being is truly multicellular because its cells are specialised -- some for protection, some for movement, some for transport, and some for reproduction. Therefore, the statement is false if it is meant as a definition. Living in a colony does not automatically make an organism multicellular. The correct criterion is the presence of many specialised cells that show division of labor and cooperation, not simply the number of cells gathered together or their habit of living in groups."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Look at the following list of organisms: Amoeba, Paramecium, Chlamydomonas, human being, mango tree, bacteria, yeast, and ant. Classify each as unicellular or multicellular, and explain the basis of your classification.",
+        "answer": "The organisms can be classified as follows. Amoeba, Paramecium, Chlamydomonas, bacteria, and yeast are unicellular because each of them is made of a single cell that performs all life processes. Amoeba and Paramecium are protozoans commonly seen in pond water, Chlamydomonas is a single-celled green alga, and bacteria and yeast are microscopic single-celled organisms. On the other hand, the human being, the mango tree, and the ant are multicellular because they are made of many cells that are specialised for different functions. In a human being, cells are organised into tissues such as blood, muscle, and nerve tissue. In a mango tree, cells are specialised to form roots, leaves, stems, and flowers. In an ant, different cells form the body wall, digestive system, muscles, and nerves. The basis of classification is the number of cells and, more importantly, whether the organism shows division of labor among specialised cells or whether a single cell carries out every life process."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Imagine you are a single-celled organism living in a drop of pond water. Write a short diary entry describing how your one cell manages a complete day of feeding, moving, responding to danger, and reproducing.",
+        "answer": "Dear Diary, today began with the warm morning light reaching my pond. I am an Amoeba, and my whole body is just one cell. To find food, I pushed out parts of my cell body to form pseudopodia and surrounded a tiny bit of algae. The food was enclosed in a food vacuole inside me, and my cell slowly digested it. When the water became too warm, I moved away to a cooler corner by changing my shape and flowing in that direction. That is how I respond to stimuli. I do not have legs or muscles; my one cell does all the moving. I also removed waste materials through my cell membrane. As the day ended, I grew a little larger and then divided into two daughter Amoebae. Each daughter is a complete organism, just like me. Even though I am only one cell, I can feed, move, respond, and reproduce. Living as a single cell is busy, but it works because every part of my cell has a job to do."
+      }
+    ],
+    "masteryCriteria": "Can define unicellular (one cell: amoeba, bacteria) and multicellular (many cells: human, tree) organisms with two examples each; can state one advantage of being multicellular (division of labour); can name one unicellular organism and describe how it performs all life functions in one cell.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_bio_013",
+    "title": "Digestive system (detailed)",
+    "subject": "bio",
+    "classLevel": 6,
+    "definition": "Digestion is the process by which the complex food we eat is broken down into simpler, soluble substances that the body can absorb and use. The human digestive system consists of a long tube called the alimentary canal and a few accessory organs that help in digestion. The alimentary canal, in order, includes the mouth, oesophagus, stomach, small intestine, large intestine, rectum and anus. The accessory organs are the liver and pancreas, while the salivary glands in the mouth also play an important role. Each part has a special job. In the mouth, food is chewed and mixed with saliva, which contains an enzyme called salivary amylase that begins the digestion of carbohydrates such as the starch present in rice, chapati or potatoes. Saliva also makes the food moist and easier to swallow. From the mouth, the chewed food passes into the oesophagus, a muscular tube that pushes it downward into the stomach by a squeezing movement called peristalsis. The stomach is a bag-like organ that stores food, churns it and mixes it with gastric juice. Gastric juice contains hydrochloric acid and an enzyme called pepsin, which begins the digestion of proteins such as those in dal, paneer, fish or eggs. The food now becomes a thick acidic paste called chyme. From the stomach, the chyme moves into the small intestine, which is the main site for the completion of digestion and the absorption of nutrients. The small intestine receives bile from the liver through the gall bladder, and pancreatic juice from the pancreas. Bile is not an enzyme, but it breaks large fat droplets into tiny ones in a process called emulsification, which makes it easier for the enzyme lipase to digest fats. Pancreatic juice contains trypsin for proteins, pancreatic amylase for carbohydrates and lipase for fats. The intestinal wall also produces intestinal juice which further breaks down the partially digested food. Carbohydrates are finally converted into glucose, proteins into amino acids, and fats into fatty acids and glycerol. These simple, soluble nutrients are absorbed through the finger-like villi lining the small intestine into the blood. The remaining undigested food passes into the large intestine, where water is absorbed and the waste becomes semi-solid. The waste is stored in the rectum and finally passed out through the anus. Enzymes are therefore the chemical helpers that speed up digestion, while the digestive juices provide the right conditions and substances for these enzymes to work.",
+    "eli5": "When you eat food, your body has to break it into tiny pieces it can use. Your teeth and spit start breaking starchy foods like bread and rice. Your stomach begins breaking proteins like dal and eggs. In your small intestine, special helpers called enzymes finish the job, making sugars, building blocks for muscles, and tiny fat pieces. Then your blood carries them to the rest of your body.",
+    "misconceptions": [
+      {
+        "belief": "Bile is an enzyme that digests fats. This is like the confusion examiners saw between hydathodes and stomata, or between vestigial and non-essential organs. Bile is not an enzyme. It is a yellow-green liquid made by the liver, stored in the gall bladder, and released into the small intestine. Its job is emulsification, which means breaking large fat droplets into tiny droplets. The actual digestion of fats is done by the enzyme lipase.",
+        "correction": "Bile emulsifies fats; lipase digests fats into fatty acids and glycerol."
+      },
+      {
+        "belief": "Protein digestion is completed in the stomach. Many candidates, like those who gave reasons for drug addiction instead of effects, miss the exact location asked for. Pepsin in the stomach only begins the digestion of proteins into peptones. Protein digestion is completed in the small intestine by trypsin from pancreatic juice and other enzymes in intestinal juice.",
+        "correction": "Protein digestion begins in the stomach with pepsin and is completed in the small intestine by trypsin and peptidases."
+      },
+      {
+        "belief": "Repeating the same point in different ways, for example writing \"food is digested in the stomach\" and then \"the stomach digests food.\" The board exam guidance warned against this very habit. Each sentence in an answer should add a new, precise fact, such as the name of an enzyme, the organ where it acts, or the product formed.",
+        "correction": "Avoid repetition; give one clear, complete statement and then move to the next organ or enzyme."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "List the organs of the digestive system in the correct order and state one important function of each organ.",
+        "answer": "The organs of the digestive system, in the correct order, are the mouth, oesophagus, stomach, small intestine, large intestine, rectum and anus. The mouth is where food is chewed and mixed with saliva; saliva contains salivary amylase, which begins the digestion of carbohydrates. The oesophagus is the muscular tube that carries food from the mouth to the stomach by wave-like contractions called peristalsis. The stomach stores food, churns it and begins the digestion of proteins with the enzyme pepsin present in gastric juice. The small intestine is where digestion is completed; it receives bile from the liver and pancreatic juice from the pancreas, and it also produces intestinal juice. The small intestine is also the main site for the absorption of nutrients through villi. The large intestine absorbs water from the remaining undigested food and helps form solid waste. The rectum stores the waste, and the anus is the opening through which waste is removed from the body. The liver and pancreas are accessory organs: the liver produces bile, and the pancreas produces pancreatic juice containing enzymes such as trypsin, pancreatic amylase and lipase. Each organ is therefore a separate step in a continuous process, and an answer that lists them in order with their functions shows a clear understanding of the system."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Bile does not contain any enzyme, yet it is important for fat digestion. Explain why.",
+        "answer": "Bile is produced by the liver and stored in the gall bladder before being released into the small intestine. It is not an enzyme, so it does not chemically break down fats into smaller molecules. However, it is still very important because it performs emulsification. Fats and oils are insoluble in water and tend to form large droplets. Bile breaks these large fat droplets into many tiny droplets, increasing the surface area available for the enzyme lipase to act. Because lipase is a water-soluble enzyme and fats are not, emulsification makes it much easier for lipase to reach and digest the fat. Once the fats are in tiny droplets, lipase from pancreatic juice and intestinal juice can split them into fatty acids and glycerol, which can be absorbed by the small intestine. Without bile, fat digestion would be very slow and incomplete. This is why a person with a liver or gall-bladder problem may have trouble digesting fatty foods. The correct scientific statement is therefore that bile emulsifies fats, while the enzyme lipase digests them."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"Protein digestion is completed in the stomach by the enzyme pepsin.\" Evaluate this statement.",
+        "answer": "This statement is only partly correct and is therefore not fully accurate. It is true that protein digestion begins in the stomach, and that the enzyme pepsin plays an important role there. The stomach lining produces gastric juice, which contains hydrochloric acid and pepsin. Pepsin acts on proteins and breaks them down into simpler substances called peptones. So the first part of the statement, that protein digestion starts in the stomach, is correct. However, the second part, that protein digestion is completed in the stomach, is wrong. The completion of protein digestion happens in the small intestine. The partially digested proteins from the stomach pass into the small intestine as chyme. Here the pancreas releases pancreatic juice, which contains the enzyme trypsin. Trypsin continues the breakdown of proteins into smaller peptides. Then enzymes in the intestinal juice, called peptidases, further break these peptides into amino acids, which are the simplest form of proteins. These amino acids are then absorbed through the villi of the small intestine into the bloodstream. Therefore, the correct statement would be that protein digestion begins in the stomach with pepsin but is completed in the small intestine by trypsin and other enzymes. The original statement is incomplete and would not receive full marks in an ICSE answer unless corrected and expanded."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A child eats a meal of rice, cooked lentils and a spoonful of ghee. Trace the digestion of each type of nutrient from the mouth to the small intestine, naming the organs, juices and enzymes involved.",
+        "answer": "The rice is rich in carbohydrates, the lentils are rich in proteins, and the ghee is a fat. When the child chews the food in the mouth, the starch in the rice is mixed with saliva, which contains salivary amylase. This enzyme begins the conversion of starch into sugar. The proteins and fats are not digested in the mouth. The chewed food is then swallowed and passes down the oesophagus to the stomach by peristalsis. In the stomach, the gastric juice containing hydrochloric acid and pepsin begins the digestion of the proteins in the lentils. The food becomes chyme. The carbohydrates and fats are not digested in the stomach. From the stomach, the chyme enters the small intestine. Here the liver sends bile, which emulsifies the ghee into tiny droplets. The pancreas sends pancreatic juice, which contains trypsin for proteins, pancreatic amylase for carbohydrates and lipase for fats. The intestinal juice also helps. The carbohydrates in the rice are finally converted into glucose, the proteins in the lentils into amino acids, and the ghee into fatty acids and glycerol. These simple nutrients are then absorbed through the villi into the blood. This shows that each nutrient has a different digestive path and uses different enzymes in the digestive system."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a labelled classroom poster that shows the journey of a chapati, a piece of paneer and a little ghee through the digestive system. What labels, arrows and captions would you include?",
+        "answer": "The poster would begin with a large heading such as \"The Digestive Journey of an Indian Meal.\" At the left side, I would draw a mouth with teeth and label it \"Mouth: chewing + saliva (salivary amylase).\" I would place an arrow to the chapati and write the caption, \"Starch in chapati begins to break down here.\" Next, I would draw the oesophagus as a tube with wavy arrows and label it \"Oesophagus: peristalsis pushes food down.\" Then I would draw the stomach and label it \"Stomach: gastric juice with pepsin starts protein digestion.\" Beside the paneer, I would write, \"Paneer protein is attacked by pepsin and turned into peptones.\" From the stomach, an arrow would lead to a long, coiled small intestine. I would draw the liver and gall bladder above it, with a label \"Liver makes bile; gall bladder stores it.\" Another arrow would come from the pancreas, labelled \"Pancreas makes pancreatic juice with trypsin, pancreatic amylase and lipase.\" I would add the caption, \"Bile emulsifies ghee; lipase digests it into fatty acids and glycerol.\" At the end of the small intestine, I would draw villi and label them \"Villi absorb glucose, amino acids, fatty acids and glycerol into blood.\" Finally, a short large intestine, rectum and anus would be shown at the right. The poster would use colour-coded arrows: red for proteins, brown for carbohydrates and yellow for fats. This would make it easy for a class 6 student to see which nutrient is digested where and by which enzyme."
+      }
+    ],
+    "masteryCriteria": "Can name the digestive organs in order (mouth, oesophagus, stomach, small intestine, large intestine, anus); can state the function of each organ; can explain where digestion, absorption, and elimination occur.",
+    "cognitiveLevel": "understand"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE DiagramExplorerSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

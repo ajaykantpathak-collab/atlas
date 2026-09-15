@@ -1,0 +1,39 @@
+{
+  "gameTitle": "AirVehiclesGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\AirVehiclesGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\physics\\enrichment\\c2_physics_enrichment_part1.marker",
+    "D:\\cisce\\physics\\enrichment\\c2_physics_enrichment_part2.marker",
+    "D:\\cisce\\physics\\enrichment\\c2_physics_enrichment_part3.marker",
+    "D:\\cisce\\physics\\enrichment\\c2_physics_enrichment_part4.marker",
+    "D:\\cisce\\physics\\enrichment\\c2_physics_enrichment_part5.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_phy_001 (Revision of air), c2_phy_002 (Properties of air), c2_phy_003 (Vehicles run on petrol, diesel, CNG, electricity), c2_phy_004 (Noise from vehicles and loud sounds), c2_phy_005 (Ways to reduce noise pollution)",
+  "mascotName": "Mechanic Manoj",
+  "mascotDescription": "a friendly mechanic with blue overalls, a wrench, an oil stain on the cheek, and a cap with a car logo. Custom SVG, not an owl.",
+  "sceneDescription": "garage scene with sky gradient, a car, a charging station, fuel pumps, and a noise meter",
+  "svgObjects": [
+    { "name": "AirIcon", "description": "invisible air shown as wavy lines and dots" },
+    { "name": "BalloonIcon", "description": "a balloon filled with air" },
+    { "name": "CarIcon", "description": "a car running on petrol" },
+    { "name": "BusIcon", "description": "a bus running on diesel" },
+    { "name": "AutoRickshawIcon", "description": "an auto rickshaw running on CNG" },
+    { "name": "ElectricCarIcon", "description": "an electric car with a plug" },
+    { "name": "PetrolPumpIcon", "description": "a petrol pump" },
+    { "name": "ChargingStationIcon", "description": "an electric charging station" },
+    { "name": "NoiseMeterIcon", "description": "a noise meter showing high noise" },
+    { "name": "EarMuffsIcon", "description": "ear muffs to protect from noise" }
+  ],
+  "challengeTypes": [
+    "identify: Air is which type of thing? (Invisible gas we can feel vs A liquid we can see vs A solid we can touch)",
+    "identify: What happens when you blow air into a balloon? (It fills up and gets bigger vs It stays the same vs It becomes smaller)",
+    "identify: What do most CARS run on? (Petrol vs Water vs Air)",
+    "sort: Drag vehicles to the fuel they use (Petrol: car, motorcycle | Diesel: bus, truck, tractor | CNG: auto rickshaw, some buses | Electricity: electric car, e-rickshaw, electric scooter)",
+    "identify: Which vehicle does NOT make pollution from exhaust? (Electric car vs Diesel truck vs Petrol car — electric vehicles have no exhaust)",
+    "identify: What is NOISE POLLUTION? (Too much loud sound that hurts ears vs Bad smell from garbage vs Dirty water in rivers)",
+    "sort: Drag noise sources to Loud or Quiet (Loud: firecrackers, honking, construction drill, loud music | Quiet: reading, soft music, birds chirping, whispering)",
+    "sort: Drag actions to Reduce Noise vs Cause Noise (Reduce: do not honk unnecessarily, keep TV volume low, use ear muffs in loud places, do not burst crackers | Cause: honk continuously, play loud music, burst firecrackers, use loud machines at night)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Revision of air — air is all around us, we cannot see it but we can feel it (wind), we breathe air to live, air is a gas. (2) Properties of air — air has no colour, no taste, no smell. Air occupies space (balloon fills up when we blow air into it). Air has weight. Air can be felt as wind. Air expands when heated. (3) Vehicles run on different fuels — petrol (cars, motorcycles), diesel (buses, trucks, tractors), CNG (auto rickshaws, some buses — cleaner than petrol/diesel), electricity (electric cars, e-rickshaws, electric scooters — no pollution from exhaust). (4) Noise from vehicles and loud sounds — vehicles make noise from engines and honking. Other loud sounds: firecrackers, construction drills, loud music, factory machines. Loud noise hurts our ears, gives us headache, disturbs sleep, and can cause hearing loss. (5) Ways to reduce noise pollution — do not honk unnecessarily, keep TV and music volume low, do not burst loud firecrackers, use silencers on vehicles, plant trees (trees absorb sound), use ear muffs in very loud places, do not use loud machines at night. Misconceptions: 'air has no weight' (air has weight, we can prove it with a balloon on a balance), 'electric cars make the same pollution as petrol cars' (electric cars have no exhaust, they do not make air pollution from the vehicle), 'noise pollution is not real pollution' (noise pollution is real — it harms our ears and health), 'honking is necessary all the time' (honk only when needed to warn someone, not continuously), 'CNG and petrol are the same' (CNG is cleaner and causes less pollution than petrol or diesel). Default width=720, height=560. Use named export (export function AirVehiclesGame), NOT export default. Export interface AirVehiclesGameProps with width?, height?, onComplete?: (score: number) => void."
+}

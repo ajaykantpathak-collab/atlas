@@ -1,0 +1,43 @@
+{
+  "gameTitle": "MeasurementGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\MeasurementGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part5.marker",
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part6.marker",
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part7.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_phy_005 (Need for measurement), c4_phy_006 (Measuring instruments in daily life), c4_phy_007 (How to use measuring instruments)",
+  "mascotName": "Tailor Tanvi",
+  "mascotDescription": "a friendly tailor with a measuring tape around the neck, a ruler badge, a pair of scissors, and a cloth swatch. Custom SVG, not an owl.",
+  "sceneDescription": "tailor shop and market scene with sky gradient, a tailor shop front, a measuring tape, a weighing scale, a thermometer, and a clock on the wall",
+  "svgObjects": [
+    { "name": "RulerIcon", "description": "a ruler marked in cm and mm" },
+    { "name": "MeasuringTapeIcon", "description": "a flexible measuring tape" },
+    { "name": "WeighingScaleIcon", "description": "a weighing machine showing kg" },
+    { "name": "ThermometerIcon", "description": "a thermometer showing degrees Celsius" },
+    { "name": "ClockIcon", "description": "a clock with hour and minute hands" },
+    { "name": "LengthIcon", "description": "a length measurement symbol" },
+    { "name": "MassIcon", "description": "a mass/weight measurement symbol" },
+    { "name": "TimeIcon", "description": "a time measurement symbol" },
+    { "name": "TemperatureIcon", "description": "a temperature measurement symbol" },
+    { "name": "ClothIcon", "description": "a roll of cloth measured in metres" },
+    { "name": "VegetableIcon", "description": "vegetables weighed in kg" },
+    { "name": "FeverIcon", "description": "a sick child with a thermometer" },
+    { "name": "ZeroMarkIcon", "description": "a zero mark on a scale" },
+    { "name": "UnitIcon", "description": "a unit symbol (m, kg, deg C, hours)" }
+  ],
+  "challengeTypes": [
+    "identify: Why do we need MEASUREMENT in daily life? (To find the exact size, amount, or degree of something using a standard unit vs To make things look pretty vs To waste time)",
+    "sort: Drag each physical quantity to its correct unit and instrument (Length: metre, measured with ruler/tape | Mass: kilogram, measured with weighing machine | Time: hour, measured with clock | Temperature: degree Celsius, measured with thermometer)",
+    "identify: What two things does every measurement need? (A number and a unit vs Only a number vs Only a unit)",
+    "sort: Drag each daily-life situation to the correct measurement needed (Tailor cutting cloth: length in metres | Vegetable seller: mass in kilograms | Doctor checking fever: temperature in degrees Celsius | Student reading time: time in hours and minutes | Carpenter cutting wood: length in centimetres)",
+    "identify: When using a RULER to measure length, where do you place the zero mark? (Exactly at one end of the object vs In the middle of the object vs At the other end from the object)",
+    "sort: Drag each step of using a ruler to the correct order (1. Place the zero mark at one end of the object | 2. Lay the ruler along the object in a straight line | 3. Look at the marking at the other end | 4. Read the number to the nearest centimetre)",
+    "identify: What does a THERMOMETER measure? (Temperature in degrees Celsius vs Length in centimetres vs Mass in kilograms)",
+    "sort: Drag each instrument to how to use it correctly (Ruler: place zero mark at one end, read the other end | Weighing machine: place on flat surface, check zero, stand still, read needle | Thermometer: shake down, place under tongue, wait one minute, read the level | Clock: read short hand for hour, long hand for minutes)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Need for measurement — measurement is finding the size, amount, or degree of something by comparing with a standard unit. Without measurement we cannot buy correct quantities, know the time, or check temperature. Four physical quantities: length (how long/tall), mass (how heavy), time (duration/moment), temperature (how hot/cold). Every measurement needs a number AND a unit — '2 metres of cloth' not just '2 of cloth'. (2) Measuring instruments in daily life — ruler/measuring tape for length (tailor measures cloth in metres, carpenter measures wood in cm). Weighing machine for mass (vegetable seller weighs potatoes in kg, grocer weighs rice). Clock/watch for time (reading time for school, cooking). Thermometer for temperature (doctor checks fever, normal body temperature is 37 degrees Celsius). (3) How to use measuring instruments — ruler: place zero mark at one end, lay along object, read marking at other end, read to nearest cm. Measuring tape: same as ruler but flexible and long, for curved or long objects. Weighing machine: place on flat surface, check needle at zero, stand still, wait for needle to stop, read the number. Thermometer: shake down below 35 degrees, place bulb under tongue, close mouth, wait one minute, read the level. Clock: short hand = hour, long hand = minutes, read hour first then minutes. Misconceptions: 'measurement only needs a number' (every measurement needs a number AND a unit — '2 metres' not just '2', because 2 metres is very different from 2 centimetres), 'you can measure from any point on the ruler' (always start from the ZERO mark — starting from 1 will give a wrong reading that is 1 unit too small), 'the thermometer measures weight' (the thermometer measures TEMPERATURE in degrees Celsius, not weight — a weighing machine measures mass), 'you can read the weighing machine immediately' (you must WAIT for the needle to stop moving before reading — reading too early gives a wrong answer), 'the long hand of a clock shows hours' (the SHORT hand shows hours, the LONG hand shows minutes — they are different hands for different quantities). Default width=720, height=560. Use named export (export function MeasurementGame), NOT export default. Export interface MeasurementGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

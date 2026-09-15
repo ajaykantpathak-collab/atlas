@@ -1,0 +1,1341 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete GraphPlotterSimulation.tsx component about Data Handling and Graphs (statistics, bar graphs, pie charts, mean/median/mode, Cartesian coordinates).
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Maths Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_math_080",
+    "title": "Collection of data to examine a hypothesis",
+    "subject": "maths",
+    "classLevel": 6,
+    "definition": "A hypothesis is a thoughtful guess or tentative statement about a daily life situation that can be checked by gathering evidence. In mathematics, we examine a hypothesis by collecting relevant data -- that is, pieces of information gathered through a survey (asking people questions) or through observation (watching and recording what we see). For example, a child may form the hypothesis \"most students in my class travel to school by bus\" and then test it by asking each classmate how they travel, recording each response, and counting how many chose bus, auto, walk, cycle, or car. The collected responses are called raw data because they have not yet been organised into tables or graphs. After counting, the child compares the evidence with the hypothesis: if the count for \"bus\" is the highest, the data supports the hypothesis; if another mode of transport has a higher count, the data contradicts the hypothesis. A conclusion is then stated, such as \"Yes, the data supports my hypothesis -- most children travel by bus\" or \"No, the data contradicts my hypothesis -- most children walk.\" It is important to distinguish between a hypothesis and a conclusion: a hypothesis is the guess made BEFORE collecting data, while a conclusion is the judgement made AFTER examining the data. A hypothesis may turn out to be right or wrong -- both outcomes are equally valid in mathematics, because the purpose is not to be right but to test honestly. The sample is the group of people we collect data from (for example, all classmates in the class), and each person's answer is one response. Recording can be done by tally marks, by writing names, or by simple counting. The key skills in this node are: formulating a clear, testable hypothesis about a daily life situation; choosing an appropriate method (survey or observation) to collect data; recording the raw data honestly without changing responses; and evaluating whether the evidence supports or contradicts the hypothesis, then stating a clear conclusion. This node does NOT include organising data in tally bars and tables, pictographs, bar graphs, or calculating mean and median -- those are covered in subsequent data handling nodes.",
+    "eli5": "A hypothesis is a guess you make before you check. Imagine you guess \"most of my friends like mangoes best.\" That is your hypothesis. Now you ask each friend, \"Which fruit do you like best?\" and you write down every answer. That is collecting data. Then you count the answers. If most friends really did say mango, your guess was supported. If most said apple, your guess was contradicted. Either way, you now know the truth -- and you state a conclusion based on what the counts show.",
+    "misconceptions": [
+      {
+        "belief": "A hypothesis and a conclusion are the same thing.",
+        "correction": "A hypothesis is the guess made BEFORE collecting data; a conclusion is the judgement made AFTER examining the data. They come at opposite ends of the process. CISCE examiners have repeatedly observed that candidates confuse the statement to be tested with the final judgement, especially in data-based and assertion-reason questions. Always label which is which."
+      },
+      {
+        "belief": "If my hypothesis turns out to be wrong, I have failed.",
+        "correction": "In mathematics, the purpose of collecting data is to find the truth, not to prove yourself right. If the data contradicts your hypothesis, you simply state that honestly. Examiners reward a correct, evidence-based conclusion even when it contradicts the original hypothesis. Changing your data to fit your guess is the real failure."
+      },
+      {
+        "belief": "I can just ask my three best friends and decide for the whole class.",
+        "correction": "The sample must represent the group you are making the hypothesis about. If your hypothesis is about \"the class,\" you must collect responses from all (or most) classmates, not just a few friends. A small or biased sample gives weak evidence."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define a hypothesis and state how it differs from a conclusion.",
+        "answer": "A hypothesis is a tentative guess or statement made BEFORE any data is collected, about a daily life situation that can be tested. For example, \"most students in my class travel by bus\" is a hypothesis because it is a guess that can be checked. A conclusion is the judgement made AFTER collecting and examining the data. For example, \"the data shows that 20 out of 35 students travel by bus, so my hypothesis is supported\" is a conclusion. The key difference is timing and evidence: a hypothesis comes before data and has no evidence yet; a conclusion comes after data and is based on the counts observed. A hypothesis may be right or wrong, but a conclusion must honestly reflect what the data shows. Confusing the two is a common error -- always remember: hypothesis first (the guess), data in the middle (the evidence), conclusion last (the judgement)."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A child forms the hypothesis \"most children in my class watch TV for more than one hour daily.\" She asks 30 classmates and records: 22 watch more than one hour, 8 watch one hour or less. Explain whether the data supports or contradicts the hypothesis and why.",
+        "answer": "The data supports the hypothesis. Out of 30 classmates, 22 reported watching TV for more than one hour daily, while only 8 reported watching one hour or less. Since more than half (22 out of 30, which is well over the majority) fall into the \"more than one hour\" category, the evidence clearly agrees with the hypothesis that most children watch TV for more than one hour daily. To state the conclusion properly: \"The collected data supports my hypothesis, because 22 out of 30 classmates watch TV for more than one hour, which is the highest count.\" Notice that the conclusion is tied directly to the counts -- it does not say \"TV is bad\" or \"children watch too much TV,\" which would be opinions. The reasoning depends on comparing the counts in each category with the prediction in the hypothesis. If, instead, only 10 had watched more than one hour and 20 had watched one hour or less, the data would have contradicted the hypothesis, and the conclusion would have stated that honestly."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student states, \"My hypothesis is that most children in my class prefer football. I asked five of my friends and four said football, so my hypothesis is proved.\" Evaluate this claim. Is the conclusion valid? Give a balanced argument.",
+        "answer": "The student's conclusion is weak and not fully valid, even though the count appears to support the hypothesis. There are two serious problems with the claim. First, the sample is far too small and biased. The student asked only five friends, not the whole class. A hypothesis about \"most children in my class\" must be tested by collecting responses from all or nearly all classmates -- perhaps 30 or 35 students. Asking only five friends is not a fair test, because friends may share similar interests and may not represent the whole class. This is called a biased sample. Second, the student uses the word \"proved,\" which is too strong. In data handling, we do not prove a hypothesis -- we say the data supports or contradicts it. Data from a small sample can change if we ask more people. A fair evaluation would be: the limited data from five friends is consistent with the hypothesis, but it is not strong enough to conclude that most of the class prefers football. To make a valid conclusion, the student should survey every classmate, count the responses for each sport, and then compare. If football has the highest count among all classmates, only then can the student state, \"The data from the whole class supports my hypothesis.\" On the other hand, if the student had asked all 35 classmates and 24 chose football, the conclusion would be valid and strong. So the method of data collection matters just as much as the counts themselves. A balanced view is that the student's instinct may be correct, but the evidence collected so far is insufficient and the claim of \"proof\" is mathematically incorrect."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Formulate a hypothesis about the favourite subject of your classmates. Describe how you would collect data to test it, and state what conclusion you would draw if 15 chose Mathematics, 10 chose Science, 6 chose English, and 4 chose Hindi out of 35 classmates.",
+        "answer": "A suitable hypothesis would be: \"Mathematics is the most popular subject in my class.\" This is a clear, testable statement about a daily life situation. To collect data, I would use the survey method: I would go to each of my 35 classmates one by one and ask, \"Which is your favourite subject -- Mathematics, Science, English, Hindi, or any other?\" I would record each response honestly without changing any answer, perhaps using tally marks to keep count. After collecting all 35 responses, I would count how many chose each subject. The given counts are: Mathematics 15, Science 10, English 6, Hindi 4 (total 35). Mathematics has the highest count (15 out of 35), so the data supports my hypothesis. My conclusion would be: \"The data I collected supports my hypothesis, because Mathematics received the highest count (15 out of 35 classmates), making it the most popular subject in my class.\" I would not say \"Mathematics is the best subject\" -- that would be an opinion, not a conclusion based on evidence."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a small data-collection project to examine a hypothesis about how your classmates come to school. State the hypothesis, the method of data collection, the categories you would record, and how you would decide the conclusion.",
+        "answer": "My hypothesis would be: \"Most children in my class come to school by bus.\" This is a clear guess about a daily life situation that I can test. To collect data, I would use the survey method. I would prepare a list of all my classmates (say, 32 students) and ask each one, \"How do you come to school -- by bus, by car, by auto-rickshaw, by cycle, or on foot?\" I would record each response against the classmate's name so that I do not miss anyone or count anyone twice. The categories I would record are: bus, car, auto-rickshaw, cycle, and walk. After collecting all 32 responses, I would count how many fall into each category. To decide the conclusion, I would compare the count for \"bus\" with the counts for all other categories. If \"bus\" has the highest count, I would state: \"The data supports my hypothesis -- most children (for example, 16 out of 32) come to school by bus.\" If another category, say \"walk,\" has the highest count, I would state: \"The data contradicts my hypothesis -- most children (for example, 18 out of 32) come to school on foot, not by bus.\" In either case, my conclusion would be based on the evidence, not on my original guess. This project shows the full cycle: form a hypothesis, collect raw data through a survey, count the responses, compare with the hypothesis, and state an honest conclusion."
+      }
+    ],
+    "masteryCriteria": "Can formulate a clear, testable hypothesis about a daily life situation (e.g., \"most students in my class travel by bus\"). Can collect relevant data through a survey or observation, recording each response honestly as raw data. Can count the responses in each category and compare the highest count with the predicted category to decide whether the data supports or contradicts the hypothesis. Can state a conclusion tied to the counts (e.g., \"18 out of 34 chose mango, so the data supports my hypothesis\") and distinguish it clearly from the hypothesis.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_math_081",
+    "title": "Collection and organisation of data - tally bars and table",
+    "subject": "maths",
+    "classLevel": 6,
+    "definition": "Data handling begins with the collection of raw data from a real-life situation and ends with its systematic organisation so that it can be read and interpreted quickly. Raw data is the unorganised set of responses or observations gathered directly from a source -- for example, when a teacher asks each child in the class to name a favourite fruit, the long list of names spoken one after another (apple, banana, apple, mango, apple, banana, mango, apple, banana, mango...) is raw data. Such a list is hard to read because the same item appears many times scattered throughout, and counting how many children chose each fruit from the raw list is slow and error-prone.\r\n\r\nThe first step is collection, done through either a survey (asking people questions) or observation (watching and recording what happens). A survey might ask classmates about their favourite fruit, the number of siblings they have, or the mode of transport they use to reach school. Observation might involve standing at the school gate for ten minutes and recording every vehicle that passes -- car, bike, bus, car, bike, bike, car, bus, bike, bike... Each response or sighting is one entry in the raw record.\r\n\r\nThe next step is organisation. We sort the raw responses into categories -- apple, banana, mango; or car, bike, bus; or 0 siblings, 1 sibling, 2 siblings. For each category we keep a running count using tally marks. A tally mark is a short vertical stroke (|) drawn for every single response in that category. To make counting easy, tallies are grouped in bundles of five: the first four strokes are drawn as four vertical lines (||||), and the fifth stroke is drawn diagonally across them (\\) to close the bundle. So a count of five looks like a gate with a diagonal bar, a count of seven is one bundle of five plus two upright strokes, and a count of twelve is two bundles of five plus two upright strokes. This grouping lets the eye count in fives instead of ones, which is far faster.\r\n\r\nThe organised information is then presented in a frequency table. A frequency table has columns for the category, the tally bars, and the frequency (the number of times the category appears). Frequency is simply the count for that category. For example, if cars appeared 5 times, bikes 8 times, and buses 2 times during the ten-minute observation, the frequency table shows car with one bundle of five (frequency 5), bike with one bundle of five plus three strokes (frequency 8), and bus with two strokes (frequency 2). The total of all frequencies equals the total number of responses collected.\r\n\r\nOrganising data in tally bars and tables makes it easier to read and interpret than raw data because the information is arranged in systematic, tabular form with clear categories and exact counts. Instead of searching through a long scattered list, the reader can compare frequencies at a glance, find the most and least common categories, and answer questions such as \"which fruit is most popular?\" or \"how many more bikes than buses passed the gate?\" in seconds. This systematic arrangement is the foundation for all later data analysis, including pictographs and bar graphs taught in subsequent nodes.",
+    "eli5": "Imagine you ask 20 friends their favourite fruit and just write the answers in one long line. Finding how many like apple means hunting through the whole line -- slow and easy to mess up. Instead, make a small box for each fruit and draw a stick for every vote in that box. Group the sticks into bundles of five, with the fifth stick drawn slanted across the four. Now you can count in fives at a glance, like reading bundles of notes. That neat little table is a frequency table.",
+    "misconceptions": [
+      {
+        "belief": "Five tallies are drawn as five separate upright strokes |||||.",
+        "correction": "The fifth tally must be drawn diagonally across the first four (||||\\) to form a closed bundle. Five separate upright strokes defeat the purpose of tallying because the eye cannot group them into fives quickly -- which is the whole point of the bundling rule. CISCE examiners have repeatedly flagged students for careless, non-standard presentation of tabular data; drawing tallies correctly is part of that presentation."
+      },
+      {
+        "belief": "The frequency is the number of bundles, not the number of responses.",
+        "correction": "Frequency is the total count of responses in a category -- two bundles of five plus two extra strokes means a frequency of 12, not 2. A bundle is a counting aid, not the count itself. Examiners note that students often lose marks by misreading frequency distribution tables and grouping data incorrectly, so always convert bundles back to the actual total."
+      },
+      {
+        "belief": "Raw data and organised data contain different information.",
+        "correction": "Raw data and the frequency table contain exactly the same information -- every response is preserved. Organisation only rearranges and counts; it does not add or remove anything. If the total of frequencies does not equal the number of raw responses, a tallying error has occurred and the table must be rechecked."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "What is raw data, and why do we organise it using tally bars and a frequency table?",
+        "answer": "Raw data is the unorganised list of responses or observations collected directly from a real-life source, such as the sequence of answers when each child names a favourite fruit, or the sequence of vehicles recorded as they pass the school gate. In raw form the same item appears many times scattered throughout the list, so counting how many times a particular item appears is slow and prone to error -- one can lose one's place or double-count. Organising the data using tally bars means sorting the responses into categories and making a tally mark for each response in its category, bundling the marks in groups of five so the count can be read at a glance. A frequency table then displays each category alongside its tally bars and its frequency (the total count). This systematic arrangement in tabular form makes the data far easier to read and interpret: one can instantly compare categories, find the most and least common responses, and answer questions such as \"which is the most popular fruit?\" without scanning a long scattered list. The total of all frequencies equals the total number of responses, providing a built-in check that no response has been lost."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "During a 10-minute observation at the school gate, a child records vehicles as: car, bike, bike, bus, car, bike, auto, bike, bike, car, bus, auto, bike, car, auto, bike, bike, car. Construct the frequency table and explain each step.",
+        "answer": "First, identify the categories -- the distinct types of vehicle that appeared: car, bike, bus, auto. Second, go through the raw list in order and make a tally mark for each vehicle in its category. Counting the raw list: car appears at positions 1, 5, 10, 16, 18 -- that is 5; bike at positions 2, 3, 6, 8, 9, 13, 15, 17 -- that is 8; bus at positions 4, 11 -- that is 2; auto at positions 7, 12, 14 -- that is 3. Third, draw the tallies in bundles of five: car is one bundle (||||\\, frequency 5); bike is one bundle plus three upright strokes (||||\\ |||, frequency 8); bus is two upright strokes (||, frequency 2); auto is three upright strokes (|||, frequency 3). Fourth, write the frequency table with columns Category | Tally | Frequency: car ||||\\ 5; bike ||||\\ ||| 8; bus || 2; auto ||| 3. Finally, total the frequencies: 5 + 8 + 2 + 3 = 18, which matches the 18 vehicles in the raw list, confirming the table is correct. From the table we can read at a glance that bikes are the most common (8) and buses the least (2), and that 6 more bikes than buses passed the gate."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"Raw data is better than a frequency table because it shows every single response, while a frequency table only shows totals, so we lose information.\" Evaluate this statement.",
+        "answer": "The statement is incorrect and reflects a misunderstanding of what organisation does to data. A frequency table does not lose any information -- every single response is accounted for exactly once in the tallies and in the frequency count. The total of all frequencies always equals the number of raw responses, so nothing is dropped or merged beyond recovery. What the table removes is not information but disorder: it rearranges the same responses into categories and counts them, which is a re-presentation of the identical data in a more usable form. It is true that raw data preserves the order in which responses were given, and that order can sometimes matter (for example, if one were studying how opinions change over time during a survey). For the purposes of this node -- counting how many times each category occurs and comparing categories -- that order is irrelevant, and the frequency table is strictly more useful because it allows instant comparison, quick totals, and easy identification of the most and least common categories. Reading \"which fruit is most popular?\" from a scattered raw list of 40 responses is slow and error-prone; reading it from a frequency table takes one glance at the frequency column. So the student is right that raw data shows every response in sequence, but wrong to conclude that this makes raw data better for analysis. The two forms serve different purposes: raw data preserves sequence, while the frequency table preserves counts in a readable form. Neither loses information; they simply organise the same information differently. For the Class 6 syllabus, the frequency table is the preferred tool because the questions we ask -- \"how many?\", \"which is most?\", \"how many more bikes than buses?\" -- are answered instantly by the table and only with effort by the raw list."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A class of 25 children was asked how many siblings they have. The raw responses are: 1, 2, 0, 1, 1, 2, 3, 1, 0, 2, 1, 1, 2, 0, 1, 3, 1, 2, 1, 0, 2, 1, 1, 2, 1. Construct a frequency table with tally bars and state which category has the highest frequency.",
+        "answer": "The categories are the possible sibling counts that appeared: 0, 1, 2, 3. Process the raw list and tally each response. Going through the list of 25 values: 1(1), 2(2), 0(3), 1(4), 1(5), 2(6), 3(7), 1(8), 0(9), 2(10), 1(11), 1(12), 2(13), 0(14), 1(15), 3(16), 1(17), 2(18), 1(19), 0(20), 2(21), 1(22), 1(23), 2(24), 1(25). Count of 0: positions 3, 9, 14, 20 = 4. Count of 1: positions 1, 4, 5, 8, 11, 12, 15, 17, 19, 22, 23, 25 = 12. Count of 2: positions 2, 6, 10, 13, 18, 21, 24 = 7. Count of 3: positions 7, 16 = 2. Total = 4 + 12 + 7 + 2 = 25, which matches. The frequency table is: 0 siblings -- tally ||||, frequency 4; 1 sibling -- tally ||||\\ ||||\\ ||, frequency 12; 2 siblings -- tally ||||\\ ||, frequency 7; 3 siblings -- tally ||, frequency 2. The category with the highest frequency is \"1 sibling\" with a frequency of 12, meaning most children in the class have one sibling."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a short survey to find out the favourite mode of transport among your classmates (walk, cycle, bus, car, auto). Describe how you would collect the raw data, organise it into a frequency table with tally bars, and present one finding from your table.",
+        "answer": "I would conduct the survey during a class period. I would ask each classmate in turn, \"How do you usually travel to school?\" and write down each answer exactly as given in a notebook, in the order the children respond -- this list is my raw data. If a classmate gives an answer not in my planned categories (for example, \"train\"), I would add it as a new category rather than force it into an existing one, so that no response is lost or distorted. Suppose there are 30 children and the raw list is: bus, car, walk, cycle, bus, auto, walk, bus, car, cycle, walk, bus, auto, walk, cycle, bus, car, walk, bus, auto, walk, cycle, bus, car, walk, bus, auto, walk, cycle, bus. To organise this, I first list the categories: walk, cycle, bus, car, auto. I then go through the raw list in order and make a tally mark for each response in its category, bundling in fives. Counting: walk appears 8 times (tally ||||\\ |||), cycle 6 times (tally ||||\\ |), bus 9 times (tally ||||\\ ||||), car 4 times (tally ||||), auto 3 times (tally |||). The frequency table has columns Category | Tally | Frequency with these entries, and a total row showing 8 + 6 + 9 + 4 + 3 = 30, matching the number of children surveyed. One finding from the table: the bus is the most popular mode of transport (frequency 9), and 5 more children travel by bus than by auto (9 - 3 = 5). This finding, which would take a long time to extract from the raw list, is read instantly from the frequency table -- demonstrating exactly why organising data in tally bars and tables is more useful than leaving it as raw data."
+      }
+    ],
+    "masteryCriteria": "Can collect raw data from a real-life situation using survey or observation (e.g., favourite fruits of 20 classmates, vehicles passing the school gate in 10 minutes). Can organise raw data using tally bars in a frequency table with correct categories, bundles of five (||||\\), and accurate frequencies (e.g., 7 as ||||\\ ||, 12 as ||||\\ ||||\\ ||). Can explain why organising data in tally bars and tables makes it easier to read and interpret than raw data (instant comparison of categories, quick totals, easy identification of most/least common). Can verify that the total of all frequencies equals the number of raw responses collected.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_math_084",
+    "title": "Mean and median of data (not more than ten observations)",
+    "subject": "maths",
+    "classLevel": 6,
+    "definition": "Data handling in Class 6 introduces two of the most important measures of central tendency -- the mean and the median -- for data sets containing not more than ten observations. The mean, also called the average, is defined as the sum of all observations divided by the number of observations. The formula is written as Mean = (Sum of values) / (Number of values). For example, if the marks of 5 students are 40, 50, 60, 70 and 80, the mean is (40 + 50 + 60 + 70 + 80) / 5 = 300 / 5 = 60. The mean represents the equal distribution value -- it is the value each observation would take if the total were shared equally among all members of the data set. It acts as a balance point of the data, like the fulcrum of a seesaw on which the values rest.\r\n\r\nThe median is defined as the middle value of a data set when the observations are arranged in ascending order. To find the median, the first and essential step is to arrange the data from smallest to largest. When the number of observations is odd, there is a single middle value, and that value is the median. For example, the ages of 7 children -- 8, 6, 10, 9, 7, 11 and 12 -- arranged in ascending order become 6, 7, 8, 9, 10, 11, 12. The fourth value, 9, is the middle value and hence the median. When the number of observations is even, there are two middle values, and the median is the average (mean) of those two middle values. For example, the number of pencils with 6 children -- 3, 5, 4, 7, 2 and 6 -- arranged in ascending order become 2, 3, 4, 5, 6, 7. The two middle values are the third (4) and fourth (5), so the median is (4 + 5) / 2 = 4.5.\r\n\r\nThe mean and the median are both representative values of a data set, but they describe the centre in different ways. The mean is the equal-share value -- it depends on every observation, including very large or very small ones. The median is the middle-position value -- it depends only on the order of the observations, not on their actual magnitudes beyond their rank. This distinction matters when the data contains extreme values. This node excludes mode, range, and grouped frequency data, which are reserved for later classes. The focus is on raw data sets with at most ten observations, where both mean and median can be computed by hand.",
+    "eli5": "Imagine you and four friends have 40, 50, 60, 70 and 80 marbles. If you pool all 300 marbles and share them equally, each gets 60 -- that share is the mean, the fair-split value. Now line up the five friends from fewest to most marbles. The friend standing exactly in the middle has 60 marbles -- that middle person is the median. With an even number of friends, two stand in the middle, so you take the average of their marbles as the median.",
+    "misconceptions": [
+      {
+        "belief": "The median is the middle value of the data as it is given, in the original order.",
+        "correction": "The median is the middle value only AFTER the data is arranged in ascending order. CISCE examiner reports repeatedly note that candidates fail to arrange data before finding the median, leading to wrong middle values. Always write the arranged order as a visible step before identifying the median."
+      },
+      {
+        "belief": "For an even number of observations, the median is one of the two middle values.",
+        "correction": "For an even number of observations, there is no single middle value. The median is the average (mean) of the two middle values. Picking only one of them is a common error -- always add the two middle values and divide by 2."
+      },
+      {
+        "belief": "The mean and median are always the same.",
+        "correction": "They can be equal (as in 2, 3, 4, 5, 6, 7 where both are 4.5), but they often differ, especially when one value is much larger or smaller than the rest. The mean is the balance point affected by every value; the median is the middle position affected only by order."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define mean and median. State the formula for the mean and explain how the median is found for an odd and an even number of observations.",
+        "answer": "The mean (average) of a data set is the sum of all observations divided by the number of observations. The formula is Mean = (Sum of values) / (Number of values). It represents the value each observation would take if the total were shared equally among all members -- the equal distribution value or balance point of the data. The median is the middle value of the data set when the observations are arranged in ascending order. For an odd number of observations, there is a single middle value, and that value is the median. Its position is the (n + 1) / 2 th value in the arranged list. For an even number of observations, there are two middle values, and the median is the average (mean) of those two middle values. For example, with 7 observations the median is the 4th value; with 6 observations the median is the average of the 3rd and 4th values. Both mean and median are measures of central tendency -- representative values that describe the centre of the data -- but the mean depends on every value while the median depends only on the ordered position."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "The number of goals scored by a team in 7 matches is 3, 5, 2, 0, 4, 1, 6. Find both the mean and the median. Explain why arranging the data in ascending order is necessary for the median but not for the mean.",
+        "answer": "To find the mean, we add all the observations and divide by the number of observations. Sum = 3 + 5 + 2 + 0 + 4 + 1 + 6 = 21. Number of observations = 7. Mean = 21 / 7 = 3. The mean does not require the data to be ordered because addition is commutative -- the sum is the same regardless of the order in which the values appear. To find the median, we must first arrange the data in ascending order: 0, 1, 2, 3, 4, 5, 6. There are 7 observations (an odd number), so there is a single middle value at the (7 + 1) / 2 = 4th position. The 4th value is 3, so the median is 3. Arranging the data is necessary for the median because the median is defined as the middle value of the ordered list -- without ordering, the \"middle\" of the original list (which would be the 4th value, 4) is not the true middle value of the data set. In this example the mean and median are both 3, but this is a coincidence, not a rule. The reasoning shows that the mean uses the magnitudes of all values through their sum, while the median uses only the rank (position) of the values in ascending order."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"The mean is always a better representative value than the median because it uses every observation.\" Evaluate this statement using a suitable example, giving a balanced argument.",
+        "answer": "The statement is not always correct, although it contains a partial truth. It is true that the mean uses every observation in its calculation, which makes it sensitive to the full spread of the data. When the data is fairly uniform -- with no very large or very small values -- the mean does give a good representative value. For example, for the data 40, 50, 60, 70, 80, the mean is 60 and the median is also 60; both represent the centre well. However, the very fact that the mean uses every observation is also its weakness. When the data contains an extreme value, the mean is pulled towards that extreme and no longer represents the typical value. Consider the data 2, 3, 4, 5, 100. The mean is (2 + 3 + 4 + 5 + 100) / 5 = 114 / 5 = 22.8, but four of the five values are between 2 and 5. The value 22.8 does not represent any of these typical observations -- it is distorted by the single large value 100. The median, by contrast, is 4, which lies among the majority of the observations and gives a far better picture of the typical value. So the median is more robust than the mean when extreme values are present. On the other hand, when there are no extreme values, the mean is preferable because it reflects the total and the equal-share idea. Therefore, neither measure is universally better. The choice depends on the nature of the data: the mean is better for uniform data without outliers, and the median is better when the data contains extreme values. A good mathematician computes both and compares them. The student's claim is therefore only partly valid and must be qualified by considering whether the data contains extreme observations."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "The heights (in cm) of 8 plants in a garden are 45, 52, 38, 60, 50, 47, 55, 42. Find the mean and the median of this data set, showing every step.",
+        "answer": "First, the mean. Sum of observations = 45 + 52 + 38 + 60 + 50 + 47 + 55 + 42. Adding step by step: 45 + 52 = 97; 97 + 38 = 135; 135 + 60 = 195; 195 + 50 = 245; 245 + 47 = 292; 292 + 55 = 347; 347 + 42 = 389. Number of observations = 8. Mean = 389 / 8 = 48.625 cm. Now, the median. First arrange the data in ascending order: 38, 42, 45, 47, 50, 52, 55, 60. There are 8 observations (an even number), so there is no single middle value. The two middle values are the 4th and 5th values, which are 47 and 50. The median is the average of these two: (47 + 50) / 2 = 97 / 2 = 48.5 cm. So the mean is 48.625 cm and the median is 48.5 cm. They are close but not equal, which is typical for real data. Every step -- the sum, the arranged order, the identification of the two middle values, and their average -- must be shown so that the working is clear and any slip can be spotted."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a small data set of exactly 9 observations (whole numbers between 1 and 20) such that the mean is 10 and the median is 12. Show your data set, verify the mean, and verify the median.",
+        "answer": "We need 9 whole numbers between 1 and 20 whose sum is 9 x 10 = 90 (so that the mean is 10) and whose 5th value (the middle of 9 ordered values) is 12 (so that the median is 12). We need the 5th value in ascending order to be 12, so four values must be below 12 and four values must be at or above 12. Choose the four lower values as 2, 4, 6, 10 (all below 12) and the four upper values as 13, 13, 15, 15 (all at or above 12), with the middle value 12. The data set in ascending order is 2, 4, 6, 10, 12, 13, 13, 15, 15. Sum = 2 + 4 + 6 + 10 + 12 + 13 + 13 + 15 + 15 = 90. Mean = 90 / 9 = 10. The 5th value is 12, so the median is 12. Both conditions are satisfied. This construction shows how the mean depends on the sum of all values (which we tuned to 90) while the median depends only on the middle position (which we fixed at 12 by placing four values below and four values at or above it)."
+      }
+    ],
+    "masteryCriteria": "Can compute the mean of a data set with not more than ten observations by summing all values and dividing by the count (e.g. for 40, 50, 60, 70, 80 the mean is 300/5 = 60). Can compute the median of a data set by first arranging the data in ascending order and then identifying the middle value for an odd count (e.g. 6, 7, 8, 9, 10, 11, 12 has median 9) or averaging the two middle values for an even count (e.g. 2, 3, 4, 5, 6, 7 has median (4+5)/2 = 4.5). Can distinguish the mean as the equal-distribution (balance point) value from the median as the middle-position value, and can explain with an example (such as 2, 3, 4, 5, 100) why the mean is affected by extreme values while the median is not.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_math_047",
+    "title": "Collection and organisation of data - choosing the data to collect for hypothesis testing",
+    "subject": "maths",
+    "classLevel": 7,
+    "definition": "Data handling begins with a question we want to answer about the world around us. In Class 6, students learned to collect information and record it using tally bars and simple tables. In Class 7, the focus shifts one step earlier in the process: before collecting any data, we must first decide what data is worth collecting, and why. This decision is guided by a hypothesis -- a clear, testable statement that we believe might be true about a situation in our daily life. A hypothesis is not a wild guess; it is an educated suspicion based on observation, for example \"most students in our class walk to school\" or \"taller students have larger shoe sizes\". The whole purpose of collecting and organising data in this node is to test whether such a hypothesis is supported by evidence.\r\n\r\nChoosing the right data to collect is the first critical skill. The data must be relevant to the hypothesis, measurable or observable in a practical way, and collected fairly without bias. If the hypothesis is about how classmates travel to school, the relevant data is the mode of transport for each student -- walk, cycle, bus, or car. If the hypothesis links height to shoe size, the relevant data is two measurements per classmate: height in centimetres and shoe size as a number. Choosing irrelevant data (for example, asking classmates their favourite colour when testing a transport hypothesis) wastes effort and cannot test the claim.\r\n\r\nOnce the data to collect is chosen, it must be gathered systematically through a survey or direct observation and recorded accurately. Organisation means arranging the raw records into a tabular form with clear categories and a frequency (count) for each category. A well-organised table makes patterns visible. For a single-variable hypothesis like transport mode, a one-column frequency table with categories walk, cycle, bus, car and their counts is sufficient. For a two-variable hypothesis like height versus shoe size, a two-column table recording both measurements for each of, say, ten classmates allows us to look for a pattern.\r\n\r\nAfter the table is complete, the final step is drawing an inference -- a reasoned conclusion about whether the data supports the hypothesis. An inference is not a certainty; it is a judgement based on the evidence collected. If twelve out of twenty classmates walk, the inference \"the hypothesis is supported: most students walk\" is reasonable. Inferences can also be extended cautiously to future events or wider groups, for example predicting that next year's class might also have mostly walkers, while noting that a small sample may not represent the whole school.",
+    "eli5": "Imagine you are a detective who thinks most of your friends like mangoes. That guess is your hypothesis. To check it, you decide what clue to gather -- you ask each friend their favourite fruit -- and you sort the answers into a neat table: mango 8, apple 3, banana 2. Looking at the table, you conclude \"yes, most like mangoes.\" That conclusion is your inference. So the steps are: make a guess, pick the right clues, sort them in a table, and decide if your guess was right.",
+    "misconceptions": [
+      {
+        "belief": "Any statement can be a hypothesis.",
+        "correction": "A hypothesis must be specific and testable with data you can actually collect. \"Students like games\" is too vague to test; \"Most students in Class 7-B prefer cricket over football\" is specific and testable. CISCE examiner observations repeatedly stress that students must read questions carefully and identify exactly what is being asked -- the same care applies to forming a hypothesis."
+      },
+      {
+        "belief": "Collecting more data of any kind will test the hypothesis better.",
+        "correction": "Only data relevant to the hypothesis helps. If the hypothesis is about mode of transport, collecting favourite colours is useless no matter how much you collect. Examiners have noted that candidates often fail to adopt the shorter, focused method and instead wander into long, error-prone work -- the same principle applies here: choose the minimal relevant data, organise it cleanly, and avoid irrelevant collection."
+      },
+      {
+        "belief": "An inference is the same as the hypothesis.",
+        "correction": "The hypothesis is the statement you start with; the inference is the conclusion you draw after examining the organised data. The data may support the hypothesis, partly support it, or contradict it. A strong inference always refers to the actual counts in the table, for example \"16 out of 30 walk, so the hypothesis is supported.\""
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define a hypothesis and list the four main steps of hypothesis testing using data.",
+        "answer": "A hypothesis is a clear, testable statement that we believe might be true about a situation in daily life, such as \"most students in my class walk to school.\" It is not a vague guess but a specific claim that can be checked with evidence. The four main steps of hypothesis testing using data are: first, state the hypothesis clearly, naming the group and the claim; second, choose what data to collect -- the relevant, measurable information such as each classmate's mode of transport; third, collect the data through a survey or observation and organise it systematically in a tabular form with categories and frequencies, including a total row; fourth, draw an inference by examining the table and deciding whether the data supports, partly supports, or contradicts the hypothesis. The inference should always refer to the actual counts in the table and should acknowledge the limits of the sample, for example that data from one class may not represent the whole school."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Karan hypothesises that students who eat breakfast score higher in a class test. He collects only the test marks of five friends. Explain why his data is incomplete and state what additional data he should collect.",
+        "answer": "Karan's hypothesis links two things -- whether a student eats breakfast and the student's test score. By collecting only the test marks of five friends, he has gathered just one of the two relevant pieces of information. Without knowing which of those friends ate breakfast and which did not, he cannot compare the two groups and therefore cannot test the hypothesis at all. The data is incomplete because it captures only the dependent variable (test score) and omits the independent variable (breakfast habit). To test his hypothesis properly, Karan should collect, for each student in his sample, two pieces of information: a yes/no answer to \"Did you eat breakfast on the day of the test?\" and the test marks obtained. He should then organise the data in a two-column table -- one column for breakfast (yes/no) and one for marks -- or split the table into two groups (breakfast-eaters and non-breakfast-eaters) and compare their marks. He should also use a larger sample than five to make the inference more reliable, and he should record the data systematically so that the pattern, if any, becomes visible in the table."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"I tested the hypothesis that most of my classmates like cricket by asking five of my best friends. Four like cricket, so the hypothesis is definitely true for the whole class.\" Evaluate this claim, pointing out strengths and weaknesses, and suggest how to improve the test.",
+        "answer": "The student's claim has a small strength but several serious weaknesses. The strength is that the student followed the basic structure of hypothesis testing: she stated a hypothesis, collected some data, organised it, and drew an inference -- the four steps are present in skeleton form. However, the weaknesses outweigh this. First, the sample is far too small: five friends cannot represent a whole class of perhaps thirty or forty students. A conclusion about \"the whole class\" cannot be drawn from five people. Second, the sample is biased: asking only best friends means the group is likely to share similar interests, including a preference for cricket. Friends often influence each other's hobbies, so the sample is not representative of the class. Third, the word \"definitely\" is wrong in data handling -- an inference is a reasoned judgement based on evidence, not a certainty. Even with a large, fair sample, the conclusion would be \"the data supports the hypothesis,\" not \"it is definitely true.\" Fourth, the student did not present the data in a clear tabular form with categories and frequencies, which makes it hard for anyone else to check her work. To improve the test, she should survey every student in the class (or at least a random selection of fifteen to twenty), use categories such as cricket, football, hockey, badminton, and other, record each response in a frequency table with a total row, and then draw a cautious inference that refers to the actual counts -- for example \"22 out of 34 named cricket as their favourite, so the hypothesis is supported for this class, though not necessarily for other classes.\""
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "For the hypothesis \"Taller students in Class 7 have larger shoe sizes,\" design a data collection plan and a table to record the data for ten classmates. Then explain how you would draw an inference from the completed table.",
+        "answer": "To test this hypothesis I would collect two measurements from each of ten classmates: height in centimetres (using a measuring tape against a wall) and shoe size (asking each classmate or checking the label inside their shoe). I would choose ten classmates of different heights so that the sample covers a range, not just the tallest or shortest. I would record the data in a two-column table with three columns in total: a column for the classmate's name or roll number, a column for height in cm, and a column for shoe size. Each of the ten rows would contain one student's name, height, and shoe size. After filling all ten rows, I would scan the table from shortest to tallest by sorting the rows in order of height. I would then look at the shoe sizes in that sorted order. If the shoe sizes generally rise as the height rises -- for example 140 cm with size 3, 145 cm with size 4, 150 cm with size 5, and so on up to 158 cm with size 7 -- I would infer that the hypothesis is supported: there appears to be a connection between height and shoe size in this sample. If the shoe sizes jump around with no clear trend, I would infer that the data does not support the hypothesis. I would also note that ten classmates form a small sample, so the inference applies only to this group and not to all Class 7 students in the school."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design your own hypothesis about a daily-life situation in your school or home, and describe how you would collect and organise data to test it. Include the table format you would use.",
+        "answer": "My hypothesis is: \"Most students in my class carry a water bottle to school every day.\" This is a daily-life situation I can observe directly. To test it I would choose to collect one piece of information from each classmate: whether they brought a water bottle today (yes or no). I would survey all 32 students in my class during the morning attendance, asking each one \"Did you bring a water bottle today?\" and recording the answer. I would organise the data in a simple frequency table with two columns: \"Brought water bottle\" with categories Yes and No, and \"Number of students (frequency)\" with the count for each. I would add a total row showing 32. For example, the completed table might show Yes = 26 and No = 6, total 32. From this table I would draw an inference: since 26 out of 32 students brought a water bottle, more than three-quarters do so, and therefore the hypothesis is supported for my class. I would add a cautious note that this result is for one class on one day; on a hotter day or in a different class the result might differ. I could extend the inference to a future event by predicting that tomorrow also most students will carry a bottle, since the habit seems well established, while acknowledging that a single day's data is limited evidence."
+      }
+    ],
+    "masteryCriteria": "Can state a clear, testable hypothesis from a daily-life situation, naming the group and the claim (e.g. \"Most students in Class 7-A walk to school\"). Can decide what relevant data to collect and organise it in a systematic tabular form with categories, frequencies, and a total row (e.g. walk 16, cycle 5, bus 6, car 3, total 30). Can draw a basic inference from the organised data that refers to the actual counts and states whether the hypothesis is supported, partly supported, or contradicted.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_math_048",
+    "title": "Mean, median and mode of ungrouped data - understanding what they represent",
+    "subject": "maths",
+    "classLevel": 7,
+    "definition": "When we collect information about something -- the heights of children in a class, the number of siblings each student has, the marks scored in a test, the shoe sizes worn by friends -- we obtain a collection of observations called a data set. Often the data set is too large or too scattered to be understood as a whole, so we look for a single representative value that summarises the entire set. Such a value is called a measure of central tendency, and the three most common ones for ungrouped data (data that has not been grouped into class intervals) are the mean, the median, and the mode. Each of these represents the data in a different way, and choosing the right one depends on the situation.\r\n\r\nThe mean is the arithmetic average. It is found by adding all the observations (the sum) and dividing by the number of observations. For example, for the marks 12, 15, 10, 18, 20 scored by five students, the sum is 75 and the mean is 75 divided by 5, which is 15. The mean is like sharing all the sweets equally among friends so that each person gets the same amount -- that equal amount is the mean. The mean uses every observation in the data set, so it is sensitive to extreme values (a very large or very small observation can pull the mean towards itself).\r\n\r\nThe median is the middle value of the data after the observations have been arranged in ascending (or descending) order. For an odd number of observations, it is the single middle value; for an even number, it is the average of the two middle values. For the data 10, 12, 15, 18, 20 arranged in order, the middle value is the third one, 15, so the median is 15. The median is like lining up children by height and picking the child standing exactly in the middle to represent the whole group. It is not affected by extreme values, which makes it useful when the data contains unusually high or low entries.\r\n\r\nThe mode is the value that occurs most frequently in the data set -- the observation with the highest frequency. For the shoe sizes 4, 5, 5, 6, 5, 7, 6, 5, 6, 5, the value 5 appears five times, more than any other, so the mode is 5. The mode is like finding the most popular ice cream flavour in class by counting which flavour is chosen by the most students. A data set may have one mode, more than one mode, or no mode at all if every value occurs the same number of times.\r\n\r\nThe range of a data set -- the difference between the maximum and minimum values -- gives a sense of how spread out the data is, though it is not itself a measure of central tendency. In daily life we use these representative values constantly: the average rainfall of a city, the median salary of workers, the most common (modal) shoe size sold in a shop. Drawing inferences from data -- deciding what the data tells us -- depends on choosing the appropriate representative value for the situation. For Class 7, all work is with simple ungrouped data having not more than 15 observations.",
+    "eli5": "Imagine you and four friends have 12, 15, 10, 18 and 20 sweets. If you pool all the sweets and share them equally, each gets 15 -- that is the mean. If you line up from fewest to most sweets and pick the friend standing in the middle, that friend has 15 -- that is the median. If you ask which sweet count most friends have, the answer is the mode. Each tells you something different about the group.",
+    "misconceptions": [
+      {
+        "belief": "The median is the middle value of the data as it is given, so I do not need to arrange it.",
+        "correction": "The median is always found after arranging the observations in ascending (or descending) order. If the data is 12, 15, 10, 18, 20, the middle of the original list is 10, but the true median is 15 -- found only after arranging to 10, 12, 15, 18, 20. CISCE examiners have observed that candidates often fail to arrange data correctly and pick the wrong middle value; the remedy is to always write the ordered list as a separate step before identifying the median."
+      },
+      {
+        "belief": "The mode is the largest value in the data set.",
+        "correction": "The mode is the most frequent value -- the one that appears the greatest number of times -- not the largest. In the shoe sizes 4, 5, 5, 6, 5, 7, 6, 5, 6, 5, the largest value is 7, but the mode is 5 because 5 appears five times. Examiners have noted that candidates confuse \"most frequent\" with \"largest\" or \"maximum\"; the correction is to count the frequency of every distinct value and pick the one with the highest count."
+      },
+      {
+        "belief": "Mean, median and mode are just three names for the same average, so any one will do.",
+        "correction": "They are three different representative values that may give different results and suit different situations. For the data 10, 12, 15, 18, 20 they happen to all equal 15, but for 4, 5, 5, 6, 5, 7, 6, 5, 6, 5 the mean is 5.4, the median is 5 and the mode is 5 -- not the same. Examiners stress that students must understand what each value signifies and choose the appropriate one, rather than treating them as interchangeable."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define mean, median and mode in your own words, and state the formula for the mean of ungrouped data.",
+        "answer": "The mean of a set of ungrouped data is the arithmetic average, found by adding all the observations together and dividing the sum by the number of observations. The formula is: mean = (sum of all observations) divided by (number of observations). The median is the middle value of the data after the observations have been arranged in ascending or descending order; for an odd number of observations it is the single middle value, and for an even number it is the average of the two middle values. The mode is the value that occurs most frequently in the data set, that is, the observation with the highest frequency. All three are measures of central tendency -- single representative values that summarise the whole data set. The mean uses every observation and is sensitive to extreme values, the median is not affected by extreme values, and the mode identifies the most common or popular value. A data set always has a unique mean and median, but it may have one mode, more than one mode, or no mode at all."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "For the data set 8, 3, 8, 5, 8, 5, 7, find the mean, the median and the mode. Explain why they are not all equal and what each value tells you about the data.",
+        "answer": "First organise the data. The sum of the observations is 8 + 3 + 8 + 5 + 8 + 5 + 7 = 44. There are 7 observations, so the mean is 44 divided by 7, which is approximately 6.29. For the median, arrange the data in ascending order: 3, 5, 5, 7, 8, 8, 8. There are 7 observations (odd), so the median is the fourth value, which is 7. For the mode, count the frequencies: 3 appears once, 5 appears twice, 7 appears once, and 8 appears three times. The value 8 has the highest frequency, so the mode is 8. The three values are not equal: the mean is about 6.29, the median is 7, and the mode is 8. This happens because the data is not symmetric -- the value 8 is repeated three times, which pulls the mode up to 8, while the single low value of 3 pulls the mean down to about 6.29. The median, being the middle value, sits at 7. Each value tells us something different: the mean tells us the \"fair share\" if all values were shared equally, the median tells us the middle level of the data, and the mode tells us the most common value. This shows why mean, median and mode are distinct representative values and not interchangeable."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A shop owner wants to decide which shoe size to stock in the largest quantity. A student suggests using the mean of the shoe sizes sold last month. Evaluate whether the mean is the appropriate representative value here, and justify which measure the shop owner should use instead.",
+        "answer": "Using the mean is not appropriate for this situation. The mean is the arithmetic average -- it tells us what each size would be if all the sales were shared equally, but it does not tell us which size was sold most often. Shoe sizes are whole or half numbers (like 5, 6, 7), and the mean of a set of such sizes is often a decimal that is not even a real shoe size. For example, if the sizes sold were 4, 5, 5, 6, 5, 7, 6, 5, 6, 5, the mean is 5.4, but no shop can stock \"size 5.4\" shoes. Even more importantly, the mean is sensitive to extreme values: a single sale of a very large size like 11 would pull the mean upwards, even though most customers still buy size 5. The shop owner's real question is \"which size do most customers buy?\", and that is exactly what the mode answers. The mode is the most frequent value -- the value that appears the greatest number of times -- and in the example above the mode is 5, which appears five times. The mode directly identifies the most popular shoe size, which is the information the shop owner needs to decide what to stock in the largest quantity. The median would also be unsuitable here, because the median is the middle value when sizes are arranged in order, not the most common one. Therefore, the appropriate representative value for this situation is the mode, not the mean. This example illustrates a key principle: the choice of representative value depends on the question being asked. When we want an overall average that uses every observation, we use the mean. When we want a typical middle value unaffected by extremes, we use the median. When we want the most common or popular value, we use the mode. Choosing the wrong measure can give a misleading or even meaningless answer, as the mean shoe size of 5.4 demonstrates."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "The heights (in cm) of 11 children in a class are: 132, 128, 135, 140, 128, 130, 132, 128, 138, 132, 145. Find the mean, the median and the mode of this data. Show all your working.",
+        "answer": "To find the mean, first add all the observations: 132 + 128 + 135 + 140 + 128 + 130 + 132 + 128 + 138 + 132 + 145. Grouping the repeated values: 128 appears three times (384), 132 appears three times (396), and the rest are 135, 140, 130, 138, 145. The total sum is 384 + 396 + 135 + 140 + 130 + 138 + 145 = 1468. There are 11 observations, so the mean is 1468 divided by 11, which is approximately 133.45 cm. To find the median, arrange the data in ascending order: 128, 128, 128, 130, 132, 132, 132, 135, 138, 140, 145. There are 11 observations (odd), so the median is the sixth value, which is 132 cm. To find the mode, count the frequency of each value: 128 appears three times, 132 appears three times, and all other values appear once. Both 128 and 132 have the same highest frequency of three, so this data set has two modes -- it is bimodal -- and the modes are 128 cm and 132 cm. This shows that a data set can have more than one mode, which is an important point to remember."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a small real-life data set of your own with exactly 8 observations (not more than 15) in which the mean, the median and the mode are all different values. Write down your data, then compute all three representative values and explain in one sentence what each one tells a reader about your data.",
+        "answer": "One possible data set is the number of storybooks read by 8 children in a month: 2, 4, 4, 5, 6, 7, 7, 15. To find the mean, add the observations: 2 + 4 + 4 + 5 + 6 + 7 + 7 + 15 = 50. There are 8 observations, so the mean is 50 divided by 8, which is 6.25 books. To find the median, the data is already in ascending order: 2, 4, 4, 5, 6, 7, 7, 15. There are 8 observations (even), so the median is the average of the fourth and fifth values: (5 + 6) divided by 2, which is 5.5 books. To find the mode, count the frequencies: 4 appears twice, 7 appears twice, and every other value appears once. Both 4 and 7 tie for the highest frequency, so the data is bimodal with modes 4 and 7. To make all three different, adjust to: 2, 4, 4, 5, 6, 7, 8, 15. The sum is 51, the mean is 51 divided by 8, which is 6.375. The median is (5 + 6) divided by 2, which is 5.5. The mode is 4 (it appears twice, more than any other value). Now the mean (6.375), the median (5.5) and the mode (4) are all different. The mean tells us the average number of books read if shared equally, the median tells us the middle level of reading, and the mode tells us the most common number of books read. The high value 15 pulls the mean above both the median and the mode, which illustrates how extreme values affect the mean but not the median or the mode."
+      }
+    ],
+    "masteryCriteria": "Can compute the mean of ungrouped data with up to 15 observations using mean = (sum of observations) / (number of observations), e.g. for 12, 15, 10, 18, 20 the mean is 75 / 5 = 15. Can determine the median by first arranging data in ascending order and picking the middle value (or the average of the two middle values for an even count), e.g. for 10, 12, 15, 18, 20 the median is 15. Can determine the mode as the most frequent value, e.g. for 4, 5, 5, 6, 5, 7, 6, 5, 6, 5 the mode is 5, and can recognise that a data set may have more than one mode or no mode. Can explain what each representative value signifies and choose the most appropriate one for a given situation (mean for overall average, median when extreme values are present, mode for the most common or popular value).",
+    "cognitiveLevel": "understand"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE GraphPlotterSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

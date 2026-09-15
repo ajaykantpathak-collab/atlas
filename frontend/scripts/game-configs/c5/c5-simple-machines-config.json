@@ -1,0 +1,42 @@
+{
+  "gameTitle": "SimpleMachinesGame",
+  "classLevel": 5,
+  "ageRange": "10-11",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class5\\SimpleMachinesGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part14.marker",
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part15.marker",
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part16.marker",
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part17.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\ForceFrictionGame.tsx",
+  "cisceNodes": "c5_phy_014 (Need for machines in daily life), c5_phy_015 (Types of simple machines - lever, screw, pulley), c5_phy_016 (Levers and their classes - I, II, III order), c5_phy_017 (Examples of levers in the human body)",
+  "mascotName": "Mechanic Mira",
+  "mascotDescription": "a mechanic with overalls, a wrench, and a toolbox. She fixes and explains simple machines and levers. Custom SVG, not an owl.",
+  "sceneDescription": "workshop with sky gradient through a window, levers, pulleys, screws, wedges, a wheel and axle, a human body showing lever examples (arm, leg), and a toolbox with tools",
+  "svgObjects": [
+    { "name": "LeverIcon", "description": "a lever with fulcrum, load, and effort" },
+    { "name": "PulleyIcon", "description": "a pulley with rope and load" },
+    { "name": "ScrewIcon", "description": "a screw with threads" },
+    { "name": "WedgeIcon", "description": "a wedge (axe/knife edge)" },
+    { "name": "WheelAxleIcon", "description": "a wheel and axle" },
+    { "name": "InclinedPlaneIcon", "description": "an inclined plane (ramp)" },
+    { "name": "Class1LeverIcon", "description": "a Class 1 lever (fulcrum in middle, like seesaw)" },
+    { "name": "Class2LeverIcon", "description": "a Class 2 lever (load in middle, like wheelbarrow)" },
+    { "name": "Class3LeverIcon", "description": "a Class 3 lever (effort in middle, like tweezers)" },
+    { "name": "ArmLeverIcon", "description": "a human arm as a Class 3 lever" },
+    { "name": "WrenchIcon", "description": "a wrench tool" },
+    { "name": "ToolboxIcon", "description": "a mechanic toolbox" }
+  ],
+  "challengeTypes": [
+    "identify: Why do we use machines in daily life? (To make work easier and reduce effort vs To make work harder vs To increase the time taken vs To add more weight)",
+    "sort: Drag each simple machine to its correct type (Seesaw = Lever | Flag pole rope = Pulley | Jar lid = Screw | Knife = Wedge | Door knob = Wheel and axle | Ramp = Inclined plane)",
+    "identify: In a Class 1 lever, where is the fulcrum located? (Between the load and the effort vs At the end near the load vs At the end near the effort | There is no fulcrum)",
+    "sort: Drag each lever to its correct class (Seesaw = Class 1 | Scissors = Class 1 | Wheelbarrow = Class 2 | Nutcracker = Class 2 | Tweezers = Class 3 | Fishing rod = Class 3)",
+    "identify: Which lever class has the load between the fulcrum and the effort? (Class 2 vs Class 1 vs Class 3 vs None)",
+    "sort: Drag each lever part to its correct position for each class (Class 1: Fulcrum in middle | Class 2: Load in middle | Class 3: Effort in middle | Class 1: Load and Effort on opposite sides | Class 2: Effort at one end, Fulcrum at other | Class 3: Load at one end, Fulcrum at other)",
+    "identify: The human arm (bicep to forearm) is an example of which lever class? (Class 3 vs Class 1 vs Class 2 vs Not a lever)",
+    "sort: Drag each body part to its correct lever class (Arm (bicep) = Class 3 | Leg calf raising = Class 2 | Jaw = Class 3 | Neck (tilting back) = Class 1 | Foot (standing on toes) = Class 2 | Elbow = Class 3)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Need for machines — machines make work easier by reducing the effort needed, changing the direction of force, or increasing the speed. Simple machines have few or no moving parts. (2) Types of simple machines — Lever: a rigid bar that rotates around a fixed point (fulcrum). Pulley: a wheel with a rope that changes the direction of force. Screw: an inclined plane wrapped around a cylinder, used to hold things together. Wedge: two inclined planes back to back, used to cut or split (knife, axe). Wheel and axle: a wheel attached to a rod, used to move things (doorknob, steering wheel). Inclined plane: a flat sloped surface, used to raise objects with less effort (ramp). (3) Lever classes — Three parts: Fulcrum (fixed pivot point), Load (weight to move), Effort (force applied). Class 1: Fulcrum is BETWEEN load and effort. Examples: seesaw, scissors, crowbar. Class 2: Load is BETWEEN fulcrum and effort. Examples: wheelbarrow, nutcracker, bottle opener. Class 3: Effort is BETWEEN fulcrum and load. Examples: tweezers, fishing rod, tongs. (4) Levers in the human body — Arm: bicep provides effort, elbow is fulcrum, hand holds load — Class 3 lever. Calf/foot: toes are fulcrum, body weight is load, calf muscle provides effort — Class 2 lever. Jaw: jaw joint is fulcrum, teeth bite is load, jaw muscle is effort — Class 3 lever. Neck: fulcrum at base of skull, head weight is load, neck muscles provide effort — Class 1 lever. Misconceptions: 'machines increase the amount of work' (WRONG — machines do not change the total work; they reduce the EFFORT needed by trading force for distance), 'all levers are the same' (WRONG — levers have three classes based on the position of fulcrum, load, and effort), 'a screw is not a simple machine' (WRONG — a screw is an inclined plane wrapped around a cylinder, making it a simple machine), 'the human body has no levers' (WRONG — the human body is full of levers: arms are Class 3, calves are Class 2, neck is Class 1), 'Class 2 lever has effort in the middle' (WRONG — Class 2 has LOAD in the middle; Class 3 has EFFORT in the middle)."
+}

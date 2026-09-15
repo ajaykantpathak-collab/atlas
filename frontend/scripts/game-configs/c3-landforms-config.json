@@ -1,0 +1,43 @@
+{
+  "gameTitle": "LandformsGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\LandformsGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\geo\\enrichment\\c3_geography_enrichment_part8.marker",
+    "D:\\cisce\\geo\\enrichment\\c3_geography_enrichment_part9.marker",
+    "D:\\cisce\\geo\\enrichment\\c3_geography_enrichment_part10.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_geo_008 (Landforms - mountains and plains), c3_geo_009 (Rivers of India - introduction), c3_geo_010 (Weather vs climate - basic)",
+  "mascotName": "Ranger Ravi",
+  "mascotDescription": "a friendly park ranger with a ranger hat, binoculars, a water bottle, and a walking stick. Custom SVG, not an owl.",
+  "sceneDescription": "landscape scene with sky gradient showing mountains, plains, a river flowing, a valley, and weather clouds",
+  "svgObjects": [
+    { "name": "MountainIcon", "description": "a tall mountain with snow cap" },
+    { "name": "HillIcon", "description": "a small hill" },
+    { "name": "PlainIcon", "description": "a flat plain with grass" },
+    { "name": "ValleyIcon", "description": "a valley between hills" },
+    { "name": "PlateauIcon", "description": "a flat-topped plateau" },
+    { "name": "RiverIcon", "description": "a flowing river" },
+    { "name": "GangaIcon", "description": "river Ganga" },
+    { "name": "YamunaIcon", "description": "river Yamuna" },
+    { "name": "GodavariIcon", "description": "river Godavari" },
+    { "name": "SunCloudIcon", "description": "sun with cloud (weather)" },
+    { "name": "RainIcon", "description": "rain falling" },
+    { "name": "SnowIcon", "description": "snow (cold weather)" },
+    { "name": "WindIcon", "description": "wind blowing" },
+    { "name": "ThermometerIcon", "description": "a thermometer for temperature" }
+  ],
+  "challengeTypes": [
+    "identify: What is a MOUNTAIN? (A very tall land form with a peak vs A flat area of land vs A deep hole in the ground)",
+    "identify: What is a PLAIN? (A large flat area of land vs A tall mountain vs A deep river)",
+    "sort: Drag each landform to its correct description (Mountain: very tall with pointed peak, snow on top | Hill: smaller than a mountain, rounded top | Plain: large flat land, good for farming | Valley: low land between mountains or hills | Plateau: flat top but raised high up)",
+    "identify: Which landform is BEST for farming? (Plain vs Mountain vs Plateau)",
+    "sort: Drag each Indian river to its correct description (Ganga: most important river in north India, holy river | Yamuna: tributary of Ganga, flows through Delhi | Godavari: longest river in south India | Brahmaputra: flows from Himalayas through Assam | Narmada: flows west in central India)",
+    "identify: Why are rivers important? (They give water for drinking, farming, and industry vs They make mountains vs They are for flying planes)",
+    "sort: Drag each item to Weather or Climate (Weather: today is rainy, it is hot right now, windy this morning | Climate: India has monsoon season, deserts are dry all year, polar regions are always cold)",
+    "sort: Drag each description to Mountain or Plain (Mountain: cold at top, steep slopes, snow peaks, hard to climb | Plain: flat and easy to walk, good for building cities, fertile soil for crops, many rivers flow through)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Landforms — mountains (very tall land with pointed peak, snow on top, cold, hard to climb, e.g. Himalayas), hills (smaller than mountains, rounded top), plains (large flat land, good for farming and building cities, e.g. Indo-Gangetic plain), valleys (low land between mountains/hills, fertile), plateaus (flat top but raised high, e.g. Deccan plateau). (2) Rivers of India — Ganga (most important, holy river, flows through north India), Yamuna (tributary of Ganga, flows through Delhi), Godavari (longest in south India), Brahmaputra (flows from Himalayas through Assam), Narmada (flows west in central India), Krishna, Kaveri. Rivers give water for drinking, farming, and industry. Rivers start in mountains and flow to the sea. (3) Weather vs climate — weather is what is happening outside RIGHT NOW (today is rainy, it is 30 degrees now). Climate is the pattern over many years (India has monsoon season, deserts are dry, polar regions are always cold). Weather changes daily, climate stays similar for years. Misconceptions: 'mountains and hills are the same' (mountains are taller with pointed peaks, hills are smaller with rounded tops), 'plains are boring and useless' (plains are the most useful — best for farming, building cities, and transport), 'rivers come from the sea' (rivers start in mountains as snow melt and flow DOWN to the sea), 'weather and climate are the same' (weather is daily, climate is long-term pattern), 'all rivers flow to the east' (most Indian rivers flow east to Bay of Bengal, but Narmada flows west to Arabian Sea). Default width=720, height=560. Use named export (export function LandformsGame), NOT export default. Export interface LandformsGameProps with width?, height?, onComplete?: (score: number) => void."
+}

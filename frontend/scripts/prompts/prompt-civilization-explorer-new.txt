@@ -1,0 +1,1127 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete CivilizationExplorerSimulation.tsx component about Indus Valley, Egyptian, Mesopotamian, Chinese, Vedic, Mauryan, Gupta, Mughal civilizations and dynasties.
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "Simple Explanation (ELI5)", "History Theory", "Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- misconceptions items: { belief: string; correction: string }
+- diagnosticQuestions items: { number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint? }
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall -> apply -> evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \\frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_histciv_004",
+    "title": "Early Man — Origin, Evolution and the Paleolithic (Old Stone Age)",
+    "definition": "The story of human beginnings unfolds across an immense timescale that dwarfs all of recorded history. Scientific evidence, drawn from fossil discoveries and genetic studies, places the origin of early humans on the African continent roughly three to four million years ago. Among the earliest known hominid remains are those of Australopithecus, a small-brained but upright-walking creature whose fossils were famously unearthed at Olduvai Gorge in Tanzania by the archaeologists Mary and Louis Leakey. Walking on two legs — bipedalism — proved to be a turning point because it freed the hands for carrying objects and eventually for crafting tools, a capability that no other animal had developed to the same degree. A later species, Homo habilis, whose name fittingly translates as \"handy man,\" lived around two million years ago and is credited with producing the first deliberately shaped stone implements, marking the dawn of technology itself. Homo erectus followed, with a larger brain and a more fully upright posture, and this species spread beyond Africa into Asia and Europe, demonstrating an adaptability that would come to define the human lineage. Crucially, humans did not descend from modern monkeys or chimpanzees; rather, humans and modern apes share a distant common ape-like ancestor from which both branches diverged along separate evolutionary paths millions of years ago. Understanding this shared-ancestor concept is essential because it corrects the widespread but mistaken belief that monkeys transformed into humans over time. The longest chapter of human prehistory is the Paleolithic Age, literally the \"Old Stone Age,\" which began with the earliest tool-making around two million years ago and continued until roughly 10,000 BCE. It earns the label \"old\" because the stone tools of this era were crude, chipped, and unpolished — shaped by striking one stone against another to produce a rough cutting edge, without any of the grinding or smoothing that characterised later periods. Hand axes and cleavers fashioned from quartzite, a hard and durable rock, are typical Paleolithic artefacts found across both Africa and the Indian subcontinent. In the Indian subcontinent, some of the most ancient stone tools, dated to approximately 1.5 million years ago, have been recovered from Attirampakkam near Chennai in Tamil Nadu and from the Soan Valley in the northwestern part of the subcontinent, placing India firmly within the global map of early human activity. Paleolithic people were nomadic hunter-gatherers who moved constantly in small bands in search of food, water, and game, never staying in one place long enough to build anything permanent. They did not construct permanent houses or villages; instead they sheltered in caves and natural rock overhangs, such as the famous rock shelters at Bhimbetka in Madhya Pradesh, which preserve evidence of continuous human occupation over thousands of years. Their survival depended entirely on hunting wild animals and gathering wild fruits, roots, tubers, and other edible plants that grew naturally in their surroundings. They had no knowledge of farming, no pottery for storage, and no metal-working of any kind. The entire Paleolithic period — spanning well over two million years — is by far the longest of the three Stone Age phases, far exceeding the Mesolithic and Neolithic that followed it combined, and it established the fundamental capacities of tool-making, cooperative hunting, and adaptive mobility upon which all later human progress was built.",
+    "textWalkthrough": "You already know from your study of sources of history (c6_histciv_002) that archaeologists piece together the past from material remains such as tools, bones, and pottery, and from the previous node (c6_histciv_003) that prehistory refers to the vast stretch of time before writing was invented. Now we apply that understanding to the very beginning of the human story: where did we come from, and how did the first humans live?\r\n\r\nBegin with the African origin. Fossil evidence from Olduvai Gorge in Tanzania — the work of Mary and Louis Leakey — revealed remains of Australopithecus dating back three to four million years. This upright-walking hominid was not yet human, but it stood at the base of the lineage that would lead to us. A GOOD answer names Africa as the continent of origin and cites at least one early hominid such as Australopithecus or Homo habilis. A BAD answer vaguely says \"humans appeared everywhere at once\" or names a country outside Africa — examiners report that students sometimes write India or Europe as the birthplace, which is incorrect.\r\n\r\nNow tackle the most stubborn misconception in this topic: evolution. Humans did not evolve from monkeys. Both humans and modern apes descended from a shared ape-like ancestor that lived millions of years ago; the monkey branch and the ape-human branch split apart long before any human-like creature appeared. Think of it as a family tree: at the top is a common ancestor, and two major limbs grow downward — one leading to modern monkeys and the other leading through successive hominid stages to apes and humans. A GOOD answer explains this shared-ancestor idea clearly, perhaps with a simple branching tree diagram, and uses the phrase \"common ancestor\" rather than \"evolved from.\" A BAD answer writes \"humans came from monkeys\" or \"monkeys turned into humans\" — a confusion that examiners flag as the single most common conceptual error in the early-man topic at the Class 6 level. The distinction matters because it reflects a fundamental principle of evolution: species diverge from shared points rather than transforming directly into one another.\r\n\r\nNext, place the Paleolithic Age in its correct position. The Stone Age is not one undivided block; it has three phases — Paleolithic (oldest and longest), Mesolithic (middle, transitional), and Neolithic (newest, with farming). The Paleolithic alone spans over two million years, making it dramatically longer than the two later phases combined. A GOOD answer states that the Paleolithic was the first and longest Stone Age phase. A BAD answer treats the Stone Age as a single short period or reverses the order, placing the Neolithic first — an error that loses sequence marks in the board examination.\r\n\r\nConsider the daily life of a Paleolithic human. These were nomadic hunter-gatherers with no permanent settlements of any kind. They moved in small bands, perhaps fifteen to thirty people, following herds of wild animals and the seasonal availability of edible plants and water sources. They crafted crude stone tools — hand axes and cleavers of quartzite — by chipping one stone against another, never by polishing or grinding, which is a technique that belongs to a much later age. They sheltered in caves and natural rock shelters such as those at Bhimbetka in Madhya Pradesh, where the overhanging rocks provided protection from rain, wind, and predatory animals. In India, early Paleolithic tools roughly 1.5 million years old have been found at Attirampakkam near Chennai in Tamil Nadu, demonstrating that the subcontinent was part of the human story from a remarkably early date. A GOOD answer lists at least three features — nomadism, crude chipped stone tools, hunting-gathering, and cave or rock-shelter dwelling — and names one site such as Attirampakkam or Bhimbetka. A BAD answer claims Paleolithic people lived in villages, farmed the land, or used polished tools, confusing this phase with the Neolithic that followed thousands of years later.\r\n\r\nFinally, connect this node forward. The Paleolithic foundation you have just studied leads directly into the Mesolithic and Neolithic Ages (c6_histciv_005), where tools become smaller and then polished, and where nomadic life gives way to farming and permanent settlements. In the ICSE board examination, expect questions asking you to state the African origin of early humans, to name an early hominid, to describe the Paleolithic as the first and longest Stone Age phase, and to list at least three features of Paleolithic life with one site example. Examiners reward precise vocabulary — hominid, nomad, hunter-gatherer, quartzite — and penalise the monkeys-to-humans error and the single-Stone-Age confusion.",
+    "eli5": "Imagine a very, very long time ago — so long ago that there were no cities, no schools, no phones, and not even any farms. The first human-like creatures appeared in Africa, which is like the big starting point of the whole human family. They did not look exactly like us, and they did not come from monkeys — instead, think of it like a family tree where humans and monkeys are like distant cousins who share a great-great-great-grandparent, but one cousin did not turn into the other. These early humans walked on two legs, which left their hands free to pick up rocks and shape them into simple tools. They lived by hunting animals and gathering wild fruits and roots, and because they had no farms or fridges, they kept moving from place to place to find food. They slept in caves and under rock shelters to stay safe from wild animals and bad weather. This huge stretch of time is called the Old Stone Age because their stone tools were rough and unpolished, like a rock you just smash against another rock to make a sharp edge. It lasted for millions of years — far, far longer than all the time since farming was invented put together. In India too, these early people left behind stone tools at places like Attirampakkam near Chennai, and they sheltered under the big rocks at Bhimbetka in Madhya Pradesh. So when someone says \"Old Stone Age,\" think of rough rocks, moving people, and a time so long it makes all of history look like a tiny dot at the end of a very long line.",
+    "misconceptionText": "Students write that \"humans evolved from monkeys.\" Correction: Humans and modern monkeys share a distant common ape-like ancestor that lived millions of years ago, but they branched off along separate evolutionary paths. Monkeys are a separate branch of the primate family tree, not our direct ancestors. CISCE examiners report this as the single most frequent conceptual error in the early-man topic; a simple branching tree diagram — with a common ancestor splitting into a \"monkeys\" branch and an \"apes/humans\" branch — makes the shared-ancestor idea concrete and prevents the error.\r\nA second common error is treating the Stone Age as one single short period. Correction: The Stone Age lasted well over two million years and is divided into three distinct phases — Paleolithic (oldest and longest), Mesolithic (middle, short and transitional), and Neolithic (newest, with farming). The Paleolithic alone covers the overwhelming majority of this timespan. Examiners note that students who fail to distinguish the three phases lose marks on sequence and definition questions; a timeline strip with the Paleolithic block drawn dramatically longer than the other two conveys the scale visually.\r\nA third misconception is assuming Paleolithic humans lived in houses or villages and used polished tools. Correction: Paleolithic people were nomadic hunter-gatherers with no permanent settlements; they sheltered in caves and natural rock shelters such as Bhimbetka in Madhya Pradesh. Their stone tools were crude and chipped, not polished — polishing is a Neolithic innovation that appears only much later. Examiners observe that students sometimes project settled village life backward onto the Paleolithic, confusing it with the Neolithic; side-by-side images of a crude chipped hand axe and a polished Neolithic axe help students see the technological difference.",
+    "diagnosticText": "Q1 (recall): Where did early humans originate, and which early hominid is associated with that origin? Name one site where its fossils were found and state approximately how long ago it lived. Also name one later hominid species and state what it is known for.\r\nAnswer: Early humans originated on the African continent. One of the earliest known hominids associated with this origin is Australopithecus, an upright-walking but small-brained creature whose fossils were discovered at Olduvai Gorge in Tanzania by the archaeologists Mary and Louis Leakey. Australopithecus lived approximately three to four million years ago. Walking on two legs — bipedalism — was a crucial development because it freed the hands for carrying objects and eventually for making tools, giving the human lineage a capability that no other animal had developed to the same degree. A later species, Homo habilis, appeared around two million years ago and is credited with crafting the first deliberately shaped stone tools, earning it the nickname \"handy man.\" Following Homo habilis came Homo erectus, a species with a larger brain and a more fully upright posture, which spread beyond Africa into Asia and Europe. The African origin of humankind is supported not only by fossil evidence from sites like Olduvai Gorge but also by genetic studies showing that all modern human populations descend from African ancestors, reinforcing that the human family tree began on this continent before spreading to other parts of the world. This African origin is a foundational fact that examiners expect every student to state clearly.\r\n\r\nQ2 (reasoning): Why is it incorrect to say that \"humans evolved from monkeys\"? Explain the correct evolutionary relationship using the concept of a common ancestor.\r\nAnswer: Saying that humans evolved from monkeys is incorrect because it misrepresents how evolution works. Evolution does not proceed in a straight line where one living species transforms into another. Instead, species branch apart from shared ancestors over millions of years. Humans and modern monkeys are both primates, but they belong to separate branches of the primate family tree. Millions of years ago, there existed a common ape-like ancestor; from this ancestor, one branch led eventually to modern monkeys, and a different branch led through various hominid stages — such as Australopithecus, Homo habilis, and Homo erectus — to modern humans, Homo sapiens. Chimpanzees and gorillas, our closest living relatives, sit on the ape branch alongside us, not on the monkey branch. The key point is that monkeys are our distant evolutionary cousins, not our parents. A useful way to picture this is a family tree with a single trunk representing the common ancestor and two major limbs splitting off — one for monkeys and one for apes and humans. This shared-ancestor model is the scientifically accurate explanation and is what examiners expect students to articulate.\r\n\r\nQ3 (evaluate): \"The Paleolithic Age deserves to be called both the 'Old' Stone Age and the most important phase of human prehistory.\" Evaluate this statement with reference to the meaning of \"old,\" the duration and features of the Paleolithic period, and why it laid the foundation for all later human development.\r\nAnswer: The statement is well supported when one examines the meaning, duration, and significance of the Paleolithic Age. The label \"Old Stone Age\" is apt because the tools of this period were crude, chipped, and unpolished — shaped simply by striking one stone against another to produce a rough cutting edge. Hand axes and cleavers made of quartzite are typical artefacts, and the absence of polishing distinguishes them sharply from the refined tools of the later Neolithic Age. In terms of duration, the Paleolithic is by far the longest of the three Stone Age phases, spanning well over two million years from the earliest tool-making around two million years ago until roughly 10,000 BCE. The Mesolithic and Neolithic that followed are comparatively brief, so the Paleolithic accounts for the overwhelming majority of human prehistoric time. The features of Paleolithic life — nomadic hunting and gathering, constant movement in search of food, shelter in caves and rock shelters such as Bhimbetka in Madhya Pradesh, and the absence of farming, pottery, or metal-working — represent the baseline from which all later progress began. Evaluating its importance, one must recognise that the Paleolithic established the fundamental capacities that made subsequent advances possible: bipedalism freed the hands, tool-making demonstrated deliberate planning, and the hunter-gatherer survival strategy sustained humanity through the vast majority of its existence. Without the tool-making tradition, the cooperative hunting skills, and the adaptive mobility developed during the Paleolithic, the transition to settled farming life in the Neolithic could not have occurred. In India, Paleolithic tools dated to approximately 1.5 million years ago at Attirampakkam near Chennai demonstrate that the subcontinent was part of this deep human story from a very early stage. Therefore, the Paleolithic deserves both its \"old\" designation, for its crude technology, and its claim to foundational importance, for establishing the biological and cultural capacities upon which all later human achievement rests. The statement is substantially correct.\r\n\r\nQ4 (apply): Imagine you are a Paleolithic hunter-gatherer living near the rock shelters of Bhimbetka in Madhya Pradesh. Describe one typical day in your life, making sure to include at least three authentic features of Paleolithic existence and to avoid any element that belongs to a later age.\r\nAnswer: I wake at dawn inside the shallow rock shelter at Bhimbetka, where my small band has slept for the past few nights. The overhanging rock protects us from wind and rain, but we have no built house — we are nomads and will move on once the nearby berries and roots are exhausted. My father takes the quartzite hand axe, a heavy stone chipped to a rough edge, and heads out with two other men to track a herd of wild deer. They do not farm and they do not herd animals; everything we eat comes from hunting and gathering. My mother and I gather wild tubers and fruits from the bushes along the hillside, carrying them in simple leather pouches. We have no pottery and no metal pots. In the evening, the hunters return with a small deer, and we share the meat around a fire that we have kept burning from a natural blaze. We do not plant seeds or build permanent huts, because this is the Old Stone Age — we move with the seasons and the food. Three authentic features included here are nomadic shelter in a rock shelter, crude quartzite hand-axe tools, and a hunter-gatherer food strategy with no farming or pottery.\r\n\r\nQ5 (create): Design a simple labelled timeline showing the three phases of the Stone Age in correct order, with each phase drawn to a width roughly proportional to its duration. Beneath the timeline, write a short paragraph explaining why the Paleolithic block is drawn the widest and naming one Indian site associated with it.\r\nAnswer: Timeline (drawn as three horizontal blocks in sequence):\r\n\r\n[======================================== PALEOLITHIC (Old Stone Age) ========================================] [=== MESOLITHIC ===] [===== NEOLITHIC =====]\r\n~2 million years ago ----------------------------------------------------------------------------------------> ~10,000 BCE ----> ~6000 BCE onward\r\n\r\nThe Paleolithic block is drawn the widest because it was by far the longest of the three Stone Age phases, spanning well over two million years from the earliest stone tool-making around two million years ago until roughly 10,000 BCE. The Mesolithic was a comparatively short transitional bridge, and the Neolithic, while transformative, occupied a much shorter span than the Paleolithic. Drawing the blocks to scale helps convey that the Old Stone Age accounts for the overwhelming majority of human prehistoric time. One important Indian site associated with the Paleolithic Age is Attirampakkam near Chennai in Tamil Nadu, where stone tools dated to approximately 1.5 million years ago have been discovered, making it one of the earliest evidence of human tool-making in the subcontinent. Another notable site is the rock shelter complex at Bhimbetka in Madhya Pradesh, where Paleolithic people sheltered.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "1. Can state that early humans evolved in Africa around two to three million years ago from ape-like ancestors and can name at least one early hominid such as Australopithecus (the \"southern ape,\" known from the Lucy fossil) or Homo habilis (\"handy man,\" the first tool-maker).\r\n\r\n2. Can describe the Paleolithic Age as the first and longest of the three Stone Age phases (lasting from c. 2.5 million years ago to c. 10,000 BCE), characterised by crude chipped stone tools, a hunter-gatherer lifestyle, and nomadic movement with no permanent settlements.\r\n\r\n3. Can list at least three key features of Paleolithic life — nomadism (following herds and seasonal food sources), stone tools (hand axes, cleavers, and flakes of quartzite), hunting-gathering (men hunted, women and children gathered fruits and roots), and cave or rock-shelter dwelling — and can name at least one Indian site such as Attirampakkam (Tamil Nadu, one of the oldest Paleolithic sites in India) or Bhimbetka (Madhya Pradesh, known for rock shelters and later cave paintings).\r\n\r\n4. Can explain that humans did not evolve from monkeys but share a common ape-like ancestor with modern apes — the evolutionary lines diverged around 6-8 million years ago, with one branch leading to modern apes and the other to hominids and eventually humans.\r\n\r\n5. Can place the three Stone Age phases in the correct chronological order — Paleolithic (Old Stone Age, c. 2.5 million to 10,000 BCE), Mesolithic (Middle Stone Age, c. 10,000 to 8,000 BCE), Neolithic (New Stone Age, c. 8,000 to 4,000 BCE) — and can explain why the Paleolithic is called \"Old\" (crude tools, no farming, no permanent settlements).\r\n\r\n6. Can name at least one key global Paleolithic site — Olduvai Gorge in Tanzania (where Louis and Mary Leakey discovered Homo habilis fossils) — and can explain why Africa is the cradle of human evolution (the oldest hominid fossils are found there).",
+    "subject": "histciv",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_histciv_005",
+    "title": "Mesolithic (Middle Stone Age) and Neolithic (New Stone Age) — Transition to Settled Life",
+    "definition": "The Stone Age is divided into three successive phases — Paleolithic, Mesolithic, and Neolithic — and this node examines the final two, which together carry the story of human development from nomadic hunting to settled village farming. The Mesolithic or Middle Stone Age began roughly around 10,000 BCE, when the last Ice Age ended and global temperatures rose sharply across the Indian subcontinent. This climatic shift transformed dense forests into open grasslands, which altered the animals available for hunting and pushed human communities to invent a new category of implements called microliths — extremely small stone pieces, often no longer than a fingernail, shaped into tiny arrowheads, bladelets, and scrapers. These microliths were frequently fitted into grooved wooden or bone handles to create composite tools such as arrows and sickles, representing a significant advance in precision and versatility over the large, crude hand axes of the Paleolithic. Important Mesolithic evidence in India has been uncovered at Bagor in Rajasthan, dated to around 5000 BCE, and at Adamgarh in Madhya Pradesh, where microlithic assemblages reveal a hunting-gathering community adapting to a warmer environment. The Mesolithic was not a long, stable era but a comparatively brief transitional bridge linking the old stone-tool world to the new farming world. The Neolithic or New Stone Age marks the most profound transformation in human prehistory — the shift from gathering wild food to deliberately cultivating crops and domesticating animals. This change is often called the Neolithic Revolution, a term popularised by the archaeologist V. Gordon Childe, because it fundamentally restructured how people lived, worked, and organised their communities. Around 7000 BCE, at Mehrgarh in the Bolan Pass region of present-day Balochistan, one of the earliest farming settlements in South Asia appeared, with archaeological evidence of wheat and barley cultivation alongside the bones of domesticated sheep and goats. The excavations at Mehrgarh, begun by the French archaeologist Jean-François Jarrige in 1974, revealed multiple layers of continuous occupation, showing a gradual development from simple farming to more complex community life over thousands of years. Other significant Indian Neolithic sites include Burzahom in the Kashmir Valley, where people lived in pit dwellings dug into the ground for insulation against the cold Himalayan winters and used polished stone tools and bone implements, and Chirand in Bihar, where bone tools, stone axes, and pottery fragments have been excavated along the banks of the Ganga. The Neolithic period introduced several defining innovations: stone tools that were ground and polished to a smooth finish rather than merely chipped; pottery for storing grain and cooking food; permanent houses built from mud, wattle, and daub; and the establishment of villages that remained in one location for generations. These developments produced food surpluses, which in turn supported larger populations, specialised crafts, trade networks, and eventually the rise of complex urban societies such as the Indus Valley Civilisation. The Neolithic Revolution thus laid the essential foundation for all subsequent civilisation, and its consequences ripple forward into every later chapter of human history.",
+    "textWalkthrough": "You learned in the previous node (c6_histciv_004) that the Paleolithic or Old Stone Age was the longest and earliest phase of human prehistory, stretching over two million years, during which early humans were nomadic hunter-gatherers who used crude, chipped stone tools and sheltered in caves and rock shelters like those at Bhimbetka. Now the question arises: what happened after the Paleolithic ended? The answer unfolds in two stages — a short transitional phase and a revolutionary new phase — and understanding the difference between them is the key to mastering this node.\r\n\r\nConsider the Mesolithic first. The word itself means \"Middle Stone Age,\" and its position is literally in the middle — after the Paleolithic and before the Neolithic. Around 10,000 BCE, the last Ice Age ended, and the Earth's climate warmed significantly. In India, this warming turned thick forests into open grasslands, which changed the kinds of animals available. Large slow-moving prey gave way to faster, smaller animals, and humans responded by creating microliths — tiny, precision-crafted stone tools that could be mounted on wooden handles to make arrows and composite sickles. Sites like Bagor in Rajasthan and Adamgarh in Madhya Pradesh have yielded these microlithic assemblages. A GOOD answer describes the Mesolithic as a short transitional phase marked by microliths and a warming climate. A BAD answer calls the Mesolithic a long, stable period in which people farmed and built cities — that confuses it with the Neolithic and loses marks. The examiner expects you to use the word \"transition\" when describing the Mesolithic.\r\n\r\nNow turn to the Neolithic, the New Stone Age, which is the most heavily examined part of this node. The defining shift is this: humans stopped merely gathering wild food and began deliberately planting crops and domesticating animals. This is the Neolithic Revolution. At Mehrgarh in the Bolan Pass, dated to around 7000 BCE, archaeologists found evidence of wheat and barley cultivation and the bones of domesticated sheep and goats — making Mehrgarh one of the earliest farming settlements in all of South Asia. A GOOD answer names Mehrgarh, states its approximate date, and identifies it as an early farming site. A BAD answer vaguely says \"people started farming in India\" without naming any site or date, which earns no marks in the ICSE board examination.\r\n\r\nNext, build a comparison between Paleolithic and Neolithic life. The examiner expects at least three clear differences. First, lifestyle: Paleolithic people were nomadic wanderers, while Neolithic people settled permanently in villages. Second, tools: Paleolithic tools were crude and chipped, while Neolithic tools were ground and polished to a smooth finish. Third, food: Paleolithic people hunted and gathered, while Neolithic people farmed and herded animals. A GOOD answer presents these differences in a structured table or numbered list. A BAD answer writes a single vague sentence like \"life got better\" — that earns no marks because it lacks the specific contrasts the examiner is looking for.\r\n\r\nConsider the key Indian Neolithic sites beyond Mehrgarh. At Burzahom in the Kashmir Valley, Neolithic people dug circular pit dwellings into the ground, which provided natural insulation against the harsh Himalayan winter. At Chirand in Bihar, excavations have revealed bone tools, stone axes, and pottery fragments. These sites demonstrate that the Neolithic way of life spread across diverse regions of the subcontinent, from the mountain valleys of Kashmir to the plains of Bihar. A GOOD answer names at least two sites besides Mehrgarh and mentions a distinctive feature of each. A BAD answer names only Mehrgarh and ignores the geographical spread, which suggests an incomplete understanding of the Neolithic in India.\r\n\r\nNow ask the critical evaluative question: why is the Neolithic called a \"revolution\"? The answer is that farming produced food surpluses — more food than the farmers themselves needed. Surplus food meant some people could stop farming and specialise in other work: pottery-making, tool-making, building, and eventually administration. Surplus food also allowed populations to grow, villages to expand into towns, and trade networks to develop. These developments are the precursors to the Indus Valley Civilisation you will study in Chapter 3. A GOOD answer traces this causal chain: farming led to surplus, surplus led to specialisation and population growth, and these led to civilisation. A BAD answer simply says \"farming was important\" without explaining the chain of consequences.\r\n\r\nIn the ICSE board examination, expect questions asking you to arrange the three Stone Ages in correct chronological order, to define the Mesolithic and Neolithic in one sentence each, to list at least three differences between Paleolithic and Neolithic life, to name key Indian Neolithic sites with their distinctive features, and to explain why the Neolithic Revolution was a turning point in human history. The most common mark-losing error is mixing up the sequence of the three ages, so memorise the order firmly: Paleolithic first, Mesolithic second, Neolithic third.",
+    "eli5": "Imagine you and your family had to move house every few weeks because you had to follow wild animals to hunt them and find wild fruits to eat. That was life in the Old Stone Age. Then the weather gets warmer, the ice melts, and the thick forests turn into open grassy fields. You start making tiny sharp stone bits called microliths and fix them onto wooden sticks to make arrows — that is the Middle Stone Age, a short in-between time. Now imagine you notice that seeds dropped on the ground grow into new plants. You think, \"Why chase food when I can grow it right here?\" So you plant wheat and barley, build a permanent house, make smooth polished tools, and raise sheep and goats. You never have to move again. That giant change from wandering to staying in one place is what happened in the New Stone Age — and it changed everything, because having extra food meant people could become potters, builders, and traders instead of everyone just hunting all day.",
+    "misconceptionText": "Students frequently jumble the chronological order of the three Stone Ages, writing Neolithic before Mesolithic or placing the Mesolithic after the Neolithic. The correct sequence is Paleolithic (oldest), Mesolithic (middle), Neolithic (newest). CISCE examiners report that this sequencing error is the single most frequent mistake on Stone Age questions, and it typically costs the student the first mark on a multi-part question. The remedy is to memorise the prefix meanings: \"Paleo\" means old, \"Meso\" means middle, \"Neo\" means new — the prefixes themselves encode the order.\r\nA second common error is treating the Mesolithic as a long, stable era comparable in duration to the Paleolithic. In reality, the Mesolithic was a comparatively brief transitional bridge between the Paleolithic and the Neolithic, characterised by a warming climate and the invention of microliths. CISCE examiner PPA observations note that students who describe the Mesolithic as a \"long period\" lose marks because the examiner expects the word \"transition\" or \"transitional phase.\" The correction is to think of the Mesolithic as a halfway stage — the bridge between the old nomadic world and the new farming world — not as a standalone era of equal weight.\r\nA third misconception is attributing polished stone tools to the Paleolithic Age. Polishing and grinding stone tools to a smooth finish is a distinctly Neolithic innovation; Paleolithic tools were crude and chipped, not polished. CISCE examiners report that students who write \"polished tools\" in a Paleolithic context demonstrate confusion between the two ages and lose the mark for tool identification. The correction is to associate \"chipped\" with Paleolithic and \"polished\" with Neolithic as a fixed pairing.",
+    "diagnosticText": "Q1 (recall): Arrange the three Stone Ages in correct chronological order. Define the Mesolithic and the Neolithic in one sentence each, and name two key Indian sites — one Mesolithic and one Neolithic.\r\nAnswer: The correct chronological order is Paleolithic (Old Stone Age, oldest), Mesolithic (Middle Stone Age, middle), and Neolithic (New Stone Age, newest). The Mesolithic was a short transitional phase between the Paleolithic and Neolithic, characterised by a warming climate after the end of the last Ice Age around 10,000 BCE and the use of microliths — tiny stone tools often mounted in wooden or bone handles. The Neolithic was the period when humans began farming, making polished stone tools, producing pottery, and building permanent settlements, marking the shift from nomadic hunting-gathering to settled agricultural life. A key Mesolithic site in India is Bagor in Rajasthan, dated to around 5000 BCE, where microlithic assemblages have been found. A key Neolithic site is Mehrgarh in the Bolan Pass region of present-day Balochistan, dated to around 7000 BCE, which is one of the earliest farming settlements in South Asia with evidence of wheat and barley cultivation and domesticated sheep and goats.\r\n\r\nQ2 (reasoning): Why is the Mesolithic described as a \"transitional\" phase rather than a standalone era? Explain what changed at the end of the Ice Age and how those changes prepared the ground for the Neolithic Revolution.\r\nAnswer: The Mesolithic is described as transitional because it does not represent a stable, long-lasting way of life comparable to the Paleolithic or the Neolithic; rather, it is the bridge between the two. Around 10,000 BCE, the last Ice Age ended and global temperatures rose sharply. In the Indian subcontinent, this warming transformed dense forests into open grasslands, which changed the types of animals available for hunting — large, slow prey declined and faster, smaller animals became more common. Humans responded by inventing microliths, tiny precision stone tools that could be fitted into wooden or bone handles to create composite arrows and sickles, allowing more efficient hunting of swifter prey. The same warming climate that produced grasslands also encouraged the growth of abundant wild grasses and grains, which gave humans the opportunity to experiment with planting seeds. This experimentation with cultivation is what eventually led to the Neolithic Revolution. Thus the Mesolithic is transitional because its climatic and technological changes — warming, microliths, and the beginnings of plant experimentation — directly set the stage for the farming revolution that followed, rather than constituting an independent era with its own distinct civilisational character.\r\n\r\nQ3 (evaluate): \"The Neolithic Revolution was the most important turning point in human history.\" Evaluate this statement by explaining at least three ways in which the shift to farming transformed human life, and argue whether the benefits of the Neolithic Revolution outweighed its costs.\r\nAnswer: The statement is strongly supported by the scale and permanence of the changes the Neolithic Revolution introduced. The shift from hunting-gathering to farming, beginning around 7000 BCE at sites like Mehrgarh in the Bolan Pass, transformed human life in at least three fundamental ways. First, farming produced food surpluses — more grain and meat than the immediate producers needed for their own survival. This surplus was revolutionary because it freed some members of the community from full-time food production, allowing them to specialise in other occupations such as pottery-making, tool-making, weaving, and construction. This division of labour is the foundation of all complex society; without surplus food, no civilisation could exist. Second, farming required people to remain near their fields throughout the growing season, which ended the nomadic lifestyle that had defined human existence for over two million years. Permanent settlements grew into villages, and villages eventually grew into towns and cities. At Burzahom in Kashmir, Neolithic people built pit dwellings; at Mehrgarh, they constructed permanent mud houses. The very concept of a \"home\" that stays in one place is a Neolithic invention. Third, settled farming life supported larger populations. Reliable food supplies, stored in pottery jars and granaries, allowed communities to grow beyond the small bands that characterised the Paleolithic. Larger populations in turn enabled more complex social organisation, trade networks, and the emergence of leadership and governance structures — the precursors to the states and civilisations that followed, including the Indus Valley Civilisation studied in Chapter 3. However, the Neolithic Revolution also carried costs. Some scholars argue that farming brought harder physical labour than hunting-gathering, as tilling soil and tending animals is more demanding than gathering wild fruits. Close contact with domesticated animals also introduced new diseases to human populations. Social inequality may have emerged as some families accumulated more surplus and wealth than others. Despite these costs, the benefits overwhelmingly outweighed them, because without the Neolithic Revolution there would have been no surplus food, no permanent settlements, no specialised crafts, no writing, no cities, and no civilisation. Every aspect of modern human society — from agriculture and architecture to government and trade — traces its origin to the moment humans first planted seeds and chose to stay in one place. The Neolithic Revolution was therefore the indispensable foundation for all subsequent human progress.\r\n\r\nQ4 (apply): Imagine you are a student in an ICSE Class 6 examination. You are given a three-column table with the headings \"Paleolithic,\" \"Mesolithic,\" and \"Neolithic.\" Fill in the rows for \"Tools,\" \"Food,\" and \"Shelter\" with accurate details for each age, and then write one sentence explaining which single change was most significant and why.\r\nAnswer: Three-column comparison table:\r\n| Feature | Paleolithic | Mesolithic | Neolithic |\r\n| Tools | Crude, chipped stone tools such as hand axes and cleavers made of quartzite | Microliths — tiny stone arrowheads and bladelets mounted in wooden or bone handles | Ground and polished stone tools such as axes, adzes, and chisels; also bone tools and pottery |\r\n| Food | Hunting wild animals and gathering wild fruits, roots, and nuts | Hunting faster prey with microlith-tipped arrows and gathering wild grains; some experimentation with plant foods | Farming of wheat and barley; domestication of sheep, goats, and cattle; stored food in pottery jars |\r\n| Shelter | Nomadic life; caves and rock shelters such as Bhimbetka | Semi-nomadic; temporary camps and huts | Permanent settlements; mud and wattle-and-daub houses, pit dwellings at Burzahom |\r\nThe single most significant change was the beginning of farming in the Neolithic Age, because it produced food surpluses that allowed people to settle permanently, which in turn led to the growth of villages, specialised crafts, and eventually civilisation.\r\n\r\nQ5 (create): Design a timeline with five labelled points showing the progression from the end of the Ice Age to the establishment of settled Neolithic villages in India. For each point, write one or two sentences explaining what happened and why it led to the next stage. Include at least two named sites and approximate dates.\r\nAnswer: Timeline of the transition to settled life in India:\r\n1. Around 10,000 BCE — End of the last Ice Age: Global temperatures rose sharply, melting ice sheets and transforming the Indian landscape. Dense forests gave way to open grasslands, which changed the animals available for hunting and set the environmental conditions for the next stage.\r\n2. Around 10,000-8000 BCE — Mesolithic microliths: Humans invented microliths — tiny stone tools mounted in handles — to hunt the faster, smaller animals that now populated the grasslands. Sites like Adamgarh in Madhya Pradesh show these assemblages. The same warming climate that produced grasslands also encouraged wild grains to grow abundantly.\r\n3. Around 8000-7000 BCE — Experimentation with planting: Humans noticed that seeds dropped on the ground grew into new plants and began deliberately sowing wild grains. This experimentation was the seed of the farming revolution, driven by the abundance of wild grasses in the warming climate.\r\n4. Around 7000 BCE — Mehrgarh established: At Mehrgarh in the Bolan Pass, people began cultivating wheat and barley and domesticating sheep and goats, building permanent mud houses. This is one of the earliest farming settlements in South Asia and represents the full onset of the Neolithic Revolution.\r\n5. Around 5000 BCE and after — Neolithic villages spread: Settled farming communities spread across the subcontinent, including Burzahom in Kashmir with its pit dwellings and Chirand in Bihar with its bone tools and pottery. Food surpluses supported larger populations, specialised crafts, and the foundations of civilisation.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "1. Can define the Mesolithic Age as a short transitional phase between the Paleolithic and Neolithic, characterised by microliths (tiny stone tools used as arrowheads and sickles) and a warming climate after the end of the last Ice Age around 10,000 BCE.\r\n\r\n2. Can define the Neolithic Age as the period when humans began farming, making polished stone tools, producing pottery, and building permanent settlements, marking the shift from nomadic to settled life — and can date its Indian beginning to around 7000 BCE at Mehrgarh.\r\n\r\n3. Can list at least three differences between Paleolithic and Neolithic life: nomadic vs settled lifestyle, crude chipped vs ground polished tools, and hunting-gathering vs farming and domestication of animals (wheat and barley at Mehrgarh, sheep and goats).\r\n\r\n4. Can explain why the Neolithic Revolution was a turning point in human history by tracing the causal chain from farming to food surplus to specialised crafts and population growth to the rise of civilisation — and can identify Gordon Childe as the scholar who coined the term \"Neolithic Revolution.\"\r\n\r\n5. Can name at least three key Indian Neolithic sites with their distinctive features — Mehrgarh (Pakistan, earliest farming in the subcontinent, c. 7000 BCE), Burzahom (Kashmir, pit dwellings and bone tools), and Chirand (Bihar, on the Ganga, bone and stone tools) — and locate them on a map.\r\n\r\n6. Can explain the significance of pottery in the Neolithic — it allowed storage of surplus food, enabled cooking of new foods, and its fragments are among the most durable archaeological evidence for dating Neolithic settlements.",
+    "subject": "histciv",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_histciv_006",
+    "title": "Discovery of Fire and Its Impact on Human Life — Tools and Weapons of Stone, Bone and Wood",
+    "definition": "The control of fire by early humans stands among the most consequential technological thresholds in all of prehistory, transforming diet, shelter, safety, tool manufacture, and social organisation in ways that reverberate to this day. Fire was not manufactured from nothing; the earliest hominids first encountered it through natural phenomena — bolts of lightning igniting dry grassland, volcanic lava setting forests ablaze, or spontaneous combustion in parched vegetation. These chance encounters taught our ancestors that fire carried heat and light, and over many thousands of years they learned to capture burning embers, shelter them in earthen hearths, and feed them with dry kindling so the flame would not die. Only much later did humans master the skill of producing fire at will, typically by rapidly rubbing dry wooden sticks to generate frictional heat or by striking hard stones such as flint against pyrite to throw sparks onto tinder. Archaeological traces of controlled burning have been identified at Chesowanja in Kenya, tentatively dated to roughly 1.4 million years ago, while more persuasive evidence — thick ash layers, fire-cracked rock, and burnt bone fragments — comes from the Zhoukoudian cave system near Beijing in China, where Homo erectus tended fires around 400,000 years ago. Within the Indian subcontinent, charcoal and ash deposits recovered from the Kurnool caves of Andhra Pradesh point to fire use by prehistoric communities. The consequences of taming fire were cascading and profound. Cooking made tough roots and raw meat softer and more digestible, killed harmful parasites, and unlocked extra caloric energy that many scientists believe fuelled the enlargement of the human brain. Warmth from the hearth allowed bands to survive cold seasons and to push into cooler northern latitudes that had previously been uninhabitable. The blaze frightened away predatory animals, granting safer sleep at night. Firelight extended usable hours beyond sunset, creating time for conversation, storytelling, and the gradual shaping of language and shared culture around the communal hearth. Crucially for tool-making, charring the tip of a wooden spear hardened it into a sharper and more durable hunting weapon. Alongside fire, early humans relied on three primary raw materials for their tools and weapons: stone, bone, and wood. Stone — especially flint, chert, and quartzite — was knapped into hand axes, cleavers, and scrapers. Bone, being tough yet workable, was shaped into needles for stitching animal hides into garments and into barbed fishhooks for catching fish. Wood served for spear shafts, digging sticks, and handles into which sharp stone microliths were fitted. Bone and wood decay relatively quickly in damp soil, which explains why archaeologists recover far more stone artefacts than organic ones — a preservation bias that can mislead students into assuming stone was the only material used.",
+    "textWalkthrough": "You already know from c6_histciv_004 that the Paleolithic or Old Stone Age was the longest and earliest division of human prehistory, when our ancestors lived as nomadic hunter-gatherers crafting crude quartzite hand axes at sites like Attirampakkam near Chennai. You also know from c6_histciv_005 that the Mesolithic brought tiny microliths and the Neolithic ushered in farming, polished tools, and permanent settlements at places like Mehrgarh. Now we pause to examine two technologies — fire and tool-making — that cut across all three Stone Age periods and made the later shift to settled farming life possible. Without mastery of flame and without a versatile toolkit of stone, bone, and wood, the agricultural revolution described in the next node could never have taken root.\r\n\r\nLet us first settle a distinction that CISCE examiners repeatedly flag as the single most common source of lost marks on this topic: the difference between discovering fire and creating fire. Discovery came first. Early humans chanced upon fire when lightning struck a tree or when lava from a volcano touched a forest; they did not conjure it. They watched, felt the heat, and gradually learned to carry glowing branches back to their shelters and keep the flame alive by feeding it dry leaves and wood. Creation — the ability to ignite fire whenever needed — came much later, through the friction of rubbing sticks or the spark from striking flint. A GOOD answer traces this progression from natural encounter to deliberate production. A BAD answer declares that early humans \"invented fire by rubbing two stones on the very first day,\" collapsing thousands of years of learning into a single moment and confusing discovery with invention. In the ICSE board examination, marks are specifically awarded for showing that the journey from natural fire to controlled fire was a gradual, staged process.\r\n\r\nNow consider the impacts of fire. CISCE examiners expect at least five distinct impacts, and students who list only \"cooking\" and \"warmth\" forfeit easy marks. Build a cause-and-effect chain in your mind: fire cooked food, which made it more digestible and safer, which improved nutrition and supported brain growth; fire provided warmth, which let humans migrate into colder regions; fire scared away dangerous animals, which made nighttime rest safer; fire hardened wooden spear tips, which improved hunting success; fire gave light after dark, which extended the day and created space for social gathering around the hearth. A GOOD answer presents these five as a connected cascade, showing how one benefit led to another. A BAD answer writes a bare list — \"cooking, warmth\" — with no explanation of why each mattered. The board examination rewards students who explain the significance of each impact, not merely name it.\r\n\r\nTurn next to the three tool materials. Stone is the most familiar: flint and chert were chipped into hand axes, scrapers, and arrowheads. But bone and wood were equally vital. Bone needles were used to pierce and stitch animal skins into fitted clothing, and bone fishhooks allowed early humans to harvest fish from rivers and lakes. Wood provided spear shafts, digging sticks, and the handles into which microliths were set. A GOOD answer names all three materials and gives at least one concrete example for each — stone hand axe, bone needle, wooden spear handle. A BAD answer mentions only stone and ignores bone and wood entirely. Why do students forget bone and wood? Because these organic materials rot in the ground, so archaeologists find far fewer of them. The archaeological record is biased toward stone, which survives for millennia. Understanding this preservation bias is itself a mark-earning insight in the board examination.\r\n\r\nThink also about how fire and tool-making worked together. Fire was not just for cooking and warmth; it was a tool-making technology in its own right. By charring the pointed end of a wooden spear in the fire and then scraping away the blackened surface, early humans produced a hardened, sharper tip that could penetrate animal hide more effectively. This is the link between the two halves of this node — fire improved tools, and better tools improved hunting, which improved diet, which supported larger and more settled communities. Recognising this causal chain shows the examiner that you understand technology as an interconnected system, not a list of isolated facts.\r\n\r\nFinally, connect this node forward to c6_histciv_007 on agriculture. Fire was used to clear forested land for planting, and fire was used to bake the pottery that stored the harvested grain. Polished stone tools — axes and sickles — were needed to cut crops. Without the fire and tool technologies mastered across the Paleolithic and Mesolithic, the Neolithic farming revolution would have been impossible. In the ICSE board examination, expect questions asking you to distinguish discovery from creation of fire, to list and explain at least five impacts, to name the three tool materials with examples, and to explain how fire improved tool-making through the hardening of wooden spear tips.",
+    "eli5": "Imagine you are camping in a forest with no matches, no torch, and no stove. Suddenly a bolt of lightning hits a tree and it starts burning. You feel the warmth, you see the glow, and you notice that animals are running away from the flames. You carefully carry a burning branch back to your tent and keep it alive by adding dry twigs. That is exactly what early humans did — they found fire in nature long before they learned to make it themselves. Later, they figured out that rubbing two dry sticks very fast makes heat, and striking certain stones together makes sparks. Fire let them cook food so it was softer and tastier, stay warm in winter, scare away tigers and wolves, see in the dark, and gather together to tell stories. They also made tools from three things: stone for chopping, bone for sewing needles and fishhooks, and wood for spear handles. They even discovered that roasting the tip of a wooden spear in the fire made it harder and sharper, like baking clay to make a pot stronger. So fire was not just a warm campfire — it was the first big technology that changed everything about how humans lived.",
+    "misconceptionText": "Students write that early humans \"invented\" fire from nothing, as though one day they simply rubbed two stones together and fire appeared for the first time. Correction: Fire was first encountered through natural events — lightning strikes on dry vegetation, volcanic lava touching forests, or spontaneous combustion in parched grass. Only after long experience of keeping these natural fires alive in hearths did humans develop the technique of producing fire deliberately through friction or flint strikes. CISCE examiners specifically reward the progression from natural discovery to controlled creation, and the word \"invented\" misrepresents this staged process. The correct framing is: fire was discovered from nature, then kept burning, then eventually created at will.\r\nA second frequent error is assuming that all early tools were made of stone, because stone is what students see in museum displays and textbook photographs. Correction: Bone and wood were equally important materials. Bone was crafted into needles for stitching animal skins into clothing and into barbed fishhooks for fishing. Wood was used for spear shafts, digging sticks, and handles for microlithic tools. The reason we see more stone tools in museums is that stone survives burial for hundreds of thousands of years, whereas bone and wood decay relatively quickly in damp soil. This archaeological preservation bias does not mean organic tools were rare or unimportant — it means the evidence has rotted away. CISCE examiners expect students to name all three materials with at least one example each.\r\nA third misconception is listing only one or two impacts of fire — typically cooking and warmth — and omitting the others. Correction: At least five impacts should be identified and explained: cooking (which made food more digestible and killed parasites), warmth (which enabled survival in cold regions), protection from wild animals (which made camps safer at night), tool-making (fire-hardened wooden spear tips), light (which extended activity beyond sunset), and social gathering (the hearth as a centre for language and culture). CISCE marking schemes allocate marks for breadth of impact, and stopping at two forfeits the remaining marks. Examiners note that this is the area where Class 6 students most reliably lose easy marks.",
+    "diagnosticText": "Q1 (recall): Distinguish between the discovery of fire and the creation of fire by early humans. Name two natural sources through which fire was first encountered, and describe one method by which humans later learned to produce fire deliberately.\r\nAnswer: The discovery of fire refers to the first encounters early humans had with fire through natural events, long before they could produce it themselves. Two natural sources were lightning strikes that ignited dry grassland or forest, and volcanic lava that set vegetation ablaze when it flowed across the surface. Early humans observed these natural fires, felt their heat, and gradually learned to capture burning embers and keep them alive in sheltered hearths by feeding them dry kindling. The creation of fire refers to the later, far more advanced skill of igniting fire at will, without relying on a natural source. One method was the friction technique: two dry wooden sticks were rubbed together rapidly, generating enough heat through friction to ignite dry tinder placed beneath the contact point. Another method was striking hard stones such as flint against pyrite to produce sparks directed onto dry grass or bark. The key distinction is one of chronology and agency — discovery was passive encounter with a natural phenomenon, while creation was an active, deliberate technological act developed only after long experience of tending natural fires.\r\n\r\nQ2 (reasoning): Why do archaeologists recover far more stone tools than bone or wooden tools from prehistoric sites, and what does this tell us about the actual range of materials early humans used? Explain how this preservation bias can mislead students.\r\nAnswer: Archaeologists recover far more stone tools than bone or wooden tools because of differences in how these materials survive burial over long periods. Stone — including flint, chert, and quartzite — is an inorganic, mineral-based material that resists decay and can persist in the ground for hundreds of thousands or even millions of years with little deterioration. Bone, although harder than wood, is an organic material that gradually decomposes in damp, acidic, or microbe-rich soils, especially over the vast timescales of the Paleolithic. Wood is even more perishable, decaying within decades or centuries in most burial environments. This means the archaeological record is systematically biased toward stone artefacts: we find more stone tools not because early humans made more of them, but because stone survives while bone and wood rot away. This preservation bias can mislead students into assuming that stone was the only or overwhelmingly dominant tool material, when in fact bone needles, bone fishhooks, wooden spear shafts, and wooden digging sticks were equally essential to daily life. The lesson is that absence of evidence is not evidence of absence — the organic tools that have decayed were no less important than the stone tools that endure.\r\n\r\nQ3 (evaluate): \"The mastery of fire was the single most important technological breakthrough in early human prehistory, more transformative than any single tool-making innovation.\" Evaluate this statement by comparing the impacts of fire with the impacts of stone, bone, and wood tool-making, and argue whether fire or tools had the greater overall effect on human life and evolution.\r\nAnswer: The statement can be strongly defended, though a balanced evaluation must acknowledge that fire and tool-making were deeply interdependent rather than competing technologies. Consider first the range of fire's impacts. Cooking made food softer, more digestible, and safer by killing parasites and pathogens, which many evolutionary biologists argue unlocked the surplus caloric energy needed to fuel the dramatic enlargement of the human brain over hundreds of thousands of years. Warmth from the hearth allowed hominid bands to survive cold seasons and to expand into northern latitudes in Europe and Asia that had previously been too harsh for a tropical primate. Fire frightened away large predators, making nighttime camps safer and allowing deeper, more restful sleep. Firelight extended the usable day beyond sunset, creating time for social interaction, storytelling, and the gradual development of language and shared culture around the communal hearth. Fire also served as a tool-making technology in its own right: hardening wooden spear tips in the flame produced sharper, more durable hunting weapons, and in the Neolithic period fire was used to bake pottery and clear land for agriculture. Now consider the impacts of tool-making. Stone hand axes and scrapers enabled butchering of large carcasses, processing of hides, and woodworking. Bone needles permitted the stitching of fitted clothing, which was critical for survival in cold climates. Wooden spears and digging sticks expanded hunting and foraging efficiency. Microliths set into wooden handles created composite tools of remarkable versatility. Yet tool-making, for all its importance, operated primarily within the economic sphere of food acquisition and processing. Fire, by contrast, transformed not only food but also biology, geography, safety, social life, and even tool manufacture itself. Fire's effects were cascading and cross-domain: it changed what humans ate, where they could live, how they slept, how they communicated, and how they made other tools. Tool-making, while indispensable, did not independently produce this breadth of transformation. Moreover, fire and tools reinforced each other — fire-hardened spears improved hunting, better hunting provided more food to cook, and cooked food supported the brain capacity needed for more sophisticated tool design. On balance, while no single technology can be credited in isolation, fire's impacts were broader and more deeply woven into the fabric of human evolution, making the statement substantially persuasive. A fair evaluation concludes that fire was the more transformative breakthrough because its effects radiated across biological, ecological, social, and technological dimensions simultaneously, whereas tool-making, though essential, was more narrowly confined to the economic sphere and was itself partly enhanced by fire.\r\n\r\nQ4 (apply): Imagine you are a Paleolithic hunter-gatherer living near the Kurnool caves in present-day Andhra Pradesh. Describe one full day in your life, showing how you use fire and at least one tool each made of stone, bone, and wood. Explain how each technology serves a specific practical purpose.\r\nAnswer: I wake before dawn in the shelter of our cave near the Kurnool hills. The hearth at the cave entrance still glows with embers from the night before — I feed it dry grass and small twigs to bring the flame back, because the fire keeps us warm through the cool morning and its smoke discourages animals from approaching. As the sun rises, I take my stone hand axe, knapped from a piece of chert, and use it to scrape the hide of a deer killed yesterday, removing fat and flesh so the skin can be dried into a covering. My companion uses a wooden digging stick to uproot edible tubers from the rocky soil outside the cave — the sharpened, fire-hardened tip breaks the ground far more easily than fingers alone. Later, we walk to a nearby stream where I set a bone fishhook, carved from a deer rib, on a fibre line and catch fish for the evening meal. Returning to the cave, I cook the fish and tubers over the fire — cooking makes the tough tuber roots soft enough to chew and kills any worms in the fish. As night falls, the group gathers around the hearth. The firelight lets us see each other's faces, and the elders tell stories of the hunt. The stone axe processed the hide, the wooden stick harvested the tubers, the bone hook caught the fish, and the fire cooked the food, kept us warm, scared away predators, and gave us light to gather — four technologies working together for one day's survival.\r\n\r\nQ5 (create): Design a labelled diagram or table showing the cause-and-effect chain that begins with the discovery of natural fire and ends with the development of language and culture around the hearth. Include at least five linked stages, and for each stage write one sentence explaining how it led to the next.\r\nAnswer: Cause-and-effect chain from the discovery of fire to the development of language and culture:\r\n\r\nStage 1 — Natural fire encountered: Lightning strikes dry grassland near a Paleolithic camp, and early humans observe the heat and light of the burning vegetation for the first time. This encounter taught them that fire carries warmth and illumination, sparking the idea that fire could be useful rather than purely frightening.\r\n\r\nStage 2 — Fire captured and kept alive: Humans carry glowing branches back to their shelter and maintain the flame in a hearth by continuously feeding it dry kindling. Keeping fire burning in a fixed location meant that the campsite became a permanent feature of the group's daily life, centred on the hearth.\r\n\r\nStage 3 — Cooking transforms diet: Food placed on or near the fire becomes softer, more digestible, and free of parasites, improving nutrition and releasing extra caloric energy. Better nutrition supported brain growth and general health, which in turn improved the group's capacity for complex social interaction.\r\n\r\nStage 4 — Fire extends the day and ensures safety: Firelight allows activity to continue after sunset, and the presence of the flame deters predatory animals from approaching the camp at night. With safer, longer evenings, group members had time and security to sit together around the hearth rather than retreating individually to sleep.\r\n\r\nStage 5 — The hearth becomes a social centre: Groups gather around the fire each evening to share food, coordinate the next day's hunt, and narrate experiences through gestures and early vocalisations. Repeated nightly gathering around the hearth created the social pressure and opportunity for communication to grow more complex, gradually shaping the foundations of language and shared culture.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "1. Can explain that fire was first encountered through natural sources such as lightning strikes and volcanic lava, and only much later produced deliberately through friction (the fire drill, rotating a stick against a dry board) or flint strikes (hitting flint against iron pyrite to produce sparks), without using the word \"invented\" to describe the initial encounter.\r\n\r\n2. Can list and explain at least five distinct impacts of fire on early human life — cooking (which made food more digestible and killed parasites), warmth (which allowed humans to survive in colder climates), protection from wild animals (which feared fire), tool-making through fire-hardened spear tips (charring the tip made it harder and sharper), light (which extended activity into the night), and social gathering around the hearth (which fostered language and culture) — showing how each impact mattered and how they connected in a cause-and-effect chain.\r\n\r\n3. Can name all three tool materials — stone, bone, and wood — with at least one specific example for each (stone: hand axes and scrapers; bone: needles and fishhooks; wood: spear handles and digging sticks) and can explain why archaeologists recover more stone tools than organic ones due to preservation bias (stone survives for millennia, bone and wood decay).\r\n\r\n4. Can describe how fire improved tool-making by hardening the tips of wooden spears (charring the wood drives out moisture and makes it harder), linking the two halves of the node into a coherent technological system — fire was not just for cooking but also for tool production.\r\n\r\n5. Can name at least one key site associated with early fire use — Zhoukoudian cave in China (where Peking Man used fire around 500,000 years ago) or the Kurnool caves in Andhra Pradesh (one of the earliest Indian sites with evidence of fire use) — and can explain how archaeologists detect ancient fire (charred bones, ash layers, and reddened earth).\r\n\r\n6. Can explain the social significance of the hearth — fire created a focal point for the group to gather around, which fostered language development (talking around the fire), storytelling (the origin of oral tradition), and social bonding (the group that shares a fire shares a community) — making fire not just a technological discovery but a foundation of human social life.",
+    "subject": "histciv",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_histciv_007",
+    "title": "Beginning of Agriculture and Domestication of Animals — Transition from Nomadic to Settled Life",
+    "definition": "The beginning of agriculture and the domestication of animals mark the most profound turning point in early human history, often described as the Neolithic Revolution, when communities across the globe shifted from a wandering hunter-gatherer existence to a settled, food-producing way of life. This transformation did not occur overnight or in a single location; rather, it unfolded gradually over thousands of years and emerged independently in at least four distinct regions of the world — the Fertile Crescent in West Asia where wheat and barley were first cultivated around 10,000 BCE, the Yangtze and Yellow River basins of China where rice cultivation began around 6000 BCE, Mesoamerica where maize was domesticated, and the Andean highlands of South America where potatoes became a staple. In the Indian subcontinent, the earliest evidence of farming comes from Mehrgarh, a site located in the Bolan Pass region of present-day Balochistan, dated to approximately 7000 BCE, where archaeologists have uncovered plant remains of wheat and barley alongside the bones of domesticated sheep, goats, and cattle. The dog holds the distinction of being the first animal domesticated by humans, as early as roughly 15,000 years ago, serving primarily as a hunting companion rather than as a source of food. The shift to agriculture was driven by a convergence of pressures: the warming of the global climate at the close of the last Ice Age around 10,000 BCE created conditions favourable for plant growth, growing human populations placed increasing strain on wild food supplies, and the gradual depletion of easily gathered wild resources pushed communities to experiment with deliberately planting seeds. Domestication, properly understood, refers not to the taming of individual wild animals as pets but to the selective breeding of species across many generations until they became biologically dependent on humans for sustenance and reproducible for human use — yielding meat, milk, wool, and labour. Once communities committed to farming, they were compelled to remain near their fields throughout the growing season to guard, water, and eventually harvest their crops, which in turn made the nomadic lifestyle impractical and gave rise to permanent settlements. The consequences of this settled existence were far-reaching: people constructed durable houses using mud, stone, and thatch; they produced food surpluses that could be stored in pottery jars for lean seasons; larger and more stable populations could be supported; and the earliest villages coalesced as communal life took root around shared granaries, hearths, and water sources. At Burzahom in Kashmir, Neolithic people built distinctive pit dwellings dug into the ground for insulation against the cold, grew cereals, and kept sheep and goats, illustrating how settled communities adapted their architecture to local climatic conditions. This agricultural foundation would eventually make possible the rise of complex urban civilisations such as the Indus Valley, where villages like Mehrgarh evolved over millennia into planned cities like Mohenjo-daro and Harappa.",
+    "textWalkthrough": "You already know from your study of the Paleolithic Age (c6_histciv_004) that early humans lived as nomadic hunter-gatherers for the vast majority of prehistory, moving constantly in search of wild food and using crude stone tools. You also know from the Mesolithic and Neolithic node (c6_histciv_005) that the Neolithic Age was the period when humans first began farming, making polished stone tools, and building permanent settlements, with key sites like Mehrgarh and Burzahom introduced there. And from the node on fire and tools (c6_histciv_006) you understand that the mastery of fire for cooking and land-clearing, along with polished stone tools for harvesting, were essential technological prerequisites without which farming could not have succeeded. Now we ask the deeper question: why did humans abandon the ancient hunter-gatherer way of life, and how exactly did the practice of farming transform every aspect of human existence?\r\n\r\nBegin with the causes of the shift. Why did humans start farming after hundreds of thousands of years of hunting and gathering? The answer lies in a convergence of three pressures. First, the end of the last Ice Age around 10,000 BCE brought a warmer, wetter climate that encouraged the spread of wild grasses and grains across many regions. Second, human populations were growing, which meant more mouths to feed from the same wild food sources. Third, the increasing depletion of easily gathered wild plants and game forced communities to experiment with deliberately planting seeds to ensure a reliable food supply. A GOOD answer names all three causes — climate change, population growth, and depletion of wild food — and explains how they worked together. A BAD answer simply says \"people decided to farm\" without explaining the pressures that drove the decision, which is the most common weakness examiners report in Class 6 answers on this topic.\r\n\r\nNow consider the crucial cause-and-effect relationship between farming and settlement. This is the single hardest concept for Class 6 students, because the natural temptation is to think that people first built houses and settled down, and then started farming because they now had a permanent home. That reasoning reverses the true direction of causation. In reality, once people planted seeds, they had to stay near their fields for months to protect the growing crops from animals, to water them during dry spells, and to harvest them at the right time. Crops tied people to one place. Farming caused settlement — not the other way around. A GOOD answer states this causal direction clearly: farming required staying near fields, which caused people to settle. A BAD answer writes that people settled first and then began farming, which earns no marks because it demonstrates a fundamental misunderstanding of the causal chain that examiners are testing.\r\n\r\nTurn next to domestication. The word \"domestication\" is frequently misunderstood. It does not mean taming a wild animal as a pet. It means selectively breeding a species over many generations until it becomes biologically dependent on humans for food and reproduction and useful for meat, milk, wool, or labour. A wolf is wild; a dog is domesticated because humans bred wolves over thousands of years to produce an animal that is tame, loyal, and useful for hunting and companionship. The dog was the first domesticated animal, around 15,000 years ago. Other key domesticated animals include sheep, goats, and cattle, all of which provided meat, milk, wool, and hides. At Mehrgarh, bones of domesticated sheep, goats, and cattle have been found alongside cultivated wheat and barley, making it one of the earliest documented farming settlements in South Asia. A GOOD answer names at least four domesticated animals — dog, sheep, goat, cattle — and identifies the dog as the earliest. A BAD answer confuses domestication with taming and fails to explain the selective-breeding process.\r\n\r\nNow examine the first cultivated crops. Four crops should be named: wheat and barley, first cultivated in the Fertile Crescent around 10,000 BCE and appearing at Mehrgarh by 7000 BCE; rice, cultivated independently in the Ganga valley and in China around 6000 BCE; and millets, hardy drought-resistant grains domesticated in various parts of India and Africa. A GOOD answer names all four crops and notes that rice cultivation in the Ganga valley was an independent development, not an import from China. A BAD answer lists only one or two crops or incorrectly claims that agriculture began in a single place and spread everywhere, which contradicts the archaeological evidence for independent origins in multiple regions.\r\n\r\nFinally, trace the consequences of settled life. When people stopped moving and built permanent homes, a cascade of changes followed: durable houses of mud, stone, and thatch replaced temporary shelters; food surpluses could be stored in pottery jars for seasons of scarcity; populations grew because settled life could support more children and larger communities; and villages emerged as the basic unit of social organisation. At Burzahom in Kashmir, Neolithic people dug pit dwellings into the ground for insulation against the harsh winter, grew wheat and barley, and kept sheep and goats — a vivid illustration of how settled communities adapted to local conditions. In the ICSE board examination, expect questions asking you to explain the causes of the shift to agriculture, to name at least four domesticated animals and four first crops, to describe the causal link from farming to settlement, and to list at least three consequences of settled life. The causal reasoning — farming caused settlement, not the reverse — is the most heavily weighted element and the one where most marks are lost.",
+    "eli5": "Imagine your family goes camping every single day, moving from one place to another, hunting animals and picking wild fruits to eat. You can never stay in one place because you have to follow the food. Now imagine one day your parents decide to plant some seeds in the ground and wait for them to grow into wheat. Suddenly, you cannot keep moving — you have to stay near your little field to make sure birds and animals do not eat your growing plants, and you have to be there when the wheat is ready to be picked. So your family builds a proper house next to the field. Now you have a home that stays in one place, and you can store extra food in clay pots for later. More people come to live nearby, and soon you have a whole village. That is how humans went from wandering forever to living in villages — all because they started planting seeds and raising animals like sheep and goats instead of chasing them.",
+    "misconceptionText": "Students frequently think that agriculture was invented in one single place and then spread to the rest of the world. Correction: Archaeological evidence shows that farming developed independently in at least four separate regions at different times — wheat and barley in the Fertile Crescent around 10,000 BCE, rice in China and independently in the Ganga valley around 6000 BCE, maize in Mesoamerica, and potatoes in the Andes. In the Indian context, Mehrgarh around 7000 BCE represents one of the earliest independent farming settlements in South Asia. CISCE examiners report that the single-origin misconception leads students to write answers that ignore the independent and parallel nature of agricultural beginnings, which loses marks on questions about where and how farming began.\r\nA second widespread error is reversing the cause-and-effect relationship between farming and settlement. Students write that people first built permanent houses and settled down, and then started farming because they had a stable home. Correction: The causal direction runs the other way — farming required people to remain near their fields throughout the growing season to guard, tend, and harvest crops, and this necessity is what caused permanent settlement. CISCE examiner PPA observations consistently flag this reversal as the most common conceptual error on this topic, because it demonstrates a failure to grasp the causal chain that the question is testing. A student who writes \"people settled first, then farmed\" earns no marks for the causal link even if the rest of the answer is factually correct.\r\nA third misconception is confusing domestication with the taming of individual wild animals as pets. Correction: Domestication is a multi-generational process of selective breeding through which a wild species is gradually transformed into one that is biologically dependent on humans for food and reproduction and useful for meat, milk, wool, or labour. A wolf is wild; a dog is domesticated because humans bred wolves over thousands of years to produce a tame, useful companion. Some students also incorrectly believe the dog was domesticated for food, when in fact the dog — the earliest domesticated animal, around 15,000 years ago — was used primarily for hunting and companionship, not as a food source.",
+    "diagnosticText": "Q1 (recall): List any four animals domesticated by early humans and any four crops first cultivated by them. Identify which animal was the earliest to be domesticated and approximately when.\r\nAnswer: Four animals domesticated by early humans are the dog, sheep, goat, and cattle. Four crops first cultivated by early humans are wheat, barley, rice, and millets. The dog was the earliest domesticated animal, domesticated approximately 15,000 years ago, and it was used primarily for hunting and companionship rather than for food. The other animals — sheep, goats, and cattle — were domesticated later and provided meat, milk, wool, and hides. Wheat and barley were among the first cultivated crops, appearing in the Fertile Crescent around 10,000 BCE and at Mehrgarh in the Bolan Pass by approximately 7000 BCE. Rice was cultivated independently in the Ganga valley and in China around 6000 BCE, and millets were domesticated as hardy, drought-resistant grains in various parts of India and Africa.\r\n\r\nQ2 (reasoning): Explain why the end of the last Ice Age around 10,000 BCE is considered a key cause of the beginning of agriculture. How did climate change interact with population growth and the depletion of wild food supplies to push humans toward farming?\r\nAnswer: The end of the last Ice Age around 10,000 BCE produced a warmer and wetter global climate, which caused the spread of wild grasses and cereal grains across many regions, providing humans with an abundant new food source that they could observe, gather, and eventually learn to cultivate. This climatic shift interacted with two other pressures. First, human populations were growing after the Ice Age, which increased the demand for food from the available wild resources. Second, the growing populations gradually depleted the easily gathered wild plants and hunted game in any given area, making the hunter-gatherer lifestyle less sustainable. Together, these three factors — a climate favourable to plant growth, rising population, and shrinking wild food supplies — created conditions in which experimenting with deliberately planting seeds became a rational survival strategy. Humans likely began by protecting patches of wild grain, then progressed to sowing seeds deliberately, and eventually committed fully to agriculture as the primary means of subsistence. This was a gradual process spanning centuries, not a single moment of invention.\r\n\r\nQ3 (evaluate): \"The shift from a nomadic hunter-gatherer life to settled agriculture was the most important revolution in human history, but it was also a revolution that brought new problems alongside its benefits.\" Evaluate this statement by discussing at least three benefits and at least two drawbacks of the agricultural transition, with specific reference to Indian sites like Mehrgarh and Burzahom.\r\nAnswer: The statement is well supported by both the archaeological evidence and the long-term consequences of the agricultural transition. On the side of benefits, the shift to farming produced three transformative gains. First, agriculture created food surpluses for the first time in human history — at Mehrgarh, the cultivation of wheat and barley allowed communities to produce more food than they needed immediately and to store the excess in pottery jars, providing a buffer against seasonal scarcity and drought. Second, settled farming life enabled the construction of permanent dwellings — at Burzahom in Kashmir, Neolithic people built pit dwellings dug into the ground for insulation against the harsh winter, demonstrating how permanent architecture could be adapted to local climatic conditions, something impossible for nomadic groups. Third, the food surplus and stable settlement supported population growth and the emergence of villages as organised social units, which in turn laid the groundwork for the development of complex civilisations such as the Indus Valley, where early farming communities like Mehrgarh eventually evolved into urban centres like Mohenjo-daro. On the side of drawbacks, the agricultural transition introduced at least two significant problems. First, farming demanded far harder and more monotonous labour than hunting and gathering — clearing land, planting, weeding, watering, and harvesting required sustained daily effort, and some anthropologists have argued that hunter-gatherers actually enjoyed more leisure time than early farmers. Second, settled life in close proximity to domesticated animals increased the risk of disease, as many infectious diseases that became endemic in human populations — including smallpox, influenza, and measles — are believed to have originated in domesticated animals and crossed to humans through prolonged close contact. Additionally, the reliance on a small number of staple crops made farming communities more vulnerable to crop failure and famine than hunter-gatherers, who drew on a wide variety of wild foods. The evaluation, therefore, confirms that the agricultural revolution was indeed the most important turning point in human history — it made civilisation possible — but it was not an unqualified blessing, and the trade-offs it introduced between food security and labour, between settlement and disease, continue to shape human societies to this day.\r\n\r\nQ4 (apply): Imagine you are a hunter-gatherer living near the Bolan Pass around 7000 BCE. You have just planted your first small field of wheat. Explain in three to four sentences why you can no longer continue your nomadic lifestyle, and describe two changes you would make to your daily life as a result.\r\nAnswer: Now that I have planted a field of wheat, I can no longer move from place to place as I did before, because I must stay near my field for the entire growing season to guard the young shoots from wild animals, to water them during dry periods, and to be present when the grain ripens for harvest. If I wandered away, birds and grazing animals would destroy my crop, and I would lose the food I have invested weeks of effort in growing. The first change I would make is to build a permanent mud-and-thatch house next to my field so that my family has a durable shelter while we tend the crops. The second change I would make is to begin making and using pottery jars to store the harvested grain, so that the surplus from the harvest can be kept safely for the dry season when wild food is scarce, rather than being consumed immediately.\r\n\r\nQ5 (create): Design a simple flow diagram with at least six boxes showing the causal chain from the end of the last Ice Age to the emergence of villages. Label each box and draw arrows between them. Then write a short paragraph explaining why the arrow between \"planting seeds\" and \"staying near fields\" is the most important link in the entire chain.\r\nAnswer: Flow diagram — causal chain from the Ice Age's end to villages:\r\n[End of last Ice Age ~10,000 BCE] → [Warmer, wetter climate; wild grains spread] → [Population grows; wild food depletes] → [Humans plant seeds deliberately] → [Must stay near fields to tend and guard crops] → [Build permanent houses near fields] → [Food surplus stored in pottery] → [Population grows further; villages emerge]\r\nThe arrow between \"humans plant seeds deliberately\" and \"must stay near fields to tend and guard crops\" is the most important link in the entire chain because it represents the pivotal moment where the nomadic lifestyle became impossible. Before this link, humans could still move freely in search of food. After this link, the commitment to a planted field anchored them to one location, making permanent settlement a necessity rather than a choice. Every subsequent development — permanent houses, food storage, population growth, and the rise of villages — flows directly from this single causal connection. If this link did not exist, none of the consequences of settled life would have followed, because there would have been no reason for humans to stop moving. This is why understanding the causal direction — farming caused settlement, not the reverse — is the key to grasping the entire Neolithic Revolution.",
+    "cognitiveLevel": "analyze",
+    "masteryCriteria": "1. Can explain at least three causes of the shift from hunting-gathering to agriculture — climate warming at the end of the last Ice Age (c. 10,000 BCE, which made plant cultivation possible), population growth (which increased the demand for food beyond what hunting-gathering could supply), and depletion of wild food supplies (over-hunting and over-gathering in fertile areas) — and can describe how these causes interacted (warming enabled farming, population growth required it, depletion forced it).\r\n\r\n2. Can list at least four domesticated animals (dog, sheep, goat, cattle) and four first cultivated crops (wheat, barley, rice, millets), identifying the dog as the earliest domesticated animal around 15,000 years ago (used for hunting and guarding, not for food) and cattle as domesticated around 8,000 years ago in the Middle East and India.\r\n\r\n3. Can explain the correct causal direction — agriculture required people to stay near their fields to plant, weed, water, and harvest, which caused permanent settlement — without reversing cause and effect (settlement did not cause agriculture; agriculture caused settlement).\r\n\r\n4. Can analyse at least three consequences of settled life — permanent houses (mud-brick or wattle-and-daub instead of temporary shelters), food surplus and storage (in pottery, allowing population growth and specialised crafts), and the emergence of villages (the first permanent communities) — with reference to specific Indian sites such as Mehrgarh (in the Bolan Pass, Balochistan, c. 7000 BCE, one of the earliest farming villages in South Asia) and Burzahom (in Kashmir, known for pit dwellings).\r\n\r\n5. Can explain that domestication is a multi-generational selective breeding process (choosing the tamest, most productive individuals to breed over many generations), not the taming of individual wild animals as pets — and can explain why this distinction matters (domestication changes the species genetically over time, taming does not).\r\n\r\n6. Can describe the Neolithic Revolution as one of the most significant transformations in human history — it changed humans from nomadic hunters to settled farmers, enabled the population growth that led to cities and civilizations, and is the foundation of all later human society — and can explain why it is called a \"revolution\" despite taking thousands of years (the scale of change, not the speed).",
+    "subject": "histciv",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_histciv_008",
+    "title": "Cave Paintings and Rock Art as Sources (Bhimbetka, Lascaux) and the Chalcolithic Age — Use of Copper",
+    "definition": "Long before any human society developed writing, our ancestors recorded their world on the walls of caves and rock shelters using pigments drawn from the earth itself. These cave paintings and rock art compositions constitute one of the most extraordinary historical sources available to scholars of prehistory, because they offer a direct window into the lived experience, spiritual beliefs, and everyday occupations of communities that left behind no written documents whatsoever. In the Indian subcontinent, the Bhimbetka rock shelters located in the foothills of the Vindhyan range in Madhya Pradesh represent the most spectacular surviving corpus of such art. Archaeologist Vishnu Wakankar identified these shelters in 1957, and subsequent surveys documented more than seven hundred and fifty distinct rock surfaces bearing paintings. The oldest images at Bhimbetka may stretch back roughly thirty thousand years into the Upper Paleolithic, while later layers continue through the Mesolithic and even into historical periods, making the site a continuous visual chronicle of human presence. UNESCO inscribed Bhimbetka on its World Heritage list in 2003, recognising its outstanding universal value. Halfway across the world, the Lascaux cave complex near Montignac in France preserves over six hundred animal images — bison, horses, stags, and aurochs — executed approximately seventeen thousand years ago. Discovered in 1940 by a group of teenagers, Lascaux demonstrates that the impulse to create painted records was not geographically isolated but emerged independently in multiple regions. Together, Bhimbetka and Lascaux establish that rock art functioned as far more than aesthetic decoration; scholars interpret these images as expressions of hunting-related ritual, communal storytelling, and symbolic communication — humanity's earliest known attempt to encode meaning in visual form. The second major concern of this node is the Chalcolithic Age, a transitional phase spanning roughly 4000 to 2500 BCE in the Indian context during which communities began employing copper implements alongside their traditional stone toolkit. The term itself derives from Greek roots meaning copper-stone, signalling that both materials were used simultaneously rather than one replacing the other. Copper became the inaugural metal of human technology because it is one of the few metals that occurs naturally in a relatively pure, workable state — prospectors could find nuggets of native copper and shape them through simple hammering without the complex high-temperature smelting that later metals would demand. Important Indian Chalcolithic settlements include Ahar near Udaipur in Rajasthan and Jorwe in Maharashtra, where excavations have yielded copper axes, chisels, and fishhooks alongside continued use of stone tools. This copper-stone interlude served as the critical bridge between the purely lithic technologies of the Stone Age and the sophisticated metallurgy of the Indus Valley Civilisation, where bronze — an alloy of copper and tin — would emerge as the defining material of urban craft production.",
+    "textWalkthrough": "You have travelled a long path through prehistory in the preceding nodes. From c6_histciv_004 you learned that Paleolithic humans were nomadic hunter-gatherers who crafted crude stone tools, and from c6_histciv_005 that the Mesolithic and Neolithic periods brought microliths, polished tools, farming, and permanent settlements. Node c6_histciv_006 introduced the transformative discovery of fire and the range of tool materials — stone, bone, and wood — that early humans exploited. Most recently, c6_histciv_007 explored how the beginning of agriculture and animal domestication triggered the epochal shift from wandering to settled village life. Now we arrive at the final node of this chapter, which poses two linked questions: how do we know what we know about people who never wrote anything down, and what happened when humans first picked up a metal instead of a stone?\r\n\r\nBegin with the idea that a painting can be a source. This is conceptually demanding for Class 6, because students have spent the entire chapter thinking of sources as tangible objects — tools, bones, pottery, grains. A painted image on a rock wall is a source of a different kind: it is a record made by deliberate human choice, carrying information about what the painter saw, valued, feared, and hoped for. When you look at a Bhimbetka hunting scene showing figures with spears chasing deer, you can infer that these people hunted with spears, that deer were part of their environment, and that hunting was important enough to depict. A GOOD answer explains that cave paintings are sources because they reveal daily activities, animals present in the landscape, hunting methods, and possibly religious or ritual beliefs — all without a single written word. A BAD answer says \"cave paintings are old art that early humans made for fun when they had nothing else to do,\" which strips the paintings of their evidentiary value and reduces them to idle decoration.\r\n\r\nNow anchor yourself in the two named sites. Bhimbetka sits in Madhya Pradesh near Bhopal, within the Vindhyan foothills; Wakankar recognised its archaeological significance in 1957, and the site contains over 750 painted rock shelters with images spanning from the Upper Paleolithic — perhaps 30,000 years ago — through the Mesolithic and even into medieval times. It was inscribed as a UNESCO World Heritage Site in 2003. Lascaux is located near Montignac in southwestern France, was discovered in 1940 by four teenagers, and contains more than 600 animal paintings dated to roughly 17,000 years ago. A GOOD answer names both sites, gives the country for each, and supplies at least one distinguishing fact — Bhimbetka's long chronological span or its UNESCO status, Lascaux's vast animal gallery or its discovery by teenagers. A BAD answer confuses the two, attributing Lascaux's bison and horse paintings to India or placing Bhimbetka in France. This site confusion is a documented error pattern that ICSE examiners encounter with some regularity.\r\n\r\nTurn next to the Chalcolithic Age. The word means copper-stone, and the hyphen is the whole point: copper and stone were used together, side by side, in the same communities. This was not a wholesale replacement of stone by metal but a gradual, experimental addition of a new material to an existing toolkit. In the Indian subcontinent, this phase falls roughly between 4000 and 2500 BCE, and excavations at Ahar in Rajasthan and Jorwe in Maharashtra have produced copper axes, chisels, and fishhooks found alongside stone tools. A GOOD answer defines the Chalcolithic as the copper-stone transitional period and names at least one Indian site. A BAD answer calls it the Bronze Age — that is a different and later period, because bronze requires alloying copper with tin, a technological step that had not yet been taken. This Chalcolithic-versus-Bronze confusion is the single most common conceptual error on this topic in the ICSE board examination.\r\n\r\nWhy copper first? The answer lies in a property that no other early metal shares: copper occurs in nature in a nearly pure, metallic state. A person walking through a landscape could spot a glittering nugget of native copper, pick it up, and hammer it flat with a stone. No furnace, no smelting, no high-temperature chemistry was required for the initial experiments. Iron, by contrast, does not occur in pure metallic form in nature and demands temperatures above 1500 degrees Celsius to extract from ore — far beyond what early communities could achieve. Copper's softness and natural purity made it the logical inaugural metal. A GOOD answer states that copper was first because it occurs naturally in pure form and is easily shaped by hammering. A BAD answer claims copper was first because it was the most abundant metal, which confuses availability with workability — abundance is irrelevant if you cannot extract or shape the metal.\r\n\r\nStep back and see the bridge this node builds. The Chalcolithic communities at Ahar and Jorwe were settled farming villages — the very kind of settlements that c6_histciv_007 described emerging from the Neolithic Revolution. Their food surpluses freed some individuals to specialise as metalworkers, and the copper they produced paved the way for the bronze casting of the Indus Valley Civilisation that you will study in Chapter 3. Similarly, the Bhimbetka paintings span the entire transition from hunter-gatherer life to settled farming, visually documenting the very transformation the preceding nodes narrated. In the ICSE board examination, expect questions asking you to explain why cave paintings are valuable as sources, to name and describe Bhimbetka and Lascaux, to define the Chalcolithic Age and distinguish it from the Bronze Age, and to justify why copper was the first metal humans adopted.",
+    "eli5": "Imagine you and your friends live in a world with no notebooks, no phones, and no writing at all. If you want to remember a great hunt or tell others about a dangerous animal, what do you do? You paint it on the wall of your cave. That is exactly what people did thousands of years ago at places like Bhimbetka in India and Lascaux in France. Their paintings are like a giant picture diary that historians can read today — they show us what animals lived nearby, how people hunted, how they danced, and what they cared about. Now think about tools. For a very long time, people only had stone tools. Then one day someone found a shiny, soft piece of copper metal lying on the ground. They discovered they could bang it with a rock and shape it into a sharp axe or a handy fishhook — no fancy furnace needed. Copper was special because it was the only metal you could find ready-made in nature and shape just by hammering. So people started using copper and stone together, and we call that time the Chalcolithic or copper-stone Age. It was like upgrading from only using pencils to using both pencils and pens — you keep the old tool but add a new one that does some things better.",
+    "misconceptionText": "Students frequently describe cave paintings as purely decorative — something early humans did to pass the time. This interpretation misses the central insight that ICSE examiners look for. Correction: The paintings at Bhimbetka and Lascaux almost certainly served purposes far beyond decoration. Scholars interpret hunting scenes as possible expressions of hunting magic — the belief that depicting a successful hunt would help ensure one in reality. Group dancing scenes suggest communal rituals. Animal depictions may have functioned as teaching tools for younger community members or as records of species in the area. Because these societies produced no written records, the paintings are our only direct evidence of their beliefs and social practices. Reducing them to \"art for fun\" strips them of their evidentiary significance and loses the marks that the board examination rewards for understanding art as a historical source.\r\nA second persistent error is conflating the Chalcolithic Age with the Bronze Age. Students treat the two as interchangeable labels for \"early metal use.\" Correction: The Chalcolithic Age, whose name literally means copper-stone, refers specifically to the period when communities used copper alongside stone without yet mastering alloying. The Bronze Age arrived later, when humans discovered that mixing copper with tin produced bronze — a harder, more durable material suitable for weapons and large tools. The Chalcolithic was a transitional bridge; the Bronze Age was a mature metallurgical phase. In the ICSE board examination, writing \"Bronze Age\" when the question asks about the Chalcolithic period signals a fundamental conceptual confusion and typically results in the loss of all marks for that sub-question.\r\nA third documented error is the assumption that copper must have been difficult to obtain and work, since it was a metal and metals seem \"advanced.\" Correction: Copper was the inaugural metal precisely because it was the easiest metal to find and shape. Unlike iron, which is locked inside ore and requires temperatures above 1500 degrees Celsius to extract, copper occurs naturally in a nearly pure metallic state. Early prospectors could find nuggets of native copper on the surface and hammer them into shape with ordinary stones. The simplicity of working copper — not its abundance — is the reason it came first. Examiners reward answers that identify natural occurrence and ease of hammering as the two key reasons, rather than vague claims about copper being \"common.\"",
+    "diagnosticText": "Q1 (recall): Name the two major cave painting sites discussed in this node, giving the country and one key fact about each. Then define the Chalcolithic Age in one sentence and name two Indian Chalcolithic sites.\r\nAnswer: The two major cave painting sites are Bhimbetka and Lascaux. Bhimbetka is located in Madhya Pradesh, India, near the Vindhyan foothills; it contains over 750 rock shelters with paintings spanning from the Upper Paleolithic period roughly 30,000 years ago through the Mesolithic and later periods, and it was inscribed as a UNESCO World Heritage Site in 2003. Lascaux is located near Montignac in southwestern France; it contains more than 600 paintings of animals such as bison, horses, and stags, dated to approximately 17,000 years ago, and was discovered in 1940 by four teenagers. The Chalcolithic Age is the transitional period, roughly 4000 to 2500 BCE in India, when communities used copper alongside stone tools without yet mastering the alloying of bronze. Two Indian Chalcolithic sites are Ahar near Udaipur in Rajasthan and Jorwe in Maharashtra, both of which have yielded copper implements such as axes, chisels, and fishhooks found alongside continued stone tool use.\r\n\r\nQ2 (reasoning): (a) Why can cave paintings be considered historical sources even though the people who created them left no written records? Explain with reference to what specific information a historian can extract from a painted hunting scene. (b) Why was copper the first metal that humans adopted, rather than iron or another metal?\r\nAnswer: (a) Cave paintings function as historical sources because they carry information encoded in visual form rather than in text. A historian examining a painted hunting scene can extract multiple categories of evidence: the species of animals present in the environment at the time, the weapons and techniques used for hunting (spears, bows, group strategies), the social organisation of the hunt (whether individuals hunted alone or in coordinated groups), and possibly the ritual or spiritual significance attached to hunting — if the scene shows dancers or ceremonial postures alongside the hunt, that suggests hunting was not merely a practical activity but also carried symbolic meaning. Because prehistoric societies produced no written documents, these painted images are the most direct record available of how those communities perceived and narrated their own lives. Treating them as sources rather than as decoration is what allows historians to reconstruct the beliefs and daily practices of people who would otherwise remain mute to us. (b) Copper was the first metal humans adopted because of two unique properties. First, copper occurs naturally in a nearly pure metallic state — prospectors could find nuggets of native copper on or near the surface without mining deep into ore-bearing rock. Second, pure copper is soft enough to be shaped by simple hammering with a stone, meaning that the earliest metalworkers needed no furnace, no smelting technique, and no high-temperature knowledge to begin experimenting. Iron, by contrast, does not occur in metallic form in nature and requires temperatures above 1500 degrees Celsius to extract from ore — far beyond the capability of early communities. Copper's natural purity and malleability made it the logical and accessible starting point for human metallurgy.\r\n\r\nQ3 (evaluate): \"The Chalcolithic Age was not a true revolution but merely a transitional phase, yet it was indispensable to the development of later civilisations.\" Evaluate this statement by discussing the nature of the Chalcolithic period, its relationship to both the Stone Age and the Bronze Age, and why it served as a necessary bridge to the Indus Valley Civilisation. Argue whether the term transitional undersells or accurately describes the significance of this period.\r\nAnswer: The statement captures the essential character of the Chalcolithic Age with considerable precision, and the term transitional, far from underselling the period, accurately identifies its unique and indispensable role in the trajectory of human technology and social organisation. The Chalcolithic was not a revolution in the sense that the Neolithic adoption of farming was a revolution — it did not overturn an existing way of life or introduce an entirely new subsistence strategy. Instead, it was an additive phase: communities that already practised settled farming, used polished stone tools, made pottery, and lived in villages — the very communities described in c6_histciv_007 — began incorporating a new material, copper, into their existing technological repertoire. The term copper-stone itself signals this additive quality: stone did not disappear, nor did copper fully replace it. At sites like Ahar in Rajasthan and Jorwe in Maharashtra, archaeologists find copper axes and fishhooks lying alongside stone tools in the same settlement layers, demonstrating that both materials were used simultaneously by the same people. This is the hallmark of a transitional period — the old and the new coexist while the new gradually proves its usefulness. Yet to call the Chalcolithic merely transitional without acknowledging its indispensability would be to misunderstand why transitions matter. The Chalcolithic period was the essential bridge between the Stone Age and the Bronze Age for several interconnected reasons. First, it was during this phase that communities first gained practical experience working with metal — learning where to find native copper, how to hammer it into useful shapes, how it behaved under stress, and what its limitations were. This accumulated knowledge was the prerequisite for the next technological leap: alloying copper with tin to produce bronze, a harder and more versatile material. Without the Chalcolithic experimentation with pure copper, the bronze metallurgy of the Indus Valley Civilisation would have had no foundation. Second, the Chalcolithic period saw the emergence of craft specialisation — some individuals within settled farming communities began devoting their time to metalworking rather than to farming, which was only possible because the agricultural surpluses established in the Neolithic Revolution freed a portion of the population from full-time food production. This division of labour between farmers and craftspeople is a hallmark of emerging social complexity and directly foreshadows the urban organisation of the Indus Valley cities. Third, copper tools offered practical advantages that stone could not match: copper axes cut more efficiently than stone ones, copper fishhooks were more durable, and copper chisels allowed finer woodworking. These incremental improvements in productivity contributed to the economic surplus that eventually sustained urban civilisation. Therefore, while the term transitional accurately describes the Chalcolithic as a period of coexistence and gradual change rather than abrupt transformation, it should not be read as diminishing the period's significance. The Chalcolithic was the necessary runway from which the Bronze Age and the Indus Valley Civilisation took flight. Without it, the sophisticated metallurgy, craft specialisation, and economic complexity of those later periods would have had no platform to build upon.\r\n\r\nQ4 (apply): Imagine you are an archaeologist who has just discovered a new rock shelter in central India with paintings showing figures holding spears, a herd of deer, and a group of people dancing around a fire. Using the reasoning skills developed in this node, write a 150-200 word report explaining at least four things you can infer about the people who made these paintings, and why each inference is justified by the visual evidence.\r\nAnswer: Based on the visual evidence in the newly discovered rock shelter, I can offer the following inferences about the community that produced these paintings. First, the figures holding spears indicate that these people used spears as hunting weapons, which tells us about their technology and subsistence strategy. The presence of deer in the painting confirms that deer were part of the local fauna and were likely a hunting target, suggesting a hunter-gatherer or hunting-supplemented farming economy. Second, the depiction of a group dancing around a fire suggests communal ritual or social gathering — the fire may have served as a focal point for ceremonies, and the dancing indicates that these people had shared cultural or spiritual practices, not merely practical survival activities. This supports the interpretation that cave paintings record beliefs and social life, not just economic activities. Third, the fact that the scene shows multiple people acting together — both in the hunt and in the dance — suggests a cooperative social organisation, where group coordination was important enough to be depicted. Fourth, the use of pigment to create these images demonstrates symbolic thinking: the painters were representing their world in an abstract medium, which is evidence of cognitive sophistication comparable to what we see at Bhimbetka. Together, these inferences show that even without written records, a painted scene can yield rich historical information.\r\n\r\nQ5 (create): Design a simple timeline with five labelled points showing the progression from the Upper Paleolithic cave paintings at Bhimbetka through the Chalcolithic copper-stone period and forward to the Indus Valley Civilisation. For each point, provide an approximate date, a one-sentence description, and the name of a relevant site. Then write a 100-word closing paragraph explaining how this timeline demonstrates that the Chalcolithic Age was a bridge rather than an isolated period.\r\nAnswer: Timeline of key developments from Upper Paleolithic cave art to the Indus Valley Civilisation:\r\n\r\nPoint 1 — Approximately 30,000 years ago: Earliest paintings at the Bhimbetka rock shelters in Madhya Pradesh begin during the Upper Paleolithic period, depicting hunting scenes and animal life of nomadic hunter-gatherers.\r\n\r\nPoint 2 — Approximately 17,000 years ago: Lascaux cave paintings created near Montignac in France, with over 600 animal images including bison and horses, demonstrating that rock art emerged independently in multiple regions.\r\n\r\nPoint 3 — Approximately 7000 BCE: Neolithic farming settlements such as Mehrgarh in the Bolan Pass establish agriculture and permanent village life, creating the food surplus that later enables craft specialisation.\r\n\r\nPoint 4 — Approximately 4000-2500 BCE: Chalcolithic Age in India, during which communities at Ahar in Rajasthan and Jorwe in Maharashtra begin using copper tools alongside stone, marking the transition from purely lithic technology to metal use.\r\n\r\nPoint 5 — Approximately 2600-1900 BCE: Mature Indus Valley Civilisation emerges at sites like Harappa and Mohenjo-daro, featuring bronze tools and sophisticated urban metallurgy that built directly upon the Chalcolithic foundation of copper working.\r\n\r\nThis timeline demonstrates that the Chalcolithic Age was a bridge rather than an isolated period because it sits squarely between the stone-tool world of the Neolithic farming villages and the bronze-based urban metallurgy of the Indus Valley. The Chalcolithic communities inherited settled agricultural life from the Neolithic and developed the first metalworking skills that the Indus Valley civilisation would later refine into bronze alloying and mass production. Without the Chalcolithic experimentation with native copper, the leap from stone tools to bronze cities would have been impossible.",
+    "cognitiveLevel": "analyze",
+    "masteryCriteria": "Can explain why cave paintings and rock art are valuable historical sources — they reveal daily activities, animals, hunting methods, and possibly ritual beliefs of prehistoric people who left no written records — without reducing them to mere decoration. Can describe the Bhimbetka rock shelters in Madhya Pradesh (over 750 shelters, paintings spanning the Upper Paleolithic through later periods, UNESCO World Heritage Site since 2003) and the Lascaux caves in France (over 600 animal paintings, dated to roughly 17,000 years ago, discovered in 1940) with at least one distinguishing fact for each, without confusing which site belongs to which country. Can define the Chalcolithic Age as the period when copper was used alongside stone — not replacing it — and can distinguish it from the Bronze Age (which involved alloying copper with tin). Can explain why copper was the first metal used by humans — it occurs naturally in a nearly pure state and can be shaped by simple hammering without smelting — and can name at least two Indian Chalcolithic sites such as Ahar in Rajasthan and Jorwe in Maharashtra.",
+    "subject": "histciv",
+    "classLevel": 6
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE CivilizationExplorerSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

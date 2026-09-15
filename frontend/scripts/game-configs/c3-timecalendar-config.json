@@ -1,0 +1,44 @@
+{
+  "gameTitle": "TimeCalendarGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\TimeCalendarGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part32.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part33.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part34.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part35.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_math_032 (Calendar to find a particular day and date), c3_math_033 (Read and write time am/pm and 12hr and 24hr clock), c3_math_034 (Conversion of 12hr to 24hr and vice versa), c3_math_035 (Conversion of days to hours and hours to minutes)",
+  "mascotName": "Timekeeper Tara",
+  "mascotDescription": "a friendly timekeeper with a pocket watch, a calendar, a clock pendant, and an hourglass. Custom SVG, not an owl.",
+  "sceneDescription": "time and calendar scene with sky gradient, a large clock, a calendar, an hourglass, a sun (day) and moon (night), and a timeline",
+  "svgObjects": [
+    { "name": "ClockIcon", "description": "an analog clock with hands" },
+    { "name": "DigitalClockIcon", "description": "a digital clock showing time" },
+    { "name": "CalendarIcon", "description": "a calendar with days and dates" },
+    { "name": "HourglassIcon", "description": "an hourglass (measuring time)" },
+    { "name": "SunIcon", "description": "the sun (daytime/am)" },
+    { "name": "MoonIcon", "description": "the moon (nighttime/pm)" },
+    { "name": "AmIcon", "description": "AM symbol (before noon)" },
+    { "name": "PmIcon", "description": "PM symbol (after noon)" },
+    { "name": "DayIcon", "description": "a day (24 hours)" },
+    { "name": "WeekIcon", "description": "a week (7 days)" },
+    { "name": "MonthIcon", "description": "a month (30/31 days)" },
+    { "name": "MinuteIcon", "description": "a minute (60 seconds)" },
+    { "name": "HourIcon", "description": "an hour (60 minutes)" },
+    { "name": "TimelineIcon", "description": "a timeline showing time passing" }
+  ],
+  "challengeTypes": [
+    "identify: How many days are there in a WEEK? (7 vs 5 vs 12)",
+    "identify: How many months are there in a YEAR? (12 vs 7 vs 30)",
+    "sort: Drag the days of the week in order (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday)",
+    "identify: What does AM stand for? (Before noon (Ante Meridiem) vs After noon vs At morning)",
+    "sort: Drag each time to AM or PM (AM: 6:00 morning, 9:00 school time, 11:00 before lunch | PM: 2:00 after lunch, 6:00 evening, 9:00 bedtime)",
+    "identify: What is 3:00 PM in 24-hour clock time? (15:00 vs 3:00 vs 13:00)",
+    "sort: Drag each 12-hour time to its 24-hour equivalent (1:00 PM = 13:00 | 3:00 PM = 15:00 | 6:00 PM = 18:00 | 8:00 AM = 08:00 | 10:00 PM = 22:00)",
+    "sort: Drag each time conversion to its correct answer (1 day = 24 hours | 1 hour = 60 minutes | 2 days = 48 hours | 3 hours = 180 minutes | 1 week = 7 days = 168 hours)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. Use speechManager.speakNumber() for reading numbers aloud. The game must teach: (1) Calendar — a calendar shows days, weeks, and months. 1 week = 7 days (Monday through Sunday). 1 year = 12 months (January through December). Months have 30 or 31 days (February has 28 or 29). Use a calendar to find: what day is the 15th? How many Sundays in this month? What date is next Monday? (2) Reading time (am/pm and 12hr/24hr) — AM = before noon (midnight to noon), PM = after noon (noon to midnight). 12-hour clock: uses AM and PM (e.g. 3:00 PM). 24-hour clock: no AM/PM, hours go from 00 to 23 (e.g. 15:00 = 3:00 PM). (3) Converting 12hr to 24hr — for AM times: same hour, just add 0 in front if needed (8:00 AM = 08:00, 12:00 AM = 00:00). For PM times: add 12 to the hour (1:00 PM = 13:00, 3:00 PM = 15:00, 6:00 PM = 18:00, 12:00 PM = 12:00). To convert 24hr back to 12hr: if hour > 12, subtract 12 and add PM (15:00 = 3:00 PM, 18:00 = 6:00 PM). If hour < 12, keep and add AM (08:00 = 8:00 AM). (4) Days to hours and hours to minutes — 1 day = 24 hours. 1 hour = 60 minutes. 1 minute = 60 seconds. 2 days = 48 hours. 3 hours = 180 minutes. 1 week = 7 days = 168 hours. To convert days to hours: multiply by 24. To convert hours to minutes: multiply by 60. Misconceptions: 'AM means morning only' (AM means before noon — from midnight 12:00 AM to 11:59 AM, including early morning), '12:00 PM is midnight' (12:00 PM is NOON/midday, 12:00 AM is midnight), '24-hour clock uses AM and PM' (24-hour clock does NOT use AM/PM — it uses hours 00-23), '1 hour = 100 minutes' (1 hour = 60 minutes, not 100), '1 day = 12 hours' (1 day = 24 hours — includes both day and night), 'all months have 30 days' (months have 30 or 31 days, February has 28 or 29). Default width=720, height=560. Use named export (export function TimeCalendarGame), NOT export default. Export interface TimeCalendarGameProps with width?, height?, onComplete?: (score: number) => void."
+}

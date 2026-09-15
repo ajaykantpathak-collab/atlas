@@ -1,0 +1,1190 @@
+{
+  "nodes": [
+    {
+      "id": "c11_phy_001_01",
+      "topic": "Need for Measurement and Systems of Units",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Physical World and Measurement",
+      "root": false
+    },
+    {
+      "id": "c11_phy_001_02",
+      "topic": "Measurement Instruments and Least Count",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Physical World and Measurement",
+      "root": false
+    },
+    {
+      "id": "c11_phy_001_03",
+      "topic": "Accuracy, Precision, and Types of Errors",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Physical World and Measurement",
+      "root": false
+    },
+    {
+      "id": "c11_phy_001_04",
+      "topic": "Propagation and Combination of Errors",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Physical World and Measurement",
+      "root": false
+    },
+    {
+      "id": "c11_phy_001_05",
+      "topic": "Significant Figures and Arithmetic Operations",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Physical World and Measurement",
+      "root": false
+    },
+    {
+      "id": "c11_phy_001_06",
+      "topic": "Dimensions of Physical Quantities",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Physical World and Measurement",
+      "root": false
+    },
+    {
+      "id": "c11_phy_001_07",
+      "topic": "Applications of Dimensional Analysis",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Physical World and Measurement",
+      "root": false
+    },
+    {
+      "id": "c11_phy_002_01",
+      "topic": "Frame of Reference and Basic Kinematic Quantities",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Straight Line",
+      "root": false
+    },
+    {
+      "id": "c11_phy_002_02",
+      "topic": "Speed, Velocity, and Acceleration",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Straight Line",
+      "root": false
+    },
+    {
+      "id": "c11_phy_002_03",
+      "topic": "Kinematic Equations for Uniformly Accelerated Motion",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Straight Line",
+      "root": false
+    },
+    {
+      "id": "c11_phy_002_04",
+      "topic": "Graphical Analysis of Motion",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Straight Line",
+      "root": false
+    },
+    {
+      "id": "c11_phy_002_05",
+      "topic": "Relative Velocity in One Dimension",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Straight Line",
+      "root": false
+    },
+    {
+      "id": "c11_phy_003_01",
+      "topic": "Vector Basics and Representation",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Plane",
+      "root": false
+    },
+    {
+      "id": "c11_phy_003_02",
+      "topic": "Vector Addition and Subtraction",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Plane",
+      "root": false
+    },
+    {
+      "id": "c11_phy_003_03",
+      "topic": "Resolution of Vectors and Unit Vectors",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Plane",
+      "root": false
+    },
+    {
+      "id": "c11_phy_003_04",
+      "topic": "Scalar (Dot) Product of Vectors",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Plane",
+      "root": false
+    },
+    {
+      "id": "c11_phy_003_05",
+      "topic": "Vector (Cross) Product of Vectors",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Plane",
+      "root": false
+    },
+    {
+      "id": "c11_phy_003_06",
+      "topic": "Motion in a Plane with Uniform Velocity and Acceleration",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Plane",
+      "root": false
+    },
+    {
+      "id": "c11_phy_003_07",
+      "topic": "Projectile Motion",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Plane",
+      "root": false
+    },
+    {
+      "id": "c11_phy_003_08",
+      "topic": "Uniform Circular Motion",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Kinematics — Motion in a Plane",
+      "root": false
+    },
+    {
+      "id": "c11_phy_004_01",
+      "topic": "Newton's First Law of Motion and Inertia",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Laws of Motion",
+      "root": false
+    },
+    {
+      "id": "c11_phy_004_02",
+      "topic": "Newton's Second Law of Motion and Momentum",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Laws of Motion",
+      "root": false
+    },
+    {
+      "id": "c11_phy_004_03",
+      "topic": "Newton's Third Law of Motion and Conservation of Linear Momentum",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Laws of Motion",
+      "root": false
+    },
+    {
+      "id": "c11_phy_004_04",
+      "topic": "Equilibrium of Concurrent Forces",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Laws of Motion",
+      "root": false
+    },
+    {
+      "id": "c11_phy_004_05",
+      "topic": "Friction: Static, Kinetic, Rolling and Lubrication",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Laws of Motion",
+      "root": false
+    },
+    {
+      "id": "c11_phy_004_06",
+      "topic": "Dynamics of Uniform Circular Motion: Centripetal Force",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Laws of Motion",
+      "root": false
+    },
+    {
+      "id": "c11_phy_005_01",
+      "topic": "Work Done by Constant and Variable Forces",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Work, Energy and Power",
+      "root": false
+    },
+    {
+      "id": "c11_phy_005_02",
+      "topic": "Kinetic Energy and Work-Energy Theorem",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Work, Energy and Power",
+      "root": false
+    },
+    {
+      "id": "c11_phy_005_03",
+      "topic": "Potential Energy and Conservative Forces",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Work, Energy and Power",
+      "root": false
+    },
+    {
+      "id": "c11_phy_005_04",
+      "topic": "Conservation of Mechanical Energy and Motion in a Vertical Circle",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Work, Energy and Power",
+      "root": false
+    },
+    {
+      "id": "c11_phy_005_05",
+      "topic": "Power",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Work, Energy and Power",
+      "root": false
+    },
+    {
+      "id": "c11_phy_005_06",
+      "topic": "Collisions: Elastic and Inelastic in One and Two Dimensions",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Work, Energy and Power",
+      "root": false
+    },
+    {
+      "id": "c11_phy_006_01",
+      "topic": "Centre of Mass of a Two-Particle System and Rigid Bodies",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Motion of System of Particles and Rigid Body",
+      "root": false
+    },
+    {
+      "id": "c11_phy_006_02",
+      "topic": "Torque and Angular Momentum",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Motion of System of Particles and Rigid Body",
+      "root": false
+    },
+    {
+      "id": "c11_phy_006_03",
+      "topic": "Conservation of Angular Momentum and Equilibrium of Rigid Bodies",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Motion of System of Particles and Rigid Body",
+      "root": false
+    },
+    {
+      "id": "c11_phy_006_04",
+      "topic": "Moment of Inertia, Radius of Gyration, and Theorems",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Motion of System of Particles and Rigid Body",
+      "root": false
+    },
+    {
+      "id": "c11_phy_006_05",
+      "topic": "Rotational Kinetic Energy and Equations of Rotational Motion",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Motion of System of Particles and Rigid Body",
+      "root": false
+    },
+    {
+      "id": "c11_phy_007_01",
+      "topic": "Kepler's Laws of Planetary Motion",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Gravitation",
+      "root": false
+    },
+    {
+      "id": "c11_phy_007_02",
+      "topic": "Universal Law of Gravitation and Gravitational Constant",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Gravitation",
+      "root": false
+    },
+    {
+      "id": "c11_phy_007_03",
+      "topic": "Acceleration Due to Gravity and Its Variation with Altitude and Depth",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Gravitation",
+      "root": false
+    },
+    {
+      "id": "c11_phy_007_04",
+      "topic": "Gravitational Potential Energy and Gravitational Potential",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Gravitation",
+      "root": false
+    },
+    {
+      "id": "c11_phy_007_05",
+      "topic": "Escape Velocity and Orbital Velocity of Satellites",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Gravitation",
+      "root": false
+    },
+    {
+      "id": "c11_phy_007_06",
+      "topic": "Time Period of Satellite and Geostationary Satellites",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Gravitation",
+      "root": false
+    },
+    {
+      "id": "c11_phy_007_07",
+      "topic": "Energy of an Orbiting Satellite and Weightlessness",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Gravitation",
+      "root": false
+    },
+    {
+      "id": "c11_phy_008_01",
+      "topic": "Elastic Behaviour of Solids and Stress-Strain Relationship",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Mechanical Properties of Solids",
+      "root": false
+    },
+    {
+      "id": "c11_phy_008_02",
+      "topic": "Hooke's Law and Elastic Moduli — Young's, Shear, and Bulk Modulus",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Mechanical Properties of Solids",
+      "root": false
+    },
+    {
+      "id": "c11_phy_008_03",
+      "topic": "Stress-Strain Curve — Proportional Limit, Yield Point, Breaking Stress",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Mechanical Properties of Solids",
+      "root": false
+    },
+    {
+      "id": "c11_phy_008_04",
+      "topic": "Poisson's Ratio and Elastic Energy Stored in a Stretched Wire",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Mechanical Properties of Solids",
+      "root": false
+    },
+    {
+      "id": "c11_phy_008_05",
+      "topic": "Applications of Elastic Behaviour of Materials",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Mechanical Properties of Solids",
+      "root": false
+    },
+    {
+      "id": "c11_phy_009_01",
+      "topic": "Pressure Due to Fluid Column and Pascal's Law",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Mechanical Properties of Fluids",
+      "root": false
+    },
+    {
+      "id": "c11_phy_009_02",
+      "topic": "Streamline Flow, Turbulent Flow, and Reynolds Number",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Mechanical Properties of Fluids",
+      "root": false
+    },
+    {
+      "id": "c11_phy_009_03",
+      "topic": "Bernoulli's Theorem and Its Applications",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Mechanical Properties of Fluids",
+      "root": false
+    },
+    {
+      "id": "c11_phy_009_04",
+      "topic": "Viscosity, Stokes' Law, and Terminal Velocity",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Mechanical Properties of Fluids",
+      "root": false
+    },
+    {
+      "id": "c11_phy_009_05",
+      "topic": "Surface Energy, Surface Tension, and Angle of Contact",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Mechanical Properties of Fluids",
+      "root": false
+    },
+    {
+      "id": "c11_phy_010_01",
+      "topic": "Heat, Temperature, and Thermal Expansion",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Thermal Properties of Matter",
+      "root": false
+    },
+    {
+      "id": "c11_phy_010_02",
+      "topic": "Specific Heat Capacity and Calorimetry",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Thermal Properties of Matter",
+      "root": false
+    },
+    {
+      "id": "c11_phy_010_03",
+      "topic": "Change of State and Latent Heat",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Thermal Properties of Matter",
+      "root": false
+    },
+    {
+      "id": "c11_phy_010_04",
+      "topic": "Heat Transfer — Conduction and Thermal Conductivity",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Thermal Properties of Matter",
+      "root": false
+    },
+    {
+      "id": "c11_phy_010_05",
+      "topic": "Heat Transfer — Convection and Radiation",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Thermal Properties of Matter",
+      "root": false
+    },
+    {
+      "id": "c11_phy_010_06",
+      "topic": "Wien's Displacement Law and Stefan's Law",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Thermal Properties of Matter",
+      "root": false
+    },
+    {
+      "id": "c11_phy_010_07",
+      "topic": "Newton's Law of Cooling",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Properties of Bulk Matter — Thermal Properties of Matter",
+      "root": false
+    },
+    {
+      "id": "c11_phy_011_01",
+      "topic": "Thermal Equilibrium and Zeroth Law of Thermodynamics",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Thermodynamics",
+      "root": false
+    },
+    {
+      "id": "c11_phy_011_02",
+      "topic": "Heat, Work, and Internal Energy",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Thermodynamics",
+      "root": false
+    },
+    {
+      "id": "c11_phy_011_03",
+      "topic": "First Law of Thermodynamics",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Thermodynamics",
+      "root": false
+    },
+    {
+      "id": "c11_phy_011_04",
+      "topic": "Thermodynamic Processes — Isothermal and Adiabatic",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Thermodynamics",
+      "root": false
+    },
+    {
+      "id": "c11_phy_011_05",
+      "topic": "Second Law of Thermodynamics and Entropy",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Thermodynamics",
+      "root": false
+    },
+    {
+      "id": "c11_phy_011_06",
+      "topic": "Heat Engines and Carnot Cycle",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Thermodynamics",
+      "root": false
+    },
+    {
+      "id": "c11_phy_012_01",
+      "topic": "Equation of State for Ideal Gases",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Behaviour of Perfect Gases and Kinetic Theory of Gases",
+      "root": false
+    },
+    {
+      "id": "c11_phy_012_02",
+      "topic": "Kinetic Theory Assumptions and Molecular Model of a Gas",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Behaviour of Perfect Gases and Kinetic Theory of Gases",
+      "root": false
+    },
+    {
+      "id": "c11_phy_012_03",
+      "topic": "Kinetic Theory Derivation of Pressure",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Behaviour of Perfect Gases and Kinetic Theory of Gases",
+      "root": false
+    },
+    {
+      "id": "c11_phy_012_04",
+      "topic": "Kinetic Interpretation of Temperature",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Behaviour of Perfect Gases and Kinetic Theory of Gases",
+      "root": false
+    },
+    {
+      "id": "c11_phy_012_05",
+      "topic": "Degrees of Freedom and Law of Equipartition of Energy",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Behaviour of Perfect Gases and Kinetic Theory of Gases",
+      "root": false
+    },
+    {
+      "id": "c11_phy_012_06",
+      "topic": "Specific Heat Capacities of Gases",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Behaviour of Perfect Gases and Kinetic Theory of Gases",
+      "root": false
+    },
+    {
+      "id": "c11_phy_012_07",
+      "topic": "Mean Free Path and Avogadro's Number",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Behaviour of Perfect Gases and Kinetic Theory of Gases",
+      "root": false
+    },
+    {
+      "id": "c11_phy_013_01",
+      "topic": "Periodic Motion and Simple Harmonic Motion (SHM) — Basic Concepts",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Oscillations",
+      "root": false
+    },
+    {
+      "id": "c11_phy_013_02",
+      "topic": "SHM and Uniform Circular Motion — Velocity and Acceleration in SHM",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Oscillations",
+      "root": false
+    },
+    {
+      "id": "c11_phy_013_03",
+      "topic": "Spring-Mass System — Time Period and Angular Frequency",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Oscillations",
+      "root": false
+    },
+    {
+      "id": "c11_phy_013_04",
+      "topic": "Energy in SHM — Kinetic, Potential, and Total Energy",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Oscillations",
+      "root": false
+    },
+    {
+      "id": "c11_phy_013_05",
+      "topic": "Simple Pendulum — Time Period and Seconds Pendulum",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Oscillations",
+      "root": false
+    },
+    {
+      "id": "c11_phy_013_06",
+      "topic": "Damped Oscillations — Energy Dissipation and Damping Force",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Oscillations",
+      "root": false
+    },
+    {
+      "id": "c11_phy_013_07",
+      "topic": "Forced Oscillations and Resonance — Driving Frequency and Amplitude",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Oscillations",
+      "root": false
+    },
+    {
+      "id": "c11_phy_014_01",
+      "topic": "Wave Motion — Transverse and Longitudinal Waves, Wave Speed",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Waves",
+      "root": false
+    },
+    {
+      "id": "c11_phy_014_02",
+      "topic": "Progressive Wave Equation — Displacement Relation and Wave Parameters",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Waves",
+      "root": false
+    },
+    {
+      "id": "c11_phy_014_03",
+      "topic": "Superposition Principle and Interference of Waves",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Waves",
+      "root": false
+    },
+    {
+      "id": "c11_phy_014_04",
+      "topic": "Reflection of Waves and Standing Waves in Strings",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Waves",
+      "root": false
+    },
+    {
+      "id": "c11_phy_014_05",
+      "topic": "Standing Waves in Organ Pipes — Open and Closed Pipes",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Waves",
+      "root": false
+    },
+    {
+      "id": "c11_phy_014_06",
+      "topic": "Beats — Beat Frequency and Applications",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Waves",
+      "root": false
+    },
+    {
+      "id": "c11_phy_014_07",
+      "topic": "Doppler Effect — Apparent Frequency for Moving Source and Observer",
+      "subject": "phy",
+      "class": 11,
+      "chapter": "Oscillations and Waves — Waves",
+      "root": false
+    }
+  ],
+  "links": [
+    {
+      "source": "c11_phy_002_02",
+      "target": "c11_phy_002_01",
+      "reason": "Understanding position and displacement is essential before defining velocity and acceleration"
+    },
+    {
+      "source": "c11_phy_004_03",
+      "target": "c11_phy_004_02",
+      "reason": "Newton's second law and momentum definition are prerequisite for understanding action-reaction pairs and momentum conservation"
+    },
+    {
+      "source": "c11_phy_010_03",
+      "target": "c11_phy_010_02",
+      "reason": "Calorimetry principles (heat lost = heat gained) are essential for solving latent heat problems involving mixtures of substances at different phases"
+    },
+    {
+      "source": "c11_phy_008_04",
+      "target": "c11_phy_008_03",
+      "reason": "Stress-strain curve — understanding the elastic region is necessary for calculating elastic energy stored"
+    },
+    {
+      "source": "c11_phy_006_01",
+      "target": "c11_phy_005_06",
+      "reason": "Momentum conservation from Chapter 5 is essential for understanding CM motion and its relation to total momentum"
+    },
+    {
+      "source": "c11_phy_005_05",
+      "target": "c11_phy_005_04",
+      "reason": "Understanding work and energy is prerequisite for power as rate of energy transfer"
+    },
+    {
+      "source": "c11_phy_005_03",
+      "target": "c11_phy_005_02",
+      "reason": "Work-energy theorem and kinetic energy are prerequisite for understanding potential energy as stored work"
+    },
+    {
+      "source": "c11_phy_006_05",
+      "target": "c11_phy_006_04",
+      "reason": "Moment of inertia is needed for rotational kinetic energy (½Iω²)"
+    },
+    {
+      "source": "c11_phy_006_05",
+      "target": "c11_phy_005_02",
+      "reason": "Work-energy theorem from Chapter 5 is extended to rotational motion"
+    },
+    {
+      "source": "c11_phy_005_02",
+      "target": "c11_phy_005_01",
+      "reason": "Understanding work done by forces is prerequisite for relating work to changes in kinetic energy"
+    },
+    {
+      "source": "c11_phy_002_05",
+      "target": "c11_phy_002_04",
+      "reason": "Understanding velocity from graphs and equations is necessary before analyzing relative motion between objects"
+    },
+    {
+      "source": "c11_phy_004_05",
+      "target": "c11_phy_004_04",
+      "reason": "Equilibrium of forces is prerequisite for analyzing friction as a force that maintains or opposes equilibrium"
+    },
+    {
+      "source": "c11_phy_001_06",
+      "target": "c11_phy_001_05",
+      "reason": "Understanding significant figures and precision is necessary for correctly expressing dimensional formulas"
+    },
+    {
+      "source": "c11_phy_004_01",
+      "target": "c11_phy_003_08",
+      "reason": "Uniform circular motion from previous batch provides the kinematic context for understanding why a force (centripetal) is needed to change direction, illustrating inertia"
+    },
+    {
+      "source": "c11_phy_009_05",
+      "target": "c11_phy_009_04",
+      "reason": "Viscosity and fluid properties — understanding intermolecular forces in fluids is necessary for surface tension concepts"
+    },
+    {
+      "source": "c11_phy_009_01",
+      "target": "c11_phy_008_05",
+      "reason": "Elastic properties of solids — stress, strain, bulk modulus — provides the deformation framework for fluids where bulk modulus relates pressure to volumetric strain"
+    },
+    {
+      "source": "c11_phy_004_04",
+      "target": "c11_phy_004_03",
+      "reason": "Newton's third law and force understanding are prerequisite for analyzing multiple forces in equilibrium"
+    },
+    {
+      "source": "c11_phy_004_04",
+      "target": "c11_phy_003_01",
+      "reason": "Vector addition and resolution from Motion in a Plane are essential for adding concurrent forces vectorially"
+    },
+    {
+      "source": "c11_phy_007_07",
+      "target": "c11_phy_007_06",
+      "reason": "Time period and orbital velocity — understanding orbital parameters is necessary for calculating satellite energy"
+    },
+    {
+      "source": "c11_phy_003_01",
+      "target": "c11_phy_002_05",
+      "reason": "Understanding one-dimensional motion and relative velocity provides context for extending to vector quantities"
+    },
+    {
+      "source": "c11_phy_005_01",
+      "target": "c11_phy_004_06",
+      "reason": "Newton's laws and force analysis from Chapter 4 are prerequisite for understanding work as force times displacement"
+    },
+    {
+      "source": "c11_phy_011_05",
+      "target": "c11_phy_011_04",
+      "reason": "Understanding reversible processes is essential before learning why the second law limits the efficiency of real processes"
+    },
+    {
+      "source": "c11_phy_008_02",
+      "target": "c11_phy_008_01",
+      "reason": "Elastic behaviour, stress and strain — understanding these basic concepts is necessary for defining elastic moduli"
+    },
+    {
+      "source": "c11_phy_005_06",
+      "target": "c11_phy_005_05",
+      "reason": "Energy concepts (kinetic energy) are needed for analyzing elastic vs inelastic collisions"
+    },
+    {
+      "source": "c11_phy_005_06",
+      "target": "c11_phy_004_03",
+      "reason": "Conservation of momentum from Chapter 4 is a fundamental principle used in all collision analysis"
+    },
+    {
+      "source": "c11_phy_010_04",
+      "target": "c11_phy_010_03",
+      "reason": "Understanding temperature gradients and heat quantities from phase changes is necessary before studying the rate of heat transfer by conduction"
+    },
+    {
+      "source": "c11_phy_011_02",
+      "target": "c11_phy_011_01",
+      "reason": "Understanding temperature and thermal equilibrium is necessary before defining heat transfer and internal energy changes"
+    },
+    {
+      "source": "c11_phy_009_04",
+      "target": "c11_phy_009_03",
+      "reason": "Bernoulli's theorem — understanding ideal fluid flow is necessary before introducing viscous effects"
+    },
+    {
+      "source": "c11_phy_001_05",
+      "target": "c11_phy_001_04",
+      "reason": "Understanding error propagation provides the rationale for why significant figures rules exist"
+    },
+    {
+      "source": "c11_phy_012_06",
+      "target": "c11_phy_012_05",
+      "reason": "Understanding degrees of freedom and equipartition is essential before calculating specific heat capacities from molecular energy distribution"
+    },
+    {
+      "source": "c11_phy_013_05",
+      "target": "c11_phy_013_04",
+      "reason": "Energy conservation in SHM provides an alternative method to derive the pendulum's time period."
+    },
+    {
+      "source": "c11_phy_004_02",
+      "target": "c11_phy_004_01",
+      "reason": "Newton's first law and inertia establish the need for force to change motion, which Newton's second law quantifies"
+    },
+    {
+      "source": "c11_phy_010_02",
+      "target": "c11_phy_010_01",
+      "reason": "Understanding temperature change and thermal expansion is prerequisite to calculating heat required for temperature changes via specific heat capacity"
+    },
+    {
+      "source": "c11_phy_011_03",
+      "target": "c11_phy_011_02",
+      "reason": "Clear understanding of heat, work, and internal energy as separate quantities is essential before applying the first law that relates them"
+    },
+    {
+      "source": "c11_phy_002_04",
+      "target": "c11_phy_002_03",
+      "reason": "Understanding kinematic equations is necessary for interpreting slopes and areas on motion graphs"
+    },
+    {
+      "source": "c11_phy_010_07",
+      "target": "c11_phy_010_06",
+      "reason": "Understanding radiation heat transfer is necessary to derive Newton's law of cooling as an approximation of Stefan's law"
+    },
+    {
+      "source": "c11_phy_003_04",
+      "target": "c11_phy_003_03",
+      "reason": "Understanding vector components and unit vectors is essential for calculating dot products algebraically"
+    },
+    {
+      "source": "c11_phy_012_01",
+      "target": "c11_phy_011_06",
+      "reason": "Understanding thermodynamic processes (isothermal, adiabatic) and the relationship between P, V, T is essential before studying the ideal gas equation"
+    },
+    {
+      "source": "c11_phy_008_01",
+      "target": "c11_phy_007_07",
+      "reason": "Gravitation — gravitational force, weight, stress under self-weight — provides the force context for understanding elastic deformation under gravitational and applied loads"
+    },
+    {
+      "source": "c11_phy_009_03",
+      "target": "c11_phy_009_02",
+      "reason": "Streamline and turbulent flow — Bernoulli's theorem applies to streamline (laminar) flow of ideal fluids"
+    },
+    {
+      "source": "c11_phy_001_02",
+      "target": "c11_phy_001_01",
+      "reason": "Understanding the SI unit system and derived units is necessary before learning how specific instruments measure physical quantities"
+    },
+    {
+      "source": "c11_phy_003_07",
+      "target": "c11_phy_003_06",
+      "reason": "Understanding 2D motion with uniform acceleration is essential before analyzing projectile motion"
+    },
+    {
+      "source": "c11_phy_007_02",
+      "target": "c11_phy_007_01",
+      "reason": "Kepler's laws of planetary motion — the empirical laws that Newton's universal law of gravitation explains and unifies"
+    },
+    {
+      "source": "c11_phy_003_02",
+      "target": "c11_phy_003_01",
+      "reason": "Understanding vector basics and representation is essential before learning vector operations"
+    },
+    {
+      "source": "c11_phy_013_03",
+      "target": "c11_phy_013_02",
+      "reason": "The relationship between acceleration and displacement (a = -ω²x) derived from SHM is used to find ω for the spring-mass system."
+    },
+    {
+      "source": "c11_phy_014_06",
+      "target": "c11_phy_014_05",
+      "reason": "Understanding frequencies and harmonics in pipes provides the context for beats, which involve superposition of waves with close frequencies."
+    },
+    {
+      "source": "c11_phy_003_08",
+      "target": "c11_phy_003_07",
+      "reason": "Understanding projectile motion and 2D acceleration prepares students for analyzing circular motion"
+    },
+    {
+      "source": "c11_phy_012_04",
+      "target": "c11_phy_012_03",
+      "reason": "The pressure expression (P = ⅓nmv²rms) is combined with the ideal gas equation to derive the relationship between temperature and molecular kinetic energy"
+    },
+    {
+      "source": "c11_phy_008_03",
+      "target": "c11_phy_008_02",
+      "reason": "Hooke's law and elastic moduli — understanding the linear region of the stress-strain curve is necessary for analyzing the entire curve"
+    },
+    {
+      "source": "c11_phy_001_04",
+      "target": "c11_phy_001_03",
+      "reason": "Understanding absolute, relative, and percentage errors is essential before learning how they combine in calculations"
+    },
+    {
+      "source": "c11_phy_008_05",
+      "target": "c11_phy_008_04",
+      "reason": "Poisson's ratio and elastic energy — understanding material properties is necessary for engineering applications"
+    },
+    {
+      "source": "c11_phy_004_06",
+      "target": "c11_phy_003_08",
+      "reason": "Uniform circular motion kinematics (centripetal acceleration a = v²/r) from previous batch is prerequisite for dynamics"
+    },
+    {
+      "source": "c11_phy_004_06",
+      "target": "c11_phy_004_05",
+      "reason": "Friction concepts are needed for analyzing vehicles on level roads where friction provides centripetal force"
+    },
+    {
+      "source": "c11_phy_013_01",
+      "target": "c11_phy_012_07",
+      "reason": "Kinetic Theory provides the molecular context for oscillatory motion and energy dissipation, which is foundational for understanding damped oscillations in SHM."
+    },
+    {
+      "source": "c11_phy_002_03",
+      "target": "c11_phy_002_02",
+      "reason": "Understanding acceleration as rate of change of velocity is essential before deriving kinematic equations"
+    },
+    {
+      "source": "c11_phy_003_05",
+      "target": "c11_phy_003_04",
+      "reason": "Understanding scalar products provides the foundation for learning vector products"
+    },
+    {
+      "source": "c11_phy_012_07",
+      "target": "c11_phy_012_06",
+      "reason": "Understanding molecular motion and energy distribution is necessary before studying the distance molecules travel between collisions"
+    },
+    {
+      "source": "c11_phy_014_02",
+      "target": "c11_phy_014_01",
+      "reason": "Basic wave parameters (v, λ, f) are needed to define wave number and angular frequency in the wave equation."
+    },
+    {
+      "source": "c11_phy_010_05",
+      "target": "c11_phy_010_04",
+      "reason": "Understanding conduction as a heat transfer mechanism provides the foundation for comparing with convection and radiation"
+    },
+    {
+      "source": "c11_phy_010_05",
+      "target": "c11_phy_009_01",
+      "reason": "Fluid mechanics concepts (pressure, fluid flow) from the previous chapter are essential for understanding convection currents in fluids"
+    },
+    {
+      "source": "c11_phy_005_04",
+      "target": "c11_phy_005_03",
+      "reason": "Potential energy and conservative forces are prerequisite for conservation of mechanical energy"
+    },
+    {
+      "source": "c11_phy_005_04",
+      "target": "c11_phy_004_06",
+      "reason": "Circular motion dynamics from Chapter 4 provides the force context for vertical circle problems"
+    },
+    {
+      "source": "c11_phy_003_06",
+      "target": "c11_phy_003_05",
+      "reason": "Understanding vector operations is essential for analyzing 2D motion using components"
+    },
+    {
+      "source": "c11_phy_007_01",
+      "target": "c11_phy_006_05",
+      "reason": "Rotational kinetic energy and equations of rotational motion — understanding angular motion and centripetal acceleration is essential for Kepler's law of periods and orbital dynamics"
+    },
+    {
+      "source": "c11_phy_014_04",
+      "target": "c11_phy_014_03",
+      "reason": "Superposition principle is used to understand how incident and reflected waves combine to form standing waves."
+    },
+    {
+      "source": "c11_phy_013_02",
+      "target": "c11_phy_013_01",
+      "reason": "Basic SHM concepts (displacement equation, angular frequency, phase) are required to relate SHM to circular motion and derive velocity/acceleration."
+    },
+    {
+      "source": "c11_phy_012_02",
+      "target": "c11_phy_012_01",
+      "reason": "Understanding the macroscopic behavior of ideal gases (PV = nRT) is necessary before explaining it through molecular motion"
+    },
+    {
+      "source": "c11_phy_011_04",
+      "target": "c11_phy_011_03",
+      "reason": "The first law provides the framework for analyzing energy changes in specific thermodynamic processes"
+    },
+    {
+      "source": "c11_phy_003_03",
+      "target": "c11_phy_003_02",
+      "reason": "Understanding vector addition is necessary before learning how to break vectors into components"
+    },
+    {
+      "source": "c11_phy_014_07",
+      "target": "c11_phy_014_06",
+      "reason": "Understanding frequency and wave speed is necessary to analyze how relative motion affects observed frequency in the Doppler effect."
+    },
+    {
+      "source": "c11_phy_007_04",
+      "target": "c11_phy_007_03",
+      "reason": "Acceleration due to gravity — understanding g = GM/R² is necessary for deriving gravitational potential energy and potential"
+    },
+    {
+      "source": "c11_phy_013_04",
+      "target": "c11_phy_013_03",
+      "reason": "The spring-mass system provides the specific context (k, A, ω) for deriving energy expressions in SHM."
+    },
+    {
+      "source": "c11_phy_001_07",
+      "target": "c11_phy_001_06",
+      "reason": "Knowing dimensional formulas of physical quantities is essential before applying dimensional analysis"
+    },
+    {
+      "source": "c11_phy_010_01",
+      "target": "c11_phy_009_05",
+      "reason": "Surface energy and surface tension concepts from fluid mechanics provide foundational understanding of molecular forces that influence thermal expansion behavior"
+    },
+    {
+      "source": "c11_phy_014_05",
+      "target": "c11_phy_014_04",
+      "reason": "Understanding standing waves in strings (nodes, antinodes, boundary conditions) is necessary to analyze standing waves in pipes."
+    },
+    {
+      "source": "c11_phy_002_01",
+      "target": "c11_phy_001_07",
+      "reason": "Dimensional analysis and unit consistency from Chapter 1 are essential for defining kinematic quantities with proper units"
+    },
+    {
+      "source": "c11_phy_006_02",
+      "target": "c11_phy_003_01",
+      "reason": "Vector cross product from Motion in a Plane is essential for torque (τ = r×F) and angular momentum (L = r×p)"
+    },
+    {
+      "source": "c11_phy_006_02",
+      "target": "c11_phy_006_01",
+      "reason": "Centre of mass provides the reference point for calculating torque and angular momentum"
+    },
+    {
+      "source": "c11_phy_013_06",
+      "target": "c11_phy_013_05",
+      "reason": "Understanding ideal SHM (undamped) in pendulums provides the baseline for studying how damping modifies oscillatory behavior."
+    },
+    {
+      "source": "c11_phy_013_06",
+      "target": "c11_phy_012_07",
+      "reason": "Kinetic Theory provides the molecular context for energy dissipation mechanisms (e.g., viscosity) that cause damping."
+    },
+    {
+      "source": "c11_phy_006_03",
+      "target": "c11_phy_004_04",
+      "reason": "Equilibrium of concurrent forces from Chapter 4 is extended to include torque for rigid body equilibrium"
+    },
+    {
+      "source": "c11_phy_006_03",
+      "target": "c11_phy_006_02",
+      "reason": "Angular momentum definition is prerequisite for understanding its conservation"
+    },
+    {
+      "source": "c11_phy_007_06",
+      "target": "c11_phy_007_05",
+      "reason": "Orbital velocity — the time period formula T = 2πr/vₒ is derived from orbital velocity and Kepler's third law"
+    },
+    {
+      "source": "c11_phy_010_06",
+      "target": "c11_phy_010_05",
+      "reason": "Qualitative understanding of thermal radiation and blackbody concepts is necessary before applying quantitative laws like Wien's and Stefan's"
+    },
+    {
+      "source": "c11_phy_012_05",
+      "target": "c11_phy_012_04",
+      "reason": "Understanding that temperature corresponds to average kinetic energy per molecule is essential before distributing energy among different degrees of freedom"
+    },
+    {
+      "source": "c11_phy_009_02",
+      "target": "c11_phy_009_01",
+      "reason": "Fluid pressure and Pascal's law — understanding pressure in fluids is necessary for analyzing fluid flow"
+    },
+    {
+      "source": "c11_phy_011_01",
+      "target": "c11_phy_010_07",
+      "reason": "Understanding heat transfer and cooling rates is prerequisite to grasping how systems reach thermal equilibrium"
+    },
+    {
+      "source": "c11_phy_007_05",
+      "target": "c11_phy_007_04",
+      "reason": "Gravitational potential energy — escape velocity is derived from conservation of energy: ½mv² = GMm/R"
+    },
+    {
+      "source": "c11_phy_013_07",
+      "target": "c11_phy_013_06",
+      "reason": "Understanding damped oscillations is necessary to explain why a driving force is needed to maintain amplitude and how damping affects the sharpness of resonance."
+    },
+    {
+      "source": "c11_phy_012_03",
+      "target": "c11_phy_012_02",
+      "reason": "Understanding the molecular model and assumptions is essential before deriving pressure from molecular collisions"
+    },
+    {
+      "source": "c11_phy_014_03",
+      "target": "c11_phy_014_02",
+      "reason": "The mathematical form of progressive waves is needed to apply the superposition principle and calculate resultant displacement."
+    },
+    {
+      "source": "c11_phy_011_06",
+      "target": "c11_phy_011_05",
+      "reason": "The second law's Kelvin-Planck statement directly leads to the concept of heat engine efficiency and the Carnot limit"
+    },
+    {
+      "source": "c11_phy_007_03",
+      "target": "c11_phy_007_02",
+      "reason": "Universal law of gravitation — the force law F = Gm₁m₂/r² is used to derive g = GM/R² and its variation"
+    },
+    {
+      "source": "c11_phy_006_04",
+      "target": "c11_phy_006_03",
+      "reason": "Rotational dynamics concepts are prerequisite for understanding moment of inertia as rotational inertia"
+    },
+    {
+      "source": "c11_phy_014_01",
+      "target": "c11_phy_013_07",
+      "reason": "Oscillations provide the foundation for wave motion, as waves are propagating oscillations through a medium."
+    },
+    {
+      "source": "c11_phy_001_03",
+      "target": "c11_phy_001_02",
+      "reason": "Understanding least count and instrument limitations is necessary before analyzing measurement errors"
+    }
+  ]
+}

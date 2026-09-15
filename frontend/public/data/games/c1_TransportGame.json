@@ -1,0 +1,784 @@
+{
+  "gameFile": "TransportGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_phy_004",
+    "c1_phy_005"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Three Modes of Transport! 🚗",
+      "text": "Transport means how we travel from one place to another. There are THREE modes: land, water, and air! A car runs on a road. A boat floats on water. An aeroplane flies in the sky!",
+      "emoji": "🚗",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "Transport means how we travel. There are three modes: land, water, and air! A car runs on a road. A boat floats on water. An aeroplane flies in the sky!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Land Transport 🚗🚌🚲",
+      "text": "Land transport moves on the ground — on roads, railway tracks, or paths! Cars, buses, trains, bicycles, motorcycles, and bullock carts are all land transport. They stay on a solid surface!",
+      "emoji": "🚗",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Land transport moves on the ground on roads or tracks! Cars, buses, trains, and bicycles are all land transport. They stay on a solid surface!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Water Transport ⛵🚢",
+      "text": "Water transport floats on water — rivers, lakes, ponds, and seas! Boats, ships, ferries, and rafts are water transport. A boat floats on water like a leaf floating on a puddle!",
+      "emoji": "⛵",
+      "bgColor": "from-cyan-400 to-blue-500",
+      "spoken": "Water transport floats on water! Boats, ships, ferries, and rafts are water transport. A boat floats on water like a leaf floating on a puddle!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Air Transport ✈️🚁",
+      "text": "Air transport flies through the sky! Aeroplanes, helicopters, gliders, and hot-air balloons are air transport. An aeroplane flies in the sky like a bird soaring through the air!",
+      "emoji": "✈️",
+      "bgColor": "from-sky-400 to-indigo-500",
+      "spoken": "Air transport flies through the sky! Aeroplanes, helicopters, gliders, and hot-air balloons are air transport. An aeroplane flies like a bird soaring!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "How They Move! 🛞🚣🪽",
+      "text": "Land vehicles ROLL on wheels! Water vehicles FLOAT on water! Air vehicles FLY with wings! Remember: roll for land, float for water, fly for air! Three actions for three modes!",
+      "emoji": "🛞",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Land vehicles roll on wheels! Water vehicles float on water! Air vehicles fly with wings! Remember: roll for land, float for water, fly for air!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_mode",
+      "question": "A car runs on a road. Which mode of transport is it?",
+      "answer": "Land transport",
+      "options": [
+        "Land transport",
+        "Water transport",
+        "Air transport"
+      ],
+      "hint": "A car runs on a road on the ground! What mode travels on the ground?",
+      "misconception": "A car runs on a road on land, so it is LAND transport! The mode is decided by WHERE the vehicle travels — on the ground, on water, or in the sky!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Land transport",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Water transport",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Air transport",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Water transport",
+          "Land transport"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_mode",
+      "question": "A boat floats on a river. Which mode of transport is it?",
+      "answer": "Water transport",
+      "options": [
+        "Land transport",
+        "Water transport",
+        "Air transport"
+      ],
+      "hint": "A boat floats on water! What mode travels on water?",
+      "misconception": "A boat floats on water, so it is WATER transport! The mode is decided by WHERE the vehicle travels — a boat travels on water, not on land or in the sky!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Land transport",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Water transport",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Air transport",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Land transport",
+          "Water transport"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_mode",
+      "question": "An aeroplane flies in the sky. Which mode of transport is it?",
+      "answer": "Air transport",
+      "options": [
+        "Land transport",
+        "Water transport",
+        "Air transport"
+      ],
+      "hint": "An aeroplane flies in the sky! What mode travels in the sky?",
+      "misconception": "An aeroplane flies in the sky, so it is AIR transport! The mode is decided by WHERE the vehicle travels — in the air, not on land or water!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Land transport",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Water transport",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Air transport",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Land transport",
+          "Air transport"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "identify_vehicle",
+      "question": "Which of these is a WATER transport vehicle?",
+      "answer": "Ship",
+      "options": [
+        "Bus",
+        "Ship",
+        "Helicopter"
+      ],
+      "hint": "A ship sails on the sea! A bus runs on a road. A helicopter flies in the sky.",
+      "misconception": "A ship is WATER transport — it sails on the sea! A bus is land transport (runs on roads). A helicopter is air transport (flies in the sky). The mode is decided by where the vehicle travels, not by size or how many people it carries!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "Bus",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "Ship",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Helicopter",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Bus",
+          "Ship"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_modes",
+      "question": "Drag each vehicle into the right mode! Land, water, or air?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Car and bus = land! Boat and ship = water! Aeroplane and helicopter = air!",
+      "misconception": "Ask: where does this vehicle travel? On the ground = land. On water = water. In the sky = air. A car runs on a road, a boat floats on water, a plane flies in the sky!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "car",
+            "label": "Car",
+            "correctBin": "land"
+          },
+          {
+            "id": "boat",
+            "label": "Boat",
+            "correctBin": "water"
+          },
+          {
+            "id": "plane",
+            "label": "Aeroplane",
+            "correctBin": "air"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "car",
+          "kind": "circle",
+          "label": "Car",
+          "x": 0.14285714285714285,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "land",
+          "interaction": "drag-to-bin",
+          "targetBin": "land"
+        },
+        {
+          "id": "boat",
+          "kind": "circle",
+          "label": "Boat",
+          "x": 0.2857142857142857,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "water",
+          "interaction": "drag-to-bin",
+          "targetBin": "water"
+        },
+        {
+          "id": "plane",
+          "kind": "circle",
+          "label": "Aeroplane",
+          "x": 0.42857142857142855,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "air",
+          "interaction": "drag-to-bin",
+          "targetBin": "air"
+        },
+        {
+          "id": "train",
+          "kind": "circle",
+          "label": "Train",
+          "x": 0.5714285714285714,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "land",
+          "interaction": "drag-to-bin",
+          "targetBin": "land"
+        },
+        {
+          "id": "ship",
+          "kind": "circle",
+          "label": "Ship",
+          "x": 0.7142857142857142,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "water",
+          "interaction": "drag-to-bin",
+          "targetBin": "water"
+        },
+        {
+          "id": "heli",
+          "kind": "circle",
+          "label": "Helicopter",
+          "x": 0.8571428571428571,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "air",
+          "interaction": "drag-to-bin",
+          "targetBin": "air"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "car",
+          "label": "Car",
+          "emoji": "🚗",
+          "correctBin": "land"
+        },
+        {
+          "id": "boat",
+          "label": "Boat",
+          "emoji": "⛵",
+          "correctBin": "water"
+        },
+        {
+          "id": "plane",
+          "label": "Aeroplane",
+          "emoji": "✈️",
+          "correctBin": "air"
+        },
+        {
+          "id": "train",
+          "label": "Train",
+          "emoji": "🚂",
+          "correctBin": "land"
+        },
+        {
+          "id": "ship",
+          "label": "Ship",
+          "emoji": "🚢",
+          "correctBin": "water"
+        },
+        {
+          "id": "heli",
+          "label": "Helicopter",
+          "emoji": "🚁",
+          "correctBin": "air"
+        }
+      ],
+      "bins": [
+        {
+          "id": "land",
+          "label": "Land 🚗",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "water",
+          "label": "Water ⛵",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "air",
+          "label": "Air ✈️",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify_action",
+      "question": "How does a CAR move?",
+      "answer": "Rolls on wheels",
+      "options": [
+        "Rolls on wheels",
+        "Floats on water",
+        "Flies with wings"
+      ],
+      "hint": "A car has round wheels that turn and roll on the road, like a ball you push!",
+      "misconception": "A car ROLLS on wheels! The round wheels turn and roll forward on the road, like a ball you push. A car does NOT float (that is for water) or fly (that is for air)! Roll for land, float for water, fly for air!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Rolls on wheels",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Floats on water",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Flies with wings",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Rolls on wheels",
+          "Floats on water"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_action",
+      "question": "How does a BOAT move?",
+      "answer": "Floats on water",
+      "options": [
+        "Rolls on wheels",
+        "Floats on water",
+        "Flies with wings"
+      ],
+      "hint": "A boat has no wheels! It floats on top of the water and is pushed by oars or an engine!",
+      "misconception": "A boat FLOATS on water! It does NOT roll — rolling needs a solid surface like a road. Water is liquid, so wheels cannot roll on it. The boat floats on top and moves with oars, sails, or an engine. The correct word for water is float, not roll!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Rolls on wheels",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Floats on water",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Flies with wings",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Floats on water",
+          "Rolls on wheels"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort_actions",
+      "question": "Drag each vehicle to how it moves! Roll, float, or fly?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Car and bus = roll! Boat and ship = float! Aeroplane and helicopter = fly!",
+      "misconception": "Match the action to the medium! Land vehicles roll on wheels. Water vehicles float on water. Air vehicles fly with wings. Do not mix them up — a car does not float, a boat does not roll, a plane does not float!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "bus",
+            "label": "Bus",
+            "correctBin": "roll"
+          },
+          {
+            "id": "bicycle",
+            "label": "Bicycle",
+            "correctBin": "roll"
+          },
+          {
+            "id": "ferry",
+            "label": "Ferry",
+            "correctBin": "float"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "bus",
+          "kind": "circle",
+          "label": "Bus",
+          "x": 0.14285714285714285,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "roll",
+          "interaction": "drag-to-bin",
+          "targetBin": "roll"
+        },
+        {
+          "id": "bicycle",
+          "kind": "circle",
+          "label": "Bicycle",
+          "x": 0.2857142857142857,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "roll",
+          "interaction": "drag-to-bin",
+          "targetBin": "roll"
+        },
+        {
+          "id": "ferry",
+          "kind": "circle",
+          "label": "Ferry",
+          "x": 0.42857142857142855,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "float",
+          "interaction": "drag-to-bin",
+          "targetBin": "float"
+        },
+        {
+          "id": "raft",
+          "kind": "circle",
+          "label": "Raft",
+          "x": 0.5714285714285714,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "float",
+          "interaction": "drag-to-bin",
+          "targetBin": "float"
+        },
+        {
+          "id": "glider",
+          "kind": "circle",
+          "label": "Glider",
+          "x": 0.7142857142857142,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fly",
+          "interaction": "drag-to-bin",
+          "targetBin": "fly"
+        },
+        {
+          "id": "balloon",
+          "kind": "circle",
+          "label": "Hot-air balloon",
+          "x": 0.8571428571428571,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fly",
+          "interaction": "drag-to-bin",
+          "targetBin": "fly"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "bus",
+          "label": "Bus",
+          "emoji": "🚌",
+          "correctBin": "roll"
+        },
+        {
+          "id": "bicycle",
+          "label": "Bicycle",
+          "emoji": "🚲",
+          "correctBin": "roll"
+        },
+        {
+          "id": "ferry",
+          "label": "Ferry",
+          "emoji": "⛴️",
+          "correctBin": "float"
+        },
+        {
+          "id": "raft",
+          "label": "Raft",
+          "emoji": "🛶",
+          "correctBin": "float"
+        },
+        {
+          "id": "glider",
+          "label": "Glider",
+          "emoji": "🪂",
+          "correctBin": "fly"
+        },
+        {
+          "id": "balloon",
+          "label": "Hot-air balloon",
+          "emoji": "🎈",
+          "correctBin": "fly"
+        }
+      ],
+      "bins": [
+        {
+          "id": "roll",
+          "label": "Roll 🛞",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "float",
+          "label": "Float 🚣",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "fly",
+          "label": "Fly 🪽",
+          "color": "#8B5CF6"
+        }
+      ]
+    }
+  ],
+  "theme": "city",
+  "storyArc": {
+    "theme": "A curious physicist explores the forces of nature",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Physics Lab Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_phy_004",
+    "region": "Physics Realm",
+    "mapX": 0.82,
+    "mapY": 0.63,
+    "icon": "⚡",
+    "prerequisites": [
+      "c1_phy_005"
+    ]
+  },
+  "subject": "physics"
+}

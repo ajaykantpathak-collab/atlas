@@ -8,6 +8,8 @@
  * suffixes ("abc::3") must never reach the student's screen.
  */
 
+import { getAuthToken } from "@/lib/api";
+
 // ─── Backend response shapes ──────────────────────────────────
 
 export type ServeVoice = {
@@ -128,7 +130,7 @@ export function tutorAuthToken(): string | null {
   if (typeof window === "undefined") return null;
   try {
     return (
-      localStorage.getItem("auth_token") ||
+      getAuthToken() ||
       localStorage.getItem("token") ||
       null
     );

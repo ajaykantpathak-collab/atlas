@@ -1,0 +1,41 @@
+{
+  "gameTitle": "DirectionsMapGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\DirectionsMapGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\geo\\enrichment\\c2_geography_enrichment_part6.marker",
+    "D:\\cisce\\geo\\enrichment\\c2_geography_enrichment_part7.marker",
+    "D:\\cisce\\geo\\enrichment\\c2_geography_enrichment_part8.marker",
+    "D:\\cisce\\geo\\enrichment\\c2_geography_enrichment_part9.marker",
+    "D:\\cisce\\geo\\enrichment\\c2_geography_enrichment_part10.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_geo_006 (Directions - left, right, near, far), c2_geo_007 (Four main directions), c2_geo_008 (Picture maps), c2_geo_009 (Water sources), c2_geo_010 (Land and water around us)",
+  "mascotName": "Guide Gaurav",
+  "mascotDescription": "a friendly tourist guide with a sun hat, a map in hand, a compass badge, and a walking stick. Custom SVG, not an owl.",
+  "sceneDescription": "map scene with sky gradient, a treasure map, a compass, landmarks (school, park, hospital, market), a river, and a hill",
+  "svgObjects": [
+    { "name": "CompassIcon", "description": "a compass showing N, E, S, W directions" },
+    { "name": "MapIcon", "description": "a folded map with paths" },
+    { "name": "SchoolBuildingIcon", "description": "a school building on the map" },
+    { "name": "HospitalIcon", "description": "a hospital building with red cross" },
+    { "name": "ParkIcon", "description": "a park with trees and swings" },
+    { "name": "MarketIcon", "description": "a market stall" },
+    { "name": "RiverIcon", "description": "a river flowing on a map" },
+    { "name": "WellIcon", "description": "a water well" },
+    { "name": "PondIcon", "description": "a pond" },
+    { "name": "TapIcon", "description": "a water tap" },
+    { "name": "MountainIcon", "description": "a mountain on the map" },
+    { "name": "PlainIcon", "description": "a flat plain/field" }
+  ],
+  "challengeTypes": [
+    "identify: The sun rises in which direction? (East vs West vs North)",
+    "identify: The sun sets in which direction? (West vs East vs South)",
+    "sort: Drag the four main directions to where the sun is and where they are (East: sun rises | West: sun sets | North: top of map, opposite of south | South: bottom of map, opposite of north)",
+    "identify: If you face the rising sun, your LEFT hand points to which direction? (North vs South vs East)",
+    "sort: Drag landmarks to NEAR or FAR from school (Near: park next door, market across road, hospital down the street | Far: airport, grandmother's village, another city)",
+    "identify: Which of these is a water source we use at home? (Tap water vs Sea water vs River water directly — tap water comes from clean water supply)",
+    "sort: Drag water sources to natural or man-made (Natural: river, pond, lake, sea, spring | Man-made: tap, well, water tank, hand pump, water cooler)",
+    "sort: Drag land and water features to the right group (Land: mountain, hill, plain, plateau, desert | Water: river, pond, lake, sea, ocean, waterfall)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Directions (left, right, near, far) — left and right are relative to which way we face. Near means close by, far means a long way away. Practice with classroom objects — 'the blackboard is in front, the door is on the right'. (2) Four main directions — North (N), South (S), East (E), West (W). The sun rises in the EAST and sets in the WEST. If you face the rising sun (east), your left hand points NORTH and right hand points SOUTH. North and South are opposite, East and West are opposite. A compass shows all four directions. (3) Picture maps — a map is a drawing that shows where things are. Picture maps use small drawings (icons) for buildings, roads, rivers, parks. We can locate places on a map — school, hospital, park, market, post office. Maps help us find our way. (4) Water sources — natural sources (river, pond, lake, sea, spring, rainwater), man-made sources (tap, well, hand pump, water tank, water cooler, dam). Water at home comes from taps, which is supplied from rivers, lakes, or groundwater through pipes. (5) Land and water around us — land features (mountains, hills, plains, plateaus, deserts, valleys), water features (rivers, ponds, lakes, seas, oceans, waterfalls, streams). Both land and water are parts of the Earth's surface. Misconceptions: 'sun rises in the west' (sun rises in the EAST, sets in the WEST), 'if I face east, my right is north' (facing east: left=NORTH, right=SOUTH), 'sea water is safe to drink' (sea water is salty and not safe to drink), 'a map is just a picture' (a map shows real places and where they are located, not just any picture), 'north and east are opposite' (north is opposite to south, east is opposite to west). Default width=720, height=560. Use named export (export function DirectionsMapGame), NOT export default. Export interface DirectionsMapGameProps with width?, height?, onComplete?: (score: number) => void."
+}

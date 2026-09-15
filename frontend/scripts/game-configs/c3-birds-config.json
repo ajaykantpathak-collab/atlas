@@ -1,0 +1,44 @@
+{
+  "gameTitle": "BirdsGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\BirdsGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c3_biology_enrichment_part6.marker",
+    "D:\\cisce\\bio\\enrichment\\c3_biology_enrichment_part7.marker",
+    "D:\\cisce\\bio\\enrichment\\c3_biology_enrichment_part8.marker",
+    "D:\\cisce\\bio\\enrichment\\c3_biology_enrichment_part9.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_bio_006 (Common birds and their body parts), c3_bio_007 (How birds fly), c3_bio_008 (Bird food habits and beak adaptation), c3_bio_009 (Bird nests and habitats)",
+  "mascotName": "Birdwatcher Bina",
+  "mascotDescription": "a friendly birdwatcher with binoculars, a hat, a bird guide book, and a feather pin. Custom SVG, not an owl.",
+  "sceneDescription": "forest scene with sky gradient, trees, a nest on a branch, flying birds, and a pond in the background",
+  "svgObjects": [
+    { "name": "SparrowIcon", "description": "a small sparrow bird" },
+    { "name": "CrowIcon", "description": "a black crow" },
+    { "name": "ParrotIcon", "description": "a green parrot" },
+    { "name": "EagleIcon", "description": "a soaring eagle" },
+    { "name": "PigeonIcon", "description": "a grey pigeon" },
+    { "name": "WingIcon", "description": "a bird wing showing feathers" },
+    { "name": "FeatherIcon", "description": "a single feather" },
+    { "name": "BeakIcon", "description": "a bird beak" },
+    { "name": "HollowBoneIcon", "description": "a hollow bone (light for flying)" },
+    { "name": "NestIcon", "description": "a bird nest with eggs" },
+    { "name": "SeedIcon", "description": "seeds for bird food" },
+    { "name": "FishIcon", "description": "a small fish (eagle food)" },
+    { "name": "FruitIcon", "description": "a fruit (parrot food)" },
+    { "name": "InsectIcon", "description": "an insect (sparrow food)" }
+  ],
+  "challengeTypes": [
+    "identify: Which of these is a common bird we see in India? (Sparrow vs Penguin vs Ostrich)",
+    "identify: Which body part helps birds to FLY? (Wings vs Legs vs Beak)",
+    "sort: Drag each bird body part to its function (Wings: flying | Beak: eating/tearing food | Feathers: keep warm and help fly | Tail: steering | Hollow bones: make body light | Claws: perching on branches)",
+    "identify: Why can birds fly but humans cannot? (Birds have hollow bones and wings vs Humans are too small vs Humans do not eat enough)",
+    "sort: Drag each bird to the food it eats based on its beak (Sparrow + short thick beak: seeds | Eagle + hooked sharp beak: fish and meat | Parrot + curved strong beak: fruits | Woodpecker + long chisel beak: insects in bark)",
+    "identify: What is a bird NEST used for? (Laying eggs and raising chicks vs Sleeping at night only vs Storing food for winter)",
+    "sort: Drag each bird to its correct nest type or habitat (Sparrow: twig nest on tree | Pigeon: nest on buildings/ledges | Weaver bird: hanging woven nest | Eagle: large nest on high cliffs | Duck: nest near water/ponds)",
+    "sort: Drag each feature to Helps Fly or Does Not Help Fly (Helps Fly: hollow bones, wings, feathers, light body, strong chest muscles | Does Not Help: heavy bones, no wings, thick legs, heavy body)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Common birds and body parts — sparrow, crow, parrot, pigeon, eagle are common Indian birds. Body parts: head, eyes, beak, wings, feathers, tail, legs, claws. (2) How birds fly — birds have hollow bones (light body), wings (push air), feathers (help glide), strong chest muscles (power wing beats), streamlined body (cuts through air). Birds flap wings to push air down and lift up. (3) Bird food habits and beak adaptation — beak shape matches food: short thick beak = seeds (sparrow), hooked sharp beak = meat/fish (eagle), curved strong beak = fruits (parrot), long chisel beak = insects in bark (woodpecker), broad flat beak = filtering water (duck). (4) Bird nests and habitats — nests are for laying eggs and raising chicks, not for sleeping. Different birds build different nests: sparrow (twigs on tree), pigeon (buildings/ledges), weaver bird (hanging woven nest), eagle (large nest on cliffs), duck (near water). Misconceptions: 'birds live in nests all the time' (birds use nests only for breeding, not for sleeping every night), 'all birds eat the same food' (beak shape determines food type), 'penguins and ostriches are common Indian birds' (they are not found in India — penguins live in Antarctica, ostriches in Africa), 'feathers are only for flying' (feathers also keep birds warm and waterproof). Default width=720, height=560. Use named export (export function BirdsGame), NOT export default. Export interface BirdsGameProps with width?, height?, onComplete?: (score: number) => void."
+}

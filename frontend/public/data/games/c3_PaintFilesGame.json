@@ -1,0 +1,734 @@
+{
+  "gameFile": "PaintFilesGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_cs_011",
+    "c3_cs_012",
+    "c3_cs_013",
+    "c3_cs_014",
+    "c3_cs_015"
+  ],
+  "mascot": "Artist Akhil — friendly digital artist with a paintbrush, palette, beret hat, and tablet.",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Fun with Paint! 🎨",
+      "text": "Microsoft Paint is your digital art studio! Use the pencil for fine lines, the brush for thick strokes, the fill bucket to pour color into closed shapes, and the shape tools to draw neat rectangles and circles!",
+      "emoji": "🎨",
+      "bgColor": "from-pink-400 to-purple-500",
+      "spoken": "Microsoft Paint is your digital art studio! Use the pencil for fine lines, the brush for thick strokes, the fill bucket to pour color into closed shapes, and the shape tools to draw neat rectangles and circles!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Organising Files & Folders 📁",
+      "text": "A computer folder is like a cupboard with labelled drawers! Subfolders are smaller folders placed inside main folders. Good organisation keeps your drawings, poems, and worksheets easy to find.",
+      "emoji": "📁",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "A computer folder is like a cupboard with labelled drawers! Subfolders are smaller folders placed inside main folders. Good organisation keeps your drawings, poems, and worksheets easy to find.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Create",
+            "Edit",
+            "Format",
+            "Save"
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Recycle Bin Safety Net 🗑️",
+      "text": "When you select a file and press the Delete key, it goes to the Recycle Bin! It is not gone forever. You can open the Recycle Bin, right-click the file, and Restore it to its original folder. Emptying the bin makes deletion permanent!",
+      "emoji": "🗑️",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "When you select a file and press the Delete key, it goes to the Recycle Bin! It is not gone forever. You can open the Recycle Bin, right-click the file, and Restore it to its original folder.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Computer Etiquette & Care 💻",
+      "text": "Take care of your computer! Keep food and drinks far away, wipe the screen and keyboard gently with a soft dry cloth, don\\'t pull cords, and always follow the proper shutdown procedure on screen!",
+      "emoji": "🛡️",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Take care of your computer! Keep food and drinks far away, wipe the screen and keyboard gently with a soft dry cloth, don\\'t pull cords, and always follow the proper shutdown procedure on screen!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output",
+            "Store"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Magical Keyboard Shortcuts ⌨️",
+      "text": "Work faster in Word with Ctrl keys! Ctrl+C copies text, Ctrl+V pastes it, Ctrl+X cuts it to move, Ctrl+Z undoes your last mistake, and Ctrl+A selects everything instantly!",
+      "emoji": "⌨️",
+      "bgColor": "from-violet-400 to-purple-600",
+      "spoken": "Work faster in Word with control keys! Ctrl plus C copies text, Ctrl plus V pastes it, Ctrl plus X cuts it to move, Ctrl plus Z undoes your last mistake, and Ctrl plus A selects everything instantly!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_tool",
+      "question": "Which tool in Paint fills the inside of a closed shape with color?",
+      "answer": "Fill with color tool (bucket)",
+      "options": [
+        "Fill with color tool (bucket)",
+        "Eraser tool",
+        "Pencil tool"
+      ],
+      "hint": "Look for the tool that looks like a tipping paint bucket pouring color!",
+      "misconception": "The fill with color tool pours paint inside a closed shape! The eraser removes marks, and the pencil draws thin freehand lines.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Fill with color tool (bucket)",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Eraser tool",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Pencil tool",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Eraser tool",
+          "Fill with color tool (bucket)"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_tool",
+      "question": "Which tool in Paint works like a digital ruler to draw straight lines?",
+      "answer": "Line tool",
+      "options": [
+        "Line tool",
+        "Curve tool",
+        "Polygon tool"
+      ],
+      "hint": "This tool draws straight lines from start to end, and you can pick its thickness!",
+      "misconception": "The line tool draws straight edges like a ruler. The curve tool bends straight lines, and the polygon tool makes many-sided shapes!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Line tool",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Curve tool",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Polygon tool",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Line tool",
+          "Curve tool"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_concept",
+      "question": "Where does a file go immediately when you press the Delete key?",
+      "answer": "Recycle Bin",
+      "options": [
+        "Recycle Bin",
+        "Deleted forever instantly",
+        "The printer"
+      ],
+      "hint": "It is a desktop icon shaped like a dustbin that gives you a second chance!",
+      "misconception": "Files do not vanish instantly when you press Delete! They move safely into the Recycle Bin so you can restore them if needed.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Recycle Bin",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Deleted forever instantly",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The printer",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Recycle Bin",
+          "Deleted forever instantly"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_tools",
+      "question": "Drag each Paint item to what it does!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Pencil draws thin lines, Fill bucket pours color, Eraser removes mistakes!",
+      "misconception": "Every Paint tool has a specific job! Match the pencil to drawing, the bucket to filling color, and the eraser to removing marks.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Pencil draws thin lines, Fill bucket pours color, Eraser removes mistakes!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "pencil",
+          "kind": "circle",
+          "label": "Pencil tool",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "draw",
+          "interaction": "drag-to-bin",
+          "targetBin": "draw"
+        },
+        {
+          "id": "bucket",
+          "kind": "circle",
+          "label": "Fill bucket",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fill",
+          "interaction": "drag-to-bin",
+          "targetBin": "fill"
+        },
+        {
+          "id": "eraser",
+          "kind": "circle",
+          "label": "Eraser tool",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "erase",
+          "interaction": "drag-to-bin",
+          "targetBin": "erase"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "pencil",
+          "label": "Pencil tool",
+          "emoji": "",
+          "correctBin": "draw"
+        },
+        {
+          "id": "bucket",
+          "label": "Fill bucket",
+          "emoji": "",
+          "correctBin": "fill"
+        },
+        {
+          "id": "eraser",
+          "label": "Eraser tool",
+          "emoji": "",
+          "correctBin": "erase"
+        }
+      ],
+      "bins": [
+        {
+          "id": "draw",
+          "label": "Draw Lines ✏️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "fill",
+          "label": "Fill Color 🎨",
+          "color": "#10B981"
+        },
+        {
+          "id": "erase",
+          "label": "Erase Marks 🧽",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "sort_actions",
+      "question": "Drag each file management action to its correct step!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Folders organise files, Delete moves to Recycle Bin, Restore brings files back!",
+      "misconception": "File management keeps your computer tidy! Folders hold files, deleting sends items to the Recycle Bin, and restoring brings them back.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. Folders organise files, Delete moves to Recycle Bin, Restore brings files back!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "folder",
+          "kind": "circle",
+          "label": "Create Folder",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "organise",
+          "interaction": "drag-to-bin",
+          "targetBin": "organise"
+        },
+        {
+          "id": "delete",
+          "kind": "circle",
+          "label": "Delete File",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "trash",
+          "interaction": "drag-to-bin",
+          "targetBin": "trash"
+        },
+        {
+          "id": "restore",
+          "kind": "circle",
+          "label": "Restore File",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bringback",
+          "interaction": "drag-to-bin",
+          "targetBin": "bringback"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "folder",
+          "label": "Create Folder",
+          "emoji": "",
+          "correctBin": "organise"
+        },
+        {
+          "id": "delete",
+          "label": "Delete File",
+          "emoji": "",
+          "correctBin": "trash"
+        },
+        {
+          "id": "restore",
+          "label": "Restore File",
+          "emoji": "",
+          "correctBin": "bringback"
+        }
+      ],
+      "bins": [
+        {
+          "id": "organise",
+          "label": "Organise Work 📁",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "trash",
+          "label": "Send to Bin 🗑️",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bringback",
+          "label": "Bring Back 🔄",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "sort_shortcuts",
+      "question": "Drag each keyboard shortcut to what it does!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Ctrl+C copies, Ctrl+V pastes, Ctrl+Z undoes!",
+      "misconception": "Shortcuts save time! Ctrl+C duplicates text to clipboard, Ctrl+V inserts it, and Ctrl+Z reverses your last mistake.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. Ctrl+C copies, Ctrl+V pastes, Ctrl+Z undoes!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "copy",
+          "kind": "circle",
+          "label": "Ctrl + C",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "dupe",
+          "interaction": "drag-to-bin",
+          "targetBin": "dupe"
+        },
+        {
+          "id": "paste",
+          "kind": "circle",
+          "label": "Ctrl + V",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "place",
+          "interaction": "drag-to-bin",
+          "targetBin": "place"
+        },
+        {
+          "id": "undo",
+          "kind": "circle",
+          "label": "Ctrl + Z",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fix",
+          "interaction": "drag-to-bin",
+          "targetBin": "fix"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "copy",
+          "label": "Ctrl + C",
+          "emoji": "",
+          "correctBin": "dupe"
+        },
+        {
+          "id": "paste",
+          "label": "Ctrl + V",
+          "emoji": "",
+          "correctBin": "place"
+        },
+        {
+          "id": "undo",
+          "label": "Ctrl + Z",
+          "emoji": "",
+          "correctBin": "fix"
+        }
+      ],
+      "bins": [
+        {
+          "id": "dupe",
+          "label": "Copy (Duplicate) 📋",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "place",
+          "label": "Paste (Insert) 📌",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "fix",
+          "label": "Undo (Reverse) ↩️",
+          "color": "#EC4899"
+        }
+      ]
+    },
+    {
+      "type": "sort_etiquette",
+      "question": "Drag each action to Good Etiquette or Bad Etiquette!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Wiping gently and closing properly are good habits! Eating near the computer is bad!",
+      "misconception": "Computer etiquette protects both hardware and software! Always keep food away, handle gently, and use the proper shutdown on screen.",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. Wiping gently and closing properly are good habits! Eating near the computer is bad!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "wipe",
+          "kind": "circle",
+          "label": "Wipe screen gently",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "good",
+          "interaction": "drag-to-bin",
+          "targetBin": "good"
+        },
+        {
+          "id": "eat",
+          "kind": "circle",
+          "label": "Eat snacks near keyboard",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bad",
+          "interaction": "drag-to-bin",
+          "targetBin": "bad"
+        },
+        {
+          "id": "shutdown",
+          "kind": "circle",
+          "label": "Proper screen shutdown",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "good",
+          "interaction": "drag-to-bin",
+          "targetBin": "good"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "wipe",
+          "label": "Wipe screen gently",
+          "emoji": "",
+          "correctBin": "good"
+        },
+        {
+          "id": "eat",
+          "label": "Eat snacks near keyboard",
+          "emoji": "",
+          "correctBin": "bad"
+        },
+        {
+          "id": "shutdown",
+          "label": "Proper screen shutdown",
+          "emoji": "",
+          "correctBin": "good"
+        }
+      ],
+      "bins": [
+        {
+          "id": "good",
+          "label": "Good Etiquette ✅",
+          "color": "#10B981"
+        },
+        {
+          "id": "bad",
+          "label": "Bad Habit ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify_concept",
+      "question": "What is the main difference between Copy (Ctrl+C) and Cut (Ctrl+X)?",
+      "answer": "Copy leaves the original in place; Cut removes it to move it",
+      "options": [
+        "Copy leaves the original in place; Cut removes it to move it",
+        "Cut makes two copies, Copy makes zero",
+        "There is no difference at all"
+      ],
+      "hint": "Think about whether the original text stays or disappears when you use the shortcut.",
+      "misconception": "Copy creates a duplicate while leaving the original untouched. Cut removes the text from its original location so you can paste it somewhere new!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Copy leaves the original in place; Cut removes it to move it",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Cut makes two copies, Copy makes zero",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "There is no difference at all",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Copy leaves the original in place; Cut removes it to move it",
+          "Cut makes two copies, Copy makes zero"
+        ]
+      },
+      "storyBeat": "resolution"
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A tech-savvy kid learns how computers work",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-structure",
+    "title": "Computer Tower",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_cs_011",
+    "region": "Tech City",
+    "mapX": 0.46,
+    "mapY": 0.79,
+    "icon": "💻",
+    "prerequisites": [
+      "c3_cs_012"
+    ]
+  },
+  "subject": "cs"
+}

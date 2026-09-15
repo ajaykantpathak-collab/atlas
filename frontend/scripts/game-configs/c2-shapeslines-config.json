@@ -1,0 +1,39 @@
+{
+  "gameTitle": "ShapesLinesGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\ShapesLinesGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c2_maths_enrichment_part15.marker",
+    "D:\\cisce\\maths\\enrichment\\c2_maths_enrichment_part16.marker",
+    "D:\\cisce\\maths\\enrichment\\c2_maths_enrichment_part17.marker",
+    "D:\\cisce\\maths\\enrichment\\c2_maths_enrichment_part18.marker",
+    "D:\\cisce\\maths\\enrichment\\c2_maths_enrichment_part19.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_math_015 (2D shapes through paper folding), c2_math_016 (Attributes of 2D shapes - sides and corners), c2_math_017 (Straight lines), c2_math_018 (Horizontal, vertical lines), c2_math_019 (Curved lines)",
+  "mascotName": "Artist Anaya",
+  "mascotDescription": "a friendly paper craft artist with a colorful apron, scissors, paper shapes, and a pencil behind the ear. Custom SVG, not an owl.",
+  "sceneDescription": "art class scene with sky gradient through window, a craft table with paper, scissors, shapes, and a drawing board",
+  "svgObjects": [
+    { "name": "TriangleIcon", "description": "a triangle with 3 sides and 3 corners" },
+    { "name": "SquareIcon", "description": "a square with 4 equal sides and 4 corners" },
+    { "name": "RectangleIcon", "description": "a rectangle with 4 sides (2 long, 2 short) and 4 corners" },
+    { "name": "CircleIcon", "description": "a circle with no sides and no corners" },
+    { "name": "OvalIcon", "description": "an oval shape" },
+    { "name": "HorizontalLineIcon", "description": "a horizontal straight line (left to right)" },
+    { "name": "VerticalLineIcon", "description": "a vertical straight line (up and down)" },
+    { "name": "SlantingLineIcon", "description": "a slanting/diagonal straight line" },
+    { "name": "CurvedLineIcon", "description": "a curved line (not straight)" },
+    { "name": "PaperFoldIcon", "description": "a paper being folded to make a shape" }
+  ],
+  "challengeTypes": [
+    "identify: How many sides does a TRIANGLE have? (3 vs 4 vs 5)",
+    "identify: How many corners does a SQUARE have? (4 vs 3 vs 0)",
+    "identify: Which shape has NO sides and NO corners? (Circle vs Triangle vs Square)",
+    "sort: Drag shapes to the right number of sides (3 sides: triangle | 4 sides: square, rectangle | 0 sides: circle, oval)",
+    "identify: Which line goes LEFT to RIGHT? (Horizontal line vs Vertical line vs Slanting line)",
+    "identify: Which line goes UP and DOWN? (Vertical line vs Horizontal line vs Curved line)",
+    "sort: Drag lines to the right type (Horizontal: table edge, horizon | Vertical: door edge, flag pole | Slanting: ladder, roof | Curved: rainbow, river path)",
+    "sort: Drag shapes to their attributes (Triangle: 3 sides, 3 corners | Square: 4 equal sides, 4 corners | Rectangle: 4 sides (2 long 2 short), 4 corners | Circle: 0 sides, 0 corners | Oval: 0 sides, 0 corners, longer than circle)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) 2D shapes through paper folding — fold a square paper diagonally to make a triangle, fold a circle paper in half to make a semi-circle. Shapes can be made by folding and cutting paper. (2) Attributes of 2D shapes — sides are the straight edges of a shape, corners (vertices) are where two sides meet. Triangle: 3 sides, 3 corners. Square: 4 equal sides, 4 corners. Rectangle: 4 sides (2 long, 2 short), 4 corners. Circle: 0 sides, 0 sides, 0 corners (curved boundary). Oval: 0 sides, 0 corners (like a stretched circle). (3) Straight lines — a straight line does not bend. Can be drawn by paper folding (fold paper and the crease is a straight line), by using a straightedge (ruler), by stretching a string tight. (4) Horizontal, vertical, and slanting lines — horizontal goes left to right (like the horizon, table edge), vertical goes up and down (like a door edge, flag pole), slanting/diagonal goes at an angle (like a ladder, roof of a house). (5) Curved lines — a curved line bends, it is not straight. Examples: rainbow, river path, smile. Curved lines can be drawn by freehand or by tracing round objects. Misconceptions: 'a circle has 1 side' (a circle has 0 sides — a side must be straight, the circle's boundary is curved not straight), 'square and rectangle are the same' (square has 4 EQUAL sides, rectangle has 2 long and 2 short sides), 'all straight lines are the same' (straight lines can be horizontal, vertical, or slanting), 'a curved line is a straight line that bends a little' (a curved line is NOT straight at all, it bends throughout). Default width=720, height=560. Use named export (export function ShapesLinesGame), NOT export default. Export interface ShapesLinesGameProps with width?, height?, onComplete?: (score: number) => void."
+}

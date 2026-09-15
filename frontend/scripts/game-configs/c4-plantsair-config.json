@@ -1,0 +1,45 @@
+{
+  "gameTitle": "PlantsAirGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\PlantsAirGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part14.marker",
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part15.marker",
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part16.marker",
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part17.marker",
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part18.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_bio_014 (Root types - tap and fibrous), c4_bio_015 (Photosynthesis - simple), c4_bio_016 (Transpiration), c4_bio_017 (Composition of air), c4_bio_018 (Breathing and burning)",
+  "mascotName": "Scientist Sunita",
+  "mascotDescription": "a friendly botanist with a lab coat, a potted plant, a magnifying glass, and a leaf-shaped badge. Custom SVG, not an owl.",
+  "sceneDescription": "botanical garden and lab scene with sky gradient, a greenhouse with plants, a tree showing roots and leaves, test tubes with gases, and a sun shining on leaves",
+  "svgObjects": [
+    { "name": "LeafIcon", "description": "a green leaf with chlorophyll" },
+    { "name": "SunIcon", "description": "a bright sun providing sunlight" },
+    { "name": "WaterDropIcon", "description": "a water drop traveling from roots to leaf" },
+    { "name": "CarbonDioxideIcon", "description": "a CO2 molecule entering leaf" },
+    { "name": "OxygenIcon", "description": "an O2 molecule leaving leaf" },
+    { "name": "ChlorophyllIcon", "description": "green chlorophyll pigment in leaf cell" },
+    { "name": "StarchIcon", "description": "a starch granule (food made by plant)" },
+    { "name": "TapRootIcon", "description": "a tap root system (carrot)" },
+    { "name": "FibrousRootIcon", "description": "a fibrous root system (grass)" },
+    { "name": "NitrogenIcon", "description": "a nitrogen gas molecule (N2)" },
+    { "name": "FireIcon", "description": "a fire flame showing burning uses oxygen" },
+    { "name": "IodineIcon", "description": "an iodine bottle for starch test" },
+    { "name": "SweatIcon", "description": "a leaf sweating (transpiration)" },
+    { "name": "BreathingIcon", "description": "lungs breathing in air" }
+  ],
+  "challengeTypes": [
+    "identify: What is PHOTOSYNTHESIS? (The process by which green leaves make food using sunlight, water, and carbon dioxide vs The process by which plants drink water from soil vs The process by which plants breathe in oxygen)",
+    "identify: Which green substance in leaves traps sunlight for photosynthesis? (Chlorophyll vs Starch vs Iodine)",
+    "sort: Drag the raw materials and products of photosynthesis to the correct group (Raw materials: sunlight, water, carbon dioxide | Products: starch/food, oxygen)",
+    "identify: How do we TEST a leaf for the presence of starch? (Iodine test — turns blue-black if starch is present vs Boil the leaf in water and see if it turns green vs Smell the leaf)",
+    "sort: Drag the steps of photosynthesis in order (1. Chlorophyll traps sunlight | 2. Roots absorb water from soil | 3. Leaves take in carbon dioxide from air | 4. Sunlight energy mixes water and CO2 | 5. Plant makes starch as food | 6. Plant releases oxygen into air)",
+    "identify: Air is a mixture of gases. Which gas makes up the LARGEST part of air? (Nitrogen about 78 percent vs Oxygen about 21 percent vs Carbon dioxide about 0.04 percent)",
+    "sort: Drag each gas to its correct percentage in air (Nitrogen: 78 percent | Oxygen: 21 percent | Carbon dioxide: 0.04 percent | Other gases like argon and helium: about 1 percent)",
+    "sort: Drag each statement to Breathing or Burning (Breathing: takes in oxygen, releases carbon dioxide, happens in lungs, all living things do it | Burning: needs oxygen to burn, releases carbon dioxide and heat, fire is an example, needs fuel)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Root types — two main types: tap root (one main thick root with smaller side roots — carrot, mustard, radish, mango) and fibrous root (many thin roots of same size growing from base — grass, maize, wheat, onion). Tap roots store food (carrot, radish). (2) Photosynthesis — green leaves make food using sunlight (photo = light, synthesis = putting together). Chlorophyll (green pigment) traps sunlight. Raw materials: sunlight, water (from roots through stem), carbon dioxide (from air through leaf pores). Products: starch (food) and oxygen (released into air). Simple equation: carbon dioxide + water + sunlight = food (starch) + oxygen. Iodine test proves starch: iodine turns blue-black when starch is present. (3) Transpiration — plants lose water vapour through tiny pores on leaves called stomata. This is like sweating. Transpiration cools the plant and pulls more water up from roots. (4) Composition of air — air is a mixture: nitrogen 78 percent, oxygen 21 percent, carbon dioxide 0.04 percent, other gases (argon, helium, water vapour) about 1 percent. Oxygen is needed for breathing and burning. (5) Breathing and burning — breathing: living things take in oxygen and release carbon dioxide, happens in lungs, keeps us alive. Burning: needs oxygen to burn, releases carbon dioxide and heat and light, fire needs fuel + oxygen + heat. Both use oxygen and release carbon dioxide. Misconceptions: 'plants breathe in oxygen like animals' (plants make their own food through photosynthesis and release oxygen — they use oxygen only at night when there is no sunlight), 'air is mostly oxygen' (air is mostly NITROGEN at 78 percent, oxygen is only 21 percent), 'starch test uses water' (starch test uses IODINE which turns blue-black with starch), 'transpiration is the same as photosynthesis' (transpiration is water loss through leaf pores, photosynthesis is food making — they are different processes), 'burning and breathing are the same' (both use oxygen and release CO2, but burning needs fuel and produces heat and light, breathing happens in living cells to release energy from food). Default width=720, height=560. Use named export (export function PlantsAirGame), NOT export default. Export interface PlantsAirGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

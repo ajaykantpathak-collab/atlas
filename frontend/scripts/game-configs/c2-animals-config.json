@@ -1,0 +1,39 @@
+{
+  "gameTitle": "AnimalsGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\AnimalsGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c2_biology_enrichment_part13.marker",
+    "D:\\cisce\\bio\\enrichment\\c2_biology_enrichment_part14.marker",
+    "D:\\cisce\\bio\\enrichment\\c2_biology_enrichment_part15.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_bio_013 (Animal characteristics), c2_bio_014 (Animal habitats), c2_bio_015 (Life cycle of butterfly)",
+  "mascotName": "Ranger Rohan",
+  "mascotDescription": "a friendly wildlife ranger with a khaki hat, binoculars around the neck, a green vest, and a notebook. Custom SVG, not an owl.",
+  "sceneDescription": "forest scene with sky gradient through trees, a pond, grass ground, mountains in the background, and animal tracks",
+  "svgObjects": [
+    { "name": "FishIcon", "description": "a fish swimming in water" },
+    { "name": "BirdIcon", "description": "a bird flying in the sky" },
+    { "name": "FrogIcon", "description": "a frog on a lily pad" },
+    { "name": "RabbitIcon", "description": "a rabbit on grass" },
+    { "name": "SnakeIcon", "description": "a snake on the ground" },
+    { "name": "ButterflyEggIcon", "description": "a butterfly egg on a leaf" },
+    { "name": "CaterpillarIcon", "description": "a caterpillar eating a leaf" },
+    { "name": "ChrysalisIcon", "description": "a chrysalis/pupa hanging from a branch" },
+    { "name": "ButterflyIcon", "description": "a beautiful butterfly with colorful wings" },
+    { "name": "HabitatWaterIcon", "description": "a pond/water habitat" },
+    { "name": "HabitatTreeIcon", "description": "a tree habitat" },
+    { "name": "HabitatUndergroundIcon", "description": "an underground burrow habitat" }
+  ],
+  "challengeTypes": [
+    "identify: What can animals do that plants cannot? (Move from place to place vs Make food from sunlight vs Stay in one place)",
+    "identify: Where does a FISH live? (In water vs On trees vs Underground)",
+    "identify: Where does a BIRD live? (On trees vs In water vs Underground)",
+    "sort: Drag each animal to its habitat (Water: fish, frog | Trees: bird, monkey | Underground: rabbit, snake | Grass: cow, sheep)",
+    "identify: What does a caterpillar eat? (Leaves vs Fish vs Other animals)",
+    "identify: What comes AFTER the caterpillar in the butterfly life cycle? (Chrysalis/Pupa vs Egg vs Butterfly)",
+    "sort: Drag the butterfly life cycle stages in the correct order (1st: Egg | 2nd: Caterpillar | 3rd: Chrysalis/Pupa | 4th: Butterfly)",
+    "sort: Drag animals to how they move (Fly: bird, butterfly | Swim: fish, frog | Crawl: snake, lizard | Walk/Run: rabbit, cow, dog)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Animal characteristics — animals can move from place to place, animals grow, animals eat food (plants or other animals), animals breathe, animals reproduce. (2) Animal habitats — water (fish, frog, duck), trees (bird, monkey, squirrel), underground (rabbit, snake, earthworm), grass/land (cow, sheep, dog, horse). (3) Life cycle of butterfly — 1. Egg (laid on leaf by butterfly) → 2. Caterpillar/larva (hatches from egg, eats leaves, grows) → 3. Chrysalis/Pupa (caterpillar forms a hard case, changes inside) → 4. Butterfly (comes out of pupa, has wings, flies, lays eggs). Misconceptions: 'caterpillar is a baby butterfly' (caterpillar is the LARVA stage, not a baby butterfly — it changes inside the chrysalis), 'animals can make their own food like plants' (animals cannot make food, they eat plants or other animals), 'fish can live on land' (fish need water to breathe and live), 'butterfly comes out of an egg directly' (egg becomes caterpillar, then pupa, THEN butterfly). Default width=720, height=560. Use named export (export function AnimalsGame), NOT export default. Export interface AnimalsGameProps with width?, height?, onComplete?: (score: number) => void."
+}

@@ -1,0 +1,827 @@
+{
+  "gameFile": "ContinentsOceansGame",
+  "classLevel": 4,
+  "cisceNodes": [
+    "c4_geo_004",
+    "c4_geo_005",
+    "c4_geo_006"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Four Amazing Domains of Earth! 🌍",
+      "text": "Earth has four major domains: Lithosphere (land), Hydrosphere (water), Atmosphere (air), and Biosphere (where life exists like plants, animals, and us)!",
+      "emoji": "🌍",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Earth has four major domains: Lithosphere, Hydrosphere, Atmosphere, and Biosphere!",
+      "diagram": {
+        "type": "solar-system",
+        "animate": true,
+        "data": {
+          "planets": [
+            {
+              "name": "Earth",
+              "color": 4886745,
+              "distance": 70,
+              "size": 8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Seven Mighty Continents! 🗺️",
+      "text": "Earth's land is divided into seven massive blocks called continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia!",
+      "emoji": "🗺️",
+      "bgColor": "from-emerald-500 to-teal-600",
+      "spoken": "Earth's land is divided into seven massive continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "The Five Great Oceans! 🌊",
+      "text": "Water covers about 71 percent of Earth! The giant World Ocean is split into five parts: Pacific (largest), Atlantic (S-shaped), Indian, Southern, and Arctic!",
+      "emoji": "🌊",
+      "bgColor": "from-cyan-500 to-blue-600",
+      "spoken": "Water covers about 71 percent of Earth! The oceans are Pacific, Atlantic, Indian, Southern, and Arctic!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Asia & India! 🇮🇳",
+      "text": "Asia is the largest continent on Earth, and our country India is located right in Asia! India is famous for the Himalayas in the north and great rivers like the Ganga!",
+      "emoji": "🇮🇳",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "Asia is the largest continent on Earth, and our country India is located right in Asia!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {
+          "region": {
+            "x": 0,
+            "y": 0,
+            "label": "India"
+          }
+        }
+      }
+    },
+    {
+      "title": "Antarctica & The Poles! ❄️",
+      "text": "Antarctica is the coldest continent on Earth, covered entirely in thick ice! It has no permanent towns or cities — only brave scientists living in research stations!",
+      "emoji": "❄️",
+      "bgColor": "from-sky-400 to-blue-500",
+      "spoken": "Antarctica is the coldest continent on Earth, covered entirely in ice with no permanent human population!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What are the FOUR great domains of the Earth?",
+      "answer": "Lithosphere, hydrosphere, atmosphere, biosphere",
+      "options": [
+        "Lithosphere, hydrosphere, atmosphere, biosphere",
+        "Land, water, fire, wind",
+        "Asia, Africa, Europe, Australia"
+      ],
+      "hint": "Think of the four natural systems: stone land, all water, air blanket, and living zone!",
+      "misconception": "The four natural domains are Lithosphere (land), Hydrosphere (water), Atmosphere (air), and Biosphere (life)! Not fire or directions!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Lithosphere, hydrosphere, atmosphere, biosphere",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Land, water, fire, wind",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Asia, Africa, Europe, Australia",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Land, water, fire, wind",
+          "Lithosphere, hydrosphere, atmosphere, biosphere"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each domain to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Lithosphere is solid land, hydrosphere is water, atmosphere is air, biosphere is life!",
+      "misconception": "Remember: Lithosphere = solid rocky land. Hydrosphere = all water. Atmosphere = blanket of gases. Biosphere = zone of living things!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "dom-1",
+            "label": "Lithosphere",
+            "correctBin": "bin-l"
+          },
+          {
+            "id": "dom-2",
+            "label": "Hydrosphere",
+            "correctBin": "bin-h"
+          },
+          {
+            "id": "dom-3",
+            "label": "Atmosphere",
+            "correctBin": "bin-a"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "dom-1",
+          "kind": "circle",
+          "label": "Lithosphere",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-l",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-l"
+        },
+        {
+          "id": "dom-2",
+          "kind": "circle",
+          "label": "Hydrosphere",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-h",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-h"
+        },
+        {
+          "id": "dom-3",
+          "kind": "circle",
+          "label": "Atmosphere",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-a",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-a"
+        },
+        {
+          "id": "dom-4",
+          "kind": "circle",
+          "label": "Biosphere",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-b",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-b"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "dom-1",
+          "label": "Lithosphere",
+          "emoji": "",
+          "correctBin": "bin-l"
+        },
+        {
+          "id": "dom-2",
+          "label": "Hydrosphere",
+          "emoji": "",
+          "correctBin": "bin-h"
+        },
+        {
+          "id": "dom-3",
+          "label": "Atmosphere",
+          "emoji": "",
+          "correctBin": "bin-a"
+        },
+        {
+          "id": "dom-4",
+          "label": "Biosphere",
+          "emoji": "",
+          "correctBin": "bin-b"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-l",
+          "label": "Solid Land 🏔️",
+          "color": "#8D6E63"
+        },
+        {
+          "id": "bin-h",
+          "label": "All Water 🌊",
+          "color": "#0288D1"
+        },
+        {
+          "id": "bin-a",
+          "label": "Air Blanket ☁️",
+          "color": "#4CAF50"
+        },
+        {
+          "id": "bin-b",
+          "label": "Life Zone 🌳",
+          "color": "#FF9800"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "How many CONTINENTS are there on Earth?",
+      "answer": "7 continents",
+      "options": [
+        "5 continents",
+        "7 continents",
+        "10 continents"
+      ],
+      "hint": "Count them: Asia, Africa, North America, South America, Antarctica, Europe, Australia!",
+      "misconception": "There are exactly 7 continents on Earth! Asia is the largest and Australia is the smallest.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "5 continents",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "7 continents",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "10 continents",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "7 continents",
+          "5 continents"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each continent to its correct map feature!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Asia is biggest and has India, Africa has the equator in the middle, Antarctica is freezing ice!",
+      "misconception": "Check carefully: Asia is the largest, Africa has the equator running through its middle, Antarctica is covered in ice, and Australia is an island continent!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "con-1",
+            "label": "Asia (Largest)",
+            "correctBin": "bin-asia"
+          },
+          {
+            "id": "con-2",
+            "label": "Africa (Equator)",
+            "correctBin": "bin-africa"
+          },
+          {
+            "id": "con-3",
+            "label": "Antarctica (Ice)",
+            "correctBin": "bin-ant"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "con-1",
+          "kind": "circle",
+          "label": "Asia (Largest)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-asia",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-asia"
+        },
+        {
+          "id": "con-2",
+          "kind": "circle",
+          "label": "Africa (Equator)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-africa",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-africa"
+        },
+        {
+          "id": "con-3",
+          "kind": "circle",
+          "label": "Antarctica (Ice)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ant",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ant"
+        },
+        {
+          "id": "con-4",
+          "kind": "circle",
+          "label": "Australia (Small)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-aus",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-aus"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "con-1",
+          "label": "Asia (Largest)",
+          "emoji": "",
+          "correctBin": "bin-asia"
+        },
+        {
+          "id": "con-2",
+          "label": "Africa (Equator)",
+          "emoji": "",
+          "correctBin": "bin-africa"
+        },
+        {
+          "id": "con-3",
+          "label": "Antarctica (Ice)",
+          "emoji": "",
+          "correctBin": "bin-ant"
+        },
+        {
+          "id": "con-4",
+          "label": "Australia (Small)",
+          "emoji": "",
+          "correctBin": "bin-aus"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-asia",
+          "label": "Asia 🌏",
+          "color": "#FF7043"
+        },
+        {
+          "id": "bin-africa",
+          "label": "Africa 🌍",
+          "color": "#FFA726"
+        },
+        {
+          "id": "bin-ant",
+          "label": "Antarctica ❄️",
+          "color": "#00BCD4"
+        },
+        {
+          "id": "bin-aus",
+          "label": "Australia 🦘",
+          "color": "#EC407A"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which is the LARGEST and DEEPEST ocean on Earth?",
+      "answer": "The Pacific Ocean",
+      "options": [
+        "The Pacific Ocean",
+        "The Atlantic Ocean",
+        "The Indian Ocean"
+      ],
+      "hint": "It is so huge that it covers more area than all the land on Earth put together!",
+      "misconception": "The Pacific Ocean is the largest and deepest ocean! The Atlantic is second largest and S-shaped.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "The Pacific Ocean",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The Atlantic Ocean",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The Indian Ocean",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "The Pacific Ocean",
+          "The Atlantic Ocean"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each ocean to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Pacific is largest/deepest, Atlantic is S-shaped, Indian is triangular with India at top!",
+      "misconception": "Remember: Pacific is largest and deepest. Atlantic is S-shaped. Indian Ocean is triangular and named after India!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. Pacific is largest/deepest, Atlantic is S-shaped, Indian is triangular with India at top!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "oc-1",
+          "kind": "circle",
+          "label": "Pacific Ocean",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-pac",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-pac"
+        },
+        {
+          "id": "oc-2",
+          "kind": "circle",
+          "label": "Atlantic Ocean",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-atl",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-atl"
+        },
+        {
+          "id": "oc-3",
+          "kind": "circle",
+          "label": "Indian Ocean",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ind",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ind"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "oc-1",
+          "label": "Pacific Ocean",
+          "emoji": "",
+          "correctBin": "bin-pac"
+        },
+        {
+          "id": "oc-2",
+          "label": "Atlantic Ocean",
+          "emoji": "",
+          "correctBin": "bin-atl"
+        },
+        {
+          "id": "oc-3",
+          "label": "Indian Ocean",
+          "emoji": "",
+          "correctBin": "bin-ind"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-pac",
+          "label": "Largest & Deepest 🌊",
+          "color": "#01579B"
+        },
+        {
+          "id": "bin-atl",
+          "label": "S-Shaped 🌀",
+          "color": "#0288D1"
+        },
+        {
+          "id": "bin-ind",
+          "label": "Triangular 🔺",
+          "color": "#00ACC1"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What percentage of the Earth's surface is covered by WATER?",
+      "answer": "About 71 percent",
+      "options": [
+        "About 71 percent",
+        "About 50 percent",
+        "About 30 percent"
+      ],
+      "hint": "That is why Earth is often called the Blue Planet! It is nearly three-quarters water.",
+      "misconception": "About 71 percent of Earth's surface is covered by water, while land covers only 29 percent!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "About 71 percent",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "About 50 percent",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "About 30 percent",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "About 71 percent",
+          "About 50 percent"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each continent/ocean to its correct category!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Asia and Africa are continents, Pacific and Atlantic are oceans!",
+      "misconception": "Make sure not to mix up continents (vast landmasses) with oceans (vast bodies of salt water)!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "mix-1",
+            "label": "North America",
+            "correctBin": "bin-cont"
+          },
+          {
+            "id": "mix-2",
+            "label": "South America",
+            "correctBin": "bin-cont"
+          },
+          {
+            "id": "mix-3",
+            "label": "Pacific Ocean",
+            "correctBin": "bin-ocean"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "mix-1",
+          "kind": "circle",
+          "label": "North America",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-cont",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-cont"
+        },
+        {
+          "id": "mix-2",
+          "kind": "circle",
+          "label": "South America",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-cont",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-cont"
+        },
+        {
+          "id": "mix-3",
+          "kind": "circle",
+          "label": "Pacific Ocean",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ocean",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ocean"
+        },
+        {
+          "id": "mix-4",
+          "kind": "circle",
+          "label": "Atlantic Ocean",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ocean",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ocean"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "mix-1",
+          "label": "North America",
+          "emoji": "",
+          "correctBin": "bin-cont"
+        },
+        {
+          "id": "mix-2",
+          "label": "South America",
+          "emoji": "",
+          "correctBin": "bin-cont"
+        },
+        {
+          "id": "mix-3",
+          "label": "Pacific Ocean",
+          "emoji": "",
+          "correctBin": "bin-ocean"
+        },
+        {
+          "id": "mix-4",
+          "label": "Atlantic Ocean",
+          "emoji": "",
+          "correctBin": "bin-ocean"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-cont",
+          "label": "Continent 🗺️",
+          "color": "#4CAF50"
+        },
+        {
+          "id": "bin-ocean",
+          "label": "Ocean 🌊",
+          "color": "#0288D1"
+        }
+      ]
+    }
+  ],
+  "theme": "ocean",
+  "storyArc": {
+    "theme": "An adventurer travels across the world",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-map",
+    "title": "World Map",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_geo_004",
+    "region": "World Explorer",
+    "mapX": 0.88,
+    "mapY": 0.8700000000000001,
+    "icon": "🌍",
+    "prerequisites": [
+      "c4_geo_005"
+    ]
+  },
+  "subject": "geography"
+}

@@ -1,0 +1,841 @@
+{
+  "gameFile": "CountingGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_math_001"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Numbers and Numerals 🍎",
+      "text": "A number is the idea of how many things there are. A numeral is the written mark we use, like 7 or 15! Piku has 5 delicious red apples in her basket!",
+      "emoji": "🍎",
+      "bgColor": "from-red-400 to-rose-500",
+      "spoken": "",
+      "diagram": {
+        "type": "place-value-chart",
+        "animate": true,
+        "data": {
+          "columns": [
+            "Crores",
+            "Lakhs",
+            "Thousands",
+            "Ones"
+          ],
+          "digits": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Counting One by One 🖐️",
+      "text": "When counting objects up to 20, touch each object exactly once and say the number names in order: one, two, three... up to twenty! Never skip or repeat a number!",
+      "emoji": "🔢",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "The Teen Numbers 🌟",
+      "text": "Numbers from 11 to 20 have two digits! 11 has a 1 in the tens place and a 1 in the units place. They go: eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty!",
+      "emoji": "✨",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "",
+      "diagram": {
+        "type": "place-value-chart",
+        "animate": true,
+        "data": {
+          "columns": [
+            "Crores",
+            "Lakhs",
+            "Thousands",
+            "Ones"
+          ],
+          "digits": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Which is More? ⚖️",
+      "text": "On the number line, numbers further along are greater! 14 is more than 9 because 14 comes after 9. The plate with 14 apples has more than the plate with 9 apples!",
+      "emoji": "⚖️",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "",
+      "diagram": {
+        "type": "bar-chart",
+        "animate": true,
+        "data": {
+          "bars": [
+            {
+              "label": "A",
+              "value": 40
+            },
+            {
+              "label": "B",
+              "value": 60
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Read the Whole Numeral! 🧠",
+      "text": "Never judge a number by a single digit! 11 is more than 9 because eleven is a two-digit teen number that comes after nine on the number line. Always read the whole numeral!",
+      "emoji": "💡",
+      "bgColor": "from-purple-400 to-pink-500",
+      "spoken": "",
+      "diagram": {
+        "type": "place-value-chart",
+        "animate": true,
+        "data": {
+          "columns": [
+            "Crores",
+            "Lakhs",
+            "Thousands",
+            "Ones"
+          ],
+          "digits": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_count",
+      "question": "Piku has a basket of apples. Count them: 1, 2, 3, 4, 5. How many apples are there?",
+      "answer": "5",
+      "options": [
+        "4",
+        "5",
+        "6"
+      ],
+      "hint": "Count each apple by touching it once: one, two, three, four, five!",
+      "misconception": "Make sure to touch each object exactly once and say the number names in order without skipping! There are 5 apples!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "apple",
+          "label": "4",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "apple",
+          "label": "5",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "apple",
+          "label": "6",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "5",
+          "4"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_after",
+      "question": "Which number comes right after 7 when counting?",
+      "answer": "8",
+      "options": [
+        "6",
+        "8",
+        "9"
+      ],
+      "hint": "Recite from 1: one, two, three, four, five, six, seven, eight!",
+      "misconception": "Each number name is one more than the previous name. After 7 comes 8!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "apple",
+          "label": "6",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "apple",
+          "label": "8",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "apple",
+          "label": "9",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "8",
+          "6"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_compare",
+      "question": "Which is MORE apples: 11 or 9?",
+      "answer": "11",
+      "options": [
+        "9",
+        "11",
+        "Same"
+      ],
+      "hint": "Look at the number line: 11 comes after 9, so 11 is further along and greater!",
+      "misconception": "A common mistake is thinking 9 looks bigger than two 1s. But 11 is a teen number that comes after 9, so 11 is more!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "apple",
+          "label": "9",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "apple",
+          "label": "11",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "apple",
+          "label": "Same",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "11",
+          "9"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_sequence",
+      "question": "Drag the number cards in correct order from 1 to 5!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Start with 1, then 2, 3, 4, and 5!",
+      "misconception": "Counting must follow the strict order: one, two, three, four, five. Place each number in its correct spot!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "num-3",
+            "label": "3",
+            "correctBin": "slot-3"
+          },
+          {
+            "id": "num-1",
+            "label": "1",
+            "correctBin": "slot-1"
+          },
+          {
+            "id": "num-4",
+            "label": "4",
+            "correctBin": "slot-4"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "num-3",
+          "kind": "circle",
+          "label": "3",
+          "x": 0.16666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "slot-3",
+          "interaction": "drag-to-bin",
+          "targetBin": "slot-3"
+        },
+        {
+          "id": "num-1",
+          "kind": "circle",
+          "label": "1",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "slot-1",
+          "interaction": "drag-to-bin",
+          "targetBin": "slot-1"
+        },
+        {
+          "id": "num-4",
+          "kind": "circle",
+          "label": "4",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "slot-4",
+          "interaction": "drag-to-bin",
+          "targetBin": "slot-4"
+        },
+        {
+          "id": "num-2",
+          "kind": "circle",
+          "label": "2",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "slot-2",
+          "interaction": "drag-to-bin",
+          "targetBin": "slot-2"
+        },
+        {
+          "id": "num-5",
+          "kind": "circle",
+          "label": "5",
+          "x": 0.8333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "slot-5",
+          "interaction": "drag-to-bin",
+          "targetBin": "slot-5"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "num-3",
+          "label": "3",
+          "emoji": "",
+          "correctBin": "slot-3"
+        },
+        {
+          "id": "num-1",
+          "label": "1",
+          "emoji": "",
+          "correctBin": "slot-1"
+        },
+        {
+          "id": "num-4",
+          "label": "4",
+          "emoji": "",
+          "correctBin": "slot-4"
+        },
+        {
+          "id": "num-2",
+          "label": "2",
+          "emoji": "",
+          "correctBin": "slot-2"
+        },
+        {
+          "id": "num-5",
+          "label": "5",
+          "emoji": "",
+          "correctBin": "slot-5"
+        }
+      ],
+      "bins": [
+        {
+          "id": "slot-1",
+          "label": "1",
+          "color": "#EF4444"
+        },
+        {
+          "id": "slot-2",
+          "label": "2",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "slot-3",
+          "label": "3",
+          "color": "#10B981"
+        },
+        {
+          "id": "slot-4",
+          "label": "4",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "slot-5",
+          "label": "5",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify_teen",
+      "question": "What is the number name for the numeral 15?",
+      "answer": "Fifteen",
+      "options": [
+        "Thirteen",
+        "Fifteen",
+        "Fifty"
+      ],
+      "hint": "15 is 1 ten and 5 units. Its name is fifteen!",
+      "misconception": "Teen numbers eleven to twenty have special names that must be memorized: eleven, twelve, thirteen, fourteen, fifteen!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Thirteen",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Fifteen",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Fifty",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Thirteen",
+          "Fifteen"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_biggest",
+      "question": "Which of these numbers is the biggest?",
+      "answer": "20",
+      "options": [
+        "12",
+        "8",
+        "20"
+      ],
+      "hint": "Recite up to 20: 20 is the largest number in our set of numbers from 1 to 20!",
+      "misconception": "20 is two tens, which is the highest number in our Class 1 counting set from 1 to 20!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "12",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "8",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "20",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "12",
+          "20"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_before_after",
+      "question": "Drag the number cards! Which numbers come BEFORE 5 and which come AFTER 5?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Before 5: 3, 4. After 5: 6, 7!",
+      "misconception": "Numbers before 5 are smaller (1, 2, 3, 4). Numbers after 5 are greater (6, 7, 8, 9, 10)!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "num-3",
+            "label": "3",
+            "correctBin": "before"
+          },
+          {
+            "id": "num-7",
+            "label": "7",
+            "correctBin": "after"
+          },
+          {
+            "id": "num-2",
+            "label": "2",
+            "correctBin": "before"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "num-3",
+          "kind": "circle",
+          "label": "3",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "before",
+          "interaction": "drag-to-bin",
+          "targetBin": "before"
+        },
+        {
+          "id": "num-7",
+          "kind": "circle",
+          "label": "7",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "after",
+          "interaction": "drag-to-bin",
+          "targetBin": "after"
+        },
+        {
+          "id": "num-2",
+          "kind": "circle",
+          "label": "2",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "before",
+          "interaction": "drag-to-bin",
+          "targetBin": "before"
+        },
+        {
+          "id": "num-8",
+          "kind": "circle",
+          "label": "8",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "after",
+          "interaction": "drag-to-bin",
+          "targetBin": "after"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "num-3",
+          "label": "3",
+          "emoji": "",
+          "correctBin": "before"
+        },
+        {
+          "id": "num-7",
+          "label": "7",
+          "emoji": "",
+          "correctBin": "after"
+        },
+        {
+          "id": "num-2",
+          "label": "2",
+          "emoji": "",
+          "correctBin": "before"
+        },
+        {
+          "id": "num-8",
+          "label": "8",
+          "emoji": "",
+          "correctBin": "after"
+        }
+      ],
+      "bins": [
+        {
+          "id": "before",
+          "label": "Before 5 (Smaller)",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "after",
+          "label": "After 5 (Larger)",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "sort_digits",
+      "question": "Drag the numbers! Is it a single-digit number (1-9) or a teen number (11-20)?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Single digits have one number symbol. Teens have two digits starting with 1!",
+      "misconception": "Single-digit numbers are from 1 to 9. Teen numbers have a 1 in the tens place (11 to 20)!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "s-7",
+            "label": "7",
+            "correctBin": "single"
+          },
+          {
+            "id": "t-14",
+            "label": "14",
+            "correctBin": "teen"
+          },
+          {
+            "id": "s-4",
+            "label": "4",
+            "correctBin": "single"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "s-7",
+          "kind": "circle",
+          "label": "7",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "single",
+          "interaction": "drag-to-bin",
+          "targetBin": "single"
+        },
+        {
+          "id": "t-14",
+          "kind": "circle",
+          "label": "14",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "teen",
+          "interaction": "drag-to-bin",
+          "targetBin": "teen"
+        },
+        {
+          "id": "s-4",
+          "kind": "circle",
+          "label": "4",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "single",
+          "interaction": "drag-to-bin",
+          "targetBin": "single"
+        },
+        {
+          "id": "t-19",
+          "kind": "circle",
+          "label": "19",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "teen",
+          "interaction": "drag-to-bin",
+          "targetBin": "teen"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s-7",
+          "label": "7",
+          "emoji": "",
+          "correctBin": "single"
+        },
+        {
+          "id": "t-14",
+          "label": "14",
+          "emoji": "",
+          "correctBin": "teen"
+        },
+        {
+          "id": "s-4",
+          "label": "4",
+          "emoji": "",
+          "correctBin": "single"
+        },
+        {
+          "id": "t-19",
+          "label": "19",
+          "emoji": "",
+          "correctBin": "teen"
+        }
+      ],
+      "bins": [
+        {
+          "id": "single",
+          "label": "Single Digit (1-9)",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "teen",
+          "label": "Teen Number (11-20)",
+          "color": "#8B5CF6"
+        }
+      ]
+    }
+  ],
+  "theme": "orchard",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_math_001",
+    "region": "Mathland",
+    "mapX": 0.82,
+    "mapY": 0.63,
+    "icon": "🔢",
+    "prerequisites": []
+  },
+  "subject": "maths"
+}

@@ -23,6 +23,9 @@ from backend.routers import (
     intelligence_router,
     its_tutor_router,
     teacher_analytics_router,
+    analytics_router,
+    accessibility_router,
+    student_router,
 )
 
 settings = get_settings()
@@ -79,6 +82,9 @@ app.include_router(enhanced_nodes_router)
 app.include_router(intelligence_router)
 app.include_router(its_tutor_router)
 app.include_router(teacher_analytics_router)
+app.include_router(analytics_router)
+app.include_router(accessibility_router)
+app.include_router(student_router)
 
 
 @app.get("/health")

@@ -1,0 +1,43 @@
+{
+  "gameTitle": "HealthGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\HealthGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c3_biology_enrichment_part21.marker",
+    "D:\\cisce\\bio\\enrichment\\c3_biology_enrichment_part22.marker",
+    "D:\\cisce\\bio\\enrichment\\c3_biology_enrichment_part23.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_bio_021 (Personal cleanliness), c3_bio_022 (Healthy body through food, rest, exercise), c3_bio_023 (Clean surroundings and public health)",
+  "mascotName": "Nurse Nirmala",
+  "mascotDescription": "a friendly nurse with a white uniform, a first-aid kit, a thermometer, and a smile. Custom SVG, not an owl.",
+  "sceneDescription": "health clinic scene with sky gradient, a clinic building, a park with exercise equipment, a dustbin, and clean trees",
+  "svgObjects": [
+    { "name": "SoapIcon", "description": "a bar of soap for handwashing" },
+    { "name": "ToothbrushIcon", "description": "a toothbrush with toothpaste" },
+    { "name": "CombIcon", "description": "a comb for hair" },
+    { "name": "NailCutterIcon", "description": "a nail cutter" },
+    { "name": "TowelIcon", "description": "a clean towel" },
+    { "name": "AppleIcon", "description": "a healthy apple" },
+    { "name": "VegetableIcon", "description": "healthy vegetables" },
+    { "name": "RunningIcon", "description": "a person running/exercising" },
+    { "name": "SleepIcon", "description": "a person sleeping/resting" },
+    { "name": "WaterGlassIcon", "description": "a glass of clean water" },
+    { "name": "DustbinIcon", "description": "a covered dustbin" },
+    { "name": "MosquitoNetIcon", "description": "a mosquito net" },
+    { "name": "JunkFoodIcon", "description": "junk food (chips, cola)" },
+    { "name": "GermIcon", "description": "germs/bacteria" }
+  ],
+  "challengeTypes": [
+    "identify: How often should you brush your teeth? (Twice a day — morning and night vs Once a week vs Only when teeth hurt)",
+    "identify: When should you wash your hands with soap? (Before eating and after using the toilet vs Only on Sundays vs Never)",
+    "sort: Drag each personal cleanliness habit to Good or Bad (Good: brush twice daily, wash hands with soap, bathe daily, trim nails, wear clean clothes | Bad: skip bath, eat with dirty hands, share towels, never trim nails)",
+    "identify: Which of these is a HEALTHY food choice? (Fresh fruits and vegetables vs Chips and cola vs Only sweets)",
+    "sort: Drag each item to Keep Body Healthy or Harm Body (Healthy: eat fruits and veg, drink clean water, exercise daily, sleep 8 hours, wash hands | Harm: eat junk food, drink dirty water, no exercise, stay up late, skip meals)",
+    "identify: How many hours of sleep does a Class 3 child need? (8-10 hours vs 2 hours vs 15 hours)",
+    "sort: Drag each action to Clean Surroundings or Dirty Surroundings (Clean: throw garbage in dustbin, cover food, clean water storage, use toilet, plant trees | Dirty: litter on road, open garbage, stagnant water, no toilet, cut trees)",
+    "sort: Drag each disease to its cause and prevention (Malaria: mosquito bite, use nets | Diarrhoea: dirty water, drink clean water | Cold: germs, wash hands | Dengue: mosquito, no stagnant water | Worms: dirty food, wash before eating)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Personal cleanliness — brush teeth twice daily (morning and night), wash hands with soap before eating and after using toilet, bathe daily, trim nails weekly, wear clean clothes, comb hair, wash hair regularly. Cleanliness prevents germs and disease. (2) Healthy body through food, rest, exercise — eat balanced diet (fruits, vegetables, cereals, dal, milk), drink 8 glasses of clean water daily, exercise/play outdoors for 1 hour daily, sleep 8-10 hours, avoid junk food (chips, cola, too many sweets). Rest helps body recover and grow. Exercise makes muscles and bones strong. (3) Clean surroundings and public health — throw garbage in covered dustbin, do not litter, keep water storage covered, use toilet not open areas, do not let water stagnate (mosquito breeding), plant trees, clean your house and classroom. Diseases spread through dirty water, food, air, and mosquitoes. Malaria and dengue spread through mosquito bites. Diarrhoea from dirty water. Colds from germs. Worms from dirty food. Misconceptions: 'brushing once a day is enough' (brush twice — morning and night), 'junk food gives energy' (junk food has empty calories — no vitamins or minerals), 'sleeping less gives more study time' (children need 8-10 hours of sleep for growth and brain development), 'mosquitoes breed in clean water only' (mosquitoes breed in stagnant water — clean or dirty), 'washing hands with only water is enough' (soap is needed to kill germs — water alone does not remove all germs). Default width=720, height=560. Use named export (export function HealthGame), NOT export default. Export interface HealthGameProps with width?, height?, onComplete?: (score: number) => void."
+}

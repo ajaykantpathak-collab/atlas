@@ -554,6 +554,26 @@ async def log_interaction(req: InteractionLogRequest):
             mastery_before=req.mastery_before,
             mastery_after=req.mastery_after,
         )
+        # Feed the intelligence bus so InteractionOutcome/misconception
+        # persistence + remediation actually fire — the JSONL capture above
+        # is a side-channel, this is the real data path.
+        try:
+            from backend.services.intelligence_bus import (
+                emit_student_answer, emit_hint,
+            )
+            emit_student_answer(
+                problem_type_id=req.node_id,
+                correct=bool(req.is_correct),
+                student_id=str(req.student_id),
+            )
+            for _ in range(req.hints_used or 0):
+                emit_hint(
+                    problem_type_id=req.node_id,
+                    rung=1,
+                    student_id=str(req.student_id),
+                )
+        except Exception:
+            pass  # telemetry must never break the interaction log
         return {"status": "logged", "record_id": getattr(record, "id", str(uuid.uuid4()))}
     except Exception as e:
         logger.exception("Interaction log error")

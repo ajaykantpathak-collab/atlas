@@ -1,0 +1,892 @@
+{
+  "gameFile": "WordAdvancedGame",
+  "classLevel": 5,
+  "cisceNodes": [
+    "c5_cs_008",
+    "c5_cs_009",
+    "c5_cs_010"
+  ],
+  "mascot": "Designer Dev ──────────────────────────",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Advanced Formatting & Format Painter 🖌️",
+      "text": "The Format Painter is like a magic styling photocopier! It copies font style, size, and color from one heading and applies it instantly to another without copying the words.",
+      "emoji": "🖌️",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "The Format Painter is like a magic styling photocopier! It copies font style and color from one heading and applies it to another instantly.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Superscript & Subscript 🔣",
+      "text": "Superscript raises text slightly above the baseline for math exponents like x²! Subscript lowers text below the baseline for chemical formulas like H₂O.",
+      "emoji": "🔣",
+      "bgColor": "from-cyan-500 to-blue-600",
+      "spoken": "Superscript raises text above the line for math like x squared! Subscript lowers text below the line for chemistry like H2O.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Headers, Footers & Page Setup 📄",
+      "text": "Headers appear at the top margin of every page (like project titles), and footers at the bottom (like page numbers). Page setup controls margins, orientation, and A4 paper size!",
+      "emoji": "📄",
+      "bgColor": "from-teal-500 to-emerald-600",
+      "spoken": "Headers appear at the top margin of every page, and footers at the bottom. Page setup controls margins, orientation, and paper size.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Orientation & Breaks 📐",
+      "text": "Portrait orientation stands tall for stories and essays, while landscape orientation lies wide for charts and tables! Page breaks force content to start on a brand new sheet.",
+      "emoji": "📐",
+      "bgColor": "from-emerald-500 to-green-600",
+      "spoken": "Portrait orientation stands tall, while landscape lies wide for charts! Page breaks force content to start on a brand new sheet.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "WordArt, Watermarks & Cover Pages ✨",
+      "text": "WordArt gives titles 3D and shadow effects. Watermarks place faint text like DRAFT behind your content. Borders frame paragraphs, and cover pages introduce your project beautifully!",
+      "emoji": "✨",
+      "bgColor": "from-indigo-500 to-purple-600",
+      "spoken": "WordArt gives titles 3D and shadow effects. Watermarks place faint text like DRAFT behind your content. Cover pages introduce your project!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Create",
+            "Edit",
+            "Format",
+            "Save"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which tool copies formatting from one piece of text and applies it to another without copying the words?",
+      "answer": "Format Painter",
+      "options": [
+        "Format Painter",
+        "Spell Check",
+        "WordArt"
+      ],
+      "hint": "Look for the paintbrush icon on the Home ribbon! It copies the look, not the text.",
+      "misconception": "Format Painter copies ONLY formatting (color, size, style), not the text content itself! Copy-paste copies the words.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Format Painter",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Spell Check",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "WordArt",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Spell Check",
+          "Format Painter"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each advanced formatting tool to its correct function description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match Format Painter, Superscript, Subscript, and Shadow to their exact jobs!",
+      "misconception": "Superscript raises text above the line (x²), while subscript lowers text below the line (H₂O). They are not interchangeable!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "fp",
+            "label": "Format Painter",
+            "correctBin": "bin-fp"
+          },
+          {
+            "id": "sup",
+            "label": "Superscript",
+            "correctBin": "bin-sup"
+          },
+          {
+            "id": "sub",
+            "label": "Subscript",
+            "correctBin": "bin-sub"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "fp",
+          "kind": "circle",
+          "label": "Format Painter",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-fp",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-fp"
+        },
+        {
+          "id": "sup",
+          "kind": "circle",
+          "label": "Superscript",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-sup",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-sup"
+        },
+        {
+          "id": "sub",
+          "kind": "circle",
+          "label": "Subscript",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-sub",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-sub"
+        },
+        {
+          "id": "shd",
+          "kind": "circle",
+          "label": "Shadow Effect",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-shd",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-shd"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "fp",
+          "label": "Format Painter",
+          "emoji": "",
+          "correctBin": "bin-fp"
+        },
+        {
+          "id": "sup",
+          "label": "Superscript",
+          "emoji": "",
+          "correctBin": "bin-sup"
+        },
+        {
+          "id": "sub",
+          "label": "Subscript",
+          "emoji": "",
+          "correctBin": "bin-sub"
+        },
+        {
+          "id": "shd",
+          "label": "Shadow Effect",
+          "emoji": "",
+          "correctBin": "bin-shd"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-fp",
+          "label": "Copy Look",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-sup",
+          "label": "Raise Text (x²)",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-sub",
+          "label": "Lower Text (H₂O)",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-shd",
+          "label": "Text Outline",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Where does a HEADER appear in a Microsoft Word document?",
+      "answer": "At the top margin of every page automatically",
+      "options": [
+        "At the top margin of every page automatically",
+        "Only on the first page as a title",
+        "At the very bottom right corner"
+      ],
+      "hint": "Think of the top margin area where repeated titles or project names show up on every page.",
+      "misconception": "A header is placed at the top margin of every page automatically. You do not need to type it manually on each page!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "At the top margin of every page automatically",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Only on the first page as a title",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "At the very bottom right corner",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Only on the first page as a title",
+          "At the top margin of every page automatically"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each page setup or layout feature to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match Header, Footer, Margins, and Page Break to what they control!",
+      "misconception": "Margins are the blank spaces around the page edges, whereas headers and footers are the top and bottom repeat areas.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "hdr",
+            "label": "Header",
+            "correctBin": "bin-hdr"
+          },
+          {
+            "id": "ftr",
+            "label": "Footer",
+            "correctBin": "bin-ftr"
+          },
+          {
+            "id": "mar",
+            "label": "Margins",
+            "correctBin": "bin-mar"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "hdr",
+          "kind": "circle",
+          "label": "Header",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-hdr",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-hdr"
+        },
+        {
+          "id": "ftr",
+          "kind": "circle",
+          "label": "Footer",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ftr",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ftr"
+        },
+        {
+          "id": "mar",
+          "kind": "circle",
+          "label": "Margins",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-mar",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-mar"
+        },
+        {
+          "id": "brk",
+          "kind": "circle",
+          "label": "Page Break",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-brk",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-brk"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "hdr",
+          "label": "Header",
+          "emoji": "",
+          "correctBin": "bin-hdr"
+        },
+        {
+          "id": "ftr",
+          "label": "Footer",
+          "emoji": "",
+          "correctBin": "bin-ftr"
+        },
+        {
+          "id": "mar",
+          "label": "Margins",
+          "emoji": "",
+          "correctBin": "bin-mar"
+        },
+        {
+          "id": "brk",
+          "label": "Page Break",
+          "emoji": "",
+          "correctBin": "bin-brk"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-hdr",
+          "label": "Top Margin Text",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-ftr",
+          "label": "Bottom Margin (Page #)",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-mar",
+          "label": "Blank Page Edges",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-brk",
+          "label": "New Sheet Force",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is WORDART used for in a word processor?",
+      "answer": "Creating decorative, stylized titles with 3D and shadow effects",
+      "options": [
+        "Creating decorative, stylized titles with 3D and shadow effects",
+        "Checking grammar and spelling errors",
+        "Setting document page margins"
+      ],
+      "hint": "Think of big, colorful, curved title letters that stand out on a poster!",
+      "misconception": "WordArt is decorative text with special visual effects used for titles. It is not the same as standard body text formatting.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Creating decorative, stylized titles with 3D and shadow effects",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Checking grammar and spelling errors",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Setting document page margins",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Creating decorative, stylized titles with 3D and shadow effects",
+          "Checking grammar and spelling errors"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each visual document element to its correct category!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match WordArt, Watermark, Shape, and Cover Page to their roles!",
+      "misconception": "Watermark is a faint background image or text like DRAFT behind the content, whereas WordArt is bright text in front.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "wa",
+            "label": "WordArt",
+            "correctBin": "bin-wa"
+          },
+          {
+            "id": "wm",
+            "label": "Watermark",
+            "correctBin": "bin-wm"
+          },
+          {
+            "id": "shp",
+            "label": "Word Shape",
+            "correctBin": "bin-shp"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "wa",
+          "kind": "circle",
+          "label": "WordArt",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-wa",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-wa"
+        },
+        {
+          "id": "wm",
+          "kind": "water-drop",
+          "label": "Watermark",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "bin-wm",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-wm"
+        },
+        {
+          "id": "shp",
+          "kind": "circle",
+          "label": "Word Shape",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-shp",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-shp"
+        },
+        {
+          "id": "cp",
+          "kind": "circle",
+          "label": "Cover Page",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-cp",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-cp"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "wa",
+          "label": "WordArt",
+          "emoji": "",
+          "correctBin": "bin-wa"
+        },
+        {
+          "id": "wm",
+          "label": "Watermark",
+          "emoji": "",
+          "correctBin": "bin-wm"
+        },
+        {
+          "id": "shp",
+          "label": "Word Shape",
+          "emoji": "",
+          "correctBin": "bin-shp"
+        },
+        {
+          "id": "cp",
+          "label": "Cover Page",
+          "emoji": "",
+          "correctBin": "bin-cp"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-wa",
+          "label": "Stylized Title",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-wm",
+          "label": "Faint Background",
+          "color": "#64748B"
+        },
+        {
+          "id": "bin-shp",
+          "label": "Arrow / Rectangle",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-cp",
+          "label": "First Title Page",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which page orientation makes the page WIDER than it is tall, perfect for wide tables and charts?",
+      "answer": "Landscape",
+      "options": [
+        "Landscape",
+        "Portrait",
+        "A4 Standard"
+      ],
+      "hint": "Think of a sunset landscape photo that stretches wide across the screen!",
+      "misconception": "Landscape orientation is wider than it is tall. Portrait orientation stands tall for normal essays and letters.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Landscape",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Portrait",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A4 Standard",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Landscape",
+          "Portrait"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each document layout element to its exact location or purpose!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match Cover Page, Page Border, Watermark, and Page Break!",
+      "misconception": "A page border frames the edge of the page, while a watermark sits invisibly behind the text.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "cp2",
+            "label": "Cover Page",
+            "correctBin": "bin-cp2"
+          },
+          {
+            "id": "pb2",
+            "label": "Page Border",
+            "correctBin": "bin-pb2"
+          },
+          {
+            "id": "wm2",
+            "label": "Watermark",
+            "correctBin": "bin-wm2"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "cp2",
+          "kind": "circle",
+          "label": "Cover Page",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-cp2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-cp2"
+        },
+        {
+          "id": "pb2",
+          "kind": "circle",
+          "label": "Page Border",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-pb2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-pb2"
+        },
+        {
+          "id": "wm2",
+          "kind": "water-drop",
+          "label": "Watermark",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "bin-wm2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-wm2"
+        },
+        {
+          "id": "brk2",
+          "kind": "circle",
+          "label": "Page Break",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-brk2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-brk2"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "cp2",
+          "label": "Cover Page",
+          "emoji": "",
+          "correctBin": "bin-cp2"
+        },
+        {
+          "id": "pb2",
+          "label": "Page Border",
+          "emoji": "",
+          "correctBin": "bin-pb2"
+        },
+        {
+          "id": "wm2",
+          "label": "Watermark",
+          "emoji": "",
+          "correctBin": "bin-wm2"
+        },
+        {
+          "id": "brk2",
+          "label": "Page Break",
+          "emoji": "",
+          "correctBin": "bin-brk2"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-cp2",
+          "label": "First Page Title",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "bin-pb2",
+          "label": "Decorative Frame",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-wm2",
+          "label": "Behind Content",
+          "color": "#64748B"
+        },
+        {
+          "id": "bin-brk2",
+          "label": "Starts New Page",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A tech-savvy kid learns how computers work",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-structure",
+    "title": "Computer Tower",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_cs_008",
+    "region": "Tech City",
+    "mapX": 0.5800000000000001,
+    "mapY": 1.07,
+    "icon": "💻",
+    "prerequisites": [
+      "c5_cs_009"
+    ]
+  },
+  "subject": "cs"
+}

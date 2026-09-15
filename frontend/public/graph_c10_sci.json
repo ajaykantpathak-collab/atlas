@@ -1,0 +1,784 @@
+{
+  "nodes": [
+    {
+      "id": "c10_sci_001_01",
+      "topic": "Introduction to Chemical Reactions and Balanced Equations",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Chemical Reactions and Equations",
+      "root": false
+    },
+    {
+      "id": "c10_sci_001_02",
+      "topic": "Combination and Decomposition Reactions",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Chemical Reactions and Equations",
+      "root": false
+    },
+    {
+      "id": "c10_sci_001_03",
+      "topic": "Displacement and Double Displacement Reactions",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Chemical Reactions and Equations",
+      "root": false
+    },
+    {
+      "id": "c10_sci_001_04",
+      "topic": "Exothermic and Endothermic Reactions",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Chemical Reactions and Equations",
+      "root": false
+    },
+    {
+      "id": "c10_sci_001_05",
+      "topic": "Oxidation and Reduction Reactions (Redox)",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Chemical Reactions and Equations",
+      "root": false
+    },
+    {
+      "id": "c10_sci_002_01",
+      "topic": "Acids and Bases: Definitions and Indicators",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Acids, Bases and Salts",
+      "root": false
+    },
+    {
+      "id": "c10_sci_002_02",
+      "topic": "Neutralisation Reactions and the pH Scale",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Acids, Bases and Salts",
+      "root": false
+    },
+    {
+      "id": "c10_sci_002_03",
+      "topic": "Chemical Properties of Acids and Bases",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Acids, Bases and Salts",
+      "root": false
+    },
+    {
+      "id": "c10_sci_002_04",
+      "topic": "Preparation and Uses of Important Salts",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Acids, Bases and Salts",
+      "root": false
+    },
+    {
+      "id": "c10_sci_003_01",
+      "topic": "Physical and Chemical Properties of Metals and Non-metals",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Metals and Non-metals",
+      "root": false
+    },
+    {
+      "id": "c10_sci_003_02",
+      "topic": "Reactivity Series of Metals",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Metals and Non-metals",
+      "root": false
+    },
+    {
+      "id": "c10_sci_003_03",
+      "topic": "Formation and Properties of Ionic Compounds",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Metals and Non-metals",
+      "root": false
+    },
+    {
+      "id": "c10_sci_003_04",
+      "topic": "Basic Metallurgical Processes",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Metals and Non-metals",
+      "root": false
+    },
+    {
+      "id": "c10_sci_003_05",
+      "topic": "Corrosion and Its Prevention",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Metals and Non-metals",
+      "root": false
+    },
+    {
+      "id": "c10_sci_004_01",
+      "topic": "Covalent Bonding in Carbon Compounds",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Carbon and its Compounds",
+      "root": false
+    },
+    {
+      "id": "c10_sci_004_02",
+      "topic": "Hydrocarbons: Saturated and Unsaturated",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Carbon and its Compounds",
+      "root": false
+    },
+    {
+      "id": "c10_sci_004_03",
+      "topic": "IUPAC Nomenclature of Carbon Compounds",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Carbon and its Compounds",
+      "root": false
+    },
+    {
+      "id": "c10_sci_004_04",
+      "topic": "Chemical Properties of Carbon Compounds",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Carbon and its Compounds",
+      "root": false
+    },
+    {
+      "id": "c10_sci_004_05",
+      "topic": "Ethanol and Ethanoic Acid: Properties and Uses",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Carbon and its Compounds",
+      "root": false
+    },
+    {
+      "id": "c10_sci_004_06",
+      "topic": "Soaps and Detergents: Structure and Action",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Carbon and its Compounds",
+      "root": false
+    },
+    {
+      "id": "c10_sci_005_01",
+      "topic": "Introduction to Life Processes and Nutrition",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Life Processes",
+      "root": false
+    },
+    {
+      "id": "c10_sci_005_02",
+      "topic": "Human Digestive System",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Life Processes",
+      "root": false
+    },
+    {
+      "id": "c10_sci_005_03",
+      "topic": "Respiration: Aerobic and Anaerobic",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Life Processes",
+      "root": false
+    },
+    {
+      "id": "c10_sci_005_04",
+      "topic": "Transport in Plants and Animals",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Life Processes",
+      "root": false
+    },
+    {
+      "id": "c10_sci_005_05",
+      "topic": "Excretion in Humans and Plants",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Life Processes",
+      "root": false
+    },
+    {
+      "id": "c10_sci_006_01",
+      "topic": "Plant Movements and Hormones",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Control and Coordination",
+      "root": false
+    },
+    {
+      "id": "c10_sci_006_02",
+      "topic": "The Human Nervous System",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Control and Coordination",
+      "root": false
+    },
+    {
+      "id": "c10_sci_006_03",
+      "topic": "Reflex Actions and Voluntary vs Involuntary Actions",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Control and Coordination",
+      "root": false
+    },
+    {
+      "id": "c10_sci_006_04",
+      "topic": "Chemical Coordination: Animal Hormones and Endocrine Glands",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Control and Coordination",
+      "root": false
+    },
+    {
+      "id": "c10_sci_007_01",
+      "topic": "Asexual Reproduction: Methods and Examples",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "How Do Organisms Reproduce?",
+      "root": false
+    },
+    {
+      "id": "c10_sci_007_02",
+      "topic": "Sexual Reproduction in Plants: Flower Structure and Pollination",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "How Do Organisms Reproduce?",
+      "root": false
+    },
+    {
+      "id": "c10_sci_007_03",
+      "topic": "Sexual Reproduction in Humans: Male and Female Reproductive Systems",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "How Do Organisms Reproduce?",
+      "root": false
+    },
+    {
+      "id": "c10_sci_007_04",
+      "topic": "Fertilisation, Pregnancy, and Reproductive Health",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "How Do Organisms Reproduce?",
+      "root": false
+    },
+    {
+      "id": "c10_sci_008_01",
+      "topic": "Mendel's Experiments and Laws of Inheritance",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Heredity",
+      "root": false
+    },
+    {
+      "id": "c10_sci_008_02",
+      "topic": "Molecular Basis of Inheritance: DNA, Genes, and Chromosomes",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Heredity",
+      "root": false
+    },
+    {
+      "id": "c10_sci_008_03",
+      "topic": "Sex Determination and Trait Expression",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Heredity",
+      "root": false
+    },
+    {
+      "id": "c10_sci_008_04",
+      "topic": "Evolution: Variation, Natural Selection, and Speciation",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Heredity",
+      "root": false
+    },
+    {
+      "id": "c10_sci_008_05",
+      "topic": "Human Evolution and Tracing Evolutionary Relationships",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Heredity",
+      "root": false
+    },
+    {
+      "id": "c10_sci_009_01",
+      "topic": "Reflection of Light by Spherical Mirrors: Terminology and Ray Diagrams",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Light — Reflection and Refraction",
+      "root": false
+    },
+    {
+      "id": "c10_sci_009_02",
+      "topic": "Mirror Formula and Magnification for Spherical Mirrors",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Light — Reflection and Refraction",
+      "root": false
+    },
+    {
+      "id": "c10_sci_009_03",
+      "topic": "Refraction of Light: Laws and Refractive Index",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Light — Reflection and Refraction",
+      "root": false
+    },
+    {
+      "id": "c10_sci_009_04",
+      "topic": "Refraction by Spherical Lenses: Terminology and Ray Diagrams",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Light — Reflection and Refraction",
+      "root": false
+    },
+    {
+      "id": "c10_sci_009_05",
+      "topic": "Lens Formula, Magnification, and Power of a Lens",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Light — Reflection and Refraction",
+      "root": false
+    },
+    {
+      "id": "c10_sci_010_01",
+      "topic": "Structure and Function of the Human Eye",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "The Human Eye and the Colourful World",
+      "root": false
+    },
+    {
+      "id": "c10_sci_010_02",
+      "topic": "Defects of Vision and Their Correction",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "The Human Eye and the Colourful World",
+      "root": false
+    },
+    {
+      "id": "c10_sci_010_03",
+      "topic": "Refraction of Light Through a Prism",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "The Human Eye and the Colourful World",
+      "root": false
+    },
+    {
+      "id": "c10_sci_010_04",
+      "topic": "Dispersion of White Light by a Prism",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "The Human Eye and the Colourful World",
+      "root": false
+    },
+    {
+      "id": "c10_sci_010_05",
+      "topic": "Scattering of Light and Its Applications",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "The Human Eye and the Colourful World",
+      "root": false
+    },
+    {
+      "id": "c10_sci_011_01",
+      "topic": "Electric Current and Potential Difference",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Electricity",
+      "root": false
+    },
+    {
+      "id": "c10_sci_011_02",
+      "topic": "Ohm's Law and Resistance",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Electricity",
+      "root": false
+    },
+    {
+      "id": "c10_sci_011_03",
+      "topic": "Factors Affecting Resistance and Resistivity",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Electricity",
+      "root": false
+    },
+    {
+      "id": "c10_sci_011_04",
+      "topic": "Series and Parallel Combinations of Resistors",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Electricity",
+      "root": false
+    },
+    {
+      "id": "c10_sci_011_05",
+      "topic": "Heating Effect of Electric Current and Its Applications",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Electricity",
+      "root": false
+    },
+    {
+      "id": "c10_sci_011_06",
+      "topic": "Electric Power and Energy Consumption",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Electricity",
+      "root": false
+    },
+    {
+      "id": "c10_sci_012_01",
+      "topic": "Magnetic Field and Field Lines",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Magnetic Effects of Electric Current",
+      "root": false
+    },
+    {
+      "id": "c10_sci_012_02",
+      "topic": "Magnetic Field Due to a Current-Carrying Conductor",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Magnetic Effects of Electric Current",
+      "root": false
+    },
+    {
+      "id": "c10_sci_012_03",
+      "topic": "Force on a Current-Carrying Conductor in a Magnetic Field",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Magnetic Effects of Electric Current",
+      "root": false
+    },
+    {
+      "id": "c10_sci_012_04",
+      "topic": "Electric Motor (Formative Assessment)",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Magnetic Effects of Electric Current",
+      "root": false
+    },
+    {
+      "id": "c10_sci_012_05",
+      "topic": "Electromagnetic Induction and Electric Generator (Formative Assessment)",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Magnetic Effects of Electric Current",
+      "root": false
+    },
+    {
+      "id": "c10_sci_012_06",
+      "topic": "Alternating Current vs Direct Current",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Magnetic Effects of Electric Current",
+      "root": false
+    },
+    {
+      "id": "c10_sci_012_07",
+      "topic": "Domestic Electric Circuits and Safety",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Magnetic Effects of Electric Current",
+      "root": false
+    },
+    {
+      "id": "c10_sci_013_01",
+      "topic": "Ecosystem Components and Energy Flow",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Our Environment",
+      "root": false
+    },
+    {
+      "id": "c10_sci_013_02",
+      "topic": "Trophic Levels and Ecological Pyramids",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Our Environment",
+      "root": false
+    },
+    {
+      "id": "c10_sci_013_03",
+      "topic": "Biodegradable and Non-biodegradable Substances",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Our Environment",
+      "root": false
+    },
+    {
+      "id": "c10_sci_013_04",
+      "topic": "Waste Management and Sustainable Practices",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Our Environment",
+      "root": false
+    },
+    {
+      "id": "c10_sci_013_05",
+      "topic": "Ozone Layer Depletion and Its Effects",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Our Environment",
+      "root": false
+    },
+    {
+      "id": "c10_sci_013_06",
+      "topic": "Environmental Problems and Their Solutions",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Our Environment",
+      "root": false
+    },
+    {
+      "id": "c10_sci_014_01",
+      "topic": "Early Attempts at Classification: Dobereiner's Triads and Newlands' Octaves",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Periodic Classification of Elements",
+      "root": false
+    },
+    {
+      "id": "c10_sci_014_02",
+      "topic": "Mendeleev's Periodic Table and Its Significance",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Periodic Classification of Elements",
+      "root": false
+    },
+    {
+      "id": "c10_sci_014_03",
+      "topic": "Modern Periodic Table: Structure and Organization",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Periodic Classification of Elements",
+      "root": false
+    },
+    {
+      "id": "c10_sci_014_04",
+      "topic": "Periodic Trends: Metallic and Non-metallic Properties",
+      "subject": "sci",
+      "class": 10,
+      "chapter": "Periodic Classification of Elements",
+      "root": false
+    }
+  ],
+  "links": [
+    {
+      "source": "c10_sci_002_02",
+      "target": "c10_sci_002_01",
+      "reason": "Students must identify acids and bases before understanding their reaction"
+    },
+    {
+      "source": "c10_sci_003_02",
+      "target": "c10_sci_003_01",
+      "reason": "Understanding metal properties is necessary before comparing their reactivity"
+    },
+    {
+      "source": "c10_sci_008_02",
+      "target": "c10_sci_008_01",
+      "reason": "Mendel's laws describe inheritance patterns; this unit explains the molecular basis for those patterns"
+    },
+    {
+      "source": "c10_sci_014_03",
+      "target": "c10_sci_014_02",
+      "reason": "Understanding Mendeleev's table provides the foundation for learning about the modern periodic table based on atomic number"
+    },
+    {
+      "source": "c10_sci_013_03",
+      "target": "c10_sci_013_02",
+      "reason": "Understanding trophic levels and ecological pyramids provides the foundation for learning about biodegradable and non-biodegradable substances and how they move through food chains"
+    },
+    {
+      "source": "c10_sci_007_04",
+      "target": "c10_sci_007_03",
+      "reason": "Understanding male and female reproductive systems is essential before learning about fertilisation and reproductive health"
+    },
+    {
+      "source": "c10_sci_012_06",
+      "target": "c10_sci_012_05",
+      "reason": "Understanding how AC is generated helps explain its properties and advantages"
+    },
+    {
+      "source": "c10_sci_004_05",
+      "target": "c10_sci_004_04",
+      "reason": "Understanding combustion and oxidation reactions is necessary for studying the properties of ethanol and ethanoic acid"
+    },
+    {
+      "source": "c10_sci_014_04",
+      "target": "c10_sci_014_03",
+      "reason": "Understanding the structure of the modern periodic table leads to learning about periodic trends in properties across groups and periods"
+    },
+    {
+      "source": "c10_sci_005_05",
+      "target": "c10_sci_005_04",
+      "reason": "Understanding the circulatory system is necessary to understand how waste products are transported to excretory organs"
+    },
+    {
+      "source": "c10_sci_001_03",
+      "target": "c10_sci_001_02",
+      "reason": "Understanding combination and decomposition prepares students for more complex reaction types"
+    },
+    {
+      "source": "c10_sci_014_02",
+      "target": "c10_sci_014_01",
+      "reason": "Understanding early classification attempts leads to learning about Mendeleev's more successful periodic table and its contributions"
+    },
+    {
+      "source": "c10_sci_002_03",
+      "target": "c10_sci_001_01",
+      "reason": "Balancing equations skill is required for writing these reactions"
+    },
+    {
+      "source": "c10_sci_002_03",
+      "target": "c10_sci_002_01",
+      "reason": "Students need to know what acids and bases are before studying their reactions"
+    },
+    {
+      "source": "c10_sci_013_06",
+      "target": "c10_sci_013_05",
+      "reason": "Understanding ozone depletion as an environmental problem leads to learning about broader environmental issues and their solutions"
+    },
+    {
+      "source": "c10_sci_005_02",
+      "target": "c10_sci_005_01",
+      "reason": "Understanding the concept of heterotrophic nutrition is necessary before studying the human digestive system"
+    },
+    {
+      "source": "c10_sci_001_04",
+      "target": "c10_sci_001_02",
+      "reason": "Understanding decomposition (often endothermic) and combination (often exothermic) provides context for energy changes"
+    },
+    {
+      "source": "c10_sci_011_03",
+      "target": "c10_sci_011_02",
+      "reason": "Understanding resistance as a concept is necessary to explore what influences its value"
+    },
+    {
+      "source": "c10_sci_008_03",
+      "target": "c10_sci_008_02",
+      "reason": "Understanding DNA and chromosomes is essential before learning how sex is determined genetically"
+    },
+    {
+      "source": "c10_sci_010_02",
+      "target": "c10_sci_010_01",
+      "reason": "Understanding the normal eye's focusing mechanism is necessary to explain how defects arise and are corrected"
+    },
+    {
+      "source": "c10_sci_003_01",
+      "target": "c10_sci_002_01",
+      "reason": "Acid-base reactions with metals are relevant to metal properties"
+    },
+    {
+      "source": "c10_sci_006_03",
+      "target": "c10_sci_006_02",
+      "reason": "Understanding the structure of neurons and the nervous system is necessary before learning how reflex arcs function"
+    },
+    {
+      "source": "c10_sci_001_05",
+      "target": "c10_sci_001_03",
+      "reason": "Displacement reactions often involve electron transfer, providing context for redox"
+    },
+    {
+      "source": "c10_sci_009_02",
+      "target": "c10_sci_009_01",
+      "reason": "Understanding ray diagrams and mirror terminology is essential before applying the mirror formula"
+    },
+    {
+      "source": "c10_sci_004_03",
+      "target": "c10_sci_004_02",
+      "reason": "Knowledge of hydrocarbon types (alkanes, alkenes, alkynes) is required before learning their systematic names"
+    },
+    {
+      "source": "c10_sci_009_04",
+      "target": "c10_sci_009_03",
+      "reason": "Understanding refraction laws is essential before learning how lenses refract light to form images"
+    },
+    {
+      "source": "c10_sci_013_02",
+      "target": "c10_sci_013_01",
+      "reason": "Understanding ecosystem components and energy flow is essential before learning about trophic levels and how organisms are classified within food chains"
+    },
+    {
+      "source": "c10_sci_003_04",
+      "target": "c10_sci_003_03",
+      "reason": "Understanding ionic compounds helps explain why extraction is necessary"
+    },
+    {
+      "source": "c10_sci_010_01",
+      "target": "c10_sci_009_05",
+      "reason": "Understanding the lens formula, magnification, and power of a lens is essential to model the human eye as an optical system"
+    },
+    {
+      "source": "c10_sci_004_04",
+      "target": "c10_sci_004_03",
+      "reason": "Knowing the structure and naming of compounds is necessary to understand their chemical behaviour"
+    },
+    {
+      "source": "c10_sci_013_04",
+      "target": "c10_sci_013_03",
+      "reason": "Understanding biodegradable and non-biodegradable substances leads to learning about waste management strategies and their environmental solutions"
+    },
+    {
+      "source": "c10_sci_014_01",
+      "target": "c10_sci_004_01",
+      "reason": "Carbon and its compounds (electron distribution, valency, bonding) provides the chemistry background for understanding how elements are classified by their electron configurations"
+    },
+    {
+      "source": "c10_sci_002_04",
+      "target": "c10_sci_002_03",
+      "reason": "Understanding acid-base reactions is necessary for salt preparation methods"
+    },
+    {
+      "source": "c10_sci_002_01",
+      "target": "c10_sci_001_01",
+      "reason": "Understanding chemical equations is necessary for writing acid-base reactions"
+    },
+    {
+      "source": "c10_sci_012_04",
+      "target": "c10_sci_012_03",
+      "reason": "Understanding the force on a current-carrying conductor is essential to explain how a motor works"
+    },
+    {
+      "source": "c10_sci_009_05",
+      "target": "c10_sci_009_04",
+      "reason": "Understanding ray diagrams and lens terminology is essential before applying the lens formula"
+    },
+    {
+      "source": "c10_sci_004_02",
+      "target": "c10_sci_004_01",
+      "reason": "Understanding covalent bonding is necessary to grasp how carbon forms single, double, and triple bonds"
+    },
+    {
+      "source": "c10_sci_008_05",
+      "target": "c10_sci_008_04",
+      "reason": "Understanding general principles of evolution and evidence is necessary before studying human evolution specifically"
+    },
+    {
+      "source": "c10_sci_001_02",
+      "target": "c10_sci_001_01",
+      "reason": "Students must know how to write and balance equations before classifying reaction types"
+    },
+    {
+      "source": "c10_sci_012_02",
+      "target": "c10_sci_012_01",
+      "reason": "Understanding magnetic field lines is necessary to describe the field around conductors"
+    },
+    {
+      "source": "c10_sci_010_04",
+      "target": "c10_sci_010_03",
+      "reason": "Understanding refraction through a prism is necessary to explain why different colours deviate differently"
+    },
+    {
+      "source": "c10_sci_011_02",
+      "target": "c10_sci_011_01",
+      "reason": "Understanding current and potential difference is necessary to establish the relationship between them"
+    }
+  ]
+}

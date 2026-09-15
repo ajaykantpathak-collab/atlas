@@ -1,0 +1,41 @@
+{
+  "gameTitle": "MyEnvironmentGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\MyEnvironmentGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\evs\\enrichment\\c2_evs_enrichment_part1.marker",
+    "D:\\cisce\\evs\\enrichment\\c2_evs_enrichment_part2.marker",
+    "D:\\cisce\\evs\\enrichment\\c2_evs_enrichment_part3.marker",
+    "D:\\cisce\\evs\\enrichment\\c2_evs_enrichment_part4.marker",
+    "D:\\cisce\\evs\\enrichment\\c2_evs_enrichment_part5.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_evs_001 (My environment), c2_evs_002 (Local animals and birds), c2_evs_003 (Local plants and trees), c2_evs_004 (Physical features of locality), c2_evs_005 (Food - where it comes from)",
+  "mascotName": "Explorer Esha",
+  "mascotDescription": "a friendly nature explorer with a sun hat, binoculars, a backpack, and a magnifying glass. Custom SVG, not an owl.",
+  "sceneDescription": "neighbourhood scene with sky gradient, houses, trees, a pond, mountains, and a small market",
+  "svgObjects": [
+    { "name": "HouseIcon", "description": "a house with door and windows" },
+    { "name": "SchoolIcon", "description": "a school building" },
+    { "name": "TreeIcon", "description": "a big tree with leaves" },
+    { "name": "PondIcon", "description": "a pond with water" },
+    { "name": "MountainIcon", "description": "a mountain" },
+    { "name": "SparrowIcon", "description": "a sparrow bird" },
+    { "name": "CrowIcon", "description": "a crow bird" },
+    { "name": "CowIcon", "description": "a cow" },
+    { "name": "DogIcon", "description": "a dog" },
+    { "name": "MangoTreeIcon", "description": "a mango tree with fruits" },
+    { "name": "NeemTreeIcon", "description": "a neem tree with leaves" },
+    { "name": "MarketIcon", "description": "a vegetable market stall" }
+  ],
+  "challengeTypes": [
+    "identify: Who are the people in your FAMILY? (Mother, father, brother, sister vs Trees, animals, birds vs Sun, moon, stars)",
+    "identify: Which bird is commonly seen in our LOCALITY? (Sparrow vs Penguin vs Ostrich)",
+    "sort: Drag local animals and birds to where we see them (Sky/Trees: sparrow, crow, pigeon | Ground: dog, cat, cow | Water: fish, duck | Underground: earthworm, snake)",
+    "identify: Which tree gives us MANGO fruits in summer? (Mango tree vs Neem tree vs Banyan tree)",
+    "sort: Drag local plants and trees to what they give us (Mango tree: fruits | Neem tree: medicine leaves | Coconut tree: coconut | Tulsi plant: medicine | Banyan tree: shade)",
+    "identify: What physical feature do you see near a RIVER? (Water and sand vs Only buildings vs Only rocks)",
+    "sort: Drag physical features to land or water (Land: mountain, hill, plain, desert | Water: river, pond, lake, sea)",
+    "sort: Drag food to where it comes from (From plants: rice, wheat, fruits, vegetables | From animals: milk, egg, honey, meat | From both: bread (wheat+yeast), paneer (milk+lemon))"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) My environment — family (mother, father, brother, sister, grandparents), home (rooms, furniture), school (teachers, classmates, classrooms). Environment is everything around us — people, plants, animals, buildings, land, water. (2) Local animals and birds — sparrow, crow, pigeon, parrot (birds seen on trees and rooftops), dog, cat, cow, goat (animals seen on streets and homes), fish, duck (in water), earthworm, snake (underground). Simple classification by where they live. (3) Local plants and trees — mango tree (fruits in summer), neem tree (medicine, bitter leaves), coconut tree (coconut, water), tulsi plant (medicine, worship), banyan tree (shade, aerial roots), peepal tree (heart-shaped leaves). Seasonal observation — trees lose leaves in winter, new leaves in spring, flowers in spring/summer. (4) Physical features of locality — land features (mountains, hills, plains, plateaus, deserts), water features (rivers, ponds, lakes, seas, wells). Children observe what is around their home and school. (5) Food — where it comes from: from plants (rice, wheat, fruits, vegetables, pulses, spices), from animals (milk from cow/buffalo, eggs from hen, honey from bees, meat from animals), from both (bread needs wheat from plants + yeast, paneer needs milk from animals + lemon from plants). Misconceptions: 'penguins live in our locality' (penguins live in cold places like Antarctica, not in India), 'food comes from the shop' (shop is where food is sold, but food comes from plants and animals first), 'all trees give fruits' (neem gives medicine, banyan gives shade, not all trees give fruits we can eat), 'mountains are just big rocks' (mountains are land features with soil, plants, animals, and water streams). Default width=720, height=560. Use named export (export function MyEnvironmentGame), NOT export default. Export interface MyEnvironmentGameProps with width?, height?, onComplete?: (score: number) => void."
+}

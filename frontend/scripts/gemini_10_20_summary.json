@@ -1,0 +1,61 @@
+{
+  "startIdx": 10,
+  "endIdx": 20,
+  "totalElapsed": 321,
+  "success": 2,
+  "fail": 8,
+  "results": [
+    {
+      "name": "PhysicsForcesSim",
+      "success": true,
+      "lines": 2047,
+      "path": "components/simulations/c9_12/PhysicsForcesSim.tsx"
+    },
+    {
+      "name": "PhysicsOpticsSim",
+      "success": true,
+      "lines": 1699,
+      "path": "components/simulations/c9_12/PhysicsOpticsSim.tsx"
+    },
+    {
+      "name": "PhysicsElectricitySim",
+      "success": false,
+      "error": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 47.702255905s."
+    },
+    {
+      "name": "AtomicStructureSim",
+      "success": false,
+      "error": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 38.092139529s."
+    },
+    {
+      "name": "ChemicalReactionsSim",
+      "success": false,
+      "error": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 38.130262664s."
+    },
+    {
+      "name": "BusinessStudiesSim",
+      "success": false,
+      "error": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 37.921139814s."
+    },
+    {
+      "name": "HistoryIndiaSim",
+      "success": false,
+      "error": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 32.396184239s."
+    },
+    {
+      "name": "HistoryCivicsSim",
+      "success": false,
+      "error": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 32.422923984s."
+    },
+    {
+      "name": "OrganicChemistryC10Sim",
+      "success": false,
+      "error": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 32.359359024s."
+    },
+    {
+      "name": "WaterStudiesSimulation",
+      "success": false,
+      "error": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 26.824956857s."
+    }
+  ]
+}

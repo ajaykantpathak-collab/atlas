@@ -1,0 +1,1341 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete HeatTransferSimulation.tsx component about Heat Transfer (conduction, convection, radiation, thermal expansion, change of state).
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Physics Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_phy_024",
+    "title": "Heat as a form of energy",
+    "subject": "physics",
+    "classLevel": 6,
+    "definition": "Heat is a form of energy that flows from a hotter object to a colder object whenever there is a temperature difference between them. In Class 5 (node c5_phy_007) you first learned the simple statement that heat is a form of energy; in Class 6 we study it in greater detail -- what heat does, where it comes from, and how it differs from temperature. Because heat is energy, it is measured in joules (the SI unit of energy) and also in calories, where one calorie is the amount of heat needed to raise the temperature of one gram of water by one degree Celsius. Heat is sometimes called thermal energy, and it can do work -- for example, the heat from a stove boils water, and the steam can push the lid of a vessel, which is work being done.\r\n\r\nThere are several common sources of heat. The Sun is the most important natural source -- it sends heat energy to the Earth across space and is responsible for warming the land, the sea, and the air. Fire is another source, used by humans since ancient times for cooking and warmth. Friction is a source of heat that you can feel yourself -- when you rub your palms together briskly, they become warm because the mechanical action of rubbing is converted into heat. Electricity is a fourth source -- an electric heater, an electric iron, and even an electric bulb all produce heat when current passes through their wires. A glowing light bulb feels warm to the touch because part of the electrical energy is given out as heat.\r\n\r\nHeat produces several effects on objects. First, it causes expansion -- objects increase in size when heated, which is why a metal lid loosens when run under hot water. Second, it causes a change of state -- a solid like ice melts into water, and water evaporates into steam when heated. Third, it increases the temperature of the object -- the hotter the object, the higher its temperature. Fourth, in some cases heat can change the colour or the state of matter of an object, such as a piece of iron glowing red-hot in a furnace. It is important to distinguish heat from temperature: heat is the total energy a body contains because of the motion of its particles, while temperature is the degree of hotness or coldness measured with a thermometer. A large pot of warm water contains more heat than a small cup of hot water, even though the cup has a higher temperature -- this distinction is central to the whole topic.",
+    "eli5": "Heat is a kind of invisible energy that lives inside warm things and always sneaks from a hotter thing to a colder thing when they touch. The Sun is a giant heater in the sky, fire is a heater we make, rubbing your hands makes heat from friction, and a glowing bulb makes heat from electricity. Heat makes things bigger, melts ice into water, raises their temperature, and can even make iron glow red. Temperature is just how hot something feels, measured with a thermometer.",
+    "misconceptions": [
+      {
+        "belief": "Heat and temperature are the same thing.\" This is the error CISCE examiners flag most often -- the 2024 PPA explicitly lists \"Review topic fundamentals\" as a remedy for candidates who confuse heat-related terms.",
+        "correction": "Heat is the total thermal energy a body contains (measured in joules or calories), while temperature is the degree of hotness measured in degrees Celsius with a thermometer. A bucket of warm water holds more heat than a cup of boiling water, even though the cup has a higher temperature."
+      },
+      {
+        "belief": "Heat flows from a colder object to a hotter object to warm it up.",
+        "correction": "Heat always flows from the hotter object to the colder object, never the other way on its own. A cold spoon placed in hot tea gains heat from the tea; the tea does not gain coldness from the spoon."
+      },
+      {
+        "belief": "Friction and electricity are not really sources of heat because nothing is burning.",
+        "correction": "Heat is produced whenever mechanical energy is converted by friction (rubbing palms, braking vehicles) and whenever electrical current meets resistance in a wire (heater, iron, bulb). No flame is needed -- the energy simply changes form."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State that heat is a form of energy, list three sources of heat, and describe two effects of heat on objects.",
+        "answer": "Heat is a form of energy that flows from a hotter object to a colder object whenever there is a temperature difference between them. Three common sources of heat are: the Sun, which is the chief natural source and warms the entire Earth across space; fire, which humans have used for cooking and warmth since ancient times; and friction, which produces heat when two surfaces rub together, such as when you rub your palms briskly and feel them grow warm. Electricity is a fourth source, seen in electric heaters, irons, and glowing light bulbs. Two effects of heat on objects are: expansion, where an object increases in size when heated (for example, a tight metal lid loosens under hot water); and change of state, where a solid like ice melts into water and water evaporates into steam when heated. Heat can also raise the temperature of an object and, in cases like iron in a furnace, change its colour. Heat is measured in joules (SI unit) and in calories, where one calorie warms one gram of water by one degree Celsius."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain why a large bucket of water at 40 deg C can contain more heat than a small cup of water at 100 deg C, even though the cup is hotter.",
+        "answer": "Heat and temperature are different quantities. Temperature measures the degree of hotness of a body, read from a thermometer in degrees Celsius -- so the cup at 100 deg C is indeed hotter than the bucket at 40 deg C. Heat, however, is the total thermal energy stored in the body, which depends on both the temperature and the amount (mass) of the substance. The bucket holds a much larger mass of water than the cup, so even at a lower temperature the total energy contained in all those moving water particles is greater. Think of it as money: the cup has a high \"rate\" (temperature) but very little \"quantity\" (mass), while the bucket has a lower rate but a huge quantity, giving a larger total. This is exactly the distinction the CISCE 2024 examiner report highlights when it asks teachers to \"review topic fundamentals\" -- students who treat heat and temperature as the same thing lose marks. A correct answer must state that heat depends on mass as well as temperature, while temperature does not."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"Heat and temperature are the same, so a thermometer measures heat directly.\" Evaluate this statement and give a balanced argument.",
+        "answer": "The statement is incorrect and reflects the most common confusion in this topic, one that CISCE examiners have repeatedly flagged in their Pupil Performance Analysis. A balanced evaluation must separate the two concepts clearly. On the one hand, heat and temperature are related -- when you add heat to a body, its temperature usually rises, so it is easy to see why a student might think they are the same. On the other hand, they are fundamentally different quantities with different units and different meanings. Heat is a form of energy that flows from a hotter body to a colder body; it is measured in joules or calories and depends on both the temperature and the mass of the body. Temperature is the degree of hotness or coldness of a body; it is measured in degrees Celsius (or kelvin) with a thermometer and does not depend on mass. A thermometer therefore measures temperature, not heat -- it cannot tell you how much total energy a body contains, only how hot it is. For example, a clinical thermometer reading 40 deg C tells you the body's temperature but says nothing about the total heat energy of the person, which depends on their body mass. A correct statement would be: \"A thermometer measures temperature, the degree of hotness; heat is the total thermal energy, measured in joules, and depends on both temperature and mass.\" The student's statement should be rejected, but the reasoning behind the confusion -- that heat and temperature change together -- is understandable and worth acknowledging before correcting it."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You are given a cold metal spoon, a cup of hot tea, and a glowing electric bulb. Describe how heat flows in each case and name the source of heat involved.",
+        "answer": "When the cold metal spoon is placed in the cup of hot tea, heat flows from the hot tea (higher temperature) to the cold spoon (lower temperature) until both reach the same temperature. The source of the heat in the tea is the hot water itself, which was heated by a stove or kettle -- ultimately the heat came from fire or electricity used to boil the water. The cup of hot tea, if left standing, will lose heat to the cooler surrounding air, so heat flows from the tea to the air until the tea cools down. The glowing electric bulb is a source of heat produced by electricity -- as electric current passes through the filament, electrical energy is converted into light and heat, and you can feel the warmth around the bulb. Heat flows from the hot bulb to the cooler air and to any object placed near it. In every case the direction of heat flow is from the hotter body to the colder body, never the reverse on its own, and the source can be traced to one of the four common sources: Sun, fire, friction, or electricity."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple classroom activity that demonstrates two different sources of heat and one effect of heat, using only everyday objects.",
+        "answer": "A suitable activity uses two sources -- friction and electricity -- and demonstrates the effect of a rise in temperature. For the friction source, ask students to rub their palms together briskly for about twenty seconds and then place their palms against their cheeks; they will clearly feel the warmth, showing that friction has produced heat and raised the temperature of the skin. For the electricity source, switch on a small table lamp or a glowing light bulb and, after a minute, ask students to hold their hand a few centimetres away from the bulb (without touching it); they will feel the warmth radiating from the bulb, showing that electrical energy has been converted into heat. To show an effect of heat, take a small metal bottle cap and run hot water over it for a few seconds, then try to unscrew it from a bottle -- it loosens easily because the metal expanded on heating, demonstrating the expansion effect. Students should record their observations in a table with three columns: source of heat, what they did, and what they observed. This activity uses only everyday objects, covers two of the four sources (friction and electricity), and demonstrates one of the key effects (expansion), while reinforcing that heat always flows from a hotter body to a colder one."
+      }
+    ],
+    "masteryCriteria": "Can state that heat is a form of energy that flows from a hotter object to a colder object, and can name its units (joule as SI unit, calorie as the heat needed to warm 1 g of water by 1 deg C). Can list at least three sources of heat (Sun, fire, friction, electricity) with a concrete example of each (Sun warms the Earth, rubbing palms, electric heater). Can describe at least two effects of heat on objects (expansion, change of state such as ice melting into water, rise in temperature, change in colour). Can distinguish heat from temperature in one clear sentence (heat is total thermal energy measured in joules; temperature is degree of hotness measured in  deg C with a thermometer).",
+    "cognitiveLevel": "remember"
+  },
+  {
+    "nodeId": "c6_phy_026",
+    "title": "Thermal expansion due to heat",
+    "subject": "physics",
+    "classLevel": 6,
+    "definition": "Thermal expansion is the increase in size (length, area, or volume) of an object when it is heated. When heat energy is supplied to a substance, its particles gain energy and begin to move or vibrate more vigorously. Because the particles push farther apart from one another, the substance as a whole takes up more space -- it expands. The reverse process, in which a substance shrinks on cooling, is called contraction. Thermal expansion occurs in all three states of matter -- solids, liquids, and gases -- but the amount of expansion for the same rise in temperature differs greatly between them.\r\n\r\nIn solids, the particles are tightly packed in a fixed arrangement and can only vibrate about their positions. When heated, they vibrate with greater amplitude and push their neighbours slightly farther away. The expansion is small but very significant in engineering. For this reason, small gaps are left between successive sections of metal railway tracks so that the steel can expand in summer without buckling. A tight metal lid on a glass jar can be loosened by running hot water over it, because the metal expands more than the glass and the lid becomes loose. A glass tumbler may crack if boiling water is poured into it suddenly, because the inner surface expands before the outer surface, setting up a strain that breaks the glass. A bimetallic strip, made of two different metals riveted together, bends when heated because one metal expands more than the other.\r\n\r\nIn liquids, the particles are less tightly packed and can move about, so they expand more than solids for the same temperature rise. This is the principle of the liquid-in-glass thermometer: a small bulb filled with mercury or alcohol is connected to a narrow capillary tube. When the bulb is warmed, the liquid expands and rises up the tube; the height of the column is read against a calibrated scale to give the temperature. If a flask filled to the brim with coloured water is heated, the liquid level rises and may overflow, showing that the liquid has expanded.\r\n\r\nIn gases, the particles are far apart and move freely at high speed, so gases expand the most of the three states for the same temperature rise. A hot air balloon rises because the air inside is heated by a burner; the air expands, becomes less dense than the cooler air outside, and the balloon is lifted by the surrounding air. For the same temperature rise, the order of expansion is: gases expand more than liquids, and liquids expand more than solids.\r\n\r\nEveryday examples of thermal expansion include the gaps left in railway tracks, the loosening of a tight metal lid by heating, the cracking of thick glass on sudden heating, the rising column of mercury in a clinical thermometer, and the ballooning of hot air. Simple activities to observe expansion include heating a metal ball that previously passed through a metal ring and finding that it no longer fits, and heating a flask of liquid to watch the liquid level climb.",
+    "eli5": "When you heat something, its tiny particles start jiggling harder and need more room, so the thing gets bigger -- it expands. Cool it down and the particles settle back, so it shrinks. Solids jiggle only a little, so they grow just a bit; liquids jiggle more; gases jiggle most of all. That is why a metal ball won't fit through its ring after heating, mercury climbs a thermometer tube, and a hot air balloon floats up.",
+    "misconceptions": [
+      {
+        "belief": "Solids expand the most because they are the hardest and strongest.",
+        "correction": "This is the reverse of the truth. For the same temperature rise, gases expand the most, then liquids, and solids expand the least. The strength of a solid comes from its tightly packed particles, but those same tight bonds allow only a tiny increase in spacing. CISCE examiners have repeatedly observed that candidates state effects in the wrong direction (for example, writing that a quantity increases when it actually decreases, or confusing which factor rises). The safe rule is: gases > liquids > solids in expansion for the same heat."
+      },
+      {
+        "belief": "The gaps in railway tracks are left so that the train wheels fit loosely.",
+        "correction": "The gaps have nothing to do with the wheels. They are left between successive rail sections so that the steel can expand in hot weather without buckling or bending the track. If there were no gaps, the expanding steel would push against fixed ends and force the track out of alignment, which is dangerous."
+      },
+      {
+        "belief": "A glass cracks on sudden heating because the glass itself melts or because heat breaks the bonds.",
+        "correction": "The cracking is caused by unequal expansion, not melting. When hot water is poured into a thick glass, the inner surface heats and expands at once, but the outer surface is still cold and has not yet expanded. The two layers pull against each other and the strain cracks the glass. Thin glass cracks less because heat reaches both surfaces almost equally."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define thermal expansion and state the order of expansion in solids, liquids, and gases for the same temperature rise.",
+        "answer": "Thermal expansion is the increase in size (length, area, or volume) of a substance when it is heated. When heat is supplied, the particles of the substance gain energy, move or vibrate more vigorously, and push one another farther apart, so the substance occupies more space. The reverse process, in which a substance shrinks on cooling, is called contraction. Thermal expansion occurs in all three states of matter, but the amount of expansion for the same rise in temperature is different. Gases expand the most because their particles are far apart and move freely; liquids expand less than gases but more than solids because their particles can move about but are still close together; solids expand the least because their particles are tightly packed in a rigid arrangement and can only vibrate about fixed positions. So the correct order is: gases expand more than liquids, and liquids expand more than solids, for the same temperature rise."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain why small gaps are left between successive sections of a metal railway track. What would happen if the gaps were not provided?",
+        "answer": "Railway tracks are made of steel, which is a solid. Like all solids, steel expands when heated and contracts when cooled. In summer, especially in hot regions of India, the rails can become very hot and the steel expands lengthwise. If the sections of rail were fixed end to end with no gap, the expanding steel would have no room to extend and would push hard against the fixed ends and against neighbouring sections. The force of expansion is very large and would cause the track to buckle, bend, or warp out of alignment, which could derail a train. To prevent this, engineers leave small gaps between successive rail sections so that the steel can expand into the gap safely without pushing against anything. In modern welded tracks, other engineering methods are used, but the principle is the same: provision must be made for thermal expansion. This is a direct application of the fact that solids, although they expand only slightly, expand with great force."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"A tight metal lid on a glass jar can be loosened by heating it because the glass expands more than the metal and pushes the lid off.\" Evaluate this statement and correct it.",
+        "answer": "The student's reasoning is incorrect in two ways. First, the lid is loosened not because the glass pushes it off but because the metal lid itself expands and becomes slightly larger, so it fits more loosely on the jar. Second, the claim that glass expands more than metal is wrong: for the same temperature rise, metals generally expand more than glass, which is exactly why the trick works. When hot water is poured over the tight metal lid, the metal absorbs the heat and expands quickly and by a larger amount than the glass rim of the jar beneath it. Because the lid grows slightly larger while the jar mouth grows much less, the grip between them loosens and the lid can be unscrewed easily. If glass expanded more than the metal, the jar mouth would tighten further against the lid and the trick would fail. The correct explanation is therefore: heat causes the metal lid to expand more than the glass jar, so the lid becomes loose. This example also illustrates a general principle -- different materials expand by different amounts for the same temperature rise, and this difference can be put to practical use, as in the bimetallic strip used in thermostats. The student has confused which material expands more and has also confused the mechanism (it is the lid expanding, not the glass pushing). Both errors must be corrected for a complete understanding."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Describe the simple activity in which a metal ball is heated and tested with a ring. What does the activity show, and what happens when the ball is allowed to cool?",
+        "answer": "Take a metal ball and a metal ring chosen so that at room temperature the ball just passes through the ring. Note that the ball fits through easily. Now heat the ball with a burner for about a minute, holding it with tongs, and try to pass it through the ring again. The ball no longer passes through -- it sits on top of the ring. This shows that the metal ball has expanded on heating and its diameter has increased slightly, enough to prevent it from fitting through the ring. Now remove the ball from the heat and let it cool for a few minutes. Test it again with the ring; it now passes through as before. This shows that on cooling the ball has contracted and returned to its original size. The activity demonstrates thermal expansion in a solid on heating and contraction on cooling. It also shows that the expansion, though small in a solid, is real and measurable. The activity is a direct, visible proof of the principle that heat causes objects to increase in size."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple experiment using a flask of coloured water to show that a liquid expands on heating. State the steps, what you would observe, and how you would conclude that expansion has occurred.",
+        "answer": "Take a round-bottomed flask and fill it completely with coloured water (coloured with a few drops of ink so the level is easy to see). Fit a tight rubber stopper carrying a narrow glass tube into the mouth of the flask so that some water rises a short way into the tube. Mark the level of the water in the tube with a marker or a rubber band -- this is the starting level at room temperature. Now place the flask in a beaker of hot water or warm it gently with a burner, taking care not to heat it too strongly. Observe the level of the coloured water in the narrow tube. After a short time, the level in the tube rises above the original mark. This rise shows that the coloured water inside the flask has expanded on heating and has been forced up the narrow tube. To make sure the effect is due to the liquid and not the flask, note that the glass flask also expands slightly, which by itself would lower the level; the fact that the level still rises proves the liquid has expanded more than the glass. Allow the flask to cool and the level falls back to the original mark, showing contraction on cooling. This is the same principle used in a liquid-in-glass thermometer, where mercury or alcohol expands and rises in a capillary tube to indicate temperature."
+      }
+    ],
+    "masteryCriteria": "Can define thermal expansion as the increase in size of a substance when heated and explain it in terms of particles moving more vigorously; can describe expansion in solids (railway gaps, tight lid loosening, cracked glass, bimetallic strip), liquids (mercury rising in a thermometer, liquid rising in a heated flask), and gases (hot air balloon rising); can state the correct order of expansion for the same temperature rise -- gases expand more than liquids, liquids more than solids; can give at least two everyday examples of thermal expansion with correct reasoning.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_phy_027",
+    "title": "Change of state due to heat",
+    "subject": "physics",
+    "classLevel": 6,
+    "definition": "Matter exists in three states -- solid, liquid, and gas -- and heat can change one state into another. This is called a change of state. When a solid is heated, its particles gain energy, vibrate more vigorously, and break free from their fixed positions, turning into a liquid. This process is called melting; the temperature at which a solid melts into a liquid is its melting point. For ice, the melting point is 0  deg C. When a liquid is cooled, its particles lose energy, slow down, and lock into fixed positions, forming a solid. This is called freezing; for water, the freezing point is 0  deg C. When a liquid is heated further, its particles gain even more energy and escape completely into the air as a gas. This is called evaporation; when evaporation happens rapidly throughout the liquid at a fixed temperature it is called boiling, and that temperature is the boiling point. For water, the boiling point is 100  deg C. The gas formed from water is called water vapour, which is invisible. When a gas is cooled, its particles lose energy, come closer together, and form a liquid; this is called condensation, seen when water droplets appear on the outside of a cold glass or as dew on leaves in the early morning. During melting and evaporation, heat is absorbed by the substance because energy is needed to loosen or break the bonds between particles. During freezing and condensation, heat is released because the particles lose energy as they form stronger bonds. Adding heat changes a solid to a liquid and a liquid to a gas; removing heat reverses the process, changing a gas to a liquid and a liquid to a solid. Everyday examples include an ice cube melting on a warm kitchen counter, water boiling in a vessel on a stove, and dew forming on grass in winter mornings across Indian towns and villages.",
+    "eli5": "Imagine tiny particles holding hands. When you give them heat, they get excited and let go -- first they slide around as a liquid (melting), then they fly off completely as a gas (evaporation). When you take heat away, they calm down, hold hands again, and become a liquid (condensation) or a tight solid (freezing). So heat loosens particles, and cooling tightens them.",
+    "misconceptions": [
+      {
+        "belief": "Steam and water vapour are the same thing, and both are visible.",
+        "correction": "Water vapour is the invisible gaseous form of water that is always present in air. The white cloudy stuff you see above boiling water is not steam or vapour -- it is tiny liquid water droplets that have already condensed as the vapour cools in the air. CISCE examiners have repeatedly noted that candidates confuse the visible 'steam' cloud with the actual gas, so be precise: water vapour is invisible."
+      },
+      {
+        "belief": "Melting and dissolving are the same.",
+        "correction": "Melting is a change of state caused by heat -- a solid becomes a liquid on its own when heated (ice to water). Dissolving is different: a solid mixes into a liquid to form a solution (salt in water), and the solid can often be recovered by evaporation. No heat-driven change of state of the solvent is involved in dissolving."
+      },
+      {
+        "belief": "Heat is released during melting and evaporation.",
+        "correction": "Heat is absorbed during melting and evaporation because energy is needed to break the bonds holding particles together. Heat is released during freezing and condensation because particles lose energy as they form stronger bonds. CISCE examiner comments on related heat topics stress reviewing fundamentals and being clear about the direction of heat flow, so always pair each process with the correct heat direction."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Name the four changes of state due to heat and for each state whether heat is absorbed or released.",
+        "answer": "The four changes of state are melting, freezing, evaporation, and condensation. Melting is the change from solid to liquid, caused by heat being absorbed; for example, ice at 0  deg C melts into water. Freezing is the change from liquid to solid, during which heat is released; for example, water at 0  deg C freezes into ice. Evaporation is the change from liquid to gas, caused by heat being absorbed; for example, water at 100  deg C boils into water vapour, and puddles slowly evaporate on hot days. Condensation is the change from gas to liquid, during which heat is released; for example, water droplets form on the outside of a cold glass when water vapour in the air cools down. The key pattern is that heat absorbed drives melting and evaporation, while heat released accompanies freezing and condensation. Adding heat moves matter from solid to liquid to gas, and removing heat reverses the process."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain, in terms of particles, why heat must be absorbed for ice to melt into water.",
+        "answer": "In ice, the particles are arranged in a fixed, rigid pattern and can only vibrate about their positions. They are held together by strong forces of attraction. For the ice to become liquid water, these particles must break free from their fixed positions and be able to slide past one another. Breaking those bonds requires energy, and that energy comes from heat. When heat flows into the ice from the warmer surroundings, the particles gain energy, vibrate more vigorously, and eventually overcome the forces holding them in place. Once free, they move about as a liquid. Because energy is taken in from the surroundings to do this work of loosening the particles, melting is a heat-absorbing process. This is also why ice feels cold to touch -- it is pulling heat from your skin to keep melting. The same reasoning applies to evaporation: particles need even more energy to escape completely from the liquid surface and become a gas, so evaporation also absorbs heat."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"The white cloud seen above a vessel of boiling water is steam, which is water in the gaseous state.\" Evaluate the correctness of this statement.",
+        "answer": "The statement is incorrect and reflects a common confusion between water vapour and the visible cloud above boiling water. Water vapour is the true gaseous state of water, and it is invisible -- you cannot see it with your eyes. When water boils at 100  deg C, the particles gain enough energy to escape the liquid as water vapour, which is a gas. However, the white cloudy substance you see a little distance above the surface of the boiling water is not this vapour. It is actually made of tiny liquid water droplets that have already formed by condensation: the hot water vapour meets the cooler air just above the vessel, loses heat, and turns back into liquid droplets that scatter light and appear white. So the visible cloud is condensed liquid water, not the gas itself. The statement is therefore wrong on two counts -- it mislabels the visible cloud as steam (the gas), and it ignores the condensation that has already taken place. A correct statement would be: \"The invisible gas just above the boiling water is water vapour; the white cloud slightly higher up consists of tiny liquid water droplets formed by condensation of that vapour in the cooler air.\" This distinction matters because CISCE examiners have observed candidates confusing the visible 'steam' with the actual gaseous state, and marks are lost when the two are treated as the same thing."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "On a humid morning in Kolkata, a student notices water droplets on the outside of a glass of cold lemonade. Identify the process involved and explain step by step how the droplets formed.",
+        "answer": "The process involved is condensation. Step 1: The lemonade inside the glass is cold, so the glass itself becomes cold as heat flows from the glass into the lemonade and from the surrounding air into the glass. Step 2: The air around the glass contains water vapour, because it is a humid morning and humid air holds a lot of water vapour. Step 3: When this warm, moisture-laden air comes into contact with the cold outer surface of the glass, the water vapour particles lose heat to the cold surface. Step 4: As the particles lose energy, they slow down, come closer together, and form liquid water, appearing as tiny droplets on the outside of the glass. Step 5: The droplets grow as more water vapour continues to condense, and eventually run down the side of the glass. Because heat is released by the water vapour during this change from gas to liquid, condensation is a heat-releasing process. The same mechanism produces dew on grass and leaves on cold winter mornings across India."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple activity at home to demonstrate both melting and freezing of water, listing the materials, the steps, and what you would observe and record.",
+        "answer": "Materials needed: an ice-cube tray, water, a refrigerator with a freezer, a small clear plastic cup, a kitchen timer or clock, and a notebook. Steps: First, pour water into the ice-cube tray and place it in the freezer. Observe and record the time. After about four to six hours, remove the tray and note that the water has turned into solid ice -- this demonstrates freezing, the change from liquid to solid, during which heat was released from the water into the cold freezer. Next, take one ice cube out and place it in the clear plastic cup on the kitchen counter at room temperature. Observe it every ten minutes and record what you see. Over time the solid ice cube turns into liquid water -- this demonstrates melting, the change from solid to liquid, during which heat was absorbed from the warm air and the counter into the ice. In the notebook, draw the ice cube at the start, halfway melted, and fully melted, and write down the time taken for each stage. This simple activity shows both directions of the solid-liquid change of state and reinforces that freezing releases heat while melting absorbs heat."
+      }
+    ],
+    "masteryCriteria": "Can name and define the four changes of state -- melting (solid to liquid, e.g., ice to water at 0  deg C), freezing (liquid to solid, e.g., water to ice at 0  deg C), evaporation (liquid to gas, e.g., water to water vapour at 100  deg C), and condensation (gas to liquid, e.g., water vapour to dew on a cold surface). Can state that heat is absorbed during melting and evaporation and released during freezing and condensation. Can explain in terms of particles how adding heat changes a solid to a liquid and a liquid to a gas, and how removing heat reverses the process. Can give one correct everyday example for each of the four processes.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_phy_021",
+    "title": "Heat transfer - conduction",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "Conduction is the process of heat transfer through a solid material from the region of higher temperature to the region of lower temperature, without any actual movement of the particles of the solid from one place to another. When one end of a metal rod is heated, the particles at that hot end gain energy and begin to vibrate more vigorously about their fixed mean positions. These energetic particles collide with neighbouring particles and transfer a part of their vibrational energy to them. The neighbouring particles in turn start vibrating faster and pass the energy on to the next layer of particles, and so the energy travels, particle by particle, from the hot end to the cold end. Because the particles themselves remain in their fixed positions and only vibrate, conduction is described as a method of heat transfer in which energy flows but matter does not. In metals, an additional mechanism operates: free electrons that can move about within the lattice carry energy rapidly from the hot end to the cold end, which is why metals are such good conductors of heat. Materials differ widely in their ability to conduct heat. Good conductors of heat are substances that allow heat to pass through them easily; all metals such as copper, aluminium, iron, silver and brass are good conductors. Copper and aluminium are widely used in cooking utensils and in the heat sinks of electrical devices precisely because they conduct heat quickly. Bad conductors of heat, also called insulators, are substances that do not allow heat to pass through them easily; wood, plastic, glass, rubber, water (a liquid) and air (a gas) are common bad conductors. This is why cooking utensils are often fitted with plastic or wooden handles that stay cool even when the metal body becomes hot, and why woollen clothes and blankets trap air and keep us warm in winter. The direction of heat flow in conduction is always from the hotter end to the colder end, that is, along the temperature gradient, until the whole body reaches the same temperature. Conduction is distinct from convection, in which heat is transferred by the actual movement of the particles themselves (as in liquids and gases), and from radiation, in which heat travels through space as electromagnetic waves without needing any medium. At the Class 7 level, no thermal conductivity calculations or Fourier's law of heat conduction are required; the focus is on the particle picture, the classification of conductors and insulators, and everyday examples.",
+    "eli5": "Imagine a row of children standing close together, each holding a ball. If you push the first child's ball, it bumps the next ball, which bumps the next, and the bump travels all the way down the row -- but no child walks anywhere. That is conduction: heat travels through a solid as a bump of energy passed from particle to particle, while the particles stay in their places. Metals pass the bump very fast; wood and plastic pass it very slowly.",
+    "misconceptions": [
+      {
+        "belief": "In conduction the particles of the solid move from the hot end to the cold end and carry the heat with them.\" This is a very common error noted by CISCE examiners, who stress that students must use precise definitions and not confuse methods of heat transfer.",
+        "correction": "In conduction the particles do NOT move from their positions; they only vibrate more vigorously about their fixed mean positions and pass energy to neighbours. Actual movement of particles carrying heat is convection, which occurs in liquids and gases, not conduction in solids."
+      },
+      {
+        "belief": "Heat flows from the cold end to the hot end to make the temperatures equal.",
+        "correction": "Heat always flows from the region of higher temperature to the region of lower temperature, that is, along the temperature gradient from hot to cold, until thermal equilibrium is reached. The cold end warms up because it receives energy, not because it sends coldness to the hot end."
+      },
+      {
+        "belief": "All solids are good conductors of heat because they are solid.",
+        "correction": "Only metals are good conductors, because they contain free electrons that carry energy rapidly. Non-metal solids such as wood, plastic and glass are bad conductors (insulators) because they lack free electrons, so heat passes through them only slowly by particle vibration."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define conduction and name two good conductors and two bad conductors of heat.",
+        "answer": "Conduction is the process of heat transfer through a solid material from the region of higher temperature to the region of lower temperature, in which the particles of the solid vibrate more vigorously about their fixed positions and pass energy to neighbouring particles, without any actual movement of the particles themselves from one place to another. Two good conductors of heat are copper and aluminium -- both metals that contain free electrons which carry energy rapidly through the lattice. Two bad conductors (insulators) of heat are wood and plastic, which do not have free electrons and therefore allow heat to pass through them only very slowly. A common everyday use that follows from this classification is the cooking pan with a metal body for fast heating and a plastic or wooden handle that stays cool for safe handling."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain, using the particle model, why the handle of a metal spoon dipped in hot soup becomes warm after some time, even though the handle is not in the soup.",
+        "answer": "When the bowl of the metal spoon is placed in hot soup, the particles of the metal at that end absorb heat energy and begin to vibrate more rapidly about their fixed positions. These energetic particles collide with their neighbouring particles and transfer some of their vibrational energy to them. Those neighbours in turn vibrate faster and pass the energy on to the next layer of particles, and so the energy is handed along, particle by particle, up the handle of the spoon. Because the spoon is made of metal, free electrons also move through the lattice and help carry the energy quickly from the hot bowl to the cooler handle. The particles themselves do not travel from the bowl to the handle; only the energy does. After some time the handle becomes warm because the energy has been conducted all the way along the solid spoon. This is a clear example of conduction -- heat transfer through a solid by particle vibration without the particles moving."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"Cooking utensils should be made entirely of bad conductors so that the food cooks without the utensil getting hot and burning the cook.\" Evaluate this statement, giving a balanced argument and a clear conclusion.",
+        "answer": "The statement is well-intentioned but scientifically flawed, and it confuses the roles of good and bad conductors in the design of cooking utensils. A cooking utensil must transfer heat efficiently from the flame to the food, otherwise the food would not cook at all or would cook very slowly and unevenly. For this reason the body of the utensil -- the part in contact with the flame and the food -- is made of a good conductor such as copper, aluminium, iron or stainless steel. These metals contain free electrons that carry heat rapidly and distribute it evenly across the base and sides, ensuring that the food cooks uniformly. If the entire utensil were made of a bad conductor such as wood or plastic, the heat from the flame would barely reach the food; cooking would be extremely slow, the utensil might even char or melt near the flame, and the whole purpose of the utensil would be defeated. However, the part that the cook holds -- the handle -- must NOT become hot, because a hot handle would burn the hand. That is why handles are made of bad conductors such as plastic, wood or rubber, which conduct heat so slowly that the handle stays cool even when the metal body is very hot. The correct design therefore uses BOTH types of material deliberately: a good conductor for the body to deliver heat to the food, and a bad conductor for the handle to protect the cook. The student's suggestion to make the whole utensil of bad conductors ignores the primary function of a cooking vessel, which is to transfer heat to the food. Conclusion: the statement is incorrect; a good cooking utensil combines a good conductor for the body with a bad conductor for the handle."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You are given four rods of equal size -- copper, iron, wood and glass. One end of each is dipped in melting wax and the other end is heated over the same flame. Describe the order in which the wax will melt on the four rods and explain why.",
+        "answer": "The wax will melt in the order: copper first, then iron, then glass, and wood last. Copper is the best conductor of the four because, in addition to the vibration of its particles, it has a large number of free electrons that carry heat energy very rapidly from the hot end to the cold end, so the wax at the far end melts almost immediately. Iron is also a metal and a good conductor, but it is not as good as copper, so the wax on the iron rod melts a little later. Glass is a non-metal solid with no free electrons; heat travels through it only by the slow vibration of particles, so the wax takes much longer to melt. Wood is also a non-metal and a bad conductor, and it contains trapped air pockets that further slow the transfer of heat, so the wax on the wooden rod melts last, or may not melt at all in the time of the experiment. This simple experiment demonstrates the classification of materials into good conductors (metals such as copper and iron) and bad conductors or insulators (non-metals such as wood and glass), and it shows conduction as the method of heat transfer through the solid rods."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple school laboratory experiment, using everyday materials, to demonstrate that water is a bad conductor of heat. Describe the apparatus, the procedure, and what you would observe and conclude.",
+        "answer": "Apparatus required: a test tube nearly filled with cold water, a small piece of ice wrapped in wire gauze (so that it sinks to the bottom of the tube and does not float), a clamp stand to hold the test tube tilted, and a Bunsen burner or spirit lamp. Procedure: Place the wire-wrapped ice at the bottom of the test tube and fill the tube with cold water so that the ice stays at the bottom. Clamp the test tube in a tilted position. Now heat the water gently near the top of the test tube, just below the mouth, using the Bunsen burner. Continue heating for a few minutes and observe both the water at the top and the ice at the bottom. Observation: The water at the top of the test tube soon begins to boil and may even vaporise, while the ice at the bottom remains solid and does not melt for a long time. Conclusion: Since the heat applied at the top does not quickly reach the ice at the bottom, water must be a bad conductor of heat. If water were a good conductor, the heat would have travelled down rapidly and the ice would have melted quickly. This experiment shows that in liquids, conduction is very poor, and heat transfer in liquids mainly occurs by convection -- the actual movement of the heated water -- which does not happen efficiently here because we are heating only the top layer, which stays put. Thus water is demonstrated to be a bad conductor of heat."
+      }
+    ],
+    "masteryCriteria": "Can define conduction as heat transfer through a solid from the hot end to the cold end by particle vibration, with no actual movement of particles; can explain using the particle model why heat flows along a metal rod from the hot end to the cold end (particles vibrate, collide, pass energy; free electrons in metals speed the process); can classify copper, aluminium and iron as good conductors and wood, plastic, glass and air as bad conductors (insulators) with a correct everyday example for each; can distinguish conduction (particles vibrate, do not move, needs a medium, mainly in solids) from convection (particles move, needs a medium, in liquids and gases) and radiation (no medium needed, electromagnetic waves).",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_phy_022",
+    "title": "Heat transfer - convection",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "Convection is the transfer of heat through fluids (liquids and gases) by the actual movement of heated particles from one place to another. Unlike conduction, where heat is passed on by vibrations of particles that stay in their fixed positions (as in solids), convection involves the bulk movement of fluid particles themselves carrying thermal energy from a hotter region to a cooler region. When a fluid is heated from below, the particles nearest the heat source gain energy, move faster, and spread further apart. This makes the heated portion of the fluid less dense than the cooler fluid surrounding it, so the warm fluid rises. Cooler, denser fluid then sinks to take its place, gets heated in turn, and rises again. This continuous cycle of rising warm fluid and sinking cool fluid forms a circulating loop called a convection current.\r\n\r\nConvection currents occur in both liquids and gases. In a liquid, the classic demonstration uses a beaker of water heated at one side with a few crystals of potassium permanganate placed at the bottom near the flame. The purple colour of the dissolved potassium permanganate traces the path of the heated water: it rises along the heated side, travels across the top, sinks down the cooler side, and returns along the bottom, forming a visible loop. In gases, convection currents drive land and sea breezes along coastal areas such as Mumbai, Chennai, and Kochi. During the day, the land heats up faster than the sea, so the warm air above the land rises and cooler air from the sea flows in to replace it -- this is the sea breeze. At night, the land cools faster than the sea, so the warmer air above the sea rises and cooler air from the land flows out -- this is the land breeze. Convection also explains ventilation in rooms, where warm air (and stale air) rises and escapes through high openings while fresh cooler air enters through lower openings. A room heater warms a room by heating the air near it, which rises and circulates, setting up a convection current that gradually spreads warmth throughout the room.\r\n\r\nThe key distinction from conduction is that conduction transfers heat without any overall movement of particles (typical of solids), whereas convection requires the physical transport of particles (possible only in fluids, where particles are free to move). Density differences caused by heating are the engine of every convection current: warm fluid expands, becomes less dense, and rises; cool fluid is denser and sinks. This circulation continues until the whole fluid reaches a uniform temperature.",
+    "eli5": "Imagine a pot of soup on the stove. The soup at the bottom gets hot, becomes lighter, and floats up to the top. The cooler, heavier soup at the top sinks down to take its place, gets heated, and rises again. Round and round it goes -- that swirling loop is a convection current. The same thing happens in air: warm air rises and cool air sinks, making a breeze. So in liquids and gases, heat travels by the particles themselves moving, like tiny delivery carriers.",
+    "misconceptions": [
+      {
+        "belief": "Hot air rises because heat itself rises.",
+        "correction": "Heat does not rise on its own. Warm air rises because heating makes it expand and become less dense than the surrounding cool air, so the denser cool air pushes it upward. The cause is a density difference, not a property of heat."
+      },
+      {
+        "belief": "Convection and conduction are the same thing -- both just transfer heat.",
+        "correction": "They differ in how heat moves. In conduction (solids), particles vibrate in fixed positions and pass energy to neighbours without moving from their places. In convection (fluids), the particles themselves travel from the hot region to the cold region, carrying heat with them. CISCE examiners have repeatedly flagged students confusing closely related heat concepts (as seen in the heat capacity vs specific heat capacity confusion noted in the PPA), so always state the contrast explicitly."
+      },
+      {
+        "belief": "Convection happens in solids too.",
+        "correction": "Convection requires particles free to move from place to place, which is only possible in fluids (liquids and gases). In solids, particles are locked in fixed positions, so heat can only travel by conduction, not convection."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define convection and explain why it occurs only in fluids and not in solids.",
+        "answer": "Convection is the transfer of heat in fluids (liquids and gases) by the actual movement of heated particles from a hot region to a cold region. When a fluid is heated, the particles near the heat source gain energy, move faster, and spread apart, so that portion becomes less dense and rises. Cooler, denser fluid sinks to replace it, gets heated, and rises again, forming a circulating loop called a convection current. Convection cannot occur in solids because the particles in a solid are held in fixed positions and cannot move from place to place; they can only vibrate and pass energy to neighbours, which is conduction. Since convection requires the bulk movement of particles, it is possible only in liquids and gases, whose particles are free to travel."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain, step by step, how a convection current forms when water is heated in a beaker using potassium permanganate crystals.",
+        "answer": "Place a few crystals of potassium permanganate at the bottom of a beaker of water, near the side where the flame is applied. The water at the bottom near the flame absorbs heat, its particles gain energy and move faster, and the water expands slightly, becoming less dense. This warm, less dense water rises along the heated side of the beaker. Meanwhile, the cooler, denser water at the top and on the far side sinks downward and flows along the bottom towards the flame to replace the rising warm water. There it gets heated and rises in turn. This continuous movement -- up the hot side, across the top, down the cool side, and along the bottom -- forms a closed loop, the convection current. The purple colour of the dissolved potassium permanganate traces this path, making the otherwise invisible current visible. The current continues until the entire volume of water reaches a nearly uniform temperature."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student states, \"Sea breeze and land breeze are both caused by hot air rising, so they are exactly the same phenomenon and blow in the same direction.\" Evaluate this statement.",
+        "answer": "The statement is partially correct but misleading in its conclusion. It is true that both sea breeze and land breeze are caused by convection currents driven by the rising of warm, less dense air -- so the underlying mechanism is the same. However, the two breezes blow in opposite directions and occur at different times of day, so they are not \"exactly the same\" in outcome. During the day, the land heats up faster than the sea because land has a lower specific heat capacity. The air above the land becomes warm, less dense, and rises, creating a low-pressure region. Cooler, denser air from above the sea flows in towards the land to replace it -- this is the sea breeze, blowing from sea to land. At night, the land cools faster than the sea, so the air above the sea is now warmer and rises, while cooler air from the land flows out towards the sea -- this is the land breeze, blowing from land to sea. So although both are convection currents, the direction of the breeze reverses between day and night because the relative temperatures of land and sea swap. A balanced answer must acknowledge the shared mechanism (convection) while distinguishing the direction and timing of each breeze. Simply saying \"they are the same\" ignores the temperature reversal that drives the change in direction, and would lose marks in the board exam."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Describe how convection currents help in ventilating a room, and explain where the high and low openings should be placed.",
+        "answer": "In a room, the air that people breathe out and the air warmed by bodies and appliances is warmer than the fresh air outside. This warm, stale air is less dense, so it rises and collects near the ceiling. If a high opening such as a ventilator or an exhaust vent near the top of a wall is provided, this warm stale air escapes through it. At the same time, fresh, cooler, denser air from outside enters through a lower opening such as a window or a vent near the floor. As the warm air leaves and cool air enters, a convection current is set up: warm air rises and exits at the top, cool air sinks and enters at the bottom, and the air in the room circulates. This continuous circulation replaces stale air with fresh air without needing a fan. Therefore, for effective ventilation, high outlets should be placed near the ceiling to let warm air escape, and low inlets should be placed near the floor to let cool fresh air enter. This arrangement uses natural convection to keep the room airy."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple experiment, using everyday materials, to demonstrate a convection current in air. Describe what you would use, what you would do, and what you would observe.",
+        "answer": "To demonstrate a convection current in air, I would use a cardboard box with two holes -- one small hole near the bottom on one side and another small hole near the top on the opposite side -- a candle, a piece of smouldering paper or incense stick, and a matchbox. I would place the lit candle inside the box near the bottom hole. The candle heats the air inside the box; this warm air becomes less dense and rises, escaping through the top hole. To show the airflow, I would hold the smouldering incense stick just outside the bottom hole. The smoke would be drawn into the box through the lower hole, travel upwards inside the box as it is carried by the rising warm air, and flow out through the top hole. This visible smoke trail reveals the convection current: cool air enters at the bottom, gets heated, rises, and exits at the top, while more cool air is drawn in to replace it, forming a continuous loop. This experiment mirrors how room ventilation and coastal breezes work, and it shows convection in air using only household materials."
+      }
+    ],
+    "masteryCriteria": "Can define convection as heat transfer in fluids (liquids and gases) by the actual movement of particles; can describe a convection current as a loop of rising warm (less dense) fluid and sinking cool (denser) fluid, using the potassium permanganate in water experiment as evidence; can explain land breeze and sea breeze as convection currents in air, stating the correct direction of each (sea breeze: sea to land by day; land breeze: land to sea by night); can distinguish convection from conduction by stating that conduction involves no bulk particle movement (solids) while convection involves particle movement (fluids).",
+    "cognitiveLevel": "understand"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE HeatTransferSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

@@ -1,6 +1,7 @@
 "use client";
 
 import { useQuery, useMutation, useQueryClient, type QueryClient, type UseQueryOptions } from "@tanstack/react-query";
+import { getAuthToken } from "@/lib/api";
 
 // ─────────────────────────────────────────────────────
 // TRANSLATIONS
@@ -201,11 +202,6 @@ const BASE_URL =
   typeof process !== "undefined" && process.env?.NEXT_PUBLIC_API_URL
     ? process.env.NEXT_PUBLIC_API_URL
     : "http://localhost:8001";
-
-function getAuthToken(): string | null {
-  if (typeof window === "undefined") return null;
-  return localStorage.getItem("auth_token");
-}
 
 async function apiFetch<T>(path: string, options: RequestInit = {}): Promise<T> {
   const token = getAuthToken();

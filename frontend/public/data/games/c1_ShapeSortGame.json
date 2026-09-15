@@ -1,0 +1,798 @@
+{
+  "gameFile": "ShapeSortGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_math_013",
+    "c1_math_016"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Meet the 2D Shapes! 🔺",
+      "text": "Shapes are flat outlines found everywhere around us! We have triangles, rectangles, squares, and circles!",
+      "emoji": "⭐",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Shapes are flat outlines found everywhere around us! We have triangles, rectangles, squares, and circles!",
+      "diagram": {
+        "type": "shape-sorter",
+        "animate": true,
+        "data": {
+          "shapes": [
+            "triangle",
+            "square",
+            "circle",
+            "rectangle"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Triangle 🔺 (3 Sides)",
+      "text": "A triangle is a shape with 3 straight sides and 3 corners! Like a samosa or a slice of pizza!",
+      "emoji": "🔺",
+      "bgColor": "from-orange-400 to-red-500",
+      "spoken": "A triangle has three straight sides and three corners! Like a samosa or a pizza slice!",
+      "diagram": {
+        "type": "shape-sorter",
+        "animate": true,
+        "data": {
+          "shapes": [
+            "triangle",
+            "square",
+            "circle"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Rectangle 🚪 (4 Sides)",
+      "text": "A rectangle has 4 straight sides and 4 corners. Opposite sides are equal! Like a classroom door or a book!",
+      "emoji": "🚪",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "A rectangle has four straight sides and four corners. Opposite sides are equal!",
+      "diagram": {
+        "type": "shape-sorter",
+        "animate": true,
+        "data": {
+          "shapes": [
+            "triangle",
+            "square",
+            "circle"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Square 🟪 (4 Equal Sides)",
+      "text": "A square is a special rectangle where ALL FOUR sides are equal in length! Like a floor tile or a dice face!",
+      "emoji": "🟪",
+      "bgColor": "from-purple-400 to-pink-500",
+      "spoken": "A square is a special rectangle where all four sides are equal in length!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Circle ⭕ (Round & Smooth)",
+      "text": "A circle is a round, closed flat shape with no straight sides and no corners at all! Like a bangle or a coin!",
+      "emoji": "⭕",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "A circle is a round, closed flat shape with no straight sides and no corners at all!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which shape has 3 straight sides and 3 corners?",
+      "answer": "Triangle",
+      "options": [
+        "Triangle",
+        "Square",
+        "Circle"
+      ],
+      "hint": "Count the sides! Which shape has only 3 sides like a samosa?",
+      "misconception": "A triangle has 3 sides and 3 corners! Squares have 4, and circles have none.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Triangle",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Square",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Circle",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Square",
+          "Triangle"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "Which shape has 4 EQUAL sides and 4 corners?",
+      "answer": "Square",
+      "options": [
+        "Triangle",
+        "Square",
+        "Rectangle"
+      ],
+      "hint": "Look for the shape where every single side is the exact same length!",
+      "misconception": "A square has 4 equal sides! A rectangle has opposite sides equal, but not all four equal.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Triangle",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Square",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Rectangle",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Triangle",
+          "Square"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "Which shape is round with NO straight sides and NO corners?",
+      "answer": "Circle",
+      "options": [
+        "Square",
+        "Triangle",
+        "Circle"
+      ],
+      "hint": "Think of a bangle or a coin. It has a smooth curved boundary!",
+      "misconception": "A circle has no straight sides and no corners! Only closed shapes with straight sides have corners.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Square",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Triangle",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Circle",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Circle",
+          "Square"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each shape into the correct property bin!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match triangles to 3 sides, squares to 4 equal sides, rectangles to 4 sides, circles to round!",
+      "misconception": "Count sides and corners carefully! Triangles = 3 sides, squares = 4 equal sides, circles = round!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tri-1",
+            "label": "Triangle",
+            "correctBin": "triangle-bin"
+          },
+          {
+            "id": "sq-1",
+            "label": "Square",
+            "correctBin": "square-bin"
+          },
+          {
+            "id": "circ-1",
+            "label": "Circle",
+            "correctBin": "circle-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tri-1",
+          "kind": "circle",
+          "label": "Triangle",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "triangle-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "triangle-bin"
+        },
+        {
+          "id": "sq-1",
+          "kind": "circle",
+          "label": "Square",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "square-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "square-bin"
+        },
+        {
+          "id": "circ-1",
+          "kind": "circle",
+          "label": "Circle",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "circle-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "circle-bin"
+        },
+        {
+          "id": "rect-1",
+          "kind": "circle",
+          "label": "Rectangle",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "rect-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "rect-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tri-1",
+          "label": "Triangle",
+          "emoji": "",
+          "correctBin": "triangle-bin"
+        },
+        {
+          "id": "sq-1",
+          "label": "Square",
+          "emoji": "",
+          "correctBin": "square-bin"
+        },
+        {
+          "id": "circ-1",
+          "label": "Circle",
+          "emoji": "",
+          "correctBin": "circle-bin"
+        },
+        {
+          "id": "rect-1",
+          "label": "Rectangle",
+          "emoji": "",
+          "correctBin": "rect-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "triangle-bin",
+          "label": "3 Sides 🔺",
+          "color": "#EF4444"
+        },
+        {
+          "id": "square-bin",
+          "label": "4 Equal Sides 🟪",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "rect-bin",
+          "label": "Rectangle 🚪",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "circle-bin",
+          "label": "Round ⭕",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "How many straight sides does a RECTANGLE have?",
+      "answer": "4 sides",
+      "options": [
+        "3 sides",
+        "4 sides",
+        "0 sides"
+      ],
+      "hint": "Think of a door or a book cover. Count the top, bottom, left, and right!",
+      "misconception": "A rectangle always has 4 straight sides and 4 corners! Opposite sides are equal in length.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "3 sides",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "4 sides",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "0 sides",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "3 sides",
+          "4 sides"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify",
+      "question": "Is a square a special kind of rectangle?",
+      "answer": "Yes, both have 4 sides but square has all equal",
+      "options": [
+        "Yes, both have 4 sides but square has all equal",
+        "No, they are completely different shapes",
+        "Only sometimes when it is big"
+      ],
+      "hint": "Both shapes have 4 straight sides and 4 corners! What makes a square special?",
+      "misconception": "A square IS a special rectangle! Both have 4 sides and 4 corners. The square is special because all four sides are equal.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Yes, both have 4 sides but square has all equal",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "No, they are completely different shapes",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Only sometimes when it is big",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Yes, both have 4 sides but square has all equal",
+          "No, they are completely different shapes"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each item into 2D Flat Shape or 3D Solid!",
+      "answer": "sort",
+      "options": [],
+      "hint": "2D shapes are flat outlines like traced drawings. 3D objects are solid things like balls!",
+      "misconception": "A ball is a 3D sphere with volume, while a circle is a flat 2D outline! Only flat outlines are 2D shapes.",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "circ-2",
+            "label": "Circle outline",
+            "correctBin": "2d-bin"
+          },
+          {
+            "id": "sq-2",
+            "label": "Square tile",
+            "correctBin": "2d-bin"
+          },
+          {
+            "id": "ball-1",
+            "label": "Play ball",
+            "correctBin": "3d-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "circ-2",
+          "kind": "circle",
+          "label": "Circle outline",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "2d-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "2d-bin"
+        },
+        {
+          "id": "sq-2",
+          "kind": "circle",
+          "label": "Square tile",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "2d-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "2d-bin"
+        },
+        {
+          "id": "ball-1",
+          "kind": "circle",
+          "label": "Play ball",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "3d-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "3d-bin"
+        },
+        {
+          "id": "cone-1",
+          "kind": "circle",
+          "label": "Party hat",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "3d-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "3d-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "circ-2",
+          "label": "Circle outline",
+          "emoji": "",
+          "correctBin": "2d-bin"
+        },
+        {
+          "id": "sq-2",
+          "label": "Square tile",
+          "emoji": "",
+          "correctBin": "2d-bin"
+        },
+        {
+          "id": "ball-1",
+          "label": "Play ball",
+          "emoji": "",
+          "correctBin": "3d-bin"
+        },
+        {
+          "id": "cone-1",
+          "label": "Party hat",
+          "emoji": "",
+          "correctBin": "3d-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "2d-bin",
+          "label": "2D Flat Shape ✨",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "3d-bin",
+          "label": "3D Solid Object ⚽",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Sort shapes by their number of sides!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Count the straight sides of each shape. Triangles have 3, squares/rectangles have 4, circles have 0!",
+      "misconception": "Circles have NO straight sides — their boundary is one smooth curved line! Triangles have 3, quadrilaterals have 4.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tri-3",
+            "label": "Triangle (3 sides)",
+            "correctBin": "three-bin"
+          },
+          {
+            "id": "sq-3",
+            "label": "Square (4 sides)",
+            "correctBin": "four-bin"
+          },
+          {
+            "id": "rect-3",
+            "label": "Rectangle (4 sides)",
+            "correctBin": "four-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tri-3",
+          "kind": "circle",
+          "label": "Triangle (3 sides)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "three-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "three-bin"
+        },
+        {
+          "id": "sq-3",
+          "kind": "circle",
+          "label": "Square (4 sides)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "four-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "four-bin"
+        },
+        {
+          "id": "rect-3",
+          "kind": "circle",
+          "label": "Rectangle (4 sides)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "four-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "four-bin"
+        },
+        {
+          "id": "circ-3",
+          "kind": "circle",
+          "label": "Circle (0 sides)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "zero-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "zero-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tri-3",
+          "label": "Triangle (3 sides)",
+          "emoji": "",
+          "correctBin": "three-bin"
+        },
+        {
+          "id": "sq-3",
+          "label": "Square (4 sides)",
+          "emoji": "",
+          "correctBin": "four-bin"
+        },
+        {
+          "id": "rect-3",
+          "label": "Rectangle (4 sides)",
+          "emoji": "",
+          "correctBin": "four-bin"
+        },
+        {
+          "id": "circ-3",
+          "label": "Circle (0 sides)",
+          "emoji": "",
+          "correctBin": "zero-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "three-bin",
+          "label": "3 Sides 🔺",
+          "color": "#EF4444"
+        },
+        {
+          "id": "four-bin",
+          "label": "4 Sides 🟪",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "zero-bin",
+          "label": "0 Sides ⭕",
+          "color": "#10B981"
+        }
+      ]
+    }
+  ],
+  "theme": "art",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_math_013",
+    "region": "Mathland",
+    "mapX": 0.66,
+    "mapY": 0.39,
+    "icon": "🔢",
+    "prerequisites": [
+      "c1_math_016"
+    ]
+  },
+  "subject": "maths"
+}

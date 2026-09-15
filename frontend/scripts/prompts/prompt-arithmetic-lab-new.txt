@@ -1,0 +1,1127 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete ArithmeticLabSimulation.tsx component about Place value, number properties, divisibility rules, HCF, LCM, prime factorization, estimation.
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "Simple Explanation (ELI5)", "Maths Theory", "Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- misconceptions items: { belief: string; correction: string }
+- diagnosticQuestions items: { number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint? }
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall -> apply -> evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \\frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_math_001",
+    "title": "Consolidating the sense of numberness up to 5 digits, size, estimation of numbers, identifying smaller, larger",
+    "definition": "Numberness is the felt sense of how big a number is -- not just the ability to read its digits, but to grasp its magnitude. In this node we consolidate the child's sense of numberness for five-digit numbers, that is, numbers from 10,000 to 99,999. A five-digit number has places (from left to right) ten-thousands, thousands, hundreds, tens, and ones; for example, 48,375 means 4 ten-thousands, 8 thousands, 3 hundreds, 7 tens, and 5 ones. The leftmost digit carries the greatest place value, so it dominates the size of the number.\r\n\r\nComparison of two five-digit numbers is done by examining digits from left to right. We first compare the ten-thousands digits; if they are equal, we move to the thousands digits; if those are equal, we move to the hundreds, and so on until a difference is found. The number with the larger digit at the first place of difference is the larger number. For instance, comparing 48,375 and 48,297: the ten-thousands digits are equal (4 = 4), the thousands digits are equal (8 = 8), but at the hundreds place 3 > 2, so 48,375 is larger. Real-life contexts such as the cost of two houses (a house costing Rs4,83,750 versus one costing Rs4,82,970) or the number of spectators in two cricket matches make this comparison meaningful.\r\n\r\nOrdering numbers uses the same comparison rule repeatedly. Arranging in ascending order means lining them up from smallest to largest (e.g., 28,970 < 32,145 < 33,008), like arranging students by height from shortest to tallest. Descending order is the reverse, from largest to smallest.\r\n\r\nEstimation is the skill of giving an approximate size rather than an exact count. For five-digit numbers we estimate by rounding to the nearest thousand or the nearest ten thousand. To round to the nearest thousand, look at the hundreds digit: if it is 5 or more, round the thousands digit up; otherwise round down. So 44,800 rounded to the nearest thousand is 45,000, and 44,200 rounded to the nearest thousand is 44,000. To round to the nearest ten thousand, look at the thousands digit: 44,800 rounds to 40,000 (since 4 < 5), while 48,300 rounds to 50,000. Estimation lets us say \"about 45,000 spectators\" without counting each person, just as we might guess how many grains of rice are in a bowl by looking rather than counting.",
+    "textWalkthrough": "In Class 5 (node c5_math_001) you learned to read and write 9-digit numbers in both the Indian and International systems -- you became comfortable with lakhs, crores, millions, and the place-value chart that stretches across many places. That was a big achievement. Now in Class 6 we step back and look at smaller numbers -- only up to five digits (10,000 to 99,999) -- but we look at them more deeply. The goal is no longer just reading and writing numbers; it is building a felt sense of how big a number is, how to compare two numbers quickly, and how to estimate a number's size without counting exactly. So we move from \"naming large numbers\" to \"feeling and using numbers\".\r\n\r\nLet us first consolidate the structure of a five-digit number. Take 48,375. From left to right the places are: ten-thousands (4), thousands (8), hundreds (3), tens (7), ones (5). The leftmost place always carries the greatest value, which is why, when comparing, we always start from the left. A good way to feel the size is to ask: \"Is this number closer to 40,000 or to 50,000?\" 48,375 is closer to 50,000 -- that is the beginning of estimation.\r\n\r\nNow comparison. Suppose two cricket matches had crowds of 48,375 and 48,297. Which was larger? We compare digit by digit from the left. Ten-thousands: 4 = 4. Thousands: 8 = 8. Hundreds: 3 versus 2 -- here 3 is bigger, so 48,375 is larger. We did not need to look at the tens or ones at all. A GOOD answer states the first place of difference and the conclusion: \"At the hundreds place, 3 > 2, so 48,375 > 48,297.\" A BAD answer just says \"48,375 is bigger\" with no reason, or worse, compares from the right and gets confused by the ones digits (7 and 7 are equal, 5 < 7, leading a careless child to pick the wrong number). Always compare from the left.\r\n\r\nOrdering three or more numbers uses the same idea repeatedly. To arrange 32,145; 28,970; 33,008 in ascending order, compare pairs: 28,970 is smallest (its ten-thousands digit 2 is the least), then between 32,145 and 33,008 the ten-thousands digits are equal (3 = 3) but the thousands digits differ (2 < 3), so 32,145 comes next and 33,008 is largest. The ascending order is 28,970 < 32,145 < 33,008. Think of it like arranging students by height -- you line them up from shortest to tallest, comparing two at a time.\r\n\r\nEstimation by rounding is the second big skill. To round 44,800 to the nearest thousand, look at the hundreds digit (8). Because 8 is 5 or more, round the thousands digit up: 44,800 ~= 45,000. To round the same number to the nearest ten thousand, look at the thousands digit (4). Because 4 is less than 5, round down: 44,800 ~= 40,000. Notice the same number gives different approximations depending on the place we round to -- that is expected, because \"nearest thousand\" and \"nearest ten thousand\" are different scales. A GOOD estimate names the place rounded to: \"about 45,000 to the nearest thousand\". A BAD estimate is vague: \"about 45,000-ish\" with no place stated, or rounding to the wrong place by looking at the wrong digit.\r\n\r\nIn the ICSE board exam, expect short questions that ask you to compare two five-digit numbers, arrange a set in ascending or descending order, or round a number to the nearest thousand or ten thousand. Examiners, as noted in the Pupil Performance Analysis, repeatedly stress that candidates must show the working process and not just the final option -- so always state the place value at which you made the comparison or the digit you looked at when rounding. Clear mathematical communication, not just a correct answer, is what is rewarded.",
+    "eli5": "A five-digit number is like a five-storey building: the leftmost floor holds the most weight. To compare two such buildings, check the top floor first; only if they match do you check the next floor down. To estimate, pick the nearest \"round\" number -- like saying a crowd of 44,800 is \"about 45,000\" -- just as you'd say a jar has \"about 100 marbles\" instead of counting each one.",
+    "misconceptionText": "Misconception 1: \"Compare numbers from the right, starting with the ones digit.\" The CISCE Pupil Performance Analysis repeatedly notes that candidates lose marks by not showing the correct working process and by misidentifying the place that decides the comparison. Correction: Always compare from the left. The leftmost place (ten-thousands) carries the greatest value, so it is checked first; only when digits are equal do you move right. Comparing 48,375 and 48,297 from the right (ones: 5 vs 7) would wrongly suggest 48,297 is larger -- the correct approach finds the hundreds place (3 > 2) and concludes 48,375 is larger.\r\n\r\nMisconception 2: \"Rounding to the nearest thousand means changing the thousands digit to 0.\" Correction: Rounding to the nearest thousand keeps the thousands place (and everything to its left) and replaces the hundreds, tens, and ones with zeros, adjusting the thousands digit up by 1 only if the hundreds digit is 5 or more. So 44,800 -> 45,000 (hundreds digit 8 >= 5, round up), and 44,200 -> 44,000 (hundreds digit 2 < 5, round down). The thousands digit is not zeroed.\r\n\r\nMisconception 3: \"The nearest thousand and nearest ten thousand give the same estimate.\" Correction: They are different scales. 44,800 rounded to the nearest thousand is 45,000, but rounded to the nearest ten thousand is 40,000. The digit you inspect differs (hundreds for thousands-rounding, thousands for ten-thousands-rounding), so the results can differ. Always state which place you are rounding to.",
+    "diagnosticText": "Q1 (recall): What is a five-digit number? Name the five place values from left to right and explain how to compare two five-digit numbers.\r\nAnswer: A five-digit number is any whole number from 10,000 to 99,999. From left to right its five places are: ten-thousands, thousands, hundreds, tens, and ones. For example, in 48,375 the 4 is in the ten-thousands place (worth 40,000), the 8 is in the thousands place (worth 8,000), the 3 is in the hundreds place (worth 300), the 7 is in the tens place (worth 70), and the 5 is in the ones place (worth 5). To compare two five-digit numbers, examine the digits from left to right. First compare the ten-thousands digits; if they are equal, compare the thousands digits; if those are equal, compare the hundreds digits; and so on. The first place where the digits differ tells you which number is larger -- the number with the bigger digit at that place is the larger number. If all digits are equal, the numbers are equal. This left-to-right rule works because the leftmost place has the greatest value, so it dominates the size of the number.\r\n\r\nQ2 (reasoning): Two cricket matches had crowds of 48,375 and 48,297. Explain step by step which crowd was larger and why.\r\nAnswer: We compare the two numbers digit by digit from the left. Both numbers have five digits, so we begin at the ten-thousands place. The ten-thousands digit of 48,375 is 4, and the ten-thousands digit of 48,297 is also 4. Since 4 = 4, we cannot decide yet, so we move one place to the right. At the thousands place, 48,375 has 8 and 48,297 also has 8. Again they are equal, so we move to the hundreds place. Here 48,375 has 3 and 48,297 has 2. Since 3 > 2, this is the first place of difference, and the number with the larger digit -- 48,375 -- is the larger number. We do not need to look at the tens or ones places at all, because the hundreds place has already settled the comparison. Therefore the first match had the larger crowd: 48,375 > 48,297. The key reasoning is that place value decreases from left to right, so the leftmost place where two numbers differ is the one that decides which is larger; places to its right cannot override that decision.\r\n\r\nQ3 (evaluate): A student says, \"To round 44,800 to the nearest thousand, I look at the thousands digit, which is 4, and since 4 is less than 5 I round down, so 44,800 becomes 40,000.\" Evaluate whether this student's method and answer are correct.\r\nAnswer: The student's answer of 40,000 is actually the result of rounding to the nearest ten thousand, not the nearest thousand, so the method is incorrect for the task stated. When rounding to the nearest thousand, the digit we must inspect is the hundreds digit -- the digit immediately to the right of the thousands place -- not the thousands digit itself. In 44,800 the hundreds digit is 8. Because 8 is 5 or more, we round the thousands digit up by one: the 4 in the thousands place becomes 5, and the hundreds, tens, and ones places are replaced by zeros. So 44,800 rounded to the nearest thousand is 45,000, not 40,000. The student has confused two different rounding scales. Rounding to the nearest thousand uses the hundreds digit as the decision-maker and keeps the thousands place (adjusting it up or down by one). Rounding to the nearest ten thousand uses the thousands digit as the decision-maker and keeps the ten-thousands place. The student looked at the thousands digit (4) and rounded down to 40,000 -- which is the correct procedure for rounding to the nearest ten thousand, but the question asked for the nearest thousand. This is a common and important error: the place you inspect is always the one immediately to the right of the place you are rounding to. So the student's final number (40,000) is not wrong as an estimate in general, but it is the wrong estimate for the question asked. The correct answer to \"round 44,800 to the nearest thousand\" is 45,000. A careful student always names the place being rounded to and checks the correct decision digit.\r\n\r\nQ4 (apply): Arrange the numbers 32,145; 28,970; 33,008 in ascending order, showing the comparison steps. Then round 33,008 to the nearest thousand and to the nearest ten thousand.\r\nAnswer: To arrange in ascending order we compare the numbers pairwise from the left. First compare the ten-thousands digits: 32,145 has 3, 28,970 has 2, and 33,008 has 3. Since 2 is the smallest, 28,970 is the smallest number. Now compare the remaining two, 32,145 and 33,008. Their ten-thousands digits are equal (3 = 3), so move to the thousands place: 32,145 has 2 and 33,008 has 3. Since 2 < 3, 32,145 is smaller than 33,008. Therefore the ascending order is 28,970 < 32,145 < 33,008. Now round 33,008 to the nearest thousand: look at the hundreds digit, which is 0. Since 0 is less than 5, we round down, keeping the thousands digit as 3 and replacing the lower places with zeros: 33,008 ~= 33,000 to the nearest thousand. Next round 33,008 to the nearest ten thousand: look at the thousands digit, which is 3. Since 3 is less than 5, we round down, keeping the ten-thousands digit as 3 and replacing the lower places with zeros: 33,008 ~= 30,000 to the nearest ten thousand. Notice the two estimates differ because they round to different places.\r\n\r\nQ5 (create): Design a real-life situation involving two five-digit numbers that a Class 6 student could compare, and write a short word problem that asks which is larger. Then show the full solution using the left-to-right comparison rule.\r\nAnswer: Imagine two houses in a city. House A in Jaipur costs Rs72,450 and House B in Lucknow costs Rs72,915. A family wants to know which house costs more. Word problem: \"House A in Jaipur costs Rs72,450 and House B in Lucknow costs Rs72,915. Which house is more expensive, and by how much?\" Solution using the left-to-right rule: Both prices are five-digit numbers (treating rupees without the comma symbol). Compare the ten-thousands digits: both have 7, so they are equal. Move to the thousands digits: both have 2, so they are equal. Move to the hundreds digits: House A has 4 and House B has 9. Since 9 > 4, this is the first place of difference, and House B is more expensive. We do not need to check the tens or ones. To find by how much, subtract: 72,915 - 72,450 = 465. So House B costs Rs465 more than House A. This problem shows how comparison and subtraction together answer a real-life question, and it practises the left-to-right comparison rule on numbers that are close in value, which is exactly the kind of question that tests true numberness rather than mere reading of digits.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can read and write any five-digit number (10,000 to 99,999) and state the value of each digit (e.g., in 48,375 the 4 is worth 40,000). Can compare two five-digit numbers by examining digits from left to right and state the first place of difference (e.g., 48,375 > 48,297 because at the hundreds place 3 > 2). Can arrange a set of five-digit numbers in ascending or descending order. Can round a five-digit number to the nearest thousand (e.g., 44,800 -> 45,000) and to the nearest ten thousand (e.g., 44,800 -> 40,000) by inspecting the correct decision digit.",
+    "subject": "maths",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_math_002",
+    "title": "Place value (recapitulation and extension)",
+    "definition": "Place value is the value of a digit based on its position in a number, while face value is the value of the digit itself, regardless of where it sits. In Class 5, children used place value and face value mainly to read and write numbers up to 9 digits; in Class 6, we formally describe these two ideas and extend them to larger numbers in both the Indian and International systems of numeration. In the Indian system, digits are grouped into periods called ones, thousands, lakhs, and crores, separated by commas after every two digits once we cross the hundreds place: for example, 5,24,376 is read as \"five lakh twenty-four thousand three hundred seventy-six.\" The places within the ones period are ones, tens, and hundreds; within the thousands period are thousands and ten thousands; within the lakhs period are lakhs and ten lakhs; and beyond ten lakhs lies the crores period containing crores and ten crores. In the International system, digits are grouped into periods of three: ones, thousands, millions, and billions, so the same number 524,376 is read as \"five hundred twenty-four thousand three hundred seventy-six,\" with places named ones, tens, hundreds, thousands, ten thousands, hundred thousands, millions, ten millions, and hundred millions. The place value of a digit is found by multiplying its face value by the value of its place: in 3,47,892, the digit 7 sits in the thousands place, so its place value is 7 x 1,000 = 7,000, while its face value remains 7. Expansion using place value notation breaks a number into the sum of each digit's place value: 5,24,376 = 5,00,000 + 20,000 + 4,000 + 300 + 70 + 6. This expansion works identically in the International system, only the comma grouping and place names change. A digit's place value is always a multiple of 10, while its face value is a single digit from 0 to 9. The digit 0 is special: its face value is 0 and its place value is also 0, no matter where it sits, because 0 multiplied by any place value gives 0. Children should be able to state both the place value and face value of any digit in a number up to 8 digits, expand such numbers using place value notation, and identify the place value of a digit in both the Indian and International systems.",
+    "textWalkthrough": "In Class 5 (node c5_math_002), you learned place value and face value mainly as a tool to read and write 9-digit numbers -- you used the idea to say a number correctly, but you may not have stopped to formally describe what place value and face value actually mean. In Class 6, we recapitulate that learning and extend it: we now describe place and face values explicitly, and we expand numbers using place value notation. Before we begin, make sure you are comfortable with the sense of numberness up to 5 digits from node c6_math_001 -- knowing what a 5-digit number like 48,725 \"feels like\" is the foundation, because place value is simply the value a digit carries because of the position it occupies in such a number.\r\n\r\nLet us first separate two ideas that students often mix up: face value and place value. The face value of a digit is the digit itself -- it never changes, no matter where the digit sits. The place value of a digit is the value it carries because of its position, and it does change with position. Take the number 3,47,892 in the Indian system. The digit 7 is in the thousands place, so its place value is 7,000, but its face value is just 7. If the same digit 7 moved to the hundreds place, as in 3,47,892 becoming 3,47,792, its place value would become 700 -- the face value stays 7, the place value changes. A useful way to remember this: face value is the digit's \"name,\" place value is its \"full address\" including which street (which place) it lives on.\r\n\r\nNow let us look at the Indian system of numeration in detail. Digits are grouped into periods: ones (ones, tens, hundreds), thousands (thousands, ten thousands), lakhs (lakhs, ten lakhs), and crores (crores, ten crores). Commas are placed after every two digits once you cross the hundreds place. So 5,24,376 is grouped as 5 | 24 | 376 -- five lakhs, twenty-four thousands, three hundred seventy-six. In this number, the place value of 5 is 5,00,000 (five lakhs), of 2 is 20,000 (twenty thousand), of 4 is 4,000, of 3 is 300, of 7 is 70, and of 6 is 6. Notice that each place value is the face value multiplied by the value of the place.\r\n\r\nThe International system groups digits into periods of three: ones (ones, tens, hundreds), thousands (thousands, ten thousands, hundred thousands), millions (millions, ten millions, hundred millions), and so on. The same quantity written as 524,376 in the International system is grouped as 524 | 376 -- five hundred twenty-four thousand, three hundred seventy-six. Here the digit 5 is in the hundred-thousands place, so its place value is 500,000. The digit's face value is still 5, but its place value is described differently because the place has a different name and a different grouping. This is the key difference between the two systems: the places and the comma groupings differ, but the underlying quantity is the same.\r\n\r\nExpansion using place value notation is the skill of writing a number as the sum of each digit's place value. For 8,23,456 in the Indian system: 8,23,456 = 8,00,000 + 20,000 + 3,000 + 400 + 50 + 6. A GOOD expansion lists every non-zero digit's place value separately and adds them up; a WEAK expansion writes \"8,23,456 = 8 + 2 + 3 + 4 + 5 + 6,\" which only uses face values and is completely wrong -- that sum is 28, not 8,23,456. Always check that your expansion adds back up to the original number.\r\n\r\nA special note on the digit 0: in 12,45,780, the digit 0 is in the ones place. Its face value is 0 and its place value is also 0 (0 x 1 = 0). That is why we usually skip 0 in an expansion: 12,45,780 = 10,00,000 + 2,00,000 + 40,000 + 5,000 + 700 + 80. The 0 in the ones place contributes nothing, but it still holds the position so that the 8 stays in the tens place.\r\n\r\nIn the ICSE board exam, expect short questions asking you to state the place value and face value of a specific digit in a given number, to expand a number using place value notation, or to identify the place of a digit in both Indian and International systems. Examiner reports repeatedly flag that students confuse place value with face value and make careless errors when the same digit appears in different positions -- so always read which digit and which system the question asks for before you answer.",
+    "eli5": "Imagine each digit in a number is a person, and each position in the number is a house. The person's name (the digit itself) is the face value -- it never changes. But the house they live in gives them an address, and that address is the place value. So a \"7\" living in the thousands house has the address \"7,000,\" but the same \"7\" living in the hundreds house has the address \"700.\" Same person, different address -- that is place value.",
+    "misconceptionText": "Misconception 1: \"Place value and face value are the same thing.\" This is the most common error flagged in CISCE examiner comments, where candidates confuse the value a digit carries by its position with the digit itself. Correction: Face value is the digit itself (always 0--9) and never changes; place value is face value x value of the place, so it changes with position. In 3,47,892, the face value of 7 is 7, but the place value is 7,000 because 7 sits in the thousands place.\r\n\r\nMisconception 2: \"The place value of a digit is the same in the Indian and International systems.\" Correction: The quantity is the same, but the name and grouping of the place differ. In 5,24,376 (Indian), the 5 is in the lakhs place with place value 5,00,000. Written as 524,376 (International), the 5 is in the hundred-thousands place with place value 500,000. The numerical value is equal, but the place name and comma grouping are different -- always answer in the system the question specifies.\r\n\r\nMisconception 3: \"The digit 0 has a place value equal to its place.\" CISCE examiners note that students mishandle zero in calculations and place-value questions. Correction: The place value of 0 is always 0, no matter where it sits, because 0 x any place value = 0. The 0 still holds the position so other digits keep their correct places, but it contributes nothing to the expansion.",
+    "diagnosticText": "Q1 (recall): In the number 3,47,892 (Indian system), state the place value and face value of the digit 7. Also name the place it occupies.\r\nAnswer: In the number 3,47,892 written in the Indian system, the digits are grouped into periods as 3 | 47 | 892, that is, three lakhs, forty-seven thousands, eight hundred ninety-two. The digit 7 sits in the thousands place within the thousands period. Its face value is the digit itself, which is 7. Its place value is the face value multiplied by the value of the place it occupies: 7 x 1,000 = 7,000. So the place value of 7 is 7,000 and the face value of 7 is 7. The place it occupies is the thousands place. This example shows the core distinction of this node: face value never changes (it is always the digit 0--9), while place value depends entirely on the position the digit holds in the number. If the same digit 7 were moved to the hundreds place, its place value would become 700, but its face value would still be 7.\r\n\r\nQ2 (reasoning): The number 5,24,376 is written in the Indian system. The same quantity written in the International system is 524,376. Explain why the digit 5 has a different place name in the two systems even though the quantity is the same.\r\nAnswer: The Indian and International systems group digits into periods of different sizes. The Indian system groups digits into periods of two (after the ones period of three): ones, thousands, lakhs, crores -- so 5,24,376 is read as \"five lakh twenty-four thousand three hundred seventy-six,\" and the digit 5 sits in the lakhs place with place value 5,00,000. The International system groups digits into periods of three: ones, thousands, millions -- so 524,376 is read as \"five hundred twenty-four thousand three hundred seventy-six,\" and the digit 5 sits in the hundred-thousands place with place value 500,000. The underlying quantity is identical: 5,00,000 in the Indian notation equals 500,000 in the International notation -- both represent five hundred thousand. The difference is only in how the places are named and where the commas are placed. This is why, when a question asks for the place value or place name, you must first identify which system is being used and answer in that system's vocabulary. Confusing the two systems is a common error, so always check the comma grouping before you name a place.\r\n\r\nQ3 (evaluate): A student says, \"In the number 12,45,780, the place value of 0 is 1 because 0 is in the ones place and the ones place has value 1.\" Evaluate whether this statement is correct, and explain the correct reasoning about the place value of 0.\r\nAnswer: The student's statement is incorrect, and it reveals a common misunderstanding about how place value works for the digit zero. The place value of any digit is calculated as face value x value of the place. For the digit 0 in the ones place of 12,45,780, the face value is 0 and the value of the ones place is 1, so the place value is 0 x 1 = 0, not 1. The student has confused the value of the place (which is 1 for the ones place) with the place value of the digit (which is the digit multiplied by the place). These are two different things: the value of the place is a fixed property of the position, while the place value of a digit depends on both the position and the digit sitting there. Because zero multiplied by any number is always zero, the place value of 0 is always 0, no matter which place it occupies -- ones, tens, thousands, or lakhs. However, the 0 is still important: it acts as a placeholder that keeps the other digits in their correct positions. In 12,45,780, if we removed the 0, the number would become 12,45,78, which is a completely different (and smaller) number. So the 0 holds the ones place so that the 8 stays correctly in the tens place, but the 0 itself contributes nothing to the value of the number. In an expansion, we therefore skip the 0: 12,45,780 = 10,00,000 + 2,00,000 + 40,000 + 5,000 + 700 + 80 + 0, and the 0 term is usually omitted. The correct reasoning is: place value = face value x value of place; for 0 this is always 0; the 0 still serves as a placeholder to preserve the positions of other digits.\r\n\r\nQ4 (apply): Expand the number 8,23,456 using place value notation in the Indian system, and verify that your expansion adds back up to the original number.\r\nAnswer: To expand 8,23,456 in the Indian system, we identify each digit and its place value. The number is grouped as 8 | 23 | 456 -- eight lakhs, twenty-three thousands, four hundred fifty-six. The digit 8 is in the lakhs place, so its place value is 8 x 1,00,000 = 8,00,000. The digit 2 is in the ten-thousands place, so its place value is 2 x 10,000 = 20,000. The digit 3 is in the thousands place, so its place value is 3 x 1,000 = 3,000. The digit 4 is in the hundreds place, so its place value is 4 x 100 = 400. The digit 5 is in the tens place, so its place value is 5 x 10 = 50. The digit 6 is in the ones place, so its place value is 6 x 1 = 6. Putting it all together: 8,23,456 = 8,00,000 + 20,000 + 3,000 + 400 + 50 + 6. To verify, we add: 8,00,000 + 20,000 = 8,20,000; 8,20,000 + 3,000 = 8,23,000; 8,23,000 + 400 = 8,23,400; 8,23,400 + 50 = 8,23,450; 8,23,450 + 6 = 8,23,456. The sum matches the original number, so the expansion is correct. A good habit is always to verify your expansion by adding the terms back together.\r\n\r\nQ5 (create): Design a 7-digit number in the Indian system in which the digit 6 appears in two different places, and write out the place value and face value of each 6, the full expansion of the number, and the same number written in the International system with its comma grouping.\r\nAnswer: Let us design the number 64,36,215 in the Indian system. This is a 7-digit number grouped as 64 | 36 | 215 -- sixty-four lakhs, thirty-six thousands, two hundred fifteen. The digit 6 appears in two places: first, in the ten-lakhs place (the leftmost 6), and second, in the thousands place (the 6 in 36). For the first 6 (ten-lakhs place): face value = 6, place value = 6 x 10,00,000 = 60,00,000. For the second 6 (thousands place): face value = 6, place value = 6 x 1,000 = 6,000. Notice that the face value is the same (6) in both cases, but the place values differ enormously because the positions differ -- this is the heart of the place value concept. The full expansion is: 64,36,215 = 60,00,000 + 4,00,000 + 30,000 + 6,000 + 200 + 10 + 5. Verifying: 60,00,000 + 4,00,000 = 64,00,000; + 30,000 = 64,30,000; + 6,000 = 64,36,000; + 200 = 64,36,200; + 10 = 64,36,210; + 5 = 64,36,215. Correct. Now writing the same quantity in the International system: the number is 6,436,215, grouped as 6 | 436 | 215 -- six million, four hundred thirty-six thousand, two hundred fifteen. In the International system, the leftmost 6 is in the millions place with place value 6,000,000 (equal to 60,00,000 in the Indian system), and the second 6 is in the thousands place with place value 6,000 (the same as in the Indian system, since the thousands place is common to both). This exercise shows how the same digit carries the same numerical place value across systems but is named and grouped differently.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can state the place value and face value of any digit in a number up to 8 digits (e.g., in 3,47,892 the place value of 7 is 7,000 and face value is 7). Can expand a number up to 8 digits using place value notation in both Indian and International systems (e.g., 5,24,376 = 5,00,000 + 20,000 + 4,000 + 300 + 70 + 6). Can identify the place name of a digit in both the Indian system (lakhs, ten lakhs, crores) and the International system (hundred thousands, millions). Can explain why the place value of 0 is always 0 and why 0 still serves as a placeholder.",
+    "subject": "maths",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_math_031",
+    "title": "Simplification of brackets",
+    "definition": "Simplification of brackets is the systematic process of evaluating a numerical expression that contains one or more types of brackets by following a fixed order of operations known as BODMAS. The word BODMAS stands for Bracket, Of (or Order), Division, Multiplication, Addition, and Subtraction, and it tells us the exact sequence in which the operations inside an expression must be carried out so that every student arrives at the same correct answer. In Class 6 we work with three kinds of brackets: parentheses or round brackets ( ), curly braces { }, and square brackets [ ]. When an expression contains more than one kind of bracket, they are usually nested with the square bracket on the outside, the curly brace inside it, and the parentheses innermost, like 20 - [12 - {5 - (3 - 1)}]. The golden rule is to always solve the innermost bracket first and then move outward, layer by layer, exactly like peeling an onion or opening a set of gift boxes packed one inside the other.\r\n\r\nAlongside the BODMAS order, we also use the distributive property to remove brackets when multiplication stands outside a bracket. The distributive property says that a x (b + c) = a x b + a x c, so 8 x (5 + 3) can be simplified either by first adding inside the bracket to get 8 x 8 = 64, or by distributing the 8 to get 8 x 5 + 8 x 3 = 40 + 24 = 64. Both routes give the same answer, which is itself a beautiful demonstration of the properties of numbers that we studied earlier. The expressions we simplify in this node use only whole numbers, and the brackets are nested to at most two levels, keeping the arithmetic manageable while building the habit of working in the correct order. Simplification of brackets is the bridge between the four basic operations a child already knows and the formal algebraic work that comes in later classes, because it trains the mind to respect structure and order before symbols are introduced.",
+    "textWalkthrough": "In Class 5 (node c5_math_010) you learned to solve word problems involving the four operations -- addition, subtraction, multiplication, and division -- in real-life contexts, deciding which operation to apply and in what order. You became comfortable reading a story, picking out the numbers, and choosing whether to add, subtract, multiply, or divide. That skill is the foundation we now build on, because today we are not just choosing operations from a story; we are reading a written expression that already tells us the operations through symbols, and our job is to carry them out in the correct order so that the answer is reliable and repeatable.\r\n\r\nBefore we begin, recall from node c6_math_010 the properties of numbers you studied: closure, commutativity, associativity, and the distributive property. Simplifying brackets leans heavily on these. The distributive property lets us multiply a number across a bracket, and the associative property lets us regroup terms when a bracket is removed. If those properties feel fuzzy, pause and revise c6_math_010 first, because every step of bracket simplification secretly uses one of them.\r\n\r\nThe first tool is the BODMAS rule: Bracket, Of, Division, Multiplication, Addition, Subtraction. This is the order in which operations must be performed. Whatever sits inside a bracket is solved first; then \"of\" (which means multiplication, as in \"half of 12\"); then division; then multiplication; then addition; and finally subtraction. A common trap is to rush to addition before subtraction just because A comes before S in the word, but when only addition and subtraction remain at the same level, we work strictly left to right.\r\n\r\nThe second tool is the rule for nested brackets. We have three kinds: parentheses ( ), curly braces { }, and square brackets [ ]. When they are nested, we always start from the innermost bracket and move outward. Let us walk through 20 - [12 - {5 - (3 - 1)}]. The innermost bracket is (3 - 1) = 2. Now the expression becomes 20 - [12 - {5 - 2}]. Next, solve the curly brace: {5 - 2} = 3, giving 20 - [12 - 3]. Now the square bracket: [12 - 3] = 9, giving 20 - 9 = 11. Notice how each layer peels away in turn. A GOOD answer shows every intermediate step on a new line, like above. A BAD answer jumps straight to \"20 - 9 = 11\" with no working, or worse, solves the square bracket first and gets 20 - [12 - 5 - 3 - 1] = 20 - 3 = 17, which is completely wrong because the nesting was ignored.\r\n\r\nThe third tool is the distributive property for removing a bracket when a multiplication sits outside it. Take 8 x (5 + 3). One route: solve inside first, 5 + 3 = 8, then 8 x 8 = 64. Another route: distribute, 8 x 5 + 8 x 3 = 40 + 24 = 64. Both give 64, and seeing this equality is a small proof that the distributive property works. In the ICSE board exam, examiners expect you to show the innermost bracket being solved first, each reduced expression written clearly on a new line, and the final answer stated at the end. Skipping steps loses method marks even if the final number is right, because the examiner wants to see the order of operations applied correctly -- a point repeatedly stressed in the Pupil Performance Analysis, where candidates lost marks for \"not clearly showing all essential steps\" and for sign errors when brackets were removed.",
+    "eli5": "Imagine a set of gift boxes packed one inside another. To reach the toy at the centre you must open the smallest, innermost box first, then the next, then the next -- never the big outside box first. BODMAS is the rule that tells you the order to do maths operations, and brackets are those boxes. Always open the innermost bracket first, do the maths inside it, then move outward step by step until the whole expression is unwrapped.",
+    "misconceptionText": "Misconception 1: \"Addition always comes before subtraction because A is before S in BODMAS.\" Correction: When only addition and subtraction remain at the same level (no brackets or multiplication/division left), you must work strictly left to right. For example, in 10 - 4 + 3, doing 10 - 4 first gives 6 + 3 = 9, which is correct. A student who adds first gets 10 - 7 = 3, which is wrong. The CISCE examiner comments (2023) repeatedly flag that candidates lose marks for \"not clearly showing all essential steps\" and for sign errors, and this left-to-right rule is one of the commonest sources of those sign mistakes.\r\n\r\nMisconception 2: \"Solve the outermost bracket first because it is the biggest.\" Correction: Brackets must be solved from the innermost outward. In 20 - [12 - {5 - (3 - 1)}], a student who attacks the square bracket first destroys the nesting and gets a wrong answer. The innermost parentheses (3 - 1) must be evaluated first, then the curly brace, then the square bracket. This mirrors the examiner observation that \"the concept of increasing and decreasing functions with the correct brackets was the most common error\" -- bracket handling is a known weakness across classes.\r\n\r\nMisconception 3: \"When a minus sign sits before a bracket, the signs inside do not change when the bracket is removed.\" Correction: Although formal sign-change rules belong to later classes, even at Class 6 a minus before a bracket means subtraction is being distributed. In 20 - (6 + 4), removing the bracket gives 20 - 6 - 4 = 10, not 20 - 6 + 4 = 18. The examiner remedy to \"stress the need to clearly show all essential steps\" and \"explain the significance of using brackets\" directly addresses this slip.",
+    "diagnosticText": "Q1 (recall): State the full form of BODMAS and list the three types of brackets used in Class 6, in the order they are nested from outside to inside.\r\nAnswer: BODMAS stands for Bracket, Of, Division, Multiplication, Addition, and Subtraction. It is the rule that fixes the order in which operations in a numerical expression must be performed so that the result is correct and consistent. The three types of brackets used in Class 6 are square brackets [ ], curly braces { }, and parentheses or round brackets ( ). When an expression contains all three, they are nested with the square bracket on the outside, the curly brace inside the square bracket, and the parentheses innermost. For example, in 20 - [12 - {5 - (3 - 1)}], the square bracket is outermost, the curly brace is in the middle, and the parentheses are innermost. The rule for solving nested brackets is to always begin with the innermost bracket and move outward, because the innermost bracket is the first operation that must be completed before the surrounding brackets can be evaluated. This order guarantees that every student follows the same sequence and arrives at the same answer.\r\n\r\nQ2 (reasoning): Simplify 25 - [10 - {6 - (4 - 2)}] step by step and explain why you must start with the innermost bracket rather than the outermost.\r\nAnswer: We begin with the innermost parentheses: (4 - 2) = 2. The expression becomes 25 - [10 - {6 - 2}]. Next we solve the curly brace: {6 - 2} = 4, giving 25 - [10 - 4]. Now we solve the square bracket: [10 - 4] = 6, giving 25 - 6 = 19. So the final answer is 19. The reason we must start with the innermost bracket is that each outer bracket contains the inner bracket as part of its contents. The square bracket [10 - {6 - (4 - 2)}] cannot be evaluated until we know the value of {6 - (4 - 2)}, and that curly brace cannot be evaluated until we know the value of (4 - 2). If we tried to solve the square bracket first, we would have to subtract {6 - (4 - 2)} from 10 without knowing its value, which is impossible. The nesting means the innermost expression must be resolved first so that each outer layer receives a definite number rather than an unsolved expression. This is exactly like opening nested gift boxes: the smallest, innermost box must be opened before the larger ones around it can be unpacked.\r\n\r\nQ3 (evaluate): A student simplifies 16 - 8 + 4 as 16 - (8 + 4) = 16 - 12 = 4. Another student simplifies it as (16 - 8) + 4 = 8 + 4 = 12. Evaluate which approach is correct and explain the principle that decides the answer.\r\nAnswer: The second student is correct; the answer is 12. The first student has made a classic BODMAS error by assuming that addition must always be performed before subtraction simply because A comes before S in the word BODMAS. This is a misunderstanding of what the rule means. BODMAS tells us the priority among different kinds of operations -- brackets first, then of, then division, then multiplication, then addition and subtraction. But when only addition and subtraction remain at the same level, with no brackets, division, or multiplication left to do, they have equal priority and must be performed strictly in order from left to right, exactly as they appear in the expression. In 16 - 8 + 4, reading left to right, we first compute 16 - 8 = 8, and then add 4 to get 12. The first student effectively inserted a bracket around 8 + 4 that was not in the original expression, changing the meaning of the problem. Brackets cannot be added or removed at will; they change the order of operations. If the problem had been written 16 - (8 + 4), then the bracket would force the addition first and the answer would indeed be 4, but without that bracket the left-to-right rule governs. This distinction is precisely what CISCE examiners flag when they stress \"the need to clearly show all essential steps\" and warn against sign errors arising from careless bracket handling. The balanced view is that BODMAS gives a priority order among operation types, but within the same priority level the left-to-right reading of the expression is the tie-breaker. Both students understood that subtraction and addition are involved; only the second student respected the equal-priority left-to-right rule, which is why the second answer is the correct one.\r\n\r\nQ4 (apply): Simplify 7 x (12 + 8) in two different ways -- first by solving inside the bracket, and second by using the distributive property -- and show that both methods give the same result.\r\nAnswer: Method 1 -- solve inside the bracket first. The bracket contains (12 + 8) = 20. Now the expression becomes 7 x 20 = 140. This follows the BODMAS rule directly: the bracket is solved before the multiplication. Method 2 -- use the distributive property. The distributive property states that a x (b + c) = a x b + a x c. Applying this with a = 7, b = 12, and c = 8, we get 7 x (12 + 8) = 7 x 12 + 7 x 8. Now compute each product: 7 x 12 = 84 and 7 x 8 = 56. Adding these gives 84 + 56 = 140. Both methods give 140, which confirms that the distributive property is valid and that removing a bracket by distributing the outside multiplier produces the same result as first evaluating the bracket and then multiplying. This is a small but powerful demonstration of the number properties studied in node c6_math_010. In the ICSE exam, either method is acceptable, but the working must be shown clearly line by line so the examiner can see the order of operations being respected.\r\n\r\nQ5 (create): Design your own numerical expression that uses all three types of brackets -- parentheses, curly braces, and square brackets -- along with at least two of the four operations, such that the final answer is 30. Write the expression, then show the full step-by-step simplification.\r\nAnswer: One possible expression is 40 - [20 - {15 - (12 - 7)}]. Let us verify that it simplifies to 30. Step 1 -- solve the innermost parentheses: (12 - 7) = 5. The expression becomes 40 - [20 - {15 - 5}]. Step 2 -- solve the curly brace: {15 - 5} = 10. The expression becomes 40 - [20 - 10]. Step 3 -- solve the square bracket: [20 - 10] = 10. The expression becomes 40 - 10 = 30. The final answer is 30, as required. This expression uses all three bracket types, involves subtraction at every level, and respects the innermost-first rule throughout. Another equally valid design would be 5 x [3 + {2 x (4 + 2)}], which simplifies as (4 + 2) = 6, then {2 x 6} = 12, then [3 + 12] = 15, and finally 5 x 15 = 75 -- but that gives 75, not 30, so the numbers would need adjusting. The creative task shows that building an expression with a target answer requires working backwards: decide the final operation, choose numbers that produce the target, and then wrap inner computations in the appropriate brackets so that the BODMAS order forces the steps you intend.",
+    "cognitiveLevel": "apply",
+    "masteryCriteria": "Can state the full form of BODMAS and the correct order of operations (Bracket, Of, Division, Multiplication, Addition, Subtraction). Can simplify a numerical expression with two levels of nested brackets -- for example 20 - [12 - {5 - (3 - 1)}] = 11 -- by always solving the innermost bracket first and showing each reduced step on a new line. Can apply the distributive property to remove a bracket, for example 8 x (5 + 3) = 8 x 5 + 8 x 3 = 64. Can explain why, when only addition and subtraction remain at the same level, the operations are performed left to right rather than addition always first.",
+    "subject": "maths",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_math_033",
+    "title": "Divisibility rules of 2, 3, 4, 5, 6, 8, 9, 10, 11 (through observing patterns)",
+    "definition": "A divisibility rule is a shortcut pattern that lets us decide whether one whole number is divisible by another without performing the full long division. Instead of dividing and checking the remainder, we observe a feature of the digits -- the last digit, the last two digits, the sum of the digits, or an alternating sum -- and that feature alone tells us the answer. The rules covered in this node are for the divisors 2, 3, 4, 5, 6, 8, 9, 10, and 11, and each rule is discovered by observing patterns in multiplication facts and multiples, not by memorising a formula.\r\n\r\nThe basic rules rest on the place-value structure of our number system. A number like 4736 equals 4x1000 + 7x100 + 3x10 + 6. Because 1000, 100 and 10 are all divisible by 2, the part 4x1000 + 7x100 + 3x10 is always divisible by 2, so only the units digit 6 decides divisibility by 2. The same reasoning gives the rule for 5 and 10: since 1000, 100 and 10 are divisible by 5 and 10, only the last digit matters. Hence a number is divisible by 2 if its last digit is 0, 2, 4, 6 or 8; by 5 if its last digit is 0 or 5; and by 10 if its last digit is 0. For 4 and 8 we go one and two steps further: 100 is divisible by 4 but not always by 8, while 1000 is divisible by 8. So a number is divisible by 4 if its last two digits form a number divisible by 4 (e.g. 576, last two digits 76, 76 / 4 = 19, so 576 is divisible by 4), and divisible by 8 if its last three digits form a number divisible by 8 (e.g. 7120, last three digits 120, 120 / 8 = 15, so 7120 is divisible by 8).\r\n\r\nThe rules for 3 and 9 use the digit sum. Because 10 leaves remainder 1 when divided by 3 or by 9, every power of 10 also leaves remainder 1, so the remainder of the whole number equals the remainder of the sum of its digits. Therefore a number is divisible by 3 if the sum of its digits is divisible by 3 (e.g. 3468: 3+4+6+8 = 21, 21 / 3 = 7, so 3468 is divisible by 3), and divisible by 9 if the digit sum is divisible by 9 (e.g. 8370: 8+3+7+0 = 18, 18 / 9 = 2, so 8370 is divisible by 9).\r\n\r\nThe rules for 6 and 11 are derived rules -- combinations of basic patterns. Because 6 = 2 x 3 with 2 and 3 co-prime, a number is divisible by 6 if and only if it is divisible by both 2 and 3 (e.g. 2574: last digit 4 so divisible by 2; digit sum 2+5+7+4 = 18, divisible by 3; hence divisible by 6). For 11, because 10 leaves remainder -1 when divided by 11, the alternating sum of digits decides: a number is divisible by 11 if the difference between the sum of its digits in odd places and the sum of its digits in even places is 0 or a multiple of 11 (e.g. 2541: (2+4) - (5+1) = 6 - 6 = 0, so 2541 is divisible by 11). The skill of deducing combined rules from basic ones -- like building the rule for 6 from the rules for 2 and 3 -- is the heart of this node.",
+    "textWalkthrough": "In Class 5 (node c5_math_040) you already met the divisibility tests for 2, 3, 4, 5, 9, 10 and 11 -- you applied them to numbers and got answers. You also finished node c6_math_032 on multiples and factors, where you saw that a multiple of a number is the product of that number and a whole number, and that a factor divides a number exactly with no remainder. Carry that language with you: when we say \"3468 is divisible by 3\", we mean 3 is a factor of 3468 and 3468 is a multiple of 3. That link between multiples, factors and divisibility is the soil from which every rule in this node grows.\r\n\r\nThis year we go one step further than Class 5: we add the rules for 6 and 8, and -- more importantly -- we learn to deduce the rules from patterns instead of memorising them. The shift is from \"applying the test\" to \"observing the pattern and explaining why the test works\". So read each rule below as a small discovery, not a formula to cram.\r\n\r\nStart with the rules that look only at the last digit. List the first ten multiples of 2: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20. Notice the units digit is always 0, 2, 4, 6 or 8. List the multiples of 5: 5, 10, 15, 20, 25, 30 -- the units digit is always 0 or 5. List the multiples of 10: 10, 20, 30, 40 -- the units digit is always 0. From these patterns you deduce: divisible by 2 <=> last digit is even; divisible by 5 <=> last digit is 0 or 5; divisible by 10 <=> last digit is 0. Notice that the rule for 10 is really the rule for 2 and 5 combined -- a number divisible by 10 must end in 0, which is the only digit that satisfies both the rule for 2 and the rule for 5. That is your first taste of a derived rule.\r\n\r\nNow look at the last two digits for the rule of 4. Take 576. The hundreds part is 500, and 500 = 5 x 100, which is divisible by 4 because 100 is. So whether 576 is divisible by 4 depends only on 76. Check 76 / 4 = 19, remainder 0, so 576 is divisible by 4. Try a counter-example: 578. Last two digits 78, 78 / 4 = 19 remainder 2, so 578 is NOT divisible by 4 even though it looks similar. A GOOD answer states \"last two digits 76, 76 / 4 = 19 exactly, so 576 is divisible by 4\"; a BAD answer just says \"yes, because 76 is even\" -- being even is the rule for 2, not for 4, and 78 is even yet not divisible by 4.\r\n\r\nFor the rule of 8 we extend the same idea to the last three digits, because 1000 is divisible by 8. Test 7120: last three digits 120, 120 / 8 = 15 exactly, so 7120 is divisible by 8. Test 7124: last three digits 124, 124 / 8 = 15 remainder 4, so 7124 is not divisible by 8. This is the new rule added in Class 6 -- Class 5 did not cover 8.\r\n\r\nNext, the digit-sum rules for 3 and 9. Why does the digit sum work? Because 10 = 9 + 1, so 10 leaves remainder 1 when divided by 9 (and also when divided by 3, since 3 divides 9). That means 100, 1000, 10000 -- every power of 10 -- also leaves remainder 1. So a number like 3468 = 3x1000 + 4x100 + 6x10 + 8 leaves the same remainder as 3 + 4 + 6 + 8 = 21. Test 3468 for divisibility by 3: digit sum 21, 21 / 3 = 7, so 3468 is divisible by 3. Test 8370 for divisibility by 9: digit sum 8+3+7+0 = 18, 18 / 9 = 2, so 8370 is divisible by 9. A common slip is to stop summing too early -- always reduce until you reach a single digit or a number you can judge at a glance.\r\n\r\nNow the two derived rules, which are the heart of this node. For 6: since 6 = 2 x 3 and 2 and 3 share no common factor other than 1, a number is divisible by 6 exactly when it is divisible by both 2 and 3. Test 2574: last digit 4 => divisible by 2; digit sum 2+5+7+4 = 18 => divisible by 3; both conditions hold, so 2574 is divisible by 6. Test 2577: digit sum 21 => divisible by 3, but last digit 7 => not divisible by 2, so 2577 is NOT divisible by 6 even though it passes the test for 3. This is the kind of trap the ICSE examiner loves.\r\n\r\nFor 11: because 10 = 11 - 1, each power of 10 alternates between leaving remainder 1 and remainder -1. So we form the alternating sum -- sum of digits in odd places (counting from the right, units place is place 1, odd) minus sum of digits in even places. If the difference is 0 or a multiple of 11 (positive or negative), the number is divisible by 11. Test 2541: counting from the right, place 1 = 1, place 2 = 4, place 3 = 5, place 4 = 2. Odd places (1, 3): 1 + 5 = 6. Even places (2, 4): 4 + 2 = 6. Difference 6 - 6 = 0, so 2541 is divisible by 11. Always count places from the right, not the left -- that is the single most common error with the rule for 11.\r\n\r\nIn the ICSE board examination, divisibility questions are usually short and appear in Section A. Examiners expect you to state the rule you are using, show the digit sum or last-two-digits check, and give a clear conclusion. The Pupil Performance Analysis repeatedly warns against guesswork -- examiners noted that \"many candidates relied solely on guess work\" and that students must \"derive and understand a formula instead of memorising it\". So when you write your answer, name the rule, show the working, and only then state the verdict. A one-word \"yes\" with no working loses marks even when it is correct.",
+    "eli5": "Imagine each number is a row of children holding digits on cards. To check divisibility by 2 or 5 you only need to ask the last child what card she holds. For 4 you ask the last two children. For 8 the last three. For 3 and 9 you add up every card and check that total. For 6 you do both the 2-check and the 3-check. For 11 you put alternate children on two sides of a seesaw and see if the difference balances to zero or a multiple of 11. No long division needed -- just look at the cards.",
+    "misconceptionText": "Misconception 1: \"A number is divisible by 4 if its last digit is even.\" This confuses the rule for 4 with the rule for 2. Correction: The rule for 4 needs the last TWO digits to form a number divisible by 4. Example: 78 ends in 8 (even) but 78 / 4 = 19 remainder 2, so 78 is not divisible by 4. The CISCE Pupil Performance Analysis repeatedly flags candidates who \"relied solely on guess work\" and used the wrong test -- naming the rule before applying it prevents this slip.\r\n\r\nMisconception 2: \"If a number is divisible by 3, it is also divisible by 6.\" Correction: Divisibility by 6 requires divisibility by BOTH 2 and 3. A number like 2577 has digit sum 21 (divisible by 3) but ends in 7 (not even), so it is not divisible by 6. The examiner remedy -- \"derive and understand a formula instead of memorising it\" -- applies directly here: derive the rule for 6 from 6 = 2 x 3 rather than treating 3 and 6 as interchangeable.\r\n\r\nMisconception 3: \"For the rule of 11, count digit places from the left.\" Correction: Places are counted from the RIGHT (the units place is place 1). Counting from the left gives the wrong alternating sum for numbers with an even number of digits and leads to wrong answers. Always start at the units digit.",
+    "diagnosticText": "Q1 (recall): State the divisibility rules for 2, 3, 4, 5, 6, 8, 9, 10 and 11.\r\nAnswer: A number is divisible by 2 if its last digit is 0, 2, 4, 6 or 8 (i.e. even). It is divisible by 3 if the sum of its digits is divisible by 3. It is divisible by 4 if the number formed by its last two digits is divisible by 4. It is divisible by 5 if its last digit is 0 or 5. It is divisible by 6 if it is divisible by both 2 and 3 (since 6 = 2 x 3 and 2, 3 are co-prime). It is divisible by 8 if the number formed by its last three digits is divisible by 8. It is divisible by 9 if the sum of its digits is divisible by 9. It is divisible by 10 if its last digit is 0. It is divisible by 11 if the difference between the sum of its digits in odd places and the sum of its digits in even places (counting places from the right, units place = place 1) is either 0 or a multiple of 11. Each rule is a pattern observed in the multiples of the divisor and deduced from the place-value structure of the number system, not a formula to be memorised.\r\n\r\nQ2 (reasoning): Using the rule for 6, explain why 2574 is divisible by 6 but 2577 is not, even though both have a digit sum divisible by 3.\r\nAnswer: The divisibility rule for 6 is a derived rule: because 6 = 2 x 3 and the factors 2 and 3 are co-prime (they share no common factor other than 1), a number is divisible by 6 if and only if it is divisible by both 2 and 3. For 2574: the last digit is 4, which is even, so 2574 is divisible by 2; the digit sum is 2 + 5 + 7 + 4 = 18, and 18 is divisible by 3, so 2574 is divisible by 3. Since both conditions hold, 2574 is divisible by 6. For 2577: the digit sum is 2 + 5 + 7 + 7 = 21, which is divisible by 3, so the test for 3 passes. However, the last digit is 7, which is odd, so 2577 is NOT divisible by 2. Because the test for 2 fails, the combined test for 6 fails, and 2577 is not divisible by 6 even though it is divisible by 3. This shows why the rule for 6 cannot be reduced to the rule for 3 alone -- both basic rules must be satisfied. The CISCE examiner's remedy, to \"derive and understand a formula instead of memorising it\", is exactly what we do here: the rule for 6 is derived from the rules for 2 and 3, not stated as an independent fact.\r\n\r\nQ3 (evaluate): A student claims, \"If a number is divisible by both 2 and 4, it must be divisible by 8.\" Evaluate this claim with worked examples and decide whether it is correct.\r\nAnswer: The claim is incorrect, and evaluating it carefully reveals an important distinction between combining divisibility rules for co-prime factors and combining them for factors that are not co-prime. The rule for 6 works because 6 = 2 x 3 and 2 and 3 are co-prime -- they share no common factor other than 1. In that special case, divisibility by both factors guarantees divisibility by their product. But 2 and 4 are NOT co-prime: their greatest common divisor is 2, and 2 x 4 = 8 overcounts the shared factor. The correct product condition for 8 would need the highest powers of primes involved, namely 2^3 = 8, which is not captured by \"divisible by 2 and divisible by 4\". Consider the counter-example 12: 12 is divisible by 2 (last digit 2, even) and divisible by 4 (last two digits 12, 12 / 4 = 3), but 12 / 8 = 1 remainder 4, so 12 is NOT divisible by 8. Another counter-example is 20: divisible by 2 (ends in 0) and by 4 (last two digits 20, 20 / 4 = 5), but 20 / 8 = 2 remainder 4, so 20 is not divisible by 8. A number that IS divisible by both 2 and 4 and also by 8 would be, for example, 24 (last three digits 24, 24 / 8 = 3). So the claim is false in general. The correct statement is: a number is divisible by 8 if and only if the number formed by its last three digits is divisible by 8 -- this is the basic rule, and it cannot be replaced by the combination \"divisible by 2 and 4\". The deeper lesson, which the CISCE examiner emphasises when warning against guesswork, is that derived rules work only when the basic factors are co-prime; combining non-co-prime factors double-counts shared prime factors and gives wrong conclusions. Students must check whether factors are co-prime before combining divisibility rules.\r\n\r\nQ4 (apply): Without performing full division, determine whether 7,34,592 (written in the Indian system, i.e. 734592) is divisible by each of 2, 3, 4, 5, 6, 8, 9, 10 and 11. Show the working for each.\r\nAnswer: For 2: last digit is 2, which is even, so 734592 is divisible by 2. For 3: digit sum = 7 + 3 + 4 + 5 + 9 + 2 = 30; 30 is divisible by 3, so 734592 is divisible by 3. For 4: last two digits are 92; 92 / 4 = 23 exactly, so 734592 is divisible by 4. For 5: last digit is 2, which is neither 0 nor 5, so 734592 is NOT divisible by 5. For 6: divisible by 2 (yes) and by 3 (yes), so 734592 is divisible by 6. For 8: last three digits are 592; 592 / 8 = 74 exactly, so 734592 is divisible by 8. For 9: digit sum is 30; 30 is not divisible by 9 (30 / 9 = 3 remainder 3), so 734592 is NOT divisible by 9. For 10: last digit is 2, not 0, so 734592 is NOT divisible by 10. For 11: count places from the right -- place 1 = 2, place 2 = 9, place 3 = 5, place 4 = 4, place 5 = 3, place 6 = 7. Sum of odd places (1, 3, 5) = 2 + 5 + 3 = 10. Sum of even places (2, 4, 6) = 9 + 4 + 7 = 20. Difference = 10 - 20 = -10, which is neither 0 nor a multiple of 11, so 734592 is NOT divisible by 11. Summary: divisible by 2, 3, 4, 6, 8; not divisible by 5, 9, 10, 11.\r\n\r\nQ5 (create): Design a five-digit number that is divisible by all of 2, 3, 4, 5, 6, 8, 9, 10 and 11 simultaneously. Explain how you constructed it step by step using the divisibility rules.\r\nAnswer: To be divisible by 10 the number must end in 0; this automatically satisfies the rules for 2 and 5 as well. To be divisible by 9 the digit sum must be a multiple of 9; this automatically satisfies the rule for 3 (since any multiple of 9 is a multiple of 3). Combining divisibility by 2 and 3 gives divisibility by 6, so the rule for 6 is also satisfied. To be divisible by 8, the last three digits must form a multiple of 8; since the last digit is 0, the last three digits must be a multiple of 8 ending in 0, such as 120, 240, 360, 480, 600, 720, 840, 960. To be divisible by 4, the last two digits must be a multiple of 4 -- any of the above three-digit endings (e.g. 120 -> 20) already satisfies this, so divisibility by 8 implies divisibility by 4 here. To be divisible by 11, the alternating sum of digits (counting places from the right) must be 0 or a multiple of 11. Build the number. Choose last three digits 720 (720 / 8 = 90, so divisible by 8; last two digits 20, 20 / 4 = 5, so divisible by 4; ends in 0, so divisible by 10, 2, 5). Now choose the first two digits so that the digit sum is a multiple of 9 and the alternating sum is a multiple of 11. Let the number be abc720 with digits a, b, 7, 2, 0, 0 from the left, i.e. places from the right: place 1 = 0, place 2 = 0, place 3 = 2, place 4 = 7, place 5 = b, place 6 = a. Odd-place sum (places 1, 3, 5) = 0 + 2 + b = 2 + b. Even-place sum (places 2, 4, 6) = 0 + 7 + a = 7 + a. For divisibility by 11: (2 + b) - (7 + a) = b - a - 5 must be 0 or a multiple of 11. Try b - a - 5 = 0, so b = a + 5. With a = 1, b = 6; a = 2, b = 7; a = 3, b = 8; a = 4, b = 9. Take a = 4, b = 9, giving 49720. Digit sum = 4 + 9 + 7 + 2 + 0 + 0 = 22 -- not a multiple of 9. Try a = 1, b = 6: number 16720, digit sum = 1 + 6 + 7 + 2 + 0 + 0 = 16 -- not a multiple of 9. Try a = 2, b = 7: 27720, digit sum = 2 + 7 + 7 + 2 + 0 + 0 = 18 -- divisible by 9. So 27720 is the candidate. Verify: ends in 0 => divisible by 10, 2, 5; digit sum 18 => divisible by 9 and 3; divisible by 2 and 3 => divisible by 6; last two digits 20, 20 / 4 = 5 => divisible by 4; last three digits 720, 720 / 8 = 90 => divisible by 8; alternating sum: odd places (0, 2, 7) = 9, even places (0, 7, 2) = 9, difference 0 => divisible by 11. Hence 27720 is divisible by 2, 3, 4, 5, 6, 8, 9, 10 and 11. The construction shows how the basic rules (for 2, 3, 4, 5, 8, 9, 10, 11) combine to give the derived rule for 6, and how satisfying the strongest conditions (8, 9, 10, 11) automatically satisfies the weaker ones (2, 3, 4, 5, 6).",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can state and apply the divisibility rule for each of 2, 3, 4, 5, 6, 8, 9, 10 and 11 to a given number (e.g. 3468 by 3: digit sum 21 => divisible; 576 by 4: last two digits 76, 76 / 4 = 19 => divisible; 2541 by 11: alternating sum (2+4) - (5+1) = 0 => divisible). Can derive the combined rule for 6 (divisible by both 2 and 3) from the basic rules, and explain why the combination works because 2 and 3 are co-prime. Can explain the pattern underlying each rule in terms of place value (e.g. 100 is divisible by 4 so only the last two digits matter; 10 leaves remainder 1 on division by 3 or 9 so the digit sum decides). Can distinguish a basic rule (last digit, last two digits, last three digits, digit sum, alternating sum) from a derived rule (combination of basic rules, like the rule for 6).",
+    "subject": "maths",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_math_006",
+    "title": "Large numbers up to 8 digits and approximation",
+    "definition": "Large numbers up to 8 digits arise naturally in everyday life whenever we deal with the cost of property, a state government's budget, the distance between two cities in metres, or the money transactions of a large company. In Class 5 you already learned to read and write 9-digit numbers in both the Indian and International numeration systems, so the structure is familiar; in Class 6 we slow down and develop a sense of the largeness of these numbers and learn to approximate them when an exact value is not needed. An 8-digit number in the Indian system runs from 1,00,00,000 (one crore) up to 9,99,99,999 (nine crore ninety-nine lakh ninety-nine thousand nine hundred ninety-nine). The place values from right to left are ones, tens, hundreds, thousands, ten thousands, lakhs, ten lakhs, crores, and ten crores. In the International system the same number 2,34,56,789 is written as 23,456,789 and read as twenty-three million four hundred fifty-six thousand seven hundred eighty-nine, because the International system groups digits in threes (ones, thousands, millions) while the Indian system groups them in twos after the first three (ones, thousands, lakhs, crores).\r\n\r\nApproximation, or rounding, is the skill of replacing an exact large number with a nearby simpler number that is \"good enough\" for the purpose at hand. The rounding rule is mechanical: identify the place value to which you are rounding (nearest 10,000, 1,00,000, or 10,00,000), look at the digit immediately to its right, and if that digit is 5 or more, round up by adding one to the rounding place; if it is 4 or less, round down by leaving the rounding place unchanged. All digits to the right of the rounding place become zero. For example, 7,89,43,216 rounded to the nearest lakh becomes 7,89,00,000 because the thousands digit is 3 (below 5), so we round down. The same number rounded to the nearest ten lakh becomes 7,90,00,000 because the lakhs digit is 9, but we look at the digit in the lakhs place itself when rounding to ten lakh -- here the digit to the right of the ten-lakh place is 9, which is 5 or more, so we round up. Approximation is not a shortcut for lazy calculation; it is a deliberate act of estimation used in budgets, population figures, and distances, where the exact number is either unknown or unnecessarily precise.\r\n\r\nPatterns help us extend our number sense. Just as 99,999 + 1 = 1,00,000 (five 9s become a 1 followed by five 0s), similarly 9,99,99,999 + 1 = 10,00,00,000 (seven 9s become a 1 followed by seven 0s). Recognising this pattern builds a feel for how the place-value system behaves at its boundaries and prepares the child to appreciate the scale of large numbers encountered in real situations such as the cost of a flat in Mumbai, the annual budget of a state, or the population of a metropolitan city.",
+    "textWalkthrough": "In Class 5 (node c5_math_001) you learned to read and write 9-digit numbers in both the Indian and International numeration systems -- you became comfortable with crores, lakhs, millions, and the way each system groups digits differently. In Class 6 (node c6_math_001) you consolidated your sense of numberness up to 5 digits, mastering place value for ones, tens, hundreds, thousands, and ten thousands. Now we take the next step: we extend that pattern all the way up to 8-digit numbers and, just as importantly, we learn to approximate them. The shift is from \"reading and writing large numbers\" to \"developing a feel for how large they really are and when an exact value is unnecessary.\"\r\n\r\nLet us first extend the pattern. You know that 9,999 + 1 = 10,000 (four 9s become a 1 followed by four 0s) and that 99,999 + 1 = 1,00,000 (five 9s become a 1 followed by five 0s). Carry the same idea forward: 9,99,999 + 1 = 10,00,000 (six 9s), 99,99,999 + 1 = 1,00,00,000 (seven 9s -- this is one crore), and 9,99,99,999 + 1 = 10,00,00,000 (eight 9s -- this is ten crore). Each time every place is full of 9s, adding 1 tips the whole number into the next place and fills the lower places with 0s. This is the same ladder you climbed in Class 5, just two rungs higher.\r\n\r\nNow read the 8-digit number 2,34,56,789 in the Indian system. Starting from the left: the first group \"2\" stands in the crores place, so it is two crore; the next group \"34\" sits in the lakhs, so thirty-four lakh; then \"56\" in the thousands gives fifty-six thousand; and \"789\" gives seven hundred eighty-nine. Put together: two crore thirty-four lakh fifty-six thousand seven hundred eighty-nine. In the International system the same digits are regrouped as 23,456,789 -- the \"23\" sits in the millions, so twenty-three million; \"456\" in the thousands gives four hundred fifty-six thousand; and \"789\" gives seven hundred eighty-nine. Same digits, same quantity, two different ways of naming it -- like calling the same river by two names in two languages.\r\n\r\nA GOOD answer names every group and uses the correct system word (crore/lakh in Indian, million/thousand in International). A BAD answer mixes the two -- for example, reading 2,34,56,789 as \"two million thirty-four lakh...\" -- which is wrong because \"million\" belongs to the International system and \"lakh\" to the Indian system; they never appear together.\r\n\r\nNow approximation. Suppose a news report says a state's budget is about 7,89,43,216 rupees and you are asked to round it to the nearest lakh. Step 1: identify the rounding place -- here, the lakhs place, which in 7,89,43,216 is the digit 9 (the lakhs are the \"89\" in \"7,89,...\"). Step 2: look at the digit immediately to the right of the rounding place -- that is the thousands digit, which is 4. Step 3: because 4 is below 5, round down: keep the lakhs digit unchanged and turn everything to its right into zeros, giving 7,89,00,000. If instead you round the same number to the nearest ten lakh, the rounding place is the ten-lakh digit (8), the digit to its right is the lakhs digit (9), and because 9 is 5 or more you round up: 8 becomes 9, giving 7,90,00,000. Always round at the end of any thinking, not partway through -- rounding too early compounds the error, a habit CISCE examiners have repeatedly flagged in the Pupil Performance Analysis.\r\n\r\nIn the ICSE board exam, expect questions that ask you to write a number in both systems, to round a given 8-digit number to a specified place, or to give a real-life situation where such a number arises (cost of property, budget, population). Examiners expect clean, system-consistent naming and the rounding rule applied correctly with the right place identified -- not guesswork.",
+    "eli5": "Think of an 8-digit number as a tall tower of place-value blocks: crores at the top, then lakhs, then thousands, then the small ones at the bottom. The Indian system climbs the tower in 2-step groups after the first three; the International system climbs it in 3-step groups. Rounding is like saying \"about\" -- you pick a floor of the tower and either step up one floor or stay, depending on whether the next step is half-full or more.",
+    "misconceptionText": "Misconception 1: Mixing Indian and International system words in one reading -- e.g., reading 2,34,56,789 as \"two million thirty-four lakh...\". Correction: Each system uses its own vocabulary exclusively. In the Indian system use crore, lakh, thousand; in the International system use million, thousand. They never mix in a single reading. CISCE examiners (PPA 2023) observed candidates giving \"the correct answers only\" through guesswork and selecting wrong options -- a symptom of not having internalised which system's words apply.\r\n\r\nMisconception 2: Rounding partway through a problem instead of at the end. CISCE examiners (PPA 2023, high frequency) explicitly noted that candidates \"rounded off the values to one decimal place right from the initial step\" and that \"rounding off should be done at the end of the calculation, not at the initial stage.\" The same principle applies here: identify the rounding place, look only at the single digit to its right, and round once -- do not round intermediate values.\r\n\r\nMisconception 3: Looking at the wrong digit when rounding to a given place. For example, when rounding 7,89,43,216 to the nearest lakh, some students look at the hundreds digit instead of the thousands digit. Correction: The digit you inspect is always the one immediately to the right of the rounding place -- no further. For \"nearest lakh,\" the rounding place is lakhs, so inspect the thousands digit only.",
+    "diagnosticText": "Q1 (recall): Write the number 5,67,89,012 in words in both the Indian and the International numeration systems.\r\nAnswer: In the Indian system, the number 5,67,89,012 is read by grouping the digits as 5 | 67 | 89 | 012. The \"5\" stands in the crores place, so it is five crore; \"67\" is in the lakhs, so sixty-seven lakh; \"89\" is in the thousands, so eighty-nine thousand; and \"012\" gives twelve. Putting it together: five crore sixty-seven lakh eighty-nine thousand twelve. In the International system the same digits are regrouped in threes as 56,789,012. The \"56\" sits in the millions place, so fifty-six million; \"789\" is in the thousands, so seven hundred eighty-nine thousand; and \"012\" gives twelve. So in the International system it is fifty-six million seven hundred eighty-nine thousand twelve. Notice that the quantity is the same -- only the grouping and the names change. This is the core skill of reading an 8-digit number in both systems, and it must be done without mixing vocabulary from the two systems in a single reading.\r\n\r\nQ2 (reasoning): Explain why 9,99,99,999 + 1 = 10,00,00,000 by extending the pattern from smaller numbers. Show the chain of reasoning.\r\nAnswer: We build the answer step by step using the pattern of nines. Start with what you already know: 9 + 1 = 10 (one 9 becomes a 1 followed by one 0). Then 99 + 1 = 100 (two 9s become a 1 followed by two 0s). Next, 999 + 1 = 1,000 (three 9s become a 1 followed by three 0s). Continuing, 9,999 + 1 = 10,000 (four 9s), 99,999 + 1 = 1,00,000 (five 9s -- this is one lakh), 9,99,999 + 1 = 10,00,000 (six 9s -- ten lakh), 99,99,999 + 1 = 1,00,00,000 (seven 9s -- one crore), and finally 9,99,99,999 + 1 = 10,00,00,000 (eight 9s -- ten crore). The reasoning is that when every place value from ones up to the highest is full of 9s, adding 1 causes a carry that ripples through every place, turning each 9 into a 0 and placing a 1 in the next higher place. So eight 9s become a 1 followed by eight 0s, which is 10,00,00,000. This is the same ladder of place value you climbed in Class 5, now extended two more rungs.\r\n\r\nQ3 (evaluate): A student rounds 7,89,43,216 to the nearest lakh by looking at the hundreds digit (which is 2) and concludes the answer is 7,89,00,000. Another student rounds the same number to the nearest ten lakh by looking at the lakhs digit (9) and concludes the answer is 7,90,00,000. Evaluate whether each student's method and answer are correct, and explain the rule that should govern which digit is inspected.\r\nAnswer: The first student's answer happens to be numerically correct (7,89,00,000 is indeed the correct rounding to the nearest lakh), but the method is wrong. When rounding to the nearest lakh, the rounding place is the lakhs place -- here the digit 9 in \"7,89,...\" -- and the digit that must be inspected is the one immediately to its right, which is the thousands digit (4), not the hundreds digit (2). The student got the right answer by coincidence because both the thousands digit (4) and the hundreds digit (2) are below 5, so both would give \"round down.\" But if the number had been 7,89,53,216, inspecting the hundreds digit (3, round down) would give 7,89,00,000, while the correct rule (inspect the thousands digit, 5, round up) would give 7,90,00,000 -- a difference of one lakh. So the method matters even when the answer is accidentally right. The second student is fully correct: when rounding to the nearest ten lakh, the rounding place is the ten-lakh digit (8), and the digit immediately to its right is the lakhs digit (9). Because 9 is 5 or more, the ten-lakh digit is increased by 1 (8 becomes 9) and all places to the right become zero, giving 7,90,00,000. The governing rule is: identify the rounding place, then inspect only the single digit immediately to its right -- no further -- and round up if that digit is 5 or more, otherwise round down. This rule must be applied once, at the end of any reasoning, not partway through, a point CISCE examiners have repeatedly stressed in the Pupil Performance Analysis.\r\n\r\nQ4 (apply): A city's annual budget is 4,56,78,910 rupees. Round this amount to the nearest (a) 10,000, (b) 1,00,000, and (c) 10,00,000. Show each step.\r\nAnswer: The number is 4,56,78,910. (a) Rounding to the nearest 10,000: the rounding place is the ten-thousands digit, which is 8 (in \"4,56,78,910\" the groups are 4 | 56 | 78 | 910, so the thousands group \"78\" has 7 in the thousands place and 8 in the ten-thousands place). The digit immediately to the right of the ten-thousands place is the thousands digit, which is 7. Because 7 is 5 or more, round up: the 8 becomes 9, and all places to the right become zero, giving 4,56,80,000. (b) Rounding to the nearest 1,00,000 (one lakh): the rounding place is the lakhs digit, which is 6 (in the \"56\" group). The digit immediately to its right is the ten-thousands digit, which is 8. Because 8 is 5 or more, round up: 6 becomes 7, and all places to the right become zero, giving 4,57,00,000. (c) Rounding to the nearest 10,00,000 (ten lakh): the rounding place is the ten-lakh digit, which is 5 (in the \"56\" group, 5 is the ten-lakh place). The digit immediately to its right is the lakhs digit, which is 6. Because 6 is 5 or more, round up: 5 becomes 6, and all places to the right become zero, giving 4,60,00,000. Each step follows the same three-part rule: identify the rounding place, inspect the single digit to its right, and round up if 5 or more, else down.\r\n\r\nQ5 (create): Design a real-life scenario in which an 8-digit number naturally appears, write the number in both the Indian and International systems, and explain why approximation might be more useful than the exact value in that scenario.\r\nAnswer: Imagine the municipal corporation of a large Indian city, say Pune, publishes its annual budget for building new schools and hospitals. The total budget is 3,24,75,618 rupees. This is an 8-digit number that arises from adding up many line items -- land costs, construction, salaries, equipment. In the Indian system it is read as three crore twenty-four lakh seventy-five thousand six hundred eighteen. In the International system the same digits are regrouped as 32,475,618, read as thirty-two million four hundred seventy-five thousand six hundred eighteen. In a newspaper headline or a public meeting, reporting the exact figure 3,24,75,618 is unnecessarily precise -- a citizen does not need to know the last few digits to understand the scale of the spending. Approximation is more useful here: rounded to the nearest lakh, the budget becomes 3,25,00,000 rupees, which is \"about three crore twenty-five lakh\" -- a clean, memorable figure that still conveys the magnitude. Rounded to the nearest ten lakh it becomes 3,20,00,000, \"about three crore twenty lakh,\" which is even simpler and good enough for a headline. Approximation communicates scale without false precision, which is exactly why budgets, populations, and distances are so often reported as rounded figures in daily life.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can read and write an 8-digit number in the Indian system (e.g., 2,34,56,789 as two crore thirty-four lakh fifty-six thousand seven hundred eighty-nine) and in the International system (23,456,789 as twenty-three million four hundred fifty-six thousand seven hundred eighty-nine) without mixing vocabulary from the two systems. Can round an 8-digit number to the nearest 10,000, 1,00,000, and 10,00,000 by identifying the rounding place, inspecting only the single digit immediately to its right, and applying the round-up-if-5-or-more rule (e.g., 7,89,43,216 to the nearest lakh = 7,89,00,000; to the nearest ten lakh = 7,90,00,000). Can extend the place-value pattern to explain 9,99,99,999 + 1 = 10,00,00,000. Can cite at least two daily-life situations where 8-digit numbers arise (e.g., cost of property, state budget, city population).",
+    "subject": "maths",
+    "classLevel": 6
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE ArithmeticLabSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

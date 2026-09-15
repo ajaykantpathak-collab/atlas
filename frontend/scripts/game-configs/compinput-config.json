@@ -1,0 +1,31 @@
+{
+  "gameTitle": "ComputerInputGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\cs\\ComputerInputGame.tsx",
+  "enrichmentFiles": [],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\chem\\WaterGame.tsx",
+  "cisceNodes": "c1_cs_006 (Mouse), c1_cs_007 (Keyboard), c1_cs_008 (Special keys), c1_cs_009 (Storage), c1_cs_010 (Etiquette/safety)",
+  "mascotName": "Tech Tina",
+  "mascotDescription": "a friendly young tech teacher with a pink headset, purple shirt with a keyboard pattern, and a mouse-shaped badge. She has pigtails and bright eyes. Custom SVG, not an owl.",
+  "sceneDescription": "computer desk scene with sky gradient through a window, a desk with a monitor, keyboard, mouse, and floating key icons as decoration",
+  "svgObjects": [
+    { "name": "MouseClickIcon", "description": "a computer mouse with left click, right click, and scroll wheel" },
+    { "name": "KeyboardIcon", "description": "a keyboard with letter keys A-Z and number keys 0-9 visible" },
+    { "name": "SpacebarIcon", "description": "a long spacebar key with a thumb pressing it" },
+    { "name": "EnterKeyIcon", "description": "an enter key with a return arrow symbol" },
+    { "name": "DeleteKeyIcon", "description": "a delete key with an X symbol" },
+    { "name": "UsbDriveIcon", "description": "a USB flash drive for storage" },
+    { "name": "HardDriveIcon", "description": "a hard disk drive for storage" },
+    { "name": "SafetyIcon", "description": "a shield with a checkmark for computer safety" }
+  ],
+  "challengeTypes": [
+    "identify: What do we use to CLICK on the computer? (Mouse vs Monitor vs Speaker)",
+    "identify: What do we use to TYPE letters and numbers? (Keyboard vs Mouse vs Monitor)",
+    "identify: Which key makes a SPACE between words? (Spacebar vs Enter vs Delete)",
+    "sort: Drag keys to what they do (Space: spacebar | New line: enter | Remove: delete | Type: letter keys)",
+    "identify: Where do we SAVE our files and pictures? (Storage vs Screen vs Mouse)",
+    "identify: Should we eat and drink near the computer? (No vs Yes vs Only water)",
+    "sort: Drag items to safe vs unsafe near computer (Safe: clean hands, gentle typing | Unsafe: food, water, banging keys)",
+    "sort: Drag input devices to the right type (Point/click: mouse | Type: keyboard | Store: USB drive, hard disk)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Mouse — left click to select, right click for menu, scroll wheel to scroll. (2) Keyboard — letter keys A-Z, number keys 0-9, each key has a job. (3) Special keys — spacebar makes spaces, enter goes to next line, delete removes things. (4) Storage — keeps files safe (USB drive, hard disk). (5) Safety — press keys softly, no food/water near computer, wash hands before use. Misconceptions: 'press keys as hard as possible' (press softly, computer is not a drum), 'eat and drink near computer' (spills damage computer), 'all keys do the same thing' (each key has a special job). Default width=720, height=560. Use named export (export function ComputerInputGame), NOT export default. Export interface ComputerInputGameProps with width?, height?, onComplete?: (score: number) => void."
+}

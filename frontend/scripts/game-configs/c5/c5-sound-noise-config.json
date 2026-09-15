@@ -1,0 +1,42 @@
+{
+  "gameTitle": "SoundNoiseGame",
+  "classLevel": 5,
+  "ageRange": "10-11",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class5\\SoundNoiseGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part1.marker",
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part2.marker",
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part3.marker",
+    "D:\\cisce\\physics\\enrichment\\c5_physics_enrichment_part4.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\LightGame.tsx",
+  "cisceNodes": "c5_phy_001 (Sounds made by common objects), c5_phy_002 (Pleasant and unpleasant sounds), c5_phy_003 (Sound as a warning signal), c5_phy_004 (Noise pollution and its effects on health)",
+  "mascotName": "Musician Maya",
+  "mascotDescription": "a musician with headphones, a tuning fork, and a musical note badge. She explores sounds, music, and noise pollution. Custom SVG, not an owl.",
+  "sceneDescription": "music studio with sky gradient through a window, musical instruments, a sound wave display, a quiet zone sign, a noise meter, traffic noise vs birdsong comparison, and warning sirens",
+  "svgObjects": [
+    { "name": "SoundWaveIcon", "description": "a sound wave with amplitude and frequency" },
+    { "name": "BellIcon", "description": "a ringing bell (warning sound)" },
+    { "name": "SirenIcon", "description": "an emergency siren" },
+    { "name": "MusicalNoteIcon", "description": "a musical note (pleasant sound)" },
+    { "name": "HeadphoneIcon", "description": "headphones for listening" },
+    { "name": "TuningForkIcon", "description": "a tuning fork" },
+    { "name": "NoiseMeterIcon", "description": "a noise level meter showing decibels" },
+    { "name": "BirdIcon", "description": "a singing bird (pleasant sound)" },
+    { "name": "TrafficIcon", "description": "traffic with horns (noise pollution)" },
+    { "name": "EarIcon", "description": "a human ear" },
+    { "name": "QuietZoneIcon", "description": "a quiet zone sign" },
+    { "name": "DrumIcon", "description": "a drum (loud sound)" }
+  ],
+  "challengeTypes": [
+    "identify: Which of these produces a PLEASANT sound? (Birds singing vs Traffic horns vs Construction drilling vs Firecrackers)",
+    "sort: Drag each sound to pleasant or unpleasant (Birdsong = Pleasant | Piano music = Pleasant | Traffic horns = Unpleasant | Construction drilling = Unpleasant | Violin music = Pleasant | Firecrackers = Unpleasant | Wind in trees = Pleasant | Jackhammer = Unpleasant)",
+    "identify: How is sound used as a WARNING signal? (Sirens alert us to danger vs Sound is only for music vs Sound has no warning use vs Sound is only for entertainment)",
+    "sort: Drag each warning sound to its correct purpose (Fire engine siren = fire emergency | Ambulance siren = medical emergency | Police siren = crime emergency | School bell = start/end of class | Car horn = alert other drivers | Smoke alarm = fire at home)",
+    "identify: What is noise pollution? (Harmful unwanted sound in the environment vs Music played at concerts vs Birds chirping in the morning vs Rain falling on the roof)",
+    "sort: Drag each source to whether it causes noise pollution (Traffic = Yes | Construction work = Yes | Loudspeakers at high volume = Yes | Birds chirping = No | Gentle rain = No | Factory machines = Yes | Ocean waves = No | Firecrackers = Yes)",
+    "identify: Which health problem can be caused by long exposure to loud noise? (Hearing loss vs Better eyesight vs Stronger muscles vs Improved memory)",
+    "sort: Drag each noise pollution effect to its correct category (Hearing loss = Health effect | Headache = Health effect | Sleep disturbance = Health effect | Stress = Health effect | Difficulty concentrating = Health effect | Use earplugs = Prevention | Plant trees = Prevention | Lower volume = Prevention | Ban loud horns near hospitals = Prevention)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Sounds made by common objects — every object produces a unique sound. A bell rings, a drum beats, a whistle blows, a guitar strums, a car horn honks, a bird chirps. Sound is produced by vibrations. (2) Pleasant and unpleasant sounds — Pleasant sounds: birdsong, soft music, rain, wind in trees, flowing water. These make us feel calm and happy. Unpleasant sounds: traffic horns, drilling, firecrackers, loud machinery, screeching. These make us feel irritated and stressed. (3) Sound as a warning signal — many sounds warn us of danger. Fire engine siren (fire emergency), ambulance siren (medical emergency), police siren (crime emergency), school bell (start/end of class), car horn (alert others), smoke alarm (fire at home), burglar alarm (intrusion). Without warning sounds, we would not know about emergencies. (4) Noise pollution and health effects — Noise pollution is harmful unwanted sound in the environment. Sources: traffic, construction, loudspeakers, factories, firecrackers, aircraft. Health effects: hearing loss, headache, sleep disturbance, stress, difficulty concentrating, high blood pressure. Prevention: use earplugs, plant trees (absorb sound), lower volume on devices, ban loud horns near hospitals and schools, use soundproofing, follow noise rules. Misconceptions: 'only very loud sounds cause hearing damage' (WRONG — long exposure to moderately loud sounds also causes gradual hearing loss), 'noise pollution is not a real problem' (WRONG — noise pollution causes serious health effects like hearing loss, stress, and sleep problems), 'sound has no practical use beyond music' (WRONG — sound is used as warning signals for emergencies like fires, ambulances, and alarms), 'pleasant sounds cannot cause noise pollution' (WRONG — even music at very high volume becomes noise pollution), 'earplugs damage your ears' (WRONG — earplugs PROTECT ears from loud noise and prevent hearing damage)."
+}

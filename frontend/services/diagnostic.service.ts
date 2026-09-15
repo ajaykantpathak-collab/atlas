@@ -11,6 +11,7 @@ import {
 
 // ─── IndexedDB ─────────────────────────────────────────────────────────────
 import { openDB, type IDBPDatabase } from "idb";
+import { getAuthToken } from "@/lib/api";
 
 // ══════════════════════════════════════════════════════════════════════════════
 //  SECTION 1 — TYPES
@@ -329,7 +330,7 @@ async function apiRequest<T>(
   options: RequestInit = {}
 ): Promise<T> {
   const url = `${API_BASE}${endpoint}`;
-  const token = typeof window !== "undefined" ? localStorage.getItem("auth_token") : null;
+  const token = typeof window !== "undefined" ? getAuthToken() : null;
 
   const response = await fetch(url, {
     ...options,

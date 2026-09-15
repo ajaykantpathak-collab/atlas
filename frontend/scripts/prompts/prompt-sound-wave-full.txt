@@ -1,0 +1,1341 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete SoundWaveSimulation.tsx component about Sound Waves (vibration, pitch, frequency, amplitude, loudness, echo).
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Physics Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_phy_028",
+    "title": "Sound as a form of energy produced by vibration",
+    "subject": "physics",
+    "classLevel": 6,
+    "definition": "Sound is a form of energy produced by the vibration of objects. A vibration is a rapid, to-and-fro (back-and-forth or up-and-down) motion of an object about its rest position. Whenever any object vibrates, it disturbs the surrounding particles of the medium (usually air), setting them in motion and creating a sound wave that travels outward from the source. This wave carries energy from the vibrating source to the listener's ear, where it is detected as sound. Because sound can do work -- it can make our eardrums vibrate, shatter glass at high intensity, or move the diaphragm of a microphone -- it is correctly classified as a form of energy.\r\n\r\nEvery sound we hear can be traced back to a vibrating source. In human speech, the vibrating parts are the vocal cords (also called vocal folds) inside the throat, which vibrate when air from the lungs pushes past them. In musical instruments such as the guitar, sitar, or violin, the vibrating part is the stretched string; in a drum or tabla, it is the stretched skin (diaphragm) that vibrates when struck; in a bell, the vibrating part is the metal body of the bell itself; in a tuning fork, the two metal prongs vibrate when the fork is struck. A buzzing bee produces sound through the rapid vibration of its wings.\r\n\r\nThe connection between vibration and sound is direct and causal: when an object vibrates, it pushes and pulls on the neighbouring particles of air, compressing them at one moment and rarefying (spreading) them at the next. This pattern of compressions and rarefactions travels as a wave through the medium, carrying the energy of the vibration to our ears. Without vibration there is no sound -- a perfectly still object produces no sound. The number of vibrations per second is called the frequency (measured in hertz, Hz), and the size of the vibration is called the amplitude; both influence the character of the sound we hear, though these are studied in detail in later classes. At this stage, the key idea is: vibration is the cause, sound is the effect, and the energy of the vibration is what travels as sound.",
+    "eli5": "Imagine a still pond. Drop a pebble in and you see ripples spread out -- the pebble's splash made the water move, and that movement travelled outward. Sound works the same way. When something shakes fast (vibrates) -- like a drum skin, a guitar string, or your vocal cords -- it pushes the air around it, making invisible ripples that travel to your ear. Your eardrum wobbles and your brain says \"that's a sound!\" So: shake something, and you make sound.",
+    "misconceptions": [
+      {
+        "belief": "Sound is produced by the object itself, not by its vibration.",
+        "correction": "A still, non-vibrating object produces no sound. It is specifically the to-and-fro vibration of a part of the object that disturbs the surrounding air and creates the sound wave. Strike a bell and let it stop vibrating -- the sound stops too. This mirrors the CISCE examiner observation that many candidates \"were not clear with the concept\" and applied \"incorrect logic to get the answer\" -- students must connect vibration as the cause, not just say \"the object makes sound\"."
+      },
+      {
+        "belief": "Sound can travel through empty space (vacuum).",
+        "correction": "Sound needs a medium (air, water, or a solid) because it travels by passing the vibration from particle to particle. In a vacuum there are no particles to vibrate, so sound cannot travel. This is a common confusion examiners flag when students fail to distinguish the roles of source, medium, and receiver."
+      },
+      {
+        "belief": "Confusing the vibrating part with the whole object. Students write \"the guitar vibrates\" instead of \"the guitar string vibrates\", or \"the tabla vibrates\" instead of \"the stretched skin of the tabla vibrates\".",
+        "correction": "Only a specific part vibrates and produces the sound -- name that part precisely. Examiner reports stress expressing quantities and parts precisely; the same care applies to naming vibrating parts."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State what sound is, and name the cause that produces it. Give two examples of vibrating parts in common objects.",
+        "answer": "Sound is a form of energy produced by the vibration of objects. A vibration is a rapid to-and-fro motion of an object about its rest position. When an object vibrates, it disturbs the surrounding particles of air, setting them in motion and creating a sound wave that carries energy from the source to the ear. Two examples of vibrating parts are: (1) the stretched string of a guitar, which vibrates when plucked and produces a musical note; and (2) the stretched skin (diaphragm) of a tabla or drum, which vibrates when struck and produces the drum's sound. Other valid examples include the vocal cords in human speech, the metal body of a bell, or the two prongs of a tuning fork. The key point is that without vibration, no sound is produced -- a perfectly still object is silent."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A student plucks a rubber band stretched between two nails and hears a sound, but when the rubber band is held still, no sound is heard. Explain the connection between vibration and sound using this observation.",
+        "answer": "The observation shows that sound is produced only when the rubber band is vibrating. When plucked, the rubber band moves rapidly back and forth about its rest position -- this is vibration. As it vibrates, it pushes and pulls on the neighbouring air particles, creating regions of compression (particles pushed together) and rarefaction (particles spread apart). These compressions and rarefactions travel outward through the air as a sound wave, carrying the energy of the vibration. When the wave reaches the ear, it makes the eardrum vibrate, and the brain interprets this as sound. When the rubber band is held still, there is no vibration, so no air particles are disturbed, no wave is created, and no sound is heard. This proves the causal link: vibration is the cause, the sound wave is the carrier, and the sensation in the ear is the effect. Without a vibrating source, sound cannot be produced."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A classmate says, \"Sound is just something an object gives off, like light from a bulb -- it does not need the object to vibrate.\" Evaluate this statement. Is it correct? Give a balanced argument and a clear judgement.",
+        "answer": "The statement is not correct, and evaluating it requires distinguishing how different forms of energy are produced. It is true that both sound and light are forms of energy, and the comparison to a bulb is a reasonable starting point. However, the mechanisms are different. A bulb produces light because its filament becomes hot enough to glow -- energy is released as radiation, and the filament does not need to vibrate to emit light. Sound, by contrast, is produced specifically by vibration. The defining feature of a sound source is a part of the object that moves rapidly back and forth, disturbing the surrounding medium (air, water, or solid). Strike a tuning fork and feel its prongs buzz -- that buzz is the vibration, and the hum is the sound. Stop the prongs with your fingers and the sound stops instantly. Hold a bell still after striking it and the ringing ceases. In every case, removing the vibration removes the sound, which is direct evidence that vibration is the cause. Furthermore, sound requires a medium to travel because it moves by passing the disturbance from particle to particle; light can travel through a vacuum, but sound cannot. So the analogy with a bulb fails on two counts: sound needs vibration at the source, and it needs a medium to carry the wave. The balanced judgement is that while the classmate is right that sound is a form of energy, the claim that it does not need vibration is wrong. Sound is, by definition, energy produced by the vibration of objects and carried as a wave through a medium to the ear."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "For each of the following sound-producing objects, identify the specific vibrating part and state how it is set into vibration: (a) a tabla, (b) a guitar, (c) a bell, (d) a human speaking, (e) a tuning fork.",
+        "answer": "(a) Tabla -- the vibrating part is the stretched skin (diaphragm) on the top of the drum. It is set into vibration when the player strikes it with the fingers or palm. (b) Guitar -- the vibrating part is the stretched metal or nylon string. It is set into vibration when the player plucks the string with a finger or plectrum. (c) Bell -- the vibrating part is the metal body of the bell itself. It is set into vibration when the bell is struck with a clapper or hammer. (d) Human speaking -- the vibrating parts are the vocal cords (vocal folds) in the throat. They are set into vibration when air pushed out from the lungs passes between them, causing them to flap together and apart rapidly. (e) Tuning fork -- the vibrating parts are the two metal prongs. They are set into vibration when the fork is struck against a soft surface such as a rubber pad. In every case, a specific part vibrates, disturbs the surrounding air, and produces the sound wave that reaches the ear."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple experiment using only household items to demonstrate that vibration produces sound. Describe the steps, what you would observe, and what conclusion you would draw.",
+        "answer": "A suitable experiment uses a stretched rubber band and a bowl of water. Materials needed: a thick rubber band, two fixed points to stretch it between (such as two nails on a board or two fingers holding it taut), and a small bowl of water. Step 1: Stretch the rubber band tightly between the two fixed points and observe that while it is still, no sound is heard. Step 2: Pluck the rubber band and watch closely -- you will see it blur as it vibrates back and forth, and you will hear a twang. Step 3: Touch the vibrating rubber band lightly to stop it -- the sound stops immediately. Step 4: To show that vibration can be transferred, strike a tuning fork (or a metal spoon), then touch its tip to the surface of the water in the bowl -- ripples spread out on the water, proving the fork is vibrating. Observations: the rubber band produces sound only while it is vibrating; stopping the vibration stops the sound; the tuning fork makes ripples in water, showing that a vibrating object can disturb a medium. Conclusion: Sound is produced by vibration. When an object vibrates, it disturbs the surrounding medium (air or water), creating a wave that carries energy to the ear. Without vibration, there is no sound. This experiment directly demonstrates the causal link taught in this node."
+      }
+    ],
+    "masteryCriteria": "Can state that sound is a form of energy produced by the vibration of objects; can define vibration as a rapid to-and-fro motion about a rest position; can identify the specific vibrating part in at least three sound-producing objects (e.g., tabla skin, guitar string, bell metal, vocal cords, tuning fork prongs); can explain the causal connection between vibration and sound (vibration disturbs surrounding particles, creating a wave that carries energy to the ear).",
+    "cognitiveLevel": "remember"
+  },
+  {
+    "nodeId": "c6_phy_029",
+    "title": "Propagation of sound through mediums",
+    "subject": "physics",
+    "classLevel": 6,
+    "definition": "Sound is a form of energy produced by the vibration of an object, but the vibrations of the source alone are not enough for sound to reach our ears -- the vibrations must be carried from the source to the listener. This carrying of vibrations from one particle to the next is called propagation, and the substance through which the vibrations travel is called the medium. A medium can be a solid, a liquid, or a gas. In every medium, sound travels as a sound wave in which the particles of the medium first compress (come closer together) and then rarefy (move apart) as the vibration passes through. The particles themselves do not travel the whole distance from source to listener; they only vibrate about their own positions and pass the disturbance on to the neighbouring particles, much like a message passed along a line of people holding hands.\r\n\r\nSound needs a medium to travel because it is a mechanical disturbance that depends on the interaction between particles. When a tuning fork vibrates, it pushes the air particles next to it, those particles push their neighbours, and so the wave travels. If there are no particles, there is nothing to push, and the wave cannot travel. A vacuum is a space from which all matter (and therefore all particles) has been removed; in a vacuum there are no particles to compress or rarefy, so sound cannot propagate through it at all.\r\n\r\nThe speed and ease with which sound propagates differ between the three states of matter, qualitatively. In solids the particles are packed very close together and are held in fixed positions by strong forces, so a vibration at one point is passed on very quickly to the next particle -- sound therefore travels fastest in solids (for example, sound travels through a steel rail at about 5000 m/s, which is why a person can hear a distant train by placing an ear on the track). In liquids the particles are close but can move past one another, so the transfer is a little slower than in solids but still much faster than in gases (sound travels through water at about 1500 m/s, which is why whales can call to their mates across long distances in the ocean). In gases the particles are far apart and weakly bonded, so each particle takes longer to collide with the next; sound therefore travels slowest in gases (sound travels through air at about 340 m/s).\r\n\r\nThe bell-jar experiment demonstrates that sound cannot travel through a vacuum. An electric bell is suspended inside a glass bell-jar connected to a vacuum pump. When the bell is switched on with air inside the jar, the ringing is clearly heard. As air is pumped out, the sound gradually becomes fainter, and when nearly all the air is removed the bell is seen vibrating but almost no sound is heard. This shows that sound needs particles of a medium to propagate; when the medium (air) is removed, the sound fades even though the source is still vibrating. Real-life examples include hearing a neighbour's voice through a wall (solid), hearing underwater sounds while swimming (liquid), and hearing a friend speak across a room (gas).",
+    "eli5": "Sound is a wiggle that travels by passing from one tiny particle to the next, like a squeeze moving down a line of people holding hands. Solids have particles packed tight, so the squeeze passes quickly -- sound is fastest in solids. Liquids are a bit looser, so sound is slower. Gases have particles far apart, so sound is slowest. In a vacuum there are no particles at all, so there is no one to pass the squeeze -- sound cannot travel.",
+    "misconceptions": [
+      {
+        "belief": "Sound can travel through empty space, like in science-fiction movies where explosions are heard in space.",
+        "correction": "Sound is a mechanical disturbance that needs particles to compress and rarefy. Outer space is nearly a vacuum with almost no particles, so sound cannot travel through it -- real explosions in space would be silent. The bell-jar experiment proves this: as air is pumped out, the sound of the bell fades even though the bell keeps vibrating."
+      },
+      {
+        "belief": "Sound travels fastest in air because air is light and easy to move.",
+        "correction": "The speed of sound depends on how quickly one particle can pass the vibration to the next, which depends on how close and strongly bonded the particles are, not on how \"light\" the medium is. In solids the particles are packed close and strongly bonded, so sound travels fastest in solids (about 5000 m/s in steel), slower in liquids (about 1500 m/s in water), and slowest in gases (about 340 m/s in air). The CISCE examiner reports warn against this kind of rote-learnt, unreasoned answer -- students must explain in terms of particle spacing, not vague properties like \"light\" or \"hard\"."
+      },
+      {
+        "belief": "The particles of the medium travel from the source to the listener, carrying the sound.",
+        "correction": "The particles do not travel the whole distance; they only vibrate about their own fixed positions and pass the disturbance on to neighbouring particles. It is the vibration (the sound wave) that travels, not the particles themselves -- just as a wave travels along a rope although each piece of rope only moves up and down."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State whether sound needs a medium to travel, and compare how sound propagates in solids, liquids, and gases.",
+        "answer": "Sound needs a medium to travel because it is a mechanical disturbance that propagates by passing vibrations from one particle of the medium to the next. Sound travels fastest in solids because the particles are packed very close together and are strongly bonded, so a vibration at one point is passed on very quickly to the neighbouring particles (for example, about 5000 m/s in steel). Sound travels slower in liquids because the particles, although still fairly close, can move past one another and are less tightly bonded, so the transfer is a little slower (about 1500 m/s in water). Sound travels slowest in gases because the particles are far apart and only collide occasionally, so each particle takes longer to pass the disturbance to the next (about 340 m/s in air). In every case the particles themselves do not travel from source to listener; they only vibrate about their own positions and hand the disturbance on, producing compressions and rarefactions that move outward as a sound wave. So, qualitatively, the order is: fastest in solids, slower in liquids, slowest in gases."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain why a person can hear a distant train earlier by placing an ear on the steel rail than by listening through the air.",
+        "answer": "Sound travels by passing vibrations from one particle of the medium to the next, and the speed depends on how close and strongly bonded the particles are. In a steel rail (a solid), the particles are packed very close together and held by strong metallic bonds, so a vibration produced by the approaching train is passed along from particle to particle almost instantly -- sound travels through steel at about 5000 m/s. In air (a gas), the particles are far apart and weakly bonded, so each particle takes longer to collide with the next and pass the disturbance on -- sound travels through air at only about 340 m/s. Because the sound reaches the listener's ear much faster through the steel rail than through the air, a person with an ear on the track hears the train's approach earlier than someone listening only through the air. This everyday observation is direct evidence that sound travels faster in solids than in gases, and it is explained entirely by the spacing and bonding of the particles in the two mediums."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student claims that sound can travel through a vacuum if the source is loud enough, because \"a louder sound has more energy to push through empty space.\" Evaluate this claim.",
+        "answer": "The claim is incorrect. The loudness (amplitude) of a sound affects how much energy each vibration carries and how strongly the particles of the medium are pushed, but it does not change the fundamental fact that sound is a mechanical disturbance that requires particles to propagate. A sound wave travels by compressing and rarefying the particles of a medium: a particle is pushed, it collides with its neighbour, that neighbour is pushed, and so the disturbance moves forward. In a vacuum there are no particles at all -- there is nothing to compress, nothing to rarefy, and nothing to collide with the next particle. Therefore, no matter how loud or energetic the source is, there is simply nothing in a vacuum to receive and pass on the vibration, so the sound cannot travel. Making the source louder is like shouting into an empty room with no one inside to hear and relay the message -- the message has nowhere to go. The bell-jar experiment confirms this directly: an electric bell is suspended inside a glass jar connected to a vacuum pump. With air inside, the bell is heard clearly. As the air is pumped out, the sound grows fainter and fainter, even though the bell is still vibrating with the same energy. When nearly all the air is removed, the bell is seen vibrating but almost no sound is heard. If loudness could overcome the absence of a medium, the sound would not fade -- but it does fade, proving that it is the presence of particles, not the energy of the source, that determines whether sound can travel. The student has confused the energy of the source with the requirement of a medium; these are two separate things, and only the medium is essential for propagation."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Describe the bell-jar experiment and state what it proves about the propagation of sound.",
+        "answer": "The bell-jar experiment is set up as follows. An electric bell is suspended by strings inside a glass bell-jar, and the jar is placed on a platform connected to a vacuum pump. The bell is switched on so that it rings continuously, and at first, with normal air inside the jar, the ringing sound is heard clearly by observers outside. The vacuum pump is then switched on and begins to remove the air from inside the jar. As more and more air is pumped out, the sound of the bell gradually becomes fainter, even though the bell can still be seen vibrating and its hammer can be seen striking. When nearly all the air has been removed, the bell is still visibly vibrating but almost no sound is heard. If air is allowed back into the jar, the sound becomes loud again. This experiment proves that sound needs a medium (in this case, air) to propagate: the source (the bell) keeps vibrating throughout, but as the medium is removed the sound fades, showing that it is the particles of the medium that carry the sound from the source to the listener. The experiment therefore demonstrates that sound cannot travel through a vacuum."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple activity, using a ticking clock and a bell-jar, to show a Class 6 student that sound needs a medium to travel. Describe the steps and what the student should conclude.",
+        "answer": "Place a loudly ticking clock inside a glass bell-jar on the platform of a vacuum pump, making sure the clock is hanging freely so that it does not touch the glass. Ask the student to listen carefully and note that the ticking is clearly heard while there is air inside the jar. Then switch on the vacuum pump and let the student observe what happens as the air is slowly removed. The student should notice that the ticking sound gradually becomes fainter and fainter, even though the clock is still ticking and the hands are still moving. When almost all the air has been pumped out, the ticking becomes almost inaudible. Now turn off the pump and slowly let air back into the jar; the student should hear the ticking grow loud again. The student should conclude that the clock (the source) was ticking the whole time, so the fading of the sound cannot be due to the source stopping. The only thing that changed was the amount of air inside the jar. Therefore, it must be the air -- the medium -- that carries the ticking sound from the clock to the ear. When the air is removed, there are no particles to carry the vibrations, so the sound fades. This shows that sound needs a medium to travel and cannot travel through a vacuum. As an extension, the student could also press an ear against the table on which the jar stands and notice that some ticking is still heard through the solid table, reinforcing that solids also carry sound."
+      }
+    ],
+    "masteryCriteria": "Can state that sound needs a medium (solid, liquid, or gas) to travel because it propagates by passing vibrations from particle to particle; can compare sound propagation in solids, liquids, and gases qualitatively (fastest in solids at about 5000 m/s in steel, slower in liquids at about 1500 m/s in water, slowest in gases at about 340 m/s in air) and explain the difference in terms of particle spacing and bonding; can explain why sound cannot travel through a vacuum using the bell-jar experiment (sound fades as air is pumped out even though the source keeps vibrating); can distinguish between the travel of the sound wave and the travel of the particles (particles vibrate in place, the wave moves forward).",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_phy_030",
+    "title": "Loudness of sound and amplitude",
+    "subject": "physics",
+    "classLevel": 6,
+    "definition": "Loudness is the perception of how strong or weak a sound is, as sensed by the ear. It is a sensory experience -- when a sound reaches the ear, the brain interprets the strength of the arriving vibrations as either loud or soft. The physical quantity that governs this perception is the amplitude of vibration. Amplitude is defined as the maximum displacement of a vibrating particle from its rest (or mean) position. In other words, when a body such as a drum skin, a guitar string, or a tuning fork vibrates, its particles move away from their equilibrium position to a maximum distance on either side before returning; that maximum distance is the amplitude.\r\n\r\nThe relationship between amplitude and loudness is direct and central to this topic: the larger the amplitude of vibration, the louder the sound; the smaller the amplitude, the softer the sound. When a drum is struck hard, the skin is pushed farther from its rest position, the amplitude is large, and the sound produced is loud. When the same drum is tapped gently, the skin moves only a little, the amplitude is small, and the sound is soft. A shout and a whisper of the same words differ mainly in amplitude -- the vocal cords vibrate with a greater amplitude when shouting and a smaller amplitude when whispering. A thunderclap, produced by the violent expansion of air during lightning, has a huge amplitude and is therefore extremely loud, whereas a gentle breeze rustling leaves has a tiny amplitude and is very soft.\r\n\r\nTwo main factors affect the loudness of a sound: the amplitude of vibration of the source, and the energy with which the source is made to vibrate. A greater energy input produces a larger amplitude, which in turn produces a louder sound. This is why striking a drum with more force, plucking a string harder, or blowing harder into a flute all increase loudness -- they all increase the amplitude by supplying more energy. Loudness is measured in decibels (dB), a unit that quantifies sound intensity on a logarithmic scale; a whisper is about 30 dB, normal conversation about 60 dB, and a thunderclap can exceed 120 dB. Although the decibel scale belongs to higher classes, students should recognise the term as the unit of loudness. The key idea at Class 6 level is that loudness depends on amplitude, and amplitude depends on the energy given to the vibrating source.",
+    "eli5": "Imagine a swing in a park. If you push it gently, it only moves a little -- that is a small amplitude, and it is like a soft whisper. If you push it hard, it swings wide -- that is a big amplitude, and it is like a loud shout. The farther the swing (or any vibrating thing) moves from its resting spot, the louder the sound it makes. So big push, big swing, loud sound; small push, small swing, soft sound.",
+    "misconceptions": [
+      {
+        "belief": "A louder sound travels faster than a softer sound.",
+        "correction": "Loudness depends on the amplitude of vibration, not on the speed of sound. Sound travels at the same speed in a given medium regardless of whether it is loud or soft; only the amplitude (and hence the energy carried) differs. A shout and a whisper in the same room reach a listener at the same time -- the shout is simply stronger, not faster."
+      },
+      {
+        "belief": "Loudness depends on how far away the source is, so amplitude is not important.",
+        "correction": "Distance does affect how loud a sound seems to a listener, but the loudness produced at the source is determined by the amplitude of vibration. CISCE examiners have repeatedly observed that students confuse the factors affecting the produced sound with the factors affecting the received sound. At Class 6 level the syllabus focuses on the source: amplitude and energy of the source. Distance and absorption belong to higher classes."
+      },
+      {
+        "belief": "Loudness and pitch are the same thing.",
+        "correction": "Loudness is the strength of a sound and depends on amplitude; pitch is how high or low a sound is and depends on frequency. A high-pitched sound can be soft (a whistle blown gently) and a low-pitched sound can be loud (a bass drum struck hard). The two are different properties and must not be mixed, as examiners note students often conflate them."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define loudness and amplitude, and state the relationship between them.",
+        "answer": "Loudness is the perception of how strong or weak a sound is, as sensed by the ear. Amplitude is the maximum displacement of a vibrating particle from its rest (mean) position. The relationship between them is direct: the larger the amplitude of vibration, the louder the sound produced; the smaller the amplitude, the softer the sound. For example, when a drum is struck hard, the skin vibrates with a large amplitude and produces a loud sound, whereas when it is tapped gently, the skin vibrates with a small amplitude and produces a soft sound. Thus loudness is determined by the amplitude of the vibrating source."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A student strikes a tabla with great force and then taps it gently. Explain, in terms of amplitude and energy, why the first sound is louder than the second.",
+        "answer": "When the tabla is struck with great force, more energy is supplied to the membrane, causing it to vibrate with a larger amplitude -- that is, each particle of the membrane moves a greater distance from its rest position. A larger amplitude means each vibration carries more energy, and the stronger disturbance is passed through the air to the listener's ear. The brain interprets this stronger disturbance as a louder sound. When the same tabla is tapped gently, less energy is supplied, the membrane vibrates with a smaller amplitude, each vibration carries less energy, and a weaker disturbance reaches the ear, which is perceived as a softer sound. Therefore the difference in loudness is entirely due to the difference in amplitude, which in turn is caused by the difference in energy given to the source. This illustrates the two factors affecting loudness: amplitude of vibration and energy of the source."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A classmate says, \"A thunderclap is louder than a whisper because the thunderclap travels faster through the air.\" Evaluate this statement and give the correct explanation.",
+        "answer": "The statement is incorrect. Loudness has nothing to do with the speed at which sound travels. In the same medium (air), all sounds travel at the same speed -- a thunderclap and a whisper reach a listener at the same speed. The reason a thunderclap is louder than a whisper lies in the amplitude of vibration. A thunderclap is produced by the violent, sudden expansion of air heated by a lightning discharge; this gives the air particles a very large amplitude of vibration and a huge amount of energy. A whisper is produced by the vocal cords vibrating with only a tiny amplitude and very little energy. Because the thunderclap has a far larger amplitude, each vibration carries much more energy, and the strong disturbance that reaches the ear is perceived as a very loud sound. The whisper, with its small amplitude, carries little energy and is perceived as soft. So the correct explanation is: the thunderclap is louder because its amplitude is much larger, not because it travels faster. This distinction is important because CISCE examiners have observed that students often confuse the properties of sound (speed, amplitude, frequency) and give vague or rote answers. A precise answer must name amplitude as the deciding factor and must not attribute loudness to speed."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Describe an activity using a drum (or dholak) that demonstrates the relationship between amplitude and loudness. State what you observe and what you conclude.",
+        "answer": "Take a drum or dholak and place it on a stand so the skin is free to vibrate. First, strike the drum skin gently with a stick and listen to the sound produced; note that it is soft. Observe the skin -- it moves only a small distance from its rest position, showing a small amplitude. Next, strike the same drum with greater force and listen again; the sound is now much louder. Observe the skin again -- it now bulges much farther from its rest position, showing a large amplitude. Repeat the activity a few times, alternating between a gentle tap and a forceful beat, each time comparing the loudness with how far the skin visibly moves. The observation is that a forceful beat produces a large amplitude and a loud sound, while a gentle tap produces a small amplitude and a soft sound. The conclusion is that loudness depends on the amplitude of vibration: larger amplitude gives louder sound, smaller amplitude gives softer sound. This activity also shows that the energy supplied to the source determines the amplitude, which in turn determines the loudness."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple experiment using two identical glasses and water that allows you to produce a loud sound and a soft sound from the same glass, and explain how you would use it to teach a younger child the meaning of amplitude and loudness.",
+        "answer": "Take two identical empty glass tumblers and a spoon. Hold one glass lightly by its rim and tap the side gently with the spoon -- a soft, clear ringing sound is heard, and you can feel the glass vibrate only slightly. Now tap the same glass harder with the spoon -- a louder ringing sound is heard, and the glass vibrates noticeably more. To make the demonstration clearer, fill the second glass with a little water and tap it; the sound changes in pitch, but by tapping it gently and then hard you can still show the difference in loudness due to amplitude. To teach a younger child, I would first let them tap the glass gently and hear the soft sound, then tap it hard and hear the loud sound, and ask them to feel the glass with their fingers each time. I would explain that the glass is vibrating, and that the \"how far it wobbles\" is called the amplitude. When it wobbles a lot (big amplitude), the sound is loud; when it wobbles only a little (small amplitude), the sound is soft. I would summarise the rule in one sentence: \"Bigger wobble, bigger sound; smaller wobble, smaller sound.\" This hands-on activity links the physical quantity (amplitude) to the sensory experience (loudness) in a way a child can see, feel, and hear."
+      }
+    ],
+    "masteryCriteria": "Can define loudness as the perception of how strong or weak a sound is, as sensed by the ear; can define amplitude as the maximum displacement of a vibrating particle from its rest position; can state that larger amplitude produces louder sound and smaller amplitude produces softer sound, with examples such as a shout (large amplitude) vs a whisper (small amplitude) and a drum beat (large amplitude) vs a tap (small amplitude); can list the two factors affecting loudness -- amplitude of vibration and energy of the source -- and explain that more energy produces a larger amplitude.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_phy_031",
+    "title": "Pitch of sound and frequency",
+    "subject": "physics",
+    "classLevel": 6,
+    "definition": "Pitch is the characteristic of sound that describes how high or low a sound is perceived by the ear. When a whistle blows, the sound feels sharp and shrill; when a bass drum is struck, the sound feels deep and grave. This \"highness\" or \"lowness\" of a sound is what we call pitch. Pitch is not the same as loudness -- loudness depends on amplitude, while pitch depends on a different property called frequency.\r\n\r\nFrequency is defined as the number of vibrations (oscillations) a vibrating body completes in one second. The SI unit of frequency is the hertz, symbol Hz, named after the German physicist Heinrich Hertz. One hertz means one vibration per second. A tuning fork that vibrates 256 times in one second has a frequency of 256 Hz; one that vibrates 512 times per second has a frequency of 512 Hz. Frequencies of audible sounds for humans typically range from about 20 Hz to 20,000 Hz, though the detailed study of the audible range is reserved for Class 7.\r\n\r\nThe relationship between frequency and pitch is direct: the higher the frequency of a vibrating body, the higher the pitch of the sound it produces; the lower the frequency, the lower the pitch. A bird's chirp is high-pitched because the bird's vocal cords vibrate rapidly at a high frequency. A lion's roar is low-pitched because its vocal cords vibrate slowly at a low frequency. On a piano, the keys on the right side produce high-pitched notes (high frequency strings, short and thin), while the keys on the left side produce low-pitched notes (low frequency strings, long and thick).\r\n\r\nA thin, light string plucked on a sitar or tanpura vibrates faster and produces a higher-pitched note than a thick, heavy string, because the thin string completes more oscillations per second. Similarly, in a straw flute activity, a short straw produces a higher pitch than a long straw because the short column of air vibrates at a higher frequency. Common Indian examples: the high-pitched whistle of a cooker's steam vent, the shrill call of a koel (cuckoo) in the monsoon, the low-pitched thud of a dholak's bass side, and the deep roar of a tiger in the Sundarbans. Musicians in Indian classical music use terms like \"shrill\" (teevra) for high pitch and \"grave\" (mandra) for low pitch when describing the seven swaras (sa, re, ga, ma, pa, dha, ni) spanning octaves from low to high.",
+    "eli5": "Imagine two swings in a park. One swings back and forth very fast -- that is like a high-frequency vibration, and it makes a high, shrill sound like a whistle. The other swings slowly and heavily -- that is like a low-frequency vibration, and it makes a deep, low sound like a drum. Pitch is just our ear telling us whether the sound is the fast-swing kind (high) or the slow-swing kind (low). Frequency counts the swings per second.",
+    "misconceptions": [
+      {
+        "belief": "Pitch and loudness are the same thing -- a louder sound has a higher pitch.",
+        "correction": "Pitch and loudness are different properties. Loudness depends on the amplitude of vibration (how far the particles move), while pitch depends on the frequency (how many vibrations per second). You can blow a whistle loudly or softly -- its loudness changes but its pitch stays high. CISCE examiners have repeatedly observed that students mix up frequency-dependent quantities with amplitude-dependent ones, so always keep \"pitch <-> frequency (Hz)\" and \"loudness <-> amplitude\" as separate pairs."
+      },
+      {
+        "belief": "A thicker string always produces a higher pitch because it is bigger.",
+        "correction": "A thicker, heavier string vibrates more slowly (lower frequency) and therefore produces a lower pitch, not a higher one. It is the thin, light, tight string that vibrates fast and gives a high pitch. This is why the thick bass strings of a sitar or guitar give low notes and the thin strings give high notes."
+      },
+      {
+        "belief": "Frequency is measured in metres or seconds.",
+        "correction": "Frequency is the number of vibrations per second, so its SI unit is the hertz (Hz), where 1 Hz = 1 vibration per second. Metres measure length (wavelength, reserved for Class 8) and seconds measure time period -- neither is the unit of frequency."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define pitch and frequency, and state the unit of frequency.",
+        "answer": "Pitch is the characteristic of sound that describes how high or low a sound is perceived by the ear. A high-pitched sound is shrill and sharp (like a whistle or a bird's chirp), while a low-pitched sound is deep and grave (like a bass drum or a lion's roar). Frequency is defined as the number of complete vibrations (oscillations) a vibrating body makes in one second. The SI unit of frequency is the hertz, symbol Hz, named after Heinrich Hertz; one hertz equals one vibration per second. For example, a tuning fork that vibrates 256 times in one second has a frequency of 256 Hz. Pitch and frequency are directly related: the higher the frequency of the source, the higher the pitch of the sound produced, and the lower the frequency, the lower the pitch. Pitch must not be confused with loudness, which depends on amplitude, not frequency."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A thin, tight rubber band is plucked and produces a high-pitched note. A thick, loose rubber band is plucked and produces a low-pitched note. Explain why, in terms of frequency.",
+        "answer": "The pitch of a sound depends on the frequency of the vibrating source -- that is, how many complete vibrations it makes per second. A thin, tight rubber band is light and under high tension, so when plucked it snaps back and forth very quickly, completing a large number of oscillations each second. This high frequency (many hertz) produces a high-pitched, shrill note. A thick, loose rubber band is heavy and under low tension, so it wobbles back and forth slowly, completing only a few oscillations per second. This low frequency produces a low-pitched, grave note. The same principle explains the strings of a sitar or guitar: the thin treble strings vibrate fast and give high notes, while the thick bass strings vibrate slowly and give low notes. Thus the difference in pitch is entirely due to the difference in frequency, which in turn comes from the thickness, tension, and mass of the string -- not from how hard it is plucked (which would change loudness, not pitch)."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"A whistle is high-pitched because it is loud, and a lion's roar is low-pitched because it is soft. Pitch depends on how loud a sound is.\" Evaluate this statement and correct it with the proper relationship.",
+        "answer": "The student's statement is incorrect and reflects a common confusion between two distinct properties of sound -- pitch and loudness. Pitch is the sensation of how high or low a sound is, and it depends on the frequency of vibration (the number of oscillations per second, measured in hertz). Loudness is the sensation of how soft or intense a sound is, and it depends on the amplitude of vibration (how far the particles move from their rest position). The two are independent: a whistle can be blown softly or very loudly, yet its pitch stays high because the source vibrates at a high frequency regardless of amplitude. Likewise, a lion's roar can be deafeningly loud yet still low-pitched, because the lion's vocal cords vibrate slowly at a low frequency even though they move with large amplitude. The reason the whistle is high-pitched is that the jet of air through the small opening vibrates very rapidly -- a high frequency -- producing a shrill, piercing tone. The reason the lion's roar is low-pitched is that its large, heavy vocal cords vibrate slowly -- a low frequency -- producing a deep, grave tone. Therefore the correct relationship is: pitch depends on frequency (higher frequency = higher pitch, lower frequency = lower pitch), while loudness depends on amplitude (larger amplitude = louder sound). CISCE examiners have repeatedly noted that students conflate frequency-dependent and amplitude-dependent quantities, so the two pairs -- \"pitch <-> frequency\" and \"loudness <-> amplitude\" -- must always be kept separate. A correct answer must state that the whistle's high pitch comes from high frequency, not from loudness, and the lion's low pitch comes from low frequency, not from softness."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "In a straw flute activity, a student starts with a long straw and then cuts it shorter and shorter while blowing across the top. Describe what happens to the pitch each time the straw is cut, and explain the reason in terms of frequency.",
+        "answer": "Each time the straw is cut shorter, the pitch of the sound produced becomes higher. When the student blows across the top of the straw, the column of air inside the straw vibrates and produces a sound. The frequency of this vibration depends on the length of the air column: a longer air column vibrates more slowly (fewer oscillations per second), giving a low frequency and hence a low-pitched sound; a shorter air column vibrates more quickly (more oscillations per second), giving a high frequency and hence a high-pitched sound. So as the straw is cut shorter, the air column shortens, its frequency increases, and the pitch rises. This is the same principle behind panpipes and the flute, where opening holes effectively shortens the air column and raises the pitch of the note played. The activity demonstrates the direct relationship between frequency and pitch: as frequency increases, pitch increases. A practical extension would be to compare the note from a 10 cm straw with that from a 5 cm straw -- the 5 cm straw should give a noticeably higher-pitched note because its air column is half as long and vibrates at roughly double the frequency."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple classroom demonstration using three different objects available at home (for example, rubber bands, glass bottles, and a comb) to show that pitch depends on frequency. Describe what you would do and what the class should observe.",
+        "answer": "I would set up three stations. Station 1 -- Rubber bands of different thicknesses stretched over an empty box: pluck a thin, tight band and then a thick, loose band. The class should observe that the thin band gives a high-pitched, shrill note and the thick band gives a low-pitched, deep note, because the thin band vibrates faster (higher frequency) than the thick band. Station 2 -- Three identical glass bottles filled with different amounts of water: tap each bottle gently with a spoon. The bottle with the most water (shortest air column) gives the highest pitch and the bottle with the least water (longest air column) gives the lowest pitch, because a shorter air column vibrates at a higher frequency. Station 3 -- A comb with a card scraped across its teeth: press the card lightly and then harder while moving it across the teeth. The class should hear a buzzing sound whose pitch changes with the speed of scraping -- scraping faster raises the frequency of the taps and raises the pitch, scraping slowly lowers it. Across all three stations the same rule appears: the faster the vibration (higher frequency), the higher the pitch; the slower the vibration (lower frequency), the lower the pitch. I would end by asking the class to predict, before each demonstration, which object will give the higher pitch, so they actively apply the frequency--pitch relationship rather than passively watching."
+      }
+    ],
+    "masteryCriteria": "Can define pitch as how high or low a sound is perceived and give one high-pitched example (whistle, bird chirp) and one low-pitched example (bass drum, lion roar); can define frequency as the number of vibrations per second and state its SI unit as the hertz (Hz) with 1 Hz = 1 vibration per second; can state and apply the relationship that higher frequency produces higher pitch and lower frequency produces lower pitch (e.g., 512 Hz fork is shriller than 256 Hz fork); can distinguish pitch from loudness by correctly pairing pitch with frequency and loudness with amplitude.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_phy_025",
+    "title": "Absorption of sound",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "Absorption of sound is the process by which sound energy is taken in (absorbed) by a material rather than being reflected back into the surrounding space. When a sound wave strikes a surface, part of its energy bounces back (reflection) and part of it enters the material and is absorbed. Soft, porous materials such as cotton, felt, foam, curtains, carpets, cushions, and even egg trays are good absorbers of sound because their tiny pores and fibres trap the air through which the sound wave is travelling. As the sound wave pushes in and out of these pores, the fibres rub against each other and the trapped air, and the sound energy is converted into a very small amount of heat energy. This is why a soft cushion placed against a wall \"soaks up\" sound in much the same way that a sponge soaks up water.\r\n\r\nHard, smooth, rigid materials such as glass, metal, concrete, polished wood, and tiled walls are poor absorbers but excellent reflectors. Because they have no pores and their surfaces do not vibrate easily, very little sound energy enters them; almost all of it bounces straight back. This is the key contrast between absorption and reflection: a hard surface gives back the sound (causing echoes), while a soft surface takes in the sound (reducing echoes). The reason soft materials absorb better is the conversion of sound energy into heat within the pores -- the energy is \"used up\" in friction and is no longer available to travel back as sound.\r\n\r\nAbsorption of sound has many practical applications. Recording studios line their walls with foam panels so that no echo distorts the recording. Auditoriums and cinema halls use padded walls, curtains, and false ceilings of sound-absorbing material so that speech and music are clear. In homes, heavy curtains, carpets, and upholstered furniture reduce outside noise and make a room quieter. A simple activity to feel this is to clap loudly in a bare, empty room (with hard walls and no furniture) and then clap in a furnished room with curtains, carpets, and sofas -- the bare room gives a sharp, ringing echo, while the furnished room sounds dull and soft because the soft materials have absorbed the sound energy.",
+    "eli5": "Imagine sound is like water splashing on a wall. A hard, smooth wall throws the water straight back at you -- that is reflection, and it makes an echo. A soft, spongy curtain is like a towel: it soaks the water up instead of throwing it back. Inside the curtain's tiny holes, the sound's push gets turned into a little heat, so almost nothing bounces back. That is why a room full of curtains, carpets, and cushions is quiet, while a bare empty room echoes.",
+    "misconceptions": [
+      {
+        "belief": "Absorption means the sound is destroyed or disappears.",
+        "correction": "Sound energy is never destroyed -- the law of conservation of energy holds. In absorption, the sound energy is converted into a very small amount of heat energy inside the pores of the soft material. The energy still exists; it has simply changed form from sound to heat. CISCE examiners repeatedly remind teachers to ensure students state the result or inference of a process, not just describe it -- so always say \"sound energy is converted to heat\", not \"sound is destroyed\"."
+      },
+      {
+        "belief": "Thick hard materials like a concrete wall absorb sound because they are thick.",
+        "correction": "Thickness alone does not make a material a good absorber. Concrete is hard, smooth, and non-porous, so it reflects almost all sound regardless of thickness. What matters is softness and porosity -- the presence of tiny air-filled pores where friction can convert sound energy to heat. A thin layer of foam absorbs far better than a thick concrete wall."
+      },
+      {
+        "belief": "Absorption and reflection are the same thing because both reduce the sound that passes through.",
+        "correction": "They are opposite behaviours. Reflection sends sound energy back into the room (causing echoes), while absorption takes sound energy into the material and converts it to heat (reducing echoes). Confusing the two leads to wrong answers in questions asking why a furnished room is quieter than a bare one -- the correct reason is absorption by soft materials, not reflection."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define absorption of sound and name four materials that are good absorbers.",
+        "answer": "Absorption of sound is the process by which sound energy is taken in by a material rather than being reflected back into the surrounding space. When a sound wave strikes a soft, porous material, the sound energy enters the material and is converted into a small amount of heat energy within its pores, so very little sound bounces back. Four materials that are good absorbers of sound are cotton, felt, foam, and curtains. Other acceptable examples include carpets, cushions, upholstered furniture, and egg trays. All of these are soft and porous, which allows them to trap air and convert sound energy into heat through friction between their fibres and the trapped air. This is the opposite of what hard, smooth materials like glass, metal, and concrete do -- those reflect sound back and produce echoes."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain why soft, porous materials absorb sound better than hard, smooth materials.",
+        "answer": "Soft, porous materials such as cotton, felt, foam, and curtains contain thousands of tiny air-filled pores. When a sound wave strikes such a material, it forces the air trapped in these pores to vibrate, and the fibres of the material rub against each other and against the trapped air. This rubbing produces friction, and friction converts the mechanical energy of the sound wave into a small amount of heat energy. Because the sound energy is gradually used up as heat, very little of it remains to bounce back, so the echo is greatly reduced. Hard, smooth materials like glass, metal, and concrete have no pores and their particles are rigidly held, so they barely vibrate when sound hits them. Almost no friction occurs, almost no energy is converted to heat, and therefore almost all the sound energy is reflected back into the room. The key difference is the presence of pores and the softness that allows movement and friction -- that is why soft, porous materials are far better absorbers than hard, smooth ones."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"A thick concrete wall will absorb more sound than a thin foam panel because it is thicker and heavier.\" Evaluate this statement.",
+        "answer": "The statement is incorrect. The ability of a material to absorb sound depends mainly on its softness and porosity, not on its thickness or weight. Concrete is hard, smooth, and non-porous -- its particles are rigidly held and do not move when sound waves strike them. As a result, almost no friction occurs inside concrete, almost no sound energy is converted to heat, and nearly all the sound is reflected back. Adding more thickness does not change this, because the surface itself does not allow sound to enter the material in the first place. A thin panel of foam, by contrast, is soft and full of tiny air-filled pores. When sound enters these pores, the trapped air and the foam fibres rub together, producing friction that converts sound energy into heat. Even a thin layer of foam therefore absorbs far more sound than a thick concrete wall. The student has confused mass and thickness with absorptive ability. The correct criterion is whether the material is soft and porous -- the very properties that allow sound energy to be converted into heat. This is why recording studios line their walls with thin foam panels rather than building thicker concrete walls, and why a furnished room with thin curtains and a thin carpet is quieter than a bare room with thick concrete walls. So the evaluation is: thickness and weight are not the deciding factors; softness and porosity are."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You enter a bare, empty room with hard walls and clap once. You hear a clear echo. You then enter a furnished room with curtains, a carpet, and a sofa and clap again -- the echo is gone. Explain what is happening in each case and why.",
+        "answer": "In the bare, empty room, the walls, floor, and ceiling are all hard and smooth (concrete, plaster, tile). When you clap, the sound wave travels outward and strikes these hard surfaces. Because hard, smooth materials are excellent reflectors and poor absorbers, almost all the sound energy bounces straight back to your ears. Since the room is empty, there is nothing to absorb the sound on the way, so you hear a clear, ringing echo a fraction of a second after the clap. In the furnished room, the situation is different. The curtains, carpet, and sofa are all soft and porous materials. When the sound wave from your clap hits them, it enters their pores, the trapped air and fibres rub together, and the sound energy is converted into a small amount of heat. Because most of the sound energy is absorbed in this way, very little is left to reflect back, and you do not hear an echo. This simple activity directly demonstrates the contrast between reflection (hard surfaces, bare room) and absorption (soft surfaces, furnished room), and it shows why auditoriums and recording studios use soft, padded materials on their walls."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple, low-cost \"quiet corner\" in a noisy classroom using only everyday materials. Explain which materials you would choose, where you would place them, and why each one helps reduce noise.",
+        "answer": "To create a low-cost quiet corner in a noisy classroom, I would choose soft, porous, everyday materials that are good absorbers of sound. First, I would hang heavy cotton curtains or old blankets on the wall behind the quiet corner and on any nearby window -- curtains are soft and porous, so they absorb sound energy by converting it to heat in their fibres, reducing the noise that bounces off the wall. Second, I would lay a thick carpet or a folded durrie on the floor of the corner -- the carpet absorbs sound that would otherwise reflect off the hard tiled or concrete floor. Third, I would place a few cushions or pillows along the wall and on a low bench -- cushions are soft and filled with porous material, so they absorb sound coming from the side. Fourth, I could stick empty egg trays (cardboard, dimpled) on a small board behind the corner -- their dimpled shape traps air and makes them surprisingly good absorbers for a school project. I would place all these materials on the side of the corner that faces the noisiest part of the classroom, so that sound from that direction is absorbed before it reaches someone sitting in the quiet corner. Together, these soft, porous materials absorb sound energy and convert it to heat, reducing echoes and making the corner noticeably quieter -- the same principle that recording studios and auditoriums use, just with cheaper materials."
+      }
+    ],
+    "masteryCriteria": "Can define absorption of sound as sound energy being taken in by a material rather than reflected; can name at least four good absorbers (cotton, felt, foam, curtains, carpets, cushions, egg trays) and at least four good reflectors (glass, metal, concrete, polished wood); can explain why soft porous materials absorb sound better than hard smooth materials (sound energy enters pores, trapped air and fibres rub, friction converts sound energy to heat); can give at least two real applications (foam panels in recording studios, padded walls and curtains in auditoriums, curtains and carpets at home).",
+    "cognitiveLevel": "understand"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE SoundWaveSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

@@ -1,0 +1,43 @@
+{
+  "gameTitle": "ContinentsOceansGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\ContinentsOceansGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\geo\\enrichment\\c4_geography_enrichment_part4.marker",
+    "D:\\cisce\\geo\\enrichment\\c4_geography_enrichment_part5.marker",
+    "D:\\cisce\\geo\\enrichment\\c4_geography_enrichment_part6.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_geo_004 (Four domains of Earth - lithosphere, hydrosphere, atmosphere, biosphere), c4_geo_005 (Continents - detail), c4_geo_006 (Oceans - detail)",
+  "mascotName": "Explorer Ela",
+  "mascotDescription": "a friendly world explorer with a globe hat, a map badge, a compass, and a telescope. Custom SVG, not an owl.",
+  "sceneDescription": "world map scene with sky gradient, a large globe showing continents and oceans, mountains, ocean waves, and a compass rose",
+  "svgObjects": [
+    { "name": "LithosphereIcon", "description": "mountains and land (lithosphere domain)" },
+    { "name": "HydrosphereIcon", "description": "ocean waves (hydrosphere domain)" },
+    { "name": "AtmosphereIcon", "description": "clouds and air (atmosphere domain)" },
+    { "name": "BiosphereIcon", "description": "plants and animals (biosphere domain)" },
+    { "name": "AsiaIcon", "description": "continent of Asia (largest)" },
+    { "name": "AfricaIcon", "description": "continent of Africa" },
+    { "name": "NorthAmericaIcon", "description": "continent of North America" },
+    { "name": "SouthAmericaIcon", "description": "continent of South America" },
+    { "name": "AntarcticaIcon", "description": "continent of Antarctica (ice)" },
+    { "name": "EuropeIcon", "description": "continent of Europe" },
+    { "name": "AustraliaIcon", "description": "continent of Australia" },
+    { "name": "PacificOceanIcon", "description": "Pacific Ocean (largest and deepest)" },
+    { "name": "AtlanticOceanIcon", "description": "Atlantic Ocean (S-shaped)" },
+    { "name": "IndianOceanIcon", "description": "Indian Ocean (triangular, named after India)" }
+  ],
+  "challengeTypes": [
+    "identify: What are the FOUR DOMAINS of the Earth? (Lithosphere, hydrosphere, atmosphere, biosphere vs Land, water, fire, air vs North, south, east, west)",
+    "sort: Drag each domain to its correct description (Lithosphere: solid rocky part — mountains, plains, plateaus | Hydrosphere: all water — oceans, rivers, lakes, groundwater | Atmosphere: blanket of gases — nitrogen 78 percent, oxygen 21 percent | Biosphere: all living things — plants, animals, humans)",
+    "identify: How many CONTINENTS are there on Earth? (7 continents vs 5 continents vs 10 continents)",
+    "sort: Drag each continent to its correct description (Asia: largest continent | Africa: second largest, has the Sahara desert | North America: has USA and Canada | South America: has the Amazon rainforest | Antarctica: coldest, covered in ice | Europe: smallest continent by area | Australia: smallest continent, island continent)",
+    "identify: Which is the LARGEST and DEEPEST ocean on Earth? (The Pacific Ocean vs The Atlantic Ocean vs The Indian Ocean)",
+    "sort: Drag each ocean to its correct description (Pacific: largest and deepest, has Mariana Trench | Atlantic: second largest, S-shaped | Indian: third largest, triangular, named after India | Southern: surrounds Antarctica | Arctic: smallest and shallowest, around North Pole)",
+    "identify: What percentage of the Earth's surface is covered by WATER? (About 71 percent vs About 50 percent vs About 30 percent)",
+    "sort: Drag each body of water to its correct type (Ocean: vast body of salt water (Pacific, Atlantic) | Sea: smaller body partly enclosed by land (Arabian Sea, Mediterranean) | Bay: partly enclosed by land with wide opening (Bay of Bengal) | Gulf: narrow inlet of water (Gulf of Mexico))"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Four domains — lithosphere: solid rocky part (crust + upper mantle) — mountains, plains, plateaus, valleys. hydrosphere: all water — oceans, rivers, lakes, groundwater, glaciers (71 percent of Earth covered in water). atmosphere: blanket of gases — nitrogen 78 percent, oxygen 21 percent, gives air to breathe, protects from Sun's rays, makes weather. biosphere: all living things — plants, animals, humans, where life exists. (2) Continents — 7 continents: Asia (largest), Africa (second largest, Sahara desert), North America (USA, Canada), South America (Amazon rainforest), Antarctica (coldest, covered in ice, no permanent population), Europe (smallest by area), Australia (island continent, smallest). (3) Oceans — 5 oceans covering 71 percent of Earth. Pacific: largest and deepest, has Mariana Trench, bounded by Asia/Australia and Americas. Atlantic: second largest, S-shaped, between Europe/Africa and Americas. Indian: third largest, triangular, named after India. Southern: surrounds Antarctica, south of 60 degrees south. Arctic: smallest and shallowest, around North Pole. Seas are smaller, partly enclosed by land — Arabian Sea (west of India), Bay of Bengal (east of India), Mediterranean Sea (between Europe and Africa). Misconceptions: 'the atmosphere is only oxygen' (the atmosphere is mostly NITROGEN 78 percent, oxygen is only 21 percent — oxygen is not the main gas), 'Australia is the largest continent' (Asia is the LARGEST continent — Australia is the SMALLEST continent, it is called an island continent because it is also an island), 'the Pacific and Atlantic are the same ocean' (the Pacific is the LARGEST and DEEPEST ocean, the Atlantic is the second largest and is S-shaped — they are different oceans separated by continents), 'Antarctica has many people living there' (Antarctica is the COLDEST continent, covered in ice, with NO permanent human population — only scientists visit research stations), 'a sea and an ocean are the same' (an ocean is a VAST body of salt water, a sea is SMALLER and partly enclosed by land — seas are usually part of an ocean along its edge). Default width=720, height=560. Use named export (export function ContinentsOceansGame), NOT export default. Export interface ContinentsOceansGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

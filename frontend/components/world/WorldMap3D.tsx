@@ -17,7 +17,7 @@ import * as THREE from 'three'
 import { useRouter } from 'next/navigation'
 import GALAXY from './GALAXY.json'
 import WC from './world_content.json'
-import { getNodesMastery } from '@/lib/masteryStore'
+import { getNodesMastery, syncPendingResults } from '@/lib/masteryStore'
 import { audioManager } from '../../lib/sim-engine/audio'
 import SIM_INDEX from '../sims_v2/SIM_INDEX.json'
 
@@ -217,6 +217,9 @@ export function WorldMap3D({ classLevel }: { classLevel?: number | null }) {
     const [newlyLit, setNewlyLit] = useState(0)
 
     useEffect(() => {
+        // flush any sim results queued while offline — fire-and-forget
+        void syncPendingResults()
+
         const m = getNodesMastery(NODES.map(n => n.id))
         const out: Record<string, number> = {}
         NODES.forEach(n => { out[n.id] = m[n.id]?.bestScore ?? 0 })

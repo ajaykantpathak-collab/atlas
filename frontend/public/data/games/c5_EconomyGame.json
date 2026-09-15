@@ -1,0 +1,836 @@
+{
+  "gameFile": "EconomyGame",
+  "classLevel": 5,
+  "cisceNodes": [],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Agriculture in India 🌾",
+      "text": "Agriculture is the main occupation of India, where nearly half the population depends on farming! We grow food grains like rice and wheat, and cash crops like cotton and sugarcane during Kharif (monsoon) and Rabi (winter) seasons.",
+      "emoji": "🌾",
+      "bgColor": "from-emerald-500 to-green-600",
+      "spoken": "Agriculture is the main occupation of India, where nearly half the population depends on farming! We grow food grains like rice and wheat, and cash crops during Kharif and Rabi seasons.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 0
+        }
+      }
+    },
+    {
+      "title": "Industries in India 🏭",
+      "text": "Industries convert raw materials into finished products. Agro-based industries use farm products like cotton and sugar. Mineral-based industries use minerals like iron, steel, and cement to build our nation's infrastructure!",
+      "emoji": "🏭",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Industries convert raw materials into finished products. Agro-based industries use farm products, while mineral-based industries use minerals like iron and steel.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 1
+        }
+      }
+    },
+    {
+      "title": "Transport in India 🚆",
+      "text": "Transport connects people, markets, and industries across India's vast lands. We use Roadways for flexible travel, Railways for long distances and heavy cargo, Waterways for cheap bulk shipping, and Airways for fast travel!",
+      "emoji": "🚆",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "Transport connects people and goods across India. We use roadways, railways, waterways, and airways depending on cost, speed, and distance.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Population: Rural & Urban 🏙️",
+      "text": "India's massive population is divided into rural areas (villages where farming is key) and urban areas (cities with industries and services). Many people move from villages to cities for jobs, education, and better healthcare.",
+      "emoji": "🏙️",
+      "bgColor": "from-purple-500 to-pink-600",
+      "spoken": "India's population is divided into rural villages and urban cities. Many people migrate from villages to cities for jobs, education, and healthcare.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Economic Growth & Development 📈",
+      "text": "Balancing agriculture, modern industries, efficient transport, and population control ensures that India's economy grows steadily, providing a prosperous and healthy life for every citizen!",
+      "emoji": "📈",
+      "bgColor": "from-teal-500 to-cyan-600",
+      "spoken": "Balancing agriculture, industries, transport, and population control ensures India's economy grows steadily, providing prosperity for all.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is the main occupation of the majority of people in India?",
+      "answer": "Agriculture",
+      "options": [
+        "Agriculture",
+        "Information Technology",
+        "Aerospace Engineering"
+      ],
+      "hint": "Think about which sector employs nearly half of India's working population directly off the land!",
+      "misconception": "Agriculture is the main occupation because India has vast fertile plains, monsoon rains, and a large rural population depending on farming!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Agriculture",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Information Technology",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Aerospace Engineering",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Information Technology",
+          "Agriculture"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each crop or agricultural item to its correct category!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Rice is sown in monsoon (Kharif), wheat in winter (Rabi), and cotton/tea are cash or plantation crops!",
+      "misconception": "Kharif crops are sown in monsoon (June-July) like rice, rabi in winter (Oct-Nov) like wheat, and cash/plantation crops are grown for sale!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "hint": "Take it slow. Rice is sown in monsoon (Kharif), wheat in winter (Rabi), and cotton/tea are cash or plantation crops!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "c-rice",
+          "kind": "circle",
+          "label": "Rice (Kharif)",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-kharif",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-kharif"
+        },
+        {
+          "id": "c-wheat",
+          "kind": "circle",
+          "label": "Wheat (Rabi)",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-rabi",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-rabi"
+        },
+        {
+          "id": "c-cotton",
+          "kind": "circle",
+          "label": "Cotton (Cash)",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-cash",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-cash"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "c-rice",
+          "label": "Rice (Kharif)",
+          "emoji": "",
+          "correctBin": "bin-kharif"
+        },
+        {
+          "id": "c-wheat",
+          "label": "Wheat (Rabi)",
+          "emoji": "",
+          "correctBin": "bin-rabi"
+        },
+        {
+          "id": "c-cotton",
+          "label": "Cotton (Cash)",
+          "emoji": "",
+          "correctBin": "bin-cash"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-kharif",
+          "label": "Kharif (Monsoon) 🌧️",
+          "color": "#0284C7"
+        },
+        {
+          "id": "bin-rabi",
+          "label": "Rabi (Winter) ❄️",
+          "color": "#2563EB"
+        },
+        {
+          "id": "bin-cash",
+          "label": "Cash Crop 💰",
+          "color": "#16A34A"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of the following is an AGRO-BASED industry?",
+      "answer": "Cotton textile mill",
+      "options": [
+        "Cotton textile mill",
+        "Iron and steel plant",
+        "Cement manufacturing plant"
+      ],
+      "hint": "Agro-based industries process raw materials that come directly from farms, like cotton or sugarcane!",
+      "misconception": "Cotton textile mills are agro-based because they use farm-grown cotton, whereas steel and cement plants are mineral-based!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Cotton textile mill",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Iron and steel plant",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Cement manufacturing plant",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Cotton textile mill",
+          "Iron and steel plant"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each industry to whether it is Agro-Based or Mineral-Based!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Sugar and jute come from farms (agro-based); iron and steel come from mines (mineral-based)!",
+      "misconception": "Agro-based industries use farm raw materials (sugar, jute, textiles), while mineral-based industries use mine ores (steel, cement, aluminum)!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "ind-sugar",
+            "label": "Sugar Mill",
+            "correctBin": "bin-agro"
+          },
+          {
+            "id": "ind-steel",
+            "label": "Steel Plant",
+            "correctBin": "bin-mineral"
+          },
+          {
+            "id": "ind-jute",
+            "label": "Jute Mill",
+            "correctBin": "bin-agro"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "ind-sugar",
+          "kind": "circle",
+          "label": "Sugar Mill",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-agro",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-agro"
+        },
+        {
+          "id": "ind-steel",
+          "kind": "leaf",
+          "label": "Steel Plant",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "bin-mineral",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-mineral"
+        },
+        {
+          "id": "ind-jute",
+          "kind": "circle",
+          "label": "Jute Mill",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-agro",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-agro"
+        },
+        {
+          "id": "ind-cement",
+          "kind": "leaf",
+          "label": "Cement Plant",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "bin-mineral",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-mineral"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "ind-sugar",
+          "label": "Sugar Mill",
+          "emoji": "",
+          "correctBin": "bin-agro"
+        },
+        {
+          "id": "ind-steel",
+          "label": "Steel Plant",
+          "emoji": "",
+          "correctBin": "bin-mineral"
+        },
+        {
+          "id": "ind-jute",
+          "label": "Jute Mill",
+          "emoji": "",
+          "correctBin": "bin-agro"
+        },
+        {
+          "id": "ind-cement",
+          "label": "Cement Plant",
+          "emoji": "",
+          "correctBin": "bin-mineral"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-agro",
+          "label": "Agro-Based 🌾",
+          "color": "#16A34A"
+        },
+        {
+          "id": "bin-mineral",
+          "label": "Mineral-Based ⛏️",
+          "color": "#B45309"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which is the FASTEST means of transport in India?",
+      "answer": "Airways",
+      "options": [
+        "Airways",
+        "Railways",
+        "Waterways"
+      ],
+      "hint": "Think about which vehicle flies through the sky between major cities in just a couple of hours!",
+      "misconception": "Airways are the fastest means of transport, though they are also the costliest. Waterways are the cheapest for heavy cargo!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Airways",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Railways",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Waterways",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Airways",
+          "Railways"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each transport mode to its best feature!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Roads reach everywhere, rails carry heavy loads long distances, water is cheapest for bulk cargo, air is fastest!",
+      "misconception": "Roadways provide door-to-door village access, railways handle bulk cross-country travel, waterways are cheapest for heavy goods, and airways are fastest!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tr-road",
+            "label": "Roadways",
+            "correctBin": "bin-road"
+          },
+          {
+            "id": "tr-rail",
+            "label": "Railways",
+            "correctBin": "bin-rail"
+          },
+          {
+            "id": "tr-water",
+            "label": "Waterways",
+            "correctBin": "bin-water"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tr-road",
+          "kind": "circle",
+          "label": "Roadways",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-road",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-road"
+        },
+        {
+          "id": "tr-rail",
+          "kind": "circle",
+          "label": "Railways",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-rail",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-rail"
+        },
+        {
+          "id": "tr-water",
+          "kind": "water-drop",
+          "label": "Waterways",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "bin-water",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-water"
+        },
+        {
+          "id": "tr-air",
+          "kind": "circle",
+          "label": "Airways",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-air",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-air"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tr-road",
+          "label": "Roadways",
+          "emoji": "",
+          "correctBin": "bin-road"
+        },
+        {
+          "id": "tr-rail",
+          "label": "Railways",
+          "emoji": "",
+          "correctBin": "bin-rail"
+        },
+        {
+          "id": "tr-water",
+          "label": "Waterways",
+          "emoji": "",
+          "correctBin": "bin-water"
+        },
+        {
+          "id": "tr-air",
+          "label": "Airways",
+          "emoji": "",
+          "correctBin": "bin-air"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-road",
+          "label": "Flexible & Local 🚚",
+          "color": "#EA580C"
+        },
+        {
+          "id": "bin-rail",
+          "label": "Long Distance 🚆",
+          "color": "#2563EB"
+        },
+        {
+          "id": "bin-water",
+          "label": "Cheapest for Cargo 🚢",
+          "color": "#0284C7"
+        },
+        {
+          "id": "bin-air",
+          "label": "Fastest Travel ✈️",
+          "color": "#9333EA"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is the main reason people migrate from villages to cities in India?",
+      "answer": "Better jobs, education, and healthcare",
+      "options": [
+        "Better jobs, education, and healthcare",
+        "To enjoy noisy traffic and crowded streets",
+        "Because villages have no air to breathe"
+      ],
+      "hint": "Think about why a family might move: employment, good schools for children, and specialist hospitals!",
+      "misconception": "Rural-to-urban migration is driven primarily by the search for better employment opportunities, higher education, and advanced healthcare facilities.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Better jobs, education, and healthcare",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "To enjoy noisy traffic and crowded streets",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Because villages have no air to breathe",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Better jobs, education, and healthcare",
+          "To enjoy noisy traffic and crowded streets"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each characteristic to Rural or Urban area!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Villages and farming belong to rural; skyscrapers and offices belong to urban!",
+      "misconception": "Rural areas are characterized by farming, villages, and open nature. Urban areas feature cities, factories, services, and high population density!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "char-farm",
+            "label": "Agriculture & Farming",
+            "correctBin": "bin-rural"
+          },
+          {
+            "id": "char-city",
+            "label": "Skyscrapers & Offices",
+            "correctBin": "bin-urban"
+          },
+          {
+            "id": "char-vill",
+            "label": "Quiet Village Life",
+            "correctBin": "bin-rural"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "char-farm",
+          "kind": "circle",
+          "label": "Agriculture & Farming",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-rural",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-rural"
+        },
+        {
+          "id": "char-city",
+          "kind": "circle",
+          "label": "Skyscrapers & Offices",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-urban",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-urban"
+        },
+        {
+          "id": "char-vill",
+          "kind": "circle",
+          "label": "Quiet Village Life",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-rural",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-rural"
+        },
+        {
+          "id": "char-ind",
+          "kind": "circle",
+          "label": "Industries & Services",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-urban",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-urban"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "char-farm",
+          "label": "Agriculture & Farming",
+          "emoji": "",
+          "correctBin": "bin-rural"
+        },
+        {
+          "id": "char-city",
+          "label": "Skyscrapers & Offices",
+          "emoji": "",
+          "correctBin": "bin-urban"
+        },
+        {
+          "id": "char-vill",
+          "label": "Quiet Village Life",
+          "emoji": "",
+          "correctBin": "bin-rural"
+        },
+        {
+          "id": "char-ind",
+          "label": "Industries & Services",
+          "emoji": "",
+          "correctBin": "bin-urban"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-rural",
+          "label": "Rural (Villages) 🏡",
+          "color": "#16A34A"
+        },
+        {
+          "id": "bin-urban",
+          "label": "Urban (Cities) 🏙️",
+          "color": "#2563EB"
+        }
+      ]
+    }
+  ],
+  "theme": "market",
+  "storyArc": {
+    "theme": "A nature lover discovers the world around them",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-garden",
+    "title": "Learning Garden",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_EconomyGame",
+    "region": "Nature Park",
+    "mapX": 1.06,
+    "mapY": 1.19,
+    "icon": "🌿",
+    "prerequisites": []
+  },
+  "subject": "evs"
+}

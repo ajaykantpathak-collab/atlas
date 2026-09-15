@@ -1,0 +1,859 @@
+{
+  "gameFile": "LivingEVSGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_evs_001",
+    "c3_evs_002",
+    "c3_evs_003"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Living vs Non-Living 🌳🪨",
+      "text": "Living things grow, need food and water, breathe, move, and have babies! Trees, dogs, birds, and humans are living. Stones, chairs, and books are non-living!",
+      "emoji": "🌿",
+      "bgColor": "from-emerald-400 to-teal-600",
+      "spoken": "Living things grow, need food and water, breathe, move, and have babies. Trees, dogs, birds, and humans are living things. Stones, chairs, and books are non-living!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 0
+        }
+      }
+    },
+    {
+      "title": "Plants are Living! 🌱",
+      "text": "Plants cannot walk around, but they ARE living! They grow from tiny seeds, take in water, breathe through leaves, turn toward sunlight, and make seeds!",
+      "emoji": "🌻",
+      "bgColor": "from-green-400 to-emerald-600",
+      "spoken": "Plants cannot walk around, but they are living! They grow from tiny seeds, take in water, breathe through leaves, and make new seeds.",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Plants and Animals 🌲🐕",
+      "text": "Both are alive and grow! But plants make their own food in their green leaves using sunlight. Animals cannot make food — they must eat plants or other animals!",
+      "emoji": "🦌",
+      "bgColor": "from-teal-400 to-cyan-600",
+      "spoken": "Both plants and animals are alive and grow. But plants make their own food using sunlight, while animals must eat plants or other animals.",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Human and Animal Needs 🧡",
+      "text": "Humans and animals share basic needs: food, water, air, and sleep! Both grow, feel hunger, and have babies. Both have eyes, ears, and noses to sense the world!",
+      "emoji": "🐾",
+      "bgColor": "from-cyan-400 to-blue-600",
+      "spoken": "Humans and animals share basic needs like food, water, air, and sleep. Both have eyes, ears, and noses to sense the world around them.",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Grasshopper",
+            "Frog",
+            "Snake"
+          ]
+        }
+      }
+    },
+    {
+      "title": "External Body Parts 👁️👂",
+      "text": "Our body parts have special jobs! Eyes are for seeing, ears for hearing, nose for smelling, tongue for tasting, and skin for feeling. Animals have wings, fins, tails, and paws!",
+      "emoji": "🔍",
+      "bgColor": "from-blue-400 to-indigo-600",
+      "spoken": "Our body parts have special jobs. Eyes are for seeing, ears for hearing, nose for smelling. Animals have wings, fins, tails, and paws suited to their homes!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_living",
+      "question": "Which of these is a LIVING thing?",
+      "answer": "A mango tree that grows",
+      "options": [
+        "A stone that stays the same size",
+        "A wooden chair",
+        "A mango tree that grows"
+      ],
+      "hint": "Look for signs of life! Does it grow, need water, and breathe?",
+      "misconception": "A mango tree is living because it grows from a seed, needs water, breathes, and produces seeds! Stones and wooden chairs do not grow, eat, or breathe, so they are non-living.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A stone that stays the same size",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A wooden chair",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A mango tree that grows",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A stone that stays the same size",
+          "A mango tree that grows"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_non_living",
+      "question": "Which of these is a NON-LIVING thing?",
+      "answer": "A plastic chair",
+      "options": [
+        "A rose plant",
+        "A stray dog",
+        "A plastic chair"
+      ],
+      "hint": "Non-living things do not grow, breathe, or need food. Which one is a non-living object?",
+      "misconception": "A plastic chair is non-living! It does not grow, eat, breathe, or have baby chairs. Rose plants and stray dogs are living things.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A rose plant",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A stray dog",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A plastic chair",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A rose plant",
+          "A plastic chair"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort_living",
+      "question": "Drag each object into Living or Non-Living!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Living things grow and breathe (dog, tree, bird). Non-living things do not (stone, bench, water)!",
+      "misconception": "Remember: living things show signs of life like growth, eating, and breathing. Stones, benches, and water are non-living things!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "dog",
+            "label": "Stray Dog",
+            "correctBin": "living"
+          },
+          {
+            "id": "tree",
+            "label": "Neem Tree",
+            "correctBin": "living"
+          },
+          {
+            "id": "stone",
+            "label": "River Stone",
+            "correctBin": "non-living"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "dog",
+          "kind": "circle",
+          "label": "Stray Dog",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "living",
+          "interaction": "drag-to-bin",
+          "targetBin": "living"
+        },
+        {
+          "id": "tree",
+          "kind": "circle",
+          "label": "Neem Tree",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "living",
+          "interaction": "drag-to-bin",
+          "targetBin": "living"
+        },
+        {
+          "id": "stone",
+          "kind": "circle",
+          "label": "River Stone",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "non-living",
+          "interaction": "drag-to-bin",
+          "targetBin": "non-living"
+        },
+        {
+          "id": "bench",
+          "kind": "circle",
+          "label": "Park Bench",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "non-living",
+          "interaction": "drag-to-bin",
+          "targetBin": "non-living"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "dog",
+          "label": "Stray Dog",
+          "emoji": "",
+          "correctBin": "living"
+        },
+        {
+          "id": "tree",
+          "label": "Neem Tree",
+          "emoji": "",
+          "correctBin": "living"
+        },
+        {
+          "id": "stone",
+          "label": "River Stone",
+          "emoji": "",
+          "correctBin": "non-living"
+        },
+        {
+          "id": "bench",
+          "label": "Park Bench",
+          "emoji": "",
+          "correctBin": "non-living"
+        }
+      ],
+      "bins": [
+        {
+          "id": "living",
+          "label": "Living Things 🌿",
+          "color": "#10B981"
+        },
+        {
+          "id": "non-living",
+          "label": "Non-Living 🪨",
+          "color": "#6B7280"
+        }
+      ]
+    },
+    {
+      "type": "identify_similarity",
+      "question": "What is a similarity between a plant and an animal?",
+      "answer": "Both are living things that grow",
+      "options": [
+        "Both can talk with language",
+        "Both are living things that grow",
+        "Both can run around"
+      ],
+      "hint": "Think about what makes both plants and animals alike. Are they alive?",
+      "misconception": "Plants and animals are both living things that grow, need water, and reproduce! Plants cannot run or talk, but both share the basic signs of life.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Both can talk with language",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Both are living things that grow",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Both can run around",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Both are living things that grow",
+          "Both can talk with language"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_plant_animal",
+      "question": "Drag each feature! Does it belong to a Plant or an Animal?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Plants make their own food in leaves and stay in one place. Animals move around and eat food!",
+      "misconception": "Plants make their food by photosynthesis in their leaves and are fixed by roots. Animals move around to find food and have legs or wings!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "p-food",
+            "label": "Makes own food",
+            "correctBin": "plant"
+          },
+          {
+            "id": "p-root",
+            "label": "Fixed by roots",
+            "correctBin": "plant"
+          },
+          {
+            "id": "a-move",
+            "label": "Walks with legs",
+            "correctBin": "animal"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "p-food",
+          "kind": "circle",
+          "label": "Makes own food",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "plant",
+          "interaction": "drag-to-bin",
+          "targetBin": "plant"
+        },
+        {
+          "id": "p-root",
+          "kind": "circle",
+          "label": "Fixed by roots",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "plant",
+          "interaction": "drag-to-bin",
+          "targetBin": "plant"
+        },
+        {
+          "id": "a-move",
+          "kind": "circle",
+          "label": "Walks with legs",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "animal",
+          "interaction": "drag-to-bin",
+          "targetBin": "animal"
+        },
+        {
+          "id": "a-eat",
+          "kind": "circle",
+          "label": "Eats food",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "animal",
+          "interaction": "drag-to-bin",
+          "targetBin": "animal"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "p-food",
+          "label": "Makes own food",
+          "emoji": "",
+          "correctBin": "plant"
+        },
+        {
+          "id": "p-root",
+          "label": "Fixed by roots",
+          "emoji": "",
+          "correctBin": "plant"
+        },
+        {
+          "id": "a-move",
+          "label": "Walks with legs",
+          "emoji": "",
+          "correctBin": "animal"
+        },
+        {
+          "id": "a-eat",
+          "label": "Eats food",
+          "emoji": "",
+          "correctBin": "animal"
+        }
+      ],
+      "bins": [
+        {
+          "id": "plant",
+          "label": "Plant Feature 🌿",
+          "color": "#059669"
+        },
+        {
+          "id": "animal",
+          "label": "Animal Feature 🐾",
+          "color": "#D97706"
+        }
+      ]
+    },
+    {
+      "type": "identify_sense",
+      "question": "Which external body part do we use to SEE?",
+      "answer": "Eyes",
+      "options": [
+        "Ears",
+        "Eyes",
+        "Nose"
+      ],
+      "hint": "We open these two organs on our face to look at colourful flowers and read books!",
+      "misconception": "Eyes are for seeing! Ears are for hearing sounds, and the nose is for smelling fragrances. Every sense organ has its own special job.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Ears",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Eyes",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Nose",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Eyes",
+          "Ears"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_body_parts",
+      "question": "Drag each body part to its correct function!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Eyes see, ears hear, nose smells, legs walk!",
+      "misconception": "Each body part has a specific job: eyes for seeing, ears for hearing, nose for smelling, and legs for walking and running!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "eye",
+            "label": "Eyes (See)",
+            "correctBin": "see"
+          },
+          {
+            "id": "ear",
+            "label": "Ears (Hear)",
+            "correctBin": "hear"
+          },
+          {
+            "id": "nose",
+            "label": "Nose (Smell)",
+            "correctBin": "smell"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "eye",
+          "kind": "circle",
+          "label": "Eyes (See)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "see",
+          "interaction": "drag-to-bin",
+          "targetBin": "see"
+        },
+        {
+          "id": "ear",
+          "kind": "circle",
+          "label": "Ears (Hear)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "hear",
+          "interaction": "drag-to-bin",
+          "targetBin": "hear"
+        },
+        {
+          "id": "nose",
+          "kind": "circle",
+          "label": "Nose (Smell)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "smell",
+          "interaction": "drag-to-bin",
+          "targetBin": "smell"
+        },
+        {
+          "id": "leg",
+          "kind": "circle",
+          "label": "Legs (Walk)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "walk",
+          "interaction": "drag-to-bin",
+          "targetBin": "walk"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "eye",
+          "label": "Eyes (See)",
+          "emoji": "",
+          "correctBin": "see"
+        },
+        {
+          "id": "ear",
+          "label": "Ears (Hear)",
+          "emoji": "",
+          "correctBin": "hear"
+        },
+        {
+          "id": "nose",
+          "label": "Nose (Smell)",
+          "emoji": "",
+          "correctBin": "smell"
+        },
+        {
+          "id": "leg",
+          "label": "Legs (Walk)",
+          "emoji": "",
+          "correctBin": "walk"
+        }
+      ],
+      "bins": [
+        {
+          "id": "see",
+          "label": "Seeing 👀",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "hear",
+          "label": "Hearing 👂",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "smell",
+          "label": "Smelling 👃",
+          "color": "#EC4899"
+        },
+        {
+          "id": "walk",
+          "label": "Walking 🦵",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "sort_human_animal",
+      "question": "Drag each feature! Does it belong to Humans, Animals, or Both?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Both humans and animals have eyes and legs! Humans use hands for writing. Animals have fur and tails!",
+      "misconception": "Humans and animals both share eyes, ears, and legs! But humans use hands for writing, while animals like cats have fur and tails.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "h-hand",
+            "label": "Hands for writing",
+            "correctBin": "human"
+          },
+          {
+            "id": "a-tail",
+            "label": "Tail for balance",
+            "correctBin": "animal"
+          },
+          {
+            "id": "b-eyes",
+            "label": "Eyes and ears",
+            "correctBin": "both"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "h-hand",
+          "kind": "circle",
+          "label": "Hands for writing",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "human",
+          "interaction": "drag-to-bin",
+          "targetBin": "human"
+        },
+        {
+          "id": "a-tail",
+          "kind": "circle",
+          "label": "Tail for balance",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "animal",
+          "interaction": "drag-to-bin",
+          "targetBin": "animal"
+        },
+        {
+          "id": "b-eyes",
+          "kind": "circle",
+          "label": "Eyes and ears",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "both",
+          "interaction": "drag-to-bin",
+          "targetBin": "both"
+        },
+        {
+          "id": "b-legs",
+          "kind": "circle",
+          "label": "Legs for moving",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "both",
+          "interaction": "drag-to-bin",
+          "targetBin": "both"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "h-hand",
+          "label": "Hands for writing",
+          "emoji": "",
+          "correctBin": "human"
+        },
+        {
+          "id": "a-tail",
+          "label": "Tail for balance",
+          "emoji": "",
+          "correctBin": "animal"
+        },
+        {
+          "id": "b-eyes",
+          "label": "Eyes and ears",
+          "emoji": "",
+          "correctBin": "both"
+        },
+        {
+          "id": "b-legs",
+          "label": "Legs for moving",
+          "emoji": "",
+          "correctBin": "both"
+        }
+      ],
+      "bins": [
+        {
+          "id": "human",
+          "label": "Human 🙋",
+          "color": "#2563EB"
+        },
+        {
+          "id": "animal",
+          "label": "Animal 🐅",
+          "color": "#D97706"
+        },
+        {
+          "id": "both",
+          "label": "Both 🤝",
+          "color": "#7C3AED"
+        }
+      ]
+    }
+  ],
+  "theme": "garden",
+  "storyArc": {
+    "theme": "A nature lover discovers the world around them",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-garden",
+    "title": "Learning Garden",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_evs_001",
+    "region": "Nature Park",
+    "mapX": 0.7,
+    "mapY": 0.55,
+    "icon": "🌿",
+    "prerequisites": [
+      "c3_evs_002"
+    ]
+  },
+  "subject": "evs"
+}

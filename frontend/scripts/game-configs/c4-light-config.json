@@ -1,0 +1,44 @@
+{
+  "gameTitle": "LightGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\LightGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part1.marker",
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part2.marker",
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part3.marker",
+    "D:\\cisce\\physics\\enrichment\\c4_physics_enrichment_part4.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_phy_001 (Natural and artificial sources of light), c4_phy_002 (Luminous and non-luminous objects), c4_phy_003 (Transparent, translucent, opaque objects), c4_phy_004 (Formation of shadows)",
+  "mascotName": "Scientist Sandeep",
+  "mascotDescription": "a friendly physicist with a lab coat, a torch badge, a prism, and dark glasses. Custom SVG, not an owl.",
+  "sceneDescription": "light and shadow lab scene with sky gradient, a sun, a torch, a candle, a shadow puppet screen, and various transparent, translucent, and opaque objects",
+  "svgObjects": [
+    { "name": "SunIcon", "description": "a bright sun (natural light source)" },
+    { "name": "TorchIcon", "description": "a torch (artificial light source)" },
+    { "name": "CandleIcon", "description": "a burning candle (artificial light source)" },
+    { "name": "FireflyIcon", "description": "a firefly (natural light source)" },
+    { "name": "BulbIcon", "description": "an electric bulb (artificial light source)" },
+    { "name": "StarIcon", "description": "a star (natural light source)" },
+    { "name": "TransparentIcon", "description": "clear glass (transparent)" },
+    { "name": "TranslucentIcon", "description": "oiled paper (translucent)" },
+    { "name": "OpaqueIcon", "description": "a wooden block (opaque)" },
+    { "name": "ShadowIcon", "description": "a shadow of a hand on a wall" },
+    { "name": "LuminousIcon", "description": "a luminous object (lit candle)" },
+    { "name": "NonLuminousIcon", "description": "a non-luminous object (a book)" },
+    { "name": "LightRayIcon", "description": "light rays traveling in straight lines" },
+    { "name": "PrismIcon", "description": "a prism splitting light" }
+  ],
+  "challengeTypes": [
+    "identify: Which of these is a NATURAL source of light? (The sun vs A torch vs An electric bulb)",
+    "sort: Drag each light source to Natural or Artificial (Natural: sun, stars, firefly, lightning | Artificial: torch, candle, bulb, lamp, tubelight)",
+    "identify: What is a LUMINOUS object? (An object that gives out its own light vs An object that reflects light from another source vs An object that blocks light)",
+    "sort: Drag each object to Luminous or Non-luminous (Luminous: sun, lit candle, lit bulb, firefly, stars | Non-luminous: book, chair, ball, moon, mirror)",
+    "identify: Which material lets ALL light pass through so you can see clearly? (Transparent like clear glass vs Translucent like oiled paper vs Opaque like wood)",
+    "sort: Drag each object to Transparent, Translucent, or Opaque (Transparent: clear glass, water, clear plastic | Translucent: oiled paper, butter paper, frosted glass | Opaque: wooden door, book, metal plate, stone wall)",
+    "identify: What THREE things are needed to form a shadow? (A light source, an opaque object, and a surface vs Only a light source vs Only an opaque object)",
+    "sort: Drag each statement about shadows to True or False (True: light travels in straight lines, shadow is opposite to the light source, opaque objects cast dark shadows, moving object closer to light makes shadow bigger | False: transparent objects cast dark shadows, light can bend around objects, shadow is on the same side as the light, moving object closer to light makes shadow smaller)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Sources of light — natural sources exist in nature without humans: sun (most important), stars, fireflies, lightning, glowing lava. Artificial sources are made by humans: electric bulb, torch, candle, lamp, tubelight. Classify by asking: did humans make it or does it exist by itself? (2) Luminous and non-luminous — luminous objects give out their own light (sun, lit candle, lit bulb, firefly, stars). Non-luminous objects do NOT give out light (book, chair, ball, moon, mirror). The moon is non-luminous — it reflects sunlight, does not make its own light. (3) Transparent, translucent, opaque — transparent: lets all light pass through, see clearly (clear glass, water, clear plastic). Translucent: lets some light pass through, see blurred (oiled paper, butter paper, frosted glass). Opaque: blocks all light, cannot see through (wooden door, book, metal plate, stone wall). (4) Formation of shadows — shadow is a dark shape formed when an opaque object blocks light. Three things needed: light source, opaque object, and a surface. Light travels in straight lines and cannot bend around objects. Shadow shape matches object outline. Shadow is always opposite to the light source direction. Moving object closer to light = bigger shadow. Moving object closer to surface = smaller shadow. Only opaque objects cast clear shadows. Transparent objects do not cast dark shadows. Misconceptions: 'the moon is a luminous object because it shines' (the moon is NON-luminous — it reflects sunlight, it does not make its own light), 'light can bend around corners' (light travels in STRAIGHT lines — it cannot bend around objects, which is why shadows form), 'transparent objects cast dark shadows' (transparent objects let light pass through, so they do NOT cast dark shadows — only OPAQUE objects cast dark shadows), 'a shadow forms on the same side as the light' (the shadow forms on the OPPOSITE side from the light source — if light comes from the right, shadow falls on the left), 'translucent and transparent are the same' (transparent lets ALL light through and you see clearly, translucent lets SOME light through and you see blurred — they are different). Default width=720, height=560. Use named export (export function LightGame), NOT export default. Export interface LightGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

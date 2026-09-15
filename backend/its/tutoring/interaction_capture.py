@@ -17,8 +17,13 @@ logger = logging.getLogger(__name__)
 #: tmp-file + os.replace, mirroring the tutor_students.json writer in
 #: its/solver/tutor.py).  Override the location with INTERACTIONS_PATH;
 #: the default keeps pre-existing deployments reading their history.
+#: Falls back to a repo-relative path so the backend runs on any OS —
+#: the old default was a hardcoded Windows path that breaks in Docker.
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__)))))
 DEFAULT_INTERACTIONS_PATH = os.environ.get(
-    "INTERACTIONS_PATH", r"D:\platform\cbse_data\interactions.json")
+    "INTERACTIONS_PATH",
+    os.path.join(_REPO_ROOT, "cbse_data", "interactions.json"))
 
 
 @dataclass

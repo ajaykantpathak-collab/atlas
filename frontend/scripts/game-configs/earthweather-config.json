@@ -1,0 +1,34 @@
+{
+  "gameTitle": "EarthWeatherGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\geo\\EarthWeatherGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\geo\\enrichment\\c1_geography_enrichment_part1.marker",
+    "D:\\cisce\\geo\\enrichment\\c1_geography_enrichment_part5.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\chem\\WaterGame.tsx",
+  "cisceNodes": "c1_geo_001 (Earth is our home), c1_geo_005 (Weather)",
+  "mascotName": "Weather Wiz Mira",
+  "mascotDescription": "a friendly young weather scientist with a raincoat, umbrella, and weather chart. She wears a sun hair clip and has a warm smile. Custom SVG, not an owl.",
+  "sceneDescription": "earth and weather scene with sky gradient (sunny to cloudy), a globe showing land and water, clouds, sun, rain drops, and a weather chart",
+  "svgObjects": [
+    { "name": "EarthIcon", "description": "a globe showing blue water and green land masses" },
+    { "name": "SunIcon", "description": "a bright sun with rays for sunny weather" },
+    { "name": "CloudIcon", "description": "a fluffy cloud for cloudy weather" },
+    { "name": "RainDropIcon", "description": "a blue rain drop for rainy weather" },
+    { "name": "WindIcon", "description": "swirling wind lines for windy weather" },
+    { "name": "RaincoatIcon", "description": "a yellow raincoat for rainy day clothing" },
+    { "name": "SweaterIcon", "description": "a warm sweater for cold day clothing" },
+    { "name": "CapIcon", "description": "a sun cap for sunny day clothing" }
+  ],
+  "challengeTypes": [
+    "identify: What is Earth made of? (Land and water vs Only land vs Only water)",
+    "identify: What is weather? (What the sky is like vs What we eat vs Where we live)",
+    "identify: What do we wear on a SUNNY day? (Cotton clothes/cap vs Raincoat vs Sweater)",
+    "sort: Drag clothes to the right weather (Sunny: cap, cotton clothes | Rainy: raincoat, umbrella | Cold: sweater, jacket)",
+    "identify: What do we wear on a RAINY day? (Raincoat vs Cap vs Sweater)",
+    "identify: What do we see in the sky on a CLOUDY day? (Clouds vs Sun vs Stars)",
+    "sort: Drag weather items to the right type (Sunny: sun, cap | Rainy: rain, raincoat, umbrella | Cloudy: clouds | Windy: wind, kite)",
+    "sort: Drag Earth parts to land or water (Land: mountain, plain, hill, desert | Water: river, pond, sea, lake)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Earth is our home — it has land (where we walk, build, farm) and water (rivers, ponds, sea). (2) Weather is what the sky is like — sunny, cloudy, rainy, windy. (3) Weather changes what we wear — sunny day = cotton clothes + cap, rainy day = raincoat + umbrella, cold day = sweater + jacket. (4) Weather changes what we do — sunny = play outside, rainy = stay dry, windy = fly kite. Misconceptions: 'Earth is only land' (Earth has both land and water), 'weather is the same every day' (weather changes daily), 'we can wear anything in any weather' (rainy = raincoat, sunny = cotton, cold = sweater). Default width=720, height=560. Use named export (export function EarthWeatherGame), NOT export default. Export interface EarthWeatherGameProps with width?, height?, onComplete?: (score: number) => void."
+}

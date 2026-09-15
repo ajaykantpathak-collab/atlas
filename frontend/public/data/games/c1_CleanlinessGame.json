@@ -1,0 +1,808 @@
+{
+  "gameFile": "CleanlinessGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_evs_010"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "What is Personal Cleanliness? 🧼",
+      "text": "Personal cleanliness means keeping our body neat, clean, and free from dirt and germs. It is part of hygiene, which helps us stay healthy and never fall sick!",
+      "emoji": "🧼",
+      "bgColor": "from-cyan-400 to-blue-500",
+      "spoken": "",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 0
+        }
+      }
+    },
+    {
+      "title": "Wash Hands with Soap! 💧",
+      "text": "Always wash hands with soap before eating and after using the toilet! Water alone cannot remove invisible germs. Soap breaks their grip and washes them away!",
+      "emoji": "👐",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 1
+        }
+      }
+    },
+    {
+      "title": "Brush Teeth Twice Daily! 🦷",
+      "text": "Brush your teeth twice every day — once in the morning and once at night before bed! This removes food particles so germs cannot form acid and cause cavities!",
+      "emoji": "✨",
+      "bgColor": "from-teal-400 to-cyan-500",
+      "spoken": "",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Bathe & Wear Clean Clothes! 🚿",
+      "text": "Bathe daily with soap to wash away sweat and dirt. Wear clean clothes every day to protect your skin from rashes, itching, and boils!",
+      "emoji": "👕",
+      "bgColor": "from-green-400 to-emerald-500",
+      "spoken": "",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Keep Nails Short & Neat! ✂️",
+      "text": "Keep nails short and clean so dirt and germs cannot hide underneath them. Comb your hair to keep it neat, tangle-free, and tidy!",
+      "emoji": "👧",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Goat",
+            "Lion"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_use",
+      "question": "When should we wash our hands with soap?",
+      "answer": "Before eating and after toilet",
+      "options": [
+        "Before eating and after toilet",
+        "Only when they look muddy",
+        "Only at night before sleep"
+      ],
+      "hint": "Think: what goes into your mouth, and where do invisible germs hide after using the washroom?",
+      "misconception": "Germs are invisible! Even if hands look clean, they pick up germs from toys and door handles. We must wash hands with soap before eating and after using the toilet!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Before eating and after toilet",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Only when they look muddy",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Only at night before sleep",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Only when they look muddy",
+          "Before eating and after toilet"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_use",
+      "question": "How many times should we brush our teeth?",
+      "answer": "Twice daily - morning and night",
+      "options": [
+        "Twice daily - morning and night",
+        "Only once in the morning",
+        "Once a week"
+      ],
+      "hint": "Think about breakfast, lunch, and dinner. Food stays stuck if you skip brushing before sleep!",
+      "misconception": "Brushing only in the morning leaves teeth unprotected all night! Germs feed on leftover food overnight and form acid that causes cavities. Brush twice daily!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Twice daily - morning and night",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Only once in the morning",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Once a week",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Only once in the morning",
+          "Twice daily - morning and night"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_use",
+      "question": "Why should we keep our nails short and clean?",
+      "answer": "To stop dirt and germs hiding under nails",
+      "options": [
+        "To stop dirt and germs hiding under nails",
+        "To look pretty for friends",
+        "To scratch the wall easily"
+      ],
+      "hint": "Long nails trap tiny particles of dirt and invisible germs that go straight into your tummy when you eat!",
+      "misconception": "Long nails are not just messy — they hide dirt and germs underneath! When we eat with our fingers, those germs enter our body and cause stomach illness.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "To stop dirt and germs hiding under nails",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "To look pretty for friends",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "To scratch the wall easily",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "To stop dirt and germs hiding under nails",
+          "To look pretty for friends"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_uses",
+      "question": "Drag each hygiene habit to its correct time!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Morning starts with teeth and bath! Meals need clean hands!",
+      "misconception": "Every habit has its correct time! Morning is for brushing and bathing, before meals is for handwashing with soap, and night is for brushing before bed.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "brush-morn",
+            "label": "Brush teeth (Morning)",
+            "correctBin": "morning"
+          },
+          {
+            "id": "bathe",
+            "label": "Bathe with soap",
+            "correctBin": "morning"
+          },
+          {
+            "id": "wash-eat",
+            "label": "Wash hands before eating",
+            "correctBin": "meals"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "brush-morn",
+          "kind": "circle",
+          "label": "Brush teeth (Morning)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "morning",
+          "interaction": "drag-to-bin",
+          "targetBin": "morning"
+        },
+        {
+          "id": "bathe",
+          "kind": "circle",
+          "label": "Bathe with soap",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "morning",
+          "interaction": "drag-to-bin",
+          "targetBin": "morning"
+        },
+        {
+          "id": "wash-eat",
+          "kind": "circle",
+          "label": "Wash hands before eating",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "meals",
+          "interaction": "drag-to-bin",
+          "targetBin": "meals"
+        },
+        {
+          "id": "brush-night",
+          "kind": "circle",
+          "label": "Brush teeth (Night)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "night",
+          "interaction": "drag-to-bin",
+          "targetBin": "night"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "brush-morn",
+          "label": "Brush teeth (Morning)",
+          "emoji": "🦷",
+          "correctBin": "morning"
+        },
+        {
+          "id": "bathe",
+          "label": "Bathe with soap",
+          "emoji": "🚿",
+          "correctBin": "morning"
+        },
+        {
+          "id": "wash-eat",
+          "label": "Wash hands before eating",
+          "emoji": "🧼",
+          "correctBin": "meals"
+        },
+        {
+          "id": "brush-night",
+          "label": "Brush teeth (Night)",
+          "emoji": "🌙",
+          "correctBin": "night"
+        }
+      ],
+      "bins": [
+        {
+          "id": "morning",
+          "label": "Morning Routine ☀️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "meals",
+          "label": "Before Meals 🍽️",
+          "color": "#10B981"
+        },
+        {
+          "id": "night",
+          "label": "Before Sleep 🌙",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify_source",
+      "question": "What happens if we do NOT bathe daily with soap?",
+      "answer": "Sweat and dirt cause rashes and boils",
+      "options": [
+        "Sweat and dirt cause rashes and boils",
+        "Nothing happens at all",
+        "We grow taller faster"
+      ],
+      "hint": "Our skin collects sweat and dust every day, especially in warm weather!",
+      "misconception": "Dirty, sweaty skin traps dust and germs, leading to skin problems like rashes, itching, and painful boils! Bathing with soap washes them all away.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Sweat and dirt cause rashes and boils",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Nothing happens at all",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "We grow taller faster",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Sweat and dirt cause rashes and boils",
+          "Nothing happens at all"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_source",
+      "question": "Why should we wear clean clothes every day?",
+      "answer": "Prevents rashes and boils from sweat",
+      "options": [
+        "Prevents rashes and boils from sweat",
+        "To show off new clothes",
+        "Clothes never get dirty"
+      ],
+      "hint": "Clothes absorb our sweat and dust from the air throughout the day!",
+      "misconception": "Dirty clothes absorb sweat and dust. Wearing them for many days breeds germs that cause skin infections, rashes, and itching!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Prevents rashes and boils from sweat",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "To show off new clothes",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Clothes never get dirty",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Prevents rashes and boils from sweat",
+          "To show off new clothes"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_sources",
+      "question": "Drag each action into Clean Habits vs Dirty Habits!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Soap, brushing, and clean nails keep us healthy! Dirt and skipped brushing cause illness!",
+      "misconception": "Clean habits protect our body from germs and illness. Dirty habits like unwashed hands, long dirty nails, and skipping brushing bring germs into our stomach and teeth!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "clean-hands",
+            "label": "Washing hands with soap",
+            "correctBin": "clean"
+          },
+          {
+            "id": "dirty-nails",
+            "label": "Long dirty nails",
+            "correctBin": "dirty"
+          },
+          {
+            "id": "clean-teeth",
+            "label": "Brushing twice daily",
+            "correctBin": "clean"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "clean-hands",
+          "kind": "circle",
+          "label": "Washing hands with soap",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "clean",
+          "interaction": "drag-to-bin",
+          "targetBin": "clean"
+        },
+        {
+          "id": "dirty-nails",
+          "kind": "circle",
+          "label": "Long dirty nails",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "dirty",
+          "interaction": "drag-to-bin",
+          "targetBin": "dirty"
+        },
+        {
+          "id": "clean-teeth",
+          "kind": "circle",
+          "label": "Brushing twice daily",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "clean",
+          "interaction": "drag-to-bin",
+          "targetBin": "clean"
+        },
+        {
+          "id": "dirty-clothes",
+          "kind": "circle",
+          "label": "Sweaty dirty clothes",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "dirty",
+          "interaction": "drag-to-bin",
+          "targetBin": "dirty"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "clean-hands",
+          "label": "Washing hands with soap",
+          "emoji": "🧼",
+          "correctBin": "clean"
+        },
+        {
+          "id": "dirty-nails",
+          "label": "Long dirty nails",
+          "emoji": "💅",
+          "correctBin": "dirty"
+        },
+        {
+          "id": "clean-teeth",
+          "label": "Brushing twice daily",
+          "emoji": "🦷",
+          "correctBin": "clean"
+        },
+        {
+          "id": "dirty-clothes",
+          "label": "Sweaty dirty clothes",
+          "emoji": "👕",
+          "correctBin": "dirty"
+        }
+      ],
+      "bins": [
+        {
+          "id": "clean",
+          "label": "Clean Habits ✅",
+          "color": "#10B981"
+        },
+        {
+          "id": "dirty",
+          "label": "Dirty Habits ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "sort_habits",
+      "question": "Match each hygiene tool to what it helps clean!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Toothbrush is for teeth, soap is for hands and body, towel is for drying!",
+      "misconception": "Every tool has a special job in personal cleanliness! Soap removes germs from hands and skin, a toothbrush cleans teeth, a towel dries us, and a nail clipper keeps nails short.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tool-brush",
+            "label": "Toothbrush",
+            "correctBin": "teeth"
+          },
+          {
+            "id": "tool-soap",
+            "label": "Soap Bar",
+            "correctBin": "hands"
+          },
+          {
+            "id": "tool-clipper",
+            "label": "Nail Clipper",
+            "correctBin": "nails"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tool-brush",
+          "kind": "circle",
+          "label": "Toothbrush",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "teeth",
+          "interaction": "drag-to-bin",
+          "targetBin": "teeth"
+        },
+        {
+          "id": "tool-soap",
+          "kind": "circle",
+          "label": "Soap Bar",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "hands",
+          "interaction": "drag-to-bin",
+          "targetBin": "hands"
+        },
+        {
+          "id": "tool-clipper",
+          "kind": "circle",
+          "label": "Nail Clipper",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "nails",
+          "interaction": "drag-to-bin",
+          "targetBin": "nails"
+        },
+        {
+          "id": "tool-towel",
+          "kind": "circle",
+          "label": "Clean Towel",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "body",
+          "interaction": "drag-to-bin",
+          "targetBin": "body"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tool-brush",
+          "label": "Toothbrush",
+          "emoji": "🦷",
+          "correctBin": "teeth"
+        },
+        {
+          "id": "tool-soap",
+          "label": "Soap Bar",
+          "emoji": "🧼",
+          "correctBin": "hands"
+        },
+        {
+          "id": "tool-clipper",
+          "label": "Nail Clipper",
+          "emoji": "✂️",
+          "correctBin": "nails"
+        },
+        {
+          "id": "tool-towel",
+          "label": "Clean Towel",
+          "emoji": "🧺",
+          "correctBin": "body"
+        }
+      ],
+      "bins": [
+        {
+          "id": "teeth",
+          "label": "Teeth 🦷",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "hands",
+          "label": "Hands 👐",
+          "color": "#10B981"
+        },
+        {
+          "id": "nails",
+          "label": "Nails 💅",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "body",
+          "label": "Body 🚿",
+          "color": "#EC4899"
+        }
+      ]
+    }
+  ],
+  "theme": "city",
+  "storyArc": {
+    "theme": "A nature lover discovers the world around them",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-garden",
+    "title": "Learning Garden",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_evs_010",
+    "region": "Nature Park",
+    "mapX": 0.58,
+    "mapY": 0.27,
+    "icon": "🌿",
+    "prerequisites": []
+  },
+  "subject": "evs"
+}

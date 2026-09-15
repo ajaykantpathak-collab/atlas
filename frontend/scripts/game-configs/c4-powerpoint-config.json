@@ -1,0 +1,43 @@
+{
+  "gameTitle": "PowerPointGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\PowerPointGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\cs\\enrichment\\c4_cs_enrichment_part11.marker",
+    "D:\\cisce\\cs\\enrichment\\c4_cs_enrichment_part12.marker",
+    "D:\\cisce\\cs\\enrichment\\c4_cs_enrichment_part13.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_cs_011 (Introduction to PowerPoint 2016 - interface and creating a presentation), c4_cs_012 (PowerPoint slides - adding slides, layouts, text, and pictures), c4_cs_013 (PowerPoint - saving, opening, and running a slide show)",
+  "mascotName": "Presenter Priya",
+  "mascotDescription": "a friendly presentation expert with a pointer, a slide badge, a microphone, and a clicker. Custom SVG, not an owl.",
+  "sceneDescription": "presentation hall scene with sky gradient, a projector screen showing slides, a podium with a laptop, audience chairs, and slide layout icons on a wall",
+  "svgObjects": [
+    { "name": "SlideIcon", "description": "a single PowerPoint slide" },
+    { "name": "PresentationIcon", "description": "a stack of slides forming a presentation" },
+    { "name": "RibbonIcon", "description": "the PowerPoint Ribbon with tabs" },
+    { "name": "SlidePaneIcon", "description": "the slide pane editing area" },
+    { "name": "TitleSlideIcon", "description": "a title slide layout" },
+    { "name": "LayoutIcon", "description": "slide layout options (Title and Content)" },
+    { "name": "TextBoxIcon", "description": "a text box on a slide" },
+    { "name": "PictureIcon", "description": "a picture/image inserted on a slide" },
+    { "name": "SaveIcon", "description": "a save button (floppy disk)" },
+    { "name": "OpenIcon", "description": "an open file folder icon" },
+    { "name": "SlideShowIcon", "description": "a slide show projector icon" },
+    { "name": "F5KeyIcon", "description": "a keyboard F5 key (start slide show)" },
+    { "name": "EscapeKeyIcon", "description": "a keyboard Escape key (end slide show)" },
+    { "name": "NewSlideIcon", "description": "a New Slide button" }
+  ],
+  "challengeTypes": [
+    "identify: What is Microsoft PowerPoint 2016? (A presentation program for creating slides with text, pictures, and charts vs A word processor for writing letters vs A web browser for searching the Internet)",
+    "sort: Drag each PowerPoint interface part to its correct function (Ribbon: strip at top with tabs like Home, Insert, Design | Slide Pane: central area where you design and edit slides | Notes Area: section for speaker notes not shown on slide | Tabs: organize tools into groups like Home, Insert, Design, Slide Show)",
+    "identify: What is the FIRST slide of a new presentation usually called? (Title slide vs Content slide vs Blank slide)",
+    "sort: Drag the steps to create a new presentation in order (1. Open PowerPoint from Start menu | 2. Click New or Blank Presentation | 3. A title slide appears | 4. Click the title box and type your title | 5. Click the subtitle box and type your name | 6. Click New Slide to add more slides)",
+    "identify: How do you add a NEW SLIDE to a presentation in PowerPoint? (Click New Slide on the Home tab vs Press the Escape key vs Close the presentation)",
+    "sort: Drag each action to its correct description (Add text: click in a text box and type | Add picture: use Insert tab then Pictures | Change layout: select a slide and choose a layout from Home tab | New slide: click New Slide button on Home tab)",
+    "identify: What key do you press to START a slide show from the first slide in PowerPoint? (F5 vs Escape vs Enter)",
+    "sort: Drag each action to its correct description (Save: store the presentation with a file name, adds .pptx extension | Open: bring back a saved presentation to view or edit | Run slide show: press F5 to show slides full screen | End slide show: press Escape to return to editing view | Close: remove file from screen but keep it saved on computer)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Introduction to PowerPoint — PowerPoint 2016 is a presentation program. A presentation is a file made of slides. Each slide is a single screen with text, pictures, charts. Interface: Ribbon (top strip with tabs — Home, Insert, Design, Slide Show), Slide Pane (central editing area), Notes Area (speaker notes, not shown on slide). Start from Start menu. First slide = Title slide. (2) Adding slides, layouts, text, pictures — New Slide button on Home tab adds a slide. Slide layouts: Title Slide, Title and Content, Two Content, Blank. Click in a text box to type text. Insert tab > Pictures to add images. Click placeholder to add content. (3) Saving, opening, running slide show — Save: store file with a name, PowerPoint adds .pptx extension. Save is not the same as Close — save stores the file, close removes it from screen. Open: bring back a saved presentation. Run slide show: press F5 to start from first slide. Slides fill entire screen. Press Escape to end show and return to editing. Escape does NOT close PowerPoint — it only ends the show. Misconceptions: 'saving and closing are the same' (saving STORES the file on the computer, closing REMOVES it from the screen — you must save BEFORE closing or your work is lost), 'pressing Escape closes PowerPoint' (Escape only ENDS the slide show and returns to editing view — it does not close PowerPoint or the file), 'a presentation and a slide are the same' (a presentation is a COLLECTION of slides, a slide is ONE screen within the presentation — like pages in a book), 'the Notes Area is shown to the audience' (Notes are PRIVATE reminders for the speaker — they are NOT shown on the slide during the slide show), 'F5 opens a new presentation' (F5 STARTS the slide show from the first slide — it does not create a new file). Default width=720, height=560. Use named export (export function PowerPointGame), NOT export default. Export interface PowerPointGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

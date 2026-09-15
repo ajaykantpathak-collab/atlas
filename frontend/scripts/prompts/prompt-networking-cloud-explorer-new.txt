@@ -1,0 +1,1127 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete NetworkingCloudExplorerSimulation.tsx component about Networking, LAN, WAN, internet, cloud computing, protocols, viruses, antivirus, cyber ethics, online safety.
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "Simple Explanation (ELI5)", "CS Theory", "Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- misconceptions items: { belief: string; correction: string }
+- diagnosticQuestions items: { number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint? }
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall -> apply -> evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \\frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_cs_019",
+    "title": "Internet safety and online surfing - safe browsing, evaluating websites",
+    "definition": "Internet safety and online surfing means knowing how to move around the World Wide Web without getting hurt, tricked, or robbed of your personal information. When we say safe browsing, we mean opening only those web pages that we can trust, and avoiding anything that looks strange or unknown. A good way to start is to look at the URL, the address that appears at the top of the browser. A trustworthy site usually begins with https, where the 's' stands for secure. This means the messages between your computer and the website are locked, like a letter in a sealed envelope. A safe browser also avoids suspicious links, especially ones that come from unknown people, pop-up windows, or messages that promise free gifts. Instead of typing long addresses again and again, we can use bookmarks to save the addresses of trusted sites, just as we save the addresses of good friends in a diary. Evaluating a website means checking whether what we are reading is reliable. We should look for the author's name and qualifications, the publication or update date, and the domain type. A domain is the last part of the address. .edu and .gov usually stand for educational and government organisations, while .org is used by many non-profit groups. .com is used by businesses and can be safe or unsafe, so it needs extra care. The same rules apply to online communication. Talking to people we know through email or school-approved chat is different from replying to strangers. In Class Five you already learned to protect your name, address, phone number, school, and passwords; now you learn to judge the websites and messages that ask for those details. The aim is to make the internet a safer place where you can learn, communicate, and explore without fear.",
+    "textWalkthrough": "Remember what you studied in node c5_cs_017? You learnt about internet services such as email, search engines, and online shopping. You understood that the internet is like a huge city with many lanes, some busy and safe, some narrow and risky. Now, in c6_cs_019, we take that idea further. You also remember from c5_cs_019 that personal information and passwords are precious, and that a careful child does not share them with strangers. Safe browsing and evaluating websites are simply the next steps in that same habit of caution.\r\n\r\nLet us begin with the first rule of safe browsing: always check the URL before you click. A good learner does not click a link just because it looks colourful. A good answer would be, \"I look for https at the start, and I also check for a small padlock picture near the address box. For example, when I visit https://www.india.gov.in or the website of ISRO, I see https and the padlock, so the page is secure.\" A weak answer would be, \"I click any blue link that Google shows me, because if it is on the internet it must be safe.\" That is not true. Search engines show many pages; some are safe, some are not. The 's' in https tells us that the connection is encrypted, which means your information is scrambled on the way. That is why banking and school portal sites always use https.\r\n\r\nThe second rule is to avoid suspicious or unknown links. You may get a message saying, \"Click here to win a free phone!\" or a pop-up saying, \"Your computer has a virus, click to fix it.\" Good students ignore such links and tell an adult. A strong answer would say, \"I do not open links from people I do not know, and I never download files from pop-up advertisements. I close the window and use a known, trusted site instead.\" A weak answer would be, \"The link has the word 'free', so I click it to see what happens.\" That is dangerous because the site may install malware or ask for your password.\r\n\r\nThe third rule is to use bookmarks for trusted sites. A bookmark is like a saved shortcut. If your teacher tells you to use NCERT's site at https://ncert.nic.in for homework, you can save it as a bookmark. The next time, you do not have to search and risk clicking a fake copy. A good habit is to make a folder in your browser called 'School Work' and put your trusted sites there. A poor habit is to search for the same site every time and click the first result without reading the address.\r\n\r\nNext, we learn to evaluate a website's credibility. Suppose you are doing a project on Indian space missions. You open a site and read that India sent a mission to Mars. How do you know the page is trustworthy? First, look for the author's name and qualifications. A page written by a space scientist from ISRO is more reliable than one with no author. Second, check the publication or update date. Science changes quickly, so a page from 2010 may be out of date. Third, look at the domain type. .edu and .gov, such as https://www.iitb.ac.in or https://www.isro.gov.in, are usually more reliable than a random .com or .net page. However, do not think that .com is always bad. Trusted Indian companies such as Flipkart or Infosys use .com and can be safe; the important thing is to combine all three checks: author, date, and domain. Good students say, \"I check the writer, the date, and the ending of the URL before I trust the information.\" Weak students say, \"Everything on .com is a lie, and everything on .edu is true.\" That is too simple.\r\n\r\nFinally, safe online communication is part of safe browsing. If someone you do not know sends you a friend request or asks for your address in a chat room, the correct answer is to refuse and tell a parent or teacher. Good online communication is like talking to a known friend: you are polite, but you do not share private details. Unsafe communication is like opening the door to a stranger who says he has a gift.\r\n\r\nFor your ICSE Class 6 board exam, expect short-answer and multiple-choice questions. Examiners will watch whether you can explain the meaning of https, give examples of safe browsing, and evaluate a website using author, date, and domain. They will also test whether you can tell the difference between safe and unsafe online communication. Avoid the common mistake of giving only one reason; always give the complete set of checks. Remember, the examiner is not asking you to memorise a definition; the examiner wants to see that you can think like a careful digital citizen.",
+    "eli5": "Safe browsing means walking only on the safe roads of the internet. You check the web address for https and a little lock, you avoid strange links that promise free prizes, and you save trusted sites as bookmarks. You also check who wrote a page, when it was written, and how the address ends. This helps you use the internet without talking to strangers or giving away your secrets.",
+    "misconceptionText": "A very common error is to think that the 's' in https does not matter. CISCE examiners have often noticed that students \"overlooked the first part of the question\" and missed small but important details. In the same way, a child may read a URL and ignore the 's', not realising that http without the 's' is not secure. The correction is to train your eyes to look for https and the padlock before entering any password, name, or address. Another common error is to confuse safe and unsafe links because the words look attractive, just as higher-grade CISCE candidates were \"confused between 'dual' and 'complement'\" because the two terms looked similar. On the web, two addresses can look almost the same, and a small spelling change can lead to a fake site. The correction is to read the whole URL slowly and to ask an adult before clicking a link from an unknown sender. A third error is to believe that every .org or .gov site is always true and that every .com site is always false. Examiners have seen students \"deviating from the intended solution approach\" by jumping to a shortcut that is not always right. A domain is only one clue. The correction is to evaluate all three signs together: the author's credentials, the date, and the domain type.",
+    "diagnosticText": "Q1 (recall): List three rules for safe browsing and explain why each rule keeps you safe on the internet.\r\nAnswer: The first rule is to check the URL for https and a padlock. When a URL begins with https, the information you send is scrambled so that other people cannot read it easily. This keeps your password, name, and school details private. The second rule is to avoid suspicious or unknown links. Links from strangers, pop-up advertisements, and messages that promise unexpected prizes can lead to fake websites or harmful software. By ignoring them, you protect your computer and your personal information. The third rule is to use bookmarks for trusted sites. When you save a safe address, such as your school website or https://ncert.nic.in, you do not need to search for it again and risk clicking a fake copy. These three rules work together to make safe browsing a habit, not an accident.\r\n\r\nQ2 (reasoning): Why is a website whose URL begins with https considered more secure than a website whose URL begins only with http?\r\nAnswer: The letters http stand for HyperText Transfer Protocol, which is the language used to send web pages across the internet. The 's' in https stands for 'secure'. When a website uses https, the data that travels between your browser and the website's server is encrypted. Encryption is like writing a message in a secret code that only the sender and the receiver can understand. If you enter a password or an address on an http site, it is like sending a postcard that anyone can read along the way. On an https site, it is like sending a letter in a locked envelope. Banks, government sites such as https://www.india.gov.in, and trusted school portals use https because they need to keep your information safe. Therefore, checking for https is one of the quickest ways to decide whether a site is secure.\r\n\r\nQ3 (evaluate): A student says, \"Every .org website is always safe and every .com website is always unsafe.\" Is this statement correct? Give reasons for your answer.\r\nAnswer: This statement is not correct. It treats the domain type as the only sign of trust, and that is a mistake. A .org domain is often used by non-profit organisations, schools, and charities, and many of these sites are trustworthy. However, anyone can register a .org name if the rules allow it, and a clever fake site could also end with .org. On the other hand, .com is used by commercial companies, but many respected companies have safe and useful .com sites. For example, a well-known Indian company that sells books or electronics may use .com and still protect your details with https and clear author information. A good answer does not depend on a single clue. To evaluate a website, we must look at three things together: the author's name and qualifications, the date of publication or last update, and the domain type. A site with a .edu or .gov domain may still be out of date or written by an unknown author. A site with a .com domain may still be secure if the company is well known, the page is recent, and the author is clearly shown. Therefore, the statement is too simple and could lead to wrong choices online. In real life, the same website can sometimes move from safe to unsafe if it is not maintained, so a careful student checks all the clues every time. For example, suppose you find a .org page about Indian history written by an anonymous author in 2012. The .org does not make it correct, because the facts may have changed and the writer may not be an expert. Conversely, a .com page about computers written by a recognised Indian technology company in 2024, with https and a named author, is likely to be reliable. That is why the board expects you to think carefully rather than guess from one part of the address. You should combine what the domain tells you with the other two checks to make a safe and sensible decision.\r\n\r\nQ4 (apply): Your teacher asks you to find information about the Indian space programme for a project. You see the following: (a) https://www.isro.gov.in, (b) http://free-space-facts.net, and (c) a link in a pop-up saying, \"Click here for secret ISRO photos!\" Which of these is the safest choice? Justify your answer by checking all the rules you know.\r\nAnswer: The safest choice is option (a), https://www.isro.gov.in. First, the URL begins with https, which means the connection is secure and the information is encrypted. Second, the address ends with .gov.in, which shows that it is an official Government of India website. Third, the site has a clear author because it belongs to ISRO, the Indian Space Research Organisation, whose scientists are known experts. The page is also likely to be updated regularly. Option (b), http://free-space-facts.net, is not safe. It does not have https, the word 'free' is often used to attract visitors to suspicious sites, and the ending .net does not tell us much about the author or the purpose. Option (c) is the most dangerous because it comes from a pop-up and uses words like 'secret' and 'click here' to tempt people. A careful student should close the pop-up, use a bookmark or a trusted search result, and never download anything from an unknown link. This example shows that the best choice comes from combining all the safe browsing rules together.\r\n\r\nQ5 (create): Design a small poster or a set of browser bookmarks for your class to practice safe browsing. What would you include and why?\r\nAnswer: My poster would be titled \"Be a Smart Surfer\" and would show a large padlock next to the words \"Look for https\". Below that, I would draw a big red stop sign over a hand that is about to click a link from a stranger. The poster would also list three questions in bold: \"Who wrote this?\" \"When was it written?\" and \"What is the domain?\" At the bottom, I would write, \"Save trusted sites as bookmarks, and never share your password or address online.\" I would also create a browser folder called \"Class 6 Trusted Sites\" with bookmarks for https://ncert.nic.in for textbooks, https://www.isro.gov.in for science projects, and the official CBSE or school portal. These bookmarks help the class reach the right pages quickly without falling for fake copies. The poster and bookmarks together turn safe browsing into a daily habit, reminding everyone that the internet is a useful tool when we use it with care and good sense.",
+    "cognitiveLevel": "evaluate",
+    "masteryCriteria": "The student must be able to inspect a URL and correctly identify whether a site uses https with a padlock, and explain in their own words why this makes the connection secure. They must be able to evaluate a given website by checking all three credibility clues together — the author's name and qualifications, the publication or update date, and the domain type (.edu, .gov, .org, .com, .net) — and decide whether the site is trustworthy, without relying on a single clue. They must also be able to describe safe online communication habits, such as refusing unknown friend requests, ignoring suspicious pop-ups, and using bookmarks for trusted sites like https://ncert.nic.in or https://www.isro.gov.in.",
+    "subject": "cs",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_cs_002",
+    "title": "Computer languages - machine, assembly, high-level languages",
+    "definition": "A computer language is a set of instructions that a human writes and a machine follows. Because a computer's brain, the CPU, can only understand electrical on-and-off states, the earliest and most raw form of instruction was machine language, which is written entirely in binary code using only 0s and 1s. Each group of bits in machine language matches an operation that the CPU can perform directly, such as adding two numbers or moving a value from one place to another. It is fast for the processor, but almost impossible for a person to read or write accurately.\r\n\r\nAs engineers grew tired of memorising long strings of 0s and 1s, they created assembly language. Assembly language uses short mnemonic codes such as ADD, SUB and MOV instead of pure binary. A mnemonic is simply a human-friendly abbreviation that reminds the programmer of the action. For example, ADD tells the CPU to add two values, MOV tells it to move data from one location to another, and SUB tells it to subtract. Although assembly language is easier for humans than machine language, it is still very close to the hardware and must be translated into machine code before the computer can execute it.\r\n\r\nHigh-level languages came later to make programming even closer to ordinary human speech. Languages such as Java, C, C++ and Python use English-like statements such as \"print\", \"if\", \"while\" and \"for\". These languages are designed to be portable, which means that the same program can often run on many different kinds of computers with little or no change. A high-level program cannot run on a CPU directly; it must be translated into machine language by a translator such as a compiler or an interpreter. The compiler turns the whole program into machine code at once, while the interpreter translates and runs one line at a time. In Indian classrooms, especially in schools following the CISCE pattern, Java and Python are commonly introduced after this foundation because they are high-level languages that let students focus on logic rather than hardware details.\r\n\r\nThe story of these three types of languages is really a story of evolution. Machine language is the oldest and lowest level, assembly language is the middle step that uses mnemonics, and high-level languages are the most modern and human-friendly form. Each step moved programming further away from the physical hardware and closer to the way people naturally think and write.",
+    "textWalkthrough": "Let us begin from the place you already know. In the PREREQ node c5_cs_013, you learned that a program is a set of instructions given to a computer. You also worked with Scratch, where colourful blocks stand for instructions. Those blocks are a simple, human-friendly way to tell the computer what to do. Now imagine that the computer's CPU does not understand pictures or sentences; it only understands electricity. Where there is current, it sees a 1; where there is no current, it sees a 0. This is the world of machine language, and it is the starting point of our journey today.\r\n\r\nPicture a student in Bengaluru's tech district trying to give a command to a processor. If she writes 10110011, the CPU might understand that as \"move this number.\" But one wrong digit and the entire instruction becomes nonsense. Machine language is therefore like talking to the computer in a secret code made only of 0s and 1s. It is fast and direct, but no one wants to write a whole story in a code of zeros and ones.\r\n\r\nNext, imagine the same student using short abbreviations. Instead of writing a long binary string, she writes ADD, or SUB, or MOV. These short forms are called mnemonics. A mnemonic is a memory aid; it reminds you what the instruction does. ADD means add, SUB means subtract, and MOV means move. This is assembly language. It is still close to the hardware, because each mnemonic usually matches one single thing the CPU does, but it is much more readable for a human.\r\n\r\nNow think of a student in a classroom in Delhi writing a program in Python or Java. Instead of 01010101 or MOV, she writes sentences like \"print('Hello, India!')\" or \"int number = 5;\". These high-level languages look almost like English, and they are much easier to learn. But the computer cannot run them directly; it needs a translator. This translator, which can be a compiler or an interpreter, converts the English-like instructions back into the binary that the CPU understands.\r\n\r\nA good example helps to see the difference clearly. A GOOD answer for \"define machine language\" would say, \"Machine language is the only language the CPU understands directly, written in binary 0s and 1s.\" A BAD answer would simply say, \"Machine language is computer language,\" because it does not mention binary or the CPU. A GOOD answer for \"define high-level language\" would include an example such as Python or Java and mention that it needs a translator. A BAD answer would call it \"the language people speak to each other,\" which misses the point of programming.\r\n\r\nWhen you face this topic in the ICSE board exam, examiners expect you to state clearly that machine language is binary, assembly language uses mnemonics, and high-level languages are English-like and portable. They also want you to explain that a high-level program must be translated before it can run. Keep your definitions exact, give one or two examples, and always mention the role of the translator.",
+    "eli5": "Computers only understand beeps of electricity, which we write as 0s and 1s. That is machine language. Then people made short codes like ADD and MOV, so it was a little easier; that is assembly language. Later they made languages that look like English, such as Java and Python; those are high-level languages. A special program called a translator changes English-like code into 0s and 1s so the computer can follow it.",
+    "misconceptionText": "Misconception 1: Many candidates treat all programming languages as the same, saying that Java and Python run directly on the CPU just like machine code. CISCE examiners have repeatedly noted a lack of conceptual clarity in this area, where students give vague answers because they do not separate the levels of machine, assembly and high-level languages. The correction is to remember that high-level languages such as Java and Python cannot run directly; they must be translated by a compiler or interpreter into binary before the CPU can execute them.\r\n\r\nMisconception 2: Some students confuse the short English words in assembly language with the full English sentences of high-level languages, thinking that ADD and MOV are high-level commands. This is like the examiner observation that candidates get confused when options are presented in the form of alphabets or short codes. The correction is that ADD, MOV and SUB are mnemonics used only in assembly language; high-level languages use complete statements such as \"x = a + b\" or \"System.out.println()\".\r\n\r\nMisconception 3: A few students believe that machine language is no longer used because high-level languages are easier. This is not true. Every program, however friendly it looks, finally becomes machine language inside the CPU. The correction is to remember that machine language is the only language the processor actually executes; all other forms must be converted into 0s and 1s.",
+    "diagnosticText": "Q1 (recall): Define machine language, assembly language and high-level language. Give one example for each.\r\nAnswer: Machine language is the lowest-level computer language, written entirely in binary code using only 0s and 1s. It is the only language that the CPU can execute directly. An example of machine language would be a sequence such as 10110011, although exact bit patterns differ from one CPU to another. Assembly language is the next level up; it uses short mnemonic codes such as ADD, SUB and MOV to represent instructions, making it easier for humans to read than pure binary. A short program in assembly might contain lines like \"ADD AX, BX\" or \"MOV CX, 5\". High-level language is the most human-friendly type; it uses English-like statements and is portable across different computers. Java, C, C++ and Python are all high-level languages. A high-level program such as \"print('Hello')\" in Python must be translated by a compiler or interpreter into machine code before the CPU can run it.\r\n\r\nQ2 (reasoning): Why did high-level languages become more popular than machine language and assembly language for writing large programs?\r\nAnswer: High-level languages became more popular because they are closer to the way people think and write. In machine language, a programmer must remember and correctly type long strings of 0s and 1s, which is slow, tedious and full of errors. In assembly language, the use of mnemonics such as ADD, MOV and SUB makes the code more readable, but the programmer still needs to understand the exact details of the CPU and its memory. High-level languages remove most of that hardware detail. A statement such as \"total = price + tax\" in Python or Java is much easier to understand and maintain than an equivalent binary or assembly program. High-level languages are also portable, meaning a program written in Java or Python can often run on a Windows laptop in Mumbai, a Linux server in Delhi, or a Mac in Chennai with very few changes. Because large programs need many people to work together, clear, English-like code saves time and reduces mistakes.\r\n\r\nQ3 (evaluate): A student says, \"Machine language is too difficult for humans, so we should stop using it completely and teach only high-level languages like Java and Python.\" Do you agree or disagree? Give a balanced argument.\r\nAnswer: This statement is only partly correct. It is true that machine language is extremely difficult for humans to read and write. A program in machine language is just a sea of 0s and 1s, and one wrong bit can make the program fail. For this reason, human programmers almost never write large programs directly in machine language, and schools and colleges rightly teach high-level languages such as Java and Python first. However, saying that we should stop using machine language completely ignores an important fact: the CPU still needs machine language to do anything at all. Every high-level instruction, every Python print statement and every Java method call, must eventually be turned into binary 0s and 1s before the processor can execute it. Machine language is therefore the final, necessary form of every program. It is not replaced by high-level languages; it is hidden beneath them. So the best conclusion is that for human learning and large software development, high-level languages are the right choice, but machine language remains the foundation that makes the computer work. We do not need to write it by hand, but we do need to understand that it exists.\r\n\r\nQ4 (apply): Look at the following statements and identify each as machine language, assembly language or high-level language. Explain your choice.\r\n(a) 10110101 00110011\r\n(b) ADD AX, 5\r\n(c) System.out.println(\"Good morning\");\r\nAnswer: Statement (a), \"10110101 00110011\", is machine language because it is written in binary, using only 0s and 1s. The CPU can understand such a pattern directly, though humans find it hard to read. Statement (b), \"ADD AX, 5\", is assembly language because it uses a mnemonic, ADD, which stands for addition, and a register name AX. Assembly language is more readable than binary but still very close to the hardware. Statement (c), \"System.out.println(\"Good morning\");\", is high-level language because it is written in Java, which uses English-like words. It is easy for a person to read, but it cannot run on a CPU directly; it must be translated into machine code by the Java compiler.\r\n\r\nQ5 (create): Imagine you are designing a new computer for a school in Kolkata. The school wants students to learn programming step by step. Suggest a sequence of three mini-lessons that introduces machine language, assembly language and high-level language, and explain why you chose that order.\r\nAnswer: Lesson 1 should introduce machine language using a simple binary activity. Each student could be given a strip of paper with 0s and 1s and asked to turn a light on (1) or off (0). This will show that the CPU is a very simple machine that only understands two states, and it will help students feel why binary is hard for people. Lesson 2 should move to assembly language by replacing the binary strips with short mnemonic cards such as ADD, SUB and MOV. Students will see that short codes are easier to remember, but they still have to think about each small CPU action. Lesson 3 should introduce a high-level language such as Python or Java, where students can write \"print('Welcome to Kolkata!')\" and see the result. This order is important because it follows the historical and logical progression from the computer's native language to the most human-friendly one. It also shows that each new language was invented to make the programmer's life easier while the computer still needs binary underneath.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "The student must be able to clearly distinguish between machine language, assembly language and high-level language by naming the defining feature of each: binary 0s and 1s for machine language, mnemonic codes such as ADD, SUB and MOV for assembly language, and English-like portable statements such as print or System.out.println for high-level languages. The student must be able to classify a given snippet of code as belonging to one of these three levels and explain why, citing the presence of binary, mnemonics or English-like syntax. The student must also be able to state that high-level and assembly programs cannot run on the CPU directly and must be translated into machine code by a compiler or interpreter before execution.",
+    "subject": "cs",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_cs_020",
+    "title": "Social media and online communication - chat, forums, video calls",
+    "definition": "Social media and online communication are the ways people connect, share ideas and interact over the internet in real time or over time. They turn the internet from a quiet library of information into a lively public meeting place where conversations can happen instantly. The three main forms covered in this node are chat, forums and video calls.\r\n\r\nChat, also called instant messaging, is the electronic exchange of short text messages between two or more people. When you type a message and press send, it reaches the other person almost immediately, which is why it is called instant. Apps and websites such as WhatsApp, Google Chat and Telegram are common in India. A chat can be one-to-one, like asking your friend about homework, or it can be a group chat, such as a class group for a school project. Because chat is fast and informal, people often use abbreviations and emojis, but the same respect one shows in a face-to-face conversation should still be shown.\r\n\r\nA forum, also called a discussion board, is a space where many people can start, read and reply to conversations about a shared topic. Unlike chat, which is usually a quick back-and-forth, a forum post can stay visible for days, months or even years. Someone asks a question, and others can answer whenever they have time. Websites such as Stack Overflow for programmers and school discussion portals work like forums. A forum is useful when the same question may help many people in the future. For example, a student in Delhi may post a question about a science project, and another student in Chennai may read the answer months later.\r\n\r\nA video call is a real-time audio-visual conversation between people at different places. It combines sound and moving pictures so that the speakers can see and hear each other. Video calls are widely used in Indian homes for family chats across cities and countries. Tools such as Google Meet, Zoom and Microsoft Teams allow people to talk, show work and share screens. A video call feels like a face-to-face meeting because the participants can see each other's expressions, which makes it better than a phone call for some important conversations.\r\n\r\nNetiquette is a blend of the words network and etiquette; it means good manners on the internet. It includes being polite, not writing whole messages in capital letters because that looks like shouting, respecting other people's privacy, not forwarding personal messages or photos without permission and thinking carefully before posting anything. Netiquette keeps online communication friendly, safe and useful for everyone.\r\n\r\nSocial media also carries risks. Cyberbullying is the use of online platforms to tease, threaten or hurt someone repeatedly. Privacy loss happens when people share too much personal information such as phone numbers, addresses or photographs. Oversharing is telling the world more than is safe or necessary. To stay safe, users should adjust privacy settings, think before posting, avoid sharing passwords and personal details, block anyone who troubles them and report harmful behaviour to a trusted adult or the platform.\r\n\r\nOnline communication is therefore powerful, useful and enjoyable when used with good netiquette and careful safety habits.",
+    "textWalkthrough": "Let us begin by remembering where you are coming from. In the previous depth prerequisite, node c5_cs_017, you studied the internet as a collection of useful services such as email, search engines, online shopping, e-learning and cloud storage. You saw the internet mainly as a tool for sending messages, finding information, buying things and storing files. That gave you the foundation you need now, because today you are moving from using services to taking part in live social interaction on the internet.\r\n\r\nNode c6_cs_019 is the immediate prerequisite you have just completed. There, you learnt safe browsing and how to judge whether a website is trustworthy. That was important because everything in this node happens when you open a platform and begin talking to other people. You cannot practise good online communication unless you already know how to protect your personal information and how to spot a risky site. Keep that knowledge ready as we go forward.\r\n\r\nLet us look at the first form of online communication: chat. Imagine you want to ask a classmate a quick question after school. You could send an email, but an email feels formal and slow. You could make a phone call, but that may disturb the other person. Chat sits between these two. It is informal like speech, yet it leaves a written record like email. A good example in an exam would be: \"Chat is used for instant, short text messages between two or more people, such as a student in Mumbai sending a homework doubt to a friend in Kolkata.\" A weak answer would say, \"Chat is talking to friends,\" because that does not mention the internet, the text or the instant nature.\r\n\r\nNext, think about a forum. Unlike a chat, which disappears as the conversation moves on, a forum keeps its conversations organised by topic and makes them searchable. A good answer would be: \"A forum is an online discussion board where many people post and reply to messages about a shared topic, such as students from different schools discussing the ICSE syllabus.\" A weak answer would confuse it with chat, saying, \"You message people quickly,\" which ignores the public, organised and long-lasting nature of a forum.\r\n\r\nNow consider a video call. This is the closest the internet comes to a face-to-face meeting. It adds pictures to the sound, so you can see the other person. A strong answer would be: \"A video call is a real-time audio-visual conversation, such as a teacher in Bengaluru using Google Meet to explain a topic to a student in Hyderabad.\" A weak answer would be, \"You call on the phone,\" because that leaves out the video part and the internet.\r\n\r\nNetiquette is the set of good manners for the internet. Examiners have noticed that when students are asked for definitions and examples, some give only the example without the definition, or only the definition without an example. So always write both. For instance, write, \"Netiquette means good online behaviour. One rule is to avoid typing in all capital letters because it looks like shouting.\" Also remember to be polite, respect privacy, and never share someone else's photo or information without permission.\r\n\r\nLet us also talk about the risks and how to avoid them. Cyberbullying is mean or harmful behaviour that happens online and can make a person feel unsafe. Privacy loss occurs when you share too much about yourself or about others. Oversharing is posting details such as your address, phone number or current location, or posting pictures you may later regret. The protective measures are simple but powerful: set your privacy settings, think before you post, block bullies and report serious problems to parents, teachers or the platform.\r\n\r\nIn the ICSE board exam, you can expect short-answer questions asking you to distinguish chat, forum and video call, to state netiquette rules, or to list risks and protective measures. Examiners reward clear, complete answers with real examples. They penalise vague answers and answers that leave out either the meaning or the example. Use the points from this node with confidence and you will write strong answers.",
+    "eli5": "Online communication is like talking to people far away through a screen. Chat is quick texting, a forum is a notice board where many people write, and a video call lets you see and hear someone. You should be polite, keep secrets safe and never be mean online.",
+    "misconceptionText": "1. Writing a complete message in capital letters shows excitement or emphasis. CISCE examiners have regularly observed that students confuse the meaning of ALL CAPS in online communication. Some think it is just emphasis, but in netiquette, ALL CAPS reads as shouting. Correction: Use capital letters only for the occasional word, not whole sentences, so that you do not seem rude or aggressive.\r\n\r\n2. A forum is the same as a chat group. CISCE examiner observations note that students often give definitions without enough supporting detail, or give examples without definitions, which makes answers vague. Correction: A chat is fast and private or semi-private; a forum is a public or topic-based board where messages stay organised and can be read later by many people. Always write both the definition and an example.\r\n\r\n3. Sharing a funny photo of a friend is harmless fun. This is a common real-world error. Correction: Sharing someone else's photo or information without permission is a privacy breach and can hurt others. Always ask first and respect the privacy of others.",
+    "diagnosticText": "Q1 (recall): What are the three forms of online communication described in this node? Give one example of each.\r\nAnswer: The three forms of online communication are chat, forum and video call. Chat, also called instant messaging, is the real-time exchange of short text messages. An example is a student in Pune using WhatsApp to ask a friend in Nagpur a quick question about homework. A forum, also called a discussion board, is a place where many people post and reply to messages about a common topic. An example is an online school portal where students from different cities discuss an ICSE Computer Science project. A video call is a real-time audio-visual conversation between people at different places. An example is a teacher in Bengaluru using Google Meet to explain a lesson to a student in Chennai. The key difference is that chat is instant text, a forum is organised and long-lasting, and a video call shows and hears the speakers.\r\n\r\nQ2 (reasoning): Why is it important to follow netiquette rules when using social media and online communication?\r\nAnswer: Netiquette is a set of good manners for online communication. Following netiquette keeps conversations polite, clear and safe. For example, avoiding all capital letters prevents a message from seeming like shouting, which could hurt or annoy the reader. Being polite and respectful helps everyone feel comfortable, even when people disagree. Respecting privacy means not sharing someone else's photos or personal information without permission, which protects their safety and trust. If everyone follows netiquette, online communication becomes a useful and friendly space for learning and sharing. Without it, misunderstandings can grow, and online spaces can become unpleasant or unsafe. Therefore, netiquette is not just politeness; it is the foundation of responsible online citizenship.\r\n\r\nQ3 (evaluate): \"Posting anything on social media is fine because only your friends will see it.\" Do you agree with this statement? Give reasons for your answer.\r\nAnswer: I do not fully agree with the statement. While it may seem that only friends see a post, the truth is more complicated. First, privacy settings may not work perfectly, and screenshots can be saved and shared by others. Second, a post can be forwarded, copied or seen by people outside the intended group. Third, once something is online, it can stay there for a long time, even if the original post is deleted. Oversharing personal details such as an address, phone number or location can lead to privacy loss. A mean post or an embarrassing photo can also become a tool for cyberbullying. On the other hand, the statement does contain one useful idea: social media is meant to connect with friends. If a user has strong privacy settings, shares carefully and thinks before posting, the risk is lower. However, the belief that \"only friends will see it\" can make people careless. Therefore, the statement is too simple and can be dangerous. A safer rule is: think before you post, keep privacy settings strong, and never share anything you would not want a teacher, parent or future employer to see.\r\n\r\nQ4 (apply): Your classmate shares a rumour about another student in a class chat group. What steps would you take to handle this situation using the protective measures you have learned?\r\nAnswer: The first step is to stop and think before reacting. I would not forward the rumour to anyone else, because that would spread unkind and possibly false information. Next, I would remind the classmate privately, if possible, that sharing rumours can hurt someone and may even be a form of cyberbullying. I would ask them to stop and, if they already posted the message, to delete it and apologise. I would also not take screenshots and share them further, because that would make the problem bigger. If the rumour continues or becomes serious, I would use the protective measure of reporting it. In a school chat, that could mean telling a teacher or a parent. In a social media app, I can use the report option and also block the sender if they keep sending harmful messages. Adjusting privacy settings can also help, such as leaving a group where bullying happens or changing who can message me. Finally, I would think before posting anything myself and support the student who is being talked about. These steps protect the victim, the group and my own online safety.\r\n\r\nQ5 (create): Design a short \"Netiquette Pledge\" for a Class 6 Computer Science classroom. Include at least three rules and explain why each one matters.\r\nAnswer: Here is a Netiquette Pledge for a Class 6 Computer Science classroom:\r\n\r\n\"We, the students of Class 6, promise to use online communication in a safe and respectful way.\r\n\r\nRule 1: We will be polite and respectful in every message.\r\nThis matters because online words can still hurt feelings, and kindness keeps the classroom community strong.\r\n\r\nRule 2: We will not type in ALL CAPITAL LETTERS.\r\nThis matters because writing in all capitals looks like shouting and can make a message feel angry or rude.\r\n\r\nRule 3: We will respect privacy by not sharing others' photos, phone numbers or personal information without permission.\r\nThis matters because everyone has a right to privacy, and sharing personal details can put people in danger.\r\n\r\nRule 4: We will think before we post and avoid oversharing.\r\nThis matters because once something is online, it can be copied and stay there for a long time.\r\n\r\nRule 5: If we see cyberbullying, we will block the person, report the problem to a teacher or parent and support the person being bullied.\r\nThis matters because staying silent can let harm continue, but reporting can stop it and keep everyone safe.\r\n\r\nWe sign this pledge to make our online classroom a friendly and secure place for everyone.\"\r\n\r\nThis pledge covers netiquette, privacy and protective measures from the syllabus, and it can be displayed in the computer lab to remind students every day.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "The student must be able to clearly distinguish between chat, forum and video call by stating what each one is, how it works and giving one real example for each, without confusing their features. The student must be able to state at least three netiquette rules and explain why each matters, and must be able to list the main online risks (cyberbullying, privacy loss, oversharing) along with the matching protective measures (privacy settings, blocking, reporting, thinking before posting). The student must also be able to apply these ideas to a real situation, such as deciding what to do when a rumour is shared in a class chat group.",
+    "subject": "cs",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_cs_026",
+    "title": "Networking concepts and protocols - LAN, WAN, and data transfer",
+    "definition": "A computer network is a group of computers and other devices that are connected together so that they can share information and resources. In Class 4, you were introduced to the basic vocabulary of networks and the Internet: terms such as ISP (Internet Service Provider), WWW (World Wide Web), URL (the address of a web page), and HTTP (the protocol that fetches web pages). In this Class 6 topic, we move from simply knowing the words to understanding how networks are organised, how data actually travels from one place to another, and what special equipment and rules make that travel possible. The first idea to master is that networks are classified by how large an area they cover. A LAN, or Local Area Network, is a network that spans a small area such as a home, a school computer lab, or a single office building. For example, the computers in a KVS or DPS school lab that share one printer and one internet connection form a LAN. Because the area is small, a LAN is usually fast, cheap to set up, and controlled by the people who own the building. A WAN, or Wide Area Network, covers a much larger geographical area, such as a city, a state, a country, or even several countries. The Internet is the largest example of a WAN. The connection between a bank branch in New Delhi and its head office in Mumbai, or between a school in Bengaluru and a sister school in London, would be part of a WAN. WANs often use leased telephone lines, fibre-optic cables, or satellite links, and they are slower and more expensive per bit than LANs because of the distance involved. A WLAN, or Wireless Local Area Network, is a special kind of LAN that does not use cables. It uses radio waves, which is what most people call Wi-Fi. The laptops and phones in your school connected to a wireless access point are on a WLAN. All these networks move data, but data does not travel as one huge lump. Instead, it is broken into small pieces called packets. If you send a photograph to a friend, your computer splits the image into many packets, each one labelled with the sender's address, the receiver's address, and its place in the original message. These packets can take different paths through the network and are put back together at the destination. If one packet is lost, only that packet needs to be resent, not the whole file. This makes the system efficient and reliable. The speed at which data can be moved is called bandwidth. Bandwidth is measured in bits per second (bps), kilobits per second (Kbps), or megabits per second (Mbps). A higher bandwidth means more data can travel in the same amount of time, just as a wider pipe can carry more water. If your home connection is 10 Mbps and your friend's is 50 Mbps, your friend's connection can transfer files faster, although the actual speed also depends on how busy the network is and how strong the signal is. For data to travel correctly, every device must follow a set of rules called a protocol. A protocol is like a language and a set of manners for computers. HTTP, or Hypertext Transfer Protocol, is used to request and receive web pages. When you type a URL into a browser, the browser sends an HTTP request to a web server and the server sends back the page, which may include HTML, CSS, and JavaScript. FTP, or File Transfer Protocol, is used to upload or download files between computers, especially between a client and a server. Web developers often use FTP to move website files from their own computer to a web server. SMTP, or Simple Mail Transfer Protocol, is the protocol used to send email from one server to another. When you click \"send\" in an email program, SMTP carries the message from your outgoing mail server to the recipient's mail server. Several devices make these networks work. A router connects different networks together and decides the best path for packets to take. It is like a traffic director or a post office that reads the address on a packet and sends it toward the right city. A switch connects devices within the same LAN and uses the MAC address of each device to send data only to the correct recipient, not to everyone. A modem connects your home or school network to the Internet through your ISP. The name \"modem\" comes from modulate-demodulate, because it converts digital signals from your computer into the analogue signals used on telephone or cable lines, and back again. Without these devices and protocols, the web pages you create with HTML would have no way to reach anyone else.",
+    "textWalkthrough": "Let us begin by remembering what you already know. In the earlier Class 6 node c6_cs_015, you learned HTML, the language used to create web pages. You made headings, paragraphs, lists, and links. Now imagine you have finished your beautiful HTML page and you want your cousin in Chennai, or your friend in another city, to see it. How does your page actually get from your computer to theirs? That is exactly the question this node answers: how the content you create is carried across networks and delivered to another screen. Think of the HTML page as a letter and the network as the postal system. Just as a letter needs an address, an envelope, sorting offices, delivery vans, and postmen who know the rules, your data needs network addresses, packets, devices, and protocols.\r\n\r\nFirst, we need to know how far the message must travel. If your computer and your friend's computer are in the same room, the same school lab, or the same building, they are part of a LAN, a Local Area Network. A LAN is small, fast, and usually owned by one organisation. A good answer about a LAN would say, \"It connects computers within a small area such as a building or a campus, for example the computer lab of a school.\" A weak answer would only say, \"It is a network,\" because that does not show the size or the purpose. If your friend is in another city, however, your message must cross a WAN, a Wide Area Network. The Internet itself is the biggest WAN. A WAN connects distant places and is usually slower and more expensive than a LAN because the signals must travel through many routers, switches, telephone exchanges, and sometimes undersea cables or satellites. A strong answer would give a real example, such as the connection between a branch office in New Delhi and a head office in Mumbai. A poor answer would just say, \"WAN is bigger,\" without explaining what makes it bigger or why that matters.\r\n\r\nNow, some places do not want cables everywhere. In a school library, a coffee shop, or an airport lounge, you often connect to a WLAN, a Wireless Local Area Network. It is a LAN that uses radio waves instead of wires, and most people simply call it Wi-Fi. It is important to remember that a WLAN is a type of LAN, not a type of WAN. A common mistake is to think that \"wireless\" means it covers a long distance. It does not. It only means that the last few metres, from the access point to your laptop, are wireless. The link from the access point to the rest of the Internet may still travel through many wired networks.\r\n\r\nNext, let us look at how the data moves. When you send a photograph or a long HTML page, the computer does not send it as one enormous piece. It is chopped into smaller pieces called packets. Each packet has a header, a bit like the address on an envelope, which tells the network where the packet came from, where it is going, and where it fits in the original message. This is a very clever system. If one packet is lost in a busy network, only that packet needs to be resent, not the whole file. A good answer would compare packets to parcels or jigsaw pieces, explaining that many small pieces are easier to handle than one giant piece. A weak answer would just say, \"Packets are small pieces of data,\" without saying why they are useful.\r\n\r\nThe speed at which these packets move is called bandwidth. Bandwidth is the data transfer rate, and it is measured in bits per second (bps), kilobits per second (Kbps), or megabits per second (Mbps). Think of bandwidth as the width of a water pipe. A wider pipe can carry more water at the same time; a higher bandwidth can carry more data at the same time. A 100 Mbps connection can carry more packets at once than a 10 Mbps connection. However, bandwidth is not the same as download speed. If many people in your house are watching videos at the same time, your 50 Mbps connection may feel slow because the bandwidth is being shared. A strong answer explains that bandwidth is a capacity, like a maximum, not a guarantee.\r\n\r\nPackets cannot move in chaos. They need rules. A protocol is a set of rules that devices follow when they communicate. The syllabus gives us three simple but important protocols. HTTP, the Hypertext Transfer Protocol, is used to transfer web pages. When you type a URL or click a link, your browser sends an HTTP request and the web server replies with the page. FTP, the File Transfer Protocol, is used to move files between computers, such as uploading a file to a web server. SMTP, the Simple Mail Transfer Protocol, is used to send email. A good student will remember the three by their purpose: HTTP for web pages, FTP for files, SMTP for email. A weak answer confuses them and might say, \"HTTP sends email.\"\r\n\r\nFinally, the devices. A router is the device that connects different networks and chooses the best route for packets. If a packet is travelling from a school in Bengaluru to a school in Delhi, many routers along the way read the packet's address and decide the next hop. A switch connects devices within the same LAN and sends each message only to the intended device, not to everyone. This is efficient and more secure than broadcasting to the whole network. A modem is the device that connects your local network to the Internet through your ISP, the Internet Service Provider. It converts the signals so they can travel on the telephone or cable lines your ISP uses. A strong answer would compare a router to a traffic director, a switch to a sorting clerk inside one building, and a modem to the door that connects your house to the outside world. A weak answer would simply list the words without explaining what each one does.\r\n\r\nWhat should you expect in the ICSE or school exam? Examiners want to see that you understand the difference between LAN, WAN, and WLAN, that you can explain packets and bandwidth clearly, that you know the three protocols and their uses, and that you can identify the roles of the router, switch, and modem. The CISCE examiner comments remind us that vague definitions lose marks, and that students who write only examples or only definitions often score less than those who give both. Therefore, when you answer, always define the term and then give a short, accurate example. Do not confuse network types by size, do not muddle the protocols, and do not forget that a modem connects to the ISP while a router connects networks. Keep your answers neat, and always include the keywords from the syllabus.",
+    "eli5": "Imagine you want to send a drawing to a friend. A LAN is like passing it to someone in the same room. A WAN is like posting it to a faraway city. A WLAN is like Wi-Fi at home. The drawing is cut into tiny puzzle pieces called packets, and the speed it travels is called bandwidth. There are special rules: HTTP for web pages, FTP for files, and SMTP for email. Devices like routers, switches, and modems help the pieces find their way.",
+    "misconceptionText": "Misconception 1: Many students write a vague definition of a network or give only the full form of LAN/WAN without saying how the size of the area differs. This matches the CISCE examiner observation that \"Some candidates wrote a vague definition\" and that students often write \"only the examples without the definition\" or \"the definition without examples.\" The correction is to define each network type by the area it covers and give one real example, such as a school lab for a LAN and the Internet for a WAN.\r\n\r\nMisconception 2: Some students confuse the three protocols. For example, they say SMTP is for web pages or that FTP sends email. This is similar to the examiner comment that candidates were confused by \"nearly identical options\" and mixed up concepts. The correction is to remember the three by their first letters and what they carry: HTTP for Hypertext (web pages), FTP for Files, and SMTP for Mail.\r\n\r\nMisconception 3: Students sometimes think that a router and a modem do the same job, or they say that a switch connects different networks. The correction is to remember their distinct roles. A modem connects your home to the ISP, a router connects different networks and chooses routes, and a switch connects devices within one LAN.",
+    "diagnosticText": "Q1 (recall): Define a LAN and give one example from an Indian school setting.\r\nAnswer: A LAN, or Local Area Network, is a network that connects computers and other devices within a small geographical area such as a single building, a school campus, or a home. It is usually owned and managed by the same organisation that uses it, and it provides fast and inexpensive communication because all the devices are close together. A good example from an Indian school setting is the computer laboratory of a Kendriya Vidyalaya or a private school in a city such as Bengaluru or Pune, where all the desktops are connected by cables or by Wi-Fi so that the students can share files, use the same printer, and access the Internet from a common connection. Because the lab is in one room or one building, the signal does not have to travel far, so the cost is low and the speed is high. The devices in a LAN are usually connected through a switch, and the whole LAN may be connected to the Internet through a router and a modem.\r\n\r\nQ2 (reasoning): A school has a computer lab in one building and an office in another building three kilometres away. Both are connected to the same network. Is this a LAN or a WAN? Explain your answer.\r\nAnswer: This is a WAN, or Wide Area Network, because the network connects two places that are several kilometres apart. A LAN, or Local Area Network, is limited to a small area such as one room, one building, or one campus. Once a network has to cross roads, different buildings, or large distances, it becomes a WAN. In this case, the school lab and the office are in different buildings separated by three kilometres, so the connection would need special links such as fibre-optic cables, leased telephone lines, or wireless towers to carry the signals over that distance. A WAN is usually slower and more expensive than a LAN because the data has to travel through many routers, switches, and transmission lines. It is also usually managed partly by an Internet Service Provider (ISP). If the two buildings were next to each other on the same campus and connected by a single cable, it might still be a LAN, but three kilometres is too far for a LAN.\r\n\r\nQ3 (evaluate): A student says, \"A higher bandwidth always means a faster Internet experience.\" Do you agree with this statement? Give reasons for your answer.\r\nAnswer: This statement is partly true but not completely correct, so it should be evaluated carefully. It is true that bandwidth measures the maximum amount of data that can be transferred in a given time, and a higher bandwidth means that more data can travel through the connection at once. For example, a 100 Mbps connection can carry more data than a 10 Mbps connection, so it is able to stream high-quality video, download large files, and support many users at the same time more easily. If only one person is using the connection and the server is close and not busy, a higher bandwidth usually does give a faster experience.\r\nHowever, there are many other factors that affect how fast the Internet actually feels. First, the total bandwidth may be shared among many users. If a family of five is all watching videos, a 50 Mbps connection may feel slow because each person is using part of the bandwidth. Second, the speed of the website or service you are using also matters. If the web server in another country is busy or far away, even a high-bandwidth connection cannot make the data arrive faster because the delay, called latency, is high. Third, the device, the Wi-Fi signal strength, the quality of the router, and the number of walls between the device and the access point all affect the actual speed. Therefore, a higher bandwidth is helpful, but it is not a guarantee of a faster experience in every situation. It is best to think of bandwidth as the width of a road: a wider road can carry more cars, but if there is traffic, bad weather, or a slow driver, the journey can still take time.\r\n\r\nQ4 (apply): You want to send a large presentation file from your computer in New Delhi to your teacher's computer in Mumbai. Explain how packets, a router, and a protocol would each play a role in this transfer.\r\nAnswer: When you send a large presentation file from New Delhi to Mumbai, the first thing your computer does is break the file into smaller pieces called packets. Each packet is given a header that contains important information such as your computer's address, your teacher's computer's address, and the position of the packet in the original file. This is useful because the packets can travel by different routes through the network, and if one packet is lost, only that packet needs to be resent instead of the whole presentation. Next, a protocol is needed so that the two computers can understand each other. If you are using email to send the file, the message may be sent using SMTP, while the file attachment may be uploaded or downloaded using FTP. If you are sharing the file through a cloud link, HTTP or HTTPS may be used to open and download the file. Finally, the packets must find their way from New Delhi to Mumbai. A router is the device that reads the address on each packet and decides the best next step. There may be many routers between your city and your teacher's city, each one passing the packet closer to its destination. When the packets arrive in Mumbai, they are reassembled into the original presentation file on your teacher's computer.\r\n\r\nQ5 (create): Design a small network for your school. Name the network type, the devices you would use, and the protocol a teacher would use to open the school's website from home.\r\nAnswer: For my school, I would design a WLAN, or Wireless Local Area Network, because it is a LAN that allows students and teachers to connect laptops and phones without cables, which is useful in classrooms, the library, and the staff room. The WLAN would use a wireless access point or a Wi-Fi router to send and receive radio signals within the school building. Inside the building, a switch would connect the desktop computers, the printer, and the access points so that data is sent only to the correct device. A router would connect the school network to the Internet, and a modem would connect the router to the ISP so that the school can access the World Wide Web. If a teacher is at home and wants to open the school's website, they would type the URL of the website into a browser. The browser would then use HTTP, the Hypertext Transfer Protocol, to request the web page from the school's web server. The server would send the HTML, CSS, and any images back to the teacher's browser using the same protocol, and the page would appear on the screen. If the teacher wants to send a file to the school, they might use FTP, and if they want to send an email, they would use SMTP.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "The student must be able to define LAN, WAN, and WLAN by the geographical area they cover and give one accurate Indian-context example for each, such as a school computer lab for a LAN and the Internet for a WAN. The student must also be able to explain packet-based data transfer, state the unit of bandwidth (bps, Kbps, Mbps), and correctly match the three protocols (HTTP, FTP, SMTP) to their purposes, while distinguishing the roles of a router, a switch, and a modem. Finally, the student must be able to apply these ideas to a simple real situation, such as describing how a file travels from one city to another using packets, a protocol, and a router.",
+    "subject": "cs",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c7_cs_010",
+    "title": "Internet advantages and disadvantages",
+    "definition": "The Internet is a global network of interconnected computers that allows people to share and access information, communicate with one another, enjoy entertainment, and use a wide range of online services. When we study the advantages and disadvantages of the Internet, we are not simply listing what it can do; we are learning to judge its effects on daily life, education, work, and society. On the positive side, the Internet acts like a vast digital library, giving students and adults instant access to information and educational resources. A student in Kolkata can read articles, watch tutorials, and download notes on any subject without visiting a physical library. Communication is another major advantage. Through email, social media, and instant messaging, people can talk to relatives, teachers, or friends across the world almost instantly. A student in Mumbai can email a project to a teacher in Delhi within seconds. Entertainment has also changed because of the Internet. Streaming services and online games provide music, movies, and interactive play at home. Finally, online services such as shopping and banking have made life more convenient. People can buy books, clothes, or groceries from websites and pay for them through net banking or digital wallets. However, the Internet also has serious disadvantages. Internet addiction and excessive screen time can harm health, reduce physical activity, and affect school performance. Privacy loss is another risk because websites and apps collect personal data such as names, addresses, locations, and browsing habits. For example, when a user clicks \"accept all cookies\" without reading, the site may track which pages are visited and show targeted advertisements. Cybercrime includes hacking, online fraud, phishing, and identity theft. Criminals may send fake emails pretending to be banks to steal passwords or money. Another disadvantage is exposure to inappropriate content, which can be disturbing or misleading for young users. The CISCE syllabus asks Class 7 students to understand these benefits and risks, to list at least three advantages and three disadvantages, and to explain at least one disadvantage with specific examples such as privacy loss through personal data collection.",
+    "textWalkthrough": "Let us begin by remembering what you already know from your earlier work. In the previous Class 6 node on internet safety and online surfing — the DEPTH_PREREQ c6_cs_019 — you learned how to browse safely, how to judge whether a website is trustworthy, and how to communicate politely and responsibly online. You also explored social media and online communication in node c6_cs_020, which is the direct PREREQ for this topic. That experience matters because you cannot truly judge the advantages and disadvantages of the Internet until you have actually used it to communicate, search for information, and recognise safe from unsafe websites. Think of this step as moving from \"how do I use the Internet carefully?\" to \"how do I decide whether the Internet is helpful or harmful in different situations?\"\r\n\r\nFirst, consider the benefit of information access. The Internet holds an enormous amount of knowledge on websites, blogs, educational portals, and digital libraries. Suppose you are asked to write about the festivals of India. A good answer would say that you can visit websites such as NCERT or educational portals, read articles, and watch short videos without travelling anywhere. A weak answer would simply say, \"I can find anything on Google,\" because it gives no example and shows no understanding of how the information is useful. So a strong response always includes a clear purpose and a real example.\r\n\r\nNext, think about communication. You already know from c6_cs_020 that the Internet lets people use email, WhatsApp, and social media. Now we look at it critically. A good example would be: \"A student in Chennai can send an email with an attached project to a teacher in Bengaluru in a few seconds.\" This is an advantage because it is fast, cheap, and connects people across long distances. A bad example would be: \"The Internet helps us talk,\" because it is too vague and does not show why this matters. Always name the tool and the people involved.\r\n\r\nThe third advantage is entertainment. Streaming music on apps and watching videos or playing online games can be enjoyable and sometimes educational. A strong answer mentions a specific kind of entertainment, such as learning science through an animated YouTube channel or using a quiz app. A weaker answer just says, \"We can watch movies,\" which is true but does not explain the educational or social value.\r\n\r\nNow we turn to the disadvantages, which are just as important. Internet addiction means spending so much time online that it affects sleep, studies, exercise, and face-to-face relationships. A good example compares it to eating too much junk food — both feel enjoyable at first but cause harm when done too often. Excessive screen time can lead to headaches, poor posture, and reduced concentration. A weak answer might say, \"The Internet is bad,\" which is an opinion without evidence.\r\n\r\nPrivacy loss is the next disadvantage, and it deserves a careful explanation. Websites and apps often collect personal data such as your name, age, location, interests, and browsing history. When you sign up for a game or a social network, the app may ask for permission to access your contacts or location. If you agree without thinking, the company can use that data to show advertisements or even share it with others. A strong student answer uses a concrete example: \"If a shopping app tracks which products I view, it may show me ads for those products on other websites.\" This shows that privacy loss is not magic; it is the result of data being collected and used without full awareness.\r\n\r\nCybercrime is another serious risk. It includes hacking, online fraud, phishing emails, and identity theft. For instance, a criminal may send an email that looks like it is from a bank and ask the user to click a link and enter a password. This is called phishing. A good answer explains both the act and the harm: the criminal steals data or money, and the victim loses trust in online services. A bad answer merely says, \"Hackers are bad people,\" which is too simple for Class 7.\r\n\r\nFinally, exposure to inappropriate content can occur when users, especially children, visit websites that are violent, hateful, or misleading. A strong answer connects this to what you learned in c6_cs_019: safe browsing and evaluating websites. If a site has no author, no date, and many pop-up ads, it may not be trustworthy.\r\n\r\nWhat can you expect in the ICSE board exam? Examiners want clear, well-structured answers that list advantages and disadvantages separately and explain at least one disadvantage with specific examples. They do not want vague opinions or one-word points. CISCE examiner observations remind us that students often lose marks when they give definitions without examples or when they confuse related concepts. For this topic, a common examiner concern would be a student who lists \"privacy\" as a disadvantage but cannot explain how personal data is collected. To avoid that, always include an example such as cookies, app permissions, or data tracking. Practise writing answers in full sentences, with at least three advantages and three disadvantages, and remember to mention real Indian contexts such as students in different cities using email, net banking, or educational websites.",
+    "eli5": "The Internet is like a big magic box. It can help you learn new things, talk to faraway friends, watch fun videos, and buy things without going to a shop. But it can also be bad if you use it too much, if strangers take your private details, or if bad people try to cheat you online. So we must enjoy the good parts and be careful of the bad parts.",
+    "misconceptionText": "1. Many students write, \"The Internet is bad,\" or \"The Internet is good,\" without giving reasons or examples. This is like writing a definition of an interface without giving examples, which CISCE examiners noted in past papers as a common error. The correction is to give balanced points with specific examples, such as \"The Internet helps me send an email to a friend in another city\" or \"The Internet can harm privacy when apps collect my location.\"\r\n2. Some students confuse privacy loss with cybercrime and use the words as if they mean the same thing. This is similar to the examiner observation that candidates often misuse or omit essential keywords. The correction is to keep them separate: privacy loss means personal data being collected or shared without permission, while cybercrime means illegal acts such as hacking, phishing, and online fraud. A strong answer explains each one with a different example.\r\n3. A third common error is giving only a list of points without explaining one disadvantage in detail. CISCE examiners frequently note that candidates either give the output directly without showing working or give vague answers. For this topic, the remedy is to choose one disadvantage, such as privacy loss, and explain it with a real example like websites using cookies or apps asking for permission to read contacts.",
+    "diagnosticText": "Q1 (recall): List three advantages and three disadvantages of the Internet.\r\nAnswer: The three major advantages of the Internet are access to information, communication, and entertainment. First, the Internet provides access to vast information and educational resources. A student can visit educational websites such as NCERT or online learning platforms to read about topics, watch videos, and download study materials. Second, the Internet enables communication through email, social media, and instant messaging. For example, a student in Delhi can send an email to a relative in Kerala within seconds without paying for a long-distance phone call. Third, the Internet offers entertainment through streaming services and online games. A user can listen to music, watch movies, or play educational quizzes at home. On the other hand, the three major disadvantages are Internet addiction and excessive screen time, privacy loss, and cybercrime. Internet addiction means spending too much time online, which can affect sleep, studies, and physical health. Privacy loss happens when websites and apps collect personal data such as name, age, location, and browsing habits. Cybercrime includes hacking, online fraud, and phishing, where criminals try to steal data or money. A good board answer presents these points clearly and in full sentences.\r\n\r\nQ2 (reasoning): Why is it important to understand both the advantages and disadvantages of the Internet before using it regularly?\r\nAnswer: Understanding both sides is important because the Internet is a powerful tool that can help or harm depending on how it is used. If a student only thinks about the advantages, he or she may spend too much time online, share personal information carelessly, or trust every website and message. This can lead to problems such as Internet addiction, privacy loss, and cybercrime. On the other hand, if a student only thinks about the disadvantages, he or she may miss out on valuable learning, communication, and creative opportunities. By knowing both sides, a student can make balanced decisions. For example, when using a social media app, the student can enjoy connecting with friends while also being careful about what personal details to share. When shopping online, the student can enjoy convenience while also checking that the website is secure. The CISCE syllabus expects this kind of critical thinking, where students do not just memorise points but explain why the balance matters. This also connects to the earlier safety lessons from Class 6, where students learned to evaluate websites and browse safely.\r\n\r\nQ3 (evaluate): A student says, \"The Internet is only useful and has no real disadvantages because we can always be careful.\" Evaluate this statement.\r\nAnswer: This statement is partly true but too simple. It is true that the Internet is very useful. It gives students access to huge amounts of information, helps people communicate across the world, and provides entertainment and online services such as shopping and banking. Being careful can reduce some risks, such as not clicking on unknown links, using strong passwords, and checking whether a website is trustworthy. However, the statement is not fully correct because the disadvantages are real and not only caused by careless users. First, Internet addiction and excessive screen time can happen even when a person is trying to be careful, because apps and games are designed to keep users engaged for a long time. Second, privacy loss often happens through data collection by websites and apps, sometimes without users fully understanding what they have agreed to. For example, when a user accepts cookies or gives an app permission to access contacts, personal data can be tracked and shared. Third, cybercrime such as hacking and phishing is carried out by criminals, and even careful users can sometimes be tricked by very realistic fake messages. Finally, exposure to inappropriate content can occur by accident through ads, links, or search results. Therefore, a better statement would be: \"The Internet is very useful, but we must be aware of its real disadvantages and take steps to stay safe.\" The best answer gives a balanced view, accepting the benefits while also recognising the risks.\r\n\r\nQ4 (apply): You want to join a new online quiz app that asks for your name, age, email, phone number, and permission to access your contacts and location. What three questions should you ask before signing up, and why do they matter?\r\nAnswer: Before signing up, you should ask three important questions. First, why does the quiz app need my phone number, contacts, and location? A quiz about general knowledge usually does not need to know where I live or who my friends are. If the app asks for more information than it really needs, it may be collecting data for advertising or sharing with other companies. This relates to the disadvantage of privacy loss. Second, what will the app do with my personal data? You should read the privacy policy or permission message. If it says the data may be shared with third parties, that is a warning sign. A good app collects only the information it needs and keeps it safe. Third, can I trust the app? You can check reviews, ask a teacher or parent, and see whether the website uses a secure connection, usually shown by a lock symbol in the address bar. This connects to what you learned in the Class 6 safety topic about evaluating websites. Asking these questions matters because they protect your privacy, reduce the risk of cybercrime, and help you decide whether the app is safe to use. A weak answer would simply say, \"I will not give my details,\" without explaining why.\r\n\r\nQ5 (create): Imagine you are designing a one-page poster for your school on \"Safe and Smart Internet Use.\" Describe the four sections you would include and one example for each.\r\nAnswer: My poster would have four sections. The first section would be titled \"Enjoy the Benefits\" and would show how students can use the Internet for learning, communication, and entertainment. For example, I would draw a student using a laptop to research the freedom struggle on a trusted educational website and another student video-calling a grandparent in another city. The second section would be titled \"Watch Your Time\" and would warn against Internet addiction and excessive screen time. I would show a clock and a healthy routine, with a caption such as, \"Take a break every 30 minutes and finish homework before playing games.\" The third section would be titled \"Protect Your Privacy\" and would explain privacy loss through personal data collection. I would draw a phone screen asking for app permissions, with a caption such as, \"Think before you allow access to contacts or location. Read what you are sharing.\" The fourth section would be titled \"Beware of Cybercrime\" and would give tips on avoiding hacking, phishing, and online fraud. I would show an email that says \"Click here to win a prize,\" with a caption such as, \"Do not click unknown links. Ask a trusted adult.\" This poster would help students remember both the advantages and disadvantages of the Internet in a simple visual way.",
+    "cognitiveLevel": "evaluate",
+    "masteryCriteria": "The student must be able to list at least three advantages and three disadvantages of the Internet in full sentences, each supported by a specific real-world example (such as a student emailing a teacher in another city, a shopping app tracking viewed products, or a phishing email pretending to be from a bank). The student must also be able to distinguish privacy loss from cybercrime and explain at least one disadvantage in detail with a concrete Indian-context example, rather than giving a vague opinion such as \"the Internet is good\" or \"the Internet is bad.\" Finally, the student must be able to apply this understanding to a new situation, such as judging which permissions a new app should be allowed, and justify the decision using the correct vocabulary: information access, communication, entertainment, addiction, privacy loss, cybercrime, and inappropriate content.",
+    "subject": "cs",
+    "classLevel": 7
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE NetworkingCloudExplorerSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

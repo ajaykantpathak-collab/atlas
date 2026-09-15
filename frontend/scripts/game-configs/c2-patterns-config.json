@@ -1,0 +1,38 @@
+{
+  "gameTitle": "PatternsGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\PatternsGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c2_maths_enrichment_part24.marker",
+    "D:\\cisce\\maths\\enrichment\\c2_maths_enrichment_part25.marker",
+    "D:\\cisce\\maths\\enrichment\\c2_maths_enrichment_part26.marker",
+    "D:\\cisce\\maths\\enrichment\\c2_maths_enrichment_part27.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_math_024 (Simple graphs), c2_math_025 (Unit of repeat in patterns), c2_math_026 (Extending patterns), c2_math_027 (Create patterns from daily life)",
+  "mascotName": "Designer Diya",
+  "mascotDescription": "a friendly pattern designer with a pink scarf, colorful bangles, a sketchbook, and beads. Custom SVG, not an owl.",
+  "sceneDescription": "design studio scene with sky gradient through window, patterned fabrics, beads, colored blocks, and a graph chart on the wall",
+  "svgObjects": [
+    { "name": "RedCircleIcon", "description": "a red circle bead" },
+    { "name": "BlueSquareIcon", "description": "a blue square bead" },
+    { "name": "YellowTriangleIcon", "description": "a yellow triangle bead" },
+    { "name": "GreenStarIcon", "description": "a green star bead" },
+    { "name": "BarGraphIcon", "description": "a simple bar graph with colored bars" },
+    { "name": "PatternStripIcon", "description": "a strip showing a repeating pattern" },
+    { "name": "FlowerPatternIcon", "description": "a flower pattern from a sari" },
+    { "name": "TilePatternIcon", "description": "a floor tile pattern" },
+    { "name": "NecklaceIcon", "description": "a bead necklace with a pattern" },
+    { "name": "GraphChartIcon", "description": "a graph chart showing favorite fruits" }
+  ],
+  "challengeTypes": [
+    "identify: What comes next in the pattern: Red, Blue, Red, Blue, Red, ___? (Blue vs Red vs Yellow)",
+    "identify: What is the UNIT OF REPEAT in: Circle, Square, Triangle, Circle, Square, Triangle...? (Circle, Square, Triangle vs Circle, Square vs just Circle)",
+    "sort: Drag the right beads to extend the pattern: Red, Yellow, Red, Yellow, Red, ___, ___ (Yellow, Red vs Red, Yellow vs Blue, Green)",
+    "identify: On a bar graph, the TALLEST bar shows...? (The most popular vs The least popular vs Nothing)",
+    "sort: Drag pattern pieces to complete the sequence: Star, Star, Circle, Star, Star, Circle, Star, ___, ___ (Star, Circle vs Circle, Star vs Star, Star)",
+    "identify: Which of these is a pattern from DAILY LIFE? (Tiles on the floor repeating vs Random scattered dots vs A blank wall)",
+    "sort: Drag the days of the week in order as a repeating pattern (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, then it repeats)",
+    "sort: Drag fruits to match the graph (Apple: 5 votes (tallest bar) | Banana: 3 votes | Mango: 4 votes | Orange: 2 votes (shortest bar))"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Simple graphs — a bar graph uses bars of different heights to show information. Tallest bar = most popular. Shortest bar = least popular. Graphs help us compare things easily. Example: favorite fruits graph — apple has 5 votes (tallest), banana has 3, mango has 4, orange has 2 (shortest). (2) Unit of repeat in patterns — a pattern has a unit that repeats. In Red, Blue, Red, Blue..., the unit is 'Red, Blue'. In Circle, Square, Triangle, Circle, Square, Triangle..., the unit is 'Circle, Square, Triangle'. Find the smallest repeating unit. (3) Extending patterns — once you find the unit of repeat, continue the pattern. Red, Yellow, Red, Yellow, Red, Yellow, Red... — the unit is 'Red, Yellow', so after Red comes Yellow, then Red. (4) Create patterns from daily life — patterns are everywhere: floor tiles (square, triangle, square, triangle), sari borders (flower, leaf, flower, leaf), necklaces (red bead, blue bead, red bead, blue bead), days of the week (Monday to Sunday, then repeats), months of the year. Children create their own patterns using colors, shapes, and objects. Misconceptions: 'any repeating thing is a pattern' (a pattern has a RULE that repeats — random repeating is not a pattern), 'the unit of repeat can be any part' (the unit of repeat is the SMALLEST part that repeats), 'tallest bar means least' (tallest bar means MOST, shortest bar means LEAST), 'patterns only exist in maths' (patterns are everywhere — in tiles, fabrics, nature, music, days of the week). Default width=720, height=560. Use named export (export function PatternsGame), NOT export default. Export interface PatternsGameProps with width?, height?, onComplete?: (score: number) => void."
+}

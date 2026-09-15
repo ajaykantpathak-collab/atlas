@@ -1,0 +1,17 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "elapsed": "183.6",
+  "succeeded": 1,
+  "failed": 0,
+  "skipped": 0,
+  "total": 1,
+  "needsReview": [],
+  "results": [
+    {
+      "batchId": "batch_0005",
+      "success": true,
+      "nodeCount": 15,
+      "missingNodes": []
+    }
+  ]
+}

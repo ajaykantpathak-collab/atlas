@@ -1,0 +1,43 @@
+{
+  "gameTitle": "AgricultureHygieneGame",
+  "classLevel": 5,
+  "ageRange": "10-11",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class5\\AgricultureHygieneGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part19.marker",
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part20.marker",
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part21.marker",
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part22.marker",
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part23.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\PlantsAirGame.tsx",
+  "cisceNodes": "c5_bio_019 (Plant modifications - stems, roots, leaves), c5_bio_020 (Animal habitats and feeding habits - herbivores, carnivores, omnivores), c5_bio_021 (Crop types and cultivation - kharif, rabi), c5_bio_022 (Food adulteration and common adulterants), c5_bio_023 (Personal hygiene and diseases from unclean surroundings)",
+  "mascotName": "Farmer Faisal",
+  "mascotDescription": "a friendly farmer with a straw hat, overalls, and a basket of crops. He teaches about agriculture, food safety, and hygiene. Custom SVG, not an owl.",
+  "sceneDescription": "farm landscape with sky gradient, crop fields with wheat and rice, a tractor, a farmer's market stall with fresh vegetables, a hand-washing station, and a food safety inspection table",
+  "svgObjects": [
+    { "name": "WheatIcon", "description": "wheat stalks (rabi crop)" },
+    { "name": "RiceIcon", "description": "rice plants (kharif crop)" },
+    { "name": "TractorIcon", "description": "a farm tractor" },
+    { "name": "VegetableBasketIcon", "description": "a basket of fresh vegetables" },
+    { "name": "HandWashIcon", "description": "hands being washed with soap" },
+    { "name": "SoapIcon", "description": "a bar of soap" },
+    { "name": "WaterDropIcon", "description": "a clean water drop" },
+    { "name": "ModifiedStemIcon", "description": "a potato (modified underground stem)" },
+    { "name": "ModifiedRootIcon", "description": "a carrot (modified root)" },
+    { "name": "ModifiedLeafIcon", "description": "a cactus (modified leaf as spine)" },
+    { "name": "AdulterationIcon", "description": "a magnifying glass over food (testing for adulteration)" },
+    { "name": "CropFieldIcon", "description": "a crop field with rows of plants" }
+  ],
+  "challengeTypes": [
+    "identify: Which crop is a KHARIF crop (sown in monsoon)? (Rice vs Wheat vs Mustard vs Gram)",
+    "sort: Drag each crop to kharif or rabi (Rice = Kharif | Wheat = Rabi | Maize = Kharif | Gram = Rabi | Cotton = Kharif | Mustard = Rabi | Pulses = Rabi | Soybean = Kharif)",
+    "identify: A potato is an example of which plant modification? (Modified stem vs Modified root vs Modified leaf vs Modified flower)",
+    "sort: Drag each plant modification to its correct example (Modified stem = potato, ginger | Modified root = carrot, radish, sweet potato | Modified leaf = cactus spines, pitcher plant | Modified stem = onion bulb | Modified root = turnip | Modified leaf = pea tendrils)",
+    "identify: Which of these is a common sign of food adulteration? (Unusual color or smell in food vs Food is fresh and clean vs Food has a label vs Food is in a sealed packet)",
+    "sort: Drag each food to its common adulterant (Milk = water added | Turmeric powder = metanil yellow | Honey = sugar syrup | Mustard oil = argemone oil | Tea leaves = colored sawdust | Dal = kesari dal stones)",
+    "identify: Which disease can spread from unclean surroundings? (Diarrhea vs Broken arm vs Headache vs Tooth decay from injury)",
+    "sort: Drag each hygiene practice to its correct benefit (Wash hands before eating = prevents stomach infections | Bathe daily = removes dirt and germs from skin | Brush teeth twice daily = prevents tooth decay | Clean nails weekly = prevents germs under nails | Drink clean boiled water = prevents water-borne diseases | Keep food covered = prevents flies and contamination)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Plant modifications — plants modify their parts for special functions. Modified stems: potato, ginger (store food underground). Modified roots: carrot, radish, sweet potato (store food). Modified leaves: cactus spines (reduce water loss), pitcher plant (trap insects). (2) Animal habitats and feeding habits — Herbivores eat only plants (cow, deer, elephant). Carnivores eat only meat (tiger, lion, eagle). Omnivores eat both plants and animals (human, bear, crow). Habitat is the natural home where an animal lives (forest, pond, desert, ocean). (3) Crop types — Kharif crops: sown at the start of monsoon (June-July), harvested in autumn (October-November). Examples: rice, maize, cotton, soybean, pulses. Rabi crops: sown in winter (November-December), harvested in spring (March-April). Examples: wheat, gram, mustard, peas, barley. Basic cultivation practices: ploughing, sowing, irrigation, weeding, harvesting. (4) Food adulteration — adding cheap or harmful substances to food to make more profit. Common adulterants: milk adulterated with water, turmeric with metanil yellow (a poisonous dye), honey with sugar syrup, mustard oil with argemone oil, tea leaves with colored sawdust, dal with kesari dal or stones. Harmful effects: food poisoning, stomach problems, long-term diseases. Detection: unusual color, smell, taste, or texture. (5) Personal hygiene — diseases from unclean surroundings: diarrhea, cholera, typhoid, dysentery (from contaminated water and food), skin infections (from dirt and sweat), respiratory infections (from dust and pollution). Hygiene practices: wash hands before eating and after using toilet, bathe daily, brush teeth twice daily, keep nails clean, drink clean/boiled water, keep food covered, keep surroundings clean. Misconceptions: 'potato is a root' (WRONG — potato is a modified underground STEM, not a root; it has 'eyes' which are buds), 'kharif and rabi are the same' (WRONG — kharif crops are sown in monsoon and harvested in autumn; rabi crops are sown in winter and harvested in spring), 'food adulteration only affects taste' (WRONG — adulterants like metanil yellow and argemone oil can cause serious diseases like cancer and epidemic dropsy), 'washing hands is only needed after using the toilet' (WRONG — hands should be washed before eating, after playing, after handling animals, and after coughing/sneezing), 'all diseases come from germs in air' (WRONG — many diseases like diarrhea and cholera come from contaminated water and food, not just air)."
+}

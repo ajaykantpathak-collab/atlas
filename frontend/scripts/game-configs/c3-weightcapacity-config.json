@@ -1,0 +1,43 @@
+{
+  "gameTitle": "WeightCapacityGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\WeightCapacityGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part29.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part30.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part31.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_math_029 (Non-standard units to weigh objects), c3_math_030 (Measurement and comparison of capacity using non-standard units), c3_math_031 (Conservation of volume)",
+  "mascotName": "Chef Chitra",
+  "mascotDescription": "a friendly chef with a chef hat, a weighing balance, a measuring cup, and a spoon. Custom SVG, not an owl.",
+  "sceneDescription": "kitchen scene with sky gradient, a balance scale, measuring cups, bottles of different sizes, fruits, and a cooking pot",
+  "svgObjects": [
+    { "name": "BalanceScaleIcon", "description": "a balance scale for weighing" },
+    { "name": "AppleIcon", "description": "an apple (to weigh)" },
+    { "name": "StoneIcon", "description": "a stone (heavy)" },
+    { "name": "FeatherIcon", "description": "a feather (light)" },
+    { "name": "MeasuringCupIcon", "description": "a measuring cup (capacity)" },
+    { "name": "BottleIcon", "description": "a water bottle (capacity)" },
+    { "name": "JugIcon", "description": "a jug (large capacity)" },
+    { "name": "GlassIcon", "description": "a glass (small capacity)" },
+    { "name": "BucketIcon", "description": "a bucket (large capacity)" },
+    { "name": "SpoonIcon", "description": "a spoon (very small capacity)" },
+    { "name": "PotIcon", "description": "a cooking pot" },
+    { "name": "WaterDropIcon", "description": "a water drop" },
+    { "name": "HeavyIcon", "description": "a heavy weight symbol" },
+    { "name": "LightIcon", "description": "a light weight symbol" }
+  ],
+  "challengeTypes": [
+    "identify: Which is HEAVIER: a stone or a feather? (Stone vs Feather vs Both same)",
+    "identify: What tool do we use to compare the WEIGHT of two objects? (Balance scale vs Ruler vs Measuring cup)",
+    "sort: Drag each object to Heavy or Light (Heavy: stone, brick, iron ball, watermelon, bag of rice | Light: feather, paper, leaf, balloon, cotton)",
+    "identify: What does CAPACITY mean? (How much liquid a container can hold vs How heavy something is vs How long something is)",
+    "sort: Drag each container to its correct capacity order (smallest to largest: spoon < glass < cup < bottle < jug < bucket)",
+    "identify: Which holds MORE water: a jug or a glass? (Jug vs Glass vs Both same)",
+    "sort: Drag each non-standard unit to what it measures (Non-standard weight: using stones or marbles to balance | Non-standard capacity: using spoons or cups to fill | Weighing with balance: compare two objects directly | Filling and counting: count how many spoons fill a bottle)",
+    "sort: Drag each statement about volume to True or False (True: water keeps its volume when poured into different containers, 1 glass of water = 1 glass of water in any shape container | False: water becomes more when poured into a taller container, water becomes less when poured into a wider container, volume changes with container shape)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. Use speechManager.speakNumber() for reading numbers aloud. The game must teach: (1) Non-standard units for weight — weight is how heavy something is. Use a balance scale to compare: heavier side goes down, lighter side goes up. Non-standard units: use stones, marbles, or blocks to balance — 'this apple weighs 5 stones'. Standard units (kg, g) come later. Heavy: stone, brick, iron ball. Light: feather, paper, leaf. (2) Capacity with non-standard units — capacity is how much liquid a container can hold. Compare by filling: how many spoons fill a glass? How many glasses fill a bottle? Non-standard units: spoons, cups, glasses. Order: spoon < glass < cup < bottle < jug < bucket. (3) Conservation of volume — volume of liquid does NOT change when poured into a different container. 1 glass of water = 1 glass of water whether in a tall thin glass or a short wide glass. The SHAPE changes but the AMOUNT stays the same. This is called conservation of volume. Misconceptions: 'taller container holds more' (a tall thin container may hold less than a short wide one — it depends on the actual capacity, not just height), 'water becomes more in a bigger container' (the amount of water stays the same — only the shape changes), 'weight and capacity are the same' (weight is how heavy, capacity is how much liquid it holds — they are different measurements), 'a balance scale measures length' (a balance scale compares WEIGHT, not length), 'you can measure capacity with a ruler' (capacity is measured by filling and counting, not with a ruler). Default width=720, height=560. Use named export (export function WeightCapacityGame), NOT export default. Export interface WeightCapacityGameProps with width?, height?, onComplete?: (score: number) => void."
+}

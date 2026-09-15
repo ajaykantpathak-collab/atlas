@@ -1,0 +1,46 @@
+{
+  "gameTitle": "TimeDataPatternsGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\TimeDataPatternsGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part36.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part37.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part38.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part39.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part40.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part41.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_math_036 (Conversion of days, hours, minutes), c4_math_037 (Approximate elapsed time), c4_math_038 (Pictorial representation of raw data), c4_math_039 (Bar graph interpretation), c4_math_040 (Growing and reducing patterns), c4_math_041 (Rules for extending patterns)",
+  "mascotName": "Timekeeper Tara",
+  "mascotDescription": "a friendly timekeeper with a clock badge, a stopwatch, a calendar, and a data chart. Custom SVG, not an owl.",
+  "sceneDescription": "time and data lab scene with sky gradient, a large clock tower, a calendar on the wall, a bar graph chart, and pattern blocks on a table",
+  "svgObjects": [
+    { "name": "ClockIcon", "description": "an analog clock showing time" },
+    { "name": "CalendarIcon", "description": "a calendar showing days" },
+    { "name": "HourglassIcon", "description": "an hourglass for elapsed time" },
+    { "name": "StopwatchIcon", "description": "a stopwatch for measuring time" },
+    { "name": "PictographIcon", "description": "a pictograph with picture symbols" },
+    { "name": "BarGraphIcon", "description": "a bar graph showing data" },
+    { "name": "GrowingPatternIcon", "description": "a growing pattern (1, 3, 5, 7...)" },
+    { "name": "ReducingPatternIcon", "description": "a reducing pattern (20, 17, 14...)" },
+    { "name": "DayIcon", "description": "a sun showing day time" },
+    { "name": "NightIcon", "description": "a moon showing night time" },
+    { "name": "DataChartIcon", "description": "a data chart with columns" },
+    { "name": "PatternRuleIcon", "description": "a rule card for patterns" },
+    { "name": "PlusArrowIcon", "description": "an arrow showing growth (+)" },
+    { "name": "MinusArrowIcon", "description": "an arrow showing reduction (-)" }
+  ],
+  "challengeTypes": [
+    "identify: How many hours are in 2 days? (48 hours vs 24 hours vs 12 hours)",
+    "sort: Drag each time conversion to its correct answer (1 day = 24 hours | 1 hour = 60 minutes | 1 minute = 60 seconds | 2 days = 48 hours | 180 minutes = 3 hours | 3 hours = 180 minutes)",
+    "identify: A train departs at 7:30 a.m. and arrives at 11:30 a.m. How long was the journey? (4 hours vs 3 hours vs 5 hours)",
+    "sort: Drag each time to a.m. or p.m. (a.m.: 6:00 morning, 10:30 school start, 5:00 dawn | p.m.: 3:00 afternoon, 7:00 dinner, 10:00 bedtime)",
+    "identify: In a pictograph, 1 symbol = 5 students. If there are 4 symbols for Class 4A, how many students are in 4A? (20 students vs 9 students vs 25 students)",
+    "sort: Drag each bar graph reading to its correct answer (Tallest bar: most popular | Shortest bar: least popular | Bar height 40: 40 items | Two bars same height: equal amounts | Bar labels: show what each bar represents)",
+    "identify: What is the next number in this GROWING pattern: 5, 8, 11, 14, __? (17 vs 16 vs 20)",
+    "sort: Drag each pattern to its rule (5, 8, 11, 14: increases by 3 | 20, 17, 14, 11: decreases by 3 | 2, 4, 6, 8: increases by 2 | 100, 90, 80, 70: decreases by 10 | 1, 3, 5, 7: increases by 2 | 50, 45, 40, 35: decreases by 5)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Conversion of days, hours, minutes — 1 day = 24 hours, 1 hour = 60 minutes, 1 minute = 60 seconds. Bigger to smaller: multiply (2 days = 2x24 = 48 hours). Smaller to bigger: divide (180 minutes = 180/60 = 3 hours). Reading a clock: short hand = hours, long hand = minutes. a.m. = before noon (midnight to 12 noon), p.m. = after noon (12 noon to midnight). 24-hour clock: 1:00 p.m. = 13:00, 6:00 p.m. = 18:00. (2) Approximate elapsed time — find the time between two events. Train departs 7:30 a.m., arrives 11:30 a.m. = 4 hours. School starts 8:00 a.m., ends 2:00 p.m. = 6 hours. Use a clock or timeline to calculate. (3) Pictorial representation — pictograph uses picture symbols to show data. 1 symbol = 5 students. 4 symbols = 20 students. Key/legend tells what each symbol represents. (4) Bar graph interpretation — bars show quantities. Tallest bar = most. Shortest bar = least. Read the height against the scale on the y-axis. Labels on x-axis show categories. Title tells what the graph is about. (5) Growing and reducing patterns — growing: each step increases by a fixed amount (5, 8, 11, 14 — increases by 3). Reducing: each step decreases by a fixed amount (20, 17, 14, 11 — decreases by 3). The fixed amount is the rate of change. (6) Rules for extending patterns — find the rule by comparing consecutive terms. If difference is +3, rule is 'add 3 each time'. If difference is -5, rule is 'subtract 5 each time'. Use the rule to find the next terms. Misconceptions: '1 hour = 100 minutes' (1 hour = 60 minutes, not 100 — time uses base 60, not base 10), 'a.m. and p.m. are the same' (a.m. is BEFORE noon, p.m. is AFTER noon — they are opposite halves of the day), 'the tallest bar means the least' (the TALLEST bar means the MOST — height represents quantity), 'all patterns grow by 1' (patterns can grow or reduce by ANY fixed amount — 2, 3, 5, 10, etc.), 'a growing pattern can decrease' (a GROWING pattern always INCREASES, a REDUCING pattern always DECREASES — they are opposite directions). Default width=720, height=560. Use named export (export function TimeDataPatternsGame), NOT export default. Export interface TimeDataPatternsGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

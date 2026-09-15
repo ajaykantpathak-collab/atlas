@@ -1,0 +1,831 @@
+{
+  "gameFile": "ShapesTessellationGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_math_017",
+    "c3_math_018",
+    "c3_math_019",
+    "c3_math_020",
+    "c3_math_021"
+  ],
+  "mascot": "Artist Anjali — a friendly shape artist with a beret, a paintbrush,",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Straight & Curved Lines! 📏",
+      "text": "A straight line is the shortest path between two points and does not bend (like a ruler edge). A curved line bends smoothly (like a rainbow or a slide)! On a dot grid, we connect dots to make shapes.",
+      "emoji": "📏",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "A straight line does not bend like a ruler. A curved line bends smoothly like a rainbow! On a dot grid, we connect dots to make shapes.",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Sides and Corners! 🔺",
+      "text": "Shapes have sides (straight boundary lines) and corners (where sides meet). A triangle has 3 sides and 3 corners. A square has 4 equal sides and 4 corners. A circle has zero sides and zero corners!",
+      "emoji": "🔺",
+      "bgColor": "from-purple-400 to-pink-500",
+      "spoken": "Shapes have sides and corners. A triangle has three sides and three corners. A square has four equal sides and four corners. A circle has zero sides and zero corners!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Square vs Rectangle! 🟦",
+      "text": "Both squares and rectangles have 4 sides and 4 corners! But in a square, all four sides are equal in length. In a rectangle, only opposite sides are equal (two long, two short)!",
+      "emoji": "🟦",
+      "bgColor": "from-cyan-400 to-blue-500",
+      "spoken": "Both squares and rectangles have four sides and four corners. But in a square, all four sides are equal. In a rectangle, opposite sides are equal with two long and two short sides!",
+      "diagram": {
+        "type": "shape-sorter",
+        "animate": true,
+        "data": {
+          "shapes": [
+            "triangle",
+            "square",
+            "circle"
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Magic Tangram! 🧩",
+      "text": "A tangram is an ancient puzzle with 7 flat pieces: 5 triangles, 1 square, and 1 parallelogram! You can rotate and flip them to build cats, houses, rockets, and boats with no gaps!",
+      "emoji": "🧩",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "A tangram is an ancient puzzle with seven flat pieces: five triangles, one square, and one parallelogram. You can turn and flip them to build animals and houses with no gaps!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Tessellation (Tiling)! 🟩",
+      "text": "Tessellation means covering a flat surface completely with tiles of the same shape, with NO gaps and NO overlaps! Squares, rectangles, triangles, and hexagons tile easily. Circles leave curved gaps and do not tile!",
+      "emoji": "🟩",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Tessellation means covering a flat surface completely with tiles of the same shape, with no gaps and no overlaps. Squares, triangles, and hexagons tile. Circles leave gaps and do not tile!",
+      "diagram": {
+        "type": "shape-sorter",
+        "animate": true,
+        "data": {
+          "shapes": [
+            "triangle",
+            "square",
+            "circle",
+            "rectangle"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which of these is a STRAIGHT line on a dot grid?",
+      "answer": "A line joining two dots directly with a ruler",
+      "options": [
+        "A line joining two dots directly with a ruler",
+        "A wavy wiggle line passing through random dots",
+        "A rainbow curved arc bending across the grid"
+      ],
+      "hint": "Think: a straight line is the shortest path between two points and does not bend!",
+      "misconception": "A straight line is the shortest path between two points and never bends! Wavy or rainbow lines are curved lines, not straight lines.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A line joining two dots directly with a ruler",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A wavy wiggle line passing through random dots",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A rainbow curved arc bending across the grid",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A wavy wiggle line passing through random dots",
+          "A line joining two dots directly with a ruler"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "How many sides and corners does a TRIANGLE have?",
+      "answer": "3 sides and 3 corners",
+      "options": [
+        "3 sides and 3 corners",
+        "4 equal sides and 4 corners",
+        "0 sides and 0 corners"
+      ],
+      "hint": "Count the boundary lines of a triangle like a slice of samosa!",
+      "misconception": "A triangle always has 3 sides and 3 corners! 4 equal sides and 4 corners belong to a square, while 0 sides belong to a circle.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "triangle",
+          "label": "3 sides and 3 corners",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff6b6b",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "triangle",
+          "label": "4 equal sides and 4 corners",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff6b6b",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "triangle",
+          "label": "0 sides and 0 corners",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff6b6b",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "4 equal sides and 4 corners",
+          "3 sides and 3 corners"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each shape to its correct number of sides and corners!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Count carefully: Triangle has 3, Square has 4 equal, Circle has 0!",
+      "misconception": "Always count every side and corner! Triangles have 3, squares have 4 equal sides, rectangles have opposite sides equal, and circles have no straight sides at all.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tri",
+            "label": "Triangle (3 sides)",
+            "correctBin": "bin-3"
+          },
+          {
+            "id": "sq",
+            "label": "Square (4 equal sides)",
+            "correctBin": "bin-4"
+          },
+          {
+            "id": "circ",
+            "label": "Circle (0 sides)",
+            "correctBin": "bin-0"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tri",
+          "kind": "circle",
+          "label": "Triangle (3 sides)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-3",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-3"
+        },
+        {
+          "id": "sq",
+          "kind": "circle",
+          "label": "Square (4 equal sides)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-4",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-4"
+        },
+        {
+          "id": "circ",
+          "kind": "circle",
+          "label": "Circle (0 sides)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-0",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-0"
+        },
+        {
+          "id": "hex",
+          "kind": "circle",
+          "label": "Hexagon (6 sides)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-6",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-6"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tri",
+          "label": "Triangle (3 sides)",
+          "emoji": "",
+          "correctBin": "bin-3"
+        },
+        {
+          "id": "sq",
+          "label": "Square (4 equal sides)",
+          "emoji": "",
+          "correctBin": "bin-4"
+        },
+        {
+          "id": "circ",
+          "label": "Circle (0 sides)",
+          "emoji": "",
+          "correctBin": "bin-0"
+        },
+        {
+          "id": "hex",
+          "label": "Hexagon (6 sides)",
+          "emoji": "",
+          "correctBin": "bin-6"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-3",
+          "label": "3 Sides & Corners 🔺",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "bin-4",
+          "label": "4 Sides & Corners 🟦",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-6",
+          "label": "6 Sides & Corners ⬡",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-0",
+          "label": "0 Sides (Curved) ⭕",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is a TANGRAM puzzle?",
+      "answer": "A puzzle of 7 flat pieces that form shapes without gaps",
+      "options": [
+        "A puzzle of 7 flat pieces that form shapes without gaps",
+        "A tool used only for drawing straight lines",
+        "A circular coin used for counting money"
+      ],
+      "hint": "Think: 5 triangles, 1 square, and 1 parallelogram put together!",
+      "misconception": "A tangram is a Chinese puzzle with 7 flat pieces (triangles, square, parallelogram) that fit together to form animals, houses, and boats without gaps!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A puzzle of 7 flat pieces that form shapes without gaps",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A tool used only for drawing straight lines",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A circular coin used for counting money",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A tool used only for drawing straight lines",
+          "A puzzle of 7 flat pieces that form shapes without gaps"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each tangram piece to its correct name!",
+      "answer": "sort",
+      "options": [],
+      "hint": "A tangram has 7 pieces: 2 large triangles, 1 medium, 2 small, 1 square, 1 parallelogram!",
+      "misconception": "A classic tangram has 5 triangles of different sizes, 1 square, and 1 parallelogram — 7 pieces in total!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "t-large",
+            "label": "2 Large Triangles",
+            "correctBin": "bin-tri"
+          },
+          {
+            "id": "t-med",
+            "label": "1 Medium Triangle",
+            "correctBin": "bin-tri"
+          },
+          {
+            "id": "sq-piece",
+            "label": "1 Square Piece",
+            "correctBin": "bin-sq"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "t-large",
+          "kind": "circle",
+          "label": "2 Large Triangles",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-tri",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-tri"
+        },
+        {
+          "id": "t-med",
+          "kind": "circle",
+          "label": "1 Medium Triangle",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-tri",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-tri"
+        },
+        {
+          "id": "sq-piece",
+          "kind": "circle",
+          "label": "1 Square Piece",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-sq",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-sq"
+        },
+        {
+          "id": "para",
+          "kind": "circle",
+          "label": "1 Parallelogram",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-para",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-para"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "t-large",
+          "label": "2 Large Triangles",
+          "emoji": "",
+          "correctBin": "bin-tri"
+        },
+        {
+          "id": "t-med",
+          "label": "1 Medium Triangle",
+          "emoji": "",
+          "correctBin": "bin-tri"
+        },
+        {
+          "id": "sq-piece",
+          "label": "1 Square Piece",
+          "emoji": "",
+          "correctBin": "bin-sq"
+        },
+        {
+          "id": "para",
+          "label": "1 Parallelogram",
+          "emoji": "",
+          "correctBin": "bin-para"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-tri",
+          "label": "Triangle Pieces 🔺",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "bin-sq",
+          "label": "Square Piece 🟦",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-para",
+          "label": "Parallelogram ▰",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of these shapes can TILE (tessellate) a flat surface without gaps?",
+      "answer": "Square tile",
+      "options": [
+        "Square tile",
+        "Circular coin",
+        "Regular pentagon with gaps"
+      ],
+      "hint": "Think: which shape fits edge to edge like bathroom floor tiles with zero empty space?",
+      "misconception": "Squares, rectangles, and triangles tile easily because their straight edges meet with no gaps! Circles always leave curved gaps between them and cannot tile.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Square tile",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Circular coin",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Regular pentagon with gaps",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Square tile",
+          "Circular coin"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each shape into Can Tile or Cannot Tile!",
+      "answer": "sort",
+      "options": [],
+      "hint": "If straight edges fit edge-to-edge with no gaps, it tiles! If it leaves curved spaces, it cannot!",
+      "misconception": "Squares and hexagons tile perfectly (like honeycomb and floor tiles). Circles and ovals leave curved gaps and CANNOT tile a flat surface!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tile-sq",
+            "label": "Square",
+            "correctBin": "can-tile"
+          },
+          {
+            "id": "tile-hex",
+            "label": "Hexagon",
+            "correctBin": "can-tile"
+          },
+          {
+            "id": "tile-circ",
+            "label": "Circle",
+            "correctBin": "cannot-tile"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tile-sq",
+          "kind": "circle",
+          "label": "Square",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "can-tile",
+          "interaction": "drag-to-bin",
+          "targetBin": "can-tile"
+        },
+        {
+          "id": "tile-hex",
+          "kind": "circle",
+          "label": "Hexagon",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "can-tile",
+          "interaction": "drag-to-bin",
+          "targetBin": "can-tile"
+        },
+        {
+          "id": "tile-circ",
+          "kind": "circle",
+          "label": "Circle",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "cannot-tile",
+          "interaction": "drag-to-bin",
+          "targetBin": "cannot-tile"
+        },
+        {
+          "id": "tile-tri",
+          "kind": "circle",
+          "label": "Triangle",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "can-tile",
+          "interaction": "drag-to-bin",
+          "targetBin": "can-tile"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tile-sq",
+          "label": "Square",
+          "emoji": "",
+          "correctBin": "can-tile"
+        },
+        {
+          "id": "tile-hex",
+          "label": "Hexagon",
+          "emoji": "",
+          "correctBin": "can-tile"
+        },
+        {
+          "id": "tile-circ",
+          "label": "Circle",
+          "emoji": "",
+          "correctBin": "cannot-tile"
+        },
+        {
+          "id": "tile-tri",
+          "label": "Triangle",
+          "emoji": "",
+          "correctBin": "can-tile"
+        }
+      ],
+      "bins": [
+        {
+          "id": "can-tile",
+          "label": "Can Tile (No Gaps) ✅",
+          "color": "#10B981"
+        },
+        {
+          "id": "cannot-tile",
+          "label": "Cannot Tile (Leaves Gaps) ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag each property to the correct shape!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match 4 equal sides to Square, opposite sides to Rectangle, and 0 sides to Circle!",
+      "misconception": "A square has 4 EQUAL sides, while a rectangle has opposite sides equal (2 long, 2 short). A circle has 0 sides and 0 corners!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Match 4 equal sides to Square, opposite sides to Rectangle, and 0 sides to Circle!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "prop-sq",
+          "kind": "circle",
+          "label": "4 Equal Sides",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-square",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-square"
+        },
+        {
+          "id": "prop-rect",
+          "kind": "circle",
+          "label": "Opposite Sides Equal",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-rect",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-rect"
+        },
+        {
+          "id": "prop-circ",
+          "kind": "circle",
+          "label": "0 Sides & Corners",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-circle",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-circle"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "prop-sq",
+          "label": "4 Equal Sides",
+          "emoji": "",
+          "correctBin": "bin-square"
+        },
+        {
+          "id": "prop-rect",
+          "label": "Opposite Sides Equal",
+          "emoji": "",
+          "correctBin": "bin-rect"
+        },
+        {
+          "id": "prop-circ",
+          "label": "0 Sides & Corners",
+          "emoji": "",
+          "correctBin": "bin-circle"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-square",
+          "label": "Square 🟦",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-rect",
+          "label": "Rectangle 🟫",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-circle",
+          "label": "Circle ⭕",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "theme": "art",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_math_017",
+    "region": "Mathland",
+    "mapX": 0.78,
+    "mapY": 0.67,
+    "icon": "🔢",
+    "prerequisites": [
+      "c3_math_018"
+    ]
+  },
+  "subject": "maths"
+}

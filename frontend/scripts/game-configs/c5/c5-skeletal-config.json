@@ -1,0 +1,41 @@
+{
+  "gameTitle": "SkeletalGame",
+  "classLevel": 5,
+  "ageRange": "10-11",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class5\\SkeletalGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part4.marker",
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part5.marker",
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part6.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\FoodTeethGame.tsx",
+  "cisceNodes": "c5_bio_004 (Skeletal system - bones), c5_bio_005 (Joints and their functions), c5_bio_006 (Care of bones and posture)",
+  "mascotName": "Coach Karan",
+  "mascotDescription": "a sports coach with a whistle, clipboard, and a skeleton model. He teaches about bones, joints, and keeping them healthy. Custom SVG, not an owl.",
+  "sceneDescription": "gymnasium with sky gradient through windows, a human skeleton model on a stand, exercise equipment, a posture chart on the wall, joint diagrams, and a healthy bone vs weak bone comparison",
+  "svgObjects": [
+    { "name": "SkullIcon", "description": "a human skull protecting the brain" },
+    { "name": "BackboneIcon", "description": "a backbone/spine made of vertebrae" },
+    { "name": "RibsIcon", "description": "rib cage protecting heart and lungs" },
+    { "name": "ArmBoneIcon", "description": "arm bones (humerus, radius, ulna)" },
+    { "name": "LegBoneIcon", "description": "leg bones (femur, tibia, fibula)" },
+    { "name": "JointIcon", "description": "a joint connecting two bones with cartilage" },
+    { "name": "HingeJointIcon", "description": "a hinge joint like the elbow" },
+    { "name": "BallSocketJointIcon", "description": "a ball and socket joint like the shoulder" },
+    { "name": "PivotJointIcon", "description": "a pivot joint like the neck" },
+    { "name": "SkeletonIcon", "description": "a full human skeleton" },
+    { "name": "CalciumIcon", "description": "a calcium/milk icon for bone health" },
+    { "name": "PostureIcon", "description": "a posture chart showing good vs bad posture" }
+  ],
+  "challengeTypes": [
+    "identify: Which bone protects the brain? (Skull vs Rib cage vs Backbone vs Jawbone)",
+    "sort: Drag each bone to its correct function (Skull = protects brain | Rib cage = protects heart and lungs | Backbone = supports the body, made of vertebrae | Jawbone = helps chewing | Arm bones = help lifting and carrying | Leg bones = help walking and running)",
+    "identify: What are the three main functions of bones? (Support, protect, help movement vs Pump blood, digest food, breathe vs See, hear, smell vs Fight germs, clot blood, carry oxygen)",
+    "sort: Drag each joint to its correct type and location (Elbow = hinge joint | Shoulder = ball and socket joint | Neck = pivot joint | Knee = hinge joint | Hip = ball and socket joint | Wrist = gliding joint)",
+    "identify: The backbone is made of which small bones? (Vertebrae vs Ribs vs Cartilage vs Discs only)",
+    "sort: Drag each activity to whether it helps or harms bones (Drink milk and eat calcium-rich food = Helps | Exercise regularly = Helps | Poor posture while sitting = Harms | Lifting very heavy weights improperly = Harms | Play sports and stretch = Helps | Slouching while walking = Harms)",
+    "identify: Which joint allows rotation like a wheel? (Pivot joint in neck vs Hinge joint in elbow vs Ball and socket in shoulder vs Fixed joint in skull)",
+    "sort: Drag each bone care tip to its correct category (Good posture = sit straight, stand tall | Exercise = walk, run, stretch daily | Nutrition = milk, cheese, green vegetables | Avoid = slouching, heavy lifting, poor sitting | Protect = wear helmet while cycling, seatbelt in car | Rest = sleep on firm mattress, 8 hours sleep)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Skeletal system — the framework of bones in the human body. Functions: give shape and support to the body, protect internal organs (skull protects brain, ribs protect heart and lungs), help in movement with muscles. Major bones: skull (protects brain), jawbone (helps chewing), backbone (supports body, made of small vertebrae), chest bone and ribs (protect heart and lungs), arm bones, leg bones. (2) Joints — places where two or more bones meet. Types: hinge joint (elbow, knee — bends like a door hinge), ball and socket joint (shoulder, hip — allows rotation in all directions), pivot joint (neck — allows turning head side to side), gliding joint (wrist — bones slide over each other), fixed joint (skull — bones do not move). (3) Care of bones and posture — drink milk and eat calcium-rich foods (milk, cheese, yogurt, green leafy vegetables), exercise regularly (walking, running, stretching), maintain good posture (sit straight, stand tall, don't slouch), avoid lifting very heavy weights improperly, wear protective gear (helmet while cycling, seatbelt in car), get enough rest and sleep on a firm mattress. Misconceptions: 'bones are dead structures' (WRONG — bones are living tissue that grow and repair themselves), 'the backbone is one single bone' (WRONG — the backbone is made of 33 small bones called vertebrae), 'all joints allow the same movement' (WRONG — different joints allow different movements: hinge bends, ball and socket rotates, pivot turns), 'only old people need to care about bone health' (WRONG — bone health starts from childhood; calcium and exercise in childhood build strong bones for life), 'poor posture only affects appearance' (WRONG — poor posture can cause back pain, spinal problems, and affect breathing and digestion)."
+}

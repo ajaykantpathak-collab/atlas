@@ -20,6 +20,7 @@ import { create } from 'zustand';
 // ─── Offline cache ───────────────────────────────────────────────────────────
 
 import offlineCache from '@/lib/offlineCache';
+import { getAuthToken } from "@/lib/api";
 
 // ─── Constants ───────────────────────────────────────────────────────────────
 
@@ -192,7 +193,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
     } catch { /* ignore */ }
 
     const loadReal = async () => {
-      const token = localStorage.getItem('auth_token');
+      const token = getAuthToken();
       const headers: Record<string, string> = {};
       if (token) headers['Authorization'] = `Bearer ${token}`;
       try {
@@ -226,7 +227,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
     set({ isLoading: true, screen: 'loading', errorMessage: '' });
 
     try {
-      const token = localStorage.getItem('auth_token');
+      const token = getAuthToken();
       const headers: Record<string, string> = { 'Content-Type': 'application/json' };
       if (token) headers['Authorization'] = `Bearer ${token}`;
 
@@ -327,7 +328,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
     // Try submitting to the proper API endpoint for real feedback
     let apiFeedback: { isCorrect: boolean; explanation: string; pointsEarned: number; masteryAfter: number } | null = null;
     try {
-      const token = localStorage.getItem('auth_token');
+      const token = getAuthToken();
       const headers: Record<string, string> = { 'Content-Type': 'application/json' };
       if (token) headers['Authorization'] = `Bearer ${token}`;
       const res = await fetch(
@@ -453,7 +454,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
 
     // Pull the REAL post-session streak/mastery from /api/progress
     try {
-      const token = localStorage.getItem('auth_token');
+      const token = getAuthToken();
       const headers: Record<string, string> = {};
       if (token) headers['Authorization'] = `Bearer ${token}`;
       const dash = await fetch(`${API_BASE}/api/progress/dashboard`, {
@@ -502,7 +503,7 @@ const usePracticeStore = create<PracticeState>((set, get) => ({
 
     // Try syncing session to server — prefer the proper session-fetch endpoint
     try {
-      const token = localStorage.getItem('auth_token');
+      const token = getAuthToken();
       const headers: Record<string, string> = { 'Content-Type': 'application/json' };
       if (token) headers['Authorization'] = `Bearer ${token}`;
       const sid = get().sessionId;

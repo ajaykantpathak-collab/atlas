@@ -1,0 +1,735 @@
+{
+  "gameFile": "PowerPointScratchGame",
+  "classLevel": 5,
+  "cisceNodes": [
+    "c5_cs_011",
+    "c5_cs_012",
+    "c5_cs_013",
+    "c5_cs_014",
+    "c5_cs_015",
+    "c5_cs_016"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "PowerPoint Templates & Themes 🎨",
+      "text": "A PowerPoint template is a pre-designed slide layout with placeholders for text and images. A theme is a coordinated set of colors, fonts, and effects applied across all slides for a professional look!",
+      "emoji": "🎨",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "A PowerPoint template is a pre-designed slide layout with placeholders for text and images. A theme is a coordinated set of colors, fonts, and effects applied across all slides!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Create",
+            "Edit",
+            "Format",
+            "Save"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Charts & Slide Sorter View 📊",
+      "text": "You can insert charts like bar charts and pie charts to display numbers visually. Slide Sorter view shows all your slide thumbnails at once, making it super easy to rearrange or delete slides!",
+      "emoji": "📊",
+      "bgColor": "from-emerald-500 to-teal-600",
+      "spoken": "You can insert charts like bar charts and pie charts to display numbers visually. Slide Sorter view shows all your slide thumbnails at once so you can rearrange them easily!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "From Algorithm to Code 🤖",
+      "text": "An algorithm is your human-friendly, step-by-step plan to solve a problem—like a recipe! When you write that plan in a programming language like Scratch, it becomes a program the computer runs.",
+      "emoji": "🤖",
+      "bgColor": "from-purple-500 to-pink-600",
+      "spoken": "An algorithm is your step-by-step plan to solve a problem, like a recipe. When written in a programming language like Scratch, it becomes a program!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Start",
+            "Steps",
+            "Decision",
+            "End"
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Scratch Interface 🎪",
+      "text": "Scratch is a visual programming language! The Stage is where your sprite performs, the Blocks palette holds color-coded command blocks, and the Scripts area is where you snap blocks together like LEGO bricks.",
+      "emoji": "🎪",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "Scratch is a visual programming language. The Stage is where your sprite performs, the Blocks palette holds command blocks, and the Scripts area is where you snap them together!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Sprites & Scratch Scripts ⚡",
+      "text": "Sprites are characters that act on the stage. You can draw them in the Paint Editor and save them! Scripts start with Event hat blocks (like green flag clicked) followed by motion, looks, and sound blocks.",
+      "emoji": "⚡",
+      "bgColor": "from-rose-500 to-pink-600",
+      "spoken": "Sprites are characters that act on the stage. You can draw them in the Paint Editor and save them. Scripts start with Event hat blocks followed by motion, looks, and sound blocks!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is a PowerPoint template?",
+      "answer": "A pre-designed slide layout with placeholders for text and images",
+      "options": [
+        "A pre-designed slide layout with placeholders for text and images",
+        "A special type of animation effect",
+        "A button used to print your slides"
+      ],
+      "hint": "Think about what gives you a ready-made starting point with layouts and placeholders!",
+      "misconception": "A template is a pre-designed slide layout with structure and placeholders, not an animation or print button!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A pre-designed slide layout with placeholders for text and images",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A special type of animation effect",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A button used to print your slides",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A special type of animation effect",
+          "A pre-designed slide layout with placeholders for text and images"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each PowerPoint & programming feature to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Template = slide layout! Theme = colors and fonts! Algorithm = step-by-step plan!",
+      "misconception": "Remember: templates provide structure and layout, themes provide coordinated styles, and algorithms are step-by-step plans!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "hint": "Take it slow. Template = slide layout! Theme = colors and fonts! Algorithm = step-by-step plan!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "template",
+          "kind": "circle",
+          "label": "Template",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ppt",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ppt"
+        },
+        {
+          "id": "theme",
+          "kind": "circle",
+          "label": "Theme",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ppt",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ppt"
+        },
+        {
+          "id": "algo",
+          "kind": "circle",
+          "label": "Algorithm",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-code",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-code"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "template",
+          "label": "Template",
+          "emoji": "",
+          "correctBin": "bin-ppt"
+        },
+        {
+          "id": "theme",
+          "label": "Theme",
+          "emoji": "",
+          "correctBin": "bin-ppt"
+        },
+        {
+          "id": "algo",
+          "label": "Algorithm",
+          "emoji": "",
+          "correctBin": "bin-code"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-ppt",
+          "label": "PowerPoint Design 🎨",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-code",
+          "label": "Programming Logic 🤖",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which PowerPoint view shows all slides as thumbnails so you can rearrange them?",
+      "answer": "Slide Sorter view",
+      "options": [
+        "Slide Sorter view",
+        "Slide Show view",
+        "Normal editing view"
+      ],
+      "hint": "This view lets you sort and organize all your slides at once like cards on a table!",
+      "misconception": "Slide Sorter view shows all slide thumbnails for easy rearrangement, whereas Slide Show runs the presentation in full screen!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Slide Sorter view",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Slide Show view",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Normal editing view",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Slide Show view",
+          "Slide Sorter view"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each Scratch interface part to its correct function!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Stage = where sprites perform! Blocks palette = toolbox of commands! Scripts area = where you build code!",
+      "misconception": "Remember: the Stage is the performance area, the Blocks palette is the toolbox of instructions, and the Scripts area is your workspace!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Stage = where sprites perform! Blocks palette = toolbox of commands! Scripts area = where you build code!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "stage",
+          "kind": "circle",
+          "label": "Stage",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-stage",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-stage"
+        },
+        {
+          "id": "blocks",
+          "kind": "circle",
+          "label": "Blocks Palette",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-blocks",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-blocks"
+        },
+        {
+          "id": "script",
+          "kind": "circle",
+          "label": "Scripts Area",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-script",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-script"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "stage",
+          "label": "Stage",
+          "emoji": "",
+          "correctBin": "bin-stage"
+        },
+        {
+          "id": "blocks",
+          "label": "Blocks Palette",
+          "emoji": "",
+          "correctBin": "bin-blocks"
+        },
+        {
+          "id": "script",
+          "label": "Scripts Area",
+          "emoji": "",
+          "correctBin": "bin-script"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-stage",
+          "label": "Stage (Performance) 🎭",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-blocks",
+          "label": "Blocks (Toolbox) 🧰",
+          "color": "#6366F1"
+        },
+        {
+          "id": "bin-script",
+          "label": "Scripts (Workspace) 🧩",
+          "color": "#EC4899"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is the difference between an algorithm and a program?",
+      "answer": "An algorithm is a human-friendly plan; a program is that plan written in code",
+      "options": [
+        "An algorithm is a human-friendly plan; a program is that plan written in code",
+        "An algorithm and a program are exactly the same thing",
+        "An algorithm is computer code; a program is a paper drawing"
+      ],
+      "hint": "Think of an algorithm as a recipe and a program as the instructions followed by a computer!",
+      "misconception": "An algorithm is the human-friendly step-by-step plan, while a program is that exact plan written in a programming language for a computer!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "An algorithm is a human-friendly plan; a program is that plan written in code",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "An algorithm and a program are exactly the same thing",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "An algorithm is computer code; a program is a paper drawing",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "An algorithm and a program are exactly the same thing",
+          "An algorithm is a human-friendly plan; a program is that plan written in code"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each Scratch block to its correct category!",
+      "answer": "sort",
+      "options": [],
+      "hint": "When green flag clicked = Event! Move 10 steps = Motion! Say Hello = Looks!",
+      "misconception": "Remember: Event blocks start scripts, Motion blocks move sprites, Looks blocks change appearance, and Sound blocks play audio!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. When green flag clicked = Event! Move 10 steps = Motion! Say Hello = Looks!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "b1",
+          "kind": "circle",
+          "label": "When Flag Clicked",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-event",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-event"
+        },
+        {
+          "id": "b2",
+          "kind": "circle",
+          "label": "Move 10 Steps",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-motion",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-motion"
+        },
+        {
+          "id": "b3",
+          "kind": "circle",
+          "label": "Say Hello!",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-looks",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-looks"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "b1",
+          "label": "When Flag Clicked",
+          "emoji": "",
+          "correctBin": "bin-event"
+        },
+        {
+          "id": "b2",
+          "label": "Move 10 Steps",
+          "emoji": "",
+          "correctBin": "bin-motion"
+        },
+        {
+          "id": "b3",
+          "label": "Say Hello!",
+          "emoji": "",
+          "correctBin": "bin-looks"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-event",
+          "label": "Event Blocks 🚩",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-motion",
+          "label": "Motion Blocks 🏃",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-looks",
+          "label": "Looks Blocks 💬",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Why must a Scratch script almost always start with an Event block?",
+      "answer": "To give the computer a starting signal or trigger when to run",
+      "options": [
+        "To give the computer a starting signal or trigger when to run",
+        "To make the sprite change its color automatically",
+        "To save the project file to the computer"
+      ],
+      "hint": "Think of a starter whistle in a running race! What starts the script?",
+      "misconception": "An event block acts like a starter whistle; without it, the computer has no trigger signal to know when to run the script!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "star",
+          "label": "To give the computer a starting signal or trigger when to run",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ffd700",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "star",
+          "label": "To make the sprite change its color automatically",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ffd700",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "star",
+          "label": "To save the project file to the computer",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ffd700",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "To give the computer a starting signal or trigger when to run",
+          "To make the sprite change its color automatically"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each action to its correct Scratch tool or feature!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Paint editor = draw new sprites! Save sprite = local file for reuse! Slide sorter = rearrange slides!",
+      "misconception": "Remember: the Paint Editor draws new sprites, saving a sprite lets you reuse it in other projects, and Slide Sorter rearranges presentation slides!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Paint editor = draw new sprites! Save sprite = local file for reuse! Slide sorter = rearrange slides!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "s-paint",
+          "kind": "circle",
+          "label": "Paint Editor",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-draw",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-draw"
+        },
+        {
+          "id": "s-save",
+          "kind": "circle",
+          "label": "Save Sprite",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-file",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-file"
+        },
+        {
+          "id": "s-sort",
+          "kind": "circle",
+          "label": "Slide Sorter",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ppt-tool",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ppt-tool"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s-paint",
+          "label": "Paint Editor",
+          "emoji": "",
+          "correctBin": "bin-draw"
+        },
+        {
+          "id": "s-save",
+          "label": "Save Sprite",
+          "emoji": "",
+          "correctBin": "bin-file"
+        },
+        {
+          "id": "s-sort",
+          "label": "Slide Sorter",
+          "emoji": "",
+          "correctBin": "bin-ppt-tool"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-draw",
+          "label": "Drawing Sprites 🖌️",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-file",
+          "label": "Reusing Sprites 💾",
+          "color": "#6366F1"
+        },
+        {
+          "id": "bin-ppt-tool",
+          "label": "Presentation Tool 📊",
+          "color": "#EC4899"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A tech-savvy kid learns how computers work",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-structure",
+    "title": "Computer Tower",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_cs_011",
+    "region": "Tech City",
+    "mapX": 0.8200000000000001,
+    "mapY": 1.4300000000000002,
+    "icon": "💻",
+    "prerequisites": [
+      "c5_cs_012"
+    ]
+  },
+  "subject": "cs"
+}

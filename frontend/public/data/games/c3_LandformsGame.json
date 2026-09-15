@@ -1,0 +1,847 @@
+{
+  "gameFile": "LandformsGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_geo_008",
+    "c3_geo_009",
+    "c3_geo_010"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Welcome to Landforms! ⛰️",
+      "text": "A landform is a natural shape on the Earth. Mountains are very tall with pointed peaks and snow! Hills are smaller with rounded tops. Plains are wide flat land, great for farming and building cities!",
+      "emoji": "🏔️",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "Welcome to landforms! Mountains are very tall with pointed peaks and snow! Hills are smaller with rounded tops. Plains are wide flat land, great for farming and building cities!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Valleys and Plateaus! 🌄",
+      "text": "A valley is the low land between mountains or hills. A plateau is flat high land — it looks like a table raised high above the ground! The Deccan Plateau covers much of southern India.",
+      "emoji": "🏞️",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "A valley is the low land between mountains or hills. A plateau is flat high land, looking like a table raised high above the ground! The Deccan Plateau covers much of southern India.",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Mighty Rivers of India! 🌊",
+      "text": "A river is a natural stream of water starting in mountains and flowing to the sea. The Ganga is India is most important river! The Yamuna is its tributary, joining at Prayagraj.",
+      "emoji": "💧",
+      "bgColor": "from-cyan-400 to-blue-600",
+      "spoken": "A river is a natural stream of water starting in mountains and flowing to the sea. The Ganga is India is most important river! The Yamuna is its tributary, joining at Prayagraj.",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {
+          "region": {
+            "x": 0,
+            "y": 0,
+            "label": "India"
+          }
+        }
+      }
+    },
+    {
+      "title": "Weather vs Climate! ☀️🌧️",
+      "text": "Weather is what the sky is doing right now — sunny today, rainy tomorrow! Climate is the average weather over many years. India has three seasons: summer, winter, and monsoon!",
+      "emoji": "⛅",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Weather is what the sky is doing right now, like sunny today or rainy tomorrow! Climate is the average weather over many years. India has three seasons: summer, winter, and monsoon!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Be a Geography Hero! 🌟",
+      "text": "Plains are densely populated because life is easy there. Mountains are sparsely populated because they are cold and steep. Keep our rivers clean and protect nature!",
+      "emoji": "🌿",
+      "bgColor": "from-purple-400 to-indigo-600",
+      "spoken": "Plains are densely populated because life is easy there. Mountains are sparsely populated because they are cold and steep. Keep our rivers clean and protect nature!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_mountain",
+      "question": "What is a MOUNTAIN?",
+      "answer": "A very tall landform with a pointed peak",
+      "options": [
+        "A very tall landform with a pointed peak",
+        "A flat area of low land",
+        "A deep hole in the ground"
+      ],
+      "hint": "Think about the Himalayas! They rise very high into the sky and have pointed snowy tops.",
+      "misconception": "Mountains are NOT flat or low! A mountain is very tall with a pointed peak called a summit. Hills are smaller with rounded tops, but mountains tower high above everything else!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A very tall landform with a pointed peak",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A flat area of low land",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A deep hole in the ground",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A flat area of low land",
+          "A very tall landform with a pointed peak"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_plain",
+      "question": "What is a PLAIN?",
+      "answer": "A large, flat area of low land",
+      "options": [
+        "A tall mountain with snow",
+        "A large, flat area of low land",
+        "A steep rocky cliff"
+      ],
+      "hint": "Picture the floor of a room. Plains stretch out flat and low, watered by great rivers!",
+      "misconception": "A plain is NOT a mountain or a cliff! Plains are flat, low land formed by rivers spreading rich soil. That is why millions of people live on plains like the Ganga plain!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A tall mountain with snow",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A large, flat area of low land",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A steep rocky cliff",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A large, flat area of low land",
+          "A tall mountain with snow"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort_landforms",
+      "question": "Drag each landform to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match each landform: Mountain (pointed peak), Hill (rounded top), Plain (flat land), Valley (low land between hills), Plateau (flat table top high up)!",
+      "misconception": "Remember: Mountains have pointed peaks with snow; hills have rounded tops; plains are flat low land; valleys lie between hills; plateaus are flat high land like tables!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "mountain",
+            "label": "Mountain",
+            "correctBin": "bin-mountain"
+          },
+          {
+            "id": "hill",
+            "label": "Hill",
+            "correctBin": "bin-hill"
+          },
+          {
+            "id": "plain",
+            "label": "Plain",
+            "correctBin": "bin-plain"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "mountain",
+          "kind": "circle",
+          "label": "Mountain",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-mountain",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-mountain"
+        },
+        {
+          "id": "hill",
+          "kind": "circle",
+          "label": "Hill",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-hill",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-hill"
+        },
+        {
+          "id": "plain",
+          "kind": "circle",
+          "label": "Plain",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-plain",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-plain"
+        },
+        {
+          "id": "plateau",
+          "kind": "circle",
+          "label": "Plateau",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-plateau",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-plateau"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "mountain",
+          "label": "Mountain",
+          "emoji": "",
+          "correctBin": "bin-mountain"
+        },
+        {
+          "id": "hill",
+          "label": "Hill",
+          "emoji": "",
+          "correctBin": "bin-hill"
+        },
+        {
+          "id": "plain",
+          "label": "Plain",
+          "emoji": "",
+          "correctBin": "bin-plain"
+        },
+        {
+          "id": "plateau",
+          "label": "Plateau",
+          "emoji": "",
+          "correctBin": "bin-plateau"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-mountain",
+          "label": "Tall with peak ⛰️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-hill",
+          "label": "Small & rounded 🏔️",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-plain",
+          "label": "Flat low land 🌾",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-plateau",
+          "label": "Flat high table 🪨",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "farming_plain",
+      "question": "Which landform is BEST for farming and building large cities?",
+      "answer": "Plain",
+      "options": [
+        "Mountain",
+        "Plain",
+        "Plateau edge"
+      ],
+      "hint": "Think where people build huge cities like Delhi and Patna. Is it flat and fertile or steep and rocky?",
+      "misconception": "Mountains are steep, cold, and rocky, making farming and building very hard (sparsely populated)! Plains are flat and fertile, making them ideal for crops and cities (densely populated)!",
+      "storyBeat": "inciting",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Mountain",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Plain",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Plateau edge",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Plain",
+          "Mountain"
+        ]
+      }
+    },
+    {
+      "type": "sort_rivers",
+      "question": "Drag each Indian river to its correct home!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Ganga is the top river in northern plains. Yamuna joins Ganga at Prayagraj. Godavari is the longest in the south!",
+      "misconception": "Do not confuse Indian rivers! The Ganga starts at Gangotri glacier, Yamuna is its tributary, and Godavari is the longest river in peninsular southern India!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "ganga",
+            "label": "Ganga",
+            "correctBin": "bin-north"
+          },
+          {
+            "id": "yamuna",
+            "label": "Yamuna",
+            "correctBin": "bin-tributary"
+          },
+          {
+            "id": "godavari",
+            "label": "Godavari",
+            "correctBin": "bin-south"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "ganga",
+          "kind": "circle",
+          "label": "Ganga",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-north",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-north"
+        },
+        {
+          "id": "yamuna",
+          "kind": "circle",
+          "label": "Yamuna",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-tributary",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-tributary"
+        },
+        {
+          "id": "godavari",
+          "kind": "circle",
+          "label": "Godavari",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-south",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-south"
+        },
+        {
+          "id": "brahmaputra",
+          "kind": "circle",
+          "label": "Brahmaputra",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-northeast",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-northeast"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "ganga",
+          "label": "Ganga",
+          "emoji": "",
+          "correctBin": "bin-north"
+        },
+        {
+          "id": "yamuna",
+          "label": "Yamuna",
+          "emoji": "",
+          "correctBin": "bin-tributary"
+        },
+        {
+          "id": "godavari",
+          "label": "Godavari",
+          "emoji": "",
+          "correctBin": "bin-south"
+        },
+        {
+          "id": "brahmaputra",
+          "label": "Brahmaputra",
+          "emoji": "",
+          "correctBin": "bin-northeast"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-north",
+          "label": "Northern Ganga 💧",
+          "color": "#2563EB"
+        },
+        {
+          "id": "bin-tributary",
+          "label": "Ganga Tributary 🌊",
+          "color": "#0EA5E9"
+        },
+        {
+          "id": "bin-south",
+          "label": "Southern Peninsular 🌴",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-northeast",
+          "label": "Northeast Brahmaputra 🏔️",
+          "color": "#6366F1"
+        }
+      ]
+    },
+    {
+      "type": "river_importance",
+      "question": "Why are rivers extremely useful to us?",
+      "answer": "They give water for drinking, farming, and transport",
+      "options": [
+        "They give water for drinking, farming, and transport",
+        "They make mountains taller every year",
+        "They are only used for swimming in summer"
+      ],
+      "hint": "Rivers provide water to quench thirst, irrigate crops in fields, and carry boats!",
+      "misconception": "Rivers do not make mountains taller! Rivers are life-givers: they provide drinking water, irrigate wheat and rice fields, and serve as water roads for transport!",
+      "storyBeat": "rising",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "They give water for drinking, farming, and transport",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "They make mountains taller every year",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "They are only used for swimming in summer",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "They give water for drinking, farming, and transport",
+          "They make mountains taller every year"
+        ]
+      }
+    },
+    {
+      "type": "sort_weather_climate",
+      "question": "Sort these into Weather (today) or Climate (long-term pattern)!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Weather changes daily (rain today, hot right now). Climate is what a place is like for many years (monsoon season, desert dry year-round)!",
+      "misconception": "Weather is what happens right now and changes daily! Climate is the average weather pattern over 30 years or more. Mumbai is hot and humid every year (climate), but today might be cloudy (weather)!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "w1",
+            "label": "Raining today",
+            "correctBin": "bin-weather"
+          },
+          {
+            "id": "w2",
+            "label": "Hot right now",
+            "correctBin": "bin-weather"
+          },
+          {
+            "id": "c1",
+            "label": "Monsoon every June",
+            "correctBin": "bin-climate"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "w1",
+          "kind": "circle",
+          "label": "Raining today",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-weather",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-weather"
+        },
+        {
+          "id": "w2",
+          "kind": "circle",
+          "label": "Hot right now",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-weather",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-weather"
+        },
+        {
+          "id": "c1",
+          "kind": "circle",
+          "label": "Monsoon every June",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-climate",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-climate"
+        },
+        {
+          "id": "c2",
+          "kind": "circle",
+          "label": "Deserts dry all year",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-climate",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-climate"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "w1",
+          "label": "Raining today",
+          "emoji": "",
+          "correctBin": "bin-weather"
+        },
+        {
+          "id": "w2",
+          "label": "Hot right now",
+          "emoji": "",
+          "correctBin": "bin-weather"
+        },
+        {
+          "id": "c1",
+          "label": "Monsoon every June",
+          "emoji": "",
+          "correctBin": "bin-climate"
+        },
+        {
+          "id": "c2",
+          "label": "Deserts dry all year",
+          "emoji": "",
+          "correctBin": "bin-climate"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-weather",
+          "label": "Weather (Today) ⛅",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-climate",
+          "label": "Climate (Years) 📅",
+          "color": "#3B82F6"
+        }
+      ]
+    },
+    {
+      "type": "sort_mountain_plain",
+      "question": "Sort each feature into Mountain or Plain!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Mountains are cold, steep, and rocky. Plains are flat, fertile, and easy to build on!",
+      "misconception": "Mountains are cold with snow peaks and steep slopes where few people live. Plains are flat, low, and fertile where millions of people farm and build cities!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "m1",
+            "label": "Snowy peak",
+            "correctBin": "bin-m"
+          },
+          {
+            "id": "m2",
+            "label": "Steep slopes",
+            "correctBin": "bin-m"
+          },
+          {
+            "id": "p1",
+            "label": "Flat fertile soil",
+            "correctBin": "bin-p"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "m1",
+          "kind": "circle",
+          "label": "Snowy peak",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-m",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-m"
+        },
+        {
+          "id": "m2",
+          "kind": "circle",
+          "label": "Steep slopes",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-m",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-m"
+        },
+        {
+          "id": "p1",
+          "kind": "circle",
+          "label": "Flat fertile soil",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-p",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-p"
+        },
+        {
+          "id": "p2",
+          "kind": "circle",
+          "label": "Easy to build cities",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-p",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-p"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "m1",
+          "label": "Snowy peak",
+          "emoji": "",
+          "correctBin": "bin-m"
+        },
+        {
+          "id": "m2",
+          "label": "Steep slopes",
+          "emoji": "",
+          "correctBin": "bin-m"
+        },
+        {
+          "id": "p1",
+          "label": "Flat fertile soil",
+          "emoji": "",
+          "correctBin": "bin-p"
+        },
+        {
+          "id": "p2",
+          "label": "Easy to build cities",
+          "emoji": "",
+          "correctBin": "bin-p"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-m",
+          "label": "Mountain 🏔️",
+          "color": "#1E40AF"
+        },
+        {
+          "id": "bin-p",
+          "label": "Plain 🌾",
+          "color": "#D97706"
+        }
+      ]
+    }
+  ],
+  "theme": "outdoor",
+  "storyArc": {
+    "theme": "An adventurer travels across the world",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-map",
+    "title": "World Map",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_geo_008",
+    "region": "World Explorer",
+    "mapX": 0.6200000000000001,
+    "mapY": 1.03,
+    "icon": "🌍",
+    "prerequisites": [
+      "c3_geo_009"
+    ]
+  },
+  "subject": "geography"
+}

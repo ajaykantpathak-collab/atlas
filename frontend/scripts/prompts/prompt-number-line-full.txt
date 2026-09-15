@@ -1,0 +1,1341 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete NumberLineSimulation.tsx component about Number System (integers, rational numbers, algebra, equations, percentages, profit/loss, interest, exponents, sets).
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Maths Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_math_001",
+    "title": "Consolidating the sense of numberness up to 5 digits, size, estimation of numbers, identifying smaller, larger",
+    "subject": "maths",
+    "classLevel": 6,
+    "definition": "Numberness is the felt sense of how big a number is -- not just the ability to read its digits, but to grasp its magnitude. In this node we consolidate the child's sense of numberness for five-digit numbers, that is, numbers from 10,000 to 99,999. A five-digit number has places (from left to right) ten-thousands, thousands, hundreds, tens, and ones; for example, 48,375 means 4 ten-thousands, 8 thousands, 3 hundreds, 7 tens, and 5 ones. The leftmost digit carries the greatest place value, so it dominates the size of the number.\r\n\r\nComparison of two five-digit numbers is done by examining digits from left to right. We first compare the ten-thousands digits; if they are equal, we move to the thousands digits; if those are equal, we move to the hundreds, and so on until a difference is found. The number with the larger digit at the first place of difference is the larger number. For instance, comparing 48,375 and 48,297: the ten-thousands digits are equal (4 = 4), the thousands digits are equal (8 = 8), but at the hundreds place 3 > 2, so 48,375 is larger. Real-life contexts such as the cost of two houses (a house costing Rs4,83,750 versus one costing Rs4,82,970) or the number of spectators in two cricket matches make this comparison meaningful.\r\n\r\nOrdering numbers uses the same comparison rule repeatedly. Arranging in ascending order means lining them up from smallest to largest (e.g., 28,970 < 32,145 < 33,008), like arranging students by height from shortest to tallest. Descending order is the reverse, from largest to smallest.\r\n\r\nEstimation is the skill of giving an approximate size rather than an exact count. For five-digit numbers we estimate by rounding to the nearest thousand or the nearest ten thousand. To round to the nearest thousand, look at the hundreds digit: if it is 5 or more, round the thousands digit up; otherwise round down. So 44,800 rounded to the nearest thousand is 45,000, and 44,200 rounded to the nearest thousand is 44,000. To round to the nearest ten thousand, look at the thousands digit: 44,800 rounds to 40,000 (since 4 < 5), while 48,300 rounds to 50,000. Estimation lets us say \"about 45,000 spectators\" without counting each person, just as we might guess how many grains of rice are in a bowl by looking rather than counting.",
+    "eli5": "A five-digit number is like a five-storey building: the leftmost floor holds the most weight. To compare two such buildings, check the top floor first; only if they match do you check the next floor down. To estimate, pick the nearest \"round\" number -- like saying a crowd of 44,800 is \"about 45,000\" -- just as you'd say a jar has \"about 100 marbles\" instead of counting each one.",
+    "misconceptions": [
+      {
+        "belief": "Compare numbers from the right, starting with the ones digit.\" The CISCE Pupil Performance Analysis repeatedly notes that candidates lose marks by not showing the correct working process and by misidentifying the place that decides the comparison.",
+        "correction": "Always compare from the left. The leftmost place (ten-thousands) carries the greatest value, so it is checked first; only when digits are equal do you move right. Comparing 48,375 and 48,297 from the right (ones: 5 vs 7) would wrongly suggest 48,297 is larger -- the correct approach finds the hundreds place (3 > 2) and concludes 48,375 is larger."
+      },
+      {
+        "belief": "Rounding to the nearest thousand means changing the thousands digit to 0.",
+        "correction": "Rounding to the nearest thousand keeps the thousands place (and everything to its left) and replaces the hundreds, tens, and ones with zeros, adjusting the thousands digit up by 1 only if the hundreds digit is 5 or more. So 44,800 -> 45,000 (hundreds digit 8 >= 5, round up), and 44,200 -> 44,000 (hundreds digit 2 < 5, round down). The thousands digit is not zeroed."
+      },
+      {
+        "belief": "The nearest thousand and nearest ten thousand give the same estimate.",
+        "correction": "They are different scales. 44,800 rounded to the nearest thousand is 45,000, but rounded to the nearest ten thousand is 40,000. The digit you inspect differs (hundreds for thousands-rounding, thousands for ten-thousands-rounding), so the results can differ. Always state which place you are rounding to."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "What is a five-digit number? Name the five place values from left to right and explain how to compare two five-digit numbers.",
+        "answer": "A five-digit number is any whole number from 10,000 to 99,999. From left to right its five places are: ten-thousands, thousands, hundreds, tens, and ones. For example, in 48,375 the 4 is in the ten-thousands place (worth 40,000), the 8 is in the thousands place (worth 8,000), the 3 is in the hundreds place (worth 300), the 7 is in the tens place (worth 70), and the 5 is in the ones place (worth 5). To compare two five-digit numbers, examine the digits from left to right. First compare the ten-thousands digits; if they are equal, compare the thousands digits; if those are equal, compare the hundreds digits; and so on. The first place where the digits differ tells you which number is larger -- the number with the bigger digit at that place is the larger number. If all digits are equal, the numbers are equal. This left-to-right rule works because the leftmost place has the greatest value, so it dominates the size of the number."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Two cricket matches had crowds of 48,375 and 48,297. Explain step by step which crowd was larger and why.",
+        "answer": "We compare the two numbers digit by digit from the left. Both numbers have five digits, so we begin at the ten-thousands place. The ten-thousands digit of 48,375 is 4, and the ten-thousands digit of 48,297 is also 4. Since 4 = 4, we cannot decide yet, so we move one place to the right. At the thousands place, 48,375 has 8 and 48,297 also has 8. Again they are equal, so we move to the hundreds place. Here 48,375 has 3 and 48,297 has 2. Since 3 > 2, this is the first place of difference, and the number with the larger digit -- 48,375 -- is the larger number. We do not need to look at the tens or ones places at all, because the hundreds place has already settled the comparison. Therefore the first match had the larger crowd: 48,375 > 48,297. The key reasoning is that place value decreases from left to right, so the leftmost place where two numbers differ is the one that decides which is larger; places to its right cannot override that decision."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"To round 44,800 to the nearest thousand, I look at the thousands digit, which is 4, and since 4 is less than 5 I round down, so 44,800 becomes 40,000.\" Evaluate whether this student's method and answer are correct.",
+        "answer": "The student's answer of 40,000 is actually the result of rounding to the nearest ten thousand, not the nearest thousand, so the method is incorrect for the task stated. When rounding to the nearest thousand, the digit we must inspect is the hundreds digit -- the digit immediately to the right of the thousands place -- not the thousands digit itself. In 44,800 the hundreds digit is 8. Because 8 is 5 or more, we round the thousands digit up by one: the 4 in the thousands place becomes 5, and the hundreds, tens, and ones places are replaced by zeros. So 44,800 rounded to the nearest thousand is 45,000, not 40,000. The student has confused two different rounding scales. Rounding to the nearest thousand uses the hundreds digit as the decision-maker and keeps the thousands place (adjusting it up or down by one). Rounding to the nearest ten thousand uses the thousands digit as the decision-maker and keeps the ten-thousands place. The student looked at the thousands digit (4) and rounded down to 40,000 -- which is the correct procedure for rounding to the nearest ten thousand, but the question asked for the nearest thousand. This is a common and important error: the place you inspect is always the one immediately to the right of the place you are rounding to. So the student's final number (40,000) is not wrong as an estimate in general, but it is the wrong estimate for the question asked. The correct answer to \"round 44,800 to the nearest thousand\" is 45,000. A careful student always names the place being rounded to and checks the correct decision digit."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Arrange the numbers 32,145; 28,970; 33,008 in ascending order, showing the comparison steps. Then round 33,008 to the nearest thousand and to the nearest ten thousand.",
+        "answer": "To arrange in ascending order we compare the numbers pairwise from the left. First compare the ten-thousands digits: 32,145 has 3, 28,970 has 2, and 33,008 has 3. Since 2 is the smallest, 28,970 is the smallest number. Now compare the remaining two, 32,145 and 33,008. Their ten-thousands digits are equal (3 = 3), so move to the thousands place: 32,145 has 2 and 33,008 has 3. Since 2 < 3, 32,145 is smaller than 33,008. Therefore the ascending order is 28,970 < 32,145 < 33,008. Now round 33,008 to the nearest thousand: look at the hundreds digit, which is 0. Since 0 is less than 5, we round down, keeping the thousands digit as 3 and replacing the lower places with zeros: 33,008 ~= 33,000 to the nearest thousand. Next round 33,008 to the nearest ten thousand: look at the thousands digit, which is 3. Since 3 is less than 5, we round down, keeping the ten-thousands digit as 3 and replacing the lower places with zeros: 33,008 ~= 30,000 to the nearest ten thousand. Notice the two estimates differ because they round to different places."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a real-life situation involving two five-digit numbers that a Class 6 student could compare, and write a short word problem that asks which is larger. Then show the full solution using the left-to-right comparison rule.",
+        "answer": "Imagine two houses in a city. House A in Jaipur costs Rs72,450 and House B in Lucknow costs Rs72,915. A family wants to know which house costs more. Word problem: \"House A in Jaipur costs Rs72,450 and House B in Lucknow costs Rs72,915. Which house is more expensive, and by how much?\" Solution using the left-to-right rule: Both prices are five-digit numbers (treating rupees without the comma symbol). Compare the ten-thousands digits: both have 7, so they are equal. Move to the thousands digits: both have 2, so they are equal. Move to the hundreds digits: House A has 4 and House B has 9. Since 9 > 4, this is the first place of difference, and House B is more expensive. We do not need to check the tens or ones. To find by how much, subtract: 72,915 - 72,450 = 465. So House B costs Rs465 more than House A. This problem shows how comparison and subtraction together answer a real-life question, and it practises the left-to-right comparison rule on numbers that are close in value, which is exactly the kind of question that tests true numberness rather than mere reading of digits."
+      }
+    ],
+    "masteryCriteria": "Can read and write any five-digit number (10,000 to 99,999) and state the value of each digit (e.g., in 48,375 the 4 is worth 40,000). Can compare two five-digit numbers by examining digits from left to right and state the first place of difference (e.g., 48,375 > 48,297 because at the hundreds place 3 > 2). Can arrange a set of five-digit numbers in ascending or descending order. Can round a five-digit number to the nearest thousand (e.g., 44,800 -> 45,000) and to the nearest ten thousand (e.g., 44,800 -> 40,000) by inspecting the correct decision digit.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_math_010",
+    "title": "Properties of numbers (commutative, associative, distributive, additive identity, multiplicative identity)",
+    "subject": "maths",
+    "classLevel": 6,
+    "definition": "Numbers behave in predictable ways when we add or multiply them, and these predictable behaviours are called properties of numbers. For whole numbers (0, 1, 2, 3, ...), five key properties are studied in Class 6: the commutative property, the associative property, the distributive property, the additive identity, and the multiplicative identity. The commutative property of addition states that the order of two whole numbers does not change their sum, so a + b = b + a; for example, 7 + 12 = 12 + 7 = 19. The commutative property of multiplication states that the order does not change the product, so a x b = b x a; for example, 6 x 8 = 8 x 6 = 48. The associative property of addition states that the grouping of three whole numbers does not change their sum, so (a + b) + c = a + (b + c); for example, (2 + 3) + 4 = 5 + 4 = 9 and 2 + (3 + 4) = 2 + 7 = 9. The associative property of multiplication similarly states (a x b) x c = a x (b x c); for example, (2 x 3) x 4 = 6 x 4 = 24 and 2 x (3 x 4) = 2 x 12 = 24. The distributive property links multiplication and addition: a x (b + c) = a x b + a x c; for example, 6 x (10 + 3) = 6 x 13 = 78 and 6 x 10 + 6 x 3 = 60 + 18 = 78. The additive identity is the number 0, because adding 0 to any whole number leaves it unchanged: a + 0 = a, so 45 + 0 = 45. The multiplicative identity is the number 1, because multiplying any whole number by 1 leaves it unchanged: a x 1 = a, so 45 x 1 = 45. An important related rule is that division by zero is not defined: a / 0 has no answer because there is no whole number whose product with 0 gives a (for a ~= 0). For example, 5 / 0 has no answer, since no number multiplied by 0 yields 5. These properties help children see patterns, identify and formulate rules for operations on numbers, and verify them on the number line. Note that subtraction and division are NOT commutative or associative for whole numbers (for example, 7 - 2 ~= 2 - 7, and 8 / 4 ~= 4 / 8), a distinction that is important but reserved for deeper formal treatment in later classes.",
+    "eli5": "Imagine numbers are friends standing in a line. For adding and multiplying, friends can swap places or form new groups and the result stays the same -- that is commutative and associative. The number 0 is a shy friend who, when added, changes nothing, so it is the additive identity. The number 1 is a magic mirror friend who, when you multiply, shows you exactly yourself, so it is the multiplicative identity. But dividing by 0 is like asking \"how many empty boxes hold 5 sweets?\" -- impossible, so it is not defined.",
+    "misconceptions": [
+      {
+        "belief": "All four operations are commutative and associative.\" CISCE examiners have repeatedly observed that candidates make errors when multiple arithmetic operations are involved, often mixing up which operations follow which rules.",
+        "correction": "Only addition and multiplication of whole numbers are commutative and associative. Subtraction and division are NOT -- for example, 7 - 2 = 5 but 2 - 7 is not a whole number, and 8 / 4 = 2 but 4 / 8 is not a whole number. Always check with numbers before claiming a property holds."
+      },
+      {
+        "belief": "0 is the multiplicative identity because multiplying by 0 keeps the number important.",
+        "correction": "Multiplying any whole number by 0 gives 0, not the original number (a x 0 = 0). The multiplicative identity is 1, because a x 1 = a. Conversely, 1 is not the additive identity; the additive identity is 0, because a + 0 = a. Mixing up the two identity elements is a frequent error -- remember: 0 pairs with addition, 1 pairs with multiplication."
+      },
+      {
+        "belief": "5 / 0 = 0 because dividing by nothing gives nothing.",
+        "correction": "Division by zero is not defined, it does not equal 0. 5 / 0 asks \"what number times 0 equals 5?\" No such number exists, since any number x 0 = 0. So 5 / 0 has no answer -- it is undefined. This is a specific point the CISCE syllabus asks children to conclude through activity."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State the commutative, associative, and distributive properties for whole numbers, and identify the additive and multiplicative identities.",
+        "answer": "The commutative property of addition states that a + b = b + a (for example, 7 + 12 = 12 + 7 = 19), and the commutative property of multiplication states that a x b = b x a (for example, 6 x 8 = 8 x 6 = 48). The associative property of addition states that (a + b) + c = a + (b + c) (for example, (2 + 3) + 4 = 2 + (3 + 4) = 9), and the associative property of multiplication states that (a x b) x c = a x (b x c) (for example, (2 x 3) x 4 = 2 x (3 x 4) = 24). The distributive property states that a x (b + c) = a x b + a x c (for example, 6 x (10 + 3) = 6 x 10 + 6 x 3 = 78). The additive identity is 0, because a + 0 = a (for example, 45 + 0 = 45). The multiplicative identity is 1, because a x 1 = a (for example, 45 x 1 = 45). Division by zero is not defined because no whole number multiplied by 0 gives a non-zero number."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A student computes (8 + 7) + 3 = 18 and 8 + (7 + 3) = 18 and concludes that addition is associative. Is this conclusion valid from these two calculations alone? Explain why or why not, and state what more is needed.",
+        "answer": "The two calculations correctly illustrate the associative property of addition for the specific numbers 8, 7, and 3, since (8 + 7) + 3 = 15 + 3 = 18 and 8 + (7 + 3) = 8 + 10 = 18, and both give the same result. However, two calculations alone do not prove the property in general -- they only verify it for one set of numbers. To be confident that addition is associative for all whole numbers, we must test many different triplets (for example, (25 + 18) + 7 and 25 + (18 + 7); (100 + 50) + 25 and 100 + (50 + 25)) and observe that the equality always holds. In Class 6 we verify properties by testing several examples and formulating the rule; a formal algebraic proof that the property holds for every whole number is reserved for later classes. So the student's conclusion is reasonable as a verified rule, but it is based on examples, not a proof. The proper way to state it is: \"From many examples, we formulate the rule (a + b) + c = a + (b + c) for whole numbers.\""
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A classmate says, \"Since addition and multiplication are commutative and associative, subtraction and division must also be commutative and associative, because all four operations are similar.\" Evaluate this statement, giving a balanced argument with numerical evidence, and state which operations actually follow these properties.",
+        "answer": "The classmate's statement is incorrect, although it contains a grain of truth -- the four operations are related, but they do not all share the same properties. Addition and multiplication of whole numbers are indeed commutative: a + b = b + a (7 + 12 = 12 + 7 = 19) and a x b = b x a (6 x 8 = 8 x 6 = 48). They are also associative: (a + b) + c = a + (b + c) and (a x b) x c = a x (b x c). However, subtraction is not commutative: 7 - 2 = 5, but 2 - 7 = -5, which is not even a whole number, so 7 - 2 ~= 2 - 7. Subtraction is also not associative: (10 - 4) - 2 = 6 - 2 = 4, but 10 - (4 - 2) = 10 - 2 = 8, and 4 ~= 8. Division is not commutative: 8 / 4 = 2, but 4 / 8 is not a whole number, so 8 / 4 ~= 4 / 8. Division is not associative either: (16 / 4) / 2 = 4 / 2 = 2, but 16 / (4 / 2) = 16 / 2 = 8, and 2 ~= 8. The reason for the difference is that addition and multiplication combine quantities in a way that is symmetric in order and grouping, whereas subtraction and division are \"one-directional\" operations that depend on which number is taken from which. So the balanced conclusion is: the classmate is right that the operations are related, but wrong to assume they share properties. Only addition and multiplication of whole numbers are commutative and associative; subtraction and division are neither. This distinction is important and is exactly the kind of reasoning CISCE examiners look for when they test understanding of properties rather than mere memorisation."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Use the distributive property to compute 7 x 14 mentally, and verify the result by direct multiplication. Also fill in the blanks: (i) 56 + ___ = 56, (ii) 89 x ___ = 89, (iii) 23 / ___ is not defined.",
+        "answer": "To compute 7 x 14 using the distributive property, split 14 into 10 + 4: 7 x 14 = 7 x (10 + 4) = 7 x 10 + 7 x 4 = 70 + 28 = 98. Direct multiplication gives 7 x 14 = 98, which matches, confirming the distributive property. For the blanks: (i) 56 + 0 = 56, because 0 is the additive identity -- adding zero leaves the number unchanged. (ii) 89 x 1 = 89, because 1 is the multiplicative identity -- multiplying by one leaves the number unchanged. (iii) 23 / 0 is not defined, because there is no whole number whose product with 0 gives 23 (any number x 0 = 0, never 23). Division by zero has no answer in the whole numbers. These three blanks test the two identity elements and the rule that division by zero is undefined -- all key syllabus points."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a short activity using a number line and a bag of marbles that helps a Class 6 child discover the commutative property of addition and the meaning of the additive identity. Describe the steps and what the child should conclude.",
+        "answer": "Step 1 -- Commutative discovery: Give the child a bag of 7 red marbles and a bag of 12 blue marbles. Ask the child to first place the 7 red marbles on the number line starting at 0, marking the position 7, then add the 12 blue marbles one by one, landing at 19. Record \"7 + 12 = 19.\" Now repeat in reverse: start with the 12 blue marbles, mark position 12, then add the 7 red marbles one by one, landing again at 19. Record \"12 + 7 = 19.\" Ask the child to compare the two final positions -- they are the same. Repeat with another pair, say 5 and 9, to confirm the pattern. The child should conclude: \"The order in which two whole numbers are added does not change the sum; this is the commutative property of addition, a + b = b + a.\" Step 2 -- Additive identity discovery: Ask the child to stand at position 25 on the number line and add 0 marbles -- that is, do nothing. The child stays at 25. Record \"25 + 0 = 25.\" Repeat starting at any number, say 40, and add 0 -- the child stays at 40. The child should conclude: \"Adding 0 to any whole number leaves it unchanged; 0 is the additive identity, a + 0 = a.\" This hands-on, number-line-based activity lets the child discover the rules by doing, exactly as the CISCE syllabus suggests, and connects the abstract property to a concrete, verifiable experience."
+      }
+    ],
+    "masteryCriteria": "Can state and verify the commutative property for addition and multiplication with specific whole numbers (e.g., 7 + 12 = 12 + 7 = 19; 6 x 8 = 8 x 6 = 48). Can state and verify the associative property for addition and multiplication with three whole numbers (e.g., (2 + 3) + 4 = 2 + (3 + 4) = 9; (2 x 3) x 4 = 2 x (3 x 4) = 24) and the distributive property (e.g., 6 x (10 + 3) = 6 x 10 + 6 x 3 = 78). Can identify 0 as the additive identity (a + 0 = a, e.g., 45 + 0 = 45) and 1 as the multiplicative identity (a x 1 = a, e.g., 45 x 1 = 45), and explain that division by zero is not defined (e.g., 5 / 0 has no answer).",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_math_011",
+    "title": "Number line - seeing patterns, identifying and formulating rules for operations on numbers",
+    "subject": "maths",
+    "classLevel": 6,
+    "definition": "The number line is a straight horizontal line marked at equal intervals with whole numbers (0, 1, 2, 3, 4, ...) starting from a reference point called zero. The point marked 0 is the origin; numbers increase as we move to the right and decrease as we move to the left. Every whole number corresponds to exactly one point on the number line, and the equal spacing between consecutive marks represents the unit distance. The number line is a powerful visual tool because it allows us to \"see\" operations as movements: addition is a movement to the right, subtraction is a movement to the left, multiplication is repeated rightward movement, and division is the partitioning of a length into equal parts.\r\n\r\nWhole numbers are the natural numbers (1, 2, 3, ...) together with zero, so the set of whole numbers is {0, 1, 2, 3, ...}. By performing operations on the number line, children discover patterns and formulate rules. When zero is added to any whole number, the result is the same number: 5 + 0 = 5, 0 + 12 = 12. Zero is therefore called the additive identity because adding it leaves a number unchanged. When any whole number is multiplied by 1, the result is the same number: 7 x 1 = 7, 1 x 23 = 23. One is therefore called the multiplicative identity. When zero is subtracted from a number the result is the same number (9 - 0 = 9), and when a number is subtracted from itself the result is zero (9 - 9 = 0), which is visible on the number line as returning to the origin.\r\n\r\nA critical rule formulated through the number line and reasoning is that division by zero is not defined. To divide 6 by 0 means to find a number which, when multiplied by 0, gives 6. But any number multiplied by 0 gives 0, never 6. Hence no such number exists, and 6 / 0 is not defined. The same reasoning applies to any non-zero number divided by 0. The case 0 / 0 is also not defined because any number multiplied by 0 gives 0, so there is no unique answer. Thus division by zero is not defined for all whole numbers. Using a geoboard with rubber bands, children can stretch bands along marked pegs to model these movements and verify the patterns, reinforcing the rules through hands-on activity.",
+    "eli5": "Imagine a long ruler drawn on the ground with 0 at the start and 1, 2, 3, ... marked equally to the right. To add, you walk right; to subtract, you walk left. Adding zero is like standing still -- you end where you began, so zero is special and called the additive identity. Multiplying by one is like taking the same number of steps as before -- one is the multiplicative identity. Dividing by zero is like asking how many jumps of size zero reach a far point -- you never move, so it is not defined.",
+    "misconceptions": [
+      {
+        "belief": "Division by zero gives infinity, so 6 / 0 = infinity.",
+        "correction": "At Class 6 level we do not say \"infinity\". The correct statement is that 6 / 0 is not defined, because there is no whole number that when multiplied by 0 gives 6. Infinity is not a whole number and is a higher-class idea; using it here loses marks. CISCE examiners have repeatedly observed that candidates confuse related concepts and use imprecise language -- always say \"not defined\"."
+      },
+      {
+        "belief": "0 / 0 = 1 because any number divided by itself is 1.",
+        "correction": "0 / 0 is also not defined. The rule \"a / a = 1\" holds only when a is not zero. For 0 / 0, any number multiplied by 0 gives 0, so there is no unique answer -- hence it is not defined, not 1."
+      },
+      {
+        "belief": "Adding zero changes the number because zero is a number.",
+        "correction": "Adding zero leaves the number unchanged -- 8 + 0 = 8. Zero is the additive identity; it has no effect under addition, just as 1 has no effect under multiplication. Examiners note that candidates often fail to simplify and state answers precisely; naming the identity property correctly avoids this slip."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State the rule for adding zero to any whole number and name the property. Give one numerical example.",
+        "answer": "When zero is added to any whole number, the result is the same number. This rule is called the additive identity property of zero. For example, 15 + 0 = 15 and 0 + 23 = 23. On the number line, starting at 15 and moving zero units to the right keeps you at 15, which shows visually that adding zero does not change the number. The same idea holds for subtraction: 15 - 0 = 15, because moving zero units to the left also leaves you where you are. The additive identity is one of the first patterns children discover by performing several additions with zero on the number line and observing that the result always equals the original number. Stating the property by its correct name -- additive identity -- and giving a numerical example is exactly what the ICSE board expects in a short-answer question."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Using the number line, explain why 5 - 5 = 0 and what pattern this reveals about subtracting a number from itself.",
+        "answer": "To perform 5 - 5 on the number line, start at the point marked 5 and move 5 units to the left. Each unit moved left cancels one unit of the original distance from 0, so after 5 leftward steps you land exactly on 0. This shows that subtracting a number from itself always gives zero: 7 - 7 = 0, 100 - 100 = 0, 0 - 0 = 0. The pattern reveals that a number and its equal opposite movement return you to the origin -- the reference point of the line. This is the foundation for later understanding that every number has an additive inverse (a number that sums with it to zero), although at Class 6 we restrict ourselves to whole numbers and simply state the observed rule: a whole number minus itself equals zero. The number line makes this visible because the leftward journey exactly retraces the rightward journey from 0 to the starting point."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"6 divided by 0 is infinity, because you can keep dividing forever and never finish.\" Evaluate this statement and give the correct explanation.",
+        "answer": "The student's statement is incorrect at the Class 6 level and would lose marks in an ICSE examination. The correct statement is that 6 / 0 is not defined -- we do not use the word \"infinity\" in Class 6 whole-number arithmetic. The reasoning is as follows. Division is defined as the inverse of multiplication: 6 / 0 should equal a number which, when multiplied by 0, gives 6. But any whole number multiplied by 0 gives 0, never 6. Therefore no whole number satisfies this requirement, and so 6 / 0 has no answer in the set of whole numbers -- it is not defined. The student's intuition that \"you can keep going forever\" actually points to why no single answer exists, but the precise mathematical term is \"not defined\", not \"infinity\". The same argument applies to any non-zero whole number divided by 0. The case 0 / 0 is also not defined, but for a different reason: any number multiplied by 0 gives 0, so there is no unique answer. CISCE examiners have repeatedly observed that candidates use imprecise language and confuse related concepts; stating \"not defined\" with the multiplication-based justification is the response that earns full marks. A balanced view acknowledges that the student's feeling of \"endlessness\" is a reasonable starting intuition, but mathematics requires a single, well-defined answer, and since none exists, the operation is simply not defined."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Represent 3 + 4 = 7 on a number line and describe the movement. Then show 7 - 4 = 3 and describe that movement.",
+        "answer": "Draw a horizontal number line with marks at 0, 1, 2, 3, 4, 5, 6, 7 at equal intervals. For 3 + 4 = 7: place a point at 3 as the starting position, then draw an arrow moving 4 units to the right, ending at 7. The rightward arrow shows addition as forward movement -- each step right adds one unit to the distance from 0, so four steps right from 3 land on 7. For 7 - 4 = 3: start at 7 and draw an arrow moving 4 units to the left, ending at 3. The leftward arrow shows subtraction as backward movement -- each step left removes one unit of distance from 0, so four steps left from 7 land on 3. Notice that the two movements are exact reverses of each other: addition and subtraction are inverse operations on the number line, with rightward and leftward movements cancelling each other. This visual reversibility is the pattern that lets children check subtraction by addition."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a short activity using a geoboard and rubber bands to demonstrate the additive identity and the multiplicative identity to a Class 6 peer. Write the steps and what rule your peer should discover.",
+        "answer": "Step 1: On the geoboard, label one peg as 0 (the reference point) and pegs to its right as 1, 2, 3, ... at equal spacing. Step 2: To show the additive identity, stretch a rubber band from 0 to the peg marked 5 -- this represents the number 5. Now ask your peer to \"add zero\" by not extending the band any further. The band still ends at 5, so 5 + 0 = 5. Repeat starting at 8: the band stays at 8, so 8 + 0 = 8. Step 3: To show the multiplicative identity, stretch a band from 0 to 6 -- this is one group of 6, representing 1 x 6. The endpoint is still 6. Now make two groups of 6 by stretching a second band from 6 to 12 -- that is 2 x 6 = 12. Comparing the two shows that one group leaves the number unchanged, so 1 is the multiplicative identity. Step 4: Ask your peer to state the rules discovered: adding zero leaves a number unchanged (additive identity), and multiplying by one leaves a number unchanged (multiplicative identity). The hands-on stretching makes the abstract rules concrete and memorable."
+      }
+    ],
+    "masteryCriteria": "Can represent whole numbers on a number line and visualise addition as moving right (e.g. 3 + 4 = 7 by moving 4 units right from 3) and subtraction as moving left (e.g. 5 - 5 = 0 by moving 5 units left from 5). Can state that zero is the additive identity (5 + 0 = 5) and one is the multiplicative identity (7 x 1 = 7) with numerical examples. Can formulate and state the rule that division by zero is not defined and explain why using a simple example (6 / 0 is not defined because no number multiplied by 0 gives 6).",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_math_012",
+    "title": "Need for negative numbers and connection in daily life",
+    "subject": "maths",
+    "classLevel": 6,
+    "definition": "Negative numbers are numbers less than zero, written with a minus sign (for example -3, -10, -100), that describe quantities which are opposite in direction or sense to the corresponding positive numbers. In Class 5, you were introduced to negative numbers through the number line, where numbers to the right of zero are positive and numbers to the left of zero are negative. In Class 6, the focus shifts to understanding why such numbers are needed at all and how they appear in daily life. The core idea is that many real-life situations involve a reference point (zero) and two opposite directions from that point, and whole numbers (0, 1, 2, 3, ...) alone cannot capture both directions.\r\n\r\nA reference point is a fixed mark chosen as zero, against which all other quantities are measured. Once a reference point is fixed, any quantity on one side of it is treated as positive and any quantity on the opposite side is treated as negative. The choice of which side is positive and which is negative is a convention, but it must be applied consistently within a situation.\r\n\r\nThree classic daily-life situations illustrate the need for negative numbers. First, temperature: a thermometer has a zero mark; temperatures above zero (such as +3 deg C in Delhi on a warm winter day) are positive, while temperatures below zero (such as -3 deg C in Drass, Ladakh, one of the coldest places in India) are negative. Without negative numbers we could not distinguish \"3 degrees above zero\" from \"3 degrees below zero\". Second, money and debt: if you have Rs. 50 in your pocket but owe Rs. 20 to a friend, the amount you have is +Rs. 50 and the amount you owe is -Rs. 20; the net position is Rs. 30. Paying and getting money are opposite actions, so they are naturally represented by negative and positive numbers. Third, height and depth relative to sea level: the sea surface is taken as the reference point (zero); a hill 100 m above sea level is +100 m, while a submarine 100 m below sea level is -100 m. Indian examples include Mount Everest at about +8848 m above sea level and the Mariana Trench at about -11000 m below sea level.\r\n\r\nOther situations include floors of a building (ground floor = 0, floors above are +1, +2, ..., the basement below is -1, -2, ...), bank balances (a deposit is positive, an overdraft or withdrawal beyond balance is negative), and game scores (gaining points is positive, losing points is negative). In every case, a reference point is chosen, two opposite directions are identified, and positive and negative numbers are used to represent quantities on either side. This is the need for negative numbers: they let us describe opposites that whole numbers alone cannot.",
+    "eli5": "Imagine a tall building. The ground floor is zero. Floors above are +1, +2, +3 -- you go up. The basement below is -1, -2, -3 -- you go down. Whole numbers can only name the floors above. To name the basement, we need new numbers with a minus sign: negative numbers. They simply tell us \"go the opposite way\" from zero -- down instead of up, below instead of above, owe instead of have.",
+    "misconceptions": [
+      {
+        "belief": "A negative number is a smaller amount, so -3 means 'less than 3 of something'.",
+        "correction": "A negative number does not mean \"less of the same thing\"; it means the opposite direction from the reference point. -3 deg C is not \"less than 3 deg C of heat\" -- it is 3 degrees of heat measured in the opposite direction from zero, that is, below zero. CISCE examiners (PPA 2025, high frequency) observed that candidates \"interchanged the positive and negative axes\" and \"plotted point C on the y-axis as (0,3) instead of plotting on x-axis\" -- the root cause is exactly this confusion about which side of the reference point is positive and which is negative. Always fix the reference point first, then assign signs by direction."
+      },
+      {
+        "belief": "Zero is the smallest number, so there is nothing below zero.",
+        "correction": "Zero is a reference point, not a lower limit. There are infinitely many numbers below zero (-1, -2, -3, ...), just as there are infinitely many above it. Zero marks a boundary between positive and negative, not the end of the numbers."
+      },
+      {
+        "belief": "The sign in front of a number is just decoration; 3 and -3 are basically the same.",
+        "correction": "The sign carries essential information about direction. +3 m and -3 m describe points equally far from the reference but on opposite sides -- a hill 3 m above sea level and a cave 3 m below sea level are very different places. CISCE examiners (PPA 2023, medium frequency) noted that students needed to \"pay extra attention to simplification of negative integers\" and to \"clarify the concept of the working process\" -- dropping or ignoring the sign is a key source of such errors."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State what a reference point is, and give three daily-life situations where negative numbers are needed. For each, identify the reference point and the two opposite directions.",
+        "answer": "A reference point is a fixed mark chosen as zero, against which all other quantities are measured. Once it is fixed, quantities on one side are positive and quantities on the opposite side are negative. Three daily-life situations are: (1) Temperature -- the reference point is the zero mark on a thermometer; above zero is positive (e.g. +3 deg C in Thiruvananthapuram) and below zero is negative (e.g. -3 deg C in Drass, Ladakh). (2) Money and debt -- the reference point is zero rupees (neither having nor owing); money you have is positive (e.g. +Rs. 50) and money you owe is negative (e.g. -Rs. 20). (3) Height and depth relative to sea level -- the reference point is the sea surface (0 m); above sea level is positive (e.g. Mount Everest at about +8848 m) and below sea level is negative (e.g. a submarine at -100 m, or Kuttanad in Kerala at about -2 m). In each case, the same size of quantity can lie on either side of the reference point, and only the sign distinguishes the two opposite directions."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A bank account shows a balance of Rs. 200. The account holder then withdraws Rs. 350. Explain why the resulting balance must be represented using a negative number, and write it with the correct sign.",
+        "answer": "The reference point here is zero rupees in the account -- a balance of zero means the account has neither money nor debt. Starting with Rs. 200 means the account is at +200. Withdrawing Rs. 350 means taking out more money than the account holds; the first Rs. 200 brings the balance down to zero, and the remaining Rs. 150 of the withdrawal pushes the balance below zero. A balance below the reference point of zero must be represented by a negative number, because it lies on the opposite side of zero from a positive (surplus) balance. The resulting balance is therefore -Rs. 150, which in banking terms is called an overdraft. This shows exactly why whole numbers alone are insufficient: the bank needs to record not just the size of the balance (Rs. 150) but also that it is on the \"owing\" side of zero, which only a negative sign can convey."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"Negative numbers are not really needed because we can always use words like 'below', 'loss', and 'debt' instead of a minus sign.\" Evaluate this statement, giving a balanced argument and a final judgement.",
+        "answer": "The student's statement has some truth in everyday speech. When we say \"the temperature is 3 degrees below zero\" or \"I have a debt of Rs. 20\", we are indeed using words rather than a minus sign to convey direction. So at the level of a single, isolated quantity, words can do the job that a negative sign does. This is the strength of the student's argument, and it explains why negative numbers can feel unnecessary at first glance. However, the argument breaks down as soon as we need to compare, combine, or record many such quantities together. Suppose a weather report lists the temperatures of five cities: 3 below zero, 2 above zero, 5 below zero, 1 above zero, and 4 below zero. Using words, this list is long and hard to scan; using signed numbers (-3, +2, -5, +1, -4) the same information is compact, ordered, and ready for further calculation. In a bank statement that records dozens of deposits and withdrawals, writing every entry as a signed number lets the system add them up consistently; using words like \"deposited\" and \"withdrew\" for each line would make automatic totalling impossible. In graphs and coordinate geometry -- which CISCE examiners (PPA 2025) found students struggle with, often interchanging the positive and negative axes -- the sign is not optional decoration but the very thing that fixes a point's position relative to the origin. Without negative numbers, we could not plot points below or to the left of zero at all. Therefore, while words can describe a single opposite quantity in casual speech, negative numbers are essential whenever we need to record, order, compare, or compute with many opposite quantities. The final judgement is that the student's claim is incorrect as a general statement: negative numbers are genuinely needed, not merely a convenient shorthand. They extend the number system so that both directions from a reference point can be handled uniformly in mathematics, science, banking, and geography."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "For each of the following situations, identify the reference point, state which direction is positive and which is negative, and write the quantity as a signed number. (a) A diver is 40 m below sea level. (b) A profit of Rs. 1200 is made. (c) The temperature is 7 degrees above zero. (d) A lift goes 3 floors below the ground floor.",
+        "answer": "(a) Reference point: sea level (0 m). Above sea level is positive, below sea level is negative. The diver is 40 m below, so the signed number is -40 m. (b) Reference point: zero rupees (no profit, no loss). Profit is positive, loss is negative. A profit of Rs. 1200 is written as +Rs. 1200. (c) Reference point: the zero mark on the thermometer. Above zero is positive, below zero is negative. 7 degrees above zero is written as +7 deg C. (d) Reference point: the ground floor (floor 0). Floors above the ground floor are positive, floors below it are negative. Three floors below the ground floor is written as -3. In each case the method is the same: first fix the reference point, then decide which direction is positive and which is negative, and finally attach the correct sign to the size of the quantity."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a classroom activity for a group of 4--5 students that uses a geoboard (or a number line drawn on the floor) to show why negative numbers are needed. Describe the reference point, the opposite directions, and at least three quantities the group would represent with signed numbers.",
+        "answer": "Set up a geoboard with a horizontal rubber band marked as the \"zero line\" across the middle -- this is the reference point. Pegs placed above the zero line represent positive quantities; pegs placed below it represent negative quantities. The group chooses a daily-life theme, say \"a day of money transactions\", and acts out the following: (1) Getting Rs. 30 as pocket money -- stretch a band 3 units above the zero line and label it +30. (2) Paying Rs. 10 for a notebook -- stretch a band 1 unit below the zero line and label it -10. (3) Owing Rs. 20 to a friend for a shared snack -- stretch a band 2 units below the zero line and label it -20. The group then reads off the net position by counting how many units above or below zero the final peg sits: +30 - 10 - 20 = 0, so the net is zero -- neither having nor owing. The activity makes three things visible at once: the reference point (the zero line), the two opposite directions (above = positive, below = negative), and the fact that whole numbers alone could not have placed the \"paying\" and \"owing\" pegs -- only negative numbers let us mark them below the zero line. This is exactly the need for negative numbers, shown concretely. A second theme could be \"temperature through the day\", with pegs above zero for afternoon warmth and pegs below zero for a cold night, again using the zero line as the reference point."
+      }
+    ],
+    "masteryCriteria": "Can describe at least three real-life situations where negative numbers are needed (e.g. temperature below zero such as -3 deg C in Drass, debt such as -Rs. 20, depth below sea level such as -100 m). Can explain that negative numbers represent quantities opposite in direction or sense to the corresponding positive numbers, using the idea of a reference point (zero). Can identify the reference point in a given situation and label quantities above and below it as positive and negative respectively (e.g. ground floor = 0, floors above = +1, +2, basement = -1, -2). Can translate a worded opposite situation such as \"a loss of Rs. 50\" or \"5 degrees below zero\" into the correct signed number (-Rs. 50, -5 deg C).",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_math_013",
+    "title": "Representation of negative numbers on number line",
+    "subject": "maths",
+    "classLevel": 6,
+    "definition": "A number line is a straight horizontal line on which numbers are marked at equal intervals, with a chosen reference point called zero (0) placed at the centre. To the right of zero we mark the positive numbers 1, 2, 3, 4, ... at equal spacing, and to the left of zero we extend the same line and mark the negative numbers -1, -2, -3, -4, ... at the very same equal spacing. This extension to the left is the central idea of this node: the number line does not stop at zero; it continues in the opposite direction to represent quantities that are less than zero, such as temperatures below freezing, depths below sea level, or money owed. The spacing between any two consecutive marks must be identical on both sides -- the gap between 0 and 1 is the same as the gap between 0 and -1, and the gap between 1 and 2 is the same as the gap between -1 and -2. This uniform spacing is called the interval.\r\n\r\nA defining feature of this representation is symmetry about zero. For every positive number there is a corresponding negative number that lies the same distance from zero but on the opposite side. Thus +3 and -3 are equidistant from zero: +3 sits three intervals to the right, and -3 sits three intervals to the left. Zero itself is neither positive nor negative; it is the reference point that separates the two sets. Because of this mirror-like arrangement, the number line behaves as though a mirror were placed at zero -- whatever stands on the right has an identical reflection on the left at the same distance.\r\n\r\nTo place a given negative number such as -5 on the number line, we begin at zero and count five equal steps to the left; the fifth step lands on the mark labelled -5. The direction matters: moving right corresponds to increasing positive value, and moving left corresponds to decreasing (more negative) value. The position of a number on the line is fixed by two things -- its distance from zero and its direction from zero. Two numbers that are the same distance from zero but on opposite sides (like +4 and -4) are called corresponding numbers, and together they illustrate the equidistant, opposite-side relationship that is the heart of representing negative numbers on the number line.",
+    "eli5": "Imagine a long ruler with zero in the middle. Walk right and you step on 1, 2, 3 -- positive numbers. Now turn around and walk left from zero the same way: you step on -1, -2, -3 -- negative numbers. Each step is the same size on both sides. So +3 and -3 are like two children standing the same distance from a flagpole (zero) but on opposite sides. The ruler is a mirror at zero.",
+    "misconceptions": [
+      {
+        "belief": "Negative numbers are smaller in spacing than positive numbers, so they should be drawn closer together on the left.",
+        "correction": "The spacing (interval) must be identical on both sides of zero. The CISCE 2025 examiner report on number-line representation notes that candidates frequently produce uneven, cramped markings on the negative side, which makes positions wrong. The gap between 0 and -1 equals the gap between 0 and 1; uniform spacing is non-negotiable."
+      },
+      {
+        "belief": "Zero is a positive number because it is on the right side of the negatives.",
+        "correction": "Zero is neither positive nor negative -- it is the reference point that separates the two sets. The CISCE 2023 examiner comments on sign errors with negatives often trace back to students treating zero as positive and miscounting steps. Always count negative numbers starting from zero moving left, not from +1."
+      },
+      {
+        "belief": "-5 is closer to zero than -3 because 5 is bigger.",
+        "correction": "On the number line, -5 lies farther left of zero than -3 does -- five intervals away versus three intervals away. Distance from zero grows as the negative number's magnitude grows. The examiner remedy of \"include visual representations like a number line often\" directly targets this confusion."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Draw a number line with zero at the centre and mark -1, -2, -3, -4, -5 on the left and 1, 2, 3, 4, 5 on the right. State the relationship between +4 and -4.",
+        "answer": "Draw a straight horizontal line with an arrow at each end to show it continues in both directions. Mark 0 at the centre. To the right, mark 1, 2, 3, 4, 5 at equal intervals. To the left, using the very same equal spacing, mark -1, -2, -3, -4, -5. The spacing between 0 and 1 must equal the spacing between 0 and -1, and so on. The relationship between +4 and -4 is that they are corresponding numbers: +4 is four intervals to the right of zero, and -4 is four intervals to the left of zero. They are equidistant from zero but lie on opposite sides. Zero acts as the mirror or reference point between them. This symmetry -- for every positive number a matching negative number at the same distance on the other side -- is the defining feature of representing negative numbers on the number line."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain why the spacing between consecutive marks must be the same on both sides of zero. What would go wrong if the left side used a smaller spacing?",
+        "answer": "The number line is a model where distance from zero represents the size (magnitude) of a number and direction represents its sign. If the spacing on the left were smaller than on the right, then -3 would appear closer to zero than +3, even though both are three units from zero. This would destroy the symmetry that for every positive number there is a corresponding negative number equidistant from zero on the opposite side. Equal spacing guarantees that +n and -n are the same distance from zero, which is the whole point of the representation. It also ensures that counting steps to place a negative number works correctly: counting four equal steps left from zero must land exactly opposite +4 on the right. Uniform spacing is what makes the number line a reliable tool for representing both positive and negative numbers, and it is the habit ICSE examiners check for when they remark that candidates' number-line markings are uneven or cramped on one side."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"Zero is a positive number because it is written on the right side of the negative numbers, and -5 is closer to zero than -3 because 5 is bigger than 3.\" Evaluate both parts of this statement.",
+        "answer": "Both parts of the statement are incorrect, and they reflect two common confusions about the number line. First, zero is neither positive nor negative. It is the reference point that separates positive numbers (to its right) from negative numbers (to its left). Calling zero positive misrepresents its role: zero has no sign, and it is the mirror point about which positive and negative numbers are symmetrically arranged. The CISCE examiner comments on sign errors with negative numbers often trace back to this very misunderstanding, where students treat zero as positive and then miscount steps when moving into the negative region. Second, -5 is not closer to zero than -3; in fact -5 is farther from zero than -3. On the number line, distance from zero is measured by counting intervals, and direction is given by the sign. Starting at zero and moving left, -3 is three intervals away while -5 is five intervals away. The larger the magnitude (the number without the sign), the farther the negative number sits from zero on the left. So -5 lies to the left of -3, not between -3 and zero. The student has confused the everyday idea that \"5 is bigger than 3\" with the number-line fact that, for negatives, a bigger magnitude means a position farther from zero in the leftward direction. The correct view is: +5 and -5 are both five intervals from zero (equidistant, opposite sides); +3 and -3 are both three intervals from zero; therefore -5 is farther from zero than -3."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "On a number line, place the numbers -2, -5, and -1 at their correct positions. Then state which of these is farthest from zero and which is closest to zero.",
+        "answer": "Draw a horizontal line with arrows at both ends and mark 0 at the centre. Using equal intervals, mark -1, -2, -3, -4, -5 to the left of zero, and 1, 2, 3, 4, 5 to the right for reference. To place -2, start at zero and count two equal steps to the left -- the second step is -2. To place -5, count five equal steps to the left -- the fifth step is -5. To place -1, count one step to the left -- that mark is -1. Now compare distances from zero: -1 is one interval from zero, -2 is two intervals from zero, and -5 is five intervals from zero. Therefore -5 is farthest from zero (five intervals to the left), and -1 is closest to zero (one interval to the left). This exercise shows that placing a negative number is always done by counting equal steps leftward from zero, and that distance from zero grows with the magnitude of the negative number."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a real-life situation that uses a number line with zero at the centre and negative numbers to the left. Describe what zero, the positive side, and the negative side each represent, and place three specific negative values on your line with an explanation.",
+        "answer": "Consider a multi-storey building with a ground floor, upper floors, and a basement parking area. Let the ground floor be zero -- the reference point. The positive side of the number line (to the right) represents the upper floors: +1 is the first floor, +2 is the second floor, +3 is the third floor, and so on, each at one equal interval from the last. The negative side (to the left) represents the basement levels below the ground floor: -1 is basement level 1, -2 is basement level 2, and -3 is basement level 3, each one equal interval to the left of zero. Draw the line with arrows at both ends, mark 0 at the centre, and place -1, -2, -3 at equal spacing to the left, mirroring +1, +2, +3 on the right. The three specific negative values are -1 (basement 1, one level below ground), -2 (basement 2, two levels below ground), and -3 (basement 3, three levels below ground). This shows the symmetry: just as +3 is three levels above the ground floor, -3 is three levels below it -- both are three intervals from zero but on opposite sides, exactly the corresponding, equidistant relationship that the number line is built to represent."
+      }
+    ],
+    "masteryCriteria": "Can draw a number line with zero at the centre and extend it to the left to mark -1, -2, -3, -4, -5 at the same equal spacing used for 1, 2, 3, 4, 5 on the right. Can place a given negative number (e.g. -4) by counting the correct number of equal steps leftward from zero. Can state that for every positive number there is a corresponding negative number equidistant from zero on the opposite side (e.g. +5 and -5 are both five intervals from zero). Can identify zero as the reference point that is neither positive nor negative and that separates the two sides of the line.",
+    "cognitiveLevel": "understand"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE NumberLineSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

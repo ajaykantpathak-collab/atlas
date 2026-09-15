@@ -1,0 +1,43 @@
+{
+  "gameTitle": "DigestionGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\DigestionGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part6.marker",
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part7.marker",
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part8.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_bio_006 (Digestive system organs), c4_bio_007 (Functions of digestive organs), c4_bio_008 (Excretory system organs and functions)",
+  "mascotName": "Doctor Devika",
+  "mascotDescription": "a friendly doctor with a white coat, a stethoscope, a digestive system diagram on a clipboard, and a magnifying glass. Custom SVG, not an owl.",
+  "sceneDescription": "human body anatomy lab scene with sky gradient, a hospital building, a large human body outline showing the digestive tract, a kidney diagram, and medical charts on the wall",
+  "svgObjects": [
+    { "name": "MouthIcon", "description": "a mouth with teeth and tongue" },
+    { "name": "OesophagusIcon", "description": "a food pipe / oesophagus tube" },
+    { "name": "StomachIcon", "description": "a J-shaped stomach organ" },
+    { "name": "SmallIntestineIcon", "description": "a coiled small intestine tube" },
+    { "name": "LargeIntestineIcon", "description": "a wider large intestine tube" },
+    { "name": "LiverIcon", "description": "a reddish-brown liver organ" },
+    { "name": "KidneyIcon", "description": "a bean-shaped kidney organ" },
+    { "name": "UreterIcon", "description": "a narrow ureter tube" },
+    { "name": "BladderIcon", "description": "a urinary bladder bag" },
+    { "name": "SalivaIcon", "description": "a drop of saliva" },
+    { "name": "BileIcon", "description": "a greenish-yellow bile drop" },
+    { "name": "VilliIcon", "description": "finger-like villi projections" },
+    { "name": "SweatIcon", "description": "a sweat drop from skin" },
+    { "name": "WaterGlassIcon", "description": "a glass of clean water for kidney health" }
+  ],
+  "challengeTypes": [
+    "identify: Where does digestion BEGIN in the human body? (In the mouth, where teeth chew and saliva wets food vs In the stomach, where acid mixes food vs In the small intestine, where nutrients are absorbed)",
+    "identify: What does the STOMACH do in digestion? (Churns food with digestive juices and acid to break it down vs Absorbs nutrients into blood vs Stores waste before it leaves the body)",
+    "sort: Drag each digestive organ to its correct position in the journey of food (1. Mouth - chews food | 2. Oesophagus - pushes food down | 3. Stomach - churns with acid | 4. Small intestine - absorbs nutrients | 5. Large intestine - absorbs water | 6. Rectum - stores waste)",
+    "identify: Which organ produces BILE that helps digest fats? (The liver vs The stomach vs The kidneys)",
+    "sort: Drag each organ to its correct function (Mouth: chews and mixes with saliva | Stomach: churns with acid and juices | Small intestine: absorbs nutrients into blood | Large intestine: absorbs water from waste | Liver: produces bile for fat digestion | Pancreas: produces digestive juices)",
+    "identify: What are the tiny finger-like projections in the small intestine that absorb nutrients? (Villi vs Plaque vs Enamel)",
+    "sort: Drag each excretory organ to its correct function (Kidneys: filter blood and make urine | Ureters: carry urine from kidneys to bladder | Urinary bladder: stores urine | Urethra: passes urine out of body | Skin: removes waste as sweat)",
+    "sort: Drag each item to Keep Excretory System Healthy or Harm It (Healthy: drink plenty of water, eat fibre-rich food, visit doctor regularly, exercise daily | Harm: drink too little water, eat only junk food, hold urine too long, never exercise)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Digestive system organs — the digestive tract is a long tube: mouth (teeth chew, saliva wets food, tongue pushes food back), oesophagus/food pipe (pushes food down by squeezing motion called peristalsis), stomach (muscular bag, churns food with digestive juices and acid, kills germs), small intestine (long coiled tube, main place where nutrients are absorbed into blood, lined with villi for absorption, liver sends bile here to digest fats), large intestine (wider and shorter, absorbs water from leftover waste), rectum (stores waste), anus (waste leaves body). (2) Functions of digestive organs — mouth: chew and mix with saliva (saliva begins breaking down starch). Oesophagus: pushes food down by peristalsis. Stomach: churns with acid and juices (begins protein digestion, kills germs). Small intestine: absorbs nutrients into blood (villi increase surface area). Liver: produces bile (breaks fats into droplets). Large intestine: absorbs water from waste. Chewing food well is important because small pieces digest faster. (3) Excretory system — excretion removes waste from body. Kidneys (two bean-shaped organs at back of abdomen) filter blood and make urine. Ureters (narrow tubes) carry urine from kidneys to bladder. Urinary bladder (muscular bag) stores urine. Urethra (short tube) passes urine out. Skin also helps excretion by producing sweat (removes excess water and salts). Keep system healthy: drink plenty of water, eat fibre-rich food, visit doctor regularly. Misconceptions: 'digestion happens only in the stomach' (digestion begins in the mouth where saliva breaks down starch), 'the liver digests food directly' (the liver produces bile which HELPS digest fats, it does not digest food itself), 'kidneys make urine from food directly' (kidneys filter BLOOD and remove waste as urine, they do not process food directly), 'sweating is just water loss' (sweating is a form of excretion — it removes excess water AND salts from the body), 'the large intestine absorbs nutrients' (the large intestine absorbs WATER, the SMALL intestine absorbs nutrients). Default width=720, height=560. Use named export (export function DigestionGame), NOT export default. Export interface DigestionGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

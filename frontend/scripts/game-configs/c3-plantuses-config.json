@@ -1,0 +1,43 @@
+{
+  "gameTitle": "PlantUsesGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\PlantUsesGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c3_biology_enrichment_part18.marker",
+    "D:\\cisce\\bio\\enrichment\\c3_biology_enrichment_part19.marker",
+    "D:\\cisce\\bio\\enrichment\\c3_biology_enrichment_part20.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_bio_018 (Edible parts of plants), c3_bio_019 (Medicinal plants and plant products), c3_bio_020 (Sun as energy source for plants)",
+  "mascotName": "Herbalist Heena",
+  "mascotDescription": "a friendly herbalist with a basket of herbs, a mortar and pestle, and dried flowers in her hair. Custom SVG, not an owl.",
+  "sceneDescription": "kitchen garden scene with sky gradient, medicinal plants (neem, tulsi, aloe), vegetables, and a sun shining on plants",
+  "svgObjects": [
+    { "name": "CarrotIcon", "description": "a carrot (root we eat)" },
+    { "name": "PotatoIcon", "description": "a potato (stem we eat)" },
+    { "name": "SpinachIcon", "description": "spinach leaves (leaf we eat)" },
+    { "name": "TomatoIcon", "description": "a tomato (fruit we eat)" },
+    { "name": "CauliflowerIcon", "description": "a cauliflower (flower we eat)" },
+    { "name": "NeemIcon", "description": "a neem plant (medicinal)" },
+    { "name": "TulsiIcon", "description": "a tulsi plant (medicinal)" },
+    { "name": "AloeIcon", "description": "an aloe vera plant (medicinal)" },
+    { "name": "SunIcon", "description": "the sun giving energy" },
+    { "name": "LeafSunIcon", "description": "a leaf with sunlight (photosynthesis)" },
+    { "name": "WaterDropIcon", "description": "water drop for plants" },
+    { "name": "OxygenIcon", "description": "oxygen coming from leaf" },
+    { "name": "MortarIcon", "description": "a mortar and pestle for medicine" },
+    { "name": "HoneyIcon", "description": "honey (plant product)" }
+  ],
+  "challengeTypes": [
+    "identify: Which part of a CARROT do we eat? (Root vs Leaf vs Seed)",
+    "identify: Which part of a SPINACH do we eat? (Leaves vs Root vs Flower)",
+    "sort: Drag each vegetable to the plant part we eat (Root: carrot, radish, beetroot | Stem: potato, ginger | Leaf: spinach, cabbage | Flower: cauliflower, broccoli | Fruit: tomato, brinjal, mango)",
+    "identify: Which plant is used as MEDICINE for skin problems? (Aloe vera vs Rose vs Mango)",
+    "sort: Drag each plant to its medicinal use (Neem: skin diseases, antiseptic | Tulsi: cough and cold | Aloe vera: burns and skin | Peppermint: digestion | Ginger: nausea and cold)",
+    "identify: What process do plants use to make food from sunlight? (Photosynthesis vs Respiration vs Digestion)",
+    "sort: Drag each item to what plants NEED or PRODUCE (Need: sunlight, water, carbon dioxide, soil | Produce: oxygen, food/sugar, flowers, seeds)",
+    "sort: Drag each product to its plant source (Honey: from flowers/nectar | Paper: from wood/bamboo | Rubber: from rubber tree | Oil: from mustard/coconut | Medicine: from neem/tulsi | Cloth: from cotton)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Edible parts of plants — we eat different parts of different plants: roots (carrot, radish, beetroot, sweet potato), stems (potato, ginger, sugarcane), leaves (spinach, cabbage, lettuce), flowers (cauliflower, broccoli), fruits (tomato, brinjal, mango, banana), seeds (rice, wheat, dal, mustard). (2) Medicinal plants and plant products — neem (antiseptic, skin diseases), tulsi (cough, cold, immunity), aloe vera (burns, skin problems), peppermint (digestion), ginger (nausea, cold). Plant products: honey (from flower nectar), paper (from wood/bamboo), rubber (from rubber tree sap), oil (from mustard, coconut, sunflower), cloth (from cotton), medicine (from many plants). (3) Sun as energy source for plants — plants make food by PHOTOSYNTHESIS: they use sunlight + water + carbon dioxide → food (glucose) + oxygen. Sun is the ultimate energy source. Leaves have chlorophyll (green pigment) that captures sunlight. Plants give us oxygen to breathe. Misconceptions: 'potato is a root' (potato is an underground stem, not a root), 'tomato is a vegetable' (tomato is botanically a fruit — it has seeds), 'plants eat soil' (plants make their own food using sunlight, water, and CO2 — they absorb minerals from soil but don't eat it), 'neem is only a tree' (neem leaves, bark, and seeds all have medicinal value), 'honey is made by bees from flowers directly' (bees collect nectar from flowers and process it into honey in the hive). Default width=720, height=560. Use named export (export function PlantUsesGame), NOT export default. Export interface PlantUsesGameProps with width?, height?, onComplete?: (score: number) => void."
+}

@@ -1,0 +1,41 @@
+{
+  "gameTitle": "SafetyCleanGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\SafetyCleanGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\evs\\enrichment\\c2_evs_enrichment_part6.marker",
+    "D:\\cisce\\evs\\enrichment\\c2_evs_enrichment_part7.marker",
+    "D:\\cisce\\evs\\enrichment\\c2_evs_enrichment_part8.marker",
+    "D:\\cisce\\evs\\enrichment\\c2_evs_enrichment_part9.marker",
+    "D:\\cisce\\evs\\enrichment\\c2_evs_enrichment_part10.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_evs_006 (Water and shelter), c2_evs_007 (Safety - road, fire, first aid), c2_evs_008 (Personal hygiene), c2_evs_009 (Keeping surroundings clean), c2_evs_010 (Care of plants and animals)",
+  "mascotName": "Nurse Nisha",
+  "mascotDescription": "a friendly school nurse with a white cap with red cross, a blue uniform, a first aid box, and a warm smile. Custom SVG, not an owl.",
+  "sceneDescription": "safe neighbourhood scene with sky gradient, a zebra crossing, traffic lights, a fire extinguisher, a first aid kit, and a garden",
+  "svgObjects": [
+    { "name": "ZebraCrossingIcon", "description": "a zebra crossing with black and white stripes" },
+    { "name": "TrafficLightIcon", "description": "a traffic light with red, yellow, green signals" },
+    { "name": "FireExtinguisherIcon", "description": "a red fire extinguisher" },
+    { "name": "FirstAidIcon", "description": "a white first aid box with red cross" },
+    { "name": "SoapIcon", "description": "a bar of soap for washing hands" },
+    { "name": "ToothbrushIcon", "description": "a toothbrush with toothpaste" },
+    { "name": "DustbinIcon", "description": "a green dustbin for garbage" },
+    { "name": "WaterTapIcon", "description": "a water tap for clean water" },
+    { "name": "PlantSaplingIcon", "description": "a small plant sapling being watered" },
+    { "name": "PetDogIcon", "description": "a pet dog being fed" },
+    { "name": "RedSignalIcon", "description": "a red traffic signal (STOP)" },
+    { "name": "GreenSignalIcon", "description": "a green traffic signal (GO)" }
+  ],
+  "challengeTypes": [
+    "identify: What should you do at a RED traffic signal? (Stop and wait vs Go fast vs Keep walking)",
+    "identify: Where should you cross the road? (At a zebra crossing vs Anywhere vs In the middle of cars)",
+    "sort: Drag road safety rules to Follow vs Not Follow (Follow: look left-right-left before crossing, use zebra crossing, hold elder's hand, walk on footpath | Not Follow: run on road, cross between cars, play on road, use phone while walking)",
+    "identify: What should you do if clothes catch fire? (Stop, drop and roll vs Run fast vs Hide under bed)",
+    "sort: Drag personal hygiene habits to Good vs Bad (Good: brush teeth twice daily, wash hands before eating, bathe daily, trim nails, wear clean clothes | Bad: eat without washing hands, share towels, bite nails, skip bath, wear dirty clothes)",
+    "identify: Where should we throw garbage? (In a dustbin vs On the road vs In the garden)",
+    "sort: Drag waste items to the right bin (Wet waste: fruit peels, vegetable scraps, tea leaves, food leftovers | Dry waste: paper, plastic bottles, cardboard, glass, metal)",
+    "sort: Drag care actions to plants or animals (Plants: water them daily, keep in sunlight, remove weeds, don't pluck leaves | Animals: feed them on time, give clean water, keep their space clean, take to vet when sick, be gentle)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Water and shelter — water comes from taps, wells, rivers, ponds; shelter protects us from sun, rain, cold, and animals; types of shelters (house, apartment, hut, tent). (2) Safety — road safety (look left-right-left before crossing, use zebra crossing, walk on footpath, hold an elder's hand, do not run on road, do not play on road), fire safety (do not play with matches or firecrackers, stay away from stoves and heaters, if clothes catch fire - stop, drop and roll, call for help), basic first aid (clean wound with water, apply antiseptic, cover with bandage, tell an adult, for burns apply cool water). (3) Personal hygiene — brush teeth twice daily (morning and night), wash hands with soap before eating and after using toilet, bathe daily, trim nails regularly, wear clean clothes, comb hair, keep nails short and clean. (4) Keeping surroundings clean — throw garbage in dustbin, separate wet and dry waste, do not spit, do not write on walls, sweep and mop floors, clean classroom blackboard, keep garden clean. (5) Care of plants and animals — water plants daily, keep them in sunlight, remove weeds, do not pluck leaves or flowers, do not climb on trees; feed pets on time, give them clean water, keep their space clean, take them to vet when sick, be gentle with animals, do not tease animals. Misconceptions: 'red signal means go fast' (red means STOP, green means GO), 'we can cross the road anywhere' (always use zebra crossing or pedestrian bridge), 'we should put butter on burns' (put cool water on burns, not butter or oil), 'we can eat without washing hands if they look clean' (germs are invisible, always wash with soap), 'plants don't need care' (plants need water, sunlight, and protection from weeds). Default width=720, height=560. Use named export (export function SafetyCleanGame), NOT export default. Export interface SafetyCleanGameProps with width?, height?, onComplete?: (score: number) => void."
+}

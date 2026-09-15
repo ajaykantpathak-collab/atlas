@@ -13,6 +13,13 @@ from backend.api.enhanced_nodes import router as enhanced_nodes_router
 from backend.api.intelligence import router as intelligence_router
 from backend.api.tutor import router as its_tutor_router
 from backend.api.teacher_analytics import router as teacher_analytics_router
+# NOTE: api/homework.py is NOT mounted — it imports `from database import
+# Homework` (pre-refactor package layout + models that no longer exist).
+# The frontend homework page is mock-data anyway; mount it only after
+# porting to backend.models + backend.database.
+from backend.api.analytics import router as analytics_router
+from backend.api.accessibility import router as accessibility_router
+from backend.api.student_shim import router as student_router
 
 __all__ = [
     "auth_router",
@@ -30,4 +37,7 @@ __all__ = [
     "intelligence_router",
     "its_tutor_router",
     "teacher_analytics_router",
+    "analytics_router",
+    "accessibility_router",
+    "student_router",
 ]

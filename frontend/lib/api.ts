@@ -2,21 +2,23 @@
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8001";
 
-/** Get auth token from localStorage or Zustand store. */
-function getAuthToken(): string | null {
+/** Get auth token — reads all legacy keys so old pages keep working.
+ *  Canonical writer is studentStore ('token' + 'refresh_token'); this
+ *  helper tolerates 'auth_token' and the zustand 'dream-auth' store. */
+export function getAuthToken(): string | null {
   if (typeof window === "undefined") return null;
-  // Try direct token
-  const token = localStorage.getItem("token");
-  if (token) return token;
-  // Try Zustand persisted store
-  try {
-    const raw = localStorage.getItem("dream-auth");
-    if (raw) {
-      const parsed = JSON.parse(raw);
-      return parsed?.state?.token || null;
-    }
-  } catch {}
-  return null;
+  return (
+    localStorage.getItem("token") ||
+    localStorage.getItem("auth_token") ||
+    (() => {
+      try {
+        const raw = localStorage.getItem("dream-auth");
+        return raw ? JSON.parse(raw)?.state?.token || null : null;
+      } catch {
+        return null;
+      }
+    })()
+  );
 }
 
 /** Build headers with auth token if available. */

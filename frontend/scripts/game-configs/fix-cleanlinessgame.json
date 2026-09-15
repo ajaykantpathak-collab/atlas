@@ -1,0 +1,57 @@
+{
+  "gameTitle": "CleanlinessGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\evs\\CleanlinessGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\evs\\enrichment\\c1_evs_enrichment_part10.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\chem\\WaterGame.tsx",
+  "cisceNodes": "c1_evs_010 (Personal cleanliness - habits and hygiene)",
+  "mascotName": "Hygiene Hero Hema",
+  "mascotDescription": "a friendly young health worker with a white coat, soap bar, and a sparkle of cleanliness. She wears a hairnet and has a warm smile. Custom SVG, not an owl.",
+  "sceneDescription": "bathroom and hygiene scene with sky gradient, a sink with soap, a toothbrush, a towel, and sparkling clean water drops",
+  "svgObjects": [
+    {
+      "name": "SoapIcon",
+      "description": "a bar of soap with bubbles"
+    },
+    {
+      "name": "ToothbrushIcon",
+      "description": "a toothbrush with toothpaste"
+    },
+    {
+      "name": "TowelIcon",
+      "description": "a folded clean towel"
+    },
+    {
+      "name": "NailClipperIcon",
+      "description": "a nail clipper for cutting nails"
+    },
+    {
+      "name": "CombIcon",
+      "description": "a comb for neat hair"
+    },
+    {
+      "name": "WaterDropIcon",
+      "description": "a water drop for washing"
+    },
+    {
+      "name": "CleanHandIcon",
+      "description": "a clean hand with sparkle"
+    },
+    {
+      "name": "GermsIcon",
+      "description": "tiny germs that we wash away"
+    }
+  ],
+  "challengeTypes": [
+    "identify: When should we wash our hands with soap? (Before eating and after toilet vs Only at night vs Never)",
+    "identify: How many times should we brush our teeth? (Twice daily - morning and night vs Once a week vs Never)",
+    "identify: Why should we cut our nails? (To stop dirt and germs hiding under nails vs To look pretty vs To scratch)",
+    "sort: Drag hygiene habits to the right time (Morning: brush teeth, bathe | Before eating: wash hands | After toilet: wash hands | Daily: wear clean clothes)",
+    "identify: What happens if we do NOT bathe daily? (Sweat and dirt cause rashes and boils vs Nothing happens vs We get taller)",
+    "identify: Why should we wear clean clothes? (Prevents rashes and boils vs To show off vs It does not matter)",
+    "sort: Drag items to clean vs dirty habits (Clean: wash hands, brush teeth, bathe, clean nails | Dirty: dirty nails, unwashed hands, dirty clothes, not brushing)",
+    "sort: Drag hygiene tools to what they do (Clean teeth: toothbrush | Wash hands: soap | Dry body: towel | Cut nails: nail clipper | Neat hair: comb)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. Teach: (1) Wash hands with soap before eating and after toilet. (2) Brush teeth twice daily - morning and night. (3) Bathe daily with soap. (4) Wear clean clothes. (5) Keep nails short and clean. (6) Comb hair. Misconceptions: \"I do not need to wash hands if they look clean\" (germs are invisible, wash with soap anyway), \"brushing once is enough\" (brush twice - morning and night), \"long nails are fine\" (dirt and germs hide under long nails). Default width=720, height=560. Use named export (export function CleanlinessGame), NOT export default. Export interface CleanlinessGameProps with width?, height?, onComplete?: (score: number) => void."
+}

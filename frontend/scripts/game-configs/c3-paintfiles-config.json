@@ -1,0 +1,45 @@
+{
+  "gameTitle": "PaintFilesGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\PaintFilesGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\cs\\enrichment\\c3_cs_enrichment_part11.marker",
+    "D:\\cisce\\cs\\enrichment\\c3_cs_enrichment_part12.marker",
+    "D:\\cisce\\cs\\enrichment\\c3_cs_enrichment_part13.marker",
+    "D:\\cisce\\cs\\enrichment\\c3_cs_enrichment_part14.marker",
+    "D:\\cisce\\cs\\enrichment\\c3_cs_enrichment_part15.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_cs_011 (Fun with Paint - advanced tools, shapes, colour palette), c3_cs_012 (File management - organisation of folders, creating subfolders), c3_cs_013 (Deleting and restoring files - Recycle Bin), c3_cs_014 (Computer etiquette - caring for hardware and software), c3_cs_015 (Keyboard shortcuts - copy, paste, cut, undo, select all)",
+  "mascotName": "Artist Akhil",
+  "mascotDescription": "a friendly digital artist with a paintbrush, a palette, a beret hat, and a tablet with Paint open. Custom SVG, not an owl.",
+  "sceneDescription": "art studio scene with sky gradient through a window, an easel with Paint open, paint tubes, a filing cabinet, a recycle bin, and a keyboard",
+  "svgObjects": [
+    { "name": "PaintBrushIcon", "description": "a paintbrush tool" },
+    { "name": "PencilToolIcon", "description": "a pencil tool in Paint" },
+    { "name": "EraserIcon", "description": "an eraser tool" },
+    { "name": "FillBucketIcon", "description": "a fill/bucket tool" },
+    { "name": "ColorPaletteIcon", "description": "a color palette with colors" },
+    { "name": "ShapeToolIcon", "description": "a shapes tool (rectangle, circle)" },
+    { "name": "FolderIcon", "description": "a file folder" },
+    { "name": "SubfolderIcon", "description": "a subfolder inside a folder" },
+    { "name": "FileIcon", "description": "a file document" },
+    { "name": "RecycleBinIcon", "description": "a recycle bin" },
+    { "name": "RestoreIcon", "description": "a restore from recycle bin" },
+    { "name": "CopyIcon", "description": "a copy (Ctrl+C) icon" },
+    { "name": "PasteIcon", "description": "a paste (Ctrl+V) icon" },
+    { "name": "UndoIcon", "description": "an undo (Ctrl+Z) icon" }
+  ],
+  "challengeTypes": [
+    "identify: Which tool in Paint fills a closed shape with color? (Fill/Bucket tool vs Pencil vs Eraser)",
+    "identify: Which tool removes part of your drawing in Paint? (Eraser vs Fill bucket vs Color palette)",
+    "sort: Drag each Paint tool to its function (Pencil: draw freehand lines | Brush: paint thick strokes | Eraser: remove parts of drawing | Fill bucket: fill area with color | Shapes: draw rectangles, circles, lines | Color palette: choose colors)",
+    "identify: What is a FOLDER used for? (Organising and storing files neatly vs Drawing pictures vs Playing music)",
+    "sort: Drag each file management action to its correct steps (Create folder: right-click > New > Folder > type name | Create subfolder: open folder > right-click > New > Folder | Move file: drag file into folder | Delete file: select file > press Delete key | Restore file: open Recycle Bin > right-click file > Restore)",
+    "identify: Where do deleted files go? (Recycle Bin vs Desktop vs Internet)",
+    "sort: Drag each keyboard shortcut to its function (Ctrl+C: copy selected text/file | Ctrl+V: paste copied item | Ctrl+X: cut (move) selected item | Ctrl+Z: undo last action | Ctrl+A: select all items)",
+    "sort: Drag each action to Good or Bad computer etiquette (Good: clean keyboard gently, close programs properly, keep food away, save work regularly | Bad: eat near keyboard, pull cables, never save work, force shutdown, hit the computer)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Fun with Paint — Paint tools: pencil (draw freehand), brush (thick strokes), eraser (remove drawing), fill bucket (fill closed area with color), shapes (rectangle, circle, line), color palette (choose colors). To draw: select tool, choose color, draw on canvas. (2) File management — folders organize files neatly. Create folder: right-click > New > Folder > type name. Subfolders: folders inside folders for better organization (e.g. School > Class3 > Homework). Move files: drag into folder. Good organization makes files easy to find. (3) Deleting and Recycle Bin — delete: select file > press Delete key. Deleted files go to Recycle Bin (not permanently gone). Restore: open Recycle Bin > right-click file > Restore (file goes back to original location). Empty Recycle Bin: permanently deletes files (cannot be restored). (4) Computer etiquette — keep food and drinks away from keyboard, clean screen with soft cloth, do not pull cables, close programs properly (don't force shutdown), save work regularly, handle laptop gently, ask teacher for help if something goes wrong. (5) Keyboard shortcuts — Ctrl+C (copy), Ctrl+V (paste), Ctrl+X (cut/move), Ctrl+Z (undo), Ctrl+A (select all). Copy = duplicate, Cut = move, Paste = place copied/cut item, Undo = reverse last action. Misconceptions: 'deleting a file destroys it forever' (files go to Recycle Bin first and can be restored), 'folders and files are the same' (folders CONTAIN files, files contain data), 'Ctrl+X and Ctrl+C are the same' (Ctrl+C copies, Ctrl+X cuts/moves — the original is removed after paste), 'eating near the computer is fine' (food and drinks can damage keyboard and computer), 'Paint is only for drawing lines' (Paint has fill, shapes, brushes, and many colors). Default width=720, height=560. Use named export (export function PaintFilesGame), NOT export default. Export interface PaintFilesGameProps with width?, height?, onComplete?: (score: number) => void."
+}

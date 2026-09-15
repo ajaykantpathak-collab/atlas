@@ -1,0 +1,760 @@
+{
+  "gameFile": "WaterGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_chem_001",
+    "c1_chem_002",
+    "c1_chem_003",
+    "c1_chem_004"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Water is a Helper! 💧",
+      "text": "Water helps us every day! We drink it, cook with it, bathe with it, wash clothes and utensils, and water plants! It is a daily helper in every home!",
+      "emoji": "💧",
+      "bgColor": "from-cyan-400 to-blue-500",
+      "spoken": "Water helps us every day! We drink it, cook with it, bathe with it, wash clothes and utensils, and water plants!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "With or Without Water? 🚰",
+      "text": "Some jobs need water — bathing, cooking, washing. Some jobs do NOT need water — sweeping with a broom, folding dry clothes, dusting! Can you tell the difference?",
+      "emoji": "🧹",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "Some jobs need water like bathing, cooking, and washing. Some jobs do not need water like sweeping, folding clothes, and dusting!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Where Does Water Come From? 🏞️",
+      "text": "Water comes from many places! Taps, wells, hand pumps, rivers, ponds, lakes, rain, and water tankers are all sources of water!",
+      "emoji": "🌊",
+      "bgColor": "from-teal-400 to-cyan-500",
+      "spoken": "Water comes from many places! Taps, wells, hand pumps, rivers, ponds, lakes, rain, and water tankers are all sources of water!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Save Water! 💪",
+      "text": "Fresh water is limited! Close taps tightly, use a mug for bathing, fix leaks. Do not let water overflow or run while brushing! Every drop counts!",
+      "emoji": "🪣",
+      "bgColor": "from-green-400 to-emerald-500",
+      "spoken": "Fresh water is limited! Close taps tightly, use a mug for bathing, fix leaks. Do not let water overflow or run while brushing!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Reuse Water! 🔄",
+      "text": "Reuse means using the same water again! Vegetable wash water can water plants. Leftover drinking water can clean tables. Washing machine water can mop floors!",
+      "emoji": "🌱",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Reuse means using the same water again! Vegetable wash water can water plants. Leftover drinking water can clean tables!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_use",
+      "question": "Which of these jobs NEEDS water?",
+      "answer": "Cooking rice",
+      "options": [
+        "Cooking rice",
+        "Sweeping the floor",
+        "Folding dry clothes"
+      ],
+      "hint": "Think: does this job use water? Cooking rice needs water to soften the grains!",
+      "misconception": "Cooking rice NEEDS water! Without water, the rice stays hard and burns! Sweeping and folding do NOT need water — they are dry jobs!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "Cooking rice",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "Sweeping the floor",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Folding dry clothes",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Sweeping the floor",
+          "Cooking rice"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_use",
+      "question": "Which of these jobs does NOT need water?",
+      "answer": "Dusting the shelf",
+      "options": [
+        "Bathing",
+        "Washing utensils",
+        "Dusting the shelf"
+      ],
+      "hint": "Dusting uses a dry cloth! No water needed! Bathing and washing both need water!",
+      "misconception": "Dusting the shelf does NOT need water — it uses a dry cloth! Bathing and washing utensils both NEED water! Not every cleaning job needs water!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "Bathing",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "Washing utensils",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Dusting the shelf",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Dusting the shelf",
+          "Bathing"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_source",
+      "question": "Which of these is a source of water?",
+      "answer": "Well",
+      "options": [
+        "Well",
+        "Television",
+        "Chair"
+      ],
+      "hint": "A source is a place we get water FROM! A well has water at the bottom!",
+      "misconception": "A well is a source of water — it is a deep hole with water! A TV and a chair are NOT sources! Sources are places water comes from: taps, wells, rivers, rain!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "Well",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "Television",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Chair",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Television",
+          "Well"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "identify_source",
+      "question": "Which of these is NOT a source of water?",
+      "answer": "Book",
+      "options": [
+        "River",
+        "Rainwater",
+        "Book"
+      ],
+      "hint": "A river has water! Rain gives water! A book does not give water!",
+      "misconception": "A book is NOT a source of water! Rivers and rainwater ARE sources! Sources are places we get water from — not everyday objects like books!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "River",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "Rainwater",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Book",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Book",
+          "River"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_uses",
+      "question": "Drag each job into the right bin! Does it need water or not?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Bathing, cooking, washing = need water! Sweeping, folding = no water!",
+      "misconception": "Think carefully! If the job uses water to do it well, it goes in \"Needs Water\"! Dry jobs like sweeping and folding go in \"No Water\"!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "bathe",
+            "label": "Bathing",
+            "correctBin": "water"
+          },
+          {
+            "id": "cook",
+            "label": "Cooking",
+            "correctBin": "water"
+          },
+          {
+            "id": "sweep",
+            "label": "Sweeping",
+            "correctBin": "no-water"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "bathe",
+          "kind": "circle",
+          "label": "Bathing",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "water",
+          "interaction": "drag-to-bin",
+          "targetBin": "water"
+        },
+        {
+          "id": "cook",
+          "kind": "circle",
+          "label": "Cooking",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "water",
+          "interaction": "drag-to-bin",
+          "targetBin": "water"
+        },
+        {
+          "id": "sweep",
+          "kind": "circle",
+          "label": "Sweeping",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "no-water",
+          "interaction": "drag-to-bin",
+          "targetBin": "no-water"
+        },
+        {
+          "id": "fold",
+          "kind": "circle",
+          "label": "Folding clothes",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "no-water",
+          "interaction": "drag-to-bin",
+          "targetBin": "no-water"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "bathe",
+          "label": "Bathing",
+          "emoji": "🚿",
+          "correctBin": "water"
+        },
+        {
+          "id": "cook",
+          "label": "Cooking",
+          "emoji": "🍚",
+          "correctBin": "water"
+        },
+        {
+          "id": "sweep",
+          "label": "Sweeping",
+          "emoji": "🧹",
+          "correctBin": "no-water"
+        },
+        {
+          "id": "fold",
+          "label": "Folding clothes",
+          "emoji": "👔",
+          "correctBin": "no-water"
+        }
+      ],
+      "bins": [
+        {
+          "id": "water",
+          "label": "Needs Water 💧",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "no-water",
+          "label": "No Water 🚫",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "sort_sources",
+      "question": "Drag each item! Is it a water source or not?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Taps, wells, rivers, rain = water sources! TVs, chairs, books = not sources!",
+      "misconception": "A source is where water comes FROM! Taps, wells, rivers, and rain give us water! TVs and chairs do not give water!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tap",
+            "label": "Tap water",
+            "correctBin": "source"
+          },
+          {
+            "id": "river",
+            "label": "River",
+            "correctBin": "source"
+          },
+          {
+            "id": "tv",
+            "label": "Television",
+            "correctBin": "not-source"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tap",
+          "kind": "water-drop",
+          "label": "Tap water",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "source",
+          "interaction": "drag-to-bin",
+          "targetBin": "source"
+        },
+        {
+          "id": "river",
+          "kind": "circle",
+          "label": "River",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "source",
+          "interaction": "drag-to-bin",
+          "targetBin": "source"
+        },
+        {
+          "id": "tv",
+          "kind": "circle",
+          "label": "Television",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "not-source",
+          "interaction": "drag-to-bin",
+          "targetBin": "not-source"
+        },
+        {
+          "id": "chair",
+          "kind": "circle",
+          "label": "Chair",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "not-source",
+          "interaction": "drag-to-bin",
+          "targetBin": "not-source"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tap",
+          "label": "Tap water",
+          "emoji": "🚰",
+          "correctBin": "source"
+        },
+        {
+          "id": "river",
+          "label": "River",
+          "emoji": "🏞️",
+          "correctBin": "source"
+        },
+        {
+          "id": "tv",
+          "label": "Television",
+          "emoji": "📺",
+          "correctBin": "not-source"
+        },
+        {
+          "id": "chair",
+          "label": "Chair",
+          "emoji": "🪑",
+          "correctBin": "not-source"
+        }
+      ],
+      "bins": [
+        {
+          "id": "source",
+          "label": "Water Source ✅",
+          "color": "#22C55E"
+        },
+        {
+          "id": "not-source",
+          "label": "Not a Source ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify_habit",
+      "question": "Which action SAVES water?",
+      "answer": "Use a mug for bathing",
+      "options": [
+        "Use a mug for bathing",
+        "Let the tap run while brushing",
+        "Let the bucket overflow"
+      ],
+      "hint": "Using a mug takes only the water you need! Running taps and overflowing buckets waste water!",
+      "misconception": "Using a mug SAVES water — you take only what you need! Letting the tap run or the bucket overflow WASTES water! Fresh water is limited — every drop counts!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "Use a mug for bathing",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "Let the tap run while brushing",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Let the bucket overflow",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Use a mug for bathing",
+          "Let the tap run while brushing"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort_habits",
+      "question": "Drag each action! Does it save water or waste water?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Closing taps, reusing water, fixing leaks = save! Running taps, overflowing, throwing water = waste!",
+      "misconception": "Good habits save water: close taps, use mugs, reuse water, fix leaks! Bad habits waste water: running taps, overflowing, throwing water away!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "close-tap",
+            "label": "Close tap after use",
+            "correctBin": "save"
+          },
+          {
+            "id": "reuse-veg",
+            "label": "Reuse vegetable water for plants",
+            "correctBin": "save"
+          },
+          {
+            "id": "let-run",
+            "label": "Let tap run while brushing",
+            "correctBin": "waste"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "close-tap",
+          "kind": "circle",
+          "label": "Close tap after use",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "save",
+          "interaction": "drag-to-bin",
+          "targetBin": "save"
+        },
+        {
+          "id": "reuse-veg",
+          "kind": "leaf",
+          "label": "Reuse vegetable water for plants",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "save",
+          "interaction": "drag-to-bin",
+          "targetBin": "save"
+        },
+        {
+          "id": "let-run",
+          "kind": "circle",
+          "label": "Let tap run while brushing",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "waste",
+          "interaction": "drag-to-bin",
+          "targetBin": "waste"
+        },
+        {
+          "id": "overflow",
+          "kind": "circle",
+          "label": "Let bucket overflow",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "waste",
+          "interaction": "drag-to-bin",
+          "targetBin": "waste"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "close-tap",
+          "label": "Close tap after use",
+          "emoji": "🚰",
+          "correctBin": "save"
+        },
+        {
+          "id": "reuse-veg",
+          "label": "Reuse vegetable water for plants",
+          "emoji": "🥬",
+          "correctBin": "save"
+        },
+        {
+          "id": "let-run",
+          "label": "Let tap run while brushing",
+          "emoji": "💦",
+          "correctBin": "waste"
+        },
+        {
+          "id": "overflow",
+          "label": "Let bucket overflow",
+          "emoji": "🌊",
+          "correctBin": "waste"
+        }
+      ],
+      "bins": [
+        {
+          "id": "save",
+          "label": "Save Water ✅",
+          "color": "#22C55E"
+        },
+        {
+          "id": "waste",
+          "label": "Wastes Water ⚠️",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "theme": "ocean",
+  "storyArc": {
+    "theme": "A young scientist experiments with matter and materials",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Science Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_chem_001",
+    "region": "Chemistry Lab",
+    "mapX": 0.1,
+    "mapY": 0.15,
+    "icon": "🧪",
+    "prerequisites": [
+      "c1_chem_002"
+    ]
+  },
+  "subject": "chemistry"
+}

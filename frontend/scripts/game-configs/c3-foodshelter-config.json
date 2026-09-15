@@ -1,0 +1,44 @@
+{
+  "gameTitle": "FoodShelterGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\FoodShelterGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\evs\\enrichment\\c3_evs_enrichment_part7.marker",
+    "D:\\cisce\\evs\\enrichment\\c3_evs_enrichment_part8.marker",
+    "D:\\cisce\\evs\\enrichment\\c3_evs_enrichment_part9.marker",
+    "D:\\cisce\\evs\\enrichment\\c3_evs_enrichment_part10.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_evs_007 (Different types of food), c3_evs_008 (Shelters of living beings - nests, caves, burrows), c3_evs_009 (Local travel - modes of transport in my area), c3_evs_010 (Simple crafts and activities - clay, paper, drawing)",
+  "mascotName": "Village Guide Vikram",
+  "mascotDescription": "a friendly village guide with a map, a walking stick, a water bottle, and a craft kit. Custom SVG, not an owl.",
+  "sceneDescription": "village scene with sky gradient, different houses (hut, house, apartment), a bird nest, a rabbit burrow, a bus, and craft materials",
+  "svgObjects": [
+    { "name": "RiceIcon", "description": "rice (energy food)" },
+    { "name": "DalIcon", "description": "dal (body-building food)" },
+    { "name": "AppleIcon", "description": "apple (protective food)" },
+    { "name": "MilkIcon", "description": "milk (body-building food)" },
+    { "name": "HutIcon", "description": "a mud hut with thatched roof" },
+    { "name": "HouseIcon", "description": "a brick house" },
+    { "name": "ApartmentIcon", "description": "an apartment building" },
+    { "name": "NestIcon", "description": "a bird nest" },
+    { "name": "CaveIcon", "description": "a cave (animal shelter)" },
+    { "name": "BurrowIcon", "description": "a rabbit burrow underground" },
+    { "name": "BusIcon", "description": "a bus (public transport)" },
+    { "name": "CycleIcon", "description": "a bicycle (personal transport)" },
+    { "name": "ClayPotIcon", "description": "a clay pot (craft)" },
+    { "name": "PaperBoatIcon", "description": "a paper boat (craft)" }
+  ],
+  "challengeTypes": [
+    "identify: Which food gives us ENERGY to run and play? (Rice and chapati vs Apple vs Milk)",
+    "sort: Drag each food to its food type (Energy food: rice, wheat, chapati, potato | Body-building: dal, milk, eggs, fish | Protective: fruits, vegetables, amla)",
+    "identify: What is a SHELTER? (A safe place to live and protect from rain, sun, and cold vs A place to play games vs A type of food)",
+    "sort: Drag each living being to its correct shelter (Human: house, hut, apartment | Bird: nest on tree | Rabbit: burrow underground | Lion/tiger: cave/den | Snake: hole in ground | Fish: water/pond/river)",
+    "identify: Which of these is a PUBLIC mode of transport? (Bus vs Bicycle vs Walking)",
+    "sort: Drag each transport mode to its type (Land: bus, car, bicycle, train, auto | Water: boat, ship, ferry | Air: aeroplane, helicopter | Animal: bullock cart, horse ride)",
+    "identify: What can you make with CLAY? (Pots and diyas vs Paper boats vs Wooden furniture)",
+    "sort: Drag each craft material to what you can make (Clay: pots, diyas, statues | Paper: boats, planes, greeting cards | Drawing: pictures with crayons and pencils | Cloth: simple stitching and embroidery)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Different types of food — energy food (rice, wheat, chapati, potato — give energy to work and play), body-building food (dal, milk, eggs, fish, meat — build muscles and bones), protective food (fruits, vegetables, amla — vitamins and minerals protect from disease). A balanced diet has all three types. (2) Shelters of living beings — shelter is a safe place to live. Humans: houses (brick), huts (mud and thatch), apartments (tall buildings). Birds: nests (twigs on trees). Rabbits: burrows (underground holes). Lions/tigers: caves or dens. Snakes: holes in ground. Fish: water (rivers, ponds). Spiders: webs. Different animals need different shelters. (3) Local travel and transport — land transport: bus, car, bicycle, train, auto-rickshaw, walking. Water transport: boat, ship, ferry. Air transport: aeroplane, helicopter. Animal transport: bullock cart, horse ride. Public transport (bus, train) is shared by many people. Personal transport (bicycle, car) is for one family. (4) Simple crafts — clay: make pots, diyas, statues, toys (clay is natural mud). Paper: make boats, planes, greeting cards, origami. Drawing: use crayons, pencils, colors to make pictures. Cloth: simple stitching, embroidery. Crafts develop creativity and hand skills. Misconceptions: 'only humans need shelter' (all living beings need shelter — birds need nests, animals need caves/burrows), 'rice and apple are the same food type' (rice is energy food, apple is protective food), 'bicycle is public transport' (bicycle is personal transport — public transport is shared like bus and train), 'clay and paper are the same material' (clay is mud/earth for pots, paper is for folding and drawing), 'all animals live in caves' (different animals have different shelters — birds build nests, rabbits dig burrows, fish live in water). Default width=720, height=560. Use named export (export function FoodShelterGame), NOT export default. Export interface FoodShelterGameProps with width?, height?, onComplete?: (score: number) => void."
+}

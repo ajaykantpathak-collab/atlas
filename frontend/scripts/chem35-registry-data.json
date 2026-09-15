@@ -1,0 +1,247 @@
+[
+    {
+        "Sim":  "C6_ChemistryMatteranditscompositionSim",
+        "Class":  6,
+        "Name":  "C he mi st ry Ma tt er an di ts co mp os it io n",
+        "NodeIds":  "c6_chem_001,c6_chem_002,c6_chem_003,c6_chem_004,c6_chem_005,c6_chem_006,c6_chem_007,c6_chem_008",
+        "Count":  8
+    },
+    {
+        "Sim":  "C6_ChemistryCarbondioxideandnitrogeninairSim",
+        "Class":  6,
+        "Name":  "C he mi st ry Ca rb on di ox id ea nd ni tr og en in ai r",
+        "NodeIds":  "c6_chem_017,c6_chem_018,c6_chem_019",
+        "Count":  3
+    },
+    {
+        "Sim":  "C6_ChemistryAtomicstructuresubatomicparticlesSim",
+        "Class":  6,
+        "Name":  "C he mi st ry At om ic st ru ct ur es ub at om ic pa rt ic le s",
+        "NodeIds":  "c6_chem_009,c6_chem_010,c6_chem_011,c6_chem_012,c6_chem_013,c6_chem_014,c6_chem_015,c6_chem_016",
+        "Count":  8
+    },
+    {
+        "Sim":  "C7_ChemistryAtomicstructureelectronsprotonsneutronsSim",
+        "Class":  7,
+        "Name":  "C he mi st ry At om ic st ru ct ur ee le ct ro ns pr ot on sn eu tr on s",
+        "NodeIds":  "c7_chem_009,c7_chem_010,c7_chem_011,c7_chem_012,c7_chem_013,c7_chem_014,c7_chem_015,c7_chem_016",
+        "Count":  8
+    },
+    {
+        "Sim":  "C7_ChemistryMatterclassificationrevisitedSim",
+        "Class":  7,
+        "Name":  "C he mi st ry Ma tt er cl as si fi ca ti on re vi si te d",
+        "NodeIds":  "c7_chem_001,c7_chem_002,c7_chem_003,c7_chem_004,c7_chem_005,c7_chem_006,c7_chem_007,c7_chem_008",
+        "Count":  8
+    },
+    {
+        "Sim":  "C7_ChemistryWaterauniversalsolventSim",
+        "Class":  7,
+        "Name":  "C he mi st ry Wa te ra un iv er sa ls ol ve nt",
+        "NodeIds":  "c7_chem_017,c7_chem_018,c7_chem_019,c7_chem_020",
+        "Count":  4
+    },
+    {
+        "Sim":  "C8_ChemistryChemicalequationsbalancingSim",
+        "Class":  8,
+        "Name":  "C he mi st ry Ch em ic al eq ua ti on sb al an ci ng",
+        "NodeIds":  "c8_chem_009,c8_chem_010,c8_chem_011,c8_chem_012,c8_chem_013,c8_chem_014,c8_chem_015,c8_chem_016",
+        "Count":  8
+    },
+    {
+        "Sim":  "C8_ChemistryMatterstatesandinterconversionrevisitedSim",
+        "Class":  8,
+        "Name":  "C he mi st ry Ma tt er st at es an di nt er co nv er si on re vi si te d",
+        "NodeIds":  "c8_chem_001,c8_chem_002,c8_chem_003,c8_chem_004,c8_chem_005,c8_chem_006,c8_chem_007,c8_chem_008",
+        "Count":  8
+    },
+    {
+        "Sim":  "C8_ChemistryWaterpropertiesandcompositionSim",
+        "Class":  8,
+        "Name":  "C he mi st ry Wa te rp ro pe rt ie sa nd co mp os it io n",
+        "NodeIds":  "c8_chem_017,c8_chem_018,c8_chem_019,c8_chem_020",
+        "Count":  4
+    },
+    {
+        "Sim":  "C9_ChemistryAcidraincompositionandcausesSim",
+        "Class":  9,
+        "Name":  "C he mi st ry Ac id ra in co mp os it io na nd ca us es",
+        "NodeIds":  "c9_chem_051,c9_chem_052,c9_chem_053,c9_chem_054",
+        "Count":  4
+    },
+    {
+        "Sim":  "C9_ChemistryCovalentbondingSim",
+        "Class":  9,
+        "Name":  "C he mi st ry Co va le nt bo nd in g",
+        "NodeIds":  "c9_chem_031,c9_chem_032,c9_chem_033,c9_chem_034,c9_chem_035,c9_chem_036,c9_chem_037,c9_chem_038,c9_chem_039,c9_chem_040",
+        "Count":  10
+    },
+    {
+        "Sim":  "C9_ChemistryEnergychangesinchemicalreactionsSim",
+        "Class":  9,
+        "Name":  "C he mi st ry En er gy ch an ge si nc he mi ca lr ea ct io ns",
+        "NodeIds":  "c9_chem_011,c9_chem_012,c9_chem_013,c9_chem_014,c9_chem_015,c9_chem_016,c9_chem_017,c9_chem_018,c9_chem_019,c9_chem_020",
+        "Count":  10
+    },
+    {
+        "Sim":  "C9_ChemistryLaboratorypreparationofhydrogenSim",
+        "Class":  9,
+        "Name":  "C he mi st ry La bo ra to ry pr ep ar at io no fh yd ro ge n",
+        "NodeIds":  "c9_chem_041,c9_chem_042,c9_chem_043,c9_chem_044,c9_chem_045,c9_chem_046,c9_chem_047,c9_chem_048,c9_chem_049,c9_chem_050",
+        "Count":  10
+    },
+    {
+        "Sim":  "C9_ChemistrySoftwaterandhardwaterSim",
+        "Class":  9,
+        "Name":  "C he mi st ry So ft wa te ra nd ha rd wa te r",
+        "NodeIds":  "c9_chem_021,c9_chem_022,c9_chem_023,c9_chem_024,c9_chem_025,c9_chem_026,c9_chem_027,c9_chem_028,c9_chem_029,c9_chem_030",
+        "Count":  10
+    },
+    {
+        "Sim":  "C9_ChemistrySymbolsofelementsSim",
+        "Class":  9,
+        "Name":  "C he mi st ry Sy mb ol so fe le me nt s",
+        "NodeIds":  "c9_chem_001,c9_chem_002,c9_chem_003,c9_chem_004,c9_chem_005,c9_chem_006,c9_chem_007,c9_chem_008,c9_chem_009,c9_chem_010",
+        "Count":  10
+    },
+    {
+        "Sim":  "C10_ChemistryAlkanesgeneralformulaandpreparationSim",
+        "Class":  10,
+        "Name":  "C he mi st ry Al ka ne sg en er al fo rm ul aa nd pr ep ar at io n",
+        "NodeIds":  "c10_chem_071,c10_chem_072,c10_chem_073,c10_chem_074,c10_chem_075,c10_chem_076,c10_chem_077,c10_chem_078,c10_chem_079,c10_chem_080",
+        "Count":  10
+    },
+    {
+        "Sim":  "C10_ChemistryAlloysandamalgamsSim",
+        "Class":  10,
+        "Name":  "C he mi st ry Al lo ys an da ma lg am s",
+        "NodeIds":  "c10_chem_051,c10_chem_052,c10_chem_053,c10_chem_054,c10_chem_055,c10_chem_056,c10_chem_057,c10_chem_058,c10_chem_059,c10_chem_060",
+        "Count":  10
+    },
+    {
+        "Sim":  "C10_ChemistryClassificationofbasesSim",
+        "Class":  10,
+        "Name":  "C he mi st ry Cl as si fi ca ti on of ba se s",
+        "NodeIds":  "c10_chem_021,c10_chem_022,c10_chem_023,c10_chem_024,c10_chem_025,c10_chem_026,c10_chem_027,c10_chem_028,c10_chem_029,c10_chem_030",
+        "Count":  10
+    },
+    {
+        "Sim":  "C10_ChemistryElectrolysisofspecificcompoundsSim",
+        "Class":  10,
+        "Name":  "C he mi st ry El ec tr ol ys is of sp ec if ic co mp ou nd s",
+        "NodeIds":  "c10_chem_041,c10_chem_042,c10_chem_043,c10_chem_044,c10_chem_045,c10_chem_046,c10_chem_047,c10_chem_048,c10_chem_049,c10_chem_050",
+        "Count":  10
+    },
+    {
+        "Sim":  "C10_ChemistryPeriodicpropertiesatomicsizeSim",
+        "Class":  10,
+        "Name":  "C he mi st ry Pe ri od ic pr op er ti es at om ic si ze",
+        "NodeIds":  "c10_chem_001,c10_chem_002,c10_chem_003,c10_chem_004,c10_chem_005,c10_chem_006,c10_chem_007,c10_chem_008,c10_chem_009,c10_chem_010",
+        "Count":  10
+    },
+    {
+        "Sim":  "C10_ChemistryPolarandnonpolarcovalentcompoundsSim",
+        "Class":  10,
+        "Name":  "C he mi st ry Po la ra nd no np ol ar co va le nt co mp ou nd s",
+        "NodeIds":  "c10_chem_011,c10_chem_012,c10_chem_013,c10_chem_014,c10_chem_015,c10_chem_016,c10_chem_017,c10_chem_018,c10_chem_019,c10_chem_020",
+        "Count":  10
+    },
+    {
+        "Sim":  "C10_ChemistrySulphuricacidContactprocessSim",
+        "Class":  10,
+        "Name":  "C he mi st ry Su lp hu ri ca ci dC on ta ct pr oc es s",
+        "NodeIds":  "c10_chem_061,c10_chem_062,c10_chem_063,c10_chem_064,c10_chem_065,c10_chem_066,c10_chem_067,c10_chem_068,c10_chem_069,c10_chem_070",
+        "Count":  10
+    },
+    {
+        "Sim":  "C10_ChemistryVapourdensityandmolecularmassSim",
+        "Class":  10,
+        "Name":  "C he mi st ry Va po ur de ns it ya nd mo le cu la rm as s",
+        "NodeIds":  "c10_chem_031,c10_chem_032,c10_chem_033,c10_chem_034,c10_chem_035,c10_chem_036,c10_chem_037,c10_chem_038,c10_chem_039,c10_chem_040",
+        "Count":  10
+    },
+    {
+        "Sim":  "C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim",
+        "Class":  11,
+        "Name":  "C he mi st ry Or ga ni cC he mi st ry Ba si cP ri nc Pa rt1",
+        "NodeIds":  "c11_chem_cbse_003,c11_chem_cbse_004,c11_chem_cbse_005,c11_chem_cbse_007,c11_chem_cbse_008,c11_chem_cbse_009,c11_chem_cbse_010,c11_chem_cbse_011,c11_chem_cbse_012,c11_chem_cbse_013,c11_chem_cbse_021,c11_chem_cbse_023,c11_chem_cbse_024,c11_chem_cbse_025,c11_chem_cbse_026,c11_chem_cbse_027,c11_chem_cbse_028,c11_chem_cbse_029,c11_chem_cbse_030",
+        "Count":  19
+    },
+    {
+        "Sim":  "C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim",
+        "Class":  11,
+        "Name":  "C he mi st ry Or ga ni cC he mi st ry Ba si cP ri nc Pa rt2",
+        "NodeIds":  "c11_chem_cbse_004,c11_chem_cbse_005,c11_chem_cbse_006,c11_chem_cbse_007,c11_chem_cbse_008,c11_chem_cbse_009,c11_chem_cbse_010,c11_chem_cbse_011,c11_chem_cbse_012,c11_chem_cbse_013,c11_chem_cbse_014,c11_chem_cbse_015,c11_chem_cbse_016,c11_chem_cbse_017,c11_chem_cbse_018,c11_chem_cbse_019",
+        "Count":  16
+    },
+    {
+        "Sim":  "C11_ChemistryRedoxReactionsCBSESim",
+        "Class":  11,
+        "Name":  "C he mi st ry Re do xR ea ct io ns",
+        "NodeIds":  "c11_chem_cbse_004,c11_chem_cbse_006,c11_chem_cbse_007,c11_chem_cbse_010,c11_chem_cbse_013,c11_chem_cbse_014,c11_chem_cbse_015,c11_chem_cbse_016,c11_chem_cbse_017,c11_chem_cbse_018,c11_chem_cbse_020,c11_chem_cbse_021,c11_chem_cbse_022,c11_chem_cbse_023,c11_chem_cbse_024,c11_chem_cbse_025,c11_chem_cbse_026,c11_chem_cbse_027,c11_chem_cbse_028,c11_chem_cbse_029",
+        "Count":  20
+    },
+    {
+        "Sim":  "C11_ChemistrySomeBasicConceptsofChemistryCBSESim",
+        "Class":  11,
+        "Name":  "C he mi st ry So me Ba si cC on ce pt so fC he mi st ry",
+        "NodeIds":  "c11_chem_cbse_002,c11_chem_cbse_003,c11_chem_cbse_004,c11_chem_cbse_005,c11_chem_cbse_007,c11_chem_cbse_008,c11_chem_cbse_009,c11_chem_cbse_010,c11_chem_cbse_011,c11_chem_cbse_012,c11_chem_cbse_013,c11_chem_cbse_014,c11_chem_cbse_015,c11_chem_cbse_016,c11_chem_cbse_017,c11_chem_cbse_018,c11_chem_cbse_019,c11_chem_cbse_020,c11_chem_cbse_021,c11_chem_cbse_022,c11_chem_cbse_023,c11_chem_cbse_024,c11_chem_cbse_026,c11_chem_cbse_032,c11_chem_cbse_033,c11_chem_cbse_044,c11_chem_cbse_045,c11_chem_cbse_046,c11_chem_cbse_049",
+        "Count":  29
+    },
+    {
+        "Sim":  "C11_ChemistryThermodynamicsCBSESim",
+        "Class":  11,
+        "Name":  "C he mi st ry Th er mo dy na mi cs",
+        "NodeIds":  "c11_chem_cbse_006,c11_chem_cbse_007,c11_chem_cbse_008,c11_chem_cbse_009,c11_chem_cbse_010,c11_chem_cbse_011,c11_chem_cbse_012,c11_chem_cbse_013,c11_chem_cbse_014,c11_chem_cbse_015,c11_chem_cbse_016,c11_chem_cbse_017,c11_chem_cbse_018,c11_chem_cbse_019,c11_chem_cbse_020,c11_chem_cbse_021,c11_chem_cbse_022,c11_chem_cbse_023,c11_chem_cbse_024,c11_chem_cbse_025,c11_chem_cbse_026,c11_chem_cbse_027,c11_chem_cbse_028",
+        "Count":  23
+    },
+    {
+        "Sim":  "C12_ChemistryAldehydesKetonesandCarboxylicACBSESim",
+        "Class":  12,
+        "Name":  "C he mi st ry Al de hy de sK et on es an dC ar bo xy li cA",
+        "NodeIds":  "c12_chem_cbse_302,c12_chem_cbse_303,c12_chem_cbse_304,c12_chem_cbse_305,c12_chem_cbse_306,c12_chem_cbse_307,c12_chem_cbse_308,c12_chem_cbse_309,c12_chem_cbse_310,c12_chem_cbse_311,c12_chem_cbse_312,c12_chem_cbse_313,c12_chem_cbse_314,c12_chem_cbse_315,c12_chem_cbse_316,c12_chem_cbse_317,c12_chem_cbse_318,c12_chem_cbse_319,c12_chem_cbse_320,c12_chem_cbse_321,c12_chem_cbse_322,c12_chem_cbse_323,c12_chem_cbse_324,c12_chem_cbse_325,c12_chem_cbse_326,c12_chem_cbse_327,c12_chem_cbse_328,c12_chem_cbse_329,c12_chem_cbse_330,c12_chem_cbse_331,c12_chem_cbse_332",
+        "Count":  31
+    },
+    {
+        "Sim":  "C12_ChemistryAminesandDiazoniumSaltsCBSESim",
+        "Class":  12,
+        "Name":  "C he mi st ry Am in es an dD ia zo ni um Sa lt s",
+        "NodeIds":  "c12_chem_cbse_300,c12_chem_cbse_301,c12_chem_cbse_302,c12_chem_cbse_303,c12_chem_cbse_304,c12_chem_cbse_305,c12_chem_cbse_306,c12_chem_cbse_307,c12_chem_cbse_308,c12_chem_cbse_309,c12_chem_cbse_310,c12_chem_cbse_311,c12_chem_cbse_312,c12_chem_cbse_313,c12_chem_cbse_314,c12_chem_cbse_315,c12_chem_cbse_316,c12_chem_cbse_317,c12_chem_cbse_318,c12_chem_cbse_319,c12_chem_cbse_320,c12_chem_cbse_321,c12_chem_cbse_322,c12_chem_cbse_323,c12_chem_cbse_324,c12_chem_cbse_325,c12_chem_cbse_326,c12_chem_cbse_327",
+        "Count":  28
+    },
+    {
+        "Sim":  "C12_ChemistryBiomoleculesCBSESim",
+        "Class":  12,
+        "Name":  "C he mi st ry Bi om ol ec ul es",
+        "NodeIds":  "c12_chem_cbse_301,c12_chem_cbse_302,c12_chem_cbse_303,c12_chem_cbse_304,c12_chem_cbse_305,c12_chem_cbse_308,c12_chem_cbse_309,c12_chem_cbse_310,c12_chem_cbse_311,c12_chem_cbse_312,c12_chem_cbse_313,c12_chem_cbse_314,c12_chem_cbse_315,c12_chem_cbse_316,c12_chem_cbse_317,c12_chem_cbse_318,c12_chem_cbse_323,c12_chem_cbse_324,c12_chem_cbse_326,c12_chem_cbse_328,c12_chem_cbse_329,c12_chem_cbse_331,c12_chem_cbse_332,c12_chem_cbse_333,c12_chem_cbse_335",
+        "Count":  25
+    },
+    {
+        "Sim":  "C12_ChemistryCoordinationCompoundsCBSESim",
+        "Class":  12,
+        "Name":  "C he mi st ry Co or di na ti on Co mp ou nd s",
+        "NodeIds":  "c12_chem_cbse_302,c12_chem_cbse_303,c12_chem_cbse_305,c12_chem_cbse_307,c12_chem_cbse_308,c12_chem_cbse_309,c12_chem_cbse_313,c12_chem_cbse_318,c12_chem_cbse_319,c12_chem_cbse_320,c12_chem_cbse_321,c12_chem_cbse_322",
+        "Count":  12
+    },
+    {
+        "Sim":  "C12_ChemistryElectrochemistryCBSESim",
+        "Class":  12,
+        "Name":  "C he mi st ry El ec tr oc he mi st ry",
+        "NodeIds":  "c12_chem_cbse_300,c12_chem_cbse_301,c12_chem_cbse_303,c12_chem_cbse_304,c12_chem_cbse_306,c12_chem_cbse_307,c12_chem_cbse_308,c12_chem_cbse_309,c12_chem_cbse_311,c12_chem_cbse_312,c12_chem_cbse_315,c12_chem_cbse_317,c12_chem_cbse_318,c12_chem_cbse_319,c12_chem_cbse_321,c12_chem_cbse_322,c12_chem_cbse_323,c12_chem_cbse_324,c12_chem_cbse_325,c12_chem_cbse_326,c12_chem_cbse_327,c12_chem_cbse_333",
+        "Count":  22
+    },
+    {
+        "Sim":  "C12_ChemistryHaloalkanesandHaloarenesCBSESim",
+        "Class":  12,
+        "Name":  "C he mi st ry Ha lo al ka ne sa nd Ha lo ar en es",
+        "NodeIds":  "c12_chem_cbse_267,c12_chem_cbse_268,c12_chem_cbse_269,c12_chem_cbse_302,c12_chem_cbse_303,c12_chem_cbse_304,c12_chem_cbse_306,c12_chem_cbse_307,c12_chem_cbse_308,c12_chem_cbse_310,c12_chem_cbse_311,c12_chem_cbse_312,c12_chem_cbse_313,c12_chem_cbse_314,c12_chem_cbse_315,c12_chem_cbse_316,c12_chem_cbse_317,c12_chem_cbse_321,c12_chem_cbse_322,c12_chem_cbse_323,c12_chem_cbse_324,c12_chem_cbse_325,c12_chem_cbse_327,c12_chem_cbse_328,c12_chem_cbse_330,c12_chem_cbse_331,c12_chem_cbse_332,c12_chem_cbse_333,c12_chem_cbse_334,c12_chem_cbse_335",
+        "Count":  30
+    },
+    {
+        "Sim":  "C12_ChemistrySolutionsCBSESim",
+        "Class":  12,
+        "Name":  "C he mi st ry So lu ti on s",
+        "NodeIds":  "c12_chem_cbse_267,c12_chem_cbse_302,c12_chem_cbse_303,c12_chem_cbse_304,c12_chem_cbse_305,c12_chem_cbse_306,c12_chem_cbse_307,c12_chem_cbse_308,c12_chem_cbse_309,c12_chem_cbse_311,c12_chem_cbse_313,c12_chem_cbse_314,c12_chem_cbse_315,c12_chem_cbse_316,c12_chem_cbse_317,c12_chem_cbse_320,c12_chem_cbse_321,c12_chem_cbse_332,c12_chem_cbse_333",
+        "Count":  19
+    }
+]

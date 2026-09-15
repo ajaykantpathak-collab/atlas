@@ -1,0 +1,53 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete MagnetExplorerSimulation.tsx component about MAGNETISM — magnets, magnetic fields, compass, and magnetic poles.
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Physics Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props with REAL educational content about magnetism
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show magnetic field lines around a bar magnet, with animated field line flow
+- Mode selector for: Bar Magnet, Horseshoe Magnet, Earth Magnetic Field, Electromagnet
+- Bar Magnet: show N/S poles with field lines looping from N to S
+- Horseshoe Magnet: show U-shaped magnet with straight field lines between poles
+- Earth: show Earth with magnetic field lines and compass
+- Electromagnet: show coil with current creating magnetic field
+- Controls: Magnet Strength slider (1-10), Compass Angle slider (0-360°), Current slider (for electromagnet mode, 0-5A)
+- Readouts: Field Strength, Compass Direction, Pole Type, Force on Compass
+- Magnetic force F = (μ₀ × qm) / (4π × r²) (simplified)
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports)
+- Target 700-900 lines
+
+CHALLENGES:
+1. (recall) In Bar Magnet mode, where is the magnetic field strongest? Look at the field lines. (mcq: At the poles / In the middle / Equally everywhere)
+2. (apply) Calculate the force on a compass 5 cm from a magnet with strength 8. Use F = strength / distance². (answer: 0.32, unit: N)
+3. (evaluate) Switch to Electromagnet mode. Increase the current from 1A to 5A. Explain what happens to the magnetic field and why. (text answer about more current = stronger field)
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+{{{REFERENCE}}}
+
+Generate the COMPLETE MagnetExplorerSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

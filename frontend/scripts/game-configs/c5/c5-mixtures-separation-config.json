@@ -1,0 +1,42 @@
+{
+  "gameTitle": "MixturesSeparationGame",
+  "classLevel": 5,
+  "ageRange": "10-11",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class5\\MixturesSeparationGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\chem\\enrichment\\c5_chemistry_enrichment_part6.marker",
+    "D:\\cisce\\chem\\enrichment\\c5_chemistry_enrichment_part7.marker",
+    "D:\\cisce\\chem\\enrichment\\c5_chemistry_enrichment_part8.marker",
+    "D:\\cisce\\chem\\enrichment\\c5_chemistry_enrichment_part9.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\SolutionsFloatGame.tsx",
+  "cisceNodes": "c5_chem_006 (Solutions, suspensions and colloids), c5_chem_007 (Separation of mixtures), c5_chem_008 (Methods of separation - filtration, decantation, evaporation), c5_chem_009 (Water pollution and purification)",
+  "mascotName": "Purifier Pooja",
+  "mascotDescription": "a water purification expert with a lab coat, filter paper, and a water testing kit. She separates mixtures and purifies water. Custom SVG, not an owl.",
+  "sceneDescription": "water treatment plant with sky gradient, filter funnels, beakers with mixtures, a distillation apparatus, sand and salt being separated, muddy water being filtered, and a water purification chart on the wall",
+  "svgObjects": [
+    { "name": "SolutionIcon", "description": "a clear solution (salt dissolved in water)" },
+    { "name": "SuspensionIcon", "description": "a cloudy suspension (muddy water)" },
+    { "name": "ColloidIcon", "description": "a colloid (milk)" },
+    { "name": "FilterPaperIcon", "description": "filter paper in a funnel" },
+    { "name": "BeakerIcon", "description": "a beaker with mixture" },
+    { "name": "EvaporationIcon", "description": "a pan with water evaporating leaving salt" },
+    { "name": "DistillationIcon", "description": "a distillation apparatus with condenser" },
+    { "name": "MagnetIcon", "description": "a magnet separating iron filings" },
+    { "name": "SandIcon", "description": "sand particles" },
+    { "name": "SaltIcon", "description": "salt crystals" },
+    { "name": "WaterDropIcon", "description": "a clean water drop" },
+    { "name": "PollutedWaterIcon", "description": "polluted/dirty water with contaminants" }
+  ],
+  "challengeTypes": [
+    "identify: What type of mixture is salt dissolved in water? (Solution vs Suspension vs Colloid vs Compound)",
+    "sort: Drag each mixture to its correct type (Salt in water = Solution | Sand in water = Suspension | Milk = Colloid | Sugar in water = Solution | Chalk in water = Suspension | Fog = Colloid)",
+    "identify: Which method would you use to separate sand from water? (Filtration vs Evaporation vs Distillation vs Using a magnet)",
+    "sort: Drag each mixture to the best separation method (Sand and water = Filtration | Salt and water = Evaporation | Iron filings and sand = Magnetic separation | Oil and water = Decantation | Sand and salt = Dissolve, filter, evaporate | Mud and water = Filtration)",
+    "identify: What do you get when you evaporate salt water? (Salt crystals vs Pure water vs Sand vs Nothing)",
+    "sort: Drag each separation method to its correct description (Filtration = separates insoluble solid from liquid using filter paper | Evaporation = separates soluble solid from liquid by heating | Decantation = separates liquid from settled solid by pouring | Magnetic separation = separates magnetic from non-magnetic materials | Distillation = boils liquid and condenses vapor to get pure liquid | Winnowing = separates lighter from heavier particles using wind)",
+    "identify: Which of these is a cause of water pollution? (Factory waste dumped in rivers vs Rain falling on plants vs Wind blowing over lakes vs Fish swimming in water)",
+    "sort: Drag each water purification step to its correct order (Step 1: Sedimentation - let heavy particles settle | Step 2: Filtration - remove remaining solid particles | Step 3: Boiling or chlorination - kill germs | Step 4: Storage in clean container | Step 5: Testing for safety | Step 6: Safe to drink)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Solutions, suspensions, colloids — Solution: particles dissolved completely, clear and transparent, does not settle (salt in water, sugar in water). Suspension: insoluble particles spread throughout, cloudy, particles settle on standing (sand in water, chalk in water). Colloid: particles dispersed but not dissolved, appears milky, particles do not settle (milk, fog, ink). (2) Separation of mixtures — mixtures can be separated because components have different properties (size, solubility, magnetism, boiling point). (3) Methods — Filtration: separates insoluble solid from liquid using filter paper (sand from water). Evaporation: separates soluble solid from liquid by heating (salt from water). Decantation: pours off liquid from settled solid (oil from water). Magnetic separation: separates magnetic materials (iron filings from sand). Distillation: boils liquid, condenses vapor to get pure liquid (pure water from salt water). Winnowing: separates lighter from heavier using wind (chaff from grain). Sieving: separates by particle size. (4) Water pollution and purification — Causes: factory waste, sewage, agricultural chemicals, plastic, oil spills. Effects: diseases (cholera, typhoid), harm to aquatic life, unsafe drinking water. Purification steps: sedimentation (let heavy particles settle), filtration (remove solids), boiling or chlorination (kill germs), storage in clean container. Misconceptions: 'a solution and a suspension are the same' (WRONG — in a solution the solid dissolves completely and the liquid is clear; in a suspension the solid does not dissolve and the liquid is cloudy), 'filtration can separate salt from water' (WRONG — filtration only separates insoluble solids; salt is dissolved so it passes through filter paper; use evaporation instead), 'boiling water removes all impurities' (WRONG — boiling kills germs but does not remove dissolved chemicals or heavy metals; distillation is needed for complete purification), 'milk is a solution' (WRONG — milk is a colloid; the fat particles are dispersed but not dissolved, making it appear milky), 'evaporation destroys the solid' (WRONG — evaporation leaves the solid behind as crystals; it only removes the liquid)."
+}

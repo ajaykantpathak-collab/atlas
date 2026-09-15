@@ -8,6 +8,7 @@ import {
   UseQueryOptions,
 } from "@tanstack/react-query";
 import { useState, useCallback, useEffect, useRef } from "react";
+import { getAuthToken } from "@/lib/api";
 
 // ──────────────────────────────────────────────
 // TYPES — matching backend Pydantic schemas
@@ -288,7 +289,7 @@ export async function fetchWithRetry<T>(
   init: RequestInit = {},
   retries = MAX_RETRIES
 ): Promise<T> {
-  const token = typeof localStorage !== "undefined" ? localStorage.getItem("auth_token") : null;
+  const token = typeof localStorage !== "undefined" ? getAuthToken() : null;
 
   const headers: Record<string, string> = {
     "Content-Type": "application/json",

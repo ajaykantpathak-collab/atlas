@@ -1,0 +1,44 @@
+{
+  "gameTitle": "FractionsGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\FractionsGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part6.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part7.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part8.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part9.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_math_006 (Fractions as part of a whole), c4_math_007 (Like, unlike, unit, equivalent fractions), c4_math_008 (Visual equivalent fractions 1/2, 2/4, 3/6), c4_math_009 (Addition and subtraction of like fractions)",
+  "mascotName": "Baker Bina",
+  "mascotDescription": "a friendly baker with a chef hat, a pizza-shaped badge, a rolling pin, and a flour-dusted apron. Custom SVG, not an owl.",
+  "sceneDescription": "bakery kitchen scene with sky gradient, a bakery shop front, a pizza cut into fractions, a chocolate bar divided into pieces, and a cake on a table",
+  "svgObjects": [
+    { "name": "PizzaIcon", "description": "a pizza cut into equal slices" },
+    { "name": "ChocolateIcon", "description": "a chocolate bar divided into pieces" },
+    { "name": "CakeIcon", "description": "a cake cut into equal parts" },
+    { "name": "PieIcon", "description": "a pie chart showing fractions" },
+    { "name": "HalfIcon", "description": "a circle showing 1/2 (one half shaded)" },
+    { "name": "QuarterIcon", "description": "a circle showing 1/4 (one quarter shaded)" },
+    { "name": "ThirdIcon", "description": "a circle showing 1/3 (one third shaded)" },
+    { "name": "NumeratorIcon", "description": "a number above a fraction line" },
+    { "name": "DenominatorIcon", "description": "a number below a fraction line" },
+    { "name": "EquivalentIcon", "description": "two equal fractions shown visually (1/2 = 2/4)" },
+    { "name": "PlusIcon", "description": "an addition sign for adding fractions" },
+    { "name": "MinusIcon", "description": "a subtraction sign for subtracting fractions" },
+    { "name": "LikeFractionIcon", "description": "two fractions with the same denominator" },
+    { "name": "UnlikeFractionIcon", "description": "two fractions with different denominators" }
+  ],
+  "challengeTypes": [
+    "identify: What is a FRACTION? (A part of a whole, where the whole is divided into equal parts vs A type of whole number vs A way to multiply numbers)",
+    "identify: In the fraction 3/4, what does the number 4 (below the line) tell us? (How many equal parts the whole is divided into (denominator) vs How many parts we are taking (numerator) vs The answer to the fraction)",
+    "sort: Drag each fraction label to the correct visual (1/2: one of two equal parts shaded | 1/4: one of four equal parts shaded | 3/4: three of four equal parts shaded | 1/3: one of three equal parts shaded | 2/3: two of three equal parts shaded)",
+    "identify: Which of these are LIKE fractions (same denominator)? (3/7 and 2/7 vs 1/2 and 1/3 vs 2/5 and 3/8)",
+    "sort: Drag each fraction to its correct type (Unit fraction: 1/2, 1/3, 1/4, 1/5 | Like fractions: 2/7 and 3/7 | Unlike fractions: 1/2 and 1/3 | Equivalent fractions: 1/2 and 2/4 and 3/6)",
+    "identify: 1/2 and 2/4 are EQUIVALENT fractions. What does that mean? (They represent the same amount of the whole vs They have the same numerator vs They are like fractions)",
+    "sort: Drag each pair to Equivalent or Not Equivalent (Equivalent: 1/2 = 2/4, 1/3 = 2/6, 2/4 = 3/6, 1/4 = 2/8 | Not equivalent: 1/2 and 1/3, 2/3 and 3/4, 1/4 and 1/5)",
+    "sort: Drag each addition or subtraction to its correct answer (3/7 + 2/7 = 5/7 | 1/5 + 2/5 = 3/5 | 6/9 - 4/9 = 2/9 | 4/7 - 2/7 = 2/7 | 3/8 + 2/8 = 5/8)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Fractions as part of a whole — a fraction describes a part of a whole. The whole must be divided into EQUAL parts. Numerator (top number) = how many parts we take. Denominator (bottom number) = how many equal parts the whole is divided into. Example: 3/4 means the whole is divided into 4 equal parts and we take 3 of them. (2) Types of fractions — like fractions (same denominator: 2/7 and 3/7), unlike fractions (different denominators: 1/2 and 1/3), unit fractions (numerator is 1: 1/2, 1/3, 1/4), equivalent fractions (same value, different numbers: 1/2 = 2/4 = 3/6). Proper fraction: numerator less than denominator (3/4). (3) Visual equivalent fractions — 1/2 = 2/4 = 3/6 because they all represent the same amount. Show visually: shade 1 of 2 parts, 2 of 4 parts, 3 of 6 parts — all show half. (4) Addition and subtraction of like fractions — only add or subtract the numerators, keep the denominator the same. 3/7 + 2/7 = (3+2)/7 = 5/7. 6/9 - 4/9 = (6-4)/9 = 2/9. The denominator never changes because the number of equal parts in the whole does not change. Misconceptions: 'add both numerator and denominator' (3/7 + 2/7 = 5/7 NOT 5/14 — the denominator stays the same), '1/2 is bigger than 2/4' (1/2 and 2/4 are equivalent — they are the same amount), 'all fractions with the same numerator are equivalent' (1/2 and 1/3 have the same numerator but are NOT equivalent — 1/2 is bigger than 1/3), 'the denominator tells how many parts we take' (the denominator tells how many equal parts the WHOLE is divided into — the NUMERATOR tells how many parts we take), 'unlike fractions can be added directly' (unlike fractions must first be converted to like fractions before adding — at this level we only add like fractions). Default width=720, height=560. Use named export (export function FractionsGame), NOT export default. Export interface FractionsGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

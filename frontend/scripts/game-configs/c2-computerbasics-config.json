@@ -1,0 +1,42 @@
+{
+  "gameTitle": "ComputerBasicsGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\ComputerBasicsGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\cs\\enrichment\\c2_cs_enrichment_part1.marker",
+    "D:\\cisce\\cs\\enrichment\\c2_cs_enrichment_part2.marker",
+    "D:\\cisce\\cs\\enrichment\\c2_cs_enrichment_part3.marker",
+    "D:\\cisce\\cs\\enrichment\\c2_cs_enrichment_part4.marker",
+    "D:\\cisce\\cs\\enrichment\\c2_cs_enrichment_part5.marker",
+    "D:\\cisce\\cs\\enrichment\\c2_cs_enrichment_part6.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_cs_001 (Computer as electronic device), c2_cs_002 (Role of computers in daily life), c2_cs_003 (Input devices), c2_cs_004 (Output devices), c2_cs_005 (Keyboard special keys), c2_cs_006 (Mouse as input device)",
+  "mascotName": "Techie Tara",
+  "mascotDescription": "a friendly computer teacher with glasses, a blue shirt, holding a small laptop, and a name badge. Custom SVG, not an owl.",
+  "sceneDescription": "computer lab scene with sky gradient through window, desks with computers, a whiteboard, and colorful posters",
+  "svgObjects": [
+    { "name": "ComputerIcon", "description": "a desktop computer with monitor, CPU, keyboard" },
+    { "name": "KeyboardIcon", "description": "a computer keyboard with keys" },
+    { "name": "MouseIcon", "description": "a computer mouse with left and right buttons and scroll wheel" },
+    { "name": "MonitorIcon", "description": "a computer monitor showing a screen" },
+    { "name": "PrinterIcon", "description": "a printer printing paper" },
+    { "name": "SpeakerIcon", "description": "a speaker playing sound" },
+    { "name": "ScannerIcon", "description": "a scanner scanning a document" },
+    { "name": "WebcamIcon", "description": "a webcam on top of monitor" },
+    { "name": "MicrophoneIcon", "description": "a microphone for recording sound" },
+    { "name": "ShiftKeyIcon", "description": "a keyboard Shift key" },
+    { "name": "SpacebarIcon", "description": "a keyboard Spacebar" },
+    { "name": "EnterKeyIcon", "description": "a keyboard Enter key" }
+  ],
+  "challengeTypes": [
+    "identify: Is a computer an electronic device? (Yes, it runs on electricity vs No, it is a toy vs No, it is a machine only)",
+    "identify: Which of these is an INPUT device? (Keyboard vs Monitor vs Printer — input sends data TO the computer)",
+    "identify: Which of these is an OUTPUT device? (Monitor vs Mouse vs Keyboard — output shows data FROM the computer)",
+    "sort: Drag each device to Input or Output (Input: keyboard, mouse, scanner, microphone, webcam | Output: monitor, printer, speaker, projector)",
+    "identify: What does the SHIFT key do? (Makes a letter CAPITAL vs Deletes a letter vs Moves the cursor)",
+    "identify: What does the mouse LEFT CLICK do? (Selects or opens vs Deletes everything vs Turns off computer)",
+    "sort: Drag mouse actions to what they do (Left click: select/open | Right click: show menu | Scroll: move page up/down | Drag: move items | Double click: open file/folder)",
+    "sort: Drag computer uses to the right area (Education: learn lessons, online classes | Entertainment: play games, watch videos | Communication: email, video call | Work: type documents, save files)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Computer as electronic device — computer is an electronic machine that runs on electricity, it is fast, accurate, never gets tired, stores lots of data, follows instructions. (2) Role of computers in daily life — education (learning, online classes), entertainment (games, videos), communication (email, video calls), work (documents, spreadsheets), shopping (online stores), banking (ATM, online banking). (3) Input devices — devices that send data TO the computer: keyboard (typing), mouse (clicking), scanner (scanning pictures), microphone (recording sound), webcam (taking photos/video). (4) Output devices — devices that show data FROM the computer: monitor (display), printer (printing paper), speaker (sound), projector (large display). (5) Keyboard special keys — Shift (capital letters), Caps Lock (all capitals), Enter (new line or confirm), Spacebar (space between words), Backspace (delete last character), Ctrl/Alt (special functions), Esc (cancel/exit), Tab (move to next field). (6) Mouse as input device — left click (select/open), right click (show menu), scroll wheel (move page up/down), drag and drop (move items), double click (open file/folder). Misconceptions: 'monitor is an input device' (monitor is OUTPUT, it shows results from the computer), 'keyboard is an output device' (keyboard is INPUT, it sends data to the computer), 'computer can think on its own' (computer only follows instructions we give it), 'shift key deletes letters' (shift key makes capital letters, backspace deletes). Default width=720, height=560. Use named export (export function ComputerBasicsGame), NOT export default. Export interface ComputerBasicsGameProps with width?, height?, onComplete?: (score: number) => void."
+}

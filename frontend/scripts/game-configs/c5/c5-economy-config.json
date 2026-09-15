@@ -1,0 +1,42 @@
+{
+  "gameTitle": "EconomyGame",
+  "classLevel": 5,
+  "ageRange": "10-11",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class5\\EconomyGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\geo\\enrichment\\c5_geography_enrichment_part13.marker",
+    "D:\\cisce\\geo\\enrichment\\c5_geography_enrichment_part14.marker",
+    "D:\\cisce\\geo\\enrichment\\c5_geography_enrichment_part15.marker",
+    "D:\\cisce\\geo\\enrichment\\c5_geography_enrichment_part16.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\MapsIndiaGame.tsx",
+  "cisceNodes": "c5_geo_013 (Agriculture in India), c5_geo_014 (Industries in India), c5_geo_015 (Transport in India), c5_geo_016 (Population - rural and urban)",
+  "mascotName": "Economist Arnav",
+  "mascotDescription": "an economist with a briefcase, a chart, and a rupee symbol badge. He teaches about agriculture, industries, transport, and population in India. Custom SVG, not an owl.",
+  "sceneDescription": "Indian economy panorama with sky gradient, farm fields with crops, a factory with smokestacks, a train and trucks on a highway, a rural village and a modern city skyline, and a population chart",
+  "svgObjects": [
+    { "name": "FarmIcon", "description": "a farm field with crops" },
+    { "name": "TractorIcon", "description": "a tractor ploughing a field" },
+    { "name": "FactoryIcon", "description": "a factory with smokestacks" },
+    { "name": "TrainIcon", "description": "a train on tracks" },
+    { "name": "TruckIcon", "description": "a truck on a highway" },
+    { "name": "ShipIcon", "description": "a cargo ship for water transport" },
+    { "name": "AirplaneIcon", "description": "an airplane for air transport" },
+    { "name": "RuralVillageIcon", "description": "a rural village with huts" },
+    { "name": "CityIcon", "description": "a modern city skyline" },
+    { "name": "PopulationChartIcon", "description": "a population growth chart" },
+    { "name": "RupeeIcon", "description": "a rupee currency symbol" },
+    { "name": "CropIcon", "description": "crops like wheat and rice" }
+  ],
+  "challengeTypes": [
+    "identify: What is the main occupation of the majority of people in India? (Agriculture vs Manufacturing vs Services vs IT)",
+    "sort: Drag each crop to its correct type (Rice = Kharif crop | Wheat = Rabi crop | Cotton = Cash crop | Sugarcane = Cash crop | Tea = Plantation crop | Jute = Cash crop)",
+    "identify: Which of these is a MANUFACTURING industry? (Textile mill vs Farming vs Fishing | Dairy farming)",
+    "sort: Drag each industry type to its correct description (Agro-based = uses farm products (textiles, sugar) | Mineral-based = uses minerals (steel, cement) | Heavy industry = large machines and big investment | Small scale = made in small units (handicrafts) | IT industry = software and technology services | Textile = making cloth from cotton)",
+    "identify: Which is the FASTEST mode of transport? (Air transport vs Road transport vs Rail transport vs Water transport)",
+    "sort: Drag each transport mode to its correct description (Road = trucks, buses, cars, flexible | Rail = trains, carry heavy goods long distances | Water = ships and boats, cheapest for heavy cargo | Air = airplanes, fastest but expensive | Pipeline = for oil and gas | Road = good for short distances)",
+    "identify: What is the difference between RURAL and URBAN areas? (Rural has villages and farming, Urban has cities and industries vs Rural has cities, Urban has villages | Both are the same | Rural has factories, Urban has farms)",
+    "sort: Drag each feature to rural or urban (Farming as main occupation = Rural | Large population density = Urban | Villages = Rural | Cities = Urban | Industries and offices = Urban | Simple lifestyle = Rural | Modern facilities like malls = Urban | Agriculture-based economy = Rural)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Agriculture in India — Agriculture is the main occupation of the majority of Indians. Types of crops: Kharif (sown in monsoon, harvested in autumn — rice, maize, cotton), Rabi (sown in winter, harvested in spring — wheat, gram, mustard), Cash crops (grown for sale — cotton, sugarcane, jute), Plantation crops (tea, coffee, rubber). India is a major producer of rice, wheat, sugarcane, tea, and cotton. (2) Industries in India — Industries convert raw materials into finished products. Types: Agro-based (uses farm products — textiles, sugar, jute), Mineral-based (uses minerals — steel, cement, aluminum), Heavy industries (large machines, big investment — steel plants, shipbuilding), Small scale (handicrafts, handlooms), IT industry (software, technology services — Bangalore, Hyderabad). Industries provide employment and help the economy grow. (3) Transport in India — Modes: Road (trucks, buses, cars — flexible, good for short distances), Rail (trains — carry heavy goods long distances), Water (ships, boats — cheapest for heavy cargo, ports like Mumbai, Chennai), Air (airplanes — fastest but expensive), Pipeline (for oil and gas transport). Transport connects producers to consumers and helps trade. (4) Population rural and urban — Rural areas: villages, farming as main occupation, simple lifestyle, lower population density. Urban areas: cities, industries and services, modern facilities (malls, hospitals, schools), higher population density. India's population is large and growing. Challenges: providing food, education, healthcare, and jobs for all. Misconceptions: 'most Indians work in IT' (WRONG — agriculture is the main occupation of the majority of Indians; IT employs a smaller but growing percentage), 'all industries are the same' (WRONG — industries are classified by raw materials: agro-based, mineral-based, heavy, small-scale, and IT), 'water transport is the fastest' (WRONG — air transport is the fastest; water transport is the cheapest for heavy cargo but slow), 'rural areas have more people than urban areas' (PARTIALLY TRUE in India — more people live in rural areas, but urban population is growing rapidly due to migration), 'cities are always better than villages' (WRONG — both have advantages and challenges; rural areas provide food, urban areas provide industries and services)."
+}

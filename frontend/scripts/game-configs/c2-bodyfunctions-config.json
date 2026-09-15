@@ -1,0 +1,31 @@
+{
+  "gameTitle": "BodyFunctionsGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\BodyFunctionsGame.tsx",
+  "enrichmentFiles": ["D:\\cisce\\bio\\enrichment\\c2_biology_enrichment_part1.marker"],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_bio_001 (Functions of body parts and sense organs)",
+  "mascotName": "Doctor Disha",
+  "mascotDescription": "a friendly female doctor with a white coat, stethoscope, pink cheeks, and a warm smile. She wears a small badge and has a clipboard. Custom SVG, not an owl.",
+  "sceneDescription": "clinic scene with sky gradient through a window, a body chart on the wall, a stethoscope, and soft pastel colors",
+  "svgObjects": [
+    { "name": "EyeIcon", "description": "an eye with iris, pupil, eyelashes" },
+    { "name": "EarIcon", "description": "an ear with the outer curve and inner detail" },
+    { "name": "NoseIcon", "description": "a nose with nostrils" },
+    { "name": "TongueIcon", "description": "a tongue with taste buds" },
+    { "name": "SkinIcon", "description": "a hand showing skin texture" },
+    { "name": "HandIcon", "description": "a hand holding a pencil" },
+    { "name": "LegIcon", "description": "a leg showing walking motion" },
+    { "name": "TeethIcon", "description": "a smiling mouth with clean teeth" }
+  ],
+  "challengeTypes": [
+    "identify: What do our EYES help us do? (See vs Hear vs Smell)",
+    "identify: What do our LEGS help us do? (Walk and run vs Hold things vs Taste food)",
+    "identify: What do our HANDS help us do? (Hold and lift vs Walk vs Smell)",
+    "sort: Drag each sense organ to its function (See: eyes | Hear: ears | Smell: nose | Taste: tongue | Touch: skin)",
+    "identify: What do our EARS help us do? (Hear sounds vs See pictures vs Feel touch)",
+    "identify: What do our TEETH help us do? (Chew food vs Walk vs Hear)",
+    "sort: Drag body parts to their function (Move: legs, hands | Sense: eyes, ears, nose, tongue, skin | Chew: teeth)",
+    "sort: Drag care habits to the right body part (Eyes: wash with clean water | Ears: keep sharp objects away | Nose: cover with handkerchief in dust | Teeth: brush every morning | Skin: wash with soap)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Functions of body parts — legs walk/run/jump, hands hold/lift/button/wave, eyes see, ears hear, nose smells, tongue tastes, skin feels touch. (2) Each sense organ has a special job — eyes=see, ears=hear, nose=smell, tongue=taste, skin=touch. (3) Care and hygiene — wash hands before eating, brush teeth every morning, wash eyes with clean water (never soap), keep sharp objects away from ears, avoid loud sounds, cover nose with handkerchief in dust. Misconceptions: 'eyes can hear' (eyes see, ears hear — each organ has its own job), 'hands are for walking' (legs walk, hands hold), 'we can wash eyes with soap' (never wash eyes with soap, use clean water). Default width=720, height=560. Use named export (export function BodyFunctionsGame), NOT export default. Export interface BodyFunctionsGameProps with width?, height?, onComplete?: (score: number) => void."
+}

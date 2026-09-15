@@ -1,0 +1,45 @@
+{
+  "gameTitle": "ChangesTransportGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\ChangesTransportGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\evs\\enrichment\\c4_evs_enrichment_part4.marker",
+    "D:\\cisce\\evs\\enrichment\\c4_evs_enrichment_part5.marker",
+    "D:\\cisce\\evs\\enrichment\\c4_evs_enrichment_part6.marker",
+    "D:\\cisce\\evs\\enrichment\\c4_evs_enrichment_part7.marker",
+    "D:\\cisce\\evs\\enrichment\\c4_evs_enrichment_part8.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_evs_004 (Natural and man-made changes in the locality), c4_evs_005 (Positive and negative effects of man-made changes), c4_evs_006 (Need for shelter and types of houses), c4_evs_007 (Different types of communication), c4_evs_008 (Different modes of transport and their need)",
+  "mascotName": "Postman Prakash",
+  "mascotDescription": "a friendly postman with a mail bag, a bicycle badge, a letter, and a phone. Custom SVG, not an owl.",
+  "sceneDescription": "town and transport scene with sky gradient, a road with vehicles, a railway track, a post office, houses of different types, and communication towers",
+  "svgObjects": [
+    { "name": "NaturalFeatureIcon", "description": "a river/hill (natural feature)" },
+    { "name": "ManMadeFeatureIcon", "description": "a building/road (man-made feature)" },
+    { "name": "TreeCutIcon", "description": "a cut tree (negative man-made change)" },
+    { "name": "ParkIcon", "description": "a park (positive man-made change)" },
+    { "name": "HouseIcon", "description": "a pucca house (permanent shelter)" },
+    { "name": "HutIcon", "description": "a kutcha house (temporary shelter)" },
+    { "name": "ApartmentIcon", "description": "an apartment building" },
+    { "name": "LetterIcon", "description": "a letter/postal communication" },
+    { "name": "PhoneIcon", "description": "a telephone/mobile communication" },
+    { "name": "EmailIcon", "description": "an email/internet communication" },
+    { "name": "BusIcon", "description": "a bus (road transport)" },
+    { "name": "TrainIcon", "description": "a train (rail transport)" },
+    { "name": "ShipIcon", "description": "a ship (water transport)" },
+    { "name": "AeroplaneIcon", "description": "an aeroplane (air transport)" }
+  ],
+  "challengeTypes": [
+    "identify: Which of these is a NATURAL feature of a locality? (A river vs A road vs A building)",
+    "sort: Drag each feature to Natural or Man-made (Natural: river, hill, tree, pond, lake, rock | Man-made: road, building, dam, bridge, park, school)",
+    "identify: What is a NEGATIVE effect of cutting down forests to build roads? (Birds and animals lose their homes vs People get better transport vs Children get a place to play)",
+    "sort: Drag each man-made change to Positive or Negative effect (Positive: better transport with roads, shelter from houses, water from dams, parks to play | Negative: loss of trees, animals lose homes, ponds filled for construction, less land for crops, area gets hotter)",
+    "identify: Why do humans need SHELTER? (To protect from rain, heat, cold, and wild animals vs To show off wealth vs To store furniture only)",
+    "sort: Drag each type of house to its correct description (Kutcha house: temporary, made of mud, bamboo, thatch | Pucca house: permanent, made of bricks, cement, steel | Apartment: many homes in one tall building | Stilt house: raised on poles to stay safe from floods)",
+    "identify: Which of these is the FASTEST mode of communication? (Telephone/Mobile phone vs Postal letter vs Message carried by a person)",
+    "sort: Drag each mode of transport to its correct category (Road transport: bus, car, cycle, truck, auto-rickshaw | Rail transport: train, goods train | Water transport: ship, boat, ferry | Air transport: aeroplane, helicopter)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Natural and man-made changes — natural features: rivers, hills, trees, ponds, lakes, rocks (exist without humans). Man-made features: roads, buildings, dams, bridges, parks, schools (built by people). Locality changes over time — natural changes (river changes course, tree grows) and man-made changes (fields to housing, forests cleared for roads). (2) Positive and negative effects — positive: better transport (roads, bridges), shelter (houses), water storage (dams), recreation (parks). Negative: loss of trees, animals lose homes, ponds filled, less land for crops, area gets hotter. (3) Need for shelter — shelter protects from rain, heat, cold, wild animals. Types: kutcha house (temporary — mud, bamboo, thatch), pucca house (permanent — bricks, cement, steel), apartment (many homes in one building), stilt house (raised on poles for flood safety). (4) Communication — postal letter (slow, paper), telephone/mobile (fast, voice), email/internet (fastest, digital), SMS/text message. Communication connects people across distances. (5) Transport — 4 modes: road (bus, car, cycle, truck — flexible, reaches remote villages), rail (train — long distance, many passengers, cheaper than air), water (ship, boat — across rivers and seas, slow but cheap for heavy goods), air (aeroplane — fastest, most expensive, long distances). Misconceptions: 'all man-made changes are bad' (man-made changes have BOTH positive and negative effects — roads give better transport but cutting forests destroys animal homes), 'a kutcha house and a pucca house are the same' (kutcha houses are TEMPORARY made of mud and thatch, pucca houses are PERMANENT made of bricks and cement — they are different), 'the post office is the fastest way to communicate' (postal letters are the SLOWEST — telephone, mobile, and email are much faster), 'rail transport is faster than air transport' (air transport by aeroplane is the FASTEST mode — rail is cheaper but slower than air), 'water transport is the fastest' (water transport by ship is the SLOWEST for passengers — it is used because it is cheap for heavy goods, not because it is fast). Default width=720, height=560. Use named export (export function ChangesTransportGame), NOT export default. Export interface ChangesTransportGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

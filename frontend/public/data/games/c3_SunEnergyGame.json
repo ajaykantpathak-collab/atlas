@@ -1,0 +1,798 @@
+{
+  "gameFile": "SunEnergyGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_phy_003",
+    "c3_phy_004",
+    "c3_phy_005",
+    "c3_phy_006"
+  ],
+  "mascot": "Sana ──────────────────────────────",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "The Sun: Natural Source of Energy ☀️",
+      "text": "The sun is a natural source of energy — a huge glowing ball that gives us light and heat! Without the sun, our world would be dark and freezing cold.",
+      "emoji": "☀️",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "The sun is a natural source of energy, giving us light and heat! Without the sun, our world would be dark and freezing cold.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Solar Energy in Daily Life 🔋",
+      "text": "We capture the sun\\'s power using solar devices! Solar panels turn sunlight into electricity. Solar cookers cook food without fire. Solar heaters warm our water!",
+      "emoji": "🍳",
+      "bgColor": "from-yellow-400 to-amber-500",
+      "spoken": "We capture the sun power using solar devices! Solar panels turn sunlight into electricity. Solar cookers cook food, and solar heaters warm water!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Renewable Energy Sources 🌬️",
+      "text": "Renewable energy sources never run out and come from nature! Sunlight, wind, flowing water, and biomass can be used again and again because nature replaces them quickly.",
+      "emoji": "🌱",
+      "bgColor": "from-emerald-400 to-green-500",
+      "spoken": "Renewable energy sources never run out and come from nature! Sunlight, wind, water, and biomass can be used again and again.",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Non-Renewable Energy Sources 🪨",
+      "text": "Coal, petroleum, and natural gas are non-renewable! They formed millions of years ago from ancient buried plants and animals. Once used up, they are gone forever.",
+      "emoji": "⛏️",
+      "bgColor": "from-stone-500 to-neutral-700",
+      "spoken": "Coal, petroleum, and natural gas are non-renewable! They formed millions of years ago and once used up, they are gone forever.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Conservation of Energy 💡",
+      "text": "Conserve energy by switching off lights and fans when leaving a room! Saving electricity saves coal and gas at power stations, reduces pollution, and protects our Earth.",
+      "emoji": "💡",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "Conserve energy by switching off lights and fans when leaving a room! Saving electricity protects our Earth and reduces pollution.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is the SUN\\'s main role for Earth?",
+      "answer": "It gives light and heat energy",
+      "options": [
+        "It gives light and heat energy",
+        "It provides fresh drinking water directly",
+        "It creates artificial electricity with switches"
+      ],
+      "hint": "Think about what you feel when you stand in the morning sun: warmth and brightness!",
+      "misconception": "The sun gives us light and heat, which are forms of energy! Sunshine is not just brightness — it is natural energy that warms our skin and helps plants grow.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "It gives light and heat energy",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "It provides fresh drinking water directly",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "It creates artificial electricity with switches",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "It provides fresh drinking water directly",
+          "It gives light and heat energy"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "What does a SOLAR PANEL do?",
+      "answer": "Converts sunlight into electricity",
+      "options": [
+        "Converts sunlight into electricity",
+        "Cooks rice using a curved mirror",
+        "Heats water in rooftop pipes"
+      ],
+      "hint": "A solar panel is a flat board made of solar cells that makes power for homes and streetlights!",
+      "misconception": "A solar cell/panel converts sunlight directly into electricity to run lights and fans! Cooking food is done by a solar cooker, and heating water is done by a solar heater.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Converts sunlight into electricity",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Cooks rice using a curved mirror",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Heats water in rooftop pipes",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Cooks rice using a curved mirror",
+          "Converts sunlight into electricity"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each solar device to its correct daily life use!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Solar panel = electricity, Solar cooker = cooks food, Solar heater = heats water, Solar cell = stores energy!",
+      "misconception": "Each solar device has a special job! Cookers cook food with heat, panels make electricity, heaters warm water, and cells store solar power in batteries.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "dev-panel",
+            "label": "Solar Panel",
+            "correctBin": "bin-elec"
+          },
+          {
+            "id": "dev-cooker",
+            "label": "Solar Cooker",
+            "correctBin": "bin-cook"
+          },
+          {
+            "id": "dev-heater",
+            "label": "Solar Heater",
+            "correctBin": "bin-heat"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "dev-panel",
+          "kind": "circle",
+          "label": "Solar Panel",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-elec",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-elec"
+        },
+        {
+          "id": "dev-cooker",
+          "kind": "circle",
+          "label": "Solar Cooker",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-cook",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-cook"
+        },
+        {
+          "id": "dev-heater",
+          "kind": "circle",
+          "label": "Solar Heater",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-heat",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-heat"
+        },
+        {
+          "id": "dev-cell",
+          "kind": "circle",
+          "label": "Solar Cell",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-store",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-store"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "dev-panel",
+          "label": "Solar Panel",
+          "emoji": "",
+          "correctBin": "bin-elec"
+        },
+        {
+          "id": "dev-cooker",
+          "label": "Solar Cooker",
+          "emoji": "",
+          "correctBin": "bin-cook"
+        },
+        {
+          "id": "dev-heater",
+          "label": "Solar Heater",
+          "emoji": "",
+          "correctBin": "bin-heat"
+        },
+        {
+          "id": "dev-cell",
+          "label": "Solar Cell",
+          "emoji": "",
+          "correctBin": "bin-store"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-elec",
+          "label": "Makes Electricity ⚡",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-cook",
+          "label": "Cooks Food 🍳",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-heat",
+          "label": "Heats Water 💧",
+          "color": "#EF4444"
+        },
+        {
+          "id": "bin-store",
+          "label": "Stores Energy 🔋",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of these is a RENEWABLE source of energy?",
+      "answer": "Sunlight",
+      "options": [
+        "Sunlight",
+        "Coal",
+        "Petrol"
+      ],
+      "hint": "Renewable means nature replaces it quickly and it never runs out. Which one is an endless gift from the sky?",
+      "misconception": "Sunlight is renewable because the sun rises every day and never runs out! Coal and petrol are non-renewable because they take millions of years to form and will one day be finished.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Sunlight",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Coal",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Petrol",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Coal",
+          "Sunlight"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each energy source to Renewable or Non-Renewable!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Sun, wind, water = renewable (never run out)! Coal, petrol, gas = non-renewable (take millions of years to form)!",
+      "misconception": "Remember the test: can nature replace it quickly? Sun, wind, and water are replaced by nature immediately, while coal and petroleum take millions of years underground.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "src-sun",
+            "label": "Sunlight",
+            "correctBin": "bin-renewable"
+          },
+          {
+            "id": "src-wind",
+            "label": "Wind",
+            "correctBin": "bin-renewable"
+          },
+          {
+            "id": "src-coal",
+            "label": "Coal",
+            "correctBin": "bin-nonrenewable"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "src-sun",
+          "kind": "circle",
+          "label": "Sunlight",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-renewable",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-renewable"
+        },
+        {
+          "id": "src-wind",
+          "kind": "circle",
+          "label": "Wind",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-renewable",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-renewable"
+        },
+        {
+          "id": "src-coal",
+          "kind": "circle",
+          "label": "Coal",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-nonrenewable",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-nonrenewable"
+        },
+        {
+          "id": "src-petrol",
+          "kind": "circle",
+          "label": "Petrol",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-nonrenewable",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-nonrenewable"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "src-sun",
+          "label": "Sunlight",
+          "emoji": "",
+          "correctBin": "bin-renewable"
+        },
+        {
+          "id": "src-wind",
+          "label": "Wind",
+          "emoji": "",
+          "correctBin": "bin-renewable"
+        },
+        {
+          "id": "src-coal",
+          "label": "Coal",
+          "emoji": "",
+          "correctBin": "bin-nonrenewable"
+        },
+        {
+          "id": "src-petrol",
+          "label": "Petrol",
+          "emoji": "",
+          "correctBin": "bin-nonrenewable"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-renewable",
+          "label": "Renewable 🌿",
+          "color": "#22C55E"
+        },
+        {
+          "id": "bin-nonrenewable",
+          "label": "Non-Renewable 🪨",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Why are coal and petroleum called NON-RENEWABLE?",
+      "answer": "They take millions of years to form and will run out",
+      "options": [
+        "They take millions of years to form and will run out",
+        "They are made by machines in factories every day",
+        "They give too much clean oxygen to the air"
+      ],
+      "hint": "Think about how long they took to form deep inside the Earth from ancient buried plants and animals.",
+      "misconception": "Coal and petrol are non-renewable because they took millions of years to form under pressure and we are using them much faster than they can ever be replaced!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "They take millions of years to form and will run out",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "They are made by machines in factories every day",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "They give too much clean oxygen to the air",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "They take millions of years to form and will run out",
+          "They are made by machines in factories every day"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each action to Save Energy or Waste Energy!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Turning off lights and walking = save energy! Leaving lights on and empty rooms running = waste energy!",
+      "misconception": "Energy conservation means using power wisely! Switching off lights and fans saves electricity, which saves coal at power stations and keeps our air clean.",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "act-off",
+            "label": "Switch off lights",
+            "correctBin": "bin-save"
+          },
+          {
+            "id": "act-walk",
+            "label": "Walk short distances",
+            "correctBin": "bin-save"
+          },
+          {
+            "id": "act-on",
+            "label": "Leave lights on",
+            "correctBin": "bin-waste"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "act-off",
+          "kind": "circle",
+          "label": "Switch off lights",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-save",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-save"
+        },
+        {
+          "id": "act-walk",
+          "kind": "circle",
+          "label": "Walk short distances",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-save",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-save"
+        },
+        {
+          "id": "act-on",
+          "kind": "circle",
+          "label": "Leave lights on",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-waste",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-waste"
+        },
+        {
+          "id": "act-ac",
+          "kind": "circle",
+          "label": "Keep AC on empty room",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-waste",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-waste"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "act-off",
+          "label": "Switch off lights",
+          "emoji": "",
+          "correctBin": "bin-save"
+        },
+        {
+          "id": "act-walk",
+          "label": "Walk short distances",
+          "emoji": "",
+          "correctBin": "bin-save"
+        },
+        {
+          "id": "act-on",
+          "label": "Leave lights on",
+          "emoji": "",
+          "correctBin": "bin-waste"
+        },
+        {
+          "id": "act-ac",
+          "label": "Keep AC on empty room",
+          "emoji": "",
+          "correctBin": "bin-waste"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-save",
+          "label": "Save Energy ✅",
+          "color": "#22C55E"
+        },
+        {
+          "id": "bin-waste",
+          "label": "Waste Energy ⚠️",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag each energy fact to True or False!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Sun is renewable and free = True! Coal will last forever = False!",
+      "misconception": "The sun will shine for billions of years, making solar energy clean and free! But coal and petroleum are limited, so we must conserve energy carefully.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Sun is renewable and free = True! Coal will last forever = False!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "fact-sun",
+          "kind": "circle",
+          "label": "Sun is renewable",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-true",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-true"
+        },
+        {
+          "id": "fact-coal",
+          "kind": "circle",
+          "label": "Coal lasts forever",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-false",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-false"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "fact-sun",
+          "label": "Sun is renewable",
+          "emoji": "",
+          "correctBin": "bin-true"
+        },
+        {
+          "id": "fact-coal",
+          "label": "Coal lasts forever",
+          "emoji": "",
+          "correctBin": "bin-false"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-true",
+          "label": "True ✅",
+          "color": "#22C55E"
+        },
+        {
+          "id": "bin-false",
+          "label": "False ❌",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "theme": "space",
+  "storyArc": {
+    "theme": "A curious physicist explores the forces of nature",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Physics Lab Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_phy_003",
+    "region": "Physics Realm",
+    "mapX": 0.8600000000000001,
+    "mapY": 0.79,
+    "icon": "⚡",
+    "prerequisites": [
+      "c3_phy_004"
+    ]
+  },
+  "subject": "physics"
+}

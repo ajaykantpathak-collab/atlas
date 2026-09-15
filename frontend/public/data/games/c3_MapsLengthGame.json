@@ -1,0 +1,857 @@
+{
+  "gameFile": "MapsLengthGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_math_022",
+    "c3_math_023",
+    "c3_math_024",
+    "c3_math_025",
+    "c3_math_026",
+    "c3_math_027",
+    "c3_math_028"
+  ],
+  "mascot": "Surveyor Suresh — a friendly land surveyor with a measuring tape, ruler, map, and compass.",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Maps & Directions! 🗺️",
+      "text": "A map is a simple drawing showing places and things around us. It is not to scale! We use landmarks like temples, trees, and post boxes to find our way.",
+      "emoji": "🗺️",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "A map is a simple drawing showing places and things around us. We use landmarks like temples and trees to find our way!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Drawing 3D Objects! 📦",
+      "text": "Real objects are 3-dimensional! A cube has 6 square faces, a sphere is round like a ball, a cone is pointy, and a cylinder has curved and flat parts.",
+      "emoji": "📦",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Real objects are three-dimensional! A cube, sphere, cone, and cylinder can be drawn on flat paper using straight and curved lines.",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Why Standard Units? 📏",
+      "text": "Hand spans and foot steps change from person to person! For accurate measurements that everyone agrees on, we use standard units: centimeter (cm) and metre (m).",
+      "emoji": "📏",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Hand spans change from person to person! For accurate measurements, we use standard units like centimeter and metre.",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Measuring with CM and M! 📐",
+      "text": "Use centimeters (cm) for small things like pencils and books. Use metres (m) for long things like tables, doors, and rooms. Always start your measurement from 0 on the scale!",
+      "emoji": "📐",
+      "bgColor": "from-cyan-400 to-blue-500",
+      "spoken": "Use centimeters for small things like pencils, and metres for long things like rooms. Always start your measurement from zero!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Metres & Centimetres! 🔄",
+      "text": "1 metre is equal to 100 centimetres (1 m = 100 cm). To change metres to centimetres, multiply by 100! Estimate first, then measure to verify your guess!",
+      "emoji": "🔄",
+      "bgColor": "from-purple-400 to-pink-500",
+      "spoken": "1 metre equals 100 centimetres. To change metres to centimetres, multiply by 100. Estimate first, then verify by measuring!",
+      "diagram": {
+        "type": "timeline",
+        "animate": true,
+        "data": {
+          "events": [
+            {
+              "time": "9:00",
+              "label": "Start"
+            },
+            {
+              "time": "12:00",
+              "label": "Lunch"
+            },
+            {
+              "time": "3:00",
+              "label": "End"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_use",
+      "question": "What unit do we use to measure the length of a PENCIL?",
+      "answer": "Centimeters (cm)",
+      "options": [
+        "Centimeters (cm)",
+        "Metres (m)",
+        "Kilograms (kg)"
+      ],
+      "hint": "A pencil is a small object that fits in your hand. Which small unit fits it?",
+      "misconception": "A pencil is small, so we use Centimeters (cm)! Metres are for very long things like rooms and corridors!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Centimeters (cm)",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Metres (m)",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Kilograms (kg)",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Metres (m)",
+          "Centimeters (cm)"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_source",
+      "question": "What unit do we use to measure the length of a ROOM?",
+      "answer": "Metres (m)",
+      "options": [
+        "Centimeters (cm)",
+        "Metres (m)",
+        "Litres (L)"
+      ],
+      "hint": "A room is wide and long. We use the bigger standard unit for it!",
+      "misconception": "A room is large, so we measure it in Metres (m)! Using cm for a room would give a huge, confusing number!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Centimeters (cm)",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Metres (m)",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Litres (L)",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Centimeters (cm)",
+          "Metres (m)"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort_uses",
+      "question": "Drag each object to the best unit for measuring its length!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Small items like pencils and books use centimeters (cm). Large items like rooms and tables use metres (m).",
+      "misconception": "Remember: small objects go to Centimeters (cm) and large distances go to Metres (m)!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "pencil",
+            "label": "Pencil",
+            "correctBin": "cm"
+          },
+          {
+            "id": "book",
+            "label": "Book",
+            "correctBin": "cm"
+          },
+          {
+            "id": "table",
+            "label": "Table",
+            "correctBin": "m"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "pencil",
+          "kind": "circle",
+          "label": "Pencil",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "cm",
+          "interaction": "drag-to-bin",
+          "targetBin": "cm"
+        },
+        {
+          "id": "book",
+          "kind": "circle",
+          "label": "Book",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "cm",
+          "interaction": "drag-to-bin",
+          "targetBin": "cm"
+        },
+        {
+          "id": "table",
+          "kind": "circle",
+          "label": "Table",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "m",
+          "interaction": "drag-to-bin",
+          "targetBin": "m"
+        },
+        {
+          "id": "room",
+          "kind": "circle",
+          "label": "Room",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "m",
+          "interaction": "drag-to-bin",
+          "targetBin": "m"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "pencil",
+          "label": "Pencil",
+          "emoji": "",
+          "correctBin": "cm"
+        },
+        {
+          "id": "book",
+          "label": "Book",
+          "emoji": "",
+          "correctBin": "cm"
+        },
+        {
+          "id": "table",
+          "label": "Table",
+          "emoji": "",
+          "correctBin": "m"
+        },
+        {
+          "id": "room",
+          "label": "Room",
+          "emoji": "",
+          "correctBin": "m"
+        }
+      ],
+      "bins": [
+        {
+          "id": "cm",
+          "label": "Centimeters (cm) 📐",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "m",
+          "label": "Metres (m) 📏",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify_habit",
+      "question": "How many centimeters are in 1 metre?",
+      "answer": "100 cm",
+      "options": [
+        "10 cm",
+        "100 cm",
+        "1000 cm"
+      ],
+      "hint": "Think of 10 strips of 10 cm laid end to end. How many cm is that in total?",
+      "misconception": "1 metre = 100 centimetres! It is not 10 cm. Ten strips of 10 cm make 100 cm, which is exactly 1 metre.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "10 cm",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "100 cm",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "1000 cm",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "10 cm",
+          "100 cm"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_habits",
+      "question": "Drag each length to its correct conversion!",
+      "answer": "sort",
+      "options": [],
+      "hint": "To convert metres to cm, multiply by 100. 1 m = 100 cm, 2 m = 200 cm!",
+      "misconception": "Multiply metres by 100 to get centimetres! 2 metres = 200 cm, and 500 cm = 5 metres.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "m1",
+            "label": "1 m = 100 cm",
+            "correctBin": "correct"
+          },
+          {
+            "id": "m2",
+            "label": "2 m = 200 cm",
+            "correctBin": "correct"
+          },
+          {
+            "id": "m3",
+            "label": "500 cm = 5 m",
+            "correctBin": "correct"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "m1",
+          "kind": "circle",
+          "label": "1 m = 100 cm",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "correct",
+          "interaction": "drag-to-bin",
+          "targetBin": "correct"
+        },
+        {
+          "id": "m2",
+          "kind": "circle",
+          "label": "2 m = 200 cm",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "correct",
+          "interaction": "drag-to-bin",
+          "targetBin": "correct"
+        },
+        {
+          "id": "m3",
+          "kind": "circle",
+          "label": "500 cm = 5 m",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "correct",
+          "interaction": "drag-to-bin",
+          "targetBin": "correct"
+        },
+        {
+          "id": "m4",
+          "kind": "circle",
+          "label": "150 cm = 1.5 m",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "correct",
+          "interaction": "drag-to-bin",
+          "targetBin": "correct"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "m1",
+          "label": "1 m = 100 cm",
+          "emoji": "",
+          "correctBin": "correct"
+        },
+        {
+          "id": "m2",
+          "label": "2 m = 200 cm",
+          "emoji": "",
+          "correctBin": "correct"
+        },
+        {
+          "id": "m3",
+          "label": "500 cm = 5 m",
+          "emoji": "",
+          "correctBin": "correct"
+        },
+        {
+          "id": "m4",
+          "label": "150 cm = 1.5 m",
+          "emoji": "",
+          "correctBin": "correct"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "label": "Correct Match ✅",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify_tool",
+      "question": "Which tool is BEST for measuring the length of a small notebook?",
+      "answer": "A 15 cm ruler",
+      "options": [
+        "A 15 cm ruler",
+        "A measuring tape",
+        "A weighing scale"
+      ],
+      "hint": "Notebooks are short and flat. Which small tool fits right on the page?",
+      "misconception": "A 15 cm ruler is best for small objects like a notebook or pencil! A measuring tape is for long curved things.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A 15 cm ruler",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A measuring tape",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A weighing scale",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A measuring tape",
+          "A 15 cm ruler"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_tools",
+      "question": "Drag each measuring tool to its best use!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Rulers are for small items. Tapes are for long or curved things. Hand spans vary!",
+      "misconception": "Ruler fits small things; measuring tape covers long distances; hand spans are non-standard!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tool-ruler",
+            "label": "Ruler (15cm)",
+            "correctBin": "small"
+          },
+          {
+            "id": "tool-tape",
+            "label": "Measuring Tape",
+            "correctBin": "long"
+          },
+          {
+            "id": "tool-metre",
+            "label": "Metre Stick",
+            "correctBin": "medium"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tool-ruler",
+          "kind": "circle",
+          "label": "Ruler (15cm)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "small",
+          "interaction": "drag-to-bin",
+          "targetBin": "small"
+        },
+        {
+          "id": "tool-tape",
+          "kind": "circle",
+          "label": "Measuring Tape",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "long",
+          "interaction": "drag-to-bin",
+          "targetBin": "long"
+        },
+        {
+          "id": "tool-metre",
+          "kind": "circle",
+          "label": "Metre Stick",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "medium",
+          "interaction": "drag-to-bin",
+          "targetBin": "medium"
+        },
+        {
+          "id": "tool-hand",
+          "kind": "circle",
+          "label": "Hand Span",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "non-std",
+          "interaction": "drag-to-bin",
+          "targetBin": "non-std"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tool-ruler",
+          "label": "Ruler (15cm)",
+          "emoji": "",
+          "correctBin": "small"
+        },
+        {
+          "id": "tool-tape",
+          "label": "Measuring Tape",
+          "emoji": "",
+          "correctBin": "long"
+        },
+        {
+          "id": "tool-metre",
+          "label": "Metre Stick",
+          "emoji": "",
+          "correctBin": "medium"
+        },
+        {
+          "id": "tool-hand",
+          "label": "Hand Span",
+          "emoji": "",
+          "correctBin": "non-std"
+        }
+      ],
+      "bins": [
+        {
+          "id": "small",
+          "label": "Small Objects ✏️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "medium",
+          "label": "Medium Items 🪵",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "long",
+          "label": "Long Distances 🚪",
+          "color": "#10B981"
+        },
+        {
+          "id": "non-std",
+          "label": "Non-Standard ✋",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "sort_estimates",
+      "question": "Drag each estimation to its correct verification tool!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Estimate first, then verify small items with a ruler and long items with a tape!",
+      "misconception": "Small length estimates (pencil, book) are verified with a ruler. Long distance estimates (room, table) are verified with a tape!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "est-pencil",
+            "label": "Pencil (~15 cm)",
+            "correctBin": "ruler"
+          },
+          {
+            "id": "est-book",
+            "label": "Book (~25 cm)",
+            "correctBin": "ruler"
+          },
+          {
+            "id": "est-table",
+            "label": "Table (~1.5 m)",
+            "correctBin": "tape"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "est-pencil",
+          "kind": "circle",
+          "label": "Pencil (~15 cm)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "ruler",
+          "interaction": "drag-to-bin",
+          "targetBin": "ruler"
+        },
+        {
+          "id": "est-book",
+          "kind": "circle",
+          "label": "Book (~25 cm)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "ruler",
+          "interaction": "drag-to-bin",
+          "targetBin": "ruler"
+        },
+        {
+          "id": "est-table",
+          "kind": "circle",
+          "label": "Table (~1.5 m)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "tape",
+          "interaction": "drag-to-bin",
+          "targetBin": "tape"
+        },
+        {
+          "id": "est-room",
+          "kind": "circle",
+          "label": "Room (~4 m)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "tape",
+          "interaction": "drag-to-bin",
+          "targetBin": "tape"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "est-pencil",
+          "label": "Pencil (~15 cm)",
+          "emoji": "",
+          "correctBin": "ruler"
+        },
+        {
+          "id": "est-book",
+          "label": "Book (~25 cm)",
+          "emoji": "",
+          "correctBin": "ruler"
+        },
+        {
+          "id": "est-table",
+          "label": "Table (~1.5 m)",
+          "emoji": "",
+          "correctBin": "tape"
+        },
+        {
+          "id": "est-room",
+          "label": "Room (~4 m)",
+          "emoji": "",
+          "correctBin": "tape"
+        }
+      ],
+      "bins": [
+        {
+          "id": "ruler",
+          "label": "Verify with Ruler 📐",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "tape",
+          "label": "Verify with Tape 📏",
+          "color": "#10B981"
+        }
+      ]
+    }
+  ],
+  "theme": "outdoor",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_math_022",
+    "region": "Mathland",
+    "mapX": 0.8600000000000001,
+    "mapY": 0.79,
+    "icon": "🔢",
+    "prerequisites": [
+      "c3_math_023"
+    ]
+  },
+  "subject": "maths"
+}

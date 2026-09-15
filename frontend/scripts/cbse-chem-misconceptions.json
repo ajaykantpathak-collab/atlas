@@ -1,0 +1,386 @@
+{
+  "C11_ChemistryRedoxReactionsCBSESim": [
+    {
+      "id": "misc_1",
+      "title": "Multiplying Standard Electrode Potential by Stoichiometric Coefficients",
+      "description": "Students believe that when a half-reaction is multiplied by an integer to balance electrons, its standard electrode potential (E°) must also be multiplied by that same integer.",
+      "correction": "Standard electrode potential (E°) is an intensive property and does not depend on the quantity of matter or stoichiometric coefficients in the equation. While Gibbs free energy change (ΔG°) is extensive and scales with stoichiometry, E° remains completely unchanged regardless of the multiplier used to balance electron transfer."
+    },
+    {
+      "id": "misc_2",
+      "title": "Fractional Oxidation States Imply Fractional Electron Transfer",
+      "description": "Students incorrectly believe that a fractional oxidation state, such as +8/3 in Fe3O4 or +2.5 in S4O6^2-, means individual atoms gain or lose fractions of an electron.",
+      "correction": "Electrons cannot be transferred in fractions during chemical reactions. A fractional oxidation state represents the structural average of different integer oxidation states possessed by non-equivalent atoms of the same element in a molecule. For example, in Fe3O4, two iron atoms have an oxidation state of +3 and one has +2, resulting in an average oxidation state of +8/3."
+    },
+    {
+      "id": "misc_3",
+      "title": "Salt Bridge Transports Electrons to Complete the Circuit",
+      "description": "Students assume that electrons flow through the salt bridge from the anode compartment to the cathode compartment to complete the electrochemical circuit.",
+      "correction": "Electrons flow exclusively through the external metallic wire from the anode to the cathode. The salt bridge completes the internal circuit by facilitating the movement of cations and anions into the respective half-cell solutions to maintain electrical neutrality."
+    },
+    {
+      "id": "misc_4",
+      "title": "Cathode Is Always Positive and Anode Is Always Negative",
+      "description": "Students believe that the cathode carries a fixed positive charge and the anode carries a fixed negative charge across all electrochemical systems.",
+      "correction": "Electrodes are defined strictly by the chemical process taking place: oxidation always occurs at the anode, and reduction always occurs at the cathode. In a Galvanic cell (like the Daniell cell), the anode is negative and the cathode is positive, whereas in an electrolytic cell, the anode is positive and the cathode is negative."
+    },
+    {
+      "id": "misc_5",
+      "title": "Identifying Only the Central Atom as the Redox Agent",
+      "description": "Students often name only the specific element undergoing a change in oxidation number (e.g., Mn) as the oxidizing or reducing agent rather than the entire compound.",
+      "correction": "An oxidizing or reducing agent must always be identified as the complete chemical formula of the reactant species (e.g., KMnO4 or MnO4^-) participating in the reaction. Although a specific atom within the compound changes its oxidation state, the whole compound or ion accepts or donates the electrons."
+    }
+  ],
+  "C11_ChemistrySomeBasicConceptsofChemistryCBSESim": [
+    {
+      "id": "misc_1",
+      "title": "Applying Molar Volume of 22.4 L to Liquids and Solids",
+      "description": "Students frequently believe that one mole of any substance, regardless of its physical state, occupies 22.4 liters at STP.",
+      "correction": "The molar volume of 22.4 L (or 22.7 L under standard pressure of 1 bar) applies strictly to gases at STP. For solids and liquids, volume must be calculated using mass and density. For example, 1 mole of liquid water (18 g) occupies approximately 18 mL at STP, not 22.4 L."
+    },
+    {
+      "id": "misc_2",
+      "title": "Identifying Limiting Reagent Solely by the Lowest Molar Quantity",
+      "description": "Students assume that the reactant present in the smallest number of moles at the start is automatically the limiting reagent.",
+      "correction": "The limiting reagent depends on both the available moles and the stoichiometric coefficients in the balanced chemical equation. To identify it correctly, divide the given moles of each reactant by its stoichiometric coefficient. The reactant with the smallest resulting ratio is the limiting reagent."
+    },
+    {
+      "id": "misc_3",
+      "title": "Equating Volume of Solvent with Total Volume of Solution in Molarity",
+      "description": "Students think a 1 M solution is prepared by adding 1 mole of solute to 1 liter of solvent.",
+      "correction": "Molarity is defined as moles of solute divided by the total volume of the *solution* in liters, not the solvent. Dissolving a solute changes the overall volume, so 1 mole of solute must be dissolved in less solvent and then diluted until the final solution volume reaches 1 L."
+    },
+    {
+      "id": "misc_4",
+      "title": "Assuming Molality Is Temperature Dependent Like Molarity",
+      "description": "Students incorrectly assume that both molarity and molality values change when the temperature of a solution varies.",
+      "correction": "Molarity depends on solution volume, which expands or contracts with temperature changes, making molarity temperature-dependent. Molality depends on the mass of solvent in kilograms. Since mass does not change with temperature, molality remains strictly temperature-independent."
+    },
+    {
+      "id": "misc_5",
+      "title": "Assuming Empirical Formula Must Always Differ from Molecular Formula",
+      "description": "Students believe that the empirical formula and molecular formula of a chemical compound can never be the same.",
+      "correction": "The molecular formula is an integral multiple ($n$) of the empirical formula, where $n = \\text{Molecular Mass} / \\text{Empirical Formula Mass}$. When $n = 1$, the empirical formula and molecular formula are identical, as seen in compounds like $\\text{H}_2\\text{O}$, $\\text{NH}_3$, and $\\text{CO}_2$."
+    }
+  ],
+  "C11_ChemistryOrganicChemistryBasicPrincPart1CBSESim": [
+    {
+      "id": "misc_1",
+      "title": "Selecting Longest Chain Without Principal Functional Group in IUPAC",
+      "description": "Students often believe that the parent carbon chain in IUPAC nomenclature must strictly be the longest continuous chain of carbon atoms in the molecule, regardless of functional groups.",
+      "correction": "The parent carbon chain must be chosen to include the principal functional group and maximum number of multiple bonds, even if a longer continuous carbon chain exists without them. For example, in 2-ethylbutan-1-ol, the longest continuous carbon chain has 5 carbons, but the parent chain is chosen as 4 carbons so that it contains the -OH functional group."
+    },
+    {
+      "id": "misc_2",
+      "title": "Viewing Canonical Resonance Structures as Real Oscillating Isomers",
+      "description": "Students frequently perceive canonical resonance structures as real, distinct chemical species that rapidly interconvert or oscillate back and forth in dynamic equilibrium.",
+      "correction": "Resonance structures are purely hypothetical Lewis representations used on paper to depict electron delocalization for a single real molecule known as the resonance hybrid. The molecule exists in only one static hybrid state at all times, and atoms never change positions between canonical forms."
+    },
+    {
+      "id": "misc_3",
+      "title": "Including Pi Bonds When Determining Carbon Atom Hybridization",
+      "description": "Students count the total number of bonds (including pi bonds) attached to a carbon atom to deduce its hybridization state, often misidentifying sp or sp2 carbon atoms as sp3.",
+      "correction": "Hybridization involves only sigma (σ) bonds and lone pairs, while pi (π) bonds are formed by unhybridized pure p-orbitals. A carbon with two σ bonds and two π bonds (as in ethyne or carbon dioxide) has a steric number of 2 and is sp hybridized, not sp3."
+    },
+    {
+      "id": "misc_4",
+      "title": "Believing Steam Distillation Heats Organic Liquids Above Their Boiling Point",
+      "description": "Students assume steam distillation works by heating steam-volatile organic liquids to temperatures higher than their normal boiling points because hot steam is passed into the mixture.",
+      "correction": "Steam distillation causes an immiscible organic liquid to boil at a temperature *lower* than its normal boiling point (and below 373 K). This occurs because the total vapor pressure of the immiscible mixture equals the sum of individual vapor pressures (P_total = P_water + P_organic), reaching atmospheric pressure well before reaching the organic liquid's normal boiling point."
+    },
+    {
+      "id": "misc_5",
+      "title": "Classifying Electromeric Effect as a Permanent Ground-State Property",
+      "description": "Students treat the electromeric effect (+E/-E) as a permanent electron displacement inherent to an isolated molecule, similar to inductive (+I/-I) and resonance (+R/-R) effects.",
+      "correction": "The electromeric effect is a temporary electronic effect that occurs only when an attacking reagent approaches a multiple bond, causing a complete transfer of a shared pair of π-electrons. As soon as the attacking reagent is removed, the molecule reverts back to its original unpolarized ground state."
+    }
+  ],
+  "C11_ChemistryOrganicChemistryBasicPrincPart2CBSESim": [
+    {
+      "id": "misc_1",
+      "title": "Kjeldahl's method can estimate nitrogen in all nitrogenous organic compounds",
+      "description": "Students believe that Kjeldahl's method can be universally applied to quantify nitrogen in any organic compound containing N, including nitro compounds, azo compounds, and ring nitrogens.",
+      "correction": "Kjeldahl's method fails for nitro compounds (-NO2), azo compounds (-N=N-), and nitrogen present in aromatic rings (e.g., pyridine). In these structures, nitrogen is not quantitatively converted into ammonium sulfate during sulfuric acid digestion. Dumas method must be used instead for such compounds."
+    },
+    {
+      "id": "misc_2",
+      "title": "Boiling sodium extract with nitric acid before halogen test is optional",
+      "description": "Students incorrectly think that boiling the Sodium Fusion Extract with concentrated nitric acid prior to adding silver nitrate is just a cleaning step rather than a critical reaction.",
+      "correction": "If nitrogen or sulfur is present in the compound, the extract contains sodium cyanide or sodium sulfide. These species react with silver nitrate to form interfering white (AgCN) or black (Ag2S) precipitates. Boiling with concentrated nitric acid decomposes NaCN and Na2S into HCN and H2S gases, purging them before testing for halogens."
+    },
+    {
+      "id": "misc_3",
+      "title": "Resonance effect diminishes rapidly with distance like inductive effect",
+      "description": "Students believe that the resonance (+R/-R) effect decreases as the distance between the functional group and the reaction center increases, mirroring inductive behavior.",
+      "correction": "Unlike the inductive effect which operates through sigma bonds and weakens sharply after 3-4 carbons, the resonance effect operates through pi-bonds in conjugated systems. Its electronic influence remains almost equally transmitted across the entire length of the conjugated chain, regardless of distance."
+    },
+    {
+      "id": "misc_4",
+      "title": "Hyperconjugation involves the delocalization of pi electrons",
+      "description": "Students frequently confuse hyperconjugation with resonance, assuming hyperconjugation involves the delocalization of pi-electrons across unsaturated bonds.",
+      "correction": "Hyperconjugation involves the delocalization of sigma electrons from a C-H bond attached to a carbon directly adjacent to an unsaturated center or carbocation (alpha C-H). These C-H sigma electrons overlap with an adjacent unhybridized empty p-orbital or pi-star antibonding orbital, which is why it is distinct from pi-pi resonance."
+    },
+    {
+      "id": "misc_5",
+      "title": "Electromeric effect operates permanently in ground state organic molecules",
+      "description": "Students categorize the electromeric (+E/-E) effect as a permanent structural property of a molecule, similar to inductive and resonance effects.",
+      "correction": "The electromeric effect is a purely temporary electronic effect that operates only in compounds containing multiple bonds when an attacking reagent approaches. As soon as the attacking reagent is removed from the reaction sphere, the shifted pi-electron pair returns instantly to its original positions, restoring the unpolarized molecule."
+    }
+  ],
+  "C12_ChemistryBiomoleculesCBSESim": [
+    {
+      "id": "misc_1",
+      "title": "Fructose is a Non-Reducing Sugar Due to its Ketone Group",
+      "description": "Students often believe that fructose is a non-reducing sugar because ketones typically do not reduce Fehling's or Tollens' reagents.",
+      "correction": "Fructose is a reducing sugar despite containing a keto group at C-2. Under alkaline conditions (such as in Fehling's or Tollens' reagent), fructose undergoes keto-enol tautomerization to isomerize into aldoses like glucose and mannose, which easily reduce these reagents."
+    },
+    {
+      "id": "misc_2",
+      "title": "Protein Denaturation Involves Cleavage of Covalent Peptide Bonds",
+      "description": "Students incorrectly assume that denaturation breaks down the primary structure of proteins by breaking peptide bonds and converting them into free amino acids.",
+      "correction": "Denaturation disrupts only the secondary and tertiary structures of proteins by destabilizing hydrogen bonds, disulfide bridges, and hydrophobic interactions. The primary structure and its covalent peptide bonds remain completely intact during denaturation."
+    },
+    {
+      "id": "misc_3",
+      "title": "D and L Designations Indicate Dextrorotatory and Laevorotatory Rotation",
+      "description": "Students equate the 'D' and 'L' prefixes in carbohydrate nomenclature with dextrorotatory (+) and laevorotatory (-) optical rotation.",
+      "correction": "'D' and 'L' refer strictly to absolute spatial configuration relative to D-glyceraldehyde, determined by the position of the -OH group on the lowest chiral carbon in a Fischer projection. Optical rotation (+ or -) is an experimentally measured property independent of D/L configuration; for instance, D-fructose is laevorotatory, written as D-(-)-fructose."
+    },
+    {
+      "id": "misc_4",
+      "title": "Amino Acids Exist as Uncharged Neutral Molecules in Aqueous Solution",
+      "description": "Students often draw and treat amino acids in aqueous solution as uncharged molecules containing free -COOH and -NH2 groups.",
+      "correction": "In aqueous medium, the acidic -COOH group transfers a proton to the basic -NH2 group via an intramolecular acid-base reaction. This creates a dipolar, hybrid ion known as a zwitterion (H3N+-CHR-COO-), which explains why amino acids have high melting points and amphoteric behavior."
+    },
+    {
+      "id": "misc_5",
+      "title": "Sucrose is Reducing Because its Monosaccharide Component Units are Reducing",
+      "description": "Students assume sucrose must be a reducing sugar simply because it is composed of glucose and fructose, both of which are reducing sugars.",
+      "correction": "Sucrose is a non-reducing disaccharide because the glycosidic bond is formed between C-1 of α-D-glucose and C-2 of β-D-fructose. Since both carbonyl/reducing carbons (hemiacetal and hemiketal groups) are bonded together in the glycosidic link, no free aldehyde or ketone group is available to reduce Fehling's or Tollens' reagent."
+    }
+  ],
+  "C12_ChemistrySolutionsCBSESim": [
+    {
+      "id": "misc_1",
+      "title": "High Henry's Law Constant Means Higher Gas Solubility",
+      "description": "Students incorrectly believe that a higher value of Henry's law constant (K_H) indicates greater solubility of a gas in a liquid.",
+      "correction": "According to Henry's law, p = K_H * x, where x is the mole fraction of the gas in solution. At a constant partial pressure, mole fraction (solubility) is inversely proportional to K_H, meaning higher K_H values correspond to lower gas solubility at a given temperature."
+    },
+    {
+      "id": "misc_2",
+      "title": "Positive Deviation from Raoult's Law Implies Stronger Intermolecular Forces",
+      "description": "Students assume positive deviation from Raoult's law indicates stronger solute-solvent interactions because the observed vapor pressure is higher.",
+      "correction": "Positive deviation occurs when solute-solvent (A-B) interactions are weaker than solute-solute (A-A) and solvent-solvent (B-B) interactions. Because molecules escape into the vapor phase more easily due to weaker forces, the observed vapor pressure is higher than predicted by Raoult's law."
+    },
+    {
+      "id": "misc_3",
+      "title": "Azeotropes Can Be Separated Into Pure Components by Fractional Distillation",
+      "description": "Students incorrectly write that azeotropic mixtures can be separated into their pure constituent liquids using fractional distillation.",
+      "correction": "Azeotropes are binary liquid mixtures that boil at a constant temperature and distill over completely without changing composition. Because the liquid and vapor phases have identical compositions at the azeotropic composition, fractional distillation cannot separate them."
+    },
+    {
+      "id": "misc_4",
+      "title": "Calculated Delta Tb or Delta Tf Represents Actual Boiling or Freezing Point",
+      "description": "Students frequently substitute the calculated elevation in boiling point (Delta Tb) or depression in freezing point (Delta Tf) directly as the final boiling or freezing temperature of the solution.",
+      "correction": "Delta Tb and Delta Tf represent the change in temperature relative to the pure solvent, where Delta Tb = Tb - Tb° and Delta Tf = Tf° - Tf. To find the solution's actual boiling point, Delta Tb must be added to the pure solvent's boiling point, whereas Delta Tf must be subtracted from the pure solvent's freezing point."
+    },
+    {
+      "id": "misc_5",
+      "title": "Van 't Hoff Factor Is Always an Integer Based on Ion Count",
+      "description": "Students assume the van 't Hoff factor (i) for an electrolyte is always an integer equal to the total number of ions written in its formula unit (e.g., i = 3 for K2SO4).",
+      "correction": "The van 't Hoff factor depends on the degree of dissociation (alpha) via the relation i = 1 + (n - 1)alpha. It equals the total number of theoretical ions (n) only when complete dissociation occurs (alpha = 1); for incomplete dissociation or association, i is a non-integer value."
+    }
+  ],
+  "C12_ChemistryHaloalkanesandHaloarenesCBSESim": [
+    {
+      "id": "misc_1",
+      "title": "Aqueous vs. Alcoholic KOH Function in Haloalkane Reactions",
+      "description": "Students frequently believe that treating a haloalkane with aqueous KOH leads to elimination (alkene formation), whereas alcoholic KOH leads to substitution (alcohol formation).",
+      "correction": "Aqueous KOH is highly solvated by water, making the hydroxide ion a weak base but a good nucleophile that causes nucleophilic substitution to yield alcohols. Alcoholic KOH contains alkoxide ions (RO⁻), which act as stronger bases and preferentially abstract a beta-hydrogen to cause dehydrohalogenation (elimination) yielding alkenes."
+    },
+    {
+      "id": "misc_2",
+      "title": "Stereochemical Outcome of SN1 Reactions",
+      "description": "Students assume that an SN1 reaction of an optically active tertiary haloalkane always produces a perfectly balanced 50:50 racemic mixture.",
+      "correction": "Although the SN1 mechanism proceeds through a planar carbocation intermediate allowing attack from both faces, complete 100% racemization rarely occurs. The leaving halide ion briefly shields the front side as an ion pair, causing nucleophilic attack from the rear face to slightly predominate, resulting in partial racemization with net inversion."
+    },
+    {
+      "id": "misc_3",
+      "title": "SN1 Reactivity of Primary Allylic and Benzylic Halides",
+      "description": "Students assume primary allylic and benzylic halides cannot undergo SN1 reactions simply because they are primary (1°) alkyl halides.",
+      "correction": "Primary allylic and benzylic halides readily undergo SN1 reactions despite being primary because their carbocation intermediates are strongly stabilized by resonance with the adjacent pi-system or benzene ring. Consequently, their SN1 reactivity is significantly higher than that of standard primary or even secondary alkyl halides."
+    },
+    {
+      "id": "misc_4",
+      "title": "Directive Effect of Halogens in Electrophilic Substitution",
+      "description": "Students believe that because halogens are net electron-withdrawing groups (-I effect), haloarenes must direct incoming electrophiles to the meta position.",
+      "correction": "Halogens are ortho- and para-directing because resonance (+R effect) delocalizes lone-pair electrons into the aromatic ring, specifically stabilizing the intermediate carbocation at the ortho and para positions. However, because their strong inductive (-I) effect dominates overall electron density, haloarenes remain deactivated compared to benzene."
+    },
+    {
+      "id": "misc_5",
+      "title": "Effect of Meta-Nitro Groups on Nucleophilic Aromatic Substitution",
+      "description": "Students believe that placing strong electron-withdrawing nitro (-NO2) groups at the meta position accelerates nucleophilic aromatic substitution of aryl halides just as effectively as at ortho and para positions.",
+      "correction": "Nitro groups significantly increase haloarene reactivity toward nucleophilic substitution only when located at the ortho and para positions relative to the halogen. Resonance delocalization of the negative charge in the intermediate Meisenheimer complex onto the oxygen atoms of the nitro group occurs exclusively from the ortho and para positions, not from the meta position."
+    }
+  ],
+  "C11_ChemistryThermodynamicsCBSESim": [
+    {
+      "id": "misc_1",
+      "title": "Equating Spontaneous Reactions with Fast Chemical Reactions",
+      "description": "Students often believe that if a reaction is spontaneous (having a negative Delta G), it must occur rapidly or instantaneously.",
+      "correction": "Spontaneity indicates only the thermodynamic feasibility of a process, not its reaction rate. For example, the conversion of diamond to graphite is spontaneous but occurs at an imperceptibly slow rate. Reaction rates are governed by chemical kinetics, whereas thermodynamics determines only the direction of change."
+    },
+    {
+      "id": "misc_2",
+      "title": "Confusing Standard Enthalpy of Formation with Standard Entropy",
+      "description": "Students frequently assume that the standard entropy of a pure element in its reference state is zero, just like its standard enthalpy of formation.",
+      "correction": "By convention, the standard enthalpy of formation of an element in its reference state is zero, but absolute entropy is zero only for a perfectly crystalline substance at zero Kelvin. At standard temperature (298 K), all elements have positive absolute entropy values due to molecular motion and thermal energy."
+    },
+    {
+      "id": "misc_3",
+      "title": "Misinterpreting Standard Free Energy Change as Condition for Equilibrium",
+      "description": "Students often confuse Delta G with Delta G degree, incorrectly believing that Delta G degree must equal zero at equilibrium.",
+      "correction": "At chemical equilibrium, the non-standard Gibbs free energy change (Delta G) equals zero, whereas Delta G degree is a constant fixed by the equilibrium constant (Delta G degree = -RT ln K). A value of Delta G degree equal to zero simply means the equilibrium constant K equals 1, not that the system is currently at equilibrium."
+    },
+    {
+      "id": "misc_4",
+      "title": "Equating Enthalpy Change to Heat Supplied Under All Conditions",
+      "description": "Students assume that the heat absorbed or released during any thermodynamic process is always equal to the enthalpy change.",
+      "correction": "Enthalpy change is strictly equal to heat transferred only when the process occurs at constant pressure. Under constant volume conditions, the heat transferred is equal to the change in internal energy (Delta U), not enthalpy."
+    },
+    {
+      "id": "misc_5",
+      "title": "Misunderstanding Why Molar Heat Capacity Cp Exceeds Cv",
+      "description": "Students often believe Cp is greater than Cv because constant pressure systems intrinsically require higher temperatures.",
+      "correction": "At constant pressure, supplied heat increases internal energy and also does expansion work against external pressure. Conversely, at constant volume, no expansion work is done, so all heat goes entirely into raising internal energy. Thus, more heat is required per degree temperature rise at constant pressure, making Cp greater than Cv."
+    }
+  ],
+  "C12_ChemistryAldehydesKetonesandCarboxylicACBSESim": [
+    {
+      "id": "misc_1",
+      "title": "Confusing Alpha-Hydrogen Requirement in Aldol and Cannizzaro Reactions",
+      "description": "Students often believe that any aldehyde can undergo both Aldol condensation and Cannizzaro reaction depending solely on the strength of the base used.",
+      "correction": "Aldol condensation requires aldehydes or ketones with at least one alpha-hydrogen atom, which acts as an acidic proton to form an enolate ion intermediate. In contrast, the Cannizzaro reaction is a disproportionation reaction specific to aldehydes lacking alpha-hydrogens, such as formaldehyde or benzaldehyde, when treated with concentrated alkali. Therefore, the presence or absence of an alpha-hydrogen dictates which reaction path the compound will follow."
+    },
+    {
+      "id": "misc_2",
+      "title": "Assuming Carbonyl Double Bonds Undergo Electrophilic Addition Like Alkenes",
+      "description": "Students frequently assume that because carbonyl compounds contain a carbon-oxygen double bond, they undergo electrophilic addition reactions similar to carbon-carbon double bonds in alkenes.",
+      "correction": "Unlike alkenes which possess non-polar double bonds and attract electrophiles, the carbon-oxygen double bond in carbonyls is highly polar due to the higher electronegativity of oxygen. This polarization creates an electron-deficient carbonyl carbon that is susceptible to initial attack by nucleophiles. Thus, nucleophilic addition, rather than electrophilic addition, is the characteristic reaction of aldehydes and ketones."
+    },
+    {
+      "id": "misc_3",
+      "title": "Electron-Donating Groups Increase Carboxylic Acid Acidity by Releasing Hydrogens",
+      "description": "Students often incorrectly assume that electron-donating groups (+I effect) enhance the acidity of carboxylic acids by supplying more electron density to push out the proton easily.",
+      "correction": "Electron-donating groups actually decrease acidity because they intensify the negative charge on the carboxylate anion, destabilizing it. Conversely, electron-withdrawing groups (-I effect) withdraw electron density, helping to disperse the negative charge across the conjugate base. This stabilization of the carboxylate anion makes the parent carboxylic acid significantly more acidic."
+    },
+    {
+      "id": "misc_4",
+      "title": "Believing Hydroxyl Group in Esterification Originates from the Alcohol",
+      "description": "Students typically assume that during acid-catalyzed esterification, the alcohol molecule loses its complete hydroxyl (-OH) group while the carboxylic acid contributes only a hydrogen ion.",
+      "correction": "Isotopic labeling experiments using Oxygen-18 demonstrate that the hydroxyl (-OH) group is actually cleaved from the carboxylic acid molecule during esterification. The alcohol molecule contributes only its acidic proton (-H+), leaving its alkoxy oxygen intact to form the ester bond. Thus, the oxygen atom in the ester's alkoxy component (-OR) originates entirely from the alcohol."
+    },
+    {
+      "id": "misc_5",
+      "title": "Believing Ketones Are More Reactive Than Aldehydes in Nucleophilic Addition",
+      "description": "Students sometimes think that ketones are more reactive towards nucleophiles than aldehydes because ketones have two alkyl groups that can better stabilize the reaction intermediate.",
+      "correction": "Aldehydes are generally far more reactive than ketones towards nucleophilic addition due to steric and electronic factors. Sterically, aldehydes have only one bulky alkyl group, offering less hindrance to the approaching nucleophile compared to the two alkyl groups in ketones. Electronically, two alkyl groups in ketones donate electron density via the +I effect, reducing the electrophilicity of the carbonyl carbon more than the single alkyl group in aldehydes."
+    }
+  ],
+  "C12_ChemistryAminesandDiazoniumSaltsCBSESim": [
+    {
+      "id": "misc_1",
+      "title": "Gabriel Phthalimide Synthesis Can Prepare Aromatic Primary Amines",
+      "description": "Students often believe that Gabriel phthalimide synthesis can be used to synthesize both primary aliphatic and primary aromatic amines. They assume aryl halides react easily with potassium phthalimide via nucleophilic substitution.",
+      "correction": "Gabriel phthalimide synthesis is strictly used for preparing aliphatic primary amines. Aryl halides cannot undergo nucleophilic substitution with the phthalimide anion because the carbon-halogen bond acquires partial double bond character due to resonance. Consequently, aromatic primary amines like aniline cannot be prepared by this method."
+    },
+    {
+      "id": "misc_2",
+      "title": "Tertiary Amines Are Always Most Basic in Aqueous Solution",
+      "description": "Students think tertiary amines are always the most basic in aqueous solution due to the maximum +I effect from three alkyl groups. They wrongly extrapolate gas-phase basicity trends directly to aqueous solutions.",
+      "correction": "In aqueous solutions, basicity is governed by a combination of the inductive effect, steric hindrance, and cation solvation. Solvation through hydrogen bonding stabilizes smaller substituted ammonium ions better, making secondary amines generally more basic than tertiary ones. For instance, the basicity order for methyl-substituted amines in aqueous medium is 2° > 1° > 3° > NH3."
+    },
+    {
+      "id": "misc_3",
+      "title": "Hoffmann Bromamide Degradation Retains Parent Amide Carbon Count",
+      "description": "Students frequently assume that the amine formed from Hoffmann bromamide degradation contains the same number of carbon atoms as the reactant amide. They fail to account for the loss of the carbonyl carbon during the mechanism.",
+      "correction": "Hoffmann bromamide degradation yields a primary amine containing one carbon atom fewer than the starting amide. The carbonyl carbon of the amide group is eliminated as a carbonate ion (Na2CO3 or K2CO3). Hence, converting propanamide via this reaction yields ethanamine rather than propanamine."
+    },
+    {
+      "id": "misc_4",
+      "title": "Carbylamine Test Gives Foul Smell for All Amines",
+      "description": "Students believe that the carbylamine test can be used to identify any amine because all class types produce a foul-smelling compound. They assume secondary and tertiary amines respond similarly when warmed with chloroform and KOH.",
+      "correction": "The carbylamine (isocyanide) test is exclusively given by primary (1°) aliphatic and aromatic amines. Secondary (2°) and tertiary (3°) amines do not show this test because they lack the two amino hydrogens required to form an isocyanide. Therefore, this reaction is specifically used to distinguish primary amines from secondary and tertiary amines."
+    },
+    {
+      "id": "misc_5",
+      "title": "Aliphatic Diazonium Salts Are Stable at Low Temperatures",
+      "description": "Students often assume that aliphatic diazonium salts can be isolated and stored at 0–5 °C just like benzene diazonium chloride. They expect diazotization to yield stable intermediates for both aliphatic and aromatic primary amines.",
+      "correction": "Aliphatic diazonium salts are extremely unstable even at 0–5 °C and spontaneously decompose to evolve nitrogen gas and form carbocations and alcohols. In contrast, arenediazonium salts are temporarily stable at 273–278 K because the positive charge on the diazonium group is dispersed over the benzene ring via resonance. Consequently, aliphatic diazonium salts cannot be used for synthetic coupling or Sandmeyer reactions."
+    }
+  ],
+  "C12_ChemistryCoordinationCompoundsCBSESim": [
+    {
+      "id": "misc_1",
+      "title": "Coordination Number Equals Total Number of Ligands Attached",
+      "description": "Students often believe that the coordination number of a central metal ion is simply equal to the total count of ligand molecules or ions bound to it.",
+      "correction": "Coordination number is defined as the total number of ligand donor atoms directly bonded to the central metal ion through coordinate bonds. For polydentate ligands like ethylenediamine (en) or EDTA, one ligand molecule provides multiple donor atoms. For instance, in [Co(en)3]3+, there are 3 ligand molecules, but the coordination number is 6 because 'en' is a bidentate ligand."
+    },
+    {
+      "id": "misc_2",
+      "title": "Observed Color of a Complex Matches Absorbed Light Wavelength",
+      "description": "Students frequently assume that a coordination compound appears in the exact color corresponding to the wavelength of light absorbed during d-d transitions.",
+      "correction": "When a coordination compound absorbs light of a specific wavelength for d-d transition, that specific color is removed from white light. The light transmitted or reflected to our eyes consists of the remaining unabsorbed wavelengths. Therefore, the observed color of the complex is always the complementary color of the light absorbed, not the absorbed color itself."
+    },
+    {
+      "id": "misc_3",
+      "title": "Tetrahedral Complexes Can Exhibit Cis-Trans Geometrical Isomerism",
+      "description": "Students assume that MA2B2 type tetrahedral complexes can form cis and trans isomers just like square planar complexes with the same formula.",
+      "correction": "In a regular tetrahedral geometry, all four coordination positions are equidistant from each other, separated by identical bond angles of 109.5 degrees. Because no two positions are opposite or uniquely adjacent relative to others, spatial rearrangement of ligands does not create different isomers. Consequently, tetrahedral complexes do not show geometrical isomerism."
+    },
+    {
+      "id": "misc_4",
+      "title": "Crystal Field Splitting in Tetrahedral Complexes Exceeds Octahedral",
+      "description": "Students often incorrectly assume that tetrahedral crystal field splitting energy (Δt) is larger than octahedral splitting energy (Δo) because of fewer ligands causing less repulsion.",
+      "correction": "Tetrahedral crystal field splitting (Δt) is actually much smaller than octahedral splitting (Δo), specifically Δt = (4/9)Δo. This happens because there are only four ligands instead of six, and none of the d-orbitals point directly at the incoming ligands in a tetrahedral arrangement. Because Δt is always less than the electron pairing energy, tetrahedral complexes are almost exclusively high-spin."
+    },
+    {
+      "id": "misc_5",
+      "title": "Primary Valencies Determine Spatial Geometry in Werner Theory",
+      "description": "Students confuse primary and secondary valencies, believing that ionizable primary valencies are directional and dictate the stereochemistry of the complex.",
+      "correction": "According to Werner's theory, primary valency corresponds to the oxidation state, is non-directional, and is satisfied only by negative ions. Secondary valency corresponds to the coordination number and is satisfied by neutral molecules or negative ions. It is the directional secondary valencies projected in specific spatial directions that dictate the overall molecular geometry of the coordination compound."
+    }
+  ],
+  "C12_ChemistryElectrochemistryCBSESim": [
+    {
+      "id": "misc_1",
+      "title": "Multiplying Reaction Coefficients Changes Standard Electrode Potential",
+      "description": "Students often believe that when a redox half-reaction is multiplied by a stoichiometric coefficient, its standard reduction potential (E°) must also be multiplied by that same number.",
+      "correction": "Standard electrode potential (E°) is an intensive property, which means its value is independent of the amount of substance or the stoichiometric coefficients in the balanced equation. In contrast, Gibbs energy change (ΔG° = -nFE°) is an extensive property and does scale with reaction stoichiometry. Therefore, while ΔG° changes when multiplying coefficients, E° remains completely unchanged."
+    },
+    {
+      "id": "misc_2",
+      "title": "Conductivity Increases Upon Dilution of Electrolytic Solution",
+      "description": "Students frequently confuse conductivity (specific conductance, κ) with molar conductivity (Λm), assuming that both values increase when a solution is diluted.",
+      "correction": "Molar conductivity (Λm) increases upon dilution because total ionic mobility rises and ions are spread over a larger volume. However, conductivity (κ) always decreases with dilution because the number of current-carrying ions present per unit volume of solution decreases. Thus, conductivity and molar conductivity show opposite trends during dilution."
+    },
+    {
+      "id": "misc_3",
+      "title": "Standard Cell Potential Becomes Zero at Chemical Equilibrium",
+      "description": "Students confuse the operational cell potential (Ecell) with the standard cell potential (E°cell), incorrectly believing that E°cell drops to zero once a cell reaction reaches equilibrium.",
+      "correction": "At chemical equilibrium, only the real-time cell potential (Ecell) becomes zero because net electron flow stops. The standard cell potential (E°cell) is a fixed thermodynamic constant defined under standard conditions (1 M concentration, 1 atm pressure, 298 K) and does not change. Instead, E°cell is directly related to the equilibrium constant via the equation E°cell = (RT/nF) ln K."
+    },
+    {
+      "id": "misc_4",
+      "title": "Anode is Always Positive and Cathode is Always Negative",
+      "description": "Students memorize electrode polarities rigidly, believing that the anode is positive and the cathode is negative across all electrochemical systems.",
+      "correction": "The fundamental definition of electrodes relies on the reaction taking place: oxidation always occurs at the anode, and reduction always occurs at the cathode. In a galvanic (voltaic) cell, the anode is negative and the cathode is positive due to spontaneous chemical electron release. Conversely, in an electrolytic cell driven by an external power source, the anode is positive and the cathode is negative."
+    },
+    {
+      "id": "misc_5",
+      "title": "Kohlrausch Law Applies Exclusively to Weak Electrolyte Solutions",
+      "description": "Students assume Kohlrausch law of independent migration of ions is relevant only for weak electrolytes because strong electrolytes can be measured directly via extrapolation.",
+      "correction": "Kohlrausch law states that the limiting molar conductivity of any electrolyte equals the sum of the individual limiting ionic conductivities of its constituent cations and anions. This fundamental principle applies equally to both strong and weak electrolytes. While it is uniquely required to calculate limiting molar conductivity for weak electrolytes indirectly, it remains fully valid for strong electrolytes."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "gameTitle": "PlantTypesGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\bio\\PlantTypesGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c1_biology_enrichment_part15.marker",
+    "D:\\cisce\\bio\\enrichment\\c1_biology_enrichment_part16.marker",
+    "D:\\cisce\\bio\\enrichment\\c1_biology_enrichment_part17.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\chem\\WaterGame.tsx",
+  "cisceNodes": "c1_bio_015 (Plants on land, water, climbers), c1_bio_016 (Edible parts), c1_bio_017 (Medicinal plants)",
+  "mascotName": "Gardener Gita",
+  "mascotDescription": "a friendly young gardener with a straw hat, green apron, watering can, and trowel. She has a warm smile and dirt smudges on her cheeks. Custom SVG, not an owl.",
+  "sceneDescription": "garden scene with sky gradient, a garden bed with various plants, a pond with lotus, a trellis with climbers, and butterflies",
+  "svgObjects": [
+    { "name": "MangoTreeIcon", "description": "a mango tree with trunk, leaves, and mangoes" },
+    { "name": "LotusIcon", "description": "a lotus flower on a lily pad in water" },
+    { "name": "MoneyPlantIcon", "description": "a climbing money plant on a trellis" },
+    { "name": "CarrotIcon", "description": "a carrot with orange root and green leaves (edible root)" },
+    { "name": "SpinachIcon", "description": "spinach leaves (edible leaf)" },
+    { "name": "PeaIcon", "description": "pea pods with peas inside (edible seed)" },
+    { "name": "TulsiIcon", "description": "a tulsi plant in a pot (medicinal)" },
+    { "name": "NeemIcon", "description": "a neem tree with leaves (medicinal)" }
+  ],
+  "challengeTypes": [
+    "identify: Where does a LOTUS grow? (Water vs Land vs Wall)",
+    "identify: Where does a MANGO tree grow? (Land vs Water vs Wall)",
+    "identify: Where does a MONEY PLANT grow? (Climbs on support vs Land only vs Water only)",
+    "sort: Drag plants to where they grow (Land: mango, neem | Water: lotus, lily | Climber: money plant, grape)",
+    "identify: What part of a CARROT do we eat? (Root vs Leaf vs Seed)",
+    "identify: What part of SPINACH do we eat? (Leaf vs Root vs Fruit)",
+    "sort: Drag plants to the edible part we eat (Root: carrot, radish | Leaf: spinach, cabbage | Seed: pea, gram | Fruit: mango, apple)",
+    "sort: Drag plants to medicinal or food (Medicinal: tulsi, neem, aloe | Food: mango, apple, banana)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Plant types by where they grow — land plants (mango, neem), water plants (lotus, lily), climbers (money plant, grape vine). (2) Edible parts — root (carrot, radish), leaf (spinach, cabbage), seed (pea, gram), fruit (mango, apple). (3) Medicinal plants — tulsi (cough/cold), neem (skin), aloe (burns). Use only with adult guidance. Misconceptions: 'all plants grow on land' (lotus grows in water, money plant climbs), 'we eat only fruits' (carrot is root, spinach is leaf, pea is seed), 'medicinal plants are medicines we take anytime' (use only with adult guidance). Default width=720, height=560. Use named export (export function PlantTypesGame), NOT export default. Export interface PlantTypesGameProps with width?, height?, onComplete?: (score: number) => void."
+}

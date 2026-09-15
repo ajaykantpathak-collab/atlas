@@ -1,0 +1,1127 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete PeriodicTableExplorerSimulation.tsx component about Elements, metals, non-metals, reactivity series, periodic table.
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "Simple Explanation (ELI5)", "Chemistry Theory", "Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- misconceptions items: { belief: string; correction: string }
+- diagnosticQuestions items: { number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint? }
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall -> apply -> evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \\frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_chem_011",
+    "title": "Language of chemistry - symbols of elements",
+    "definition": "Chemistry is the science that studies a large number of elements and the many compounds they form. If chemists had to write the full name of every element every time they spoke or wrote about a substance, chemical communication would become slow, repetitive, and full of mistakes. To avoid this, chemists use symbols -- short one- or two-letter notations that stand for the names of elements. A symbol is therefore a shorthand notation for an element. For example, the element hydrogen is represented by the single letter H, oxygen by O, and carbon by C. These symbols are simply the first letters of the English names. However, not all symbols are taken from English. Several elements keep symbols from their older Latin, Greek, or historical names. Sodium is represented by Na from the Latin word natrium, iron by Fe from the Latin ferrum, potassium by K from kalium, gold by Au from aurum, silver by Ag from argentum, and copper by Cu from cuprum. When two or more elements begin with the same first letter, a second distinctive letter is added: carbon is C, but calcium is Ca; chlorine is Cl, but chromium is Cr; copper is Cu, and cobalt is Co. The first letter of a symbol is always a capital letter, and the second letter, if present, is always a small letter. Writing CO instead of Co is a serious mistake, because CO is the formula of the compound carbon monoxide, while Co is the symbol for the element cobalt. Symbols are more than just abbreviations; they are a universal language of chemical communication used by scientists all over the world. When chemists describe a chemical reaction, the starting substances are called reactants and the new substances formed are called products. The reactants are usually written on the left, and the products on the right. For example, if hydrogen and oxygen combine to form water, the reactants are the elements H and O, and the product is the compound H2O. At this level, the focus is only on learning the symbols of common elements and recognising that these symbols are the building blocks of chemical communication. Compound formulae and full chemical equations are reserved for later nodes. By mastering these symbols, the student moves from the idea that mixtures have separable components to the idea that every element has a unique chemical symbol that allows quick and accurate scientific conversation.",
+    "textWalkthrough": "Think back to what you learned in node c5_chem_007. There, you discovered that a mixture is made of two or more substances that are not chemically joined, and because the parts of a mixture have different properties, they can be separated by methods such as filtration, decantation, and evaporation. That was an important first idea: matter around us is made of bits and pieces that can often be pulled apart. Then, in node c6_chem_005, you moved one step deeper. You learned that an element is the simplest form of matter and cannot be broken down into anything simpler by ordinary chemical means. Each element is a single kind of substance. Now the natural next question is: how do chemists keep track of so many different elements, and how do they talk about them without writing long names every time?\r\n\r\nThis is where the language of chemistry begins. Chemists use symbols as a kind of shorthand. Just as you might write \"Dr.\" instead of \"Doctor\" or \"km\" instead of \"kilometre,\" a chemist writes H instead of hydrogen, O instead of oxygen, and C instead of carbon. These short codes make reading, writing, and remembering much easier. But there is a rule: a symbol must be unique. No two elements can have the same symbol, because that would cause confusion. So when two elements start with the same first letter, the second or another letter is added. Calcium cannot be C, because carbon already uses C, so calcium becomes Ca. Chlorine cannot be C, so it becomes Cl. Cobalt cannot be C, so it becomes Co. Chromium cannot be C either, so it becomes Cr. Notice how the second letter helps us tell these elements apart.\r\n\r\nSome symbols come from words that are not English. This is one of the most interesting parts of chemical history. The metal we call sodium has the symbol Na because the old Latin word for a sodium compound was natrium. Iron is Fe because the Latin word was ferrum. Copper is Cu because the Latin word was cuprum. Gold is Au from aurum, and silver is Ag from argentum. Why does this happen? Because the names and symbols were fixed long before modern English became the common language of science. In India, too, students may notice that some metals are known by different names in different languages: for example, gold is called sone in Hindi, while iron is called loha. The chemical symbols help all scientists, whatever language they speak, use the same code. In places such as Zawar in Rajasthan, which has a long history of zinc and lead mining, and in the copper-rich Singhbhum belt of Jharkhand, the same chemical symbols are used by geologists and chemists everywhere.\r\n\r\nLet us compare a good answer with a weak answer. Suppose you are asked to write the symbol of sodium. A good answer is Na, with a capital N and a small a. A weak answer is \"NA\" with both letters capital, or \"So\" from the English name, or \"S\" which is already the symbol for sulphur. Another example: the symbol of copper is Cu, not Co and not CP. The symbol of iron is Fe, not Ir and not I. Paying attention to the exact letters and the exact capitalisation is very important.\r\n\r\nIn the ICSE board exam, questions about symbols are usually simple but carefully checked. The examiners want to see that you can identify and write the correct symbol for common elements, that you know a symbol may come from a Latin or historical name, and that you can match an element to its symbol without confusion. They also want you to understand that symbols are a form of chemical communication used to name reactants and products in reactions. Keep your symbols neat, use the correct capital and small letters, and remember that the full equations and compound formulae will come later. For now, your job is to build a strong foundation by learning the symbols of the elements you meet in this chapter.",
+    "eli5": "Chemical symbols are like tiny nicknames for elements. Instead of writing \"hydrogen\" every time, scientists just write H. Some nicknames come from old names, like Na for sodium from natrium. These short codes help chemists everywhere talk clearly and quickly without getting confused.",
+    "misconceptionText": "Misconception 1 -- \"A chemical symbol must always be the first one or two letters of the English name.\" Many students make this mistake. The board examiner observations show that candidates often confuse names and formulae in chemistry; in the 2024 paper analysis, examiners noted that students struggled to match the correct chemical names of reactants and products in reactions. The correction is that some symbols come from Latin or other historical names. Sodium is Na from natrium, iron is Fe from ferrum, potassium is K from kalium, gold is Au from aurum, silver is Ag from argentum, and copper is Cu from cuprum. The symbol is a fixed international code, not an English abbreviation.\r\n\r\nMisconception 2 -- \"Capital and small letters do not matter in a symbol.\" This is a very common error. Students may write CO for cobalt or CL for chlorine. The correction is that the first letter is always capital and the second is always small. CO is the formula of carbon monoxide, a compound, while Co is the element cobalt. Cl is chlorine, but CL has no meaning in chemistry. Exact capitalisation is part of the symbol itself.\r\n\r\nMisconception 3 -- \"A symbol can be used for more than one element.\" Students sometimes think that C can stand for both carbon and calcium, or that S can stand for both sulphur and sodium. The correction is that every element has one unique symbol. Carbon is C, calcium is Ca, sulphur is S, sodium is Na, silicon is Si, and so on. This uniqueness is what makes symbols useful for chemical communication.",
+    "diagnosticText": "Q1 (recall): Write the chemical symbols of the following elements: hydrogen, oxygen, carbon, sodium, iron, aluminium, copper, potassium, gold, and silver.\r\nAnswer: Hydrogen is represented by H, oxygen by O, and carbon by C. These three are the first letters of their English names. Sodium is Na, not S, because its symbol comes from the Latin word natrium. Iron is Fe, from the Latin ferrum. Aluminium is Al, using the first two letters of its name. Copper is Cu, from the Latin cuprum. Potassium is K, from the historical name kalium. Gold is Au, from the Latin aurum. Silver is Ag, from the Latin argentum. Each of these symbols is a fixed, one- or two-letter code. In a correct answer, the first letter is capital and the second, if any, is small. Writing all capital letters, or taking letters from the wrong language, is an error. Learning these symbols thoroughly is the first step in reading and writing chemical information.\r\n\r\nQ2 (reasoning): Why does the element sodium have the symbol Na instead of So or S?\r\nAnswer: The symbol Na is used for sodium because chemical symbols are not always taken from the English name. In this case, the symbol comes from the Latin word natrium, which was an older name for a sodium compound. When scientists across the world needed a single, fixed code for each element, they kept some symbols from Latin, Greek, and other historical languages. If we used So, it might be confused with the English word \"so\" or with other elements. If we used S, it would clash with sulphur, which already has the symbol S. The symbol Na is unique, short, and recognised everywhere. This shows why symbols are a form of chemical communication: they must be the same in every country and every language, so that scientists can share results without confusion. The choice of Na also reminds us that chemistry has a long history, and many of its symbols were decided before English became the common language of science.\r\n\r\nQ3 (evaluate): A student says, \"A chemical symbol must always match the first letters of the English name of the element, otherwise it is wrong.\" Evaluate this statement.\r\nAnswer: This statement is only partly true and can be misleading. For some elements, the symbol does match the first letter or first two letters of the English name. Hydrogen is H, oxygen is O, carbon is C, nitrogen is N, and aluminium is Al. In these cases, the symbol is an abbreviation of the English name. However, many symbols do not follow this rule. Sodium is Na from natrium, iron is Fe from ferrum, copper is Cu from cuprum, potassium is K from kalium, gold is Au from aurum, and silver is Ag from argentum. Some symbols do not even start with the same letter as the English name, yet they are still correct. Therefore, the statement is too strict. A chemical symbol is a fixed, internationally agreed shorthand, and it may come from Latin, Greek, Arabic, or another historical source. The important point is that the symbol is unique and accepted, not that it matches the English name. On the other hand, the student is right in one sense: once a symbol is fixed, it must be written exactly, with the correct capital and small letters. So the statement is partly correct for simple elements but wrong as a general rule. A better way to think about it is that a symbol is like a passport code for an element -- it does not have to look like the English name, but it must be the official, agreed code.\r\n\r\nQ4 (apply): A teacher writes the following on the board: \"When hydrogen and oxygen combine, water is formed. The reactants are H and O, and the product contains H and O together.\" Identify the reactants and the product, and explain what the symbols H and O tell us.\r\nAnswer: In this description, the reactants are the starting substances, hydrogen and oxygen. Their symbols are H and O. The product is the new substance formed, water, whose formula at this stage can be thought of as a combination of H and O. The symbols H and O tell us which elements are present. H stands for hydrogen, the lightest and most common element in the universe, and O stands for oxygen, the gas we need to breathe. By writing H and O, chemists can quickly show the names of the elements without writing the full words. This is the power of chemical symbols: they make communication short and clear. The reactants are written on the left side of a reaction description, and the product is written on the right. In this case, the product water is made from the same two elements, but they are now joined in a new arrangement. The student should remember that this is only a beginning idea; full chemical equations and compound formulae will be studied in later classes.\r\n\r\nQ5 (create): Imagine you have to teach the symbols of five common elements to a friend who missed the class. Create a small memory aid or a short rhyme that helps your friend remember the correct symbols for hydrogen, oxygen, carbon, sodium, and iron.\r\nAnswer: A good memory aid links the English name to the correct symbol clearly. For hydrogen, oxygen, and carbon, the symbols are simply the first letters: H, O, and C. A short rhyme could be: \"H for hydrogen, light as a bubble; O for oxygen, breathe without trouble; C for carbon, found in every tree; these three symbols are as easy as can be.\" For sodium, the symbol Na is trickier because it does not match the English name. A useful sentence is: \"Na-trium is the old Latin name, so sodium is Na, not So or Same.\" For iron, the symbol Fe comes from ferrum, the Latin word for iron. A memory aid could be: \"Iron is strong, like a fer-ocious lion, so its symbol is Fe, not Ir or ion.\" A well-designed memory aid should avoid making the symbols depend on the English spelling, especially for the historical ones. It should also show the correct capital and small letters. By creating and sharing such aids, the student strengthens their own memory and helps a friend at the same time.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can state the symbols of fifteen common elements (H, C, N, O, Na, Mg, Al, P, S, Cl, K, Ca, Fe, Cu, Zn); can explain that symbols are derived from English or Latin names (Fe from ferrum, Na from natrium); can write the symbol given the element name and vice versa.",
+    "subject": "chem",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_chem_013",
+    "title": "Metals - properties",
+    "definition": "A metal is a class of element that can be recognised by a set of special physical properties. After learning in earlier work that every material has properties such as hardness, flexibility and transparency, you now meet the idea of classification at the level of elements. The simplest forms of matter are called elements, and one of the most useful ways of sorting elements is to decide whether they behave as metals or as non-metals. In this node we look only at metals. A metal usually has a bright, shiny surface called lustre. Polished gold, freshly cleaned copper and a new aluminium vessel all show this characteristic metallic shine. Most metals allow heat and electricity to move through them easily; this is called conductivity, and it is the reason copper and aluminium are used for electrical wires and why cooking pans made of iron or aluminium heat up quickly. Metals can be beaten into thin sheets without breaking; this property is called malleability. Goldsmiths beat gold into very thin leaf to cover temple idols, and blacksmiths flatten iron nails on anvils. Metals can also be drawn into thin wires; this property is called ductility. Copper wires carry current in homes, and aluminium wires are used in overhead power cables. When a metal piece is struck or dropped, it gives a ringing sound; this is called sonority, and it is the reason bells are often made of metals such as bronze. Most metals have high melting points and high boiling points, though there are differences. Iron melts at about 1538 degrees Celsius, while the metal zinc melts at a much lower 419 degrees Celsius and lead at only 327 degrees Celsius. Density is the mass contained in a given volume; iron is dense, but aluminium is light for the same volume, which is why aluminium is chosen for aircraft parts. Strength is the ability to resist being broken or bent; iron and steel are used for bridges, railway tracks and building frames because they are strong. We can therefore classify an element as a metal if it shows a combination of properties such as lustre, conductivity, malleability, ductility, sonority, high melting and boiling points, high density and great strength. The common metals you must remember are iron, gold, copper, aluminium, zinc, lead and magnesium. Iron is used for tools, machines and construction; gold is used for jewellery and decorative work; copper is used for electrical wires and utensils; aluminium is used for foil, aircraft bodies and kitchenware; zinc is used to coat iron to prevent rusting later and in alloys; lead is used in batteries; and magnesium is used in fireworks and light alloys. In the laboratory you can show these properties by activities such as beating a metal strip with a hammer to show malleability, connecting a metal wire into an electric circuit to show conductivity, and dropping a small metal piece on a hard surface to hear its ringing sound, which shows sonority.",
+    "textWalkthrough": "Think back to the time when you studied materials in earlier classes. In the depth prerequisite node c4_chem_005 you learned that different materials have different properties. You could feel that wood is hard but not shiny, that rubber is flexible, and that glass is transparent. These were simple observations that helped you sort materials into groups. Now, in c6_chem_005, you have moved one step further. You have learned that an element is the simplest form of matter and that elements are the building blocks from which all substances are made. This node, c6_chem_013, takes that idea and uses it to classify elements as metals. The first and most important thought to hold is that a metal is not just a hard, heavy object; it is an element that shows a particular set of physical properties. Let us walk through those properties one by one, and also think about the common mistakes students make.\r\n\r\nStart with lustre. If you look at a clean piece of copper or a gold ornament, the surface shines. That shine is called lustre. A weak answer in the exam would only say, \"Metals are shiny.\" A good answer would say, \"Metals have a shining surface called lustre; for example, gold jewellery and a polished copper plate both look bright.\" You can also compare this with a poor example: saying \"this stone is lustrous\" is not enough, because a stone is not an element and does not show the complete set of metallic properties.\r\n\r\nNext comes conductivity. Metals allow heat and electricity to pass through them. In an Indian home, the wires that carry current are often made of copper or aluminium; the cooking pans that heat food quickly are made of iron or aluminium. A good student explains that conductivity is a reason for the use, not just a word to memorise. If you connect an aluminium wire into a circuit with a bulb and a battery, the bulb glows; if you replace it with a non-metallic material such as wood or plastic, the bulb does not glow. That simple electric circuit activity is the same experiment your syllabus expects you to perform.\r\n\r\nNow consider malleability. When you beat an iron nail gently with a hammer, it spreads out into a thin, flat piece without breaking. Clay can also be pressed into a flat shape, but clay is not a metal; the important difference is that a metal is an element and the flattening is a property of the metal. Gold is so malleable that a single gram can be beaten into a sheet many centimetres wide. A bad answer says, \"Metals break when hit.\" A good answer says, \"Metals are malleable; they can be beaten into thin sheets, as a goldsmith beats gold into leaf or a blacksmith flattens iron.\"\r\n\r\nDuctility is closely related, but it is not the same. Ductility means a metal can be pulled into a thin wire. Copper is the most familiar example, because almost every electrical cable in homes and streets is made of copper wires. Aluminium wires hang between electric poles in many Indian towns. A common mistake is to say that ductility means \"bending.\" Bending is different from drawing into a wire; ductility needs the metal to be stretched without snapping.\r\n\r\nSonority is the ringing sound a metal makes when struck. Drop a small iron piece on the floor, or tap a brass or bronze bell in a school or temple, and you will hear a clear ring. That is sonority. A weak answer says, \"Metals make sound.\" A good answer says, \"Metals are sonorous; they produce a ringing sound when struck, which is why bells are made of metal.\" Do not confuse sonority with the dull sound made by a piece of wood or plastic.\r\n\r\nThe syllabus also asks you to think about melting point, boiling point, density and strength. Most metals have high melting and boiling points, which is why they are useful in hot engines and furnaces. Iron melts at about 1538 degrees Celsius. However, lead and zinc have lower melting points, so they are used in soldering and in making alloys. Density explains why a small iron block feels much heavier than a large aluminium sheet of the same size. Aluminium is light for its volume, so it is chosen for aircraft made in places like Bangalore and for kitchen foil. Strength is why iron girders support bridges and buildings in cities such as Mumbai and Kolkata, and why railway tracks are made of steel, which is mostly iron.\r\n\r\nYou must also be able to list the uses of the seven metals named in the syllabus. Iron gives us steel, nails, tools, bridges and railway lines. Gold is used for jewellery, especially in Indian weddings and temple ornaments, and also for decorative coatings. Copper carries electric current and is shaped into utensils and statues; the copper belt of Singhbhum in Jharkhand is a famous source in India. Aluminium is found in foil, window frames, aircraft parts and electrical wires; the NALCO alumina plant in Odisha is a major centre of the Indian aluminium industry. Zinc is used to protect iron from rusting and in making brass; the old Zawar mines in Rajasthan are an important part of India's zinc history. Lead is used in batteries and some protective shields. Magnesium burns with a bright white flame, so it is used in fireworks and in light alloys.\r\n\r\nFinally, let us think about the practical activities. To test malleability, take a small iron strip, hold it firmly, and strike it gently several times with a hammer. The strip spreads into a thin sheet; if it does not break, it is malleable. To test conductivity, make a simple circuit with a battery, a small bulb, wires and a piece of copper or aluminium. When the metal completes the circuit, the bulb lights. To test sonority, drop a small metal object on a hard floor and listen for a clear ringing sound, not a dull thud. In the board exam, examiners expect you to describe the activity briefly and then state the property that is being shown. A strong answer always links the observation to the correct name of the property.\r\n\r\nThe CISCE board generally asks for short answers on this topic, and the marks depend on whether you can define a property and give the correct Indian example. Examiners are not impressed by long lists of unrelated facts; they want clear definitions, correct names, and at least one appropriate example from daily life. Keep your answers precise and do not confuse similar words such as malleability and ductility.",
+    "eli5": "Metals are a special group of elements. They usually shine, let electricity and heat pass through them, can be hammered into flat sheets or pulled into wires, and make a ringing sound when dropped. Iron, gold, copper and aluminium are some common metals we use every day.",
+    "misconceptionText": "One real confusion seen in CISCE scripts is the mixing up of melting point and boiling point. Examiners have written that some candidates stated that cryolite is added to reduce the boiling point of the mixture, when in fact it is used to reduce the melting point. In the same way, Class 6 students often say that a metal has a high melting point and then immediately say that it also has a high boiling point, as if the two are the same. The correction is simple: the melting point is the temperature at which a solid metal turns into a liquid, while the boiling point is the temperature at which the liquid metal turns into a vapour. Both are usually high for metals, but they are different stages of heating and should be named correctly.\r\n\r\nAnother examiner observation is that many candidates do not follow the exact instructions of a question. They were asked to choose the correct letter, but they wrote the name of the element instead. For the topic of metals, a similar mistake is to name a metal without explaining the property behind the example. The correction is to connect every use with its property: do not just say \"copper is a metal\"; say \"copper is used for electrical wiring because it is a good conductor of electricity.\"\r\n\r\nA third confusion that appears in many scripts is the misuse of technical terms. Just as some candidates called sodium cyanide a depressant when they should have called it a leaching agent, students in Class 6 often use the words malleability, ductility and strength as if they mean the same thing. The correction is to keep them separate. Malleability means a metal can be beaten into a sheet, like gold leaf. Ductility means a metal can be drawn into a wire, like copper cable. Strength means a metal can bear a load without breaking, like an iron girder.",
+    "diagnosticText": "Q1 (recall): List the main physical properties used to decide whether an element is a metal. For each property, give one clear Indian or everyday example of a metal and the object in which it is used.\r\nAnswer: The main physical properties used to classify an element as a metal are lustre, conductivity of heat and electricity, malleability, ductility, sonority, high melting point, high boiling point, high density and strength. Lustre is the shining surface of a metal; gold ornaments worn during Indian festivals and polished copper vessels in the kitchen both show lustre. Conductivity is the ability to allow heat and electricity to pass through; copper wires in household circuits and aluminium wires on electric poles in Indian streets show electrical conductivity, while iron and aluminium pans show heat conductivity because they warm up quickly. Malleability means the metal can be beaten into a thin sheet without breaking; goldsmiths beat gold into thin leaf to cover idols in temples, and blacksmiths flatten iron nails on anvils. Ductility means the metal can be drawn into thin wires; copper wire is used in almost every electrical fitting in a house. Sonority means the metal makes a ringing sound when struck; bronze and brass bells in schools and temples are made of metals because of this property. Most metals have high melting points and high boiling points, so they can be used in hot places such as engines and furnaces. Density means that a small piece of metal can be heavy; iron is much denser than aluminium, which is why aluminium is chosen for aircraft. Strength means that a metal resists breaking under a load; iron and steel are used for railway tracks, bridges and building frames. A good answer names each property clearly and supports it with the correct example.\r\n\r\nQ2 (reasoning): A student says, \"A metal spoon left in a cup of hot tea becomes hot because the metal traps heat inside it.\" Explain why this statement is not correct, and describe a simple school activity with an iron rod and a wooden rod that would prove the correct property of the metal.\r\nAnswer: The statement is not correct because a metal does not trap heat; it actually allows heat to pass through it easily. This property is called heat conductivity. A metal spoon becomes hot because heat from the tea travels quickly through the metal and reaches your hand. Materials that trap heat, such as wood or plastic, are poor conductors of heat, which is why the handles of many cooking pans are made of wood or plastic even when the pan itself is metal. To prove the correct property in school, take a long iron rod and a wooden rod of the same length and thickness. Stick a few small wax pieces or small pieces of paper along each rod at equal distances. Hold one end of each rod over the same small flame, such as a candle or a spirit lamp, for the same length of time. You will notice that the wax or paper on the iron rod falls off or burns much sooner, showing that heat has travelled quickly along the iron. The wax on the wooden rod does not melt or burn as quickly, because wood is a poor conductor. This activity shows that the metal conducts heat, while the non-metal does not. A good answer also connects this to the name of the property, heat conductivity.\r\n\r\nQ3 (evaluate): A shopkeeper tells a customer, \"Aluminium cooking pans are better than iron ones because aluminium and iron are both metals, so they will conduct heat in exactly the same way. Therefore, the cheaper aluminium pan is always the better choice.\" Evaluate this statement and decide whether the customer's choice should depend only on price.\r\nAnswer: The shopkeeper's statement is only partly true and needs careful evaluation. It is true that both aluminium and iron are metals, and both conduct heat. It is also true that aluminium is cheaper and lighter than iron, so an aluminium pan costs less and is easy to lift. However, the statement that the two metals conduct heat in exactly the same way is incorrect. Different metals conduct heat at different rates. Copper and aluminium are very good conductors, but iron is also a good conductor, though not quite as fast. More importantly, other properties matter in choosing a cooking pan. Aluminium is soft and can be scratched or bent more easily than iron, so an aluminium pan may not last as long. Iron is much stronger, so an iron pan can take rougher use. Iron is also denser, which gives a heavy base and helps food cook evenly. Another important difference is that some iron pans can add a small amount of iron to food, which can be useful for health, while aluminium may react with some sour foods. The customer should not decide only on price. The correct decision must consider the use of the pan, how long it is expected to last, how evenly it must heat, and how strong it must be. Therefore the shopkeeper's argument is too simple, and a balanced choice depends on more than just the common fact that both metals conduct heat.\r\n\r\nQ4 (apply): Your teacher gives you a small, unknown, hard, silvery strip and asks you to find out whether it is a metal. Design a simple activity using three separate tests: one for malleability, one for electrical conductivity and one for sonority. List the materials you would need and the exact steps you would follow.\r\nAnswer: The three tests will be malleability, electrical conductivity and sonority, and each one shows a typical metallic property. For malleability, I need a hammer and a hard, flat surface such as a metal anvil or a thick stone slab. I will place the strip on the surface and strike it gently with the hammer several times. If the strip flattens or spreads without breaking or cracking, it is malleable. For electrical conductivity, I need a small battery, a torch bulb fixed in a bulb holder, connecting wires and the strip itself. I will first connect the battery and bulb with the wires to make a complete circuit without the strip. The bulb should glow. Then I will break the circuit and use the strip to join the two broken ends. If the bulb glows again, the strip conducts electricity. For sonority, I need only a hard floor or a stone slab. I will hold the strip a few centimetres above the surface and drop it. If it produces a clear ringing sound, the strip is sonorous. If the strip passes all three tests, it is almost certainly a metal, because malleability, electrical conductivity and sonority together are strong signs of metallic properties. A safe student would also wear safety glasses and keep fingers away from the hammer and the electric circuit.\r\n\r\nQ5 (create): Imagine you are preparing a wall poster for your school science club that shows how five metals, iron, gold, copper, aluminium and zinc, can be grouped by their properties. Design the poster by choosing three physical properties and writing the labels an ICSE examiner would expect to see for each sample.\r\nAnswer: The poster would have a clear title, \"Properties of Metals,\" and would be divided into three labelled columns. The first column could be titled \"Lustrous Shiny Metals.\" Under this I would place gold, because gold ornaments and temple idols are highly lustrous, and copper, because a polished copper plate or vessel has a bright reddish shine. The second column could be titled \"Good Conductors of Electricity and Heat.\" Under this I would place copper, because copper wires carry electric current, and aluminium, because aluminium is used for overhead electric cables and heats quickly in cooking pans. The third column could be titled \"Strong and Useful in Construction.\" Under this I would place iron, because iron and steel are used in railway tracks, bridges and building frames, and zinc, because zinc is used to coat iron and to make brass, an alloy used in fittings. The examiner labels for each sample would include the property name and the example of use: for iron, \"Strong, used in railway tracks and building frames\"; for gold, \"Lustrous, used in jewellery\"; for copper, \"Good conductor of electricity, used in wires\"; for aluminium, \"Light and a good conductor, used in aircraft and electric cables\"; for zinc, \"Used for galvanising iron to protect it.\" The poster would also include small pictures or symbols, such as a wire, a railway track, an ornament and an aeroplane, to make the classification easy to remember. This creative task shows that the same metal can appear under more than one property, because metals have many useful features.",
+    "cognitiveLevel": "analyze",
+    "masteryCriteria": "Can state four physical properties of metals (shiny/lustrous, malleable, ductile, good conductors of heat and electricity, solid at room temperature except mercury); can give three examples of metals (iron, copper, aluminium); can state two chemical properties (react with acids to produce H2, form basic oxides).",
+    "subject": "chem",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_chem_014",
+    "title": "Non-metals - properties",
+    "definition": "Elements are the simple substances from which every material around us is made. In earlier classes we grouped materials by what they looked like and what they could do; now we begin to group the elements themselves. The two largest groups are metals and non-metals. A non-metal is an element that does not show the typical metallic properties of being lustrous, malleable, ductile and a good conductor of heat and electricity. Instead, a non-metal is usually dull in appearance, meaning it lacks the bright metallic shine; it is brittle, so that it breaks into pieces rather than flattening into sheets or drawing into wires; and it is non-conductive, so it will not allow an electric current to pass through it. Coal, a form of carbon, is mined in places such as the Raniganj coalfield in West Bengal and the Jharia mines in Jharkhand. If a piece of coal is beaten with a hammer, it shatters like a biscuit, because non-metals are brittle and not malleable. If sulphur is placed in a simple electric circuit, the bulb does not glow, because non-metals are non-conductive.\r\n\r\nBetween the two families lies a special set of elements called metalloids. These are elements that show properties of both metals and non-metals, just as a bilingual person can speak two languages. For your syllabus the metalloids are silicon, germanium, tungsten and antimony. Silicon and germanium are used in electronic chips and solar-cell industries in places like Bengaluru and Gujarat; tungsten is used to make the very thin wire inside electric bulbs that glows without melting easily; and antimony is used in some alloys and battery plates. It is worth noting that in more advanced chemistry tungsten is usually classed as a metal, but the ICSE/ISC Class 6 syllabus places it in the metalloid list for this stage, so you must remember the four names together.\r\n\r\nThe same kind of careful thinking applies to corrosion, the slow wearing away of a metal when it reacts with substances in the air or water. Rusting is the special name for the corrosion of iron. An iron nail rusts only when both moisture and oxygen are present. You can show this with test tubes: a nail in dry air does not rust, a nail in boiled water covered with oil does not rust because oxygen is kept out, but a nail in ordinary moist air soon turns reddish-brown and flaky. A green deposit on copper articles is another kind of corrosion; it is copper carbonate formed when copper reacts with carbon dioxide, moisture and oxygen over time, and it is often seen on old copper utensils in humid coastal cities such as Kochi and Mumbai.\r\n\r\nBecause rusting damages bridges, ships, railings and tools, prevention is important. The five methods you must learn are oiling, painting, chrome plating, galvanization and tinning. Oiling covers the iron with a greasy layer that keeps out air and water; painting does the same and is used for gates, bridges and ships; chrome plating gives a shiny, protective layer on taps and bicycle parts; galvanization is covering iron with a thin coat of zinc, often used for buckets, roofing sheets and nails; and tinning is coating iron with tin, used for food cans. Each of these methods works by keeping the iron away from moisture and oxygen, the two things rusting needs.",
+    "textWalkthrough": "Think back to the DEPTH_PREREQ node c4_chem_005. There, you discovered that the world of materials is not the same everywhere -- some are hard, some soft, some shiny, some dull. That idea is your starting point for this node. Then, in the PREREQ node c6_chem_013, you learned the story of metals: they are lustrous, they can be beaten into sheets and drawn into wires, and they let heat and electricity race through them. Now we ask the opposite question: if metals are all of those things, what are the elements that are none of those things? That is the world of non-metals.\r\n\r\nLet us walk through the properties one by one, as if we are sorting pieces from a tray. Pick up a piece of coal from the Jharia or Raniganj mines. Is it shiny? No -- it is dull. If you hit it with a hammer, does it flatten like an aluminium sheet? No -- it breaks into sharp pieces, because non-metals are brittle. Put it in a circuit. Does a bulb glow? No -- it is non-conductive. Each time a property is missing, you are looking at a non-metal. A bad answer would say, \"A non-metal is a solid that is not used in machines\"; that is too vague, because many non-metals are used in machines. A good answer says, \"A non-metal is an element that is dull, brittle and non-conductive, unlike the metals we have already studied.\" The contrast with metals is what gives the definition its meaning.\r\n\r\nNext, imagine the metalloids as a child who is comfortable in two worlds. Look at silicon, germanium, tungsten and antimony. They are not full metals, but they are not full non-metals either. A weak response might be, \"A metalloid is a mixture of a metal and a non-metal.\" That is not quite right, because a metalloid is a single element that behaves like both in different situations. A strong response is, \"A metalloid is an element that shows some properties of metals and some of non-metals, such as silicon, germanium, tungsten and antimony.\"\r\n\r\nNow turn to corrosion and rusting. Picture an iron nail in a test tube. If the air around it is dry, nothing much happens. If the water is boiled and oil is poured on top, the oxygen is driven away and the nail stays bright. But in ordinary moist air, both moisture and oxygen are present, and a reddish-brown powder called rust appears. Notice the reasoning: you do not say \"water causes rust\"; you say \"water and oxygen together cause rust.\" The same logic explains the green deposit on copper articles. That green layer is copper carbonate, not rust, and it forms when copper meets carbon dioxide, moisture and oxygen over a long time. A poor answer would say, \"The green stuff is rust.\" A good answer would say, \"Rust is iron oxide; the green coating on copper is copper carbonate, a different kind of corrosion.\"\r\n\r\nFinally, the examiner wants you to connect all of this to prevention. Think of rust as a disease that attacks iron. To prevent it, you keep away the causes: moisture and oxygen. Painting a school gate, oiling a bicycle chain, chrome plating a bathroom fitting, galvanizing a roof sheet and tinning a food can all do this. An excellent answer chooses the right method for the right situation: a farmer's plough is oiled because it moves through soil, a ship's hull is painted because it faces sea spray, a food can is tinned because tin is non-toxic. The board examiner observations remind us that students often confuse classifications and give vague reasons; so when you write, name the property and explain why it matters. Classify clearly, reason with care, and your answer will stand out.",
+    "eli5": "Non-metals are the opposite of metals. Metals are shiny, bendy and let electricity pass through them, but non-metals are dull, break when hit and stop electricity. Some elements, called metalloids, sit in the middle and show a little of both. Iron rusts when both water and air meet its surface, so we paint gates, oil bicycle chains, or cover iron with zinc, tin or chromium to keep it safe.",
+    "misconceptionText": "One common error is to think that a hard, solid substance must be a metal. Students see a black lump of coal or a roll of sulphur and forget to check the real property checklist. The board examiner comment for 2024 simply asks to \"Review topic fundamentals,\" which is examiner language for students not applying the basic classification ideas. The correction is to test the sample: a metal has lustre, is malleable and is conductive; a non-metal is dull, brittle and non-conductive. Hardness alone does not decide the group.\r\n\r\nAnother common error is to believe that rusting is caused by water alone. Many students think an iron nail kept in a glass of ordinary water will rust, without realising that oxygen from the air is also needed. The 2019 examiner note advises teachers to \"discuss more of reasoning questions in class,\" and this is exactly the kind of reasoning that is missing. The correction is the test-tube activity: dry air gives no rust because there is no moisture; boiled water covered with oil gives no rust because there is no oxygen; moist air gives rust because both are present. Both moisture and oxygen must be there for rusting.\r\n\r\nA third common error is to treat a metalloid as a mixture of a metal and a non-metal. Because the word sounds like a blend, students miss one of the four names or place tungsten in the wrong group. The examiner's repeated advice to \"teach the p-block elements with general characteristics\" and \"review topic fundamentals\" shows that classification is a frequent weakness. The correction is that a metalloid is a single element that behaves like both; for this syllabus the four are silicon, germanium, tungsten and antimony, and each one should be named, not guessed by colour.",
+    "diagnosticText": "Q1 (recall): Define a non-metal and a metalloid. List four properties that help us distinguish non-metals from metals, and give one example each of a non-metal and a metalloid from your syllabus.\r\nAnswer: A non-metal is an element that does not show the typical properties of metals. Non-metals are usually dull, meaning they do not have a shiny metallic surface; brittle, meaning they break into pieces when hammered or pressed; and non-conductive, meaning they do not allow heat or electricity to pass through them easily. Common examples are carbon, sulphur and phosphorus. A metalloid is an element that shows properties of both metals and non-metals. For the ICSE/ISC Class 6 syllabus, the metalloids are silicon, germanium, tungsten and antimony. Silicon and germanium are important in electronics, tungsten is used in electric-bulb filaments, and antimony is used in batteries and some alloys. The key distinction is that metals are lustrous, malleable, ductile and conductive, while non-metals are the opposite and metalloids sit between the two groups. You can test an unknown sample by checking its shine, its ability to bend without breaking, and whether it carries an electric current.\r\n\r\nQ2 (reasoning): An iron nail is placed in each of three test tubes: (A) dry air, (B) boiled water covered with oil, and (C) moist air containing both water and air. In which tube will the nail rust, and why will it not rust in the other two?\r\nAnswer: Rusting is the corrosion of iron, and it needs both moisture and oxygen together. Tube A contains air but no moisture, so the nail cannot rust because the water needed for the reaction is missing. Tube B contains water, but the water has been boiled to remove dissolved oxygen and the oil layer on top keeps fresh air out, so oxygen is missing; the nail will not rust there either. Tube C contains both moisture and oxygen, so the iron reacts with them to form hydrated iron oxide, the reddish-brown rust. This shows that neither water alone nor air alone causes rusting; both must be present at the same time. The practical conclusion is that any method of prevention must keep iron away from at least one of these two things.\r\n\r\nQ3 (evaluate): A student says: \"Graphite is black, can conduct a small amount of electricity, and is used in pencil leads, so it must be a metal.\" Evaluate this statement.\r\nAnswer: This statement is not correct, even though it begins with true observations. It is true that graphite, which is a form of carbon, is black and can conduct a small amount of electricity, and it is indeed used in pencil leads. However, a single property is not enough to decide whether an element is a metal or a non-metal. The classification is based on a whole set of properties. Graphite is not lustrous and does not have a metallic shine; it is brittle and breaks into flakes; and it is not malleable or ductile like metals. A metal shows a combination of lustre, malleability, ductility and good conductivity, while a non-metal shows the opposite. Graphite is therefore an exception in one property, not a member of the metal family. It is best described as an allotropic form of the non-metal carbon. Some non-metals, like graphite, can show one metallic property without changing their overall classification. The student has also ignored the fact that metals are usually solid at room temperature, dense, sonorous and good thermal conductors, and graphite does not match all of these. So the statement is not only incomplete but also misleading, because it confuses one unusual behaviour with a whole group identity.\r\n\r\nQ4 (apply): A coastal school in Mumbai wants to protect an iron window-grill and a set of iron garden benches from rusting during the monsoon. Suggest two different methods of prevention, one for each object, and explain why each method is suitable.\r\nAnswer: For the window-grill, painting is suitable because it forms a solid, coloured coating that seals the iron from the humid monsoon air and rain. It is also cheap and can be reapplied every few years. For the garden benches, galvanization is a good choice because it coats the iron with a layer of zinc, which not only blocks moisture and oxygen but also protects the iron even if the coating is scratched; the zinc reacts first and sacrifices itself. Both methods work by keeping the iron away from the moisture and oxygen needed for rusting, and they are chosen because the window-grill is decorative and stationary while the benches face soil, dampness and possible knocks. In a coastal city like Mumbai, the salty, moist air is an even stronger rusting agent, so a thick protective layer is particularly important.\r\n\r\nQ5 (create): Design a simple school-laboratory activity to prove that both moisture and oxygen are needed for the rusting of an iron nail. Give the aim, materials, steps, the expected observations in each case and the conclusion.\r\nAnswer: The aim of the activity is to show that rusting of iron takes place only when both moisture and oxygen are present. The materials required are three clean, rust-free iron nails, three test tubes, a cork or rubber stopper, cotton wool, anhydrous calcium chloride, a Bunsen burner or spirit lamp, a beaker, boiled water and a little oil. First set up three test tubes. In tube A, place a nail with anhydrous calcium chloride and cotton wool to keep the air dry, then stopper it. In tube B, half-fill the test tube with boiled water to remove dissolved oxygen, place the nail in it, and then pour a thin layer of oil over the water to stop air from entering. In tube C, place the nail with a little damp cotton wool and leave it open to the air. Leave all three tubes for several days, preferably a week. The expected observation is that the nail in tube A stays bright because there is no moisture, the nail in tube B stays bright because there is no oxygen, and the nail in tube C turns reddish-brown because both moisture and oxygen are present. The conclusion is that rusting needs both moisture and oxygen together, and preventing either one will stop rusting.",
+    "cognitiveLevel": "analyze",
+    "masteryCriteria": "Can state four physical properties of non-metals (dull, brittle, poor conductors, exist as solids/liquids/gases); can give three examples of non-metals (oxygen, sulphur, carbon); can state two chemical properties (react with oxygen to form acidic oxides, do not react with dilute acids to produce H2).",
+    "subject": "chem",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_chem_005",
+    "title": "Elements",
+    "definition": "An element is a pure substance that represents the simplest form of matter. It cannot be broken down into simpler substances by ordinary chemical means such as heating, electrolysis, or reaction with acids. Every element is made up of tiny particles called atoms, and in a sample of an element all these atoms are of the same kind. The classification of matter therefore begins by deciding which substances are elements and which are not: an element is the stopping point of chemical breaking down, because no ordinary process can split it further. To identify an element quickly, we use its symbol, a short one- or two-letter code. For example, the symbol Fe stands for iron, Al stands for aluminium, and Cu stands for copper. A symbol is not a formula: a formula shows how different elements are joined together, while a symbol represents only one element. When a substance is shown by a single symbol, such as Fe, Al, or Cu, we classify it as an element. Around us, these three elements appear constantly. Iron is a hard, greyish metal that is magnetic; it is used in gates, bridges, railway tracks, and tools. Aluminium is a light, silvery metal that does not rust easily; it is found in kitchen foil, window frames, and parts of aeroplanes. Copper is a reddish-brown metal that is not magnetic and is an excellent conductor of electricity; it is used in electric wires, water pipes, and coins. These metals come to us from natural sources in different parts of India: iron ore is mined in the Singhbhum region of Jharkhand, bauxite ore for aluminium is obtained from places such as Korba in Chhattisgarh, and copper is associated with mines such as those at Khetri in Rajasthan. All the known elements are collected in the periodic table, which helps us compare their symbols and properties. The central idea is that all matter, whether solid, liquid, or gas, is built from one or more elements, and an element is the fundamental substance that cannot be broken down further by ordinary chemical means.",
+    "textWalkthrough": "Think back to the very first chemistry idea you met in c6_chem_001: matter is anything that has mass and occupies space. That gave us the big tent under which everything in chemistry sits. But a tent can hold many kinds of guests. Some matter is made of a single kind of substance, and some is a mixture. Now imagine you have just spent time in c5_chem_007 separating mixtures. You filtered a suspension, evaporated a solution, and saw how a mixture could be taken apart into its different parts. After all that separating, you must reach a point where the substance cannot be taken apart any more. That last, indivisible-by-chemistry substance is an element.\r\n\r\nWhy stop there? Let us test the idea with a piece of iron. Suppose you keep breaking it into smaller and smaller pieces. You can have iron filings, iron dust, even tiny specks, but each speck is still iron. If you try to turn iron into a new, simpler substance by heating it in air, you get iron oxide, which is not simpler, it is a compound. So the element iron cannot be broken down into simpler substances by ordinary chemical means. That is why an element is the simplest form of matter.\r\n\r\nNow we need a common way to name these building blocks. Every element has a symbol. The symbol is not an abbreviation in the everyday sense; it is an agreed sign used by chemists in Delhi, London, and Tokyo. Iron is Fe, from the Latin ferrum. Aluminium is Al. Copper is Cu, from the Latin cuprum. A good answer to \"What is the symbol of copper?\" is simply \"Cu.\" A weak answer is to say \"C-U is the chemical name of copper\" or to confuse it with Co, which is cobalt. The symbol is the first piece of information a board examiner checks, so keep it exact and capitalised correctly.\r\n\r\nThis brings us to classification. When you see a single symbol, such as Al or Cu, the substance is an element. When you see a formula with two or more symbols, such as H2O or NaCl, the substance is a compound. That is not our topic here, but the difference matters. A good student says, \"Cu is the symbol of the element copper, so the substance is an element.\" A weaker answer says, \"Cu could stand for copper mixed with other things,\" or even, \"Cu is the formula of copper.\" It is a symbol, and it means one kind of atom only.\r\n\r\nLet us look at the three elements you must remember. Iron is a hard, greyish, magnetic metal. Walk through a railway station in India and you will see iron in rails, benches, and gates. The Howrah Bridge in Kolkata is a famous iron structure. Aluminium is much lighter, silvery, and does not rust quickly. It is used in the foil for wrapping food, in window frames, and in the bodies of some aeroplanes. Copper has a warm reddish-brown colour, is not magnetic, and carries electric current well. The wires inside a classroom switchboard are often copper. These elements have Indian connections too: iron from the Singhbhum belt of Jharkhand, bauxite for aluminium from Korba in Chhattisgarh, and copper from the Khetri mines of Rajasthan. Seeing these place names helps you remember that chemistry is not abstract; it comes out of the ground and into daily life.\r\n\r\nWhat should you expect when you face this topic in an ICSE or ISC board context? This is a Low weightage topic that is tested at the understanding level. Examiners want a precise definition with the key phrase \"cannot be broken down further by ordinary chemical means.\" They want the correct symbols Fe, Al, and Cu. They want you to identify an element from its symbol and to give one daily-life use and one simple property for iron, aluminium, and copper. They do not want long equations or stories about compounds. Keep your answers crisp, use the exact keywords, and let the examples speak for themselves.",
+    "eli5": "An element is the tiniest building block of matter that cannot be split into simpler pieces by normal chemical methods such as heating or mixing with acid. Everything around you is made of matter, and all matter is made of one or more elements. Iron, aluminium, and copper are common examples. Each has its own short name, or symbol: Fe, Al, and Cu.",
+    "misconceptionText": "One frequent error is to call every short form a formula. The CISCE Common board exam error pattern for 2024 reports that even older candidates often muddled the formula of a substance, writing the empirical formula of ethyne as C instead of CH. This shows that the difference between a symbol and a formula is not always secure. At Class 6 the same confusion appears when a pupil calls Fe a formula or treats H2O as an element. The correction is to remember that Fe, Al, and Cu are symbols of elements; each stands for one kind of atom. A formula, such as H2O or NaCl, has more than one symbol and represents a compound, which we are not studying here.\r\n\r\nAnother error is to weaken the definition by saying an element \"cannot be broken down at all.\" The board examiner comment reminds candidates to \"learn the Laws and definitions well with the correct terms or key words,\" which means the exact phrase \"cannot be broken down by ordinary chemical means\" is important. The correction is that an element cannot be broken down into simpler substances by ordinary chemical methods such as heating, dissolving, or electrolysis, but it is made of atoms. An atom is the smallest particle of an element, not a different substance that comes out of it.\r\n\r\nA third classroom error is to confuse an object with an element, for example, saying \"a steel bridge is an element because it is made of iron.\" Steel is a mixture, or alloy, of iron with carbon and other elements, so the bridge is not a pure element. Correction: the element is iron itself, symbol Fe. Similarly, a kitchen foil may be made of aluminium, but if it is coated plastic it is not the pure element. Always name the substance and its symbol, not just the familiar object.",
+    "diagnosticText": "Q1 (recall): Define an element and give two examples, each with its symbol and one simple property.\r\nAnswer: An element is a pure substance that is the simplest form of matter and cannot be broken down into simpler substances by ordinary chemical means such as heating, mixing with acid, or passing an electric current through it. It is made up of only one kind of atom, and every atom in a sample of the element is the same. A strong definition therefore contains two parts: it is the simplest form of matter, and it cannot be broken down by ordinary chemical means. Two clear examples are iron and aluminium. Iron carries the symbol Fe. It is a hard, greyish metal and is magnetic, so a magnet will attract an iron nail or an iron gate. Aluminium carries the symbol Al. It is a light, silvery metal that does not rust quickly and is often pressed into thin foil for wrapping food. Both are elements because, however small the pieces become, each piece is still the same kind of matter; it does not turn into a new, simpler substance.\r\n\r\nQ2 (reasoning): Why is water not an element, while hydrogen is?\r\nAnswer: Water is not an element because its formula, H2O, contains two different symbols, H and O. This tells us that water is made of two different kinds of atoms joined together, so it is a compound, not an element. A compound can be broken down into simpler substances; for example, passing electricity through water during electrolysis gives hydrogen gas and oxygen gas. Hydrogen, on the other hand, has the symbol H. It is made of only one kind of atom, and it cannot be broken down into simpler substances by ordinary chemical means. Therefore, hydrogen is an element. The key test is the symbol: a single symbol means an element, while a formula with more than one symbol points to a compound. This is why the short form is not just a label; it is a piece of chemical information.\r\n\r\nQ3 (evaluate): A student says: \"All metals are magnetic, and all magnetic substances are elements.\" Evaluate this statement.\r\nAnswer: The statement has two parts, and both are false. First, not all metals are magnetic. Iron is magnetic, which is why it is used in nails, tools, and the railings of Indian railway stations. However, aluminium and copper are also metals, but they are not magnetic. If you bring a magnet close to an aluminium foil or a copper wire, it will not be attracted. Second, not all magnetic substances are elements. Magnetite, a mineral often found in rocks, is magnetic, but its formula, Fe3O4, shows that it is a compound of iron and oxygen. Some mixtures, such as iron filings mixed with sand, can also show magnetic behaviour because the iron pieces are pulled by a magnet, but the mixture itself is not an element. Finally, not every element is magnetic; for example, sulphur, phosphorus, and gold are elements that are not magnetic. A balanced view is that magnetism is one property of a few substances, including the element iron and the compound magnetite, but it cannot be used to define an element. To classify something as an element we must look at its symbol and ask whether it can be broken down into simpler substances by ordinary chemical means, not simply at whether it is magnetic.\r\n\r\nQ4 (apply): Your teacher gives you three rods that look alike: one of iron, one of aluminium, and one of copper. Describe how you would identify each rod using two simple tests that do not need a chemical change.\r\nAnswer: I would use two safe tests: the magnet test and a close look at the colour. First, I would move a strong magnet over the three rods. The rod that is attracted strongly to the magnet is iron, because iron is magnetic. The other two rods, aluminium and copper, will not be attracted. Next, I would examine the colour and brightness of the two non-magnetic rods. Copper has a distinctive reddish-brown or pinkish colour, especially when freshly scratched, while aluminium is silvery-white and light in appearance. If colour is hard to judge, I could also compare weight by holding rods of the same size; aluminium feels much lighter than copper and iron. A more detailed answer would also recall that copper is an excellent conductor of electricity, but a colour and magnet test is enough for a quick identification. Therefore, the magnet separates iron, and colour and lightness separate aluminium from copper. These tests rely on simple physical properties, which is why this node asks for state, colour, and magnetic nature.\r\n\r\nQ5 (create): Design a one-day \"Elements around me\" scavenger hunt for your school. List five items, the element each contains, and one safety rule.\r\nAnswer: For a one-day \"Elements around me\" scavenger hunt, I would ask groups to find five objects and name the element in each. First, a steel gate or nail, which contains the element iron, symbol Fe, because it is magnetic and hard. Second, a piece of aluminium foil from a lunch box or kitchen, which contains the element aluminium, symbol Al, because it is light and silvery. Third, an electrical wire from a discarded charger, which contains the element copper, symbol Cu, because copper carries electric current well. Fourth, the black core of a pencil, which contains the element carbon, symbol C, because it is soft and makes a mark on paper. Fifth, a small piece of gold jewellery or a gold-coloured ring, which contains the element gold, symbol Au, because it is bright yellow and does not tarnish. The one essential safety rule would be to look only with the eyes and not to touch or taste any object, especially wires, broken metal, or unknown materials; any sample should be shown to the teacher before being handled. This activity makes the abstract idea of an element visible in real objects around the school.",
+    "cognitiveLevel": "analyze",
+    "masteryCriteria": "Can define an element as a substance made of only one kind of atom; can classify elements as metals (iron, copper), non-metals (oxygen, sulphur), and metalloids (silicon); can name the symbols of ten common elements (H, O, C, N, Na, Cl, Fe, Cu, Zn, Ca).",
+    "subject": "chem",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c7_chem_015",
+    "title": "Hydrogen - preparation from metals and acids",
+    "definition": "Hydrogen is the lightest and most abundant element in the universe, and in the Class 7 syllabus it is studied chiefly as a gas prepared in the laboratory and on an industrial scale. Preparation of hydrogen begins with the idea that hydrogen can be displaced from a compound: in the school laboratory, pieces of zinc metal react with dilute hydrochloric acid or dilute sulphuric acid to produce hydrogen gas and the corresponding zinc salt. The balanced picture is that the more reactive zinc pushes the less reactive hydrogen out of the acid, so bubbles of hydrogen stream off the metal surface and are collected by downward displacement of water because hydrogen is much lighter than air and almost insoluble in water. Zinc is preferred over sodium, potassium, calcium or copper because it reacts at a steady, controllable rate; sodium and potassium are dangerously fast and may catch fire, while copper is too low in the reactivity series to liberate hydrogen from a dilute acid. Nitric acid is deliberately avoided because it is an oxidising acid: even when dilute, it tends to oxidise the hydrogen produced to water and itself gets reduced to nitrogen oxides, so very little free hydrogen is obtained. The same principle of displacement underlies electrolysis, in which an electric current is passed through water containing a little acid or an alkali to split water into hydrogen and oxygen; the two conducting rods are called electrodes, the liquid that allows the current to pass is the electrolyte, and the overall decomposition is called electrolysis. The detailed ionic process is not required at this stage, but the terms electrode, electrolyte and electrolysis must be used correctly. For large-scale manufacture, Bosch's process is the important industrial route: water gas, which is a mixture of carbon monoxide and hydrogen made by passing steam over white-hot coke, is mixed with more steam and passed over a heated catalyst such as iron oxide; the carbon monoxide is converted to carbon dioxide, which dissolves in water under pressure, leaving hydrogen gas behind. In Indian industrial practice, hydrogen prepared in this way is used in the manufacture of ammonia and in hydrogenation of vegetable oils, and every school demonstration of hydrogen collection by downward displacement of water is a miniature version of the same separation principle: a lighter gas rises and pushes the heavier water down, just as a soap bubble rises through the air.",
+    "textWalkthrough": "Before you begin, think back to what you learned in c6_chem_016 about oxygen. You already know that oxygen is prepared in the laboratory using specific reagents, collected by downward displacement of water and tested with a glowing splint. That familiar picture is your stepping-stone, because hydrogen is prepared and collected in a very similar way, even though the chemistry is different. Now let us turn to c7_chem_014 on displacement reactions. There you saw that one element can replace another in a compound when the first element is more reactive. The whole preparation of hydrogen from a metal and an acid is, at its heart, a displacement reaction: the metal displaces hydrogen from the acid. If you keep that idea in mind, every detail that follows will make more sense.\r\n\r\nLet us start in the school laboratory. You take granulated zinc in a flat-bottomed flask, add dilute hydrochloric acid through a thistle funnel, fit the flask with a delivery tube, and lead the gas into an inverted jar placed over water in a trough. The reaction is Zn + 2HCl -> ZnCl_2 + H_2. The zinc, being more reactive than hydrogen, displaces hydrogen from the acid. Hydrogen bubbles rise through the acid, travel along the delivery tube and fill the jar by pushing the water down. Why does the water get pushed down? Because hydrogen is the lightest gas known, far lighter than air, so it collects at the top of the inverted jar and the denser water is forced out below. This is downward displacement of water. Now, why zinc? Imagine using sodium instead: the reaction is so vigorous that the metal darts across the surface, produces intense heat and can even ignite the hydrogen. A weak answer would say \"sodium is too reactive\" without explaining the danger, while a good answer adds that the reaction becomes violent and unsafe. On the other hand, copper does not react with dilute acids at all, so no hydrogen is produced. A weak answer might say \"copper does not work\" without the reason; a good answer explains that copper is below hydrogen in the reactivity series and cannot displace it. Zinc sits in the middle: it reacts steadily, is cheap, easily available in Indian school laboratories and gives a regular stream of hydrogen without catching fire.\r\n\r\nNext, the choice of acid. Dilute hydrochloric acid or dilute sulphuric acid are the usual choices. Why not nitric acid, even though it is an acid? Dilute nitric acid is an oxidising acid. When a metal reacts with it, the acid oxidises the hydrogen that is first liberated to water, and the nitric acid itself is reduced to products such as nitrogen dioxide or nitric oxide. Therefore you do not get free hydrogen gas. A common weak answer simply says \"nitric acid is dangerous,\" which misses the chemistry; a strong answer says it is an oxidising acid that oxidises the liberated hydrogen, preventing its collection.\r\n\r\nNow consider electrolysis, the preparation of hydrogen from water. In this method, water acidified with a little sulphuric acid is placed in a voltameter or Hofmann apparatus. Two electrodes, usually platinum or graphite, dip into the water. The acidified water is the electrolyte because it conducts electricity. When a direct current is passed, hydrogen collects at the cathode and oxygen at the anode in a two-to-one volume ratio. You are not expected to explain the detailed ionic mechanism, but you must know the three terms: electrode, electrolyte and electrolysis. A good answer will say that the electrode is the conducting rod, the electrolyte is the liquid that conducts the current, and electrolysis is the chemical decomposition caused by electricity. A weak answer mixes these three terms up or uses them as if they mean the same thing.\r\n\r\nFor large-scale production, the syllabus mentions Bosch's process. First, water gas is prepared by passing steam over red-hot coke: C + H_2O -> CO + H_2. This mixture is then mixed with more steam and passed over a heated iron-oxide catalyst. Carbon monoxide reacts with steam to form carbon dioxide and more hydrogen: CO + H_2O -> CO_2 + H_2. Carbon dioxide is removed by dissolving it in water under pressure, and the remaining gas is purified hydrogen. Think of it as a two-step factory method: first you make water gas, then you shift the carbon monoxide to carbon dioxide and scrub the carbon dioxide away. In Indian industries, this process is the starting point for making ammonia and hydrogenating oils, so the hydrogen you collect over water in school is the same substance, only produced on a much larger scale.\r\n\r\nWhat should you expect in the ICSE/ISC board examination? The examiners often test whether students can write the correct word equation or balanced equation for zinc and dilute acid, explain the preference for zinc, state why nitric acid is unsuitable, and identify the correct method of collection. They also expect a clear distinction between a single displacement reaction and other reaction types, and a correct use of the terms electrode, electrolyte and electrolysis. From the board examiner observations, many candidates confuse the products when acids are involved and mix up reaction types, so be precise with equations and terms. Write the equations with state symbols only if asked, and always connect the collection method to the property that hydrogen is lighter than air.",
+    "eli5": "Hydrogen is a very light gas. In the lab, we drop bits of zinc into a weak acid and it pushes the hydrogen out of the acid. The bubbles rise and fill a jar turned upside down in water because the gas is lighter than water. We use zinc because it is not too fast or too slow. Big factories make hydrogen with Bosch's process using steam and hot coke.",
+    "misconceptionText": "Misconception 1: Students often write that any acid, including dilute nitric acid, can be used to prepare hydrogen from a metal. This is incorrect. The board examiner observations for 2024 note that many candidates incorrectly wrote the reactions of dilute nitric acid and got the products wrong. Dilute nitric acid is an oxidising acid and oxidises the hydrogen first liberated to water, so free hydrogen gas is not obtained.\r\n\r\nMisconception 2: Students confuse the type of reaction between a metal and an acid. Some call it a substitution reaction or an oxidation reaction rather than a displacement reaction. The examiner observations for 2024 show that candidates frequently mix up substitution, oxidation and redox categories. The correct description is a single displacement reaction: the more reactive metal displaces hydrogen from the acid.\r\n\r\nMisconception 3: Students mix up or misdefine electrode, electrolyte and electrolysis. The board exam guidances highlighted that candidates are unfamiliar with technical terms and need real-life examples. An electrode is the conducting rod dipped in the liquid, the electrolyte is the liquid that conducts electricity, and electrolysis is the process by which electricity breaks a compound into simpler substances. These are three different ideas and must not be used interchangeably.",
+    "diagnosticText": "Q1 (recall): Describe the laboratory preparation of hydrogen from zinc and dilute hydrochloric acid, including how it is collected.\r\nAnswer: In the laboratory, hydrogen is prepared by adding granulated zinc to dilute hydrochloric acid in a flat-bottomed flask fitted with a thistle funnel and a delivery tube. Zinc, being more reactive than hydrogen, displaces hydrogen from the acid. The chemical equation is Zn + 2HCl -> ZnCl_2 + H_2. The hydrogen gas produced bubbles through the acid, passes along the delivery tube and is collected over water by downward displacement of water. This method is used because hydrogen is the lightest gas and almost insoluble in water, so it rises to the top of the inverted jar and pushes the water downwards. The apparatus is set up with the gas jar inverted over water in a trough, and the delivery tube is placed just above the mouth of the jar so that the lighter hydrogen fills it from the top. Care is taken to keep the flame away because hydrogen mixed with air can burn explosively.\r\n\r\nQ2 (reasoning): Why is zinc preferred over sodium and copper for preparing hydrogen in the laboratory?\r\nAnswer: Zinc is preferred because its reactivity with dilute acids is moderate and easily controlled. Sodium and potassium are far too reactive; they react violently with acids and can catch fire or cause an explosion, making the experiment dangerous in a school laboratory. Copper, on the other hand, is below hydrogen in the reactivity series and cannot displace hydrogen from dilute acids, so no hydrogen is produced. Zinc occupies a useful middle position: it reacts steadily and gives a regular stream of hydrogen without sudden violence. It is also inexpensive, easily available and safe enough for routine school use in Indian laboratories.\r\n\r\nQ3 (evaluate): A student says, \"Dilute nitric acid should be just as good as dilute hydrochloric acid for preparing hydrogen in the laboratory.\" Evaluate this statement.\r\nAnswer: This statement is not correct. The student has ignored the special chemical nature of nitric acid. Dilute nitric acid is not only an acid but also an oxidising agent. When a metal such as zinc reacts with dilute nitric acid, hydrogen is initially displaced from the acid; however, before it can escape as free gas, the nitric acid oxidises it to water. At the same time, the nitric acid is reduced to compounds such as nitrogen monoxide or nitrogen dioxide, depending on the concentration. Therefore the expected hydrogen gas is not collected, or only traces are obtained. This is why the syllabus explicitly excludes dilute nitric acid for hydrogen preparation. A student using dilute hydrochloric acid or dilute sulphuric acid would observe a steady stream of hydrogen, because these acids are non-oxidising and the displaced hydrogen escapes as gas. In short, nitric acid fails not because it lacks hydrogen atoms, but because it destroys the hydrogen it releases by oxidation.\r\n\r\nQ4 (apply): A teacher asks you to set up an apparatus to collect the hydrogen produced when zinc reacts with dilute sulphuric acid. Explain the correct method of collection and the reason behind it.\r\nAnswer: Hydrogen is collected by the downward displacement of water. The apparatus consists of a flat-bottomed flask containing granulated zinc and dilute sulphuric acid, fitted with a thistle funnel and a delivery tube. The free end of the delivery tube is placed under an inverted gas jar filled with water and standing in a water trough. Hydrogen bubbles through the acid, travel through the delivery tube and rise to the top of the jar because hydrogen is the lightest gas known, much lighter than air and almost insoluble in water. As it accumulates, the gas pushes the water downwards and out of the jar. This method is preferred over collecting the gas by upward displacement of air, because the gas is lighter than air and would escape if collected in an upright jar. The mouth of the jar must remain under the water surface until it is removed, so that the collected gas does not mix with air and create an explosive mixture.\r\n\r\nQ5 (create): Design a small safety poster for a Class 7 student who is about to demonstrate the preparation of hydrogen from zinc and hydrochloric acid. What important warnings and steps would you include?\r\nAnswer: The poster should have a clear heading such as \"Safe Hydrogen Preparation\" and four key sections. First, a materials section showing a labelled diagram of the flat-bottomed flask, thistle funnel, delivery tube, water trough and inverted gas jar. Second, a step-by-step procedure in short sentences: place granulated zinc in the flask, add dilute hydrochloric acid slowly through the thistle funnel, wait for bubbles to appear, collect hydrogen by downward displacement of water, and remove the jar under water. Third, a set of safety warnings: no naked flames near the apparatus because hydrogen is highly inflammable; no sodium, potassium or calcium because they react too violently; no nitric acid because it is an oxidising acid and does not give free hydrogen; and no direct smelling of the gas. Fourth, a \"Did you know?\" box explaining that this is the same hydrogen produced on a large scale by Bosch's process for industry. Bright colours and simple icons would make the poster helpful and memorable.",
+    "cognitiveLevel": "apply",
+    "masteryCriteria": "Can write the equations for hydrogen preparation (Zn + H2SO4 -> ZnSO4 + H2; Zn + 2HCl -> ZnCl2 + H2); can describe the apparatus (Woulf's bottle, thistle funnel, delivery tube, gas jar); can test for hydrogen (burns with a pop sound).",
+    "subject": "chem",
+    "classLevel": 7
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE PeriodicTableExplorerSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

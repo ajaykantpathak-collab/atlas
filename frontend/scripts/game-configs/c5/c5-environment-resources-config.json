@@ -1,0 +1,41 @@
+{
+  "gameTitle": "EnvironmentResourcesGame",
+  "classLevel": 5,
+  "ageRange": "10-11",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class5\\EnvironmentResourcesGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\geo\\enrichment\\c5_geography_enrichment_part10.marker",
+    "D:\\cisce\\geo\\enrichment\\c5_geography_enrichment_part11.marker",
+    "D:\\cisce\\geo\\enrichment\\c5_geography_enrichment_part12.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\MapsIndiaGame.tsx",
+  "cisceNodes": "c5_geo_010 (Our environment - components), c5_geo_011 (Natural disasters), c5_geo_012 (Natural resources - types and conservation)",
+  "mascotName": "Environmentalist Eshan",
+  "mascotDescription": "an environmentalist with a green leaf badge, a recycling symbol, and a nature guidebook. He teaches about the environment, disasters, and resource conservation. Custom SVG, not an owl.",
+  "sceneDescription": "nature reserve with sky gradient, trees and rivers, a recycling symbol, natural resources (water, soil, minerals, forests), a disaster warning sign, and a conservation chart",
+  "svgObjects": [
+    { "name": "EnvironmentIcon", "description": "the environment with sky, land, water, and living things" },
+    { "name": "BioticIcon", "description": "living components (plants, animals)" },
+    { "name": "AbioticIcon", "description": "non-living components (air, water, soil)" },
+    { "name": "EarthquakeIcon", "description": "an earthquake with cracked ground" },
+    { "name": "FloodIcon", "description": "a flood with rising water" },
+    { "name": "DroughtIcon", "description": "a drought with dry cracked land" },
+    { "name": "CycloneIcon", "description": "a cyclone with swirling wind" },
+    { "name": "WaterResourceIcon", "description": "water as a natural resource" },
+    { "name": "SoilResourceIcon", "description": "soil as a natural resource" },
+    { "name": "ForestResourceIcon", "description": "forest as a natural resource" },
+    { "name": "MineralResourceIcon", "description": "minerals as a natural resource" },
+    { "name": "ConservationIcon", "description": "a conservation symbol with a shield" }
+  ],
+  "challengeTypes": [
+    "identify: What are the TWO main components of the environment? (Biotic (living) and Abiotic (non-living) vs Plants and Animals only | Air and Water only | Land and Sky only)",
+    "sort: Drag each component to biotic or abiotic (Plants = Biotic | Animals = Biotic | Air = Abiotic | Water = Abiotic | Soil = Abiotic | Sunlight = Abiotic | Humans = Biotic | Microbes = Biotic)",
+    "identify: Which of these is a NATURAL disaster? (Earthquake vs Festival vs Election | Holiday)",
+    "sort: Drag each natural disaster to its correct description (Earthquake = shaking of the earth's surface | Flood = overflow of water on normally dry land | Drought = long period without rain | Cyclone = strong rotating wind storm | Volcanic eruption = molten lava from a volcano | Tsunami = large ocean wave from underwater earthquake)",
+    "identify: Which of these is a RENEWABLE natural resource? (Water vs Coal vs Petroleum vs Natural gas)",
+    "sort: Drag each resource to renewable or non-renewable (Water = Renewable | Solar energy = Renewable | Wind energy = Renewable | Coal = Non-renewable | Petroleum = Non-renewable | Forests = Renewable if managed | Minerals = Non-renewable | Soil = Renewable if conserved)",
+    "identify: What is CONSERVATION of natural resources? (Using resources wisely and protecting them for the future vs Using up all resources quickly | Ignoring resources | Selling resources to other countries)",
+    "sort: Drag each conservation method to the resource it protects (Plant more trees = Forests | Reduce, reuse, recycle = All resources | Rainwater harvesting = Water | Use public transport = Petroleum | Avoid overgrazing = Soil | Use solar panels = Reduce coal use | Treat sewage before disposal = Water | Do not waste food = All resources)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Environment components — Environment is everything around us. Two main components: Biotic (living) — plants, animals, humans, microbes. Abiotic (non-living) — air, water, soil, sunlight, temperature. Both interact to form ecosystems. (2) Natural disasters — Events caused by nature that cause damage. Earthquake: shaking of earth's surface due to tectonic plates. Flood: overflow of water on dry land due to heavy rain. Drought: long period without rain, causing water shortage. Cyclone: strong rotating wind storm. Volcanic eruption: molten lava from a volcano. Tsunami: large ocean waves caused by underwater earthquakes. Effects: loss of life, property damage, food shortage, disease. (3) Natural resources — Materials from nature that humans use. Renewable: can be replenished — water, solar energy, wind energy, forests (if managed). Non-renewable: cannot be replenished — coal, petroleum, natural gas, minerals. Conservation: using resources wisely, reducing waste, reusing and recycling, protecting for future generations. Methods: plant trees, rainwater harvesting, reduce-reuse-recycle, use public transport, use solar/wind energy, treat sewage, avoid overgrazing. Misconceptions: 'the environment is only about trees' (WRONG — the environment includes both living (biotic) and non-living (abiotic) components: air, water, soil, sunlight, plants, animals, humans), 'natural disasters are caused by humans' (WRONG — natural disasters like earthquakes, floods, and cyclones are caused by natural processes, though human activities can worsen their effects), 'coal and petroleum are renewable' (WRONG — coal and petroleum take millions of years to form and are non-renewable; they will run out), 'conservation means not using resources at all' (WRONG — conservation means using resources WISELY and not wasting them, not stopping use completely), 'forests are non-renewable' (PARTIALLY WRONG — forests are renewable IF managed properly through replanting; they become non-renewable if cut down faster than they regrow)."
+}

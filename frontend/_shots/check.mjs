@@ -1,0 +1,12 @@
+import { chromium } from 'file:///C:/Users/Alesha4285/AppData/Local/npm-cache/_npx/6bcb61ec6d5aea22/node_modules/playwright/index.mjs';
+const url = process.argv[2];
+const b = await chromium.launch();
+const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+const errs = [];
+p.on('console', m => { if (m.type() === 'error') errs.push(m.text().slice(0, 300)); });
+p.on('pageerror', e => errs.push('PAGE: ' + e.message.slice(0, 300)));
+await p.goto(url, { waitUntil: 'load', timeout: 90000 }).catch(e => errs.push('NAV: ' + e.message));
+await p.waitForTimeout(9000);
+await p.screenshot({ path: process.argv[3] });
+console.log(JSON.stringify(errs.slice(0, 8), null, 1));
+await b.close();

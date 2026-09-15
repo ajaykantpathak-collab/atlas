@@ -1,0 +1,790 @@
+{
+  "gameFile": "PlantTypesGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_bio_015",
+    "c1_bio_016",
+    "c1_bio_017"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Where Do Plants Grow? 🌿",
+      "text": "Plants live in different places! Mango and neem grow on land in soil. Lotus lives in a pond with its leaves floating on water. Money plants are climbers that need a wall or stick for support!",
+      "emoji": "🌳",
+      "bgColor": "from-emerald-400 to-green-600",
+      "spoken": "",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Edible Parts of Plants 🥕",
+      "text": "Plants give us delicious food! We eat roots like carrots, leaves like spinach, seeds like peas, and juicy fruits like mangoes and bananas!",
+      "emoji": "🥗",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Herbal Doctors: Medicinal Plants 🍃",
+      "text": "Some plants help us feel better when we are not well! Tulsi leaves help with coughs and colds. Neem is great for the skin. Aloe vera gel soothes small burns!",
+      "emoji": "🌿",
+      "bgColor": "from-teal-400 to-emerald-600",
+      "spoken": "",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Land, Water, and Climbers 🌊",
+      "text": "Land plants stand firmly in soil. Water plants float peacefully in ponds. Climbers have soft stems and creep upward, holding on to a wall or stick!",
+      "emoji": "🌺",
+      "bgColor": "from-cyan-400 to-blue-600",
+      "spoken": "",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Always Ask an Adult! 🧑‍⚕️",
+      "text": "Never pluck or eat unknown leaves from the garden! Medicinal plants like tulsi and aloe vera must always be used with adult guidance and care!",
+      "emoji": "🛡️",
+      "bgColor": "from-purple-400 to-indigo-600",
+      "spoken": "",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_type",
+      "question": "Where does a LOTUS plant grow?",
+      "answer": "In water (pond)",
+      "options": [
+        "In water (pond)",
+        "On dry land",
+        "Climbing a wall"
+      ],
+      "hint": "Think: where do we see lotus flowers floating? In a pond!",
+      "misconception": "A lotus is a water plant! Its leaves float on the water in a pond. Not all plants grow in dry soil on land!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "In water (pond)",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "On dry land",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Climbing a wall",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "In water (pond)",
+          "On dry land"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_type",
+      "question": "Where does a MANGO tree grow?",
+      "answer": "On land (soil)",
+      "options": [
+        "In water",
+        "On land (soil)",
+        "Climbing a rope"
+      ],
+      "hint": "A mango tree stands tall in an orchard with its roots deep in the soil.",
+      "misconception": "A mango tree is a land plant! Its roots go deep into the soil to hold it firmly. It does not need water to float or a wall to climb!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "In water",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "On land (soil)",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Climbing a rope",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "On land (soil)",
+          "In water"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_type",
+      "question": "How does a MONEY PLANT grow upward?",
+      "answer": "Climbs on support (wall/stick)",
+      "options": [
+        "Stands on its own like a tree",
+        "Floats in a pond",
+        "Climbs on support (wall/stick)"
+      ],
+      "hint": "Money plants have soft stems and need something to hold onto as they creep up.",
+      "misconception": "A money plant is a climber! It cannot stand straight on its own; it needs a wall, stick, or string for support!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Stands on its own like a tree",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Floats in a pond",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Climbs on support (wall/stick)",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Climbs on support (wall/stick)",
+          "Stands on its own like a tree"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_plants",
+      "question": "Drag each plant to its correct home!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Mango = land, Lotus = water, Money plant = climber!",
+      "misconception": "Remember: land plants grow in soil (mango), water plants float in ponds (lotus), and climbers need support (money plant)!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "mango",
+            "label": "Mango Tree",
+            "correctBin": "land"
+          },
+          {
+            "id": "lotus",
+            "label": "Lotus",
+            "correctBin": "water"
+          },
+          {
+            "id": "money",
+            "label": "Money Plant",
+            "correctBin": "climber"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "mango",
+          "kind": "circle",
+          "label": "Mango Tree",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "land",
+          "interaction": "drag-to-bin",
+          "targetBin": "land"
+        },
+        {
+          "id": "lotus",
+          "kind": "circle",
+          "label": "Lotus",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "water",
+          "interaction": "drag-to-bin",
+          "targetBin": "water"
+        },
+        {
+          "id": "money",
+          "kind": "leaf",
+          "label": "Money Plant",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "climber",
+          "interaction": "drag-to-bin",
+          "targetBin": "climber"
+        },
+        {
+          "id": "neem",
+          "kind": "circle",
+          "label": "Neem Tree",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "land",
+          "interaction": "drag-to-bin",
+          "targetBin": "land"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "mango",
+          "label": "Mango Tree",
+          "emoji": "🌳",
+          "correctBin": "land"
+        },
+        {
+          "id": "lotus",
+          "label": "Lotus",
+          "emoji": "🌸",
+          "correctBin": "water"
+        },
+        {
+          "id": "money",
+          "label": "Money Plant",
+          "emoji": "🌿",
+          "correctBin": "climber"
+        },
+        {
+          "id": "neem",
+          "label": "Neem Tree",
+          "emoji": "🌲",
+          "correctBin": "land"
+        }
+      ],
+      "bins": [
+        {
+          "id": "land",
+          "label": "Land Plant 🌳",
+          "color": "#16A34A"
+        },
+        {
+          "id": "water",
+          "label": "Water Plant 💧",
+          "color": "#0284C7"
+        },
+        {
+          "id": "climber",
+          "label": "Climber 🧗",
+          "color": "#9333EA"
+        }
+      ]
+    },
+    {
+      "type": "identify_edible",
+      "question": "What part of a CARROT plant do we eat?",
+      "answer": "Root",
+      "options": [
+        "Root",
+        "Leaf",
+        "Fruit"
+      ],
+      "hint": "Carrots grow under the soil and are thick and orange!",
+      "misconception": "Carrots are roots that grow under the soil! We wash them and eat them. Not all underground parts are stems — carrots are true roots!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Root",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Leaf",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Fruit",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Root",
+          "Leaf"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_edible",
+      "question": "What part of a SPINACH plant do we eat?",
+      "answer": "Leaf",
+      "options": [
+        "Root",
+        "Leaf",
+        "Seed"
+      ],
+      "hint": "Spinach has flat, green parts that we pluck and cook as a vegetable.",
+      "misconception": "Spinach is a leaf vegetable! We pluck the flat green leaves, wash them, and cook them. We are not eating the stem or root here!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Root",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Leaf",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Seed",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Leaf",
+          "Root"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_edible",
+      "question": "Drag each food to the part of the plant we eat!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Carrot = root, Spinach = leaf, Pea = seed, Mango = fruit!",
+      "misconception": "Remember: carrot is a root underground, spinach is a leafy vegetable, peas are seeds inside a pod, and mango is a juicy fruit!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "carrot",
+            "label": "Carrot",
+            "correctBin": "root"
+          },
+          {
+            "id": "spinach",
+            "label": "Spinach",
+            "correctBin": "leaf"
+          },
+          {
+            "id": "pea",
+            "label": "Peas",
+            "correctBin": "seed"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "carrot",
+          "kind": "circle",
+          "label": "Carrot",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "root",
+          "interaction": "drag-to-bin",
+          "targetBin": "root"
+        },
+        {
+          "id": "spinach",
+          "kind": "circle",
+          "label": "Spinach",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "leaf",
+          "interaction": "drag-to-bin",
+          "targetBin": "leaf"
+        },
+        {
+          "id": "pea",
+          "kind": "circle",
+          "label": "Peas",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "seed",
+          "interaction": "drag-to-bin",
+          "targetBin": "seed"
+        },
+        {
+          "id": "mango",
+          "kind": "circle",
+          "label": "Mango",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fruit",
+          "interaction": "drag-to-bin",
+          "targetBin": "fruit"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "carrot",
+          "label": "Carrot",
+          "emoji": "🥕",
+          "correctBin": "root"
+        },
+        {
+          "id": "spinach",
+          "label": "Spinach",
+          "emoji": "🥬",
+          "correctBin": "leaf"
+        },
+        {
+          "id": "pea",
+          "label": "Peas",
+          "emoji": "🟢",
+          "correctBin": "seed"
+        },
+        {
+          "id": "mango",
+          "label": "Mango",
+          "emoji": "🥭",
+          "correctBin": "fruit"
+        }
+      ],
+      "bins": [
+        {
+          "id": "root",
+          "label": "Root 🥕",
+          "color": "#EA580C"
+        },
+        {
+          "id": "leaf",
+          "label": "Leaf 🥬",
+          "color": "#16A34A"
+        },
+        {
+          "id": "seed",
+          "label": "Seed 🟢",
+          "color": "#CA8A04"
+        },
+        {
+          "id": "fruit",
+          "label": "Fruit 🥭",
+          "color": "#DC2626"
+        }
+      ]
+    },
+    {
+      "type": "sort_medicinal",
+      "question": "Sort these plants into Medicinal Helpers vs Food Fruits!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Tulsi and neem help when sick or for skin! Mango and banana are yummy fruits!",
+      "misconception": "Not all plants are eaten for meals! Tulsi, neem, and aloe vera are medicinal herbs used for natural remedies with adult guidance, while mango and banana are everyday food fruits!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tulsi",
+            "label": "Tulsi",
+            "correctBin": "medicinal"
+          },
+          {
+            "id": "neem",
+            "label": "Neem",
+            "correctBin": "medicinal"
+          },
+          {
+            "id": "banana",
+            "label": "Banana",
+            "correctBin": "food"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tulsi",
+          "kind": "circle",
+          "label": "Tulsi",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "medicinal",
+          "interaction": "drag-to-bin",
+          "targetBin": "medicinal"
+        },
+        {
+          "id": "neem",
+          "kind": "circle",
+          "label": "Neem",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "medicinal",
+          "interaction": "drag-to-bin",
+          "targetBin": "medicinal"
+        },
+        {
+          "id": "banana",
+          "kind": "circle",
+          "label": "Banana",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "food",
+          "interaction": "drag-to-bin",
+          "targetBin": "food"
+        },
+        {
+          "id": "apple",
+          "kind": "apple",
+          "label": "Apple",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ff4444",
+          "category": "food",
+          "interaction": "drag-to-bin",
+          "targetBin": "food"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tulsi",
+          "label": "Tulsi",
+          "emoji": "🌿",
+          "correctBin": "medicinal"
+        },
+        {
+          "id": "neem",
+          "label": "Neem",
+          "emoji": "🍃",
+          "correctBin": "medicinal"
+        },
+        {
+          "id": "banana",
+          "label": "Banana",
+          "emoji": "🍌",
+          "correctBin": "food"
+        },
+        {
+          "id": "apple",
+          "label": "Apple",
+          "emoji": "🍎",
+          "correctBin": "food"
+        }
+      ],
+      "bins": [
+        {
+          "id": "medicinal",
+          "label": "Medicinal Herb 🍃",
+          "color": "#0D9488"
+        },
+        {
+          "id": "food",
+          "label": "Food Fruit 🍎",
+          "color": "#E11D48"
+        }
+      ]
+    }
+  ],
+  "theme": "garden",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_bio_015",
+    "region": "Biosphere",
+    "mapX": 0.42000000000000004,
+    "mapY": 0.63,
+    "icon": "🌱",
+    "prerequisites": [
+      "c1_bio_016"
+    ]
+  },
+  "subject": "biology"
+}

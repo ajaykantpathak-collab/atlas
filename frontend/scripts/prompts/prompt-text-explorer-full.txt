@@ -1,0 +1,1299 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete TextExplorerSimulation.tsx component. This is a TEXT-BASED EXPLORER for topics that are conceptual and don't need a physics-style interactive simulation. It covers Chemistry topics (metals, non-metals, air, oxygen, water, carbon, hydrogen, electronic configuration, valency, chemical equations) and Computer Science topics (hardware, software, Excel, Word, PowerPoint, networking, databases, number systems, viruses, cloud computing).
+
+This is for STRUGGLING students. It must TEACH through structured reading, interactive diagrams, and guided exploration.
+
+CRITICAL: Follow this EXACT template structure from the reference file below. Use Tailwind CSS classes (NOT inline styles). Light theme (white bg, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: ELI5, Subject Theory, Common Misconceptions with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: Interactive concept diagram (SVG with clickable sections) + mode selector buttons + reset button
+   - RIGHT: Key Facts card (with EDITABLE number inputs) + Properties card (interactive checklist or comparison table)
+4. PROGRESSIVE CHALLENGES — full width, with key-fact display, answer input (number/text/mcq), feedback with step-by-step working, check answer, next, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface TextExplorerSimulationProps with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data from the first node below
+- 3 progressive challenges: recall -> apply -> evaluate
+- Each challenge MUST require interacting with the concept diagram or key facts
+- Each challenge MUST show key fact, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the diagram
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive concept diagram with clickable sections
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Challenge 1 (recall): Click a section of the diagram or set a value. Numeric or MCQ answer.
+- Challenge 2 (apply): Problem based on the topic. Show key fact, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Explore different modes and explain. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the diagram
+
+Here is the REAL ENRICHMENT DATA. Use the first node's content for default props:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_chem_013",
+    "title": "Metals - properties",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "A metal is a class of element that can be recognised by a set of special physical properties. After learning in earlier work that every material has properties such as hardness, flexibility and transparency, you now meet the idea of classification at the level of elements. The simplest forms of matter are called elements, and one of the most useful ways of sorting elements is to decide whether they behave as metals or as non-metals. In this node we look only at metals. A metal usually has a bright, shiny surface called lustre. Polished gold, freshly cleaned copper and a new aluminium vessel all show this characteristic metallic shine. Most metals allow heat and electricity to move through them easily; this is called conductivity, and it is the reason copper and aluminium are used for electrical wires and why cooking pans made of iron or aluminium heat up quickly. Metals can be beaten into thin sheets without breaking; this property is called malleability. Goldsmiths beat gold into very thin leaf to cover temple idols, and blacksmiths flatten iron nails on anvils. Metals can also be drawn into thin wires; this property is called ductility. Copper wires carry current in homes, and aluminium wires are used in overhead power cables. When a metal piece is struck or dropped, it gives a ringing sound; this is called sonority, and it is the reason bells are often made of metals such as bronze. Most metals have high melting points and high boiling points, though there are differences. Iron melts at about 1538 degrees Celsius, while the metal zinc melts at a much lower 419 degrees Celsius and lead at only 327 degrees Celsius. Density is the mass contained in a given volume; iron is dense, but aluminium is light for the same volume, which is why aluminium is chosen for aircraft parts. Strength is the ability to resist being broken or bent; iron and steel are used for bridges, railway tracks and building frames because they are strong. We can therefore classify an element as a metal if it shows a combination of properties such as lustre, conductivity, malleability, ductility, sonority, high melting and boiling points, high density and great strength. The common metals you must remember are iron, gold, copper, aluminium, zinc, lead and magnesium. Iron is used for tools, machines and construction; gold is used for jewellery and decorative work; copper is used for electrical wires and utensils; aluminium is used for foil, aircraft bodies and kitchenware; zinc is used to coat iron to prevent rusting later and in alloys; lead is used in batteries; and magnesium is used in fireworks and light alloys. In the laboratory you can show these properties by activities such as beating a metal strip with a hammer to show malleability, connecting a metal wire into an electric circuit to show conductivity, and dropping a small metal piece on a hard surface to hear its ringing sound, which shows sonority.",
+    "eli5": "Metals are a special group of elements. They usually shine, let electricity and heat pass through them, can be hammered into flat sheets or pulled into wires, and make a ringing sound when dropped. Iron, gold, copper and aluminium are some common metals we use every day.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "List the main physical properties used to decide whether an element is a metal. For each property, give one clear Indian or everyday example of a metal and the object in which it is used.",
+        "answer": "The main physical properties used to classify an element as a metal are lustre, conductivity of heat and electricity, malleability, ductility, sonority, high melting point, high boiling point, high density and strength. Lustre is the shining surface of a metal; gold ornaments worn during Indian festivals and polished copper vessels in the kitchen both show lustre. Conductivity is the ability to allow heat and electricity to pass through; copper wires in household circuits and aluminium wires on electric poles in Indian streets show electrical conductivity, while iron and aluminium pans show heat conductivity because they warm up quickly. Malleability means the metal can be beaten into a thin sheet without breaking; goldsmiths beat gold into thin leaf to cover idols in temples, and blacksmiths flatten iron nails on anvils. Ductility means the metal can be drawn into thin wires; copper wire is used in almost every electrical fitting in a house. Sonority means the metal makes a ringing sound when struck; bronze and brass bells in schools and temples are made of metals because of this property. Most metals have high melting points and high boiling points, so they can be used in hot places such as engines and furnaces. Density means that a small piece of metal can be heavy; iron is much denser than aluminium, which is why aluminium is chosen for aircraft. Strength means that a metal resists breaking under a load; iron and steel are used for railway tracks, bridges and building frames. A good answer names each property clearly and supports it with the correct example."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A student says, \"A metal spoon left in a cup of hot tea becomes hot because the metal traps heat inside it.\" Explain why this statement is not correct, and describe a simple school activity with an iron rod and a wooden rod that would prove the correct property of the metal.",
+        "answer": "The statement is not correct because a metal does not trap heat; it actually allows heat to pass through it easily. This property is called heat conductivity. A metal spoon becomes hot because heat from the tea travels quickly through the metal and reaches your hand. Materials that trap heat, such as wood or plastic, are poor conductors of heat, which is why the handles of many cooking pans are made of wood or plastic even when the pan itself is metal. To prove the correct property in school, take a long iron rod and a wooden rod of the same length and thickness. Stick a few small wax pieces or small pieces of paper along each rod at equal distances. Hold one end of each rod over the same small flame, such as a candle or a spirit lamp, for the same length of time. You will notice that the wax or paper on the iron rod falls off or burns much sooner, showing that heat has travelled quickly along the iron. The wax on the wooden rod does not melt or burn as quickly, because wood is a poor conductor. This activity shows that the metal conducts heat, while the non-metal does not. A good answer also connects this to the name of the property, heat conductivity."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A shopkeeper tells a customer, \"Aluminium cooking pans are better than iron ones because aluminium and iron are both metals, so they will conduct heat in exactly the same way. Therefore, the cheaper aluminium pan is always the better choice.\" Evaluate this statement and decide whether the customer's choice should depend only on price.",
+        "answer": "The shopkeeper's statement is only partly true and needs careful evaluation. It is true that both aluminium and iron are metals, and both conduct heat. It is also true that aluminium is cheaper and lighter than iron, so an aluminium pan costs less and is easy to lift. However, the statement that the two metals conduct heat in exactly the same way is incorrect. Different metals conduct heat at different rates. Copper and aluminium are very good conductors, but iron is also a good conductor, though not quite as fast. More importantly, other properties matter in choosing a cooking pan. Aluminium is soft and can be scratched or bent more easily than iron, so an aluminium pan may not last as long. Iron is much stronger, so an iron pan can take rougher use. Iron is also denser, which gives a heavy base and helps food cook evenly. Another important difference is that some iron pans can add a small amount of iron to food, which can be useful for health, while aluminium may react with some sour foods. The customer should not decide only on price. The correct decision must consider the use of the pan, how long it is expected to last, how evenly it must heat, and how strong it must be. Therefore the shopkeeper's argument is too simple, and a balanced choice depends on more than just the common fact that both metals conduct heat."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Your teacher gives you a small, unknown, hard, silvery strip and asks you to find out whether it is a metal. Design a simple activity using three separate tests: one for malleability, one for electrical conductivity and one for sonority. List the materials you would need and the exact steps you would follow.",
+        "answer": "The three tests will be malleability, electrical conductivity and sonority, and each one shows a typical metallic property. For malleability, I need a hammer and a hard, flat surface such as a metal anvil or a thick stone slab. I will place the strip on the surface and strike it gently with the hammer several times. If the strip flattens or spreads without breaking or cracking, it is malleable. For electrical conductivity, I need a small battery, a torch bulb fixed in a bulb holder, connecting wires and the strip itself. I will first connect the battery and bulb with the wires to make a complete circuit without the strip. The bulb should glow. Then I will break the circuit and use the strip to join the two broken ends. If the bulb glows again, the strip conducts electricity. For sonority, I need only a hard floor or a stone slab. I will hold the strip a few centimetres above the surface and drop it. If it produces a clear ringing sound, the strip is sonorous. If the strip passes all three tests, it is almost certainly a metal, because malleability, electrical conductivity and sonority together are strong signs of metallic properties. A safe student would also wear safety glasses and keep fingers away from the hammer and the electric circuit."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Imagine you are preparing a wall poster for your school science club that shows how five metals, iron, gold, copper, aluminium and zinc, can be grouped by their properties. Design the poster by choosing three physical properties and writing the labels an ICSE examiner would expect to see for each sample.",
+        "answer": "The poster would have a clear title, \"Properties of Metals,\" and would be divided into three labelled columns. The first column could be titled \"Lustrous Shiny Metals.\" Under this I would place gold, because gold ornaments and temple idols are highly lustrous, and copper, because a polished copper plate or vessel has a bright reddish shine. The second column could be titled \"Good Conductors of Electricity and Heat.\" Under this I would place copper, because copper wires carry electric current, and aluminium, because aluminium is used for overhead electric cables and heats quickly in cooking pans. The third column could be titled \"Strong and Useful in Construction.\" Under this I would place iron, because iron and steel are used in railway tracks, bridges and building frames, and zinc, because zinc is used to coat iron and to make brass, an alloy used in fittings. The examiner labels for each sample would include the property name and the example of use: for iron, \"Strong, used in railway tracks and building frames\"; for gold, \"Lustrous, used in jewellery\"; for copper, \"Good conductor of electricity, used in wires\"; for aluminium, \"Light and a good conductor, used in aircraft and electric cables\"; for zinc, \"Used for galvanising iron to protect it.\" The poster would also include small pictures or symbols, such as a wire, a railway track, an ornament and an aeroplane, to make the classification easy to remember. This creative task shows that the same metal can appear under more than one property, because metals have many useful features."
+      }
+    ],
+    "masteryCriteria": "Can state four physical properties of metals (shiny/lustrous, malleable, ductile, good conductors of heat and electricity, solid at room temperature except mercury); can give three examples of metals (iron, copper, aluminium); can state two chemical properties (react with acids to produce H2, form basic oxides).",
+    "cognitiveLevel": "analyze"
+  },
+  {
+    "nodeId": "c6_chem_014",
+    "title": "Non-metals - properties",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "Elements are the simple substances from which every material around us is made. In earlier classes we grouped materials by what they looked like and what they could do; now we begin to group the elements themselves. The two largest groups are metals and non-metals. A non-metal is an element that does not show the typical metallic properties of being lustrous, malleable, ductile and a good conductor of heat and electricity. Instead, a non-metal is usually dull in appearance, meaning it lacks the bright metallic shine; it is brittle, so that it breaks into pieces rather than flattening into sheets or drawing into wires; and it is non-conductive, so it will not allow an electric current to pass through it. Coal, a form of carbon, is mined in places such as the Raniganj coalfield in West Bengal and the Jharia mines in Jharkhand. If a piece of coal is beaten with a hammer, it shatters like a biscuit, because non-metals are brittle and not malleable. If sulphur is placed in a simple electric circuit, the bulb does not glow, because non-metals are non-conductive.\r\n\r\nBetween the two families lies a special set of elements called metalloids. These are elements that show properties of both metals and non-metals, just as a bilingual person can speak two languages. For your syllabus the metalloids are silicon, germanium, tungsten and antimony. Silicon and germanium are used in electronic chips and solar-cell industries in places like Bengaluru and Gujarat; tungsten is used to make the very thin wire inside electric bulbs that glows without melting easily; and antimony is used in some alloys and battery plates. It is worth noting that in more advanced chemistry tungsten is usually classed as a metal, but the ICSE/ISC Class 6 syllabus places it in the metalloid list for this stage, so you must remember the four names together.\r\n\r\nThe same kind of careful thinking applies to corrosion, the slow wearing away of a metal when it reacts with substances in the air or water. Rusting is the special name for the corrosion of iron. An iron nail rusts only when both moisture and oxygen are present. You can show this with test tubes: a nail in dry air does not rust, a nail in boiled water covered with oil does not rust because oxygen is kept out, but a nail in ordinary moist air soon turns reddish-brown and flaky. A green deposit on copper articles is another kind of corrosion; it is copper carbonate formed when copper reacts with carbon dioxide, moisture and oxygen over time, and it is often seen on old copper utensils in humid coastal cities such as Kochi and Mumbai.\r\n\r\nBecause rusting damages bridges, ships, railings and tools, prevention is important. The five methods you must learn are oiling, painting, chrome plating, galvanization and tinning. Oiling covers the iron with a greasy layer that keeps out air and water; painting does the same and is used for gates, bridges and ships; chrome plating gives a shiny, protective layer on taps and bicycle parts; galvanization is covering iron with a thin coat of zinc, often used for buckets, roofing sheets and nails; and tinning is coating iron with tin, used for food cans. Each of these methods works by keeping the iron away from moisture and oxygen, the two things rusting needs.",
+    "eli5": "Non-metals are the opposite of metals. Metals are shiny, bendy and let electricity pass through them, but non-metals are dull, break when hit and stop electricity. Some elements, called metalloids, sit in the middle and show a little of both. Iron rusts when both water and air meet its surface, so we paint gates, oil bicycle chains, or cover iron with zinc, tin or chromium to keep it safe.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define a non-metal and a metalloid. List four properties that help us distinguish non-metals from metals, and give one example each of a non-metal and a metalloid from your syllabus.",
+        "answer": "A non-metal is an element that does not show the typical properties of metals. Non-metals are usually dull, meaning they do not have a shiny metallic surface; brittle, meaning they break into pieces when hammered or pressed; and non-conductive, meaning they do not allow heat or electricity to pass through them easily. Common examples are carbon, sulphur and phosphorus. A metalloid is an element that shows properties of both metals and non-metals. For the ICSE/ISC Class 6 syllabus, the metalloids are silicon, germanium, tungsten and antimony. Silicon and germanium are important in electronics, tungsten is used in electric-bulb filaments, and antimony is used in batteries and some alloys. The key distinction is that metals are lustrous, malleable, ductile and conductive, while non-metals are the opposite and metalloids sit between the two groups. You can test an unknown sample by checking its shine, its ability to bend without breaking, and whether it carries an electric current."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "An iron nail is placed in each of three test tubes: (A) dry air, (B) boiled water covered with oil, and (C) moist air containing both water and air. In which tube will the nail rust, and why will it not rust in the other two?",
+        "answer": "Rusting is the corrosion of iron, and it needs both moisture and oxygen together. Tube A contains air but no moisture, so the nail cannot rust because the water needed for the reaction is missing. Tube B contains water, but the water has been boiled to remove dissolved oxygen and the oil layer on top keeps fresh air out, so oxygen is missing; the nail will not rust there either. Tube C contains both moisture and oxygen, so the iron reacts with them to form hydrated iron oxide, the reddish-brown rust. This shows that neither water alone nor air alone causes rusting; both must be present at the same time. The practical conclusion is that any method of prevention must keep iron away from at least one of these two things."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says: \"Graphite is black, can conduct a small amount of electricity, and is used in pencil leads, so it must be a metal.\" Evaluate this statement.",
+        "answer": "This statement is not correct, even though it begins with true observations. It is true that graphite, which is a form of carbon, is black and can conduct a small amount of electricity, and it is indeed used in pencil leads. However, a single property is not enough to decide whether an element is a metal or a non-metal. The classification is based on a whole set of properties. Graphite is not lustrous and does not have a metallic shine; it is brittle and breaks into flakes; and it is not malleable or ductile like metals. A metal shows a combination of lustre, malleability, ductility and good conductivity, while a non-metal shows the opposite. Graphite is therefore an exception in one property, not a member of the metal family. It is best described as an allotropic form of the non-metal carbon. Some non-metals, like graphite, can show one metallic property without changing their overall classification. The student has also ignored the fact that metals are usually solid at room temperature, dense, sonorous and good thermal conductors, and graphite does not match all of these. So the statement is not only incomplete but also misleading, because it confuses one unusual behaviour with a whole group identity."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A coastal school in Mumbai wants to protect an iron window-grill and a set of iron garden benches from rusting during the monsoon. Suggest two different methods of prevention, one for each object, and explain why each method is suitable.",
+        "answer": "For the window-grill, painting is suitable because it forms a solid, coloured coating that seals the iron from the humid monsoon air and rain. It is also cheap and can be reapplied every few years. For the garden benches, galvanization is a good choice because it coats the iron with a layer of zinc, which not only blocks moisture and oxygen but also protects the iron even if the coating is scratched; the zinc reacts first and sacrifices itself. Both methods work by keeping the iron away from the moisture and oxygen needed for rusting, and they are chosen because the window-grill is decorative and stationary while the benches face soil, dampness and possible knocks. In a coastal city like Mumbai, the salty, moist air is an even stronger rusting agent, so a thick protective layer is particularly important."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple school-laboratory activity to prove that both moisture and oxygen are needed for the rusting of an iron nail. Give the aim, materials, steps, the expected observations in each case and the conclusion.",
+        "answer": "The aim of the activity is to show that rusting of iron takes place only when both moisture and oxygen are present. The materials required are three clean, rust-free iron nails, three test tubes, a cork or rubber stopper, cotton wool, anhydrous calcium chloride, a Bunsen burner or spirit lamp, a beaker, boiled water and a little oil. First set up three test tubes. In tube A, place a nail with anhydrous calcium chloride and cotton wool to keep the air dry, then stopper it. In tube B, half-fill the test tube with boiled water to remove dissolved oxygen, place the nail in it, and then pour a thin layer of oil over the water to stop air from entering. In tube C, place the nail with a little damp cotton wool and leave it open to the air. Leave all three tubes for several days, preferably a week. The expected observation is that the nail in tube A stays bright because there is no moisture, the nail in tube B stays bright because there is no oxygen, and the nail in tube C turns reddish-brown because both moisture and oxygen are present. The conclusion is that rusting needs both moisture and oxygen together, and preventing either one will stop rusting."
+      }
+    ],
+    "masteryCriteria": "Can state four physical properties of non-metals (dull, brittle, poor conductors, exist as solids/liquids/gases); can give three examples of non-metals (oxygen, sulphur, carbon); can state two chemical properties (react with oxygen to form acidic oxides, do not react with dilute acids to produce H2).",
+    "cognitiveLevel": "analyze"
+  },
+  {
+    "nodeId": "c6_chem_015",
+    "title": "Air and its composition",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "Air is a mixture of gases that surrounds the Earth and forms the atmosphere we breathe and live within. It is not a single substance, but a physical combination of several different gases mixed together in the atmosphere. The composition of air is approximately 78% nitrogen by volume, 21% oxygen, and the remaining 1% consists of carbon dioxide, water vapour, noble gases such as argon, neon and helium, along with tiny amounts of other substances like dust and pollutants. Because the concentration of these components is not exactly the same everywhere, air is classified as a mixture rather than a compound. In a compound, two or more elements combine chemically in a fixed proportion by mass, and their properties change completely; in air, the gases are simply blended together, each retaining its own properties, and their percentage can vary from place to place and from time to time. For example, the air over a humid coastal city such as Kochi or Mumbai contains a higher percentage of water vapour than the dry desert air over Jaisalmer or Ladakh. Similarly, the carbon dioxide percentage near a busy traffic intersection or an industrial area may be slightly higher than in a quiet forest in the Western Ghats. Nitrogen is the largest component of air, making up a little more than three-fourths of the atmosphere by volume. It is used in the manufacture of fertilisers, in the preservation of packaged food, and in the production of ammonia. Oxygen, the second largest component, is essential for respiration in animals and human beings, and it supports many life processes. Carbon dioxide, though present in very small percentage, is absorbed by plants during photosynthesis and is important for the growth of vegetation. Water vapour in the air determines humidity, influences weather patterns, and is responsible for rainfall. Noble gases such as argon are chemically very unreactive and are used in electric bulbs and special lighting. A pie chart is a very useful way to present the composition of air because it shows each component as a sector of a circle, making the percentage of every gas easy to compare at a glance. The largest sector represents nitrogen at 78%, the next sector represents oxygen at 21%, and the remaining tiny sectors show carbon dioxide, water vapour and the noble gases. The variation in the percentage of these minor components from one location to another is the strongest evidence that air is a mixture of gases and not a compound.",
+    "eli5": "Air is like a fruit salad. It is made of many different gases mixed together, not one single thing. The biggest part is nitrogen, then comes oxygen, with tiny bits of carbon dioxide, water vapour and noble gases. Because the amount of each gas can change from place to place, air is called a mixture. A pie chart is just like slicing a pizza to show which gas takes up the most space.",
+    "misconceptions": [
+      {
+        "belief": "\"Air is mostly oxygen because living things need it for breathing.\" The board examiner observations for percentage-composition questions show that students often fail to identify and emphasise the main component clearly. Just as some candidates listed extra metals without naming aluminium as the primary metal in Duralumin, many Class 6 students remember that oxygen is important and forget that nitrogen is the largest component at about 78%. The correction is to state clearly that nitrogen makes up 78% of air, oxygen only 21%, and the rest is a tiny mixture of other gases.",
+        "correction": ""
+      },
+      {
+        "belief": "\"The composition of air is fixed everywhere, so it must be a compound.\" The examiner observations also note that students often confuse mixtures with compounds by not paying attention to exact composition. A compound has a fixed ratio of elements joined chemically, but a mixture has a variable composition. The concentration of water vapour is much higher over humid coastal places like Chennai or Kochi than over dry regions like Rajasthan, and the carbon dioxide percentage can be higher near cities and factories. This variation proves that air is a mixture.",
+        "correction": ""
+      },
+      {
+        "belief": "\"The remaining 1% of air is only carbon dioxide.\" Similar to the way candidates in alloy questions added extra or incorrect components, some students think that all the remaining air after nitrogen and oxygen is carbon dioxide. The correction is that the remaining 1% is shared by several components: noble gases such as argon, neon and helium, carbon dioxide, water vapour and other trace substances. Carbon dioxide is only a small part of that remaining 1%.",
+        "correction": ""
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State the approximate percentage composition of air by volume. Name the two major components and two minor components.",
+        "answer": "Air contains approximately 78% nitrogen, 21% oxygen and about 1% of other gases by volume. The two major components are nitrogen and oxygen. The two minor components you should remember are carbon dioxide and water vapour, though the remaining 1% also includes noble gases such as argon, neon and helium. Nitrogen is the largest component and makes up a little more than three-fourths of the atmosphere. It is used in the manufacture of fertilisers, in food packaging to prevent spoilage, and in the production of ammonia. Oxygen is the second largest component and is essential for breathing and many life processes in animals and human beings. Carbon dioxide, although present in a very small percentage, is used by plants during photosynthesis. Water vapour varies from place to place and is responsible for humidity, cloud formation and rainfall. Noble gases such as argon are chemically inert and are used in electric bulbs. When answering this question in the exam, always write the percentages in the correct order and use the word approximately, because the exact values can change slightly depending on location and conditions."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Why is air considered a mixture and not a compound? Support your answer using the percentages of the gases in air.",
+        "answer": "Air is considered a mixture and not a compound because it is made up of different gases that are physically mixed together rather than chemically combined. In a compound, elements combine in a fixed proportion by mass and lose their individual properties. For example, water is a compound because hydrogen and oxygen always combine in a fixed ratio of 1:8 by mass. Air, however, does not have a fixed composition everywhere. While dry air is approximately 78% nitrogen and 21% oxygen, the remaining 1% is made up of variable amounts of carbon dioxide, water vapour and noble gases. The percentage of water vapour changes greatly from place to place; humid air over coastal cities like Mumbai or Kochi contains much more water vapour than dry air over Jaisalmer or Ladakh. The carbon dioxide percentage can also vary depending on vegetation, traffic and industrial activity. Because the concentration of these components is not fixed at all places, air fits the definition of a mixture, which is a physical combination of substances in any proportion. Each gas in air still keeps its own properties, and they can be separated by physical methods such as fractional distillation of liquid air."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"Air is a compound because dry air always contains 78% nitrogen and 21% oxygen, so the proportions are fixed.\" Evaluate this statement.",
+        "answer": "This statement is not correct, although it contains a small grain of truth that needs careful examination. It is true that the major components of dry air are roughly 78% nitrogen and 21% oxygen at most places on Earth, which makes the atmosphere stable enough to support life. However, the percentages 78% and 21% are average values, not exact fixed values. The proportion of oxygen can change slightly with altitude, and the proportion of water vapour, carbon dioxide and other gases can vary greatly from one place to another. For instance, the air over the Amazon rainforest or the Western Ghats contains more carbon dioxide at night and more oxygen during the day because of plant processes. Similarly, the water vapour percentage over a desert such as the Thar Desert is much lower than over the coastal plains of Kerala. In a true compound, the elements are chemically bonded in a fixed ratio by mass and the composition is exactly the same everywhere. Air does not meet this condition because its components are not chemically bonded and their proportions can vary. Therefore, even though the two main gases appear in a fairly stable ratio, the overall composition of air is not fixed, and air should correctly be described as a mixture of gases, not a compound. The student has focused only on the two major components and ignored the variation in the minor components and the physical mixing of the gases."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Draw a pie chart to show the composition of air. If the pie chart is drawn inside a circle of radius 5 cm, calculate the approximate angle of the sector representing oxygen.",
+        "answer": "To draw the pie chart, start by drawing a circle of any convenient radius. The radius of 5 cm given in the question is simply the size of the chart and does not affect the angles of the sectors. The whole circle represents 100% of the air and has 360 degrees. Oxygen makes up 21% of the air, so the angle of the oxygen sector is 21% of 360 degrees, which equals 0.21 multiplied by 360, giving approximately 75.6 degrees. You can round this to 76 degrees if you are using a protractor. The nitrogen sector, being 78%, will have an angle of 0.78 multiplied by 360, which is approximately 280.8 degrees. The remaining 1% shared by carbon dioxide, water vapour and noble gases will have an angle of 0.01 multiplied by 360, which is about 3.6 degrees. In your diagram, draw the largest sector for nitrogen and label it 78%, the next largest for oxygen and label it 21%, and the tiny remaining sector for the other gases with the label 1%. Make sure all sectors are clearly named and the percentages are written inside or beside each slice. A neat and correctly labelled pie chart shows that you understand both the composition and the method of presentation expected in the board exam."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Imagine you are a Class 6 science teacher. Design a short classroom activity that helps your classmates remember the composition of air and why it is a mixture.",
+        "answer": "I would design an activity called \"The Air Pizza.\" First, I would bring a large round cardboard disc to represent a pie chart, and several small coloured paper cut-outs. The red pieces would represent nitrogen, the blue pieces oxygen, the green pieces carbon dioxide, the yellow pieces water vapour and the grey pieces noble gases. I would ask five volunteers to come to the front. The first volunteer would place 78 red pieces on the disc to show that nitrogen is the largest component. The second would place 21 blue pieces for oxygen. The third, fourth and fifth would place tiny green, yellow and grey pieces for the remaining 1%. Then I would ask the class to observe that the red and blue pieces take up almost the whole pizza. Next, I would change the number of yellow water-vapour pieces: more pieces for a humid place like Kochi and fewer for a dry place like Jaisalmer. I would ask the students, \"Did the total pizza change?\" and \"Can the amounts of one gas change without changing the whole disc?\" This would help them see that the percentages of gases in air are not fixed everywhere. Finally, I would ask each volunteer to pick up their coloured pieces and move to a different place in the classroom, showing that the gases can be physically separated, which is another property of a mixture. The activity would end with the class drawing the same composition as a real pie chart in their notebooks."
+      }
+    ],
+    "masteryCriteria": "Can state the composition of air (nitrogen ~78%, oxygen ~21%, argon ~1%, carbon dioxide ~0.04%, water vapour, noble gases); can describe one test for oxygen (glowing splint relights) and one for CO2 (limewater turns milky); can state the importance of oxygen (breathing, burning) and nitrogen (plant growth).",
+    "cognitiveLevel": "analyze"
+  },
+  {
+    "nodeId": "c6_chem_016",
+    "title": "Oxygen and its role",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "Oxygen is a colourless, odourless and tasteless gas that makes up about twenty-one percent of ordinary air. In the clean air over the Indian plains, the Himalayan foothills and the coastal belt from Gujarat to Tamil Nadu, this proportion stays roughly the same because air is a mixture and oxygen is one of its most important ingredients. The presence of oxygen explains why a matchstick flares in a classroom in Delhi, why a Diwali diya keeps glowing and why a cyclist breathing heavily after a climb recovers by taking in more air.\r\n\r\nThe physical properties of oxygen are easy to remember once you test the gas yourself: it has no colour, no smell and no taste. It is only slightly soluble in water, which is exactly why it can be collected over water in the school laboratory. A simple but striking test is the glowing splint test; if you place a glowing wooden splint into a jar of oxygen, it bursts into flame, showing that the gas supports combustion.\r\n\r\nCombustion is a rapid chemical reaction in which a substance combines with oxygen and gives out heat and light. Magnesium burns with a dazzling white flame to form a white solid called magnesium oxide; in words we write Magnesium + Oxygen -> Magnesium oxide. Sulphur burns with a blue flame to give sulphur dioxide, carbon burns to give carbon dioxide, and phosphorus burns with a bright yellow flame to give phosphorus pentoxide. Among metals, sodium and potassium react vigorously to form their oxides, calcium forms calcium oxide and magnesium forms magnesium oxide. These word equations show a real union: the starting substance has joined with oxygen to make a new substance with new properties.\r\n\r\nBurning also brings a change in mass. If you heat a piece of magnesium ribbon in a crucible, the product is heavier than the original metal because the magnesium has combined with oxygen from the air. A burning candle, on the other hand, seems to lose mass because the wax combines with oxygen to form carbon dioxide and water vapour, and these gases drift away into the room. The lesson is that mass is conserved in a closed system, but in the open laboratory we observe only the part that remains with us.\r\n\r\nRusting and respiration are two quieter ways in which oxygen takes part in change. Rusting is the slow combination of iron with oxygen and water to form a brown flaky substance; it happens to school gates, bicycle chains and railway tracks during the monsoon. Respiration is the slow and controlled release of energy inside living cells when food combines with oxygen; we breathe out carbon dioxide and water vapour. Combustion and respiration both need oxygen and both release energy, but respiration has no flame and happens at body temperature. Rusting is like a very slow, cold burn that produces no light.\r\n\r\nOxygen can be prepared in the school laboratory in two familiar ways. Heating potassium chlorate with a little manganese dioxide gives potassium chloride and oxygen; the word equation is Potassium chlorate -> Potassium chloride + Oxygen. Adding manganese dioxide to hydrogen peroxide at room temperature gives water and oxygen; Hydrogen peroxide -> Water + Oxygen. In both cases manganese dioxide is the catalyst. A catalyst is a substance that speeds up a chemical reaction without being used up. After the experiment the manganese dioxide can be filtered, washed, dried and reused, and its mass remains almost the same. This idea helps chemists carry out reactions safely and economically without wasting materials.",
+    "eli5": "Oxygen is an invisible gas in the air. It helps fires burn bright and helps your body turn food into energy. You can make it in the lab by mixing a special liquid called hydrogen peroxide with a helper powder called manganese dioxide. The helper makes the gas come out fast, but it does not get used up. When things burn, they join with oxygen; some get heavier, and some make gases that float away.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "State any two physical properties of oxygen and write the word equation for the reaction of magnesium with oxygen.",
+        "answer": "Oxygen is a colourless, odourless and tasteless gas. It has no colour that you can see, no smell that you can detect and no taste. It is only slightly soluble in water, which is why it can be conveniently collected over water in the laboratory. When a glowing wooden splint is introduced into a jar of oxygen, it bursts into flame, showing that the gas supports combustion. The word equation for the burning of magnesium is Magnesium + Oxygen -> Magnesium oxide. During this reaction the bright magnesium ribbon catches fire and produces a dazzling white light. The white solid that remains is magnesium oxide, and because oxygen from the air has joined with the magnesium, the product has more mass than the original ribbon."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain why the mass of a piece of magnesium increases when it burns in air, while the mass of a burning candle appears to decrease.",
+        "answer": "When magnesium burns in air, the hot magnesium metal combines with oxygen to form magnesium oxide. Since the product is a solid that contains both the original magnesium and the oxygen taken from the air, the mass of the solid in the crucible becomes greater than the mass of the starting ribbon. This is why the balance shows an increase. On the other hand, when a candle burns, the wax is a compound of carbon and hydrogen. It reacts with oxygen to form carbon dioxide and water vapour. These products are gases, so they rise and spread into the surrounding air and are no longer part of the candle. Because the gaseous products leave, the candle appears to lose mass. However, if the candle were burned inside a sealed container and all the gases were kept, the total mass before and after would be the same. This teaches us that mass is not really lost; it is only that the products of burning a candle are gases which escape, while the product of burning magnesium is a solid which stays in the dish."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"A catalyst is a special kind of reactant that is used up during the reaction, so we have to keep adding more of it.\" Evaluate this statement.",
+        "answer": "This statement is largely incorrect, although it does show that the student has noticed that a catalyst is present during the reaction. A catalyst is a substance that increases the speed of a chemical reaction without itself being permanently changed or used up. It is true that the catalyst takes part in the reaction while it is happening, but at the end it can be recovered in almost the same amount as at the start. Manganese dioxide is a good example; when it is added to hydrogen peroxide, the hydrogen peroxide breaks down into water and oxygen much faster, but the manganese dioxide remains behind. The same manganese dioxide can be filtered, washed, dried and used again, and again. Therefore it is wrong to call a catalyst a reactant in the ordinary sense, because a reactant is a starting material that disappears and becomes part of the product. A catalyst is not shown on the reactant side as something that gets consumed. The student is right that the catalyst is present and important, but wrong that it is used up. In some industrial processes a catalyst may become less effective over a long time because of impurities, but this is not the same as being consumed in the reaction. So the correct view is that a catalyst makes the reaction faster, is not used up and can usually be reused."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Describe how you would prepare oxygen in the school laboratory using hydrogen peroxide and manganese dioxide, and state the test you would use to identify the gas.",
+        "answer": "To prepare oxygen in the school laboratory, place a small amount of hydrogen peroxide in a conical flask. Add a little manganese dioxide to it. The manganese dioxide acts as a catalyst, so the reaction starts quickly at room temperature without needing strong heat. Bubbles of oxygen gas are produced, and the word equation is Hydrogen peroxide -> Water + Oxygen. The gas can be collected over water in an inverted gas jar, because oxygen is only slightly soluble in water. To show that the gas is oxygen, take a glowing wooden splint and insert it into the mouth of the jar. If the splint bursts into flame, the gas is oxygen. This test is called the glowing splint test and works because oxygen supports combustion. Care should be taken not to add too much hydrogen peroxide at once, because the reaction can become vigorous. Also, the manganese dioxide should be kept away from the eyes and skin. After the experiment the manganese dioxide can be filtered from the mixture and reused, proving that it is not used up."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple experiment to show that oxygen is needed for a candle to keep burning, using two similar candles, two glass jars and water in a shallow dish.",
+        "answer": "Take two similar candles and fix them on a shallow dish containing a little water. Light both candles and place identical glass jars over them one at a time, or place one jar over the first candle while the second candle is left open to the air as a control. Observe what happens. The candle inside the closed jar will burn for a short time and then go out, while the candle open to the air will keep burning. The reason is that the burning candle uses up the oxygen inside the closed jar. When most of the oxygen has been used, the flame cannot continue. In the jar, the water level rises slightly because the oxygen is consumed and the pressure inside the jar becomes lower than the atmospheric pressure outside. The control candle, however, has a continuous supply of fresh air containing oxygen, so it keeps burning. This simple experiment shows that oxygen is necessary for burning, just as it is necessary for our breathing. You can make it more convincing by using a larger jar for one candle and a smaller jar for the other; the candle in the smaller jar, which has less oxygen, goes out first."
+      }
+    ],
+    "masteryCriteria": "Can describe the laboratory preparation of oxygen (decomposition of H2O2 with MnO2 catalyst, or heating KClO3); can state two tests for oxygen (glowing splint relights, burning splint burns brighter); can state two uses of oxygen (breathing, burning, medical use, welding).",
+    "cognitiveLevel": "apply"
+  },
+  {
+    "nodeId": "c6_chem_017",
+    "title": "Carbon dioxide and nitrogen in air",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "Air is not just one substance; it is a mixture of gases that surrounds our planet. Two of these gases, carbon dioxide and nitrogen, make up very different fractions of air and play very different chemical roles. Nitrogen is by far the larger partner, making up about 78% of the air we breathe. It is a colourless, odourless, unreactive gas that is essential for plant growth when it is converted into compounds such as the nitrates used in fertilisers. Carbon dioxide is much less abundant, only about 0.04%, yet it is vital for plant photosynthesis and is also involved in the chemistry of air pollution. When fuels burn in factories, power stations and vehicle engines, carbon dioxide is released, along with other waste gases such as sulphur dioxide and various nitrogen oxides. These gases are acidic oxides, which means they can dissolve in the water droplets that make up rain to form acids such as carbonic acid, sulphurous acid and nitric acid. This process produces acid rain, a kind of rainfall that is more acidic than normal rainwater and can cause serious damage. Because the rain falls on buildings, bridges, cars, machines, forests, farms and water bodies, its effects spread through every part of the environment. For example, the white marble of heritage buildings such as the Taj Mahal at Agra contains calcium carbonate, which reacts with the acids in rain, causing the surface to corrode and lose its beauty. In the same way, bridges and cars made of metal suffer corrosion more quickly, while machines and statues wear away. When acid rain flows into lakes, rivers and the sea, it harms aquatic organisms such as fish and the tiny animals and plants that build coral reefs. On farms, acid rain can damage crops and reduce the fertility of soil, which in turn affects agriculture. The overall condition of the air, called air quality, tells us how much pollution it contains. Emissions from factories and vehicles are the main human sources of these waste gases, and they are steadily changing the composition of the air. Yet these same gases also have useful sides. Carbon dioxide is used in fire extinguishers, fizzy drinks and to help plants grow in greenhouses. Nitrogen is used to make fertilisers, explosives, and to provide an unreactive atmosphere for storing food or preserving medicines. Oxygen is used in hospitals, welding and in the breathing apparatus used by mountaineers and divers. Learning to balance the harm and the help of these gases is the central theme of this chapter.",
+    "eli5": "Air is a mixture. Nitrogen is the biggest part of air and helps plants grow when it is made into plant food. Carbon dioxide is a tiny part, but it is food for plants and can also dissolve in rain. Factory and car smoke put extra acidic gases into the air, and these dissolve in rain to make acid rain. Acid rain can eat the marble of old buildings like the Taj Mahal and hurt fish, farms and bridges.",
+    "misconceptions": [
+      {
+        "belief": "\"All oxides that dissolve in water make the water acidic, so carbon dioxide must be a harmful, reactive gas.\" This is not true. The 2025 CISCE Common board exam error pattern reported that many candidates confused acidic, basic, amphoteric and neutral oxides, calling some \"basic\" when they were amphoteric or \"neutral\" when they were acidic. Carbon dioxide, sulphur dioxide and nitrogen oxides are specifically acidic oxides because they dissolve in water to form acids. Nitrogen itself, however, is not an acidic oxide; it is an unreactive gas and only forms oxides when heated or combined with oxygen at high temperatures. A correct statement is: carbon dioxide, sulphur dioxide and nitrogen oxides are the acidic oxides involved in acid rain, while nitrogen is mainly a dilute, unreactive gas.",
+        "correction": ""
+      },
+      {
+        "belief": "\"The white colour of the Taj Mahal turns yellow because the rain itself is coloured, not because of any chemical reaction.\" The real problem is the reaction between the acids in rain and the calcium carbonate of the marble. The 2025 examiner observations remind us that students often miss the chemical identity of oxides and the products formed. The acids formed from sulphur dioxide and nitrogen oxides react with calcium carbonate, causing corrosion and discolouration. A good answer would name the acidic oxide, the acid, the building material and the effect: \"Sulphur dioxide and nitrogen oxides dissolve in rainwater to form acids; these acids react with calcium carbonate in the marble of the Taj Mahal, causing it to corrode and turn yellow.\"",
+        "correction": ""
+      },
+      {
+        "belief": "\"Nitrogen is useless in the air because plants cannot use it directly.\" Nitrogen is the largest part of air, and although most plants cannot take it directly from the air, it is essential for making proteins. When converted into nitrates, it becomes a fertiliser that helps agriculture. A weak answer might say nitrogen is \"just there\" or \"does nothing.\" A correct answer says it is unreactive but very important, mainly used to make fertilisers and provide an inert atmosphere for storing food and medicines.",
+        "correction": ""
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Name the main gases that make up air and give one use each of oxygen, nitrogen and carbon dioxide.",
+        "answer": "Air is a mixture of several gases. The two most abundant gases are nitrogen and oxygen, with nitrogen making up about 78% of air and oxygen making up about 21%. Carbon dioxide is present in a much smaller amount, only about 0.04%. Water vapour is also present in varying amounts. Because these gases have different properties, each has its own uses. Oxygen is used in hospitals to help patients breathe, in welding to produce a very hot flame, and in breathing apparatus for mountaineers and divers. Nitrogen is used to make fertilisers that help crops grow, to preserve food by keeping out reactive oxygen, and to provide an unreactive atmosphere for storing medicines. Carbon dioxide is used in fire extinguishers because it does not support burning, in fizzy drinks to give them bubbles, and by plants in greenhouses to increase the rate of photosynthesis. A strong answer would also mention that air quality depends on keeping the percentages of these gases in balance and that waste gases from factories and vehicles can change this composition."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain how acidic oxides in the air cause acid rain, and describe what happens to the Taj Mahal when acid rain falls on it.",
+        "answer": "Acidic oxides are oxides that dissolve in water to form acids. The main acidic oxides responsible for acid rain are carbon dioxide, sulphur dioxide and nitrogen oxides. When these gases are released into the air from burning fossil fuels in factories, power stations and vehicle engines, they mix with the water vapour in clouds. The water droplets dissolve the gases and form acids such as carbonic acid, sulphurous acid and nitric acid. When these droplets fall as rain, the rain is more acidic than normal and is called acid rain. The Taj Mahal in Agra is built of white marble that is mostly calcium carbonate. When acid rain falls on this marble, the acids react with the calcium carbonate and slowly dissolve the surface. This causes the marble to lose its shine, turn yellowish and become rough. The chemical change is called corrosion. If this continues, the fine carvings on the monument can be worn away and the structure can be weakened. This is why the monument is regularly cleaned and why efforts are made to reduce pollution around it."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "\"Factories and vehicles are essential for the country's progress, so acid rain is just a small price we should accept without trying to reduce it.\" Evaluate this statement.",
+        "answer": "This statement is only partly true and needs careful evaluation. It is true that factories and vehicles are important for a country's economy. They provide jobs, transport, electricity and goods that people need. Without them, life would be very difficult, especially in a large country like India where millions of people depend on industries and public transport. However, this does not mean that we should ignore acid rain. Acid rain causes serious damage that also harms the economy and people's lives. It corrodes heritage buildings such as the Taj Mahal, bridges, cars and machines, costing money for repairs and replacement. It makes lakes and rivers too acidic, killing fish and other aquatic organisms. It also harms coral reefs and can damage farms, reducing crop yields and affecting agriculture. Therefore, accepting acid rain as a \"small price\" is not wise. A balanced approach is to continue using factories and vehicles but to reduce their harmful emissions by using cleaner fuels, fitting filters in factory chimneys, using catalytic converters in vehicles, planting more trees, and following laws that control air quality. In this way, the country can develop and also protect its buildings, environment and people's health. So the statement is too simple and should be rejected in its strong form, although the need for industry and transport is accepted."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A thermal power station near a town releases sulphur dioxide and nitrogen oxides into the air. During the monsoon, the residents notice that the metal railings of the local bridge are rusting faster and that the leaves of some plants look damaged. Explain why this happens and suggest two practical steps the town can take to reduce the problem.",
+        "answer": "The waste gases from the power station are acidic oxides. When they dissolve in the rain that falls during the monsoon, they form acids such as sulphurous acid and nitric acid. This acid rain falls on the bridge and speeds up the corrosion, or rusting, of the metal railings. It also falls on the leaves and soil of the plants and can damage the leaf surface, making it harder for the plants to make food and grow well. The problem is made worse if the town has many vehicles or other factories releasing more of these gases, because the air quality becomes poor. To reduce the problem, the town can take two practical steps. First, the power station can be asked to fit devices such as scrubbers in its chimneys to remove sulphur dioxide and nitrogen oxides before the waste gases are released. Second, the town can encourage public transport, car pooling and the use of cleaner fuels such as compressed natural gas, so that vehicle emissions are reduced. Planting more trees also helps because leaves can trap some pollutants. These steps would improve the air quality and reduce the harm to the bridge, the plants and the people living in the town."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Imagine you are the head of an eco-club in your school. Design a simple project that helps your school community understand how the composition of air is changing and what it means for acid rain. Your answer should include the name of the project, one activity, and one message you want everyone to remember.",
+        "answer": "The project would be called \"Clean Air, Bright Marble.\" The aim is to show how small changes in the composition of air can lead to acid rain and damage important buildings and living things. The main activity would be a two-week observation. Students would set up a small rain-collection station using a clean funnel and a plastic jar placed in an open area of the school. They would collect rainwater and note its appearance and the date of collection. Another group would collect samples of soil from the school garden and leaves from common plants. The students would then compare their samples with images and simple pH charts to understand how rain can become acidic. They would also make posters showing how sulphur dioxide and nitrogen oxides from factories, power stations and vehicles dissolve in rain to form acids. The posters would explain how this acid rain harms the Taj Mahal, bridges, cars, aquatic organisms and agriculture. The message would be: \"Every gas we add to the air changes its composition and its quality. By walking or cycling short distances, by saving electricity, and by asking industries to reduce emissions, we can keep the air cleaner and protect both our heritage and our health.\" This project would help students move from \"air is a mixture of gases\" to \"the gases in air have real chemical effects on our world.\""
+      }
+    ],
+    "masteryCriteria": "Can describe the test for CO2 (turns limewater milky: Ca(OH)2 + CO2 -> CaCO3 + H2O); can state two roles of nitrogen in air (dilutes oxygen, essential for plant growth); can state two roles of CO2 (photosynthesis, greenhouse effect); can explain why nitrogen is inert at room temperature.",
+    "cognitiveLevel": "analyze"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE TextExplorerSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

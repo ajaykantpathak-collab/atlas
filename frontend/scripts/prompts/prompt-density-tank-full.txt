@@ -1,0 +1,1341 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete DensityTankSimulation.tsx component about Density and Flotation (density, buoyancy, float/sink, upthrust, relative density, pressure).
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Physics Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c7_phy_011",
+    "title": "Pressure in fluids (liquids and gases)",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "A fluid is any substance that can flow and take the shape of its container -- this includes both liquids (like water, milk, and oil) and gases (like air, oxygen, and carbon dioxide). Fluids exert pressure on the walls of their container in all directions -- upwards, downwards, and sideways -- because the tiny particles that make up the fluid are constantly moving and colliding with the walls. Each collision produces a small force, and because countless particles strike every square centimetre of the wall each second, the combined effect is a steady push. Pressure, as you learned in Class 6, is force per unit area (pressure = force / area), measured in pascals (Pa), where 1 pascal equals 1 newton per square metre. So when we say a fluid exerts pressure, we mean the particles' collisions deliver a force spread over the wall's area.\r\n\r\nTwo main factors affect how large the fluid pressure is. First, pressure increases with depth -- the deeper you go into a fluid, the greater the pressure. In a swimming pool, the water at the bottom pushes harder on your ears than the water near the surface because the weight of all the water above adds to the push. A simple activity demonstrates this: make holes at different heights in a plastic water bottle filled with water, and you will see that the jet from the lowest hole shoots out fastest and travels farthest, while the top jet is weak -- clear evidence that pressure rises with depth. Second, pressure increases with the density of the fluid. A denser fluid has more particles packed into the same volume, so more collisions happen per second on the walls, giving a higher pressure. For the same depth, mercury (a very dense liquid, density about 13,600 kg/m^3) exerts far more pressure than water (density about 1,000 kg/m^3).\r\n\r\nThe same ideas apply to gases. The air around us is a fluid and exerts atmospheric pressure on everything it touches -- about 101,325 pascals at sea level. As you climb a mountain, say towards the summit of Mount Everest, the height of the air column above you shrinks, so atmospheric pressure decreases with altitude. This is why mountaineers carry oxygen cylinders -- the air is thinner and the pressure is lower. In a balloon inflated with air, the gas particles hit the rubber walls everywhere, so the balloon pushes outward equally in all directions and stays round. Whether liquid or gas, the rule is the same: fluids push on their container walls in every direction, and the push gets stronger with greater depth and greater density.",
+    "eli5": "Imagine a fluid as a crowd of tiny bouncing balls inside a box. Every ball that hits a wall gives it a tiny push, and because billions of balls hit every second from all sides, the walls feel a steady push everywhere -- that push is fluid pressure. The deeper you go in the box, the more balls are piled above pushing down, so the push gets stronger. A thicker crowd (denser fluid) also pushes harder. That is why water squirts hardest from the lowest hole in a bottle.",
+    "misconceptions": [
+      {
+        "belief": "Fluid pressure only acts downwards because of gravity.",
+        "correction": "Fluid pressure acts in all directions -- upwards, downwards, and sideways -- because the particles move and collide in every direction, not just down. The bottle activity shows sideways pressure (jets shoot out horizontally), and a balloon stays round because gas pushes outward everywhere. Examiners have noted that students often give vague, rote-learned answers instead of explaining the mechanism; stating \"pressure acts only downwards\" is one such rote error."
+      },
+      {
+        "belief": "Water at the bottom of a pool has more pressure because water is heavy.",
+        "correction": "This is too vague. The correct reason is that pressure increases with depth because the weight of the fluid column above the point adds to the push. You must mention depth and the column of fluid above, not just \"heaviness.\" CISCE examiners have repeatedly flagged guesswork and rote answers -- always link the answer to depth and particle collisions."
+      },
+      {
+        "belief": "Gases do not exert pressure because they are light.",
+        "correction": "Gases are fluids and their particles also collide with container walls, so they exert pressure in all directions. Atmospheric air exerts about 101,325 Pa at sea level, and an inflated balloon pushes outward everywhere because air particles hit the rubber walls. Lightness does not mean no pressure; it means lower density, so for the same depth the pressure is lower than a denser liquid."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define fluid pressure and state the two main factors that affect it.",
+        "answer": "Fluid pressure is the pressure exerted by a fluid (liquid or gas) on the walls of its container, caused by the constant collisions of the fluid's particles with the walls. Since pressure is force per unit area (pressure = force / area, unit pascal), the combined force of all the particle collisions spread over the wall's area gives the fluid pressure. The two main factors that affect fluid pressure are depth and density. Pressure increases with depth because the weight of the fluid column above a point grows as you go deeper, adding to the push -- this is why water at the bottom of a pool pushes harder than water near the surface. Pressure also increases with the density of the fluid, because a denser fluid has more particles packed into the same volume, so more particles collide with the walls each second, producing a greater force per unit area. For example, mercury (density 13,600 kg/m^3) exerts about 13.6 times the pressure of water (density 1,000 kg/m^3) at the same depth."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain why water jets out with greater force from the lower holes of a bottle filled with water and pierced at different heights.",
+        "answer": "When a water bottle is filled and small holes are made at different heights, the jet from the lowest hole shoots out fastest and travels farthest, while the top jet is the weakest. This happens because fluid pressure increases with depth. At the lowest hole, there is a tall column of water above it, and the weight of that entire column pushes down on the water at that level. This extra push forces the water out of the lower hole with greater speed. At a higher hole, the column of water above it is shorter, so the weight and therefore the pressure is less, and the jet is weaker. At the topmost hole, the column above is the shortest, so the pressure is the smallest and the jet is the weakest. The activity directly demonstrates that pressure in a liquid increases with the depth (height of the liquid column above the point). It also shows that pressure acts sideways -- the jets shoot out horizontally -- proving fluid pressure acts in all directions, not just downwards."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"Fluid pressure acts only downwards because gravity pulls the fluid down, so the walls of a container feel no sideways pressure.\" Evaluate this statement.",
+        "answer": "The statement is incorrect. While gravity does pull the fluid downwards and is the reason pressure increases with depth, fluid pressure does not act only downwards -- it acts in all directions: upwards, downwards, and sideways. The reason is that the particles of a fluid (whether liquid or gas) are constantly moving in all directions and colliding with every part of the container wall. Each collision delivers a small force perpendicular to the wall, and because particles strike the side walls, the bottom, and even push upwards just as much at a given depth, the pressure at any point in a static fluid is the same in all directions. The bottle activity gives clear evidence: when holes are made in the side of a water bottle, the water jets shoot out horizontally, which would be impossible if pressure acted only downwards. An inflated balloon is further evidence -- it stays round because the air particles push the rubber outward in every direction, not just at the bottom. So gravity explains why pressure increases with depth, but it does not mean pressure acts only downwards. A balanced view is that gravity creates the depth variation, while the random motion of particles spreads the pressure equally in all directions at a given depth. The student has confused the cause of the depth variation with the direction of the pressure itself."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "At sea level, atmospheric pressure is about 101,325 Pa. Explain why a mountaineer climbing Mount Everest experiences much lower air pressure and needs an oxygen cylinder.",
+        "answer": "Air is a fluid, and like any fluid it exerts pressure because its particles collide with everything around them, including our bodies. At sea level, the entire height of the atmosphere is above us, so the column of air is tall and the atmospheric pressure is high -- about 101,325 pascals. As a mountaineer climbs higher towards the summit of Mount Everest (about 8,848 metres), the height of the air column above them becomes shorter because some of the atmosphere is now below them. Since fluid pressure increases with the depth (height) of the fluid column, a shorter column of air above means lower pressure. With lower pressure, the air becomes thinner -- there are fewer air particles per unit volume -- so each breath contains less oxygen. The mountaineer's lungs cannot take in enough oxygen to keep the body working properly, which is why an oxygen cylinder is needed to supply the missing oxygen. This is a direct application of the rule that fluid pressure decreases as the height of the fluid column above a point decreases, which for gases we call a decrease in atmospheric pressure with altitude."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple experiment using everyday materials to show that a gas exerts pressure in all directions, and explain what you would observe and why.",
+        "answer": "Take a round rubber balloon and inflate it with air by blowing into it. Observe that the balloon expands into a near-spherical shape -- it bulges outward equally on all sides, not just at the bottom or the top. Now, take a second balloon and inflate it slightly less; compare the two. The more inflated balloon feels harder when gently pressed, showing that more air particles inside mean more collisions per second with the rubber wall and therefore higher pressure. To show pressure acts sideways as well, place the inflated balloon on a table and gently push a finger against its side -- the balloon resists and pushes back, and it may roll sideways, proving the air inside is pushing outward against the side wall. The explanation is that air is a fluid whose particles move rapidly in all directions and constantly collide with the inner surface of the rubber. Because the collisions happen everywhere on the inside surface, the outward push is equal in all directions, which is why the balloon stays round. If gas pressure acted only downwards, the balloon would bulge only at the bottom, which we do not observe. This simple experiment demonstrates that gases exert pressure in all directions, just like liquids."
+      }
+    ],
+    "masteryCriteria": "Can define fluid pressure in own words as the force per unit area exerted by fluid particles colliding with the container walls, measured in pascals; can explain why liquids and gases exert pressure on container walls in all directions (particle collisions in every direction); can state that fluid pressure increases with depth (water at the bottom of a pool pushes harder than near the surface) and with density (mercury at 13,600 kg/m^3 exerts about 13.6 times the pressure of water at 1,000 kg/m^3 at the same depth); can describe the bottle-hole activity and use it as evidence that pressure increases with depth and acts sideways.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_phy_012",
+    "title": "Atmospheric pressure",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "Atmospheric pressure is the pressure exerted by the weight of the air (atmosphere) on every surface it touches -- the ground, the sea, our bodies, the walls of a room, and every object on Earth. The atmosphere is the thick blanket of gases -- mainly nitrogen (about 78%) and oxygen (about 21%) -- that surrounds our planet to a height of roughly a few hundred kilometres. Although we cannot see air, it has mass, and because Earth's gravity pulls this mass downwards, the column of air above any surface exerts a force on it. Pressure is force per unit area, so the force of this air column divided by the area it presses on gives the atmospheric pressure.\r\n\r\nAt sea level, the average value of atmospheric pressure is about 1.013 x 10^5 pascals (roughly 101.3 kilopascals), which is also expressed as 1 atmosphere (1 atm) or 760 mm of mercury (760 torr). This means a column of mercury 760 mm tall in a vertical tube has the same pressure at its base as the atmosphere at sea level -- a fact used in a barometer, the instrument that measures atmospheric pressure. As we climb higher, say from the coast at Mumbai to a hill station like Ooty or a pass in the Himalayas, the column of air above us becomes shorter, so atmospheric pressure falls. This is why our ears may \"pop\" as we go up in an aeroplane or drive up a ghat road -- the pressure outside the eardrum drops while the pressure inside the middle ear stays higher for a moment, pushing the eardrum outward until air escapes through the Eustachian tube and equalises.\r\n\r\nAtmospheric pressure acts in all directions, not just downwards. The air pushes on the bottom of a table, on its top, on its sides, and on the underside of a leaf -- equally. This is why a thin glass bottle does not get crushed even though tonnes of air press on it: the air inside pushes outward with the same pressure, balancing the inward push. Everyday effects rely on this: drinking with a straw works because sucking removes air from the top of the straw, lowering the pressure inside, so the atmospheric pressure on the surface of the drink pushes the liquid up; a syringe draws in liquid when the plunger is pulled out, creating a low-pressure region into which atmospheric pressure forces the medicine; a rubber sucker (suction cup) sticks to a smooth wall because pressing it squeezes the air out from underneath, and the outside atmospheric pressure then holds it flat against the surface. A barometer using mercury is the standard device for measuring atmospheric pressure, and the unit torr (1 torr = 1 mm of mercury) is named from this instrument.",
+    "eli5": "Imagine the air around you as a giant invisible blanket piled hundreds of kilometres high. Every bit of that blanket has weight, and gravity pulls it down, so it presses on everything -- your skin, the floor, the ceiling, even the bottom of a table. That push is atmospheric pressure. You do not feel crushed because air inside your body pushes back with the same force. When you suck a straw, you take air out, so the heavy outside air pushes your drink up.",
+    "misconceptions": [
+      {
+        "belief": "A straw works because sucking pulls the liquid up the tube.",
+        "correction": "Sucking does not pull the liquid -- it removes air from the top of the straw, lowering the pressure inside. The atmospheric pressure on the surface of the drink in the glass is now greater than the pressure inside the straw, so it is the OUTSIDE air that pushes the liquid upwards. The CISCE examiner comments repeatedly stress that candidates lose marks for not showing the working and for confusing the direction of forces; the same habit appears here when students say \"suction pulls\" instead of identifying which pressure is greater and in which direction it acts."
+      },
+      {
+        "belief": "Atmospheric pressure only acts downwards, because air has weight and gravity pulls it down.",
+        "correction": "A fluid at rest exerts pressure in ALL directions. The air presses on the underside of a table just as much as on the top, which is why an inverted glass of water with a card stays in place -- the upward push of the air holds the card. Thinking of pressure as only downwards ignores that fluids transmit pressure equally in all directions, a point the examiner remedies by asking students to \"review topic fundamentals.\""
+      },
+      {
+        "belief": "A rubber sucker sticks because it is sticky, or because of glue.",
+        "correction": "A clean rubber sucker has no adhesive. It sticks because pressing it squeezes the air out from underneath, leaving a near-vacuum. The atmospheric pressure OUTSIDE the sucker then pushes it firmly against the smooth surface. Peeling an edge lets air in, the pressures equalise, and it falls off -- proving the hold was due to atmospheric pressure, not stickiness."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define atmospheric pressure and state its approximate value at sea level, giving at least two units.",
+        "answer": "Atmospheric pressure is the pressure exerted by the weight of the atmosphere (the blanket of air surrounding the Earth) on every surface it is in contact with, acting in all directions. Because air has mass and Earth's gravity pulls the air column downwards, this column of air exerts a force on any surface, and the force divided by the area gives the pressure. At sea level the average value of atmospheric pressure is about 1.013 x 10^5 pascals, which is also written as 101.3 kilopascals, or as 1 atmosphere (1 atm), or as 760 mm of mercury (760 torr). These units are linked through the barometer: a vertical column of mercury 760 mm tall produces the same pressure at its base as the atmosphere at sea level, which is why the torr (1 mm of mercury) is a convenient unit. As one climbs above sea level, the height of the air column above decreases, so the atmospheric pressure also decreases."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Explain, step by step, why drinking juice through a straw depends on atmospheric pressure and not on the act of \"sucking.\"",
+        "answer": "When you put a straw into a glass of juice, the surface of the juice inside the straw and the surface of the juice in the glass are both at the same atmospheric pressure, so the liquid levels are equal. When you suck on the upper end of the straw, you reduce the amount of air inside the straw above the liquid, which lowers the pressure there. Now there is a pressure difference: the atmospheric pressure on the surface of the juice in the glass is greater than the reduced pressure inside the straw. This greater outside pressure pushes down on the liquid in the glass and forces the juice up the straw into your mouth. The act of \"sucking\" only creates the low-pressure region; it is the atmospheric pressure doing the actual pushing. If there were no atmospheric pressure (for example, in a vacuum), sucking on a straw would not lift the liquid at all, because there would be no outside pressure to push the liquid up. This is why a straw works on Earth but would fail in space, and it shows that the everyday phrase \"sucking pulls the liquid\" is misleading -- the correct explanation is that atmospheric pressure pushes the liquid up the straw."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student claims, \"Atmospheric pressure acts only downwards because gravity pulls the air down, so the air under a table feels no pressure from the atmosphere.\" Evaluate this claim and give a balanced argument.",
+        "answer": "The claim is incorrect, and it rests on a misunderstanding of how fluids exert pressure. It is true that gravity pulls the atmosphere downwards, and that is the reason the air has weight and therefore exerts pressure at all. However, a fluid at rest -- and air is a fluid -- transmits pressure equally in all directions, not just in the direction of the force that created it. So while gravity provides the weight that sets up the pressure, the pressure itself acts downwards on the top of a table, sideways on its legs, and upwards on its underside, all with the same magnitude at a given depth in the atmosphere. A simple demonstration proves the upward push: fill a glass to the brim with water, place a stiff card on top, invert the glass, and release the card -- the water stays in the glass because the atmospheric pressure pushing UP on the underside of the card is greater than the weight of the small water column pushing down. If atmospheric pressure acted only downwards, the card would fall and the water would pour out, which does not happen. A balanced view acknowledges the student's correct starting point -- gravity causes the weight that produces the pressure -- but corrects the second half: the pressure, once produced, is transmitted in all directions by the fluid. This is exactly the property of fluid pressure studied in node c7_phy_011, and it carries over to air because air is a fluid. Therefore the air under a table does feel atmospheric pressure, pushing upwards, and this is why thin objects are not crushed by the enormous weight of the air above them."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You are given a rubber sucker, a smooth glass tile, and a rough brick wall. Describe what will happen when you press the sucker onto each surface and explain the difference using the idea of atmospheric pressure.",
+        "answer": "When you press the rubber sucker onto the smooth glass tile, the soft rubber edge moulds to the flat surface and almost all the air underneath is squeezed out, leaving a near-vacuum between the sucker and the glass. The atmospheric pressure outside the sucker, about 101 kPa at sea level, then pushes the rubber flat against the glass, and the sucker holds firmly -- it can even support a small weight hanging from its hook. When you press the same sucker onto the rough brick wall, the uneven surface leaves many tiny gaps and pockets of air between the rubber and the brick. Because air remains trapped underneath, the pressure inside the sucker is nearly the same as the atmospheric pressure outside, so there is no pressure difference to hold the rubber against the wall, and the sucker falls off. This shows that a rubber sucker works only on smooth, non-porous surfaces where a good seal can form, and that the sticking force comes from atmospheric pressure pushing on the outside, not from any glue or stickiness on the rubber. To remove a well-stuck sucker from the glass, you lift one edge to let air in; the pressures equalise and the sucker releases immediately, confirming the mechanism."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple classroom demonstration, using only everyday objects, to show that atmospheric pressure acts in all directions. List the materials, the steps, and what the class should observe and conclude.",
+        "answer": "A good demonstration is the \"inverted glass with card\" experiment. Materials needed: a straight-sided glass tumbler, a piece of stiff cardboard or a postcard slightly larger than the mouth of the glass, and some water. Steps: (1) Fill the glass completely to the brim with water, so that no air space remains. (2) Place the card flat on top of the glass, making sure it sits fully across the rim with no gaps. (3) While holding the card firmly in place with one hand, quickly invert the glass so the mouth points downwards over a basin or sink. (4) Carefully release the hand holding the card. The class should observe that the card stays in place and the water remains in the glass, even though the glass is upside down. The conclusion is that the atmospheric pressure pushing UP on the underside of the card is greater than the downward weight of the water column, so the card is held in place. Because the glass is inverted, this directly shows that air exerts pressure upwards -- not just downwards. To extend the demonstration, tilt the inverted glass sideways; the card still holds, showing that atmospheric pressure also acts sideways. The class concludes that air, being a fluid, exerts pressure in all directions, which is the defining property of atmospheric pressure and the basis for explaining straws, syringes, and rubber suckers."
+      }
+    ],
+    "masteryCriteria": "Can define atmospheric pressure in own words as the pressure exerted by the weight of the atmosphere on all surfaces, acting in all directions; can state its approximate sea-level value as about 101.3 kPa (1 atm, 760 mm Hg, 760 torr); can explain at least one everyday effect -- straw, syringe, rubber sucker, or ear popping at altitude -- by naming the two pressures being compared and stating which is greater; can explain why atmospheric pressure decreases with altitude (shorter air column above).",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_phy_035",
+    "title": "Buoyancy and flotation - upthrust and floating/sinking",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "Buoyancy, also called upthrust, is the upward force exerted by a fluid (liquid or gas) on any object that is wholly or partially immersed in it. When an object is placed in water, the fluid pushes back upward against the weight of the object because pressure in a fluid increases with depth -- the pressure on the lower surface of the object is greater than the pressure on its upper surface, and this difference produces a net upward force. This net upward push is the upthrust. Whether an object floats or sinks depends on a comparison between two forces: the weight of the object acting downward, and the upthrust acting upward. If the upthrust is greater than or equal to the weight, the object floats; if the upthrust is less than the weight, the object sinks.\r\n\r\nBecause the upthrust depends on the weight of the fluid displaced by the object, and the weight of displaced fluid in turn depends on the fluid's density, the floating or sinking condition can be expressed more simply using density. An object whose density is less than the density of the fluid will float, because it displaces a volume of fluid whose weight is at least equal to its own weight. An object whose density is greater than the density of the fluid will sink, because even when fully submerged it cannot displace enough fluid to match its own weight. When the two densities are equal, the object remains fully submerged at any depth without rising or sinking -- this is neutral floating.\r\n\r\nRelative density is the ratio of the density of a substance to the density of water at 4 deg C. Since it is a ratio of two densities with the same units, relative density has no unit -- it is a pure number. If the relative density of a substance is less than 1, the substance is lighter than water and floats (for example, cork, ice, wood). If the relative density is greater than 1, the substance is denser than water and sinks (for example, iron, steel, glass, stone). Iron has a relative density of about 7.8, so a solid piece of iron sinks in water; cork has a relative density of about 0.25, so cork floats.\r\n\r\nA striking application is the ship. A solid iron nail sinks because iron is much denser than water (relative density 7.8), so the upthrust on the small nail is far less than its weight. A ship, however, is made of steel but is shaped hollow -- its outer hull encloses a large volume of air, so the total mass of the ship spread over its large outer volume gives it a low effective density, less than that of water. The ship therefore displaces a very large volume of water, producing an upthrust equal to its weight, and it floats. Floating bodies may be partially submerged (like a block of ice in water, most of whose volume stays above the surface) or fully submerged (like a submarine, which adjusts the water in its ballast tanks to change its overall density and so move up, down, or hold a depth). Students use the ideas of density and upthrust together to explain everyday floating and sinking.",
+    "eli5": "When you push a rubber duck down into a bucket of water, the water pushes it back up. That upward push is called upthrust. Whether something floats or sinks is a tug-of-war: weight pulls it down, upthrust pushes it up. If the thing is lighter than the same amount of water (low density), upthrust wins and it floats. If it is heavier (high density), weight wins and it sinks. A ship floats because it is mostly hollow air, so it is lighter than water overall, even though it is made of steel.",
+    "misconceptions": [
+      {
+        "belief": "Heavy things always sink and light things always float.",
+        "correction": "Floating is not about total weight alone -- it is about the comparison between the object's weight and the upthrust, which depends on density. A huge steel ship weighing thousands of tonnes floats, while a small iron nail weighing a few grams sinks. The CISCE 2024 PPA noted that candidates \"answered by guesswork\" on such questions and reminded students to \"insist on writing the formula and then substitution\" -- here, write the floating condition (upthrust >= weight, or density of object < density of fluid) before giving the example."
+      },
+      {
+        "belief": "A ship floats because steel is a light material.",
+        "correction": "Steel is not light -- its density is about 7800 kg/m^3, nearly eight times that of water. The ship floats because its hollow shape traps a large volume of air, giving the whole vessel a low effective density (total mass divided by outer volume) that is less than the density of water. The relevant quantity is effective density, not the density of the material alone."
+      },
+      {
+        "belief": "Relative density has a unit of kg/m^3 because it is a density.",
+        "correction": "Relative density is a ratio -- density of substance divided by density of water -- and both quantities carry the same unit, so the units cancel. Relative density is a pure number with no unit. The CISCE PPA repeatedly asks students to \"pay attention to units\" -- attaching a unit to relative density is exactly the kind of unit error examiners flag."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define buoyancy (upthrust) and state the two conditions that decide whether an object floats or sinks.",
+        "answer": "Buoyancy, or upthrust, is the upward force exerted by a fluid on an object that is wholly or partially immersed in it. It arises because the pressure of a fluid increases with depth, so the fluid pushes up on the lower face of the object more strongly than it pushes down on the upper face, giving a net upward force. Whether the object floats or sinks is decided by comparing this upthrust with the weight of the object. If the upthrust is greater than or equal to the weight, the object floats; if the upthrust is less than the weight, the object sinks. Because upthrust depends on the weight of the fluid displaced, the same condition can be stated in terms of density: an object floats if its density is less than the density of the fluid, and sinks if its density is greater than the density of the fluid. Both statements describe the same physics -- one in terms of forces, the other in terms of density."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "An iron nail sinks in water but a ship made of steel floats. Explain why, using the ideas of density and upthrust.",
+        "answer": "Iron and steel have a density of about 7800 kg/m^3, which is nearly eight times the density of water (1000 kg/m^3). A solid iron nail is a small lump of this dense metal, so when it is placed in water it can displace only a tiny volume of water. The weight of that small amount of displaced water -- and therefore the upthrust -- is far less than the weight of the nail, so the nail sinks. A ship, by contrast, is built with a hollow hull that encloses a very large volume of air. The total mass of the ship (steel, cargo, crew, and air) divided by the large outer volume of the hull gives a low effective density -- less than the density of water. Because the hull is so large, the ship displaces a huge volume of water whose weight equals the weight of the ship, so the upthrust equals the weight and the ship floats. The key difference is not the material but the shape: the hollow shape makes the ship's effective density lower than water, while the solid nail keeps iron's high density. This is why the same material can both float and sink depending on how it is shaped."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"Relative density tells us whether a substance will float in any liquid, because a relative density less than 1 means the substance floats.\" Evaluate this statement for correctness and completeness.",
+        "answer": "The statement is partly correct but incomplete and potentially misleading. Relative density is defined as the ratio of the density of a substance to the density of water, so a relative density less than 1 does mean the substance is less dense than water and will float in water, and a relative density greater than 1 means it will sink in water. Up to that point the student is right. However, the statement overgeneralises when it says \"in any liquid\". Floating and sinking are always decided by comparing the density of the object with the density of the surrounding fluid, not with water alone. A substance with relative density 0.9 (lighter than water) will float in water but will sink in a lighter oil whose density is, say, 700 kg/m^3, because 0.9 x 1000 = 900 kg/m^3 is greater than 700 kg/m^3. Conversely, a substance with relative density 1.2 (denser than water) sinks in water but may float in a dense liquid like mercury (relative density 13.6). So relative density is a convenient number for comparison with water, but it does not by itself predict behaviour in every liquid -- the density of the actual surrounding fluid must be considered. A complete and correct statement would be: \"A substance floats in a given liquid if its density is less than the density of that liquid; relative density less than 1 predicts floating in water specifically.\" The student's claim is therefore correct only for water and wrong as a general rule for all liquids. This distinction matters because examiners in the CISCE PPA have repeatedly flagged students who apply a formula or rule without checking the context, and who answer by guesswork rather than by stating the underlying principle."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A block of wood has a density of 600 kg/m^3 and a volume of 0.02 m^3. Water has a density of 1000 kg/m^3. (a) Calculate the relative density of the wood. (b) State, with reasoning, whether the block floats or sinks in water. (c) Describe how the block will sit in the water -- partially or fully submerged.",
+        "answer": "(a) Relative density = density of substance / density of water = 600 / 1000 = 0.6. The relative density of the wood is 0.6, a pure number with no unit. (b) Because the relative density (0.6) is less than 1, the density of the wood (600 kg/m^3) is less than the density of water (1000 kg/m^3). The upthrust on the block when fully submerged would be greater than its weight, so the block floats. Equivalently, the block displaces a volume of water whose weight equals the block's weight at a smaller submerged volume, so it does not need to be fully submerged to balance the forces. (c) The block will float partially submerged -- only part of its volume will be below the water surface. Because the wood's density is 0.6 times the water's density, roughly 60% of the block's volume will be underwater and the remaining 40% will be above the surface. This matches everyday experience with wooden blocks and ice: low-density floats ride high in the water but still have a portion below the surface."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple classroom experiment using a small plastic bottle, water, and some weights (such as stones or coins) that demonstrates how a submarine changes between floating, submerged-neutral, and sinking. Describe what you would do and what you would observe at each stage, linking each observation to density and upthrust.",
+        "answer": "Take a small empty plastic bottle with its cap on -- it is full of air, so its overall density is low, and when placed in a tub of water it floats high on the surface. This is the floating condition: the bottle's effective density is less than water, so the upthrust on it is greater than its weight, and it rises and sits partially submerged. Now open the cap and add a few stones or coins inside, then recap. The bottle is heavier but its outer volume is unchanged, so its effective density increases. Add weights gradually and watch the bottle sit lower and lower in the water, displacing more and more water so that the upthrust grows to match the increasing weight. At a carefully chosen amount of weight, the bottle will be fully submerged but neither rise nor sink -- it will hang at a steady depth. This is the neutral-floating condition: the bottle's effective density now equals the density of water, so upthrust exactly equals weight. Add one more stone and the bottle's effective density exceeds the density of water; the upthrust can no longer match the weight even when the bottle is fully submerged, and the bottle sinks to the bottom. To make it rise again, remove some stones -- the effective density drops below water's density and the bottle floats back up. This is exactly how a submarine uses its ballast tanks: filling them with water increases effective density to dive, pumping the water out decreases it to rise, and trimming the amount holds a steady depth. The experiment makes the link between density, upthrust, and floating condition visible and hands-on."
+      }
+    ],
+    "masteryCriteria": "Can define buoyancy (upthrust) as the upward force a fluid exerts on an immersed object, and state that it arises because fluid pressure increases with depth. Can state the floating condition (upthrust >= weight, or density of object < density of fluid) and the sinking condition (upthrust < weight, or density of object > density of fluid). Can calculate relative density as density of substance divided by density of water (a unitless number) and use it to predict floating or sinking in water (e.g. iron 7.8 sinks, cork 0.25 floats, ice 0.92 floats partially submerged). Can explain why a steel ship floats but a solid iron nail sinks by comparing effective density (hollow hull traps air, lowering effective density below water) with the density of solid iron.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c7_phy_007",
+    "title": "Density as mass per unit volume",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "Density is a fundamental physical quantity that describes how much mass is contained in a given volume of a substance. It is defined as mass per unit volume, expressed by the formula d = m / V, where d is density, m is mass, and V is volume. The SI unit of density is the kilogram per cubic metre (kg/m^3), but in laboratory work and in most ICSE problems the more convenient unit is the gram per cubic centimetre (g/cm^3). The two units are related by the conversion 1 g/cm^3 = 1000 kg/m^3, because 1 g = 10^-3 kg and 1 cm^3 = 10^-6 m^3. Water has a density of 1 g/cm^3 (or 1000 kg/m^3), which serves as a useful reference: substances denser than water, such as iron (7.8 g/cm^3) and copper (8.9 g/cm^3), sink, while substances less dense than water, such as cork (about 0.2 g/cm^3) and wood, float.\r\n\r\nTo determine the density of a regular solid, two measurements are needed. First, the mass is measured using a beam balance (an electronic balance or a physical beam balance), and is recorded in grams. Second, the volume is calculated from the measured dimensions using the appropriate geometry formula. For a cuboid (rectangular block), the volume is V = l x b x h, where l is length, b is breadth, and h is height, each measured with a ruler or vernier calipers in centimetres. For a cylinder, the volume is V = pir^2h, where r is the radius of the circular base and h is the height. Once both mass and volume are known, density is computed by substituting into d = m / V, and the result is stated with the correct unit (g/cm^3).\r\n\r\nNumerical problems at this level ask the student to calculate density when mass and dimensions are given, or to find an unknown mass when density and volume are given (m = d x V), or to find an unknown volume when density and mass are given (V = m / d). A common worked example: a cuboid of iron measures 5 cm x 4 cm x 2 cm and has a mass of 312 g; its volume is 40 cm^3 and its density is 312 / 40 = 7.8 g/cm^3. Density is an intrinsic property -- it depends on the material, not on the size of the sample, so a small iron nail and a large iron girder have the same density. This is because doubling the size doubles both mass and volume, leaving the ratio unchanged.",
+    "eli5": "Imagine two identical boxes. You fill one with marbles and the other with cotton, both to the top. The marble box feels much heavier because marbles pack more mass into the same space. That \"heaviness per box\" is density -- mass divided by volume. A dense iron block is like the marble box; a light cork is like the cotton box. Same size, very different mass, so very different density.",
+    "misconceptions": [
+      {
+        "belief": "A bigger block of iron has a higher density than a smaller block of iron.",
+        "correction": "Density is an intrinsic property of the material. If you double the size of an iron block, both its mass and its volume double, so the ratio m/V stays the same. A 1 cm^3 iron cube and a 1 m^3 iron girder both have a density of 7.8 g/cm^3 (or 7800 kg/m^3). Size does not change density; only the material does. CISCE examiners have repeatedly observed that students confuse the total mass of an object with its density, writing down a larger mass as a larger density without dividing by volume."
+      },
+      {
+        "belief": "Density has no unit, it is just a number.",
+        "correction": "Density always carries a unit -- g/cm^3 or kg/m^3. The CISCE Pupil Performance Analysis for 2019 explicitly notes that \"some candidates did not write the units\" in numerical answers. A density value written as \"7.8\" with no unit is incomplete and loses marks; the correct form is \"7.8 g/cm^3\" or \"7800 kg/m^3\"."
+      },
+      {
+        "belief": "For a cylinder, volume = pirh.",
+        "correction": "The correct formula is V = pir^2h -- the radius is squared because the base is a circular area (pir^2) multiplied by height. Using pirh instead of pir^2h is a common formula error of the kind examiners flag when they report that \"a large number of candidates wrote incorrect formulae.\" Always write the full formula before substituting numbers."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define density and state its SI unit and its commonly used laboratory unit. Include the conversion between them.",
+        "answer": "Density is defined as mass per unit volume, expressed by the formula d = m / V, where d is density, m is mass, and V is volume. It tells us how much mass is packed into a given volume of a substance. The SI unit of density is the kilogram per cubic metre, written as kg/m^3. In laboratory work and in most ICSE numerical problems, the more convenient unit is the gram per cubic centimetre, written as g/cm^3. The two units are related by the conversion 1 g/cm^3 = 1000 kg/m^3, because 1 gram equals 10^-3 kilogram and 1 cubic centimetre equals 10^-6 cubic metre, so dividing gives 10^-3 / 10^-6 = 10^3 = 1000. For example, the density of water is 1 g/cm^3, which is the same as 1000 kg/m^3, and the density of iron is about 7.8 g/cm^3, which equals 7800 kg/m^3. Stating the correct unit with every density value is essential, as examiners deduct marks for missing units."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A cuboid measures 5 cm x 4 cm x 2 cm and has a mass of 312 g. A second cuboid made of the same material measures 10 cm x 8 cm x 4 cm. Without recalculating from scratch, explain what its mass and density will be, and justify your reasoning.",
+        "answer": "The first cuboid has volume V_1 = l x b x h = 5 x 4 x 2 = 40 cm^3 and density d = m / V = 312 / 40 = 7.8 g/cm^3. The second cuboid has dimensions exactly double those of the first in each direction, so its volume is V_2 = 10 x 8 x 4 = 320 cm^3, which is 8 times V_1 (because volume scales with the product of the three lengths, and 2 x 2 x 2 = 8). Since both blocks are made of the same material, the density must be the same -- 7.8 g/cm^3 -- because density is an intrinsic property that depends only on the material, not on the size of the sample. To keep the same density with eight times the volume, the mass must also be eight times larger: m_2 = d x V_2 = 7.8 x 320 = 2496 g, which is exactly 8 x 312 g. This confirms the key idea: when you scale up a regular solid uniformly, mass and volume scale together, leaving the ratio m/V unchanged. A student who claims the bigger block is denser has confused total mass with density."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student writes: \"If two objects have the same mass, they must have the same density.\" Evaluate this statement, explaining whether it is correct, partially correct, or incorrect, and give a balanced argument with a numerical example.",
+        "answer": "The statement is incorrect. Density is not determined by mass alone; it is the ratio of mass to volume (d = m/V). Two objects can have identical masses but very different volumes, and therefore very different densities. Consider a 100 g block of iron and a 100 g block of cork. The iron block is small -- suppose its volume is about 12.8 cm^3 (since iron has a density of roughly 7.8 g/cm^3, V = m/d = 100/7.8 ~= 12.8 cm^3). The cork block, with a density of about 0.2 g/cm^3, has a volume of V = 100/0.2 = 500 cm^3. Both objects have the same mass of 100 g, yet the iron has a density of 7.8 g/cm^3 while the cork has a density of only 0.2 g/cm^3 -- a nearly forty-fold difference. The statement would only be true if the two objects also had the same volume, in which case equal mass divided by equal volume gives equal density. So the statement is partially correct only under the extra condition that the volumes are also equal; on its own, as written, it is wrong because it ignores the role of volume. The balanced view is that mass is one of two factors that determine density: a denser substance either packs more mass into the same volume or packs the same mass into a smaller volume. Therefore, comparing density requires knowing both mass and volume, never mass alone. This is exactly the kind of conceptual error CISCE examiners highlight when students jump to conclusions from a single quantity instead of using the full formula."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A solid cylinder has a radius of 1.5 cm and a height of 10 cm. Its mass is measured as 212 g on a beam balance. Calculate its density in g/cm^3 and convert the result to kg/m^3. Show every step of your working.",
+        "answer": "Step 1 -- write down the volume formula for a cylinder: V = pir^2h. Step 2 -- substitute the measured values: r = 1.5 cm, h = 10 cm, so V = 3.14 x (1.5)^2 x 10 = 3.14 x 2.25 x 10 = 70.65 cm^3. Step 3 -- write the density formula: d = m / V. Step 4 -- substitute mass and volume: d = 212 g / 70.65 cm^3 = 3.00 g/cm^3 (to two decimal places). Step 5 -- convert to kg/m^3 using 1 g/cm^3 = 1000 kg/m^3: d = 3.00 x 1000 = 3000 kg/m^3. The final answer is therefore 3.0 g/cm^3 or 3000 kg/m^3. Notice that every step shows the formula, the substitution with units, and the final value with its unit -- this is the layout ICSE examiners expect, and omitting the unit or the formula is the most common reason for lost marks. A quick sanity check: a density of 3 g/cm^3 is greater than water (1 g/cm^3), so the cylinder would sink, which is plausible for a solid metal or dense wood object."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple classroom activity to measure and compare the densities of two different regular solid blocks (for example, a wooden cuboid and a metal cuboid). List the apparatus, the steps, the measurements to be recorded, and the calculations to be performed. State one safety or accuracy precaution.",
+        "answer": "Apparatus required: a beam balance (or electronic balance) to measure mass, a ruler or vernier calipers to measure dimensions, two regular solid blocks (one wooden cuboid and one metal cuboid), and a data table for recording results. Step 1 -- measure the mass of each block on the beam balance and record it in grams; for example, wooden block 90 g, metal block 315 g. Step 2 -- measure the length, breadth, and height of each cuboid with the ruler and record the values in centimetres; for example, wooden block 10 cm x 6 cm x 5 cm, metal block 5 cm x 3 cm x 2 cm. Step 3 -- calculate the volume of each block using V = l x b x h: wooden V = 10 x 6 x 5 = 300 cm^3, metal V = 5 x 3 x 2 = 30 cm^3. Step 4 -- calculate the density of each using d = m / V: wooden d = 90 / 300 = 0.3 g/cm^3, metal d = 315 / 30 = 10.5 g/cm^3. Step 5 -- compare: the metal block is much denser than the wooden block, even though it is smaller, because density depends on the material, not on the size. One accuracy precaution: always read the beam balance only when the pointer is steady and at the zero mark, and read the ruler with the eye level with the marking to avoid parallax error, because a small error in mass or length leads to a larger error in the calculated density. Recording each measurement in a neat table with units makes the activity easy to check and matches the working style expected in the ICSE board exam."
+      }
+    ],
+    "masteryCriteria": "Can define density as mass per unit volume and write the formula d = m / V with correct SI unit kg/m^3 and laboratory unit g/cm^3, including the conversion 1 g/cm^3 = 1000 kg/m^3; can calculate the density of a regular solid (cuboid using V = l x b x h, cylinder using V = pir^2h) from measured mass and dimensions, e.g. a 312 g cuboid of 5 cm x 4 cm x 2 cm gives 7.8 g/cm^3; can rearrange the formula to find unknown mass (m = d x V) or unknown volume (V = m / d) in numerical problems; can state the final answer with the correct unit and explain why density is an intrinsic property independent of sample size.",
+    "cognitiveLevel": "apply"
+  },
+  {
+    "nodeId": "c7_phy_008",
+    "title": "Relative density and floating/sinking",
+    "subject": "physics",
+    "classLevel": 7,
+    "definition": "Relative density (also called specific gravity) is the ratio of the density of a substance to the density of water at 4 degrees Celsius. It is expressed by the formula: Relative density = density of substance / density of water. Because it is a ratio of two quantities having the same unit (kg/m^3 or g/cm^3), the units cancel out, so relative density has no unit -- it is a pure number. The density of water is taken as 1 g/cm^3 (or 1000 kg/m^3), which makes the calculation convenient: the relative density of a substance is numerically equal to its density expressed in g/cm^3. For example, iron has a density of about 7.8 g/cm^3, so its relative density is 7.8; cork has a density of about 0.25 g/cm^3, so its relative density is 0.25.\r\n\r\nRelative density provides a simple way to predict whether an object will float or sink when placed in water. The rule is: an object floats if its density is less than the density of the liquid it is placed in, and it sinks if its density is greater than the density of the liquid. When the liquid is water, this rule can be stated directly in terms of relative density: an object with relative density less than 1 floats in water, and an object with relative density greater than 1 sinks in water. If the relative density is exactly 1, the object remains suspended (neutrally buoyant) at any depth inside the water. Wood (relative density about 0.6 to 0.9), cork (0.25), ice (0.92), and wax (0.9) all have relative density less than 1, so they float. Iron (7.8), aluminium (2.7), glass (about 2.5), stone (about 2.8), and gold (19.3) have relative density greater than 1, so they sink in water.\r\n\r\nThe same comparison idea applies to any liquid, not just water. An object floats in a given liquid if its density is less than that liquid's density. For example, iron sinks in water (relative density 7.8 > 1) but floats in mercury, because mercury's density (13.6 g/cm^3) is greater than iron's (7.8 g/cm^3). This shows that floating and sinking depend on the comparison between two densities, not on the object's density alone. The upward force exerted by the liquid on the immersed object is called upthrust or buoyancy; when the upthrust equals the weight of the object, it floats, and when upthrust is less than the weight, it sinks. In this node we use the density comparison (and relative density) to predict the outcome qualitatively; the detailed calculation of buoyant force is reserved for Class 8 (Archimedes' principle).",
+    "eli5": "Imagine two same-sized boxes: one filled with feathers and one with stones. The stone box feels heavier because it packs more stuff into the same space -- that is what density measures. Relative density compares how heavy something is to an equal amount of water. If something is lighter than water for the same size (relative density less than 1), it floats, like a wooden boat. If it is heavier than water (relative density more than 1), it sinks, like a stone in a pond.",
+    "misconceptions": [
+      {
+        "belief": "Relative density has a unit like g/cm^3 or kg/m^3.",
+        "correction": "Relative density is a ratio of two densities with the same unit, so the units cancel. It is a pure number with no unit. Writing \"relative density of iron = 7.8 g/cm^3\" is wrong; the correct statement is \"relative density of iron = 7.8\". CISCE examiners have repeatedly observed that \"units were not written in the final answer\" for numerical questions, and conversely students attach units where none belong -- so be precise: write units for density, but no unit for relative density."
+      },
+      {
+        "belief": "Heavy objects always sink and light objects always float.",
+        "correction": "Floating and sinking depend on density (mass per unit volume), not on total mass or weight. A huge iron ship weighing thousands of tonnes floats because its overall density (with the air-filled hollow space) is less than water's, while a tiny iron nail sinks because its density (7.8 g/cm^3) is greater than water's. A large block of cork (low density) floats even if it weighs more than a small iron nail. Always compare densities, not weights."
+      },
+      {
+        "belief": "An object that sinks in water will sink in every liquid.",
+        "correction": "Whether an object floats or sinks depends on the liquid's density as well. Iron sinks in water (density 1 g/cm^3) but floats in mercury (density 13.6 g/cm^3) because mercury is denser than iron. The comparison is always between the object's density and the liquid's density. CISCE examiners have noted that students use guesswork instead of reasoning from the formula -- always substitute and compare the two densities."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define relative density. Why does it have no unit?",
+        "answer": "Relative density is the ratio of the density of a substance to the density of water at 4 degrees Celsius. It is expressed by the formula: Relative density = density of substance / density of water. Since both densities are measured in the same unit (for example, both in g/cm^3 or both in kg/m^3), the units cancel out in the division, leaving a pure number. Therefore relative density has no unit. For example, the density of iron is 7.8 g/cm^3 and the density of water is 1 g/cm^3, so the relative density of iron is 7.8 / 1 = 7.8, with no unit attached. This is different from density itself, which always carries a unit. Remembering this distinction is important because examiners often check whether students incorrectly attach a unit to relative density."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "The density of cork is 0.25 g/cm^3 and the density of iron is 7.8 g/cm^3. Explain, using relative density, why cork floats in water while iron sinks.",
+        "answer": "The relative density of a substance is its density divided by the density of water (1 g/cm^3). For cork, relative density = 0.25 / 1 = 0.25. Since 0.25 is less than 1, cork's density is less than water's density, so the upthrust of water is enough to support the cork and it floats. For iron, relative density = 7.8 / 1 = 7.8. Since 7.8 is greater than 1, iron's density is greater than water's density, so the upthrust of water is not enough to support the iron and it sinks. The general rule is: an object with relative density less than 1 floats in water, and an object with relative density greater than 1 sinks in water. Cork (0.25) and wood (about 0.6 to 0.9) have relative density less than 1, so they float; iron (7.8), stone (about 2.8), and gold (19.3) have relative density greater than 1, so they sink. The deciding factor is the comparison of the object's density with water's density, expressed conveniently as relative density."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"A heavy iron ship floats in water but a small iron nail sinks, so the rule that objects with relative density greater than 1 sink must be wrong.\" Evaluate this statement.",
+        "answer": "The student's statement is based on a misunderstanding of what density and relative density measure. The rule that an object sinks when its relative density is greater than 1 applies to the overall density of the object, not to the density of the material alone. A solid iron nail has a density of about 7.8 g/cm^3, which is the density of iron itself, so its relative density is 7.8 and it sinks. A ship, however, is not a solid block of iron -- it is a hollow structure containing a large volume of air. Because air has a very low density, the total mass of the ship divided by its total volume (including the hollow, air-filled space) gives an overall density that is less than 1 g/cm^3. Therefore the ship's overall relative density is less than 1, and it floats. The same material (iron) can float or sink depending on how it is shaped, because shaping changes the overall volume and therefore the overall density. This is exactly why life jackets (which trap air) help a person float, and why a hollow steel ball floats while a solid steel ball of the same material sinks. So the rule is not wrong -- the student has simply confused the density of the material with the overall density of the object. The correct reasoning is: compare the overall density of the object (mass / total volume) with the density of water. If the overall relative density is less than 1, the object floats, regardless of how heavy it is in total. This example shows that \"heavy\" and \"light\" by themselves are misleading; density and relative density are the correct quantities to compare."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A solid block has a mass of 120 g and a volume of 150 cm^3. Calculate its density and relative density. Will it float or sink in water? Show your working.",
+        "answer": "Density = mass / volume = 120 g / 150 cm^3 = 0.8 g/cm^3. Relative density = density of substance / density of water = 0.8 g/cm^3 / 1 g/cm^3 = 0.8 (no unit, since it is a ratio). Since the relative density (0.8) is less than 1, the block's density is less than the density of water, so the block will float in water. The working follows three clear steps: first calculate density from mass and volume, then calculate relative density by dividing by the density of water (1 g/cm^3), then compare the relative density with 1 to decide float or sink. A common error is to forget to calculate density first and try to compare mass directly with volume -- that is meaningless because mass and volume have different units. Always reduce the problem to a density comparison (or a relative density comparison) before deciding the outcome."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple classroom activity to test whether five common objects (a coin, a piece of cork, an ice cube, a plastic ball, and a stone) float or sink in water, and explain how you would use the results to introduce the idea of relative density to a Class 7 student.",
+        "answer": "Fill a large transparent beaker or bucket with water and place it on a table where everyone can see. Take the five objects one at a time -- a metal coin, a piece of cork, an ice cube, a small plastic ball, and a small stone -- and gently place each on the surface of the water. Observe and record the result: the coin and the stone sink to the bottom, while the cork, the ice cube, and the plastic ball float on the surface. Next, measure or look up the density of each object's material: coin (metal, about 8 g/cm^3), stone (about 2.8 g/cm^3), cork (about 0.25 g/cm^3), ice (about 0.92 g/cm^3), and plastic ball (about 0.9 g/cm^3). Now calculate the relative density of each by dividing its density by the density of water (1 g/cm^3): coin 8, stone 2.8, cork 0.25, ice 0.92, plastic 0.9. Compare each relative density with 1: the coin (8) and stone (2.8) have relative density greater than 1 and they sank; the cork (0.25), ice (0.92), and plastic (0.9) have relative density less than 1 and they floated. This shows the student the pattern: relative density less than 1 means float, greater than 1 means sink. The activity turns an abstract formula into something the student can see and touch, which is exactly the kind of demonstration CISCE examiners recommend instead of guesswork."
+      }
+    ],
+    "masteryCriteria": "Can define relative density as the ratio of the density of a substance to the density of water and state that it has no unit; can calculate relative density from a given density (e.g. iron 7.8 g/cm^3 gives relative density 7.8; cork 0.25 g/cm^3 gives relative density 0.25); can predict whether an object floats or sinks in water by comparing its relative density with 1 (less than 1 floats, greater than 1 sinks); can explain in terms of density comparison why a hollow iron ship floats while a solid iron nail sinks.",
+    "cognitiveLevel": "apply"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE DensityTankSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

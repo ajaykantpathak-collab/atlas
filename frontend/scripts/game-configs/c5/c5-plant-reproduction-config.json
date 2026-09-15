@@ -1,0 +1,43 @@
+{
+  "gameTitle": "PlantReproductionGame",
+  "classLevel": 5,
+  "ageRange": "10-11",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class5\\PlantReproductionGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part10.marker",
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part11.marker",
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part12.marker",
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part13.marker",
+    "D:\\cisce\\bio\\enrichment\\c5_biology_enrichment_part14.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\PlantsAirGame.tsx",
+  "cisceNodes": "c5_bio_010 (Flower structure - androecium and gynoecium), c5_bio_011 (Pollination process), c5_bio_012 (Sexual reproduction in plants), c5_bio_013 (Seed dispersal), c5_bio_014 (Vegetative reproduction)",
+  "mascotName": "Gardener Gita",
+  "mascotDescription": "a cheerful gardener with a sun hat, gardening gloves, watering can, and a flower badge. She teaches how plants reproduce and grow. Custom SVG, not an owl.",
+  "sceneDescription": "flower garden with sky gradient, colorful flowers with labeled parts, bees and butterflies pollinating, seed dispersal methods (wind, water, animals), a garden with various plants, and a vegetative reproduction diagram showing potato and ginger",
+  "svgObjects": [
+    { "name": "FlowerIcon", "description": "a complete flower with petals, stamen, and pistil labeled" },
+    { "name": "StamenIcon", "description": "the male part of flower (anther and filament)" },
+    { "name": "PistilIcon", "description": "the female part of flower (stigma, style, ovary)" },
+    { "name": "PollenIcon", "description": "pollen grains being transferred" },
+    { "name": "BeeIcon", "description": "a bee pollinating a flower" },
+    { "name": "SeedIcon", "description": "a seed with embryo" },
+    { "name": "SeedPodIcon", "description": "a seed pod bursting open" },
+    { "name": "WindDispersalIcon", "description": "seeds being blown by wind (dandelion)" },
+    { "name": "WaterDispersalIcon", "description": "seeds floating on water (coconut)" },
+    { "name": "AnimalDispersalIcon", "description": "seeds attached to animal fur (burrs)" },
+    { "name": "PotatoIcon", "description": "a potato with eyes (vegetative reproduction)" },
+    { "name": "GingerIcon", "description": "a ginger rhizome (vegetative reproduction)" }
+  ],
+  "challengeTypes": [
+    "identify: Which part of the flower is the MALE reproductive organ? (Stamen/Androecium vs Pistil/Gynoecium vs Petals vs Sepals)",
+    "sort: Drag each flower part to its correct function (Petals = attract insects with color | Stamen = male part, produces pollen | Pistil = female part, contains ovary | Sepals = protect the flower bud | Stigma = catches pollen | Anther = produces pollen grains)",
+    "identify: What is pollination? (Transfer of pollen from anther to stigma vs Growth of seed into plant vs Opening of flower bud vs Falling of petals)",
+    "sort: Drag each pollination type to its correct description (Self-pollination = pollen transfers within same flower | Cross-pollination = pollen transfers to different flower | Insect pollination = bees and butterflies carry pollen | Wind pollination = wind carries pollen | Self-pollination = same plant | Cross-pollination = different plants of same kind)",
+    "identify: After pollination, what grows from the ovule? (Seed vs Fruit vs Flower vs Root)",
+    "sort: Drag each seed dispersal method to its correct example (Wind = dandelion seeds fly | Water = coconut floats in water | Animals = burrs stick to fur | Explosion = seed pod bursts open | Wind = maple seeds spin | Animals = birds eat fruits and drop seeds)",
+    "identify: Which of these plants reproduces vegetatively from a stem (potato)? (Potato vs Mango vs Rose from seed vs Papaya)",
+    "sort: Drag each reproduction type to its correct example (Sexual reproduction = flower to seed to new plant | Vegetative - stem = potato, ginger | Vegetative - root = sweet potato, carrot | Vegetative - leaf = bryophyllum, begonia | Sexual = rose from seed | Vegetative - bulb = onion, garlic)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Flower structure — a flower has four main parts: sepals (small green leaves that protect the bud), petals (colorful leaves that attract insects), androecium/stamen (MALE part: anther produces pollen, filament supports anther), gynoecium/pistil (FEMALE part: stigma catches pollen, style connects stigma to ovary, ovary contains ovules). (2) Pollination — transfer of pollen grains from the anther (male) to the stigma (female). Self-pollination: pollen transfers within the same flower. Cross-pollination: pollen transfers to a different flower (by insects, wind, water). (3) Sexual reproduction — after pollination, pollen travels down the style to the ovary. Male cell joins with female ovule (fertilization). Ovule develops into a seed. Ovary develops into a fruit. Seed grows into a new plant. (4) Seed dispersal — seeds spread to new places to avoid competition. Wind: dandelion, maple (light seeds with wings/hair). Water: coconut, lotus (seeds that float). Animals: burrs stick to fur, birds eat fruits and drop seeds. Explosion: seed pods burst open (pea, bean). (5) Vegetative reproduction — new plants grow from vegetative parts (no seeds needed). Stem: potato, ginger (underground stems). Root: sweet potato, carrot. Leaf: bryophyllum (baby plants on leaf edges). Bulb: onion, garlic. Advantages: faster than seeds, exact copy of parent plant. Misconceptions: 'pollination and fertilization are the same' (WRONG — pollination is pollen reaching stigma; fertilization is male and female cells joining inside the ovary, which happens AFTER pollination), 'all seeds are dispersed by wind' (WRONG — seeds use many methods: wind, water, animals, explosion), 'vegetative reproduction produces different plants from the parent' (WRONG — vegetative reproduction produces exact copies/clones of the parent plant), 'the fruit develops from the seed' (WRONG — the fruit develops from the OVARY, and the seed develops from the OVULE), 'flowers are only for decoration' (WRONG — flowers are the reproductive organs of plants)."
+}

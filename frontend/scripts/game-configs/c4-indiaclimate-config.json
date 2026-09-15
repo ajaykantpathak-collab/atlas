@@ -1,0 +1,44 @@
+{
+  "gameTitle": "IndiaClimateGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\IndiaClimateGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\geo\\enrichment\\c4_geography_enrichment_part11.marker",
+    "D:\\cisce\\geo\\enrichment\\c4_geography_enrichment_part12.marker",
+    "D:\\cisce\\geo\\enrichment\\c4_geography_enrichment_part13.marker",
+    "D:\\cisce\\geo\\enrichment\\c4_geography_enrichment_part14.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_geo_011 (Rivers of India - Himalayan vs Peninsular), c4_geo_012 (Climate of India), c4_geo_013 (Natural vegetation of India), c4_geo_014 (Soils of India)",
+  "mascotName": "Geographer Gita",
+  "mascotDescription": "a friendly geography expert with a weather badge, a river map, a soil sample jar, and a plant. Custom SVG, not an owl.",
+  "sceneDescription": "India landscape scene with sky gradient, mountains with snow, rivers flowing through plains, forests, a desert area, and farmland with different soils",
+  "svgObjects": [
+    { "name": "HimalayanRiverIcon", "description": "a Himalayan river (Ganga) fed by snow" },
+    { "name": "PeninsularRiverIcon", "description": "a Peninsular river (Godavari) rain-fed" },
+    { "name": "MonsoonIcon", "description": "a monsoon rain cloud" },
+    { "name": "ClimateIcon", "description": "a climate/weather symbol" },
+    { "name": "RainforestIcon", "description": "tropical rainforest vegetation" },
+    { "name": "DeciduousForestIcon", "description": "deciduous forest vegetation" },
+    { "name": "ThornScrubIcon", "description": "thorn scrub desert vegetation" },
+    { "name": "MountainVegIcon", "description": "mountain vegetation" },
+    { "name": "AlluvialSoilIcon", "description": "alluvial soil (Northern Plains)" },
+    { "name": "BlackSoilIcon", "description": "black soil (Deccan, for cotton)" },
+    { "name": "RedSoilIcon", "description": "red soil (iron-rich)" },
+    { "name": "LateriteSoilIcon", "description": "laterite soil (tea, coffee)" },
+    { "name": "DesertSoilIcon", "description": "desert soil (sandy, Rajasthan)" },
+    { "name": "CropIcon", "description": "crops growing in fertile soil" }
+  ],
+  "challengeTypes": [
+    "identify: What is the main difference between HIMALAYAN rivers and PENINSULAR rivers? (Himalayan rivers are perennial (flow all year, fed by snow), Peninsular rivers are seasonal (depend on monsoon rain) vs They are the same vs Himalayan rivers are seasonal and Peninsular rivers are perennial)",
+    "sort: Drag each river to Himalayan or Peninsular (Himalayan: Ganga, Indus, Brahmaputra, Yamuna | Peninsular: Godavari, Krishna, Narmada, Kaveri)",
+    "identify: What type of climate does India mainly have? (Monsoon climate with hot summers, rainy monsoon season, and cool winters vs Desert climate with no rain vs Cold climate with snow all year)",
+    "sort: Drag each season in India to its correct description (Summer: March to May, hot and dry | Monsoon/Rainy: June to September, heavy rainfall from southwest monsoon | Winter: December to February, cool and dry | Retreating monsoon: October to November, rainfall on the east coast)",
+    "identify: Which type of natural vegetation is found in areas with HEAVY rainfall like the Western Ghats and North-East India? (Tropical rainforests vs Thorn scrub vs Mountain vegetation)",
+    "sort: Drag each vegetation type to its correct region and rainfall (Tropical rainforest: Western Ghats and North-East, heavy rainfall | Deciduous forest: central India, moderate rainfall, trees shed leaves in dry season | Thorn scrub: Rajasthan and dry areas, very low rainfall | Mountain vegetation: Himalayas, varies with altitude | Mangrove: coastal areas like Sundarbans, salt tolerant)",
+    "identify: Which soil is the MOST FERTILE and covers the Northern Plains of India? (Alluvial soil vs Desert soil vs Laterite soil)",
+    "sort: Drag each soil type to its correct region and best crop (Alluvial soil: Northern Plains, wheat and rice | Black soil: Deccan Plateau, cotton | Red soil: Tamil Nadu and Karnataka, millets and pulses | Laterite soil: Western Ghats, tea and coffee | Desert soil: Rajasthan, bajra and millets | Mountain soil: Himalayas, fruits and tea)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Rivers of India — Himalayan rivers (Ganga, Indus, Brahmaputra): originate from glaciers, perennial (flow all year), carry alluvium, fertile. Peninsular rivers (Godavari, Krishna, Narmada, Kaveri): originate from plateau/Western Ghats, seasonal (depend on monsoon), carry less sediment. Godavari is largest Peninsular river (Dakshin Ganga). (2) Climate of India — monsoon climate. Seasons: summer (March-May, hot and dry), monsoon/rainy (June-September, southwest monsoon brings heavy rain), retreating monsoon (October-November, east coast rain), winter (December-February, cool and dry). Monsoon is the most important feature of India's climate. (3) Natural vegetation — tropical rainforests (Western Ghats, North-East — heavy rainfall), deciduous forests (central India — moderate rainfall, trees shed leaves in dry season), thorn scrub (Rajasthan — very low rainfall), mountain vegetation (Himalayas — varies with altitude), mangroves (Sundarbans — salt tolerant coastal forests). (4) Soils of India — 6 types: alluvial (Northern Plains, most fertile, wheat/rice/sugarcane), black/regur (Deccan, retains moisture, cotton), red (Tamil Nadu/Karnataka, iron-rich, millets/pulses), laterite (Western Ghats, heavy rainfall leaches nutrients, tea/coffee/rubber), desert (Rajasthan, sandy and dry, bajra), mountain (Himalayas, thin and acidic, fruits/tea). Misconceptions: 'Himalayan and Peninsular rivers are the same' (Himalayan rivers are PERENNIAL fed by snow, Peninsular rivers are SEASONAL fed by monsoon rain — they are different), 'India has only one season' (India has FOUR main seasons — summer, monsoon, retreating monsoon, and winter — the monsoon is the most important), 'all soil in India is the same' (India has SIX major soil types — alluvial, black, red, laterite, desert, and mountain — each suited to different crops and found in different regions), 'black soil is best for rice' (black soil is best for COTTON because it retains moisture — alluvial soil is best for rice and wheat), 'deciduous forests are found in deserts' (deciduous forests need MODERATE rainfall and are found in central India — thorn scrub is found in dry desert areas like Rajasthan). Default width=720, height=560. Use named export (export function IndiaClimateGame), NOT export default. Export interface IndiaClimateGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

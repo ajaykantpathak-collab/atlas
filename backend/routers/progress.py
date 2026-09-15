@@ -21,6 +21,8 @@ from backend.schemas.progress import (
     ReviewAnswerRequest,
     ReviewAnswerResponse,
     ReviewQueueResponse,
+    SimResultRequest,
+    SimResultResponse,
     SubjectMasterySchema,
     WeeklyActivitySchema,
 )
@@ -319,6 +321,50 @@ async def get_mastery_record(
     if isinstance(record, dict):
         return MasteryRecordSchema(**record)
     return MasteryRecordSchema.model_validate(record)
+
+
+@router.post("/sim-result", response_model=SimResultResponse)
+async def record_sim_result(
+    payload: SimResultRequest,
+    user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+):
+    """Record a completed simulation run for the current user.
+
+    One call per sim completion: updates BKT mastery for every node the
+    sim covers and emits a ``student_answer`` event onto the intelligence
+    bus so misconception/remediation persistence actually fires.
+
+    ``correct`` is derived from score (>= 70) — the sims engine reports
+    a single aggregate score per run.
+    """
+    correct = payload.score >= 70.0
+    mastery: dict = {}
+    updated: list = []
+
+    for node_id in payload.node_ids:
+        p = await ProgressService.update_mastery_bkt(
+            db, user_id=str(user.id), node_id=node_id, is_correct=correct
+        )
+        mastery[node_id] = p
+        updated.append(node_id)
+
+    await db.commit()
+
+    # Feed the intelligence layer — this is what actually persists
+    # InteractionOutcome + drives remediation/misconception tracking.
+    try:
+        from backend.services.intelligence_bus import emit_student_answer
+        for node_id in payload.node_ids:
+            emit_student_answer(
+                problem_type_id=node_id,
+                correct=correct,
+                student_id=str(user.id),
+            )
+    except Exception:
+        pass  # never break a sim result on telemetry
+
+    return SimResultResponse(updated=updated, mastery=mastery, correct=correct)
 
 
 # --------------------------------------------------------------------------- #

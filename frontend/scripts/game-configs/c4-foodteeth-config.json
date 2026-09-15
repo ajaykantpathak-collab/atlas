@@ -1,0 +1,45 @@
+{
+  "gameTitle": "FoodTeethGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\FoodTeethGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part1.marker",
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part2.marker",
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part3.marker",
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part4.marker",
+    "D:\\cisce\\bio\\enrichment\\c4_biology_enrichment_part5.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_bio_001 (Food components - carbohydrates, proteins, fats), c4_bio_002 (Balanced diet), c4_bio_003 (Types of teeth and their functions), c4_bio_004 (Structure of a tooth), c4_bio_005 (Dental care and cavities)",
+  "mascotName": "Dentist Dinesh",
+  "mascotDescription": "a friendly dentist with a white coat, a tooth-shaped badge, a small mirror tool, and a bright smile. Custom SVG, not an owl.",
+  "sceneDescription": "dental clinic and kitchen scene with sky gradient, a clinic building with a tooth sign, a kitchen counter with healthy foods, a dining table, and trees",
+  "svgObjects": [
+    { "name": "RiceIcon", "description": "a bowl of rice (carbohydrate)" },
+    { "name": "DalIcon", "description": "a bowl of dal (protein)" },
+    { "name": "GheeIcon", "description": "a jar of ghee (fat)" },
+    { "name": "AppleIcon", "description": "an apple (vitamins)" },
+    { "name": "MilkIcon", "description": "a glass of milk (minerals/calcium)" },
+    { "name": "WaterIcon", "description": "a glass of water" },
+    { "name": "SaladIcon", "description": "a bowl of salad (roughage)" },
+    { "name": "IncisorIcon", "description": "a chisel-shaped incisor tooth" },
+    { "name": "CanineIcon", "description": "a pointed canine tooth" },
+    { "name": "MolarIcon", "description": "a flat grinding molar tooth" },
+    { "name": "ToothStructureIcon", "description": "a cross-section of a tooth showing enamel, dentine, pulp" },
+    { "name": "ToothbrushIcon", "description": "a toothbrush with toothpaste" },
+    { "name": "CavityIcon", "description": "a tooth with a cavity hole" },
+    { "name": "SugarIcon", "description": "a sugar cube with bacteria" }
+  ],
+  "challengeTypes": [
+    "identify: Which food gives the body the most QUICK energy for running? (Rice and chapati vs Ghee and butter vs Spinach and carrot)",
+    "identify: Which food helps the body GROW and repair muscles? (Dal and eggs vs Rice and potatoes vs Ghee and oil)",
+    "sort: Drag each food to its main food component (Carbohydrates: rice, chapati, potato, banana | Proteins: dal, milk, egg, paneer | Fats: ghee, butter, oil, cheese | Vitamins: apple, guava, orange, spinach)",
+    "identify: Which of these is a BALANCED meal? (Rice, dal, vegetable, chapati, curd, and fruit vs Only rice and ghee vs Only fruits and water)",
+    "sort: Drag each tooth type to its correct function (Incisors: cut and bite | Canines: tear and rip | Premolars: crush | Molars: grind and chew)",
+    "identify: What is the HARDEST substance in the human body that covers the crown of a tooth? (Enamel vs Dentine vs Pulp)",
+    "sort: Drag the steps of cavity formation in order (1. Eat sugary food | 2. Bacteria feed on sugar | 3. Bacteria produce acid | 4. Acid attacks enamel | 5. Cavity forms in tooth | 6. Pain when reaching pulp)",
+    "sort: Drag each action to Good Dental Care or Bad Dental Care (Good: brush twice daily, floss, rinse after meals, visit dentist, eat calcium-rich food | Bad: skip brushing, eat too many sweets, never floss, never visit dentist, drink too much cola)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Food components — seven nutrients: carbohydrates (energy: rice, chapati, wheat, potato, banana), proteins (body building: milk, eggs, dal, paneer, fish, rajma), fats (energy storage: ghee, butter, oil, cheese), vitamins (protection: fruits and vegetables), minerals (strong bones and blood: milk for calcium, green leafy veg for iron, iodized salt for iodine), water (all body processes), roughage (fibre for digestion: whole wheat, salads, fruits). (2) Balanced diet — eating a variety of foods in right proportions so all nutrients are present. An Indian thali with rice, dal, vegetable, chapati, curd, and fruit is balanced. Eating only rice is NOT balanced. Do not waste food. (3) Types of teeth — four types: incisors (chisel-shaped, cut and bite food at front), canines (pointed, tear and rip food), premolars (crush food), molars (flat and broad, grind and chew food at back). Children have 20 milk teeth, adults have 32 permanent teeth. (4) Structure of a tooth — crown (above gum), root (inside jaw), neck (where crown and root meet). Layers: enamel (hardest substance, outer covering of crown), dentine (beneath enamel, forms bulk of tooth), pulp (soft centre with nerves and blood vessels), cement (covers root, fixes tooth in jaw). (5) Dental care and cavities — cavity is a hole in tooth caused by bacteria feeding on sugar and producing acid that destroys enamel. Plaque is sticky film of bacteria on teeth. Prevent cavities: brush twice daily with fluoride toothpaste, floss, rinse after meals, eat less sugar, visit dentist every 6 months, eat calcium-rich foods (milk, curd, paneer, green veg). Misconceptions: 'butter and ghee are proteins because they come from milk' (butter and ghee are FATS, not proteins — paneer and milk are proteins), 'all teeth do the same job' (each type has a special shape and function — incisors cut, canines tear, molars grind), 'sweets cause cavities' without explaining how (the full chain is: sugar feeds bacteria, bacteria produce acid, acid destroys enamel, cavity forms), 'brushing once a day is enough' (brush TWICE — morning and before bed). Default width=720, height=560. Use named export (export function FoodTeethGame), NOT export default. Export interface FoodTeethGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

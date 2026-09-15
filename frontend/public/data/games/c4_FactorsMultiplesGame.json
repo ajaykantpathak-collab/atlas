@@ -1,0 +1,950 @@
+{
+  "gameFile": "FactorsMultiplesGame",
+  "classLevel": 4,
+  "cisceNodes": [
+    "c4_math_017",
+    "c4_math_018",
+    "c4_math_019",
+    "c4_math_020",
+    "c4_math_021",
+    "c4_math_022",
+    "c4_math_023"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "What are Factors? 🔍",
+      "text": "A factor is a whole number that divides another number exactly with NO remainder! Every multiplication fact gives a factor pair, like 3 x 4 = 12.",
+      "emoji": "🔍",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "A factor is a whole number that divides another number exactly with no remainder! Every multiplication fact gives a factor pair.",
+      "diagram": {
+        "type": "bar-chart",
+        "animate": true,
+        "data": {
+          "bars": [
+            {
+              "label": "1×3",
+              "value": 3
+            },
+            {
+              "label": "2×3",
+              "value": 6
+            },
+            {
+              "label": "3×3",
+              "value": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "What are Multiples? 📈",
+      "text": "A multiple is what you get when you multiply a number by 1, 2, 3, 4, and so on! Think of skip counting: multiples of 5 are 5, 10, 15, 20...",
+      "emoji": "📈",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "A multiple is what you get when you multiply a number by 1, 2, 3, 4, and so on! Think of skip counting.",
+      "diagram": {
+        "type": "factor-tree",
+        "animate": true,
+        "data": {
+          "number": 12,
+          "factors": [
+            3,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "title": "Prime & Composite Numbers ⭐",
+      "text": "A prime number has EXACTLY two factors: 1 and itself (like 2, 3, 5, 7). A composite number has MORE than two factors (like 4, 6, 8, 9, 12). Note: 1 is neither!",
+      "emoji": "⭐",
+      "bgColor": "from-purple-500 to-indigo-700",
+      "spoken": "A prime number has exactly two factors, 1 and itself. A composite number has more than two factors. Number 1 is neither!",
+      "diagram": {
+        "type": "place-value-chart",
+        "animate": true,
+        "data": {
+          "columns": [
+            "Crores",
+            "Lakhs",
+            "Thousands",
+            "Ones"
+          ],
+          "digits": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Divisibility Rules ⚡",
+      "text": "Quick shortcuts! Divisible by 2 if last digit is even. By 3 or 9 if sum of digits divides by 3 or 9. By 5 if last digit is 0 or 5. By 10 if last digit is 0!",
+      "emoji": "⚡",
+      "bgColor": "from-teal-500 to-cyan-600",
+      "spoken": "Quick shortcuts! Divisible by 2 if last digit is even. By 3 or 9 if sum of digits divides by 3 or 9. By 5 if last digit is 0 or 5.",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "HCF & LCM 🎯",
+      "text": "HCF is the Highest Common Factor — the largest number that divides both. LCM is the Lowest Common Multiple — the smallest number both numbers go into!",
+      "emoji": "🎯",
+      "bgColor": "from-emerald-500 to-teal-700",
+      "spoken": "HCF is the Highest Common Factor, the largest number that divides both. LCM is the Lowest Common Multiple, the smallest number both go into!",
+      "diagram": {
+        "type": "factor-tree",
+        "animate": true,
+        "data": {
+          "number": 12,
+          "factors": [
+            3,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is a FACTOR of a number?",
+      "answer": "A whole number that divides the number exactly with no remainder",
+      "options": [
+        "A whole number that divides the number exactly with no remainder",
+        "A number that is always bigger than the given number",
+        "A number you add to get the given number"
+      ],
+      "hint": "Think about division: when you divide by a factor, nothing is left over!",
+      "misconception": "A factor divides a number EXACTLY with remainder 0! It is not just any smaller number or an addition sum.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A whole number that divides the number exactly with no remainder",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A number that is always bigger than the given number",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A number you add to get the given number",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A whole number that divides the number exactly with no remainder",
+          "A number that is always bigger than the given number"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each number to show if it is a factor of 12 or not!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Factors of 12 divide 12 with no remainder: 1, 2, 3, 4, 6, 12. 5, 7, 8, 9 do not!",
+      "misconception": "Not every smaller number is a factor! Only numbers that divide 12 exactly (remainder 0) are factors.",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "f2",
+            "label": "2",
+            "correctBin": "factor"
+          },
+          {
+            "id": "f5",
+            "label": "5",
+            "correctBin": "not-factor"
+          },
+          {
+            "id": "f4",
+            "label": "4",
+            "correctBin": "factor"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "f2",
+          "kind": "circle",
+          "label": "2",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "factor",
+          "interaction": "drag-to-bin",
+          "targetBin": "factor"
+        },
+        {
+          "id": "f5",
+          "kind": "circle",
+          "label": "5",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "not-factor",
+          "interaction": "drag-to-bin",
+          "targetBin": "not-factor"
+        },
+        {
+          "id": "f4",
+          "kind": "circle",
+          "label": "4",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "factor",
+          "interaction": "drag-to-bin",
+          "targetBin": "factor"
+        },
+        {
+          "id": "f7",
+          "kind": "circle",
+          "label": "7",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "not-factor",
+          "interaction": "drag-to-bin",
+          "targetBin": "not-factor"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "f2",
+          "label": "2",
+          "emoji": "",
+          "correctBin": "factor"
+        },
+        {
+          "id": "f5",
+          "label": "5",
+          "emoji": "",
+          "correctBin": "not-factor"
+        },
+        {
+          "id": "f4",
+          "label": "4",
+          "emoji": "",
+          "correctBin": "factor"
+        },
+        {
+          "id": "f7",
+          "label": "7",
+          "emoji": "",
+          "correctBin": "not-factor"
+        }
+      ],
+      "bins": [
+        {
+          "id": "factor",
+          "label": "Factor of 12 ✅",
+          "color": "#10B981"
+        },
+        {
+          "id": "not-factor",
+          "label": "Not a Factor ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is a PRIME number?",
+      "answer": "A number greater than 1 with exactly two factors: 1 and itself",
+      "options": [
+        "A number greater than 1 with exactly two factors: 1 and itself",
+        "A number with many factors",
+        "A number that is always even"
+      ],
+      "hint": "Count the factors! Prime numbers have only two factors.",
+      "misconception": "A prime number has EXACTLY two factors (1 and itself). 2 is even and prime, while 9 is odd and composite!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A number greater than 1 with exactly two factors: 1 and itself",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A number with many factors",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A number that is always even",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A number greater than 1 with exactly two factors: 1 and itself",
+          "A number with many factors"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each number to Prime or Composite!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Prime: 2, 3, 5, 7, 11. Composite: 4, 6, 8, 9, 12. Check the factor count!",
+      "misconception": "Being odd or even does not decide prime vs composite! 9 is odd but composite (factors 1, 3, 9). 2 is even and prime!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "p7",
+            "label": "7 (Prime)",
+            "correctBin": "prime"
+          },
+          {
+            "id": "c9",
+            "label": "9 (Composite)",
+            "correctBin": "composite"
+          },
+          {
+            "id": "p2",
+            "label": "2 (Prime)",
+            "correctBin": "prime"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "p7",
+          "kind": "circle",
+          "label": "7 (Prime)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "prime",
+          "interaction": "drag-to-bin",
+          "targetBin": "prime"
+        },
+        {
+          "id": "c9",
+          "kind": "circle",
+          "label": "9 (Composite)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "composite",
+          "interaction": "drag-to-bin",
+          "targetBin": "composite"
+        },
+        {
+          "id": "p2",
+          "kind": "circle",
+          "label": "2 (Prime)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "prime",
+          "interaction": "drag-to-bin",
+          "targetBin": "prime"
+        },
+        {
+          "id": "c12",
+          "kind": "circle",
+          "label": "12 (Composite)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "composite",
+          "interaction": "drag-to-bin",
+          "targetBin": "composite"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "p7",
+          "label": "7 (Prime)",
+          "emoji": "",
+          "correctBin": "prime"
+        },
+        {
+          "id": "c9",
+          "label": "9 (Composite)",
+          "emoji": "",
+          "correctBin": "composite"
+        },
+        {
+          "id": "p2",
+          "label": "2 (Prime)",
+          "emoji": "",
+          "correctBin": "prime"
+        },
+        {
+          "id": "c12",
+          "label": "12 (Composite)",
+          "emoji": "",
+          "correctBin": "composite"
+        }
+      ],
+      "bins": [
+        {
+          "id": "prime",
+          "label": "Prime Number ⭐",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "composite",
+          "label": "Composite Number 📦",
+          "color": "#EC4899"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of these numbers is divisible by BOTH 2 and 5?",
+      "answer": "10",
+      "options": [
+        "10",
+        "7",
+        "13"
+      ],
+      "hint": "Divisible by 2 means even (ends in 0,2,4,6,8). Divisible by 5 means ends in 0 or 5. Which number ends in 0?",
+      "misconception": "A number divisible by both 2 and 5 must end in 0! 10 ends in 0, so it passes both tests.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "10",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "7",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "13",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "10",
+          "7"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each number to the correct divisibility test it passes!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Divisible by 2: even ending. By 3: digit sum divides by 3. By 5: ends in 0 or 5. By 10: ends in 0.",
+      "misconception": "Check the last digit for 2, 5, 10! Check the digit sum for 3!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "d8",
+            "label": "8 (Divisible by 2)",
+            "correctBin": "div2"
+          },
+          {
+            "id": "d15",
+            "label": "15 (Divisible by 3)",
+            "correctBin": "div3"
+          },
+          {
+            "id": "d10",
+            "label": "10 (Divisible by 5)",
+            "correctBin": "div5"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "d8",
+          "kind": "circle",
+          "label": "8 (Divisible by 2)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "div2",
+          "interaction": "drag-to-bin",
+          "targetBin": "div2"
+        },
+        {
+          "id": "d15",
+          "kind": "circle",
+          "label": "15 (Divisible by 3)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "div3",
+          "interaction": "drag-to-bin",
+          "targetBin": "div3"
+        },
+        {
+          "id": "d10",
+          "kind": "circle",
+          "label": "10 (Divisible by 5)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "div5",
+          "interaction": "drag-to-bin",
+          "targetBin": "div5"
+        },
+        {
+          "id": "d50",
+          "kind": "circle",
+          "label": "50 (Divisible by 10)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "div10",
+          "interaction": "drag-to-bin",
+          "targetBin": "div10"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "d8",
+          "label": "8 (Divisible by 2)",
+          "emoji": "",
+          "correctBin": "div2"
+        },
+        {
+          "id": "d15",
+          "label": "15 (Divisible by 3)",
+          "emoji": "",
+          "correctBin": "div3"
+        },
+        {
+          "id": "d10",
+          "label": "10 (Divisible by 5)",
+          "emoji": "",
+          "correctBin": "div5"
+        },
+        {
+          "id": "d50",
+          "label": "50 (Divisible by 10)",
+          "emoji": "",
+          "correctBin": "div10"
+        }
+      ],
+      "bins": [
+        {
+          "id": "div2",
+          "label": "Divisible by 2",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "div3",
+          "label": "Divisible by 3",
+          "color": "#10B981"
+        },
+        {
+          "id": "div5",
+          "label": "Divisible by 5",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "div10",
+          "label": "Divisible by 10",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag the prime factorisation steps of 12 in logical order!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Start with 12, divide by smallest prime 2, then split 6 into 2 x 3!",
+      "misconception": "Prime factorisation breaks a composite number down step by step until every factor is a prime number!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "s1",
+            "label": "1. Start with 12",
+            "correctBin": "step1"
+          },
+          {
+            "id": "s2",
+            "label": "2. 12 = 2 x 6",
+            "correctBin": "step2"
+          },
+          {
+            "id": "s3",
+            "label": "3. Split 6 = 2 x 3",
+            "correctBin": "step3"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "s1",
+          "kind": "star",
+          "label": "1. Start with 12",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ffd700",
+          "category": "step1",
+          "interaction": "drag-to-bin",
+          "targetBin": "step1"
+        },
+        {
+          "id": "s2",
+          "kind": "circle",
+          "label": "2. 12 = 2 x 6",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "step2",
+          "interaction": "drag-to-bin",
+          "targetBin": "step2"
+        },
+        {
+          "id": "s3",
+          "kind": "circle",
+          "label": "3. Split 6 = 2 x 3",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "step3",
+          "interaction": "drag-to-bin",
+          "targetBin": "step3"
+        },
+        {
+          "id": "s4",
+          "kind": "circle",
+          "label": "4. 12 = 2 x 2 x 3",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "step4",
+          "interaction": "drag-to-bin",
+          "targetBin": "step4"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s1",
+          "label": "1. Start with 12",
+          "emoji": "",
+          "correctBin": "step1"
+        },
+        {
+          "id": "s2",
+          "label": "2. 12 = 2 x 6",
+          "emoji": "",
+          "correctBin": "step2"
+        },
+        {
+          "id": "s3",
+          "label": "3. Split 6 = 2 x 3",
+          "emoji": "",
+          "correctBin": "step3"
+        },
+        {
+          "id": "s4",
+          "label": "4. 12 = 2 x 2 x 3",
+          "emoji": "",
+          "correctBin": "step4"
+        }
+      ],
+      "bins": [
+        {
+          "id": "step1",
+          "label": "Step 1: Root",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "step2",
+          "label": "Step 2: First Split",
+          "color": "#10B981"
+        },
+        {
+          "id": "step3",
+          "label": "Step 3: Primes",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "step4",
+          "label": "Step 4: Final Product",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag each number pair to its correct HCF or LCM!",
+      "answer": "sort",
+      "options": [],
+      "hint": "HCF of 12 and 18 is 6. LCM of 4 and 6 is 12. HCF of 10 and 15 is 5!",
+      "misconception": "HCF is the largest shared factor (goes into both), while LCM is the smallest shared multiple (both go into it)!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "h12-18",
+            "label": "HCF(12, 18) = 6",
+            "correctBin": "hcf"
+          },
+          {
+            "id": "l4-6",
+            "label": "LCM(4, 6) = 12",
+            "correctBin": "lcm"
+          },
+          {
+            "id": "h10-15",
+            "label": "HCF(10, 15) = 5",
+            "correctBin": "hcf"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "h12-18",
+          "kind": "circle",
+          "label": "HCF(12, 18) = 6",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "hcf",
+          "interaction": "drag-to-bin",
+          "targetBin": "hcf"
+        },
+        {
+          "id": "l4-6",
+          "kind": "circle",
+          "label": "LCM(4, 6) = 12",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "lcm",
+          "interaction": "drag-to-bin",
+          "targetBin": "lcm"
+        },
+        {
+          "id": "h10-15",
+          "kind": "circle",
+          "label": "HCF(10, 15) = 5",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "hcf",
+          "interaction": "drag-to-bin",
+          "targetBin": "hcf"
+        },
+        {
+          "id": "l3-5",
+          "kind": "circle",
+          "label": "LCM(3, 5) = 15",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "lcm",
+          "interaction": "drag-to-bin",
+          "targetBin": "lcm"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "h12-18",
+          "label": "HCF(12, 18) = 6",
+          "emoji": "",
+          "correctBin": "hcf"
+        },
+        {
+          "id": "l4-6",
+          "label": "LCM(4, 6) = 12",
+          "emoji": "",
+          "correctBin": "lcm"
+        },
+        {
+          "id": "h10-15",
+          "label": "HCF(10, 15) = 5",
+          "emoji": "",
+          "correctBin": "hcf"
+        },
+        {
+          "id": "l3-5",
+          "label": "LCM(3, 5) = 15",
+          "emoji": "",
+          "correctBin": "lcm"
+        }
+      ],
+      "bins": [
+        {
+          "id": "hcf",
+          "label": "HCF (Highest Common Factor)",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "lcm",
+          "label": "LCM (Lowest Common Multiple)",
+          "color": "#10B981"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_math_017",
+    "region": "Mathland",
+    "mapX": 1.12,
+    "mapY": 1.23,
+    "icon": "🔢",
+    "prerequisites": [
+      "c4_math_018"
+    ]
+  },
+  "subject": "maths"
+}

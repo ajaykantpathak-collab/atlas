@@ -1,0 +1,45 @@
+{
+  "gameTitle": "DataPatternsGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\DataPatternsGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part36.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part37.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part38.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part39.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part40.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_math_036 (Data collection and representation in pictograph and tables), c3_math_037 (Classification and comparison of data), c3_math_038 (Recording data using tally marks and drawing conclusions), c3_math_039 (Patterns with unit of repeat), c3_math_040 (Extension of pattern using some rule)",
+  "mascotName": "Data Detective Dinesh",
+  "mascotDescription": "a friendly data detective with a magnifying glass, a clipboard with charts, a tally counter, and a pattern puzzle. Custom SVG, not an owl.",
+  "sceneDescription": "data and patterns scene with sky gradient, pictographs, tally charts, bar graphs, pattern blocks, and a detective board",
+  "svgObjects": [
+    { "name": "PictographIcon", "description": "a pictograph with picture symbols" },
+    { "name": "TallyMarksIcon", "description": "tally marks (4 vertical + 1 diagonal)" },
+    { "name": "BarChartIcon", "description": "a bar chart showing data" },
+    { "name": "TableIcon", "description": "a data table with rows and columns" },
+    { "name": "ClipboardIcon", "description": "a clipboard for data collection" },
+    { "name": "MagnifierIcon", "description": "a magnifying glass (analyzing data)" },
+    { "name": "PatternBlockIcon", "description": "a pattern block (repeating unit)" },
+    { "name": "ShapePatternIcon", "description": "a shape pattern (circle-square-circle...)" },
+    { "name": "NumberPatternIcon", "description": "a number pattern (2,4,6,8...)" },
+    { "name": "ColorPatternIcon", "description": "a color pattern (red-blue-red...)" },
+    { "name": "ArrowIcon", "description": "an arrow showing pattern direction" },
+    { "name": "StarIcon", "description": "a star reward" },
+    { "name": "QuestionIcon", "description": "a question mark (what comes next?)" },
+    { "name": "RuleIcon", "description": "a rule symbol (pattern rule)" }
+  ],
+  "challengeTypes": [
+    "identify: What is a PICTOGRAPH? (A graph that uses pictures or symbols to show data vs A graph that uses only numbers vs A type of map)",
+    "identify: What is DATA? (Information we collect and organize vs A type of animal vs A type of shape)",
+    "sort: Drag each data representation to its correct description (Pictograph: uses pictures to show data | Tally marks: uses lines to count, 4 lines + 1 cross | Table: organizes data in rows and columns | Bar chart: uses bars of different heights to show data)",
+    "identify: How do you write the number 7 in tally marks? (5 with a cross + 2 more lines vs 7 straight lines vs 7 circles)",
+    "sort: Drag each tally count to its correct number (4 vertical lines = 4 | 4 lines + 1 cross = 5 | 5 + 2 more = 7 | 5 + 5 = 10 | 5 + 5 + 3 = 13)",
+    "identify: What comes next in the pattern: 2, 4, 6, 8, __? (10 vs 9 vs 16)",
+    "sort: Drag each pattern to its correct rule and next term (2,4,6,8: add 2, next is 10 | 5,10,15,20: add 5, next is 25 | 10,20,30,40: add 10, next is 50 | 1,3,5,7: add 2, next is 9 | 100,90,80: subtract 10, next is 70)",
+    "sort: Drag each shape pattern to what comes next (Circle-Square-Circle-Square-__: Circle | Red-Blue-Red-Blue-__: Red | Triangle-Triangle-Circle-Triangle-Triangle-__: Circle | Star-Star-Star-Dot-Star-Star-Star-__: Dot)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. Use speechManager.speakNumber() for reading numbers aloud. The game must teach: (1) Data collection and pictographs — data is information we collect. We collect data by counting, asking questions, or observing. A pictograph uses pictures/symbols to show data. Example: 🍎🍎🍎 = 3 apples, 🍎🍎🍎🍎🍎 = 5 apples. Each picture = 1 item (or a set number). Pictographs make data easy to read. (2) Classification and comparison of data — classify data into groups (e.g. fruits: apples, bananas, mangoes). Compare groups: which has most? Which has least? How many more apples than bananas? Data tables organize information in rows and columns. (3) Tally marks — tally marks are a way to count. Make 4 vertical lines (||||), the 5th line is a diagonal cross through them. This makes groups of 5, easy to count. Example: 7 = |||| (5) + || (2) = 7. 12 = ||||  ||||  || (two groups of 5 + 2). (4) Patterns with unit of repeat — a pattern has a repeating unit. Example: Red-Blue-Red-Blue-Red-Blue, the unit is 'Red-Blue'. Shape patterns: Circle-Square-Circle-Square, unit is 'Circle-Square'. Number patterns: 2,4,6,8,10, unit is 'add 2'. (5) Extending patterns using a rule — find the rule, then continue. Rules: add 2 (2,4,6,8,10...), add 5 (5,10,15,20,25...), add 10 (10,20,30,40,50...), subtract 10 (100,90,80,70...). To find the rule: look at the difference between consecutive terms. To extend: apply the rule to get the next term. Misconceptions: 'tally marks are just random lines' (tally marks are organized in groups of 5 — 4 vertical + 1 diagonal — for easy counting), 'a pattern can be anything' (a pattern has a RULE that repeats — random arrangements are not patterns), '2,4,6,8 next is 9' (the rule is add 2, so next is 10, not 9), 'pictograph and bar chart are the same' (pictograph uses pictures, bar chart uses bars — both show data but differently), 'data is only numbers' (data can be pictures, words, or observations — it is any information collected). Default width=720, height=560. Use named export (export function DataPatternsGame), NOT export default. Export interface DataPatternsGameProps with width?, height?, onComplete?: (score: number) => void."
+}

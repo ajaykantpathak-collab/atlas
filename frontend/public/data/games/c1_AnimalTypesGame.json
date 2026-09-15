@@ -1,0 +1,711 @@
+{
+  "gameFile": "AnimalTypesGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_bio_019",
+    "c1_bio_020",
+    "c1_bio_021",
+    "c1_bio_022"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Pet, Wild, and Domestic Animals 🐾",
+      "text": "Animals live in different places! Pet animals live with us inside our homes (dog, cat). Wild animals live freely in forests and jungles with no owner (lion, tiger). Domestic animals live on farms and help us (cow, goat).",
+      "emoji": "🦁",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Animals live in different places! Pet animals live with us inside our homes, wild animals live in forests, and domestic animals live on farms!",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Grasshopper",
+            "Frog",
+            "Snake"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Animal Habitats — Where They Live 🌿",
+      "text": "A habitat is an animal home! Fish swim in water, land animals walk on the ground (cows, elephants), and birds fly high in the air!",
+      "emoji": "🌊",
+      "bgColor": "from-cyan-400 to-blue-500",
+      "spoken": "A habitat is an animal home! Fish swim in water, land animals walk on the ground, and birds fly high in the air!",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Grasshopper",
+            "Frog",
+            "Snake"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Special Body Parts 🦅",
+      "text": "Every animal has special body parts! Birds have wings and beaks to fly and eat. Fish have fins and scales to swim. Elephants have long trunks!",
+      "emoji": "🐘",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Every animal has special body parts! Birds have wings and beaks, fish have fins and scales, and elephants have long trunks!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Care and Compassion ❤️",
+      "text": "Pets depend on us! They need healthy food, fresh water, a clean shelter, and lots of love. Never hurt or tease animals — they feel pain just like us!",
+      "emoji": "🐶",
+      "bgColor": "from-pink-400 to-rose-500",
+      "spoken": "Pets depend on us! They need healthy food, fresh water, a clean shelter, and lots of love. Never hurt or tease animals!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Ready for Zookeeper Duty? ⭐",
+      "text": "Now you are ready to be an animal expert! Help Zookeeper Zoya sort animals, match habitats, name body parts, and show kindness!",
+      "emoji": "⭐",
+      "bgColor": "from-purple-400 to-indigo-500",
+      "spoken": "Now you are ready to be an animal expert! Help Zookeeper Zoya sort animals, match habitats, and show kindness!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_pet",
+      "question": "Which animal is a PET that lives with a family in a home?",
+      "answer": "Dog",
+      "options": [
+        "Dog",
+        "Lion",
+        "Tiger"
+      ],
+      "hint": "Think: which of these animals lives inside our house and wags its tail when we come home?",
+      "misconception": "A dog is a pet because it shares our home and has an owner! Lions and tigers live freely in the forest and are wild animals!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Dog",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Lion",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Tiger",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Dog",
+          "Lion"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_wild",
+      "question": "Which animal is WILD and lives freely in the forest with no owner?",
+      "answer": "Lion",
+      "options": [
+        "Cat",
+        "Lion",
+        "Cow"
+      ],
+      "hint": "Think: which of these animals rests under a tree in the Gir Forest and finds its own food?",
+      "misconception": "A lion is a wild animal because it lives in the jungle with no owner! Cats can be pets and cows are domestic farm animals!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Cat",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Lion",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Cow",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Cat",
+          "Lion"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_domestic",
+      "question": "Which animal is DOMESTIC and reared on a farm for milk?",
+      "answer": "Cow",
+      "options": [
+        "Tiger",
+        "Cow",
+        "Parrot"
+      ],
+      "hint": "Think: which animal lives on a village farm and gives us fresh milk?",
+      "misconception": "A cow is a domestic animal reared on a farm for milk! Tigers are wild forest animals, and parrots can be pets or wild birds!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Tiger",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Cow",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Parrot",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Tiger",
+          "Cow"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_animals",
+      "question": "Drag each animal to its correct group! Pet, Wild, or Domestic?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Pet = dog (at home). Wild = lion (in jungle). Domestic = cow (on farm)!",
+      "misconception": "Remember: pets live in homes with owners, wild animals live freely in forests, and domestic animals live on farms for useful work or milk!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Pet = dog (at home). Wild = lion (in jungle). Domestic = cow (on farm)!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "dog",
+          "kind": "circle",
+          "label": "Pet Dog",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pet",
+          "interaction": "drag-to-bin",
+          "targetBin": "pet"
+        },
+        {
+          "id": "lion",
+          "kind": "circle",
+          "label": "Wild Lion",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "wild",
+          "interaction": "drag-to-bin",
+          "targetBin": "wild"
+        },
+        {
+          "id": "cow",
+          "kind": "circle",
+          "label": "Domestic Cow",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "domestic",
+          "interaction": "drag-to-bin",
+          "targetBin": "domestic"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "dog",
+          "label": "Pet Dog",
+          "emoji": "🐕",
+          "correctBin": "pet"
+        },
+        {
+          "id": "lion",
+          "label": "Wild Lion",
+          "emoji": "🦁",
+          "correctBin": "wild"
+        },
+        {
+          "id": "cow",
+          "label": "Domestic Cow",
+          "emoji": "🐄",
+          "correctBin": "domestic"
+        }
+      ],
+      "bins": [
+        {
+          "id": "pet",
+          "label": "Pet (Home) 🏠",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "wild",
+          "label": "Wild (Forest) 🌲",
+          "color": "#10B981"
+        },
+        {
+          "id": "domestic",
+          "label": "Domestic (Farm) 🌾",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "identify_habitat",
+      "question": "Where does a FISH naturally live and swim?",
+      "answer": "Water",
+      "options": [
+        "Water",
+        "Land",
+        "Air"
+      ],
+      "hint": "Think: where do fish swim all day using their fins?",
+      "misconception": "A fish lives in water! Water is its natural habitat. Fish cannot walk on land or fly in the air!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Water",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Land",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Air",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Land",
+          "Water"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_bodypart",
+      "question": "Which body part helps a BIRD fly in the air?",
+      "answer": "Wings",
+      "options": [
+        "Wings",
+        "Fins",
+        "Hooves"
+      ],
+      "hint": "Think: what does a pigeon or sparrow flap to soar through the sky?",
+      "misconception": "Birds have wings to fly! Fish have fins for swimming, and cows have hooves for walking on land!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Wings",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Fins",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Hooves",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Wings",
+          "Fins"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_habitats",
+      "question": "Drag each animal to its correct habitat (Water, Land, or Air)!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Fish = water, Cow = land, Bird = air!",
+      "misconception": "Fish swim in water, land animals walk on the ground like cows, and birds fly in the air!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. Fish = water, Cow = land, Bird = air!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "fish",
+          "kind": "circle",
+          "label": "Fish",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "water",
+          "interaction": "drag-to-bin",
+          "targetBin": "water"
+        },
+        {
+          "id": "cow",
+          "kind": "circle",
+          "label": "Cow",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "land",
+          "interaction": "drag-to-bin",
+          "targetBin": "land"
+        },
+        {
+          "id": "bird",
+          "kind": "circle",
+          "label": "Bird",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "air",
+          "interaction": "drag-to-bin",
+          "targetBin": "air"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "fish",
+          "label": "Fish",
+          "emoji": "🐟",
+          "correctBin": "water"
+        },
+        {
+          "id": "cow",
+          "label": "Cow",
+          "emoji": "🐄",
+          "correctBin": "land"
+        },
+        {
+          "id": "bird",
+          "label": "Bird",
+          "emoji": "🐦",
+          "correctBin": "air"
+        }
+      ],
+      "bins": [
+        {
+          "id": "water",
+          "label": "Water 💧",
+          "color": "#06B6D4"
+        },
+        {
+          "id": "land",
+          "label": "Land 🌍",
+          "color": "#84CC16"
+        },
+        {
+          "id": "air",
+          "label": "Air ☁️",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "sort_parts",
+      "question": "Drag each special body part to the correct animal!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Bird = wings, Fish = scales, Elephant = trunk!",
+      "misconception": "Birds have wings for flying, fish have scales for swimming, and elephants have a long trunk for breathing and drinking!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Bird = wings, Fish = scales, Elephant = trunk!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "wings",
+          "kind": "circle",
+          "label": "Wings",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bird",
+          "interaction": "drag-to-bin",
+          "targetBin": "bird"
+        },
+        {
+          "id": "scales",
+          "kind": "circle",
+          "label": "Scales",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fish",
+          "interaction": "drag-to-bin",
+          "targetBin": "fish"
+        },
+        {
+          "id": "trunk",
+          "kind": "circle",
+          "label": "Trunk",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "elephant",
+          "interaction": "drag-to-bin",
+          "targetBin": "elephant"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "wings",
+          "label": "Wings",
+          "emoji": "🪶",
+          "correctBin": "bird"
+        },
+        {
+          "id": "scales",
+          "label": "Scales",
+          "emoji": "✨",
+          "correctBin": "fish"
+        },
+        {
+          "id": "trunk",
+          "label": "Trunk",
+          "emoji": "🐘",
+          "correctBin": "elephant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bird",
+          "label": "Bird 🐦",
+          "color": "#EC4899"
+        },
+        {
+          "id": "fish",
+          "label": "Fish 🐠",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "elephant",
+          "label": "Elephant 🐘",
+          "color": "#F97316"
+        }
+      ]
+    }
+  ],
+  "theme": "zoo",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_bio_019",
+    "region": "Biosphere",
+    "mapX": 0.26,
+    "mapY": 0.39,
+    "icon": "🌱",
+    "prerequisites": [
+      "c1_bio_020"
+    ]
+  },
+  "subject": "biology"
+}

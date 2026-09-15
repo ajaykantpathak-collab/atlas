@@ -1,0 +1,278 @@
+[
+    {
+        "Sim":  "C10_PhysicsEfficiencyMachinesetaSim",
+        "Class":  10,
+        "NodeIds":  "c10_phy_011,c10_phy_012,c10_phy_013,c10_phy_014,c10_phy_015,c10_phy_016,c10_phy_017,c10_phy_018,c10_phy_019,c10_phy_020",
+        "Count":  10
+    },
+    {
+        "Sim":  "C10_PhysicsHouseWiringPowerSim",
+        "Class":  10,
+        "NodeIds":  "c10_phy_031,c10_phy_032,c10_phy_033,c10_phy_034,c10_phy_035,c10_phy_036,c10_phy_037,c10_phy_038,c10_phy_039,c10_phy_040,c10_phy_041,c10_phy_042",
+        "Count":  12
+    },
+    {
+        "Sim":  "C10_PhysicsScatteringLightSim",
+        "Class":  10,
+        "NodeIds":  "c10_phy_021,c10_phy_022,c10_phy_023,c10_phy_024,c10_phy_025,c10_phy_026,c10_phy_027,c10_phy_028,c10_phy_029,c10_phy_030",
+        "Count":  10
+    },
+    {
+        "Sim":  "C10_PhysicsTurningEffectForceSim",
+        "Class":  10,
+        "NodeIds":  "c10_phy_001,c10_phy_002,c10_phy_003,c10_phy_004,c10_phy_005,c10_phy_006,c10_phy_007,c10_phy_008,c10_phy_009,c10_phy_010",
+        "Count":  10
+    },
+    {
+        "Sim":  "C11_PhysicsBernoullisTheoremSim",
+        "Class":  11,
+        "NodeIds":  "c11_phy_061,c11_phy_062,c11_phy_063,c11_phy_064,c11_phy_065,c11_phy_066,c11_phy_067,c11_phy_068,c11_phy_069,c11_phy_070",
+        "Count":  10
+    },
+    {
+        "Sim":  "C11_PhysicsConservationMechanicalEnergySim",
+        "Class":  11,
+        "NodeIds":  "c11_phy_031,c11_phy_032,c11_phy_033,c11_phy_034,c11_phy_035,c11_phy_036,c11_phy_037,c11_phy_038,c11_phy_039,c11_phy_040",
+        "Count":  10
+    },
+    {
+        "Sim":  "C11_PhysicsEquilibriumConcurrentForcesSim",
+        "Class":  11,
+        "NodeIds":  "c11_phy_021,c11_phy_022,c11_phy_023,c11_phy_024,c11_phy_025,c11_phy_026,c11_phy_027,c11_phy_028,c11_phy_029,c11_phy_030",
+        "Count":  10
+    },
+    {
+        "Sim":  "C11_PhysicsGeostationarySatellitesSim",
+        "Class":  11,
+        "NodeIds":  "c11_phy_051,c11_phy_052,c11_phy_053,c11_phy_054,c11_phy_055,c11_phy_056,c11_phy_057,c11_phy_058,c11_phy_059,c11_phy_060",
+        "Count":  10
+    },
+    {
+        "Sim":  "C11_PhysicsHeatTransferRadiationSim",
+        "Class":  11,
+        "NodeIds":  "c11_phy_071,c11_phy_072,c11_phy_073,c11_phy_074,c11_phy_075,c11_phy_076,c11_phy_077,c11_phy_078,c11_phy_079,c11_phy_080",
+        "Count":  10
+    },
+    {
+        "Sim":  "C11_PhysicsParallelPerpendicularAxesSim",
+        "Class":  11,
+        "NodeIds":  "c11_phy_041,c11_phy_042,c11_phy_043,c11_phy_044,c11_phy_045,c11_phy_046,c11_phy_047,c11_phy_048,c11_phy_049,c11_phy_050",
+        "Count":  10
+    },
+    {
+        "Sim":  "C11_PhysicsRefrigeratorCoefficientPerformanceSim",
+        "Class":  11,
+        "NodeIds":  "c11_phy_101,c11_phy_102,c11_phy_103,c11_phy_104,c11_phy_105,c11_phy_106,c11_phy_107",
+        "Count":  7
+    },
+    {
+        "Sim":  "C11_PhysicsResolutionVectorsRectangularSim",
+        "Class":  11,
+        "NodeIds":  "c11_phy_011,c11_phy_012,c11_phy_013,c11_phy_014,c11_phy_015,c11_phy_016,c11_phy_017,c11_phy_018,c11_phy_019,c11_phy_020",
+        "Count":  10
+    },
+    {
+        "Sim":  "C11_PhysicsSimplePendulumSim",
+        "Class":  11,
+        "NodeIds":  "c11_phy_091,c11_phy_092,c11_phy_093,c11_phy_094,c11_phy_095,c11_phy_096,c11_phy_097,c11_phy_098,c11_phy_099,c11_phy_100",
+        "Count":  10
+    },
+    {
+        "Sim":  "C11_PhysicsSystemsUnitscgsSim",
+        "Class":  11,
+        "NodeIds":  "c11_phy_001,c11_phy_002,c11_phy_003,c11_phy_004,c11_phy_005,c11_phy_006,c11_phy_007,c11_phy_008,c11_phy_009,c11_phy_010",
+        "Count":  10
+    },
+    {
+        "Sim":  "C11_PhysicsWorkDoneAdiabaticSim",
+        "Class":  11,
+        "NodeIds":  "c11_phy_081,c11_phy_082,c11_phy_083,c11_phy_084,c11_phy_085,c11_phy_086,c11_phy_087,c11_phy_088,c11_phy_089,c11_phy_090",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsAmperesCircuitalSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_041,c12_phy_042,c12_phy_043,c12_phy_044,c12_phy_045,c12_phy_046,c12_phy_047,c12_phy_048,c12_phy_049,c12_phy_050",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsBrewstersPolarizationReflectionSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_131,c12_phy_132,c12_phy_133,c12_phy_134,c12_phy_135,c12_phy_136,c12_phy_137,c12_phy_138,c12_phy_139,c12_phy_140",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsDispersionThroughPrismSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_081,c12_phy_082,c12_phy_083,c12_phy_084,c12_phy_085,c12_phy_086,c12_phy_087,c12_phy_088,c12_phy_089,c12_phy_090",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsElectricChargestypesSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_001,c12_phy_002,c12_phy_003,c12_phy_004,c12_phy_005,c12_phy_006,c12_phy_007,c12_phy_008,c12_phy_009,c12_phy_010",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsElectricFluxSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_011,c12_phy_012,c12_phy_013,c12_phy_014,c12_phy_015,c12_phy_016,c12_phy_017,c12_phy_018,c12_phy_019,c12_phy_020",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsElectrostaticSystemChargesSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_021,c12_phy_022,c12_phy_023,c12_phy_024,c12_phy_025,c12_phy_026,c12_phy_027,c12_phy_028,c12_phy_029,c12_phy_030",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsEnergyBandsSolidsSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_111,c12_phy_112,c12_phy_113,c12_phy_114,c12_phy_115,c12_phy_116,c12_phy_117,c12_phy_118,c12_phy_119,c12_phy_120",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsEnergyLevelsHydrogenSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_101,c12_phy_102,c12_phy_103,c12_phy_104,c12_phy_105,c12_phy_106,c12_phy_107,c12_phy_108,c12_phy_109,c12_phy_110",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsGeneratorSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_071,c12_phy_072,c12_phy_073,c12_phy_074,c12_phy_075,c12_phy_076,c12_phy_077,c12_phy_078,c12_phy_079,c12_phy_080",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsInternalResistanceSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_031,c12_phy_032,c12_phy_033,c12_phy_034,c12_phy_035,c12_phy_036,c12_phy_037,c12_phy_038,c12_phy_039,c12_phy_040",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsMagneticFieldLinesSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_051,c12_phy_052,c12_phy_053,c12_phy_054,c12_phy_055,c12_phy_056,c12_phy_057,c12_phy_058,c12_phy_059,c12_phy_060",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsSelfinductionSelfinductanceSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_061,c12_phy_062,c12_phy_063,c12_phy_064,c12_phy_065,c12_phy_066,c12_phy_067,c12_phy_068,c12_phy_069,c12_phy_070",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsSingleSlitDiffractionSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_091,c12_phy_092,c12_phy_093,c12_phy_094,c12_phy_095,c12_phy_096,c12_phy_097,c12_phy_098,c12_phy_099,c12_phy_100",
+        "Count":  10
+    },
+    {
+        "Sim":  "C12_PhysicsZenerDiodeSim",
+        "Class":  12,
+        "NodeIds":  "c12_phy_121,c12_phy_122,c12_phy_123,c12_phy_124,c12_phy_125,c12_phy_126,c12_phy_127,c12_phy_128,c12_phy_129,c12_phy_130",
+        "Count":  10
+    },
+    {
+        "Sim":  "C6_PhysicsPhysicalQuantitiesUnitsSim",
+        "Class":  6,
+        "NodeIds":  "c6_phy_001,c6_phy_002,c6_phy_003,c6_phy_004,c6_phy_005,c6_phy_006,c6_phy_007,c6_phy_008,c6_phy_009,c6_phy_010",
+        "Count":  10
+    },
+    {
+        "Sim":  "C6_PhysicsPitchSoundFrequencySim",
+        "Class":  6,
+        "NodeIds":  "c6_phy_031,c6_phy_032,c6_phy_033,c6_phy_034,c6_phy_035,c6_phy_036",
+        "Count":  6
+    },
+    {
+        "Sim":  "C6_PhysicsRectilinearPropagationLightSim",
+        "Class":  6,
+        "NodeIds":  "c6_phy_021,c6_phy_022,c6_phy_023,c6_phy_024,c6_phy_025,c6_phy_026,c6_phy_027,c6_phy_028,c6_phy_029,c6_phy_030",
+        "Count":  10
+    },
+    {
+        "Sim":  "C6_PhysicsUniformNonuniformMotionSim",
+        "Class":  6,
+        "NodeIds":  "c6_phy_011,c6_phy_012,c6_phy_013,c6_phy_014,c6_phy_015,c6_phy_016,c6_phy_017,c6_phy_018,c6_phy_019,c6_phy_020",
+        "Count":  10
+    },
+    {
+        "Sim":  "C7_PhysicsHeatTransferConductionSim",
+        "Class":  7,
+        "NodeIds":  "c7_phy_021,c7_phy_022,c7_phy_023,c7_phy_024,c7_phy_025,c7_phy_026,c7_phy_027,c7_phy_028,c7_phy_029,c7_phy_030",
+        "Count":  10
+    },
+    {
+        "Sim":  "C7_PhysicsOhmsSim",
+        "Class":  7,
+        "NodeIds":  "c7_phy_031,c7_phy_032,c7_phy_033,c7_phy_034,c7_phy_035",
+        "Count":  5
+    },
+    {
+        "Sim":  "C7_PhysicsPhysicalNatureMatterSim",
+        "Class":  7,
+        "NodeIds":  "c7_phy_001,c7_phy_002,c7_phy_003,c7_phy_004,c7_phy_005,c7_phy_006,c7_phy_007,c7_phy_008,c7_phy_009,c7_phy_010",
+        "Count":  10
+    },
+    {
+        "Sim":  "C7_PhysicsPressureFluidsliquidsSim",
+        "Class":  7,
+        "NodeIds":  "c7_phy_011,c7_phy_012,c7_phy_013,c7_phy_014,c7_phy_015,c7_phy_016,c7_phy_017,c7_phy_018,c7_phy_019,c7_phy_020",
+        "Count":  10
+    },
+    {
+        "Sim":  "C8_PhysicsBoilingEvaporationdifferencesSim",
+        "Class":  8,
+        "NodeIds":  "c8_phy_021,c8_phy_022,c8_phy_023,c8_phy_024,c8_phy_025,c8_phy_026,c8_phy_027,c8_phy_028,c8_phy_029,c8_phy_030",
+        "Count":  10
+    },
+    {
+        "Sim":  "C8_PhysicsKineticTheoryMatterSim",
+        "Class":  8,
+        "NodeIds":  "c8_phy_001,c8_phy_002,c8_phy_003,c8_phy_004,c8_phy_005,c8_phy_006,c8_phy_007,c8_phy_008,c8_phy_009,c8_phy_010",
+        "Count":  10
+    },
+    {
+        "Sim":  "C8_PhysicsLightningConductorSim",
+        "Class":  8,
+        "NodeIds":  "c8_phy_031,c8_phy_032,c8_phy_033,c8_phy_034,c8_phy_035",
+        "Count":  5
+    },
+    {
+        "Sim":  "C8_PhysicsTurningEffectForceSim",
+        "Class":  8,
+        "NodeIds":  "c8_phy_011,c8_phy_012,c8_phy_013,c8_phy_014,c8_phy_015,c8_phy_016,c8_phy_017,c8_phy_018,c8_phy_019,c8_phy_020",
+        "Count":  10
+    },
+    {
+        "Sim":  "C9_PhysicsEquationsUniformlyAcceleratedSim",
+        "Class":  9,
+        "NodeIds":  "c9_phy_011,c9_phy_012,c9_phy_013,c9_phy_014,c9_phy_015,c9_phy_016,c9_phy_017,c9_phy_018,c9_phy_019,c9_phy_020",
+        "Count":  10
+    },
+    {
+        "Sim":  "C9_PhysicsInternationalSystemUnitsSim",
+        "Class":  9,
+        "NodeIds":  "c9_phy_001,c9_phy_002,c9_phy_003,c9_phy_004,c9_phy_005,c9_phy_006,c9_phy_007,c9_phy_008,c9_phy_009,c9_phy_010",
+        "Count":  10
+    },
+    {
+        "Sim":  "C9_PhysicsOhmsResistanceSim",
+        "Class":  9,
+        "NodeIds":  "c9_phy_041,c9_phy_042,c9_phy_043,c9_phy_044,c9_phy_045,c9_phy_046,c9_phy_047,c9_phy_048",
+        "Count":  8
+    },
+    {
+        "Sim":  "C9_PhysicsSphericalMirrorsTermsSim",
+        "Class":  9,
+        "NodeIds":  "c9_phy_031,c9_phy_032,c9_phy_033,c9_phy_034,c9_phy_035,c9_phy_036,c9_phy_037,c9_phy_038,c9_phy_039,c9_phy_040",
+        "Count":  10
+    },
+    {
+        "Sim":  "C9_PhysicsWeightMassComparisonSim",
+        "Class":  9,
+        "NodeIds":  "c9_phy_021,c9_phy_022,c9_phy_023,c9_phy_024,c9_phy_025,c9_phy_026,c9_phy_027,c9_phy_028,c9_phy_029,c9_phy_030",
+        "Count":  10
+    }
+]

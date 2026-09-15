@@ -1,0 +1,32 @@
+{
+  "gameTitle": "FoodGroupsGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\FoodGroupsGame.tsx",
+  "enrichmentFiles": ["D:\\cisce\\bio\\enrichment\\c2_biology_enrichment_part2.marker", "D:\\cisce\\bio\\enrichment\\c2_biology_enrichment_part3.marker", "D:\\cisce\\bio\\enrichment\\c2_biology_enrichment_part4.marker"],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_bio_002 (Food categories), c2_bio_003 (Food functions), c2_bio_004 (Healthy and junk food)",
+  "mascotName": "Aunty Annapoorna",
+  "mascotDescription": "a warm Indian grandmother in a green saree holding a basket of fruits and vegetables, with a bindi, gray hair, and a gentle smile. Custom SVG, not an owl.",
+  "sceneDescription": "kitchen scene with sky through window, a wooden table with bowls, a thali plate, and warm yellow lighting",
+  "svgObjects": [
+    { "name": "CerealIcon", "description": "a bowl of rice and wheat grains" },
+    { "name": "DalIcon", "description": "a bowl of dal/lentils" },
+    { "name": "FruitIcon", "description": "an apple and a banana" },
+    { "name": "VegetableIcon", "description": "a carrot and a tomato" },
+    { "name": "MilkIcon", "description": "a glass of milk" },
+    { "name": "JunkFoodIcon", "description": "a burger, chips, and a cola" },
+    { "name": "EnergyFoodIcon", "description": "a bowl of rice (energy giving)" },
+    { "name": "BodyBuildingIcon", "description": "a bowl of dal and milk (body building)" },
+    { "name": "ProtectiveIcon", "description": "fruits and vegetables (protective/immunity)" }
+  ],
+  "challengeTypes": [
+    "identify: Which of these is a CEREAL? (Rice vs Apple vs Milk)",
+    "identify: Which of these is a DAL? (Lentils vs Carrot vs Bread)",
+    "sort: Drag each food to its food group (Cereals: rice, wheat | Dals: lentils, chana | Fruits: apple, banana | Vegetables: carrot, tomato | Milk: milk, curd)",
+    "identify: Which food gives us ENERGY to work and play? (Rice/roti vs Dal vs Apple)",
+    "identify: Which food helps BUILD our BODY? (Dal and milk vs Rice vs Chips)",
+    "identify: Which food helps FIGHT germs and keeps us HEALTHY? (Fruits and vegetables vs Burger vs Cola)",
+    "sort: Drag foods to Healthy or Junk (Healthy: apple, dal, milk, rice, carrot | Junk: burger, chips, cola, candy, cake)",
+    "sort: Drag foods to their function (Energy: rice, roti, potato | Body building: dal, milk, egg | Protective/immunity: fruits, vegetables)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Food categories — cereals (rice, wheat), dals (lentils, chana), fruits (apple, banana), vegetables (carrot, tomato), milk and milk products. (2) Food functions — energy-giving foods (rice, roti, potato), body-building foods (dal, milk, egg), protective foods (fruits and vegetables for immunity). (3) Healthy vs junk food — healthy foods give us nutrients and energy, junk foods (burger, chips, cola, candy) have too much sugar, salt and oil and can make us sick. Misconceptions: 'rice is a dal' (rice is a cereal, dals are lentils), 'apple is a vegetable' (apple is a fruit), 'junk food is healthy because it tastes good' (taste does not mean healthy), 'milk is only for babies' (milk gives calcium for all ages). Default width=720, height=560. Use named export (export function FoodGroupsGame), NOT export default. Export interface FoodGroupsGameProps with width?, height?, onComplete?: (score: number) => void."
+}

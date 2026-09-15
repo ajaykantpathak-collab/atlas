@@ -1,0 +1,1302 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete ReactionViewerSimulation.tsx component about Physical and Chemical Changes, Compounds and Reactions.
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Chemistry Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_chem_001",
+    "title": "Matter and its composition",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "Matter is anything that has mass and occupies space. It is the physical substance of which everything in the universe is made -- from the heaviest rock to the lightest gas, including every object, material, and even the air that surrounds us. This simple definition is one of the most powerful starting points in chemistry because it allows us to look at our surroundings and ask, \"Is this made of matter?\" If the answer involves something that can be weighed on a balance and takes up room, however small, then it is matter.\r\n\r\nThe two ideas in the definition must always stay together. First, matter has mass. Mass is the amount of substance in an object; it tells us how much matter is actually there. When you put a stone, a bottle of water, or a packet of milk on a weighing scale, the scale shows a reading because each of these things has mass. The reading does not have to be large -- even a small piece of chalk has mass. Second, matter occupies space, which is also called volume. A solid book, a liquid in a beaker, and a gas inside a balloon all push against their containers and take up a definite amount of room. If you blow air into a balloon, it expands; the air is invisible, but it needs more and more space, and that is exactly why the balloon grows.\r\n\r\nWhen we study the composition of matter, we look at what different forms of matter are made of. In Class 6 we begin with the idea that all matter is made up of tiny particles that are too small to see with the naked eye. These particles may be packed tightly as in most solids, they may slide past one another as in liquids, or they may move freely as in gases, but the matter is still made of particles. The substance of matter can exist in three common states: solids, liquids, and gases. A wooden ruler is a solid, water in a river is a liquid, and the air over the plains of Uttar Pradesh is a gas. Each of these is matter because each has mass and each occupies space.\r\n\r\nThe physical property of matter that is easiest to notice is its state. Other physical properties include colour, smell, hardness, and the way matter feels to touch. These properties can be observed without changing the substance into something new. For example, ice, water, and steam are the same substance -- water -- in three different states; they are still matter. Recognising matter in the surroundings is an important skill. The chair you sit on, the tiffin box you carry, the oil in a lamp, and the breath you exhale are all examples of matter.\r\n\r\nIn the laboratory and at home, we demonstrate the presence of matter in simple ways. Weighing a small stone on a kitchen balance, filling a balloon with air and watching it swell, or pouring water from a glass into a bottle are demonstrations that solids, liquids, and gases have mass and occupy space. Whenever we say that a thing is a substance, we mean that it is a particular kind of matter with definite properties. So, the idea of matter and its composition is the doorway to all of chemistry: once you can say what matter is, you are ready to ask how it behaves, how it changes, and how it is arranged inside the smallest particles.",
+    "eli5": "Matter is all the stuff around you -- your pencil, water, even the air. It is anything that has weight, or mass, and takes up room, or space. You can show this by weighing a stone on a balance or blowing a balloon bigger. Solids, liquids, and gases are all matter because they are made of tiny bits that you cannot see but that fill space and have weight.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define the term \"matter\" and classify the following as matter or non-matter, giving one reason for each: air, a shadow on the wall, a wooden ruler, heat from the sun, and milk in a glass.",
+        "answer": "Matter is anything that has mass and occupies space. Let us apply this definition to each item. Air is matter because it has mass and occupies space -- a balloon filled with air is heavier and larger than an empty balloon, even though air cannot be seen. A shadow on the wall is not matter; it is only a dark patch formed when an object blocks light. A shadow has no mass, cannot be weighed, and does not take up room as a substance would. A wooden ruler is matter because it is a solid with a definite shape, a definite mass, and a definite volume; it can be weighed on a balance. Heat from the sun is not matter; it is a form of energy that makes us feel warm, but it does not have mass or occupy space in the same way as a physical substance. Milk in a glass is matter because it is a liquid that has mass and volume; you can weigh the glass before and after adding milk and see that its mass increases, and the milk fills the bottom of the glass in a way that shows it occupies space. This question reminds us that the definition has two parts -- mass and space -- and that both must be satisfied for something to be called matter."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A balloon is weighed on a sensitive balance when empty, then filled with air and weighed again. A student argues that the filled balloon will not be heavier because \"air has no mass, it is only empty space inside.\" Explain why this argument is wrong, and describe what the balance would actually show and why.",
+        "answer": "The student's argument is wrong because it confuses invisibility with absence of matter. Air is a gas, and like all matter, air has mass. When the balloon is empty, the balance measures the mass of the rubber alone. When the balloon is filled with air, the balance measures the mass of the rubber plus the mass of the air trapped inside. The extra mass is usually small, so a very sensitive balance is needed to detect it, but it is still there. This is why the balloon becomes heavier after filling. At the same time, the filled balloon also becomes larger and firmer, which shows that the air is occupying space and pushing the rubber outward. The correct scientific way to answer is to say that air is a gas, a state of matter, and as matter it has both mass and volume. The balance would show a slightly higher reading for the filled balloon, proving that air contributes mass. A weak answer might say \"air is weightless\" or \"the balloon gets bigger,\" but the strong answer connects both observations -- heavier and larger -- to the two parts of the definition of matter."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "\"A glass full of water is the only kind of matter that can both be weighed and poured into a differently shaped container. Solids like chalk cannot be weighed accurately, and gases like air cannot be poured at all, so they cannot be matter. This means that the state of a substance decides whether it is matter.\" Evaluate this statement, giving a balanced argument.",
+        "answer": "This statement is incorrect, though it begins from a partly true observation. It is true that water, a liquid, can be weighed and poured into a differently shaped container. It is also true that solids keep their own shape and cannot be poured, and that gases do not stay in one place unless enclosed. However, the conclusion that only liquids are matter is wrong because the definition of matter does not depend on the ability to be poured. The correct definition is that matter is anything that has mass and occupies space. A solid piece of chalk has a definite mass and a definite volume; it can certainly be weighed accurately on a balance, and it occupies the space of its own shape. A gas like air can also be weighed if it is trapped in a balloon or a container, and it clearly occupies space because it fills the balloon or the room. The student has confused the properties of the three states with the definition of matter itself. The state of matter -- solid, liquid, or gas -- affects how the matter behaves, but it does not change whether the substance is matter. All three states are made of particles, all have mass, and all occupy space. Therefore, the statement should be rejected, and the answer should clearly state that being a solid, liquid, or gas is a physical property, not a test of whether something is matter."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Design a simple school-laboratory activity to show that air occupies space and has mass. Describe the apparatus, the steps, the observations you would record, and the conclusion you would draw.",
+        "answer": "To show that air occupies space and has mass, take a good-quality rubber balloon, a thread, a marker, and a sensitive balance. First, tie the balloon tightly with the thread so that it is completely empty and limp. Weigh it on the balance and record the reading as the mass of the empty balloon. Next, untie the balloon and blow air into it until it is well rounded but not over-stretched. Tie it again and mark the new size with the marker. Place it on the same balance and record the new reading. Observation 1: the filled balloon is larger and firmer than the empty one, which shows that the air inside has pushed the rubber outward and is therefore occupying space. Observation 2: the balance shows a slightly greater mass for the filled balloon than for the empty one, which shows that the air has mass. To make the conclusion stronger, you can repeat the activity with another substance, such as water, by weighing an empty small bottle and then the same bottle filled with water, so that you see that liquids also have mass and occupy space. The conclusion to write in your notebook is: Air is a gas and is therefore matter; it has mass and it occupies space, as shown by the increase in mass and the increase in size of the balloon."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Imagine you are a young science reporter writing for your school magazine. Write a short article for younger students explaining why the invisible air inside a balloon is matter, even though it cannot be seen.",
+        "answer": "Have you ever wondered if the air inside a balloon is really there? You cannot see it, and you cannot hold it like a cricket ball, so it is easy to think that air is nothing at all. But air is matter, and here is the proof. First, air has mass. If you weigh an empty balloon and then weigh the same balloon after blowing it up, the second reading is a little higher. That extra reading comes from the air you added. Second, air occupies space. The empty balloon is limp and small, but the filled balloon becomes round and firm. The only way the rubber can stretch is if something inside is pushing it out, and that something is air. Air is a gas, one of the three states of matter. Solids, like your desk, have a fixed shape. Liquids, like the water in your bottle, take the shape of their container. Gases, like air, spread out to fill any space they can find. So the next time you blow a balloon, remember that you are holding matter in your hands -- invisible, light, but real matter all the same."
+      }
+    ],
+    "masteryCriteria": "Can define matter as anything that has mass and occupies space; can classify five objects as matter or non-matter (light, sound are not matter); can state that matter exists as solids, liquids, and gases and give two examples of each.",
+    "cognitiveLevel": "apply"
+  },
+  {
+    "nodeId": "c6_chem_012",
+    "title": "Language of chemistry - formulae of compounds",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "A formula of a compound is a short, internationally understood way of writing the names of the elements that are joined together in that compound, along with how many atoms of each element are present. Think of it as a chemical \"word\": the capital letters are the symbols of the elements, and the small numbers written slightly below and to the right, called subscripts, tell you how many atoms of that element are present. For example, the formula H2O tells us that one particle of water contains two atoms of hydrogen and one atom of oxygen. The formula NaCl tells us that common salt is made from one atom of sodium joined to one atom of chlorine, and the formula CaO tells us that quicklime contains one atom of calcium combined with one atom of oxygen. At this stage we do not worry about why the numbers are what they are; we simply learn to read and write these formulae by combining the symbols we already know.\r\n\r\nA compound, therefore, is a pure substance formed when two or more different elements combine chemically. When the substances that combine are called reactants, and the new substances formed are called products, we have a chemical reaction. A chemical reaction may take place when two or more reactants come into contact and a transfer of energy occurs. The change is usually shown by one or more characteristics: a change of colour, a change of state, a change of smell, the evolution of gas, the formation of a precipitate, or the fact that heat is evolved or absorbed. A word equation is the simplest way of describing such a change. In a word equation the reactants are written on the left-hand side, an arrow points towards the products on the right-hand side, and words are used instead of symbols. For instance, when magnesium ribbon burns in air, the word equation is: Magnesium + Oxygen -> Magnesium oxide. The arrow is read as \"gives\" or \"produces\" and is never replaced by an equals sign, because a chemical reaction is a change and not a simple mathematical sum.\r\n\r\nIt is also important to understand what a chemical equation is in the broader sense. A chemical equation can be a word equation, as we have just seen, or a symbolic equation in which formulae are used. At Class 6 we focus on word equations and on joining symbols to make simple formulae; we do not balance equations with large numbers in front of the formulae, nor do we derive molecular formulae using valency. The purpose at this level is to recognise that chemistry has its own language, and that learning to read and write that language begins with knowing the symbols of the elements and combining them to form the formulae of common compounds such as H2O, NaCl and CaO. Students should also be able to look at a real or described event and decide whether a chemical reaction has occurred by checking for the familiar signs: colour change, gas evolution, precipitate formation, heat change or a new smell.",
+    "eli5": "Chemistry has its own special writing. Each element has a short sign, like H for hydrogen and O for oxygen. When two or more different element signs join together, they make a compound formula. H2O means water, and the small 2 tells you there are two hydrogen atoms. A word equation is a recipe in words: it lists the starting things on the left, an arrow in the middle, and the new things on the right.",
+    "misconceptions": [
+      {
+        "belief": "A word equation must be balanced with numbers in front.\" This often comes from seeing older students work with symbolic equations. The CISCE Common board exam error pattern exam guidance for 2020 specifically urged higher-grade candidates to \"Practice writing balanced chemical equations.\" At Class 6, however, that advice does not apply. The negative constraint for this node is that you should not balance equations or derive molecular formulae.",
+        "correction": "write word equations using names and a single arrow, not numbers in front, e.g., Magnesium + Oxygen -> Magnesium oxide."
+      },
+      {
+        "belief": "If I do not see bubbles, there is no chemical reaction.\" Students sometimes think gas evolution is the only sign of a reaction. The examiner observations for 2020 and 2024 underline how important it is to observe colour, solubility and the formation of precipitates.",
+        "correction": "a chemical reaction can show itself in many ways -- colour change, state change, smell, heat, precipitate or gas. You must look for any one of these signs, not just bubbles."
+      },
+      {
+        "belief": "All white solids that fizz with acid are the same compound.\" The Common board exam error pattern noted that candidates often identified a green or black compound incorrectly as calcium carbonate when it was in fact copper carbonate or manganese dioxide. The error came from not linking colour to the correct substance.",
+        "correction": "white chalky substances that fizz with acid may be calcium carbonate, while green substances that fizz are more likely to be copper compounds. Always match the observation, especially colour, to the name of the substance."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "What is a word equation, and how is it different from a compound formula? Use an example from everyday life or the laboratory to illustrate your answer.",
+        "answer": "A word equation is a sentence-like description of a chemical reaction written entirely in words. It lists the reactants on the left, uses an arrow to show the direction of change, and lists the products on the right. For example, when a piece of magnesium ribbon is held in a flame, it burns with a dazzling white flame and forms a white powder called magnesium oxide. The word equation is: Magnesium + Oxygen -> Magnesium oxide. Here the two starting substances, magnesium and oxygen, are the reactants, and the new substance, magnesium oxide, is the product. A compound formula, on the other hand, is a shorthand made of symbols. H2O is the formula for water, NaCl is the formula for common salt, and CaO is the formula for quicklime. The formula does not describe a change; it simply tells us which elements are present and in what proportion. In a word equation we keep the full names and use the arrow, but in a formula we use the one- or two-letter symbols of the elements and small subscript numbers. So the key difference is that a word equation shows a process, while a formula shows the composition of one substance."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "When hydrochloric acid is added to sodium carbonate in a test tube, the liquid bubbles vigorously and a colourless gas is produced. Explain why this observation tells you that a chemical reaction has taken place, and write the correct word equation.",
+        "answer": "The vigorous bubbling is a clear sign of the evolution of gas. In a chemical reaction, one or more new substances are formed, and one of the common signs that a reaction is happening is the production of a gas. When hydrochloric acid is added to sodium carbonate, the acid reacts with the carbonate to produce a new gas, carbon dioxide, which escapes as bubbles. This is not simply the acid dissolving the solid; the formation of a gas with new properties shows that a chemical change has occurred. The original substances, hydrochloric acid and sodium carbonate, are the reactants, and the new substances formed, sodium chloride, water and carbon dioxide, are the products. The word equation for this reaction is: Sodium carbonate + Hydrochloric acid -> Sodium chloride + Water + Carbon dioxide. Notice that the arrow points from the reactants on the left to the products on the right. We do not use an equals sign because a chemical reaction is a change, not a mathematical equality. At this stage we do not balance the equation with numbers; we only name the reactants and products correctly."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"If no gas bubbles are seen, then no chemical reaction has occurred.\" Evaluate this statement carefully, giving evidence from the signs of a chemical reaction and explaining when the statement might and might not be correct.",
+        "answer": "This statement is not entirely correct. The evolution of gas is only one of several possible signs of a chemical reaction, so the absence of bubbles does not prove that nothing has happened. A chemical reaction can also be recognised by a colour change, a change of state, a change of smell, the formation of a precipitate, or the evolution or absorption of heat. For example, when green copper carbonate is heated, it turns black and gives off a gas, but even if we ignore the gas, the colour change from green to black is enough to show that a new substance has formed. Similarly, when a clear solution of calcium chloride is mixed with a clear solution of sodium carbonate, a white solid called a precipitate appears at the bottom of the beaker even though no gas is produced. The formation of this cloudy solid shows that a new substance has been made. On the other hand, if a student looks carefully and sees no gas, no colour change, no precipitate, no change of smell or state, and no temperature change, then it is reasonable to conclude that no reaction has taken place. So the statement might be correct in some cases, but it is wrong as a general rule. The safest way to decide whether a reaction has occurred is to check for all the possible signs, not just gas evolution. In the laboratory and in the board examination, you should always mention the sign you actually observed and explain what it means."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You are given two clear, colourless solutions: solution A is sodium carbonate solution and solution B is calcium chloride solution. When the two solutions are mixed in a beaker, the beaker feels slightly warm and a white solid settles at the bottom. Identify the signs of a chemical reaction, name the white solid, and write a word equation for the reaction. Explain your thinking step by step.",
+        "answer": "The first clue is the white solid that settles at the bottom of the beaker. When two solutions are mixed and an insoluble solid forms, that solid is called a precipitate, and its appearance is a strong sign that a chemical reaction has taken place. The white solid in this case is calcium carbonate. The second clue is that the beaker feels warm, which tells us that heat is evolved during the reaction. These two observations together -- precipitate formation and heat evolved -- show that new substances have been produced. The reactants are sodium carbonate and calcium chloride, and the products are calcium carbonate, which is the white precipitate, and sodium chloride, which remains dissolved in the solution. The word equation is: Sodium carbonate + Calcium chloride -> Calcium carbonate + Sodium chloride. This equation is written entirely in words, with the reactants on the left, the arrow in the middle, and the products on the right. The white solid, calcium carbonate, is the precipitate, and its formation is the most obvious evidence that a chemical change has occurred."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple observation chart that a Class 6 student could use in the laboratory to decide whether adding lemon juice to baking soda is a chemical reaction. Your chart should list at least four signs of a chemical reaction and include space for a word equation.",
+        "answer": "The observation chart should have clear rows for each possible sign of a chemical reaction. The first row should be headed \"Evolution of gas\" and the student should watch for bubbles when the lemon juice is poured onto the baking soda. The second row should be headed \"Change of temperature\" and the student can gently touch the outside of the container to see whether it feels warmer or cooler. The third row should be headed \"Change of colour or state\" and the student should note whether the white solid disappears or whether the mixture looks different. The fourth row should be headed \"Change of smell\" and the student should record any new smell that appears. At the bottom of the chart there should be a section for the word equation. The correct word equation is: Baking soda + Lemon juice -> Carbon dioxide + Water + Salt. In this reaction the baking soda, which is sodium hydrogencarbonate, reacts with the acid in the lemon juice to produce carbon dioxide gas, water and a salt. The bubbles of carbon dioxide are the easiest sign to observe, and the observation chart helps the student collect evidence in an organised way instead of relying on a single sign."
+      }
+    ],
+    "masteryCriteria": "Can write the formula of ten common compounds using valency (H2O, CO2, NaCl, HCl, NaOH, H2SO4, CaCO3, NH3, CH4, KCl); can state the valency of ten common elements (H:1, O:2, Na:1, Cl:1, Ca:2, Fe:2/3, C:4, N:3, S:2, Al:3); can criss-cross valencies to write formulae.",
+    "cognitiveLevel": "analyze"
+  },
+  {
+    "nodeId": "c6_chem_002",
+    "title": "Particle nature of matter",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "Matter is not a smooth, continuous mass. It is made up of tiny, invisible particles. These particles are so small that even a powerful ordinary microscope cannot see them, and a single drop of water contains millions upon millions of them. This idea is called the particle model of matter. In this model, every solid, liquid and gas around us is a collection of these tiny particles, each of which has mass and occupies space. Because the particles themselves have mass and take up space, the matter we see also has mass and occupies space.\r\n\r\nThe way the particles are arranged and the way they move changes from one state of matter to another. In a solid, the particles are tightly packed. They are locked in a fixed pattern and vibrate only a little about their fixed positions. The force of attraction between the particles, called intermolecular attraction, is very strong in solids, so the particles cannot move freely. This is why a stone, a piece of chalk or an iron nail keeps a fixed shape and a fixed volume.\r\n\r\nIn a liquid, the particles are still close together, but they are not in fixed positions. We say they are loosely packed. They can slide over one another, which is why water, milk or oil can flow and take the shape of the container in which they are kept. The intermolecular attraction in a liquid is weaker than in a solid but still strong enough to keep the particles close, so a liquid has a fixed volume but no fixed shape.\r\n\r\nIn a gas, the particles are far apart from one another and move randomly in all directions at high speed. The intermolecular attraction is very weak, almost negligible, so the particles fly about freely. This is why the air we breathe, the steam from a pressure cooker or the LPG that burns in the kitchen fills the entire space available to it and has neither a fixed shape nor a fixed volume.\r\n\r\nThe particle model also explains why matter can sometimes behave in unusual ways. For example, a gas can be compressed because there is a lot of empty space between its moving particles; a solid cannot be compressed easily because its tightly packed particles are already close together. The model helps us understand that the difference between a solid, a liquid and a gas is not just a label, but is caused by the arrangement, the movement and the attraction between the particles.",
+    "eli5": "Everything around you is made of tiny, tiny pieces called particles. In a solid like a stone, these particles are squeezed close together and can only wiggle. In a liquid like water, the particles can slide past each other. In a gas like air, the particles move all over the place with lots of space between them. A small pulling force called attraction keeps the particles close, but it is strong in solids and very weak in gases.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define the particle nature of matter. Describe the arrangement and movement of particles in solids, liquids and gases.",
+        "answer": "Matter is made up of tiny, invisible particles. In a solid, the particles are tightly packed and held in fixed positions by strong intermolecular attraction; they vibrate about these positions. In a liquid, the particles are loosely packed and can slide over one another because the intermolecular attraction is weaker than in a solid; the liquid has a fixed volume but no fixed shape. In a gas, the particles are far apart and move randomly in all directions because the intermolecular attraction is very weak; a gas has neither a fixed shape nor a fixed volume. The particle model also tells us that the difference between the three states is caused by how the particles are arranged and how strongly they attract one another."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "A cube of ice and a glass of water both contain the same substance, H2O. Why does the ice keep its shape while the water takes the shape of the glass?",
+        "answer": "Both ice and water are made of the same tiny particles. The difference lies in the arrangement and attraction between these particles. In ice, which is a solid, the particles are tightly packed and held in fixed positions by strong intermolecular attraction. They can only vibrate about these positions, so the ice keeps its shape and volume. In water, which is a liquid, the particles are loosely packed. The intermolecular attraction is weaker than in ice, so the particles are no longer fixed; they can slide past one another. Therefore, water flows and takes the shape of its container. However, the particles are still close together, so the volume of water remains the same. This is why a fixed amount of water will have the same volume whether it is in a tumbler, a bottle or a bucket, but its shape changes."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "\"We cannot see the particles of air, so air is not made of particles.\" Evaluate this statement with a balanced argument.",
+        "answer": "This statement is incorrect, but it contains a true observation. It is true that we cannot see the particles of air; they are far too small to be visible even with an ordinary microscope. However, it does not follow that air has no particles. The particle model of matter tells us that all matter is made of tiny particles, including the gases we cannot see. The evidence is all around us. When a perfume bottle is opened, the smell spreads across the room because the gas particles move randomly in all directions. When air is pumped into a bicycle tyre, it pushes against the walls and can be compressed, which shows that gas particles are far apart and have space between them. The reason we do not see air is not that it lacks particles, but that its particles are extremely small, widely separated and move very quickly. While the statement correctly notes that air particles are invisible, it incorrectly concludes that air has no particles. In science, we do not reject a model just because we cannot see something with our eyes; we look for indirect evidence such as smell, pressure and compression. Therefore the statement is false."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A few drops of coloured ink are added to a glass of still water. After some time, the colour spreads throughout the water even though nobody stirred it. Use the particle model to explain why this happens.",
+        "answer": "This spreading happens because both the water and the colouring substance are made of tiny particles. The particles of water are loosely packed, so they can move and slide past one another. The colour particles are also made of tiny particles. When the drops are added, these particles begin to move in between the water particles because the particles of a liquid are not in fixed positions. Slowly, the colour particles spread throughout the water until the whole liquid becomes uniformly coloured. This is possible because the particles of a liquid are in constant motion and can move from one place to another. It is an everyday proof that matter is made of particles and that these particles move. A similar thing can be seen when sugar dissolves in tea; the sugar particles spread among the tea particles, even without stirring if we wait long enough."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Imagine you are a particle inside a piece of ice kept in a freezer in a Shimla home. Write a short diary entry describing your life in that solid, and then imagine how your life would change if the freezer is switched off and the ice melts into water.",
+        "answer": "Dear Diary, I am a tiny particle inside a block of ice. I am tightly packed with many brothers and sisters around me. We are so close that we can barely move; we only vibrate in our fixed places. A strong force of attraction holds us together, so our block of ice keeps its shape. It is like standing in a very crowded but orderly queue. Then the freezer was switched off. Heat entered our block and we began to move faster. The intermolecular attraction was no longer strong enough to keep us in fixed positions. We started sliding past one another. Our block lost its shape and became water that flowed into the tray. Now I am a particle in a liquid. I am still close to the others, but I am free to move around and take the shape of my container. Life is much more exciting now, but I am no longer a solid block of ice."
+      }
+    ],
+    "masteryCriteria": "Can state that matter is made of tiny particles too small to see; can describe three properties of particles (have space between them, are always moving, attract each other); can explain why solids keep their shape (particles close together, strong attraction) and gases spread out (particles far apart, weak attraction).",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_chem_003",
+    "title": "Physical changes",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "A physical change is a change in which the form, shape, size or state of a substance is altered, but no new substance is produced. In other words, the tiny particles that make up the substance keep their identity; they simply rearrange themselves or move further apart or closer together. This is why most physical changes can be reversed by ordinary means such as heating or cooling. The common physical changes you will study in this node are changes of state: melting (solid to liquid), freezing (liquid to solid), boiling and evaporation (liquid to gas), condensation (gas to liquid) and sublimation (solid directly to gas). You have also met special examples such as the drying of wet clothes in the sun, the melting of ice in a glass and the evaporation of water from a puddle. Sublimation is an important, less common change in which some solids, like ammonium chloride and iodine, turn straight into a vapour when heated without first becoming a liquid. If you cool the vapour, the same solid reappears, showing that the substance has not changed. Some physical changes, however, are not easily reversed: if you crush a chalk stick into powder or tear a sheet of paper, no new substance forms, yet you cannot put the original piece back together perfectly. These are irreversible physical changes. In your ICSE Class 6 work, the key idea to hold on to is that the identity of the particles does not change in a physical change; only the spacing, arrangement or motion of the particles changes.",
+    "eli5": "A physical change is when something looks different but is still the same stuff inside. Ice melts into water, water dries into air, and chalk can be crushed into powder. The tiny bits do not change; they only move or break apart. That is why you can usually freeze water back into ice.",
+    "misconceptions": [
+      {
+        "belief": "\"If something disappears, it must have become a new substance.\" Many students think the water that vanishes from drying clothes is gone forever and that the cloth has changed chemically. board exam guidance often note that candidates confuse or interchange examples because they do not look closely at what is happening. The correction is that the water has simply evaporated into the air as water vapour; the cloth is unchanged, so it is a physical change.",
+        "correction": ""
+      },
+      {
+        "belief": "\"Sublimation is the same as melting because a solid seems to disappear.\" Some students, like those who wrote incorrect terms such as \"square planar\" instead of \"tetrahedral\" in other topics, use the wrong word for a state change. Sublimation is not melting. Sublimation is a solid changing directly into a gas without becoming a liquid, as seen with ammonium chloride or iodine. Melting is a solid changing into a liquid.",
+        "correction": ""
+      },
+      {
+        "belief": "\"Any change that cannot be undone is a chemical change.\" Students sometimes say that tearing paper or breaking a glass must be chemical because they cannot get the original piece back. The correction is that no new substance is formed when paper is torn or glass is broken; these are irreversible physical changes, not chemical changes. The identity of the particles stays the same.",
+        "correction": ""
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define a physical change and give three examples from your daily life.",
+        "answer": "A physical change is a change in which the substance may look different in form, shape, size or state, but no new substance is produced. The tiny particles that make up the substance keep their identity; they merely rearrange themselves or move apart or come closer together. Three everyday examples are the melting of ice into water on a hot afternoon, the drying of wet clothes under the sun, and the evaporation of water from a puddle after a monsoon shower. In each case the substance remains the same: ice, water and water vapour are all H2O; the cloth remains cloth. The change is physical because no new substance with new properties is formed. Other good examples are the freezing of water into ice in a refrigerator and the sublimation of iodine or ammonium chloride in the laboratory. These examples help us remember that the arrangement and spacing of particles changes, not their identity."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Why is the melting of ice considered a physical change and not a chemical change?",
+        "answer": "The melting of ice is a physical change because the substance remains water throughout. When ice is taken out of a freezer and placed in a warm place, heat energy flows into the solid. The tiny particles of water in the ice gain energy and begin to vibrate more vigorously. Eventually they break free from their fixed positions and move about more freely, forming liquid water. At no point do the particles change into a different substance. If you cool the liquid water, it freezes back into ice; the same water particles are present. A chemical change, in contrast, would produce a new substance with different properties, such as burning paper to form ash and smoke. Because melting ice only changes the state from solid to liquid and can be reversed by freezing, it is a physical change. This is why we say the identity of the particles is preserved."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"When wet clothes dry, the water vanishes forever, so drying must be a chemical change because the original water is no longer there.\" Evaluate this statement.",
+        "answer": "The student's statement is incorrect. Drying of clothes is a physical change, not a chemical change. It is true that the water seems to disappear, but it has not been destroyed or changed into a new substance. The water in the wet cloth absorbs heat from the surroundings, usually the sun or warm air, and its particles gain energy. They move faster and escape into the air as water vapour, a gas. The water is still H2O; only its state has changed from liquid to gas. The cloth remains cloth. Since no new substance is formed, this cannot be a chemical change. The process is also reversible in principle: if you were to collect all the water vapour and cool it, you could condense it back into liquid water. However, the statement does contain a grain of truth that appears real to our senses: the liquid water is indeed no longer visible in the cloth. The error is in the conclusion. The vanishing of the visible water is a change of state, a physical change, because the particles keep their identity. In the board exam, a good answer would clearly separate the observation from the interpretation and name evaporation as the state change involved."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A teacher places two identical wet cotton towels on the school terrace in Jaipur on a hot, dry afternoon. One towel is spread out fully and the other is left crumpled in a bucket. Which one dries faster? Explain using the idea of particles and state change.",
+        "answer": "The spread-out towel will dry faster because more of its wet surface is exposed to the warm air and the heat of the sun. In physical terms, drying is the evaporation of water from the cloth. Water particles at the surface of the wet cloth absorb heat and gain kinetic energy. When they have enough energy, they break free from the attractive forces holding them in the liquid and escape into the air as water vapour. A crumpled towel has a smaller surface area in contact with the air, so fewer water particles can escape at a time. The spread-out towel has a larger exposed surface, so more particles can leave the liquid every second. The water changes from liquid to gas, but the water particles themselves are still H2O. The cloth is unchanged. This is a physical, reversible change because the evaporated water can be condensed back into liquid water. Conditions such as more heat, more wind and a larger surface area all speed up evaporation."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple, safe demonstration to show that the sublimation of ammonium chloride is a physical change and not a chemical change.",
+        "answer": "A good demonstration can be set up in the school laboratory using a china dish, ammonium chloride, an inverted funnel and a burner. Place a small amount of ammonium chloride in the china dish. Cover it with an inverted funnel whose stem is closed or connected to a cold surface. Gently heat the dish from below. After a short time, white fumes appear inside the funnel. Wait a minute, then remove the heat and let the apparatus cool. You will notice that the white solid reappears as crystals on the cooler upper parts of the funnel and the dish. To show that this is a physical change, collect the reformed solid and compare it with the original ammonium chloride. It is still a white solid, it dissolves in water in the same way and it has the same smell and appearance. No new substance has been produced; the ammonium chloride has simply changed from solid directly to gas and back to solid. It is not safe to heat large quantities or to inhale the vapours, so the teacher should do the experiment under a fume hood or with good ventilation and use only a small sample. This demonstration proves that sublimation is a physical change because the same substance can be recovered."
+      }
+    ],
+    "masteryCriteria": "Can define a physical change as one where no new substance is formed (melting, freezing, dissolving, tearing); can give three examples of physical changes; can explain why a physical change is usually reversible.",
+    "cognitiveLevel": "analyze"
+  },
+  {
+    "nodeId": "c6_chem_004",
+    "title": "Chemical changes",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "A chemical change is a process in which one or more substances, called reactants, are converted into one or more entirely different substances, called products, that have new properties of their own. Unlike a physical change, where the same substance merely alters its shape, size, or state, a chemical change produces a new substance that cannot be turned back into the original material by simple physical means such as cooling, stretching, or filtering. This is why chemical changes are generally described as irreversible. In our everyday lives in India, we encounter chemical changes all around us: the rusting of iron railings and gates during the monsoon, the burning of fuels like LPG, wood, or cow-dung cakes, the bursting of fireworks on Diwali, and the setting of milk into curd in our kitchens. Each of these events creates a new compound with properties quite different from the starting materials. When iron rusts, it combines with oxygen and moisture to form hydrated iron oxide, a flaky brown solid that is weak and crumbly, unlike shiny, strong iron. When a fuel burns, it reacts with oxygen to give carbon dioxide, water vapour, and a large amount of heat and light. When milk turns into curd, bacteria change the sugars and proteins in milk into lactic acid and other substances, giving curd its sour taste and thick texture. A classic laboratory demonstration is the reaction between iron powder and sulphur powder. When heated, the grey iron and yellow sulphur combine chemically to form a black solid called iron sulphide, which is neither magnetic like iron nor soluble in carbon disulphide like sulphur. This formation of a new compound is the heart of a chemical change. We recognise a chemical change through several indicators: the evolution of heat or light, the evolution of a gas, the formation of a precipitate, a marked colour change, or a change in taste or smell. These clues help us decide whether a change is truly chemical or merely physical.",
+    "eli5": "A chemical change happens when something becomes a totally new thing. Like when milk turns into curd, or iron gets rusty, or a match burns. The new thing looks, smells, or tastes different, and you cannot easily change it back. We know a chemical change happened if we see heat, light, bubbles, a new colour, or a new taste.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define a chemical change and list four indicators that help us recognise one.",
+        "answer": "A chemical change is a change in which one or more new substances are formed from one or more original substances. The original substances are called reactants, and the new substances formed are called products. The new substance has different properties from the reactants, which is why a chemical change is quite different from a physical change. We recognise a chemical change through several indicators. First, there may be an evolution of heat or light, as seen when a matchstick burns or when a firework bursts. Second, there may be an evolution of gas, shown by bubbles forming when an effervescent tablet is dropped in water. Third, there may be a colour change, such as when iron turns from grey to reddish-brown during rusting. Fourth, there may be a change in taste or smell, as when milk changes into sour curd. Sometimes a precipitate may also form, which is a solid that appears suddenly in a liquid and settles at the bottom. Any one of these signs, especially when accompanied by the formation of a new substance, tells us that a chemical change has occurred."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Classify the following as physical or chemical changes, giving one reason for each: (a) tearing a piece of paper, (b) burning a piece of paper, (c) melting ice, (d) curdling of milk.",
+        "answer": "(a) Tearing a piece of paper is a physical change because the paper is divided into smaller pieces, but the substance remains paper; no new substance is formed and the change can be reversed only in the sense that the pieces can be joined, though the size is altered. (b) Burning a piece of paper is a chemical change because the paper reacts with oxygen to form new substances such as carbon dioxide, water vapour, and ash; heat and light are also evolved, and the original paper cannot be obtained back. (c) Melting ice is a physical change because ice and water are the same substance in different states; when cooled, the water can freeze back into ice, showing that no new substance has been formed. (d) Curdling of milk is a chemical change because the milk changes into curd, which has a different taste, smell, and texture; bacteria present in milk convert the milk sugars and proteins into new substances like lactic acid, and the change cannot be reversed to give back the original milk. Thus, the key test is whether a new substance with new properties has been formed."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"When sugar dissolves in water, it is a chemical change because the sweet water tastes different from plain water.\" Is this statement correct? Evaluate it carefully, giving a balanced argument.",
+        "answer": "The student's statement is not correct. Dissolving sugar in water is a physical change, not a chemical change. To evaluate this fairly, we must look at what really happens. When sugar crystals are added to water, the sugar particles separate and spread evenly among the water particles. The mixture tastes sweet because the sugar is still present, but the sugar itself has not changed into a new substance. We can recover the sugar by evaporating the water; the dry crystals that remain are still sugar. Therefore, there is no new compound formed, no evolution of gas, no precipitate, and no colour change. The change in taste alone is not a reliable indicator of a chemical change. However, the student is right to notice that the taste is different, because a physical change can alter the observable properties of a mixture even though the substances remain the same. The important point is that in a chemical change the particles themselves rearrange and combine in new ways to form different substances, whereas in dissolving the sugar and water particles remain the same. A stronger argument by the student might have been that if the sugar solution were heated until it caramelised and turned brown, then a chemical change would have occurred, because new substances with a bitter taste and brown colour would have formed."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You are given a mixture of iron powder and sulphur powder. Describe how you would show that a chemical change takes place when the mixture is heated, and name the new compound formed.",
+        "answer": "First, I would take a clean spatula of iron powder and a small amount of sulphur powder and mix them thoroughly in a china dish. Before heating, I would test the mixture with a magnet; the iron powder would be attracted to the magnet, while the sulphur would not. Then I would heat the mixture strongly using a Bunsen burner or spirit lamp. As the mixture is heated, a chemical reaction would begin, and the grey-yellow powder would change into a black solid. This black solid is iron sulphide, a new compound. To prove that a new substance has formed, I would let the dish cool and then test the black solid with a magnet. Unlike the original iron, the iron sulphide would not be attracted to the magnet. I could also test a small amount with carbon disulphide; unlike sulphur, iron sulphide would not dissolve in it. These tests show that the product has different properties from both iron and sulphur, and therefore a chemical change has occurred. The reactants are iron and sulphur, and the product is the new compound iron sulphide. The colour change from grey-yellow to black, the evolution of heat, and the formation of a non-magnetic, non-soluble product all act as indicators of the chemical change."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Imagine you are a science reporter for your school magazine. Write a short article for other Class 6 students explaining two common chemical changes they can observe at home during a festival and the indicators that prove each is a chemical change.",
+        "answer": "Festivals are full of chemistry. Two common chemical changes we can observe at home are the bursting of fireworks and the making of sweets such as laddus or halwa, especially when sugar syrup is heated until it turns brown. When a firework bursts, the chemicals inside it react with oxygen very quickly. We see bright light, feel heat, and hear a loud sound. The light and heat are strong indicators of a chemical change, because the original chemicals have turned into new substances such as metal oxides and gases, and these products cannot be put back into the firework. In the kitchen, when sugar syrup is heated, it first melts, which is a physical change, but if it is heated too much it turns golden brown and develops a different smell and taste. This is a chemical change called caramelisation, in which the sugar molecules break apart and form new compounds. The colour change from white to brown and the change in smell and taste are indicators that a new substance has formed. These examples show that chemical changes are happening all around us, and we can recognise them by looking for heat, light, gas, colour change, or change in taste."
+      }
+    ],
+    "masteryCriteria": "Can define a chemical change as one where a new substance is formed (burning, rusting, cooking); can give three examples of chemical changes; can state two signs of a chemical change (colour change, gas produced, heat change, new substance formed); can distinguish physical from chemical changes.",
+    "cognitiveLevel": "understand"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE ReactionViewerSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

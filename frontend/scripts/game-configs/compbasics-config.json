@@ -1,0 +1,31 @@
+{
+  "gameTitle": "ComputerBasicsGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\cs\\ComputerBasicsGame.tsx",
+  "enrichmentFiles": [],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\chem\\WaterGame.tsx",
+  "cisceNodes": "c1_cs_001 (Natural vs man-made), c1_cs_002 (What is a computer), c1_cs_003 (Types), c1_cs_004 (Uses), c1_cs_005 (Parts)",
+  "mascotName": "Tech Tom",
+  "mascotDescription": "a friendly young tech teacher with glasses, a blue shirt with a circuit pattern, and a tablet in hand. He has a warm smile and spiky hair. Custom SVG, not an owl.",
+  "sceneDescription": "computer lab scene with sky gradient through a window, desks with monitors, keyboards, a server rack in the corner, and floating binary digits as decoration",
+  "svgObjects": [
+    { "name": "MonitorIcon", "description": "a computer monitor/screen with stand" },
+    { "name": "CpuIcon", "description": "a CPU tower box with vents and power button" },
+    { "name": "KeyboardIcon", "description": "a keyboard with rows of keys" },
+    { "name": "MouseIcon", "description": "a computer mouse with scroll wheel and cable" },
+    { "name": "DesktopIcon", "description": "a desktop computer setup with monitor, CPU, keyboard, mouse" },
+    { "name": "LaptopIcon", "description": "a laptop with screen and keyboard base" },
+    { "name": "TabletIcon", "description": "a tablet with touchscreen and home button" },
+    { "name": "SmartphoneIcon", "description": "a smartphone with screen and apps" }
+  ],
+  "challengeTypes": [
+    "identify: Which of these is a computer? (Desktop vs Chair vs Table)",
+    "identify: Does a computer need electricity to work? (Yes vs No vs Only sometimes)",
+    "identify: Which is the BRAIN of the computer? (CPU vs Monitor vs Keyboard)",
+    "sort: Drag computer parts to the right category (Input: keyboard, mouse | Output: monitor, speakers | Brain: CPU)",
+    "identify: Which is NOT a type of computer? (Desktop vs Laptop vs Television)",
+    "identify: What do we use a computer for in school? (Learning vs Cooking vs Sleeping)",
+    "sort: Drag devices to computer vs not computer (Computer: desktop, laptop, tablet, smartphone | Not computer: chair, book, pencil, ball)",
+    "sort: Drag parts to input or output (Input: keyboard, mouse, microphone | Output: monitor, speaker, printer)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) A computer is a smart machine made by humans — not living, needs electricity, works fast, stores things, never gets tired. (2) Types — desktop, laptop, tablet, smartphone. (3) Uses — learning, drawing, playing games, watching videos, listening to music. (4) Parts — monitor (screen), CPU (brain), keyboard, mouse, speakers. (5) Input vs Output — keyboard/mouse send input, monitor/speakers show output. Misconceptions: 'computer is a living thing' (it's a machine, doesn't eat or grow), 'computer is a toy' (it's a smart machine, use gently), 'monitor is the computer' (monitor is only the screen, CPU is the brain). Default width=720, height=560. Use named export (export function ComputerBasicsGame), NOT export default. Export interface ComputerBasicsGameProps with width?, height?, onComplete?: (score: number) => void."
+}

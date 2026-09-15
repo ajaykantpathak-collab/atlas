@@ -1,0 +1,860 @@
+{
+  "gameFile": "LightGame",
+  "classLevel": 4,
+  "cisceNodes": [
+    "c4_phy_001",
+    "c4_phy_002",
+    "c4_phy_003",
+    "c4_phy_004"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Sources of Light ☀️",
+      "text": "A source of light is anything that gives out light of its own! Natural sources exist in nature like the sun, stars, and fireflies. Artificial sources are made by humans like electric bulbs, torches, and candles!",
+      "emoji": "☀️",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "A source of light is anything that gives out light of its own! Natural sources exist in nature like the sun, stars, and fireflies. Artificial sources are made by humans like electric bulbs, torches, and candles!",
+      "diagram": {
+        "type": "solar-system",
+        "animate": true,
+        "data": {
+          "planets": [
+            {
+              "name": "Sun",
+              "color": 16766720,
+              "distance": 0,
+              "size": 15
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Luminous or Non-Luminous? 💡",
+      "text": "Luminous objects make their own light — like the sun, a lit candle, or a glowing firefly. Non-luminous objects do NOT make their own light — like books, chairs, and the moon! The moon reflects sunlight, it is NOT a light source!",
+      "emoji": "💡",
+      "bgColor": "from-yellow-400 to-amber-500",
+      "spoken": "Luminous objects make their own light, like the sun or a lit candle. Non-luminous objects do not make their own light, like books and the moon! The moon only reflects sunlight!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Transparent, Translucent & Opaque 🔍",
+      "text": "Transparent materials let light pass through clearly like clear glass. Translucent materials let some light pass through like oiled paper. Opaque materials block light completely like wooden doors and walls!",
+      "emoji": "🔍",
+      "bgColor": "from-blue-400 to-cyan-500",
+      "spoken": "Transparent materials let light pass through clearly like clear glass. Translucent materials let some light pass through like oiled paper. Opaque materials block light completely like wooden doors and walls!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Formation of Shadows 👥",
+      "text": "A shadow is a dark shape formed when an opaque object blocks the path of light! Three things are needed: a light source, an opaque object, and a surface. Light travels in straight lines and cannot bend around objects!",
+      "emoji": "👥",
+      "bgColor": "from-indigo-400 to-purple-500",
+      "spoken": "A shadow is a dark shape formed when an opaque object blocks the path of light! Three things are needed: a light source, an opaque object, and a surface.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Shadow Rules & Direction 📐",
+      "text": "The shadow is always on the opposite side of the light source. Moving an object closer to the light makes its shadow bigger! Transparent objects do not cast dark shadows because they let light pass through!",
+      "emoji": "📐",
+      "bgColor": "from-purple-400 to-pink-500",
+      "spoken": "The shadow is always on the opposite side of the light source. Moving an object closer to the light makes its shadow bigger!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which of these is a NATURAL source of light?",
+      "answer": "The sun",
+      "options": [
+        "The sun",
+        "A torch",
+        "An electric bulb"
+      ],
+      "hint": "Think: which one exists by itself in nature without humans switching it on?",
+      "misconception": "The sun is a natural source because it exists in nature and gives light on its own! Torches and bulbs are artificial sources made by humans!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "The sun",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A torch",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "An electric bulb",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A torch",
+          "The sun"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each light source into Natural or Artificial!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Natural = sun, stars, firefly! Artificial = torch, candle, electric bulb!",
+      "misconception": "Remember: natural sources exist by themselves in nature (sun, stars, firefly). Artificial sources are made and operated by people (torch, candle, bulb)!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "sun",
+            "label": "The Sun",
+            "correctBin": "natural"
+          },
+          {
+            "id": "star",
+            "label": "Stars",
+            "correctBin": "natural"
+          },
+          {
+            "id": "torch",
+            "label": "Torch",
+            "correctBin": "artificial"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "sun",
+          "kind": "circle",
+          "label": "The Sun",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "natural",
+          "interaction": "drag-to-bin",
+          "targetBin": "natural"
+        },
+        {
+          "id": "star",
+          "kind": "star",
+          "label": "Stars",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ffd700",
+          "category": "natural",
+          "interaction": "drag-to-bin",
+          "targetBin": "natural"
+        },
+        {
+          "id": "torch",
+          "kind": "circle",
+          "label": "Torch",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "artificial",
+          "interaction": "drag-to-bin",
+          "targetBin": "artificial"
+        },
+        {
+          "id": "candle",
+          "kind": "circle",
+          "label": "Candle",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "artificial",
+          "interaction": "drag-to-bin",
+          "targetBin": "artificial"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "sun",
+          "label": "The Sun",
+          "emoji": "",
+          "correctBin": "natural"
+        },
+        {
+          "id": "star",
+          "label": "Stars",
+          "emoji": "",
+          "correctBin": "natural"
+        },
+        {
+          "id": "torch",
+          "label": "Torch",
+          "emoji": "",
+          "correctBin": "artificial"
+        },
+        {
+          "id": "candle",
+          "label": "Candle",
+          "emoji": "",
+          "correctBin": "artificial"
+        }
+      ],
+      "bins": [
+        {
+          "id": "natural",
+          "label": "Natural Source ☀️",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "artificial",
+          "label": "Artificial Source 🔦",
+          "color": "#3B82F6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is a LUMINOUS object?",
+      "answer": "An object that gives out its own light",
+      "options": [
+        "An object that gives out its own light",
+        "An object that only reflects light from others",
+        "An object that blocks light completely"
+      ],
+      "hint": "Luminous comes from 'lumen' meaning light. Does it emit its own light or borrow it?",
+      "misconception": "A luminous object produces and emits its own light from within! Objects that only reflect light (like the moon or a mirror) are non-luminous!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "An object that gives out its own light",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "An object that only reflects light from others",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "An object that blocks light completely",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "An object that gives out its own light",
+          "An object that only reflects light from others"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each object to Luminous or Non-luminous!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Luminous = lit candle, sun, bulb! Non-luminous = book, moon, mirror!",
+      "misconception": "The moon is NON-luminous! It looks bright only because it reflects sunlight. It has no light of its own. Lit candles and suns are luminous!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "luminous-candle",
+            "label": "Lit Candle",
+            "correctBin": "luminous"
+          },
+          {
+            "id": "luminous-sun",
+            "label": "The Sun",
+            "correctBin": "luminous"
+          },
+          {
+            "id": "non-book",
+            "label": "A Book",
+            "correctBin": "non-luminous"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "luminous-candle",
+          "kind": "circle",
+          "label": "Lit Candle",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "luminous",
+          "interaction": "drag-to-bin",
+          "targetBin": "luminous"
+        },
+        {
+          "id": "luminous-sun",
+          "kind": "circle",
+          "label": "The Sun",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "luminous",
+          "interaction": "drag-to-bin",
+          "targetBin": "luminous"
+        },
+        {
+          "id": "non-book",
+          "kind": "circle",
+          "label": "A Book",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "non-luminous",
+          "interaction": "drag-to-bin",
+          "targetBin": "non-luminous"
+        },
+        {
+          "id": "non-moon",
+          "kind": "circle",
+          "label": "The Moon",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "non-luminous",
+          "interaction": "drag-to-bin",
+          "targetBin": "non-luminous"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "luminous-candle",
+          "label": "Lit Candle",
+          "emoji": "",
+          "correctBin": "luminous"
+        },
+        {
+          "id": "luminous-sun",
+          "label": "The Sun",
+          "emoji": "",
+          "correctBin": "luminous"
+        },
+        {
+          "id": "non-book",
+          "label": "A Book",
+          "emoji": "",
+          "correctBin": "non-luminous"
+        },
+        {
+          "id": "non-moon",
+          "label": "The Moon",
+          "emoji": "",
+          "correctBin": "non-luminous"
+        }
+      ],
+      "bins": [
+        {
+          "id": "luminous",
+          "label": "Luminous ✨",
+          "color": "#EAB308"
+        },
+        {
+          "id": "non-luminous",
+          "label": "Non-luminous 📚",
+          "color": "#64748B"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which material lets light pass through almost completely so you can see clearly?",
+      "answer": "Transparent",
+      "options": [
+        "Transparent",
+        "Translucent",
+        "Opaque"
+      ],
+      "hint": "Think of a clear glass windowpane — can you see right through it?",
+      "misconception": "Transparent materials let light pass through completely so images are sharp! Translucent materials blur light, and opaque block it completely!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Transparent",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Translucent",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Opaque",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Translucent",
+          "Transparent"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each material to Transparent, Translucent, or Opaque!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Transparent = clear glass! Translucent = oiled paper! Opaque = wooden door!",
+      "misconception": "Remember: transparent = clear glass (see clearly); translucent = butter paper / oiled paper (see glow only); opaque = wood, metal, stone (block light completely)!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "trans-glass",
+            "label": "Clear Glass",
+            "correctBin": "transparent"
+          },
+          {
+            "id": "trans-oil",
+            "label": "Oiled Paper",
+            "correctBin": "translucent"
+          },
+          {
+            "id": "op-wood",
+            "label": "Wooden Block",
+            "correctBin": "opaque"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "trans-glass",
+          "kind": "circle",
+          "label": "Clear Glass",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "transparent",
+          "interaction": "drag-to-bin",
+          "targetBin": "transparent"
+        },
+        {
+          "id": "trans-oil",
+          "kind": "circle",
+          "label": "Oiled Paper",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "translucent",
+          "interaction": "drag-to-bin",
+          "targetBin": "translucent"
+        },
+        {
+          "id": "op-wood",
+          "kind": "circle",
+          "label": "Wooden Block",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "opaque",
+          "interaction": "drag-to-bin",
+          "targetBin": "opaque"
+        },
+        {
+          "id": "op-metal",
+          "kind": "circle",
+          "label": "Metal Plate",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "opaque",
+          "interaction": "drag-to-bin",
+          "targetBin": "opaque"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "trans-glass",
+          "label": "Clear Glass",
+          "emoji": "",
+          "correctBin": "transparent"
+        },
+        {
+          "id": "trans-oil",
+          "label": "Oiled Paper",
+          "emoji": "",
+          "correctBin": "translucent"
+        },
+        {
+          "id": "op-wood",
+          "label": "Wooden Block",
+          "emoji": "",
+          "correctBin": "opaque"
+        },
+        {
+          "id": "op-metal",
+          "label": "Metal Plate",
+          "emoji": "",
+          "correctBin": "opaque"
+        }
+      ],
+      "bins": [
+        {
+          "id": "transparent",
+          "label": "Transparent 🔍",
+          "color": "#06B6D4"
+        },
+        {
+          "id": "translucent",
+          "label": "Translucent 🌥️",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "opaque",
+          "label": "Opaque 🧱",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What THREE things are needed to form a shadow?",
+      "answer": "A light source, an opaque object, and a surface",
+      "options": [
+        "A light source, an opaque object, and a surface",
+        "Only a light source and water",
+        "Only a transparent glass and a mirror"
+      ],
+      "hint": "Think about a torch, a book, and a wall. What are those three roles?",
+      "misconception": "A shadow needs three things: a light source to emit light, an opaque object to block it, and a surface (like a wall or ground) where the dark shape appears!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A light source, an opaque object, and a surface",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Only a light source and water",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Only a transparent glass and a mirror",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A light source, an opaque object, and a surface",
+          "Only a light source and water"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each statement about shadows to True or False!",
+      "answer": "sort",
+      "options": [],
+      "hint": "True = light travels in straight lines, shadow is opposite light! False = transparent objects cast dark shadows!",
+      "misconception": "Transparent objects do NOT cast dark shadows because they let light pass through! Only opaque objects cast sharp, dark shadows. Also, shadows are always on the opposite side of the light source!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "s-true1",
+            "label": "Light travels in straight lines",
+            "correctBin": "true"
+          },
+          {
+            "id": "s-true2",
+            "label": "Shadow is opposite to light source",
+            "correctBin": "true"
+          },
+          {
+            "id": "s-false1",
+            "label": "Transparent objects cast dark shadows",
+            "correctBin": "false"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "s-true1",
+          "kind": "circle",
+          "label": "Light travels in straight lines",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true",
+          "interaction": "drag-to-bin",
+          "targetBin": "true"
+        },
+        {
+          "id": "s-true2",
+          "kind": "circle",
+          "label": "Shadow is opposite to light source",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true",
+          "interaction": "drag-to-bin",
+          "targetBin": "true"
+        },
+        {
+          "id": "s-false1",
+          "kind": "circle",
+          "label": "Transparent objects cast dark shadows",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "false",
+          "interaction": "drag-to-bin",
+          "targetBin": "false"
+        },
+        {
+          "id": "s-false2",
+          "kind": "circle",
+          "label": "Shadows can form without any light",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "false",
+          "interaction": "drag-to-bin",
+          "targetBin": "false"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s-true1",
+          "label": "Light travels in straight lines",
+          "emoji": "",
+          "correctBin": "true"
+        },
+        {
+          "id": "s-true2",
+          "label": "Shadow is opposite to light source",
+          "emoji": "",
+          "correctBin": "true"
+        },
+        {
+          "id": "s-false1",
+          "label": "Transparent objects cast dark shadows",
+          "emoji": "",
+          "correctBin": "false"
+        },
+        {
+          "id": "s-false2",
+          "label": "Shadows can form without any light",
+          "emoji": "",
+          "correctBin": "false"
+        }
+      ],
+      "bins": [
+        {
+          "id": "true",
+          "label": "True Statement ✅",
+          "color": "#22C55E"
+        },
+        {
+          "id": "false",
+          "label": "False Statement ❌",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "theme": "lab",
+  "storyArc": {
+    "theme": "A curious physicist explores the forces of nature",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Physics Lab Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_phy_001",
+    "region": "Physics Realm",
+    "mapX": 0.8,
+    "mapY": 0.7500000000000001,
+    "icon": "⚡",
+    "prerequisites": [
+      "c4_phy_002"
+    ]
+  },
+  "subject": "physics"
+}

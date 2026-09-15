@@ -1,0 +1,41 @@
+{
+  "gameTitle": "EarthSunGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\EarthSunGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\geo\\enrichment\\c2_geography_enrichment_part1.marker",
+    "D:\\cisce\\geo\\enrichment\\c2_geography_enrichment_part2.marker",
+    "D:\\cisce\\geo\\enrichment\\c2_geography_enrichment_part3.marker",
+    "D:\\cisce\\geo\\enrichment\\c2_geography_enrichment_part4.marker",
+    "D:\\cisce\\geo\\enrichment\\c2_geography_enrichment_part5.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_geo_001 (Earth), c2_geo_002 (Sun and shadows), c2_geo_003 (Day and night), c2_geo_004 (Weather observation), c2_geo_005 (Seasons)",
+  "mascotName": "Astronomer Aryan",
+  "mascotDescription": "a friendly young astronomer with a star-patterned cap, a telescope, a notebook, and a small star badge. Custom SVG, not an owl.",
+  "sceneDescription": "sky scene with day and night sky gradient, sun, moon, stars, clouds, a tree with shadow, and a small house",
+  "svgObjects": [
+    { "name": "EarthIcon", "description": "the Earth as a blue and green globe" },
+    { "name": "SunIcon", "description": "the sun with rays" },
+    { "name": "MoonIcon", "description": "the moon with craters" },
+    { "name": "StarIcon", "description": "a twinkling star" },
+    { "name": "CloudIcon", "description": "a white cloud" },
+    { "name": "TreeShadowIcon", "description": "a tree with a long shadow on the ground" },
+    { "name": "SunnyIcon", "description": "a sunny weather symbol" },
+    { "name": "RainyIcon", "description": "a rainy weather symbol with raindrops" },
+    { "name": "CloudyIcon", "description": "a cloudy weather symbol" },
+    { "name": "WinterIcon", "description": "winter season with snowman" },
+    { "name": "SummerIcon", "description": "summer season with hot sun" },
+    { "name": "MonsoonIcon", "description": "monsoon season with heavy rain" }
+  ],
+  "challengeTypes": [
+    "identify: What shape is the Earth? (Round like a ball vs Flat like a plate vs Square like a box)",
+    "identify: What gives us light and heat during the day? (The Sun vs The Moon vs The Stars)",
+    "identify: When does our shadow become LONGEST? (Morning and evening vs Noon vs Midnight)",
+    "sort: Drag events to Day or Night (Day: sun shines, birds fly, we go to school, shops open | Night: moon and stars appear, we sleep, owls hoot, shops close)",
+    "identify: Why do we have day and night? (Earth rotates on its axis vs Sun moves around Earth vs Moon blocks the sun)",
+    "sort: Drag weather types to their symbol (Sunny: bright sun, no clouds | Rainy: clouds with raindrops | Cloudy: grey clouds, no rain | Windy: trees bending, dust blowing | Snowy: white snow falling)",
+    "identify: Which season do we wear WARM clothes and see snow? (Winter vs Summer vs Monsoon)",
+    "sort: Drag seasons to what happens (Summer: hot sun, wear cotton, eat ice cream, drink water | Winter: cold, wear wool, see fog, drink hot milk | Monsoon: heavy rain, use umbrella, see rainbows, wear raincoat | Spring: flowers bloom, new leaves, pleasant weather)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Earth — Earth is round like a ball (sphere), it is our home, it has land (continents, mountains, plains) and water (oceans, rivers, lakes), it is surrounded by air. Earth rotates on its axis — one rotation takes 24 hours (one day). (2) Sun and shadows — the sun is a huge ball of hot gas, it gives us light and heat, it appears to move across the sky from east to west. Shadows form when an object blocks sunlight. Shadows are long in morning and evening (sun is low), short at noon (sun is overhead). Shadows always point opposite to the sun. (3) Day and night — when our side of Earth faces the sun, it is day. When our side faces away from the sun, it is night. Earth rotates once in 24 hours, giving us one day and one night. The sun does not move — Earth moves. (4) Weather observation — weather is what the sky and air are like each day. Types: sunny (bright sun, no clouds), cloudy (grey clouds), rainy (clouds with rain), windy (strong wind), snowy (snow falling). We observe weather daily — temperature (hot/cold), wind (calm/breezy/stormy), sky (clear/cloudy). (5) Seasons — summer (March-May in India, very hot, wear cotton, drink lots of water), monsoon/rainy (June-September, heavy rain, use umbrella, raincoat), winter (November-February, cold, wear woollen clothes, see fog), spring (flowers bloom, new leaves, pleasant). Misconceptions: 'Earth is flat' (Earth is round like a ball, seen from space), 'sun moves around Earth' (Earth moves around the sun, and Earth rotates to make day and night), 'shadow is beside us at noon' (shadow is shortest at noon because sun is overhead), 'all days are the same weather' (weather changes daily, that is why we observe it). Default width=720, height=560. Use named export (export function EarthSunGame), NOT export default. Export interface EarthSunGameProps with width?, height?, onComplete?: (score: number) => void."
+}

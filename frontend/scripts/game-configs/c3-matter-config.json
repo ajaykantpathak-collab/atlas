@@ -1,0 +1,45 @@
+{
+  "gameTitle": "MatterGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\MatterGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\chem\\enrichment\\c3_chemistry_enrichment_part1.marker",
+    "D:\\cisce\\chem\\enrichment\\c3_chemistry_enrichment_part2.marker",
+    "D:\\cisce\\chem\\enrichment\\c3_chemistry_enrichment_part3.marker",
+    "D:\\cisce\\chem\\enrichment\\c3_chemistry_enrichment_part4.marker",
+    "D:\\cisce\\chem\\enrichment\\c3_chemistry_enrichment_part5.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_chem_001 (Living and non-living things chemistry focus), c3_chem_002 (Forms of matter - solids), c3_chem_003 (Forms of matter - liquids), c3_chem_004 (Forms of matter - gases), c3_chem_005 (Properties of solids, liquids and gases)",
+  "mascotName": "Scientist Suresh",
+  "mascotDescription": "a friendly chemist with a lab coat, safety goggles, a test tube, and a flask. Custom SVG, not an owl.",
+  "sceneDescription": "science laboratory scene with sky gradient through a window, lab benches, test tubes, beakers, a balance scale, and molecule models",
+  "svgObjects": [
+    { "name": "SolidBlockIcon", "description": "a solid block/brick with fixed shape" },
+    { "name": "LiquidIcon", "description": "liquid in a beaker taking container shape" },
+    { "name": "GasIcon", "description": "gas particles spreading freely" },
+    { "name": "IceIcon", "description": "an ice cube (solid water)" },
+    { "name": "WaterDropIcon", "description": "a water drop (liquid)" },
+    { "name": "SteamIcon", "description": "steam/vapour (gas)" },
+    { "name": "StoneIcon", "description": "a stone (solid)" },
+    { "name": "MilkIcon", "description": "milk in a glass (liquid)" },
+    { "name": "AirIcon", "description": "air (invisible gas shown as dots)" },
+    { "name": "BalloonIcon", "description": "a balloon filled with gas" },
+    { "name": "BeakerIcon", "description": "a science beaker" },
+    { "name": "TestTubeIcon", "description": "a test tube" },
+    { "name": "MoleculeIcon", "description": "a molecule model (atoms connected)" },
+    { "name": "ThermometerIcon", "description": "a thermometer" }
+  ],
+  "challengeTypes": [
+    "identify: Which of these is a SOLID? (A stone vs Water vs Air)",
+    "identify: Which of these is a LIQUID? (Milk vs A brick vs Air in a balloon)",
+    "identify: Which of these is a GAS? (Air vs Ice vs Oil)",
+    "sort: Drag each material to Solid, Liquid, or Gas (Solid: stone, brick, ice, pencil, book | Liquid: water, milk, oil, juice | Gas: air, steam, oxygen, smoke)",
+    "identify: What shape does a LIQUID take? (The shape of its container vs Its own fixed shape vs No shape at all)",
+    "sort: Drag each property to Solid, Liquid, or Gas (Solid: fixed shape, fixed volume, particles close together | Liquid: takes container shape, fixed volume, particles slightly apart | Gas: no fixed shape, no fixed volume, particles far apart and free)",
+    "identify: What happens when water is heated to 100 degrees? (It becomes steam/gas vs It becomes ice/solid vs It stays the same)",
+    "sort: Drag each state change to its correct name (Ice to water: melting | Water to steam: evaporation | Steam to water: condensation | Water to ice: freezing)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Living and non-living (chemistry focus) — matter is anything that has mass and takes up space. Both living and non-living things are made of matter. (2) Solids — have a fixed shape and fixed volume. Particles are packed tightly. Examples: stone, brick, ice, pencil, book, wood, metal. (3) Liquids — have a fixed volume but take the shape of their container. Particles are close but can move. Examples: water, milk, oil, juice, honey. (4) Gases — have no fixed shape and no fixed volume. They spread to fill any container. Particles are far apart and move freely. Examples: air, steam, oxygen, smoke, helium. (5) Properties of solids, liquids, gases — solids: fixed shape + fixed volume, hard to compress. Liquids: takes container shape + fixed volume, flows, hard to compress. Gases: no fixed shape + no fixed volume, spreads everywhere, easy to compress. State changes: melting (solid→liquid), evaporation (liquid→gas), condensation (gas→liquid), freezing (liquid→solid). Water can be all three: ice (solid), water (liquid), steam (gas). Misconceptions: 'air is nothing' (air is a gas — it has mass and takes up space), 'liquids have no shape' (liquids have the shape of their container — they do have a shape, just not a fixed one), 'ice and water are different substances' (ice is frozen water — same substance in different states), 'gas has no weight' (gas has weight — a balloon full of air weighs more than an empty one). Default width=720, height=560. Use named export (export function MatterGame), NOT export default. Export interface MatterGameProps with width?, height?, onComplete?: (score: number) => void."
+}

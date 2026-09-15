@@ -1,0 +1,57 @@
+{
+  "gameTitle": "FoodGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\evs\\FoodGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\evs\\enrichment\\c1_evs_enrichment_part6.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\chem\\WaterGame.tsx",
+  "cisceNodes": "c1_evs_006 (My need for food - types of food, healthy food)",
+  "mascotName": "Chef Chintu",
+  "mascotDescription": "a friendly young chef with a white hat, apron, a wooden spoon, and a warm smile. Custom SVG, not an owl.",
+  "sceneDescription": "kitchen scene with sky gradient through a window, a table with food items, a plate with healthy food, and a fruit basket",
+  "svgObjects": [
+    {
+      "name": "RiceIcon",
+      "description": "a bowl of rice (energy-giving)"
+    },
+    {
+      "name": "RotiIcon",
+      "description": "a roti bread (energy-giving)"
+    },
+    {
+      "name": "MilkIcon",
+      "description": "a glass of milk (body-building)"
+    },
+    {
+      "name": "EggIcon",
+      "description": "an egg (body-building)"
+    },
+    {
+      "name": "AppleIcon",
+      "description": "an apple (protective)"
+    },
+    {
+      "name": "CarrotIcon",
+      "description": "a carrot (protective)"
+    },
+    {
+      "name": "ChipsIcon",
+      "description": "a chips packet (junk food)"
+    },
+    {
+      "name": "ChocolateIcon",
+      "description": "a chocolate bar (junk food)"
+    }
+  ],
+  "challengeTypes": [
+    "identify: Which food gives us ENERGY to play? (Rice and roti vs Apple vs Milk)",
+    "identify: Which food helps us GROW tall and strong? (Milk and dal vs Chips vs Chocolate)",
+    "identify: Which food protects us from getting sick? (Fruits and vegetables vs Cold drink vs Chips)",
+    "sort: Drag foods to the right group (Energy-giving: rice, roti, potato, butter | Body-building: milk, dal, egg, paneer | Protective: orange, apple, banana, carrot, spinach)",
+    "identify: Is eating too much chips and chocolate good for us? (No, it is junk food vs Yes, it is healthy vs Only on Mondays)",
+    "identify: Why do we need food? (For energy, growth, and protection vs To play games vs To sleep)",
+    "sort: Drag foods to healthy or junk (Healthy: rice, milk, apple, carrot, dal | Junk: chips, chocolate, cold drink, candy)",
+    "sort: Drag food groups to what they do (Energy-giving: gives power to play | Body-building: helps grow tall and strong | Protective: guards from getting sick | Junk: tasty but too much sugar, salt, or oil)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. Teach: (1) Food is fuel for our body. (2) Three food groups — energy-giving (rice, roti, potato, butter), body-building (milk, dal, egg, paneer), protective (fruits and vegetables). (3) Junk food (chips, chocolate, cold drink, candy) is tasty but has too much sugar, salt, or oil — eat less. Misconceptions: \"junk food is healthy because it tastes good\" (junk food has too much sugar, salt, oil — eat less), \"only milk makes us strong\" (all body-building foods help — milk, dal, egg, paneer), \"fruits are not important\" (fruits and vegetables protect us from getting sick). Default width=720, height=560. Use named export (export function FoodGame), NOT export default. Export interface FoodGameProps with width?, height?, onComplete?: (score: number) => void."
+}

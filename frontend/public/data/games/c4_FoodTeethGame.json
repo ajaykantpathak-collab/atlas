@@ -1,0 +1,836 @@
+{
+  "gameFile": "FoodTeethGame",
+  "classLevel": 4,
+  "cisceNodes": [],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Food Components & Energy 🍚",
+      "text": "We need food to grow, play, and stay healthy! Carbohydrates give quick energy (rice, chapati). Proteins build our body (dal, milk, eggs). Fats store energy (ghee, butter).",
+      "emoji": "🍚",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "We need food to grow, play, and stay healthy! Carbohydrates give quick energy, proteins build our body, and fats store energy.",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Goat",
+            "Lion"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Vitamins & Balanced Diet 🍎",
+      "text": "Vitamins and minerals protect us from diseases (fruits and vegetables). A balanced diet has a mix of all food components in right proportions. Never waste food!",
+      "emoji": "🥗",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Vitamins and minerals protect us from diseases. A balanced diet has a mix of all food components in the right proportions.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 1
+        }
+      }
+    },
+    {
+      "title": "Types of Teeth 🦷",
+      "text": "We have four types of teeth! Incisors at the front cut food like scissors. Canines at the corners tear food. Premolars and molars at the back crush and grind food into a paste!",
+      "emoji": "🦷",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "We have four types of teeth! Incisors cut food, canines tear food, and premolars and molars crush and grind food.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Structure of a Tooth 🛡️",
+      "text": "The crown is visible above the gum; the root is hidden in the jaw. Enamel is the hard, protective outer covering of the crown. Dentine is underneath, and pulp inside has nerves and blood vessels!",
+      "emoji": "🛡️",
+      "bgColor": "from-cyan-400 to-blue-600",
+      "spoken": "Enamel is the hardest outer covering of a tooth. Dentine is underneath, and the pulp inside contains nerves and blood vessels.",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Dental Care & Cavities 🪥",
+      "text": "Bacteria feed on leftover sugar and make acid. Acid eats enamel and makes cavities! Brush twice daily, floss, eat less sugar, and visit the dentist every six months!",
+      "emoji": "🪥",
+      "bgColor": "from-purple-400 to-pink-500",
+      "spoken": "Bacteria feed on sugar and make acid that causes cavities. Brush twice daily, floss, and visit the dentist regularly.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which food gives the body the most QUICK energy for running?",
+      "answer": "Rice and chapati",
+      "options": [
+        "Rice and chapati",
+        "Ghee and butter",
+        "Spinach and carrot"
+      ],
+      "hint": "Think: what do we eat daily that gives us instant energy for sports?",
+      "misconception": "Rice and chapati are rich in carbohydrates, which give quick energy! Ghee and butter store energy, and spinach gives vitamins, but grains give instant energy for sports.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Rice and chapati",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Ghee and butter",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Spinach and carrot",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Ghee and butter",
+          "Rice and chapati"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "Which food helps the body GROW and repair muscles?",
+      "answer": "Dal and eggs",
+      "options": [
+        "Rice and potatoes",
+        "Dal and eggs",
+        "Ghee and oil"
+      ],
+      "hint": "These are body-building foods like milk, paneer, and lentils!",
+      "misconception": "Dal and eggs are rich in proteins! Proteins are body-building nutrients that help grow muscles and repair body parts. Rice gives energy, and ghee stores energy.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Rice and potatoes",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Dal and eggs",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Ghee and oil",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Dal and eggs",
+          "Rice and potatoes"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each food to its main food component!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Rice = carbohydrate, Dal = protein, Ghee = fat, Apple = vitamin!",
+      "misconception": "Remember: grains are carbohydrates for energy, pulses and milk are proteins for building, ghee and butter are fats, and fruits are vitamins for protection!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "rice",
+            "label": "Rice & Chapati",
+            "correctBin": "carb"
+          },
+          {
+            "id": "dal",
+            "label": "Dal & Eggs",
+            "correctBin": "protein"
+          },
+          {
+            "id": "ghee",
+            "label": "Ghee & Butter",
+            "correctBin": "fat"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "rice",
+          "kind": "circle",
+          "label": "Rice & Chapati",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "carb",
+          "interaction": "drag-to-bin",
+          "targetBin": "carb"
+        },
+        {
+          "id": "dal",
+          "kind": "circle",
+          "label": "Dal & Eggs",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "protein",
+          "interaction": "drag-to-bin",
+          "targetBin": "protein"
+        },
+        {
+          "id": "ghee",
+          "kind": "circle",
+          "label": "Ghee & Butter",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fat",
+          "interaction": "drag-to-bin",
+          "targetBin": "fat"
+        },
+        {
+          "id": "apple",
+          "kind": "apple",
+          "label": "Apple & Guava",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ff4444",
+          "category": "vitamin",
+          "interaction": "drag-to-bin",
+          "targetBin": "vitamin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "rice",
+          "label": "Rice & Chapati",
+          "emoji": "",
+          "correctBin": "carb"
+        },
+        {
+          "id": "dal",
+          "label": "Dal & Eggs",
+          "emoji": "",
+          "correctBin": "protein"
+        },
+        {
+          "id": "ghee",
+          "label": "Ghee & Butter",
+          "emoji": "",
+          "correctBin": "fat"
+        },
+        {
+          "id": "apple",
+          "label": "Apple & Guava",
+          "emoji": "",
+          "correctBin": "vitamin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "carb",
+          "label": "Carbohydrates 🌾",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "protein",
+          "label": "Proteins 🥚",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "fat",
+          "label": "Fats 🧈",
+          "color": "#EF4444"
+        },
+        {
+          "id": "vitamin",
+          "label": "Vitamins 🍎",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of these meals is a BALANCED diet?",
+      "answer": "Rice, dal, vegetable, chapati, curd, and fruit",
+      "options": [
+        "Only rice and ghee",
+        "Rice, dal, vegetable, chapati, curd, and fruit",
+        "Only fruits and water"
+      ],
+      "hint": "A balanced diet contains all food components in proper proportions!",
+      "misconception": "A balanced meal needs variety! Rice, dal, vegetables, chapati, curd, and fruit together provide carbohydrates, proteins, fats, vitamins, minerals, roughage, and water.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Only rice and ghee",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Rice, dal, vegetable, chapati, curd, and fruit",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Only fruits and water",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Rice, dal, vegetable, chapati, curd, and fruit",
+          "Only rice and ghee"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each tooth type to its correct function!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Incisors cut front food, canines tear, premolars crush, molars grind!",
+      "misconception": "Each tooth has a special job: incisors cut like scissors, canines tear like forks, premolars crush, and molars grind food at the back!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. Incisors cut front food, canines tear, premolars crush, molars grind!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "incisor",
+          "kind": "circle",
+          "label": "Incisors (Front)",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "cut",
+          "interaction": "drag-to-bin",
+          "targetBin": "cut"
+        },
+        {
+          "id": "canine",
+          "kind": "circle",
+          "label": "Canines (Corners)",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "tear",
+          "interaction": "drag-to-bin",
+          "targetBin": "tear"
+        },
+        {
+          "id": "molar",
+          "kind": "circle",
+          "label": "Molars (Back)",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "grind",
+          "interaction": "drag-to-bin",
+          "targetBin": "grind"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "incisor",
+          "label": "Incisors (Front)",
+          "emoji": "",
+          "correctBin": "cut"
+        },
+        {
+          "id": "canine",
+          "label": "Canines (Corners)",
+          "emoji": "",
+          "correctBin": "tear"
+        },
+        {
+          "id": "molar",
+          "label": "Molars (Back)",
+          "emoji": "",
+          "correctBin": "grind"
+        }
+      ],
+      "bins": [
+        {
+          "id": "cut",
+          "label": "Cut & Bite ✂️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "tear",
+          "label": "Tear Meat 🍴",
+          "color": "#EF4444"
+        },
+        {
+          "id": "grind",
+          "label": "Grind & Chew ⚙️",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is the HARDEST substance in the human body covering the crown of a tooth?",
+      "answer": "Enamel",
+      "options": [
+        "Enamel",
+        "Dentine",
+        "Pulp"
+      ],
+      "hint": "It is the shiny outer shield protecting the tooth from germs and chewing wear!",
+      "misconception": "Enamel is the hardest substance in the human body! It covers the crown like a strong helmet. Dentine is underneath, and pulp is the soft living centre.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Enamel",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Dentine",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Pulp",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Enamel",
+          "Dentine"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag the steps of cavity formation in correct order!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Sugar → Bacteria feed → Acid produced → Enamel attacked → Cavity!",
+      "misconception": "Cavities form when sugary food is left behind, bacteria feed on it, produce acid, attack the hard enamel, and make a hole!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "step1",
+            "label": "Eat sugary food",
+            "correctBin": "s1"
+          },
+          {
+            "id": "step2",
+            "label": "Bacteria feed on sugar",
+            "correctBin": "s2"
+          },
+          {
+            "id": "step3",
+            "label": "Bacteria produce acid",
+            "correctBin": "s3"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "step1",
+          "kind": "circle",
+          "label": "Eat sugary food",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "s1",
+          "interaction": "drag-to-bin",
+          "targetBin": "s1"
+        },
+        {
+          "id": "step2",
+          "kind": "circle",
+          "label": "Bacteria feed on sugar",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "s2",
+          "interaction": "drag-to-bin",
+          "targetBin": "s2"
+        },
+        {
+          "id": "step3",
+          "kind": "circle",
+          "label": "Bacteria produce acid",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "s3",
+          "interaction": "drag-to-bin",
+          "targetBin": "s3"
+        },
+        {
+          "id": "step4",
+          "kind": "circle",
+          "label": "Acid attacks enamel",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "s4",
+          "interaction": "drag-to-bin",
+          "targetBin": "s4"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "step1",
+          "label": "Eat sugary food",
+          "emoji": "",
+          "correctBin": "s1"
+        },
+        {
+          "id": "step2",
+          "label": "Bacteria feed on sugar",
+          "emoji": "",
+          "correctBin": "s2"
+        },
+        {
+          "id": "step3",
+          "label": "Bacteria produce acid",
+          "emoji": "",
+          "correctBin": "s3"
+        },
+        {
+          "id": "step4",
+          "label": "Acid attacks enamel",
+          "emoji": "",
+          "correctBin": "s4"
+        }
+      ],
+      "bins": [
+        {
+          "id": "s1",
+          "label": "1. Eat Sugar 🍬",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "s2",
+          "label": "2. Bacteria Feed 🦠",
+          "color": "#EF4444"
+        },
+        {
+          "id": "s3",
+          "label": "3. Make Acid 🧪",
+          "color": "#9333EA"
+        },
+        {
+          "id": "s4",
+          "label": "4. Attack Enamel 🛡️",
+          "color": "#3B82F6"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag each action to Good Dental Care or Bad Dental Care!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Brushing twice, flossing, visiting dentist = good! Skipping brush, eating sweets = bad!",
+      "misconception": "Good dental care keeps teeth strong: brush twice a day, floss, rinse after meals, and visit the dentist every 6 months!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "brush",
+            "label": "Brush twice daily",
+            "correctBin": "good"
+          },
+          {
+            "id": "dentist",
+            "label": "Visit dentist every 6 mo",
+            "correctBin": "good"
+          },
+          {
+            "id": "skip",
+            "label": "Skip brushing at night",
+            "correctBin": "bad"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "brush",
+          "kind": "circle",
+          "label": "Brush twice daily",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "good",
+          "interaction": "drag-to-bin",
+          "targetBin": "good"
+        },
+        {
+          "id": "dentist",
+          "kind": "circle",
+          "label": "Visit dentist every 6 mo",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "good",
+          "interaction": "drag-to-bin",
+          "targetBin": "good"
+        },
+        {
+          "id": "skip",
+          "kind": "circle",
+          "label": "Skip brushing at night",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bad",
+          "interaction": "drag-to-bin",
+          "targetBin": "bad"
+        },
+        {
+          "id": "sweets",
+          "kind": "circle",
+          "label": "Eat sticky sweets before bed",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bad",
+          "interaction": "drag-to-bin",
+          "targetBin": "bad"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "brush",
+          "label": "Brush twice daily",
+          "emoji": "",
+          "correctBin": "good"
+        },
+        {
+          "id": "dentist",
+          "label": "Visit dentist every 6 mo",
+          "emoji": "",
+          "correctBin": "good"
+        },
+        {
+          "id": "skip",
+          "label": "Skip brushing at night",
+          "emoji": "",
+          "correctBin": "bad"
+        },
+        {
+          "id": "sweets",
+          "label": "Eat sticky sweets before bed",
+          "emoji": "",
+          "correctBin": "bad"
+        }
+      ],
+      "bins": [
+        {
+          "id": "good",
+          "label": "Good Care ✅",
+          "color": "#10B981"
+        },
+        {
+          "id": "bad",
+          "label": "Bad Habit ❌",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "theme": "body",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_FoodTeethGame",
+    "region": "Biosphere",
+    "mapX": 0.4,
+    "mapY": 0.7500000000000001,
+    "icon": "🌱",
+    "prerequisites": []
+  },
+  "subject": "biology"
+}

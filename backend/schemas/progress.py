@@ -116,6 +116,39 @@ class ReviewAnswerResponse(BaseModel):
     updated_mastery: float
 
 
+class SimResultRequest(BaseModel):
+    """A completed simulation run reported by the frontend sims engine.
+
+    ``node_ids`` are the sims_v2 node ids the sim covers; ``score`` is the
+    0-100 result the engine computed. ``correct`` is derived server-side
+    (score >= 70) — clients may send it but it is recomputed.
+    """
+
+    model_config = ConfigDict(
+        from_attributes=True,
+        populate_by_name=True,
+        alias_generator=to_camel,
+    )
+    node_ids: List[str] = Field(..., min_length=1)
+    score: float = Field(..., ge=0, le=100)
+    sim_id: Optional[str] = None
+    session_id: Optional[str] = None
+    time_spent_seconds: Optional[int] = Field(default=None, ge=0)
+    # Idempotency: client-generated attempt id lets retries be deduped.
+    attempt_id: Optional[str] = None
+
+
+class SimResultResponse(BaseModel):
+    model_config = ConfigDict(
+        from_attributes=True,
+        populate_by_name=True,
+        alias_generator=to_camel,
+    )
+    updated: List[str] = Field(default_factory=list)
+    mastery: dict = Field(default_factory=dict)
+    correct: bool = False
+
+
 class DashboardSchema(BaseModel):
     model_config = ConfigDict(
         from_attributes=True,

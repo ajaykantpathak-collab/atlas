@@ -1,0 +1,22 @@
+const fs = require('fs');
+const path = require('path');
+const s = fs.readFileSync(path.join('D:\\dream_app\\frontend', 'scripts', 'opus-c12-pipeline.js'), 'utf8');
+
+console.log('=== GLM-5.2 HIGH PIPELINE — FINAL CHECKS ===');
+console.log('1. GLM-5.2 High model:', s.includes('glm-5.2-high'));
+console.log('2. Devin writes file directly (prompt):', s.includes('WRITE the complete component file directly'));
+console.log('3. Prompt says use write tool:', s.includes('Use your write tool'));
+console.log('4. Prompt says do NOT output code:', s.includes('Do NOT output the code as text'));
+console.log('5. callGLM reads file Devin wrote:', s.includes("fs.readFileSync(outputPath"));
+console.log('6. callGLM checks file exists:', s.includes('fs.existsSync(outputPath'));
+console.log('7. No extractCode call:', !s.includes('extractCode(response)'));
+console.log('8. No atomicWrite call in processTemplate:', !s.includes('atomicWrite(template.id, code)'));
+console.log('9. accept-edits permission:', s.includes('accept-edits'));
+console.log('10. respect-workspace-trust false:', s.includes('respect-workspace-trust false'));
+console.log('11. 10 workers:', s.includes("'10'"));
+console.log('12. No retry:', !s.includes('MAX_RETRY'));
+console.log('13. BKT in prompt:', s.includes('bktUpdate'));
+console.log('14. SRS in prompt:', s.includes('sm2Update'));
+console.log('15. Mastery in prompt:', s.includes('recordGameScore'));
+console.log('16. Node ID comment strip:', s.includes('codeWithoutComments'));
+console.log('17. Output path in prompt:', s.includes('D:\\\\dream_app\\\\frontend\\\\components\\\\simulations\\\\c9_12'));

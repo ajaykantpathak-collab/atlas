@@ -1,0 +1,2050 @@
+[
+  {
+    "sim": "C10_PhysicsEfficiencyMachinesetaSim",
+    "class": 10,
+    "nodes": [
+      {
+        "id": "c10_phy_011",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_012",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_013",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_014",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_015",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_016",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_017",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_018",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_019",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_020",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C10_PhysicsHouseWiringPowerSim",
+    "class": 10,
+    "nodes": [
+      {
+        "id": "c10_phy_031",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_032",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_033",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_034",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_035",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_036",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_037",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_038",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_039",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_040",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_041",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_042",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C10_PhysicsScatteringLightSim",
+    "class": 10,
+    "nodes": [
+      {
+        "id": "c10_phy_021",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_022",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_023",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_024",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_025",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_026",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_027",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_028",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_029",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_030",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C10_PhysicsTurningEffectForceSim",
+    "class": 10,
+    "nodes": [
+      {
+        "id": "c10_phy_001",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_002",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_003",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_004",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_005",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_006",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_007",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_008",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_009",
+        "comment": ""
+      },
+      {
+        "id": "c10_phy_010",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C11_PhysicsBernoullisTheoremSim",
+    "class": 11,
+    "nodes": [
+      {
+        "id": "c11_phy_061",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_062",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_063",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_064",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_065",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_066",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_067",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_068",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_069",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_070",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C11_PhysicsConservationMechanicalEnergySim",
+    "class": 11,
+    "nodes": [
+      {
+        "id": "c11_phy_031",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_032",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_033",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_034",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_035",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_036",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_037",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_038",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_039",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_040",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C11_PhysicsEquilibriumConcurrentForcesSim",
+    "class": 11,
+    "nodes": [
+      {
+        "id": "c11_phy_021",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_022",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_023",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_024",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_025",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_026",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_027",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_028",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_029",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_030",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C11_PhysicsGeostationarySatellitesSim",
+    "class": 11,
+    "nodes": [
+      {
+        "id": "c11_phy_051",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_052",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_053",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_054",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_055",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_056",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_057",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_058",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_059",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_060",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C11_PhysicsHeatTransferRadiationSim",
+    "class": 11,
+    "nodes": [
+      {
+        "id": "c11_phy_071",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_072",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_073",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_074",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_075",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_076",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_077",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_078",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_079",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_080",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C11_PhysicsParallelPerpendicularAxesSim",
+    "class": 11,
+    "nodes": [
+      {
+        "id": "c11_phy_041",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_042",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_043",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_044",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_045",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_046",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_047",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_048",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_049",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_050",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C11_PhysicsRefrigeratorCoefficientPerformanceSim",
+    "class": 11,
+    "nodes": [
+      {
+        "id": "c11_phy_101",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_102",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_103",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_104",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_105",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_106",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_107",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C11_PhysicsResolutionVectorsRectangularSim",
+    "class": 11,
+    "nodes": [
+      {
+        "id": "c11_phy_011",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_012",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_013",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_014",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_015",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_016",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_017",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_018",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_019",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_020",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C11_PhysicsSimplePendulumSim",
+    "class": 11,
+    "nodes": [
+      {
+        "id": "c11_phy_091",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_092",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_093",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_094",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_095",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_096",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_097",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_098",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_099",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_100",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C11_PhysicsSystemsUnitscgsSim",
+    "class": 11,
+    "nodes": [
+      {
+        "id": "c11_phy_001",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_002",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_003",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_004",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_005",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_006",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_007",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_008",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_009",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_010",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C11_PhysicsWorkDoneAdiabaticSim",
+    "class": 11,
+    "nodes": [
+      {
+        "id": "c11_phy_081",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_082",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_083",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_084",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_085",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_086",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_087",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_088",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_089",
+        "comment": ""
+      },
+      {
+        "id": "c11_phy_090",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsAmperesCircuitalSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_041",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_042",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_043",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_044",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_045",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_046",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_047",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_048",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_049",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_050",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsBrewstersPolarizationReflectionSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_131",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_132",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_133",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_134",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_135",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_136",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_137",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_138",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_139",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_140",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsDispersionThroughPrismSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_081",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_082",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_083",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_084",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_085",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_086",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_087",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_088",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_089",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_090",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsElectricChargestypesSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_001",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_002",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_003",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_004",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_005",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_006",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_007",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_008",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_009",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_010",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsElectricFluxSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_011",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_012",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_013",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_014",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_015",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_016",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_017",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_018",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_019",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_020",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsElectrostaticSystemChargesSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_021",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_022",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_023",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_024",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_025",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_026",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_027",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_028",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_029",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_030",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsEnergyBandsSolidsSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_111",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_112",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_113",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_114",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_115",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_116",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_117",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_118",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_119",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_120",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsEnergyLevelsHydrogenSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_101",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_102",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_103",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_104",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_105",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_106",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_107",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_108",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_109",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_110",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsGeneratorSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_071",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_072",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_073",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_074",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_075",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_076",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_077",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_078",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_079",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_080",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsInternalResistanceSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_031",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_032",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_033",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_034",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_035",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_036",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_037",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_038",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_039",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_040",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsMagneticFieldLinesSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_051",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_052",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_053",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_054",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_055",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_056",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_057",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_058",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_059",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_060",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsSelfinductionSelfinductanceSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_061",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_062",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_063",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_064",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_065",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_066",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_067",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_068",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_069",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_070",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsSingleSlitDiffractionSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_091",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_092",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_093",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_094",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_095",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_096",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_097",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_098",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_099",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_100",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C12_PhysicsZenerDiodeSim",
+    "class": 12,
+    "nodes": [
+      {
+        "id": "c12_phy_121",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_122",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_123",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_124",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_125",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_126",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_127",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_128",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_129",
+        "comment": ""
+      },
+      {
+        "id": "c12_phy_130",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C6_PhysicsPhysicalQuantitiesUnitsSim",
+    "class": 6,
+    "nodes": [
+      {
+        "id": "c6_phy_001",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_002",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_003",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_004",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_005",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_006",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_007",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_008",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_009",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_010",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C6_PhysicsPitchSoundFrequencySim",
+    "class": 6,
+    "nodes": [
+      {
+        "id": "c6_phy_031",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_032",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_033",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_034",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_035",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_036",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C6_PhysicsRectilinearPropagationLightSim",
+    "class": 6,
+    "nodes": [
+      {
+        "id": "c6_phy_021",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_022",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_023",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_024",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_025",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_026",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_027",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_028",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_029",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_030",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C6_PhysicsUniformNonuniformMotionSim",
+    "class": 6,
+    "nodes": [
+      {
+        "id": "c6_phy_011",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_012",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_013",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_014",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_015",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_016",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_017",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_018",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_019",
+        "comment": ""
+      },
+      {
+        "id": "c6_phy_020",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C7_PhysicsHeatTransferConductionSim",
+    "class": 7,
+    "nodes": [
+      {
+        "id": "c7_phy_021",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_022",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_023",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_024",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_025",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_026",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_027",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_028",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_029",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_030",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C7_PhysicsOhmsSim",
+    "class": 7,
+    "nodes": [
+      {
+        "id": "c7_phy_031",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_032",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_033",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_034",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_035",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C7_PhysicsPhysicalNatureMatterSim",
+    "class": 7,
+    "nodes": [
+      {
+        "id": "c7_phy_001",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_002",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_003",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_004",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_005",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_006",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_007",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_008",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_009",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_010",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C7_PhysicsPressureFluidsliquidsSim",
+    "class": 7,
+    "nodes": [
+      {
+        "id": "c7_phy_011",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_012",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_013",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_014",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_015",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_016",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_017",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_018",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_019",
+        "comment": ""
+      },
+      {
+        "id": "c7_phy_020",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C8_PhysicsBoilingEvaporationdifferencesSim",
+    "class": 8,
+    "nodes": [
+      {
+        "id": "c8_phy_021",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_022",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_023",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_024",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_025",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_026",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_027",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_028",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_029",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_030",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C8_PhysicsKineticTheoryMatterSim",
+    "class": 8,
+    "nodes": [
+      {
+        "id": "c8_phy_001",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_002",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_003",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_004",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_005",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_006",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_007",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_008",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_009",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_010",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C8_PhysicsLightningConductorSim",
+    "class": 8,
+    "nodes": [
+      {
+        "id": "c8_phy_031",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_032",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_033",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_034",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_035",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C8_PhysicsTurningEffectForceSim",
+    "class": 8,
+    "nodes": [
+      {
+        "id": "c8_phy_011",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_012",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_013",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_014",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_015",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_016",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_017",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_018",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_019",
+        "comment": ""
+      },
+      {
+        "id": "c8_phy_020",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C9_PhysicsEquationsUniformlyAcceleratedSim",
+    "class": 9,
+    "nodes": [
+      {
+        "id": "c9_phy_011",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_012",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_013",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_014",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_015",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_016",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_017",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_018",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_019",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_020",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C9_PhysicsInternationalSystemUnitsSim",
+    "class": 9,
+    "nodes": [
+      {
+        "id": "c9_phy_001",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_002",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_003",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_004",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_005",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_006",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_007",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_008",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_009",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_010",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C9_PhysicsOhmsResistanceSim",
+    "class": 9,
+    "nodes": [
+      {
+        "id": "c9_phy_041",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_042",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_043",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_044",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_045",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_046",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_047",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_048",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C9_PhysicsSphericalMirrorsTermsSim",
+    "class": 9,
+    "nodes": [
+      {
+        "id": "c9_phy_031",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_032",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_033",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_034",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_035",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_036",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_037",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_038",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_039",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_040",
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "sim": "C9_PhysicsWeightMassComparisonSim",
+    "class": 9,
+    "nodes": [
+      {
+        "id": "c9_phy_021",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_022",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_023",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_024",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_025",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_026",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_027",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_028",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_029",
+        "comment": ""
+      },
+      {
+        "id": "c9_phy_030",
+        "comment": ""
+      }
+    ]
+  }
+]

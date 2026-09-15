@@ -1,0 +1,1127 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete ClimateResourceExplorerSimulation.tsx component about Atmosphere, weather, climate, ozone layer, agriculture, minerals, energy resources, population, disasters.
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "Simple Explanation (ELI5)", "Geography Theory", "Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- misconceptions items: { belief: string; correction: string }
+- diagnosticQuestions items: { number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint? }
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall -> apply -> evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \\frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_geo_013",
+    "title": "Agriculture — introduction",
+    "definition": "Agriculture is the science and practice of cultivating crops and rearing livestock for human use. It is one of the oldest human activities and remains the primary occupation of a large part of India's population. At its core, agriculture transforms natural resources — soil, water, climate, and seeds — into food, fibre, and other useful products. In Class 5 you were introduced to agriculture in India; here we treat agriculture as a geographical activity shaped by physical and human factors.\r\n\r\nThere are two broad types of agriculture. Subsistence agriculture is the production of crops and livestock mainly for self-consumption by the farmer and the farmer's family, with little or no surplus for sale. A small farmer growing rice on a tiny plot to feed the family is an example. Commercial agriculture is the production of crops and livestock for sale in markets, usually on large farms using modern inputs. A large farm producing cotton for textile mills is an example.\r\n\r\nCrops are classified into two main groups. Food crops are grown to provide food and include rice, wheat, maize, and millets (such as jowar, bajra, and ragi). Cash crops are grown for sale and industrial use and include cotton, jute, sugarcane, tea, and coffee. Cotton and jute are fibre crops; sugarcane is a sugar crop; tea and coffee are plantation crops.\r\n\r\nSeveral factors affect agriculture. Climate determines temperature and rainfall that a crop needs — rice needs high temperature and heavy rainfall, while wheat needs cool winters and moderate rainfall. Soil supplies nutrients and holds water — alluvial soil suits rice and wheat, black soil suits cotton. Topography influences farming — flat plains allow large-scale cultivation, while steep slopes favour terrace farming. Irrigation supplies water when rainfall is insufficient, allowing multiple crops per year. Labour is needed for sowing, weeding, and harvesting. Transport carries inputs to the farm and produce to markets.\r\n\r\nThe Green Revolution, introduced in India in the 1960s, involved high-yielding crop varieties, chemical fertilisers, pesticides, and modern techniques such as mechanised ploughing and irrigation. It greatly increased food production, especially of wheat in Punjab, Haryana, and western Uttar Pradesh, making India self-sufficient in food grains.\r\n\r\nIndia has three agricultural seasons. Kharif crops are sown with the onset of the southwest monsoon (June–July) and harvested in autumn (September–October); examples are rice, maize, and cotton. Rabi crops are sown in winter (October–December) and harvested in spring (March–April); examples are wheat, barley, and gram. Zaid crops are grown in the summer months (April–June) on irrigated land; examples are watermelon, cucumber, and vegetables.",
+    "textWalkthrough": "In Class 5 (node c5_geo_013) you were introduced to agriculture in India — you learned that farming is a major occupation and that India grows a variety of crops. In the previous Class 6 node (c6_geo_012) you studied water bodies and landforms — rivers, plains, plateaus, and mountains. That knowledge matters here because agriculture depends on water and land: rivers supply irrigation, plains allow large farms, and mountains force terrace cultivation. Now we step back and look at agriculture itself as a geographical activity — what it is, its types, the crops, the factors that control it, and the seasons that organise the Indian farming year.\r\n\r\nLet us begin with the definition. Agriculture is the cultivation of crops and the rearing of livestock for human use. \"Cultivation of crops\" means growing plants such as rice, wheat, and cotton. \"Rearing of livestock\" means raising animals such as cattle, goats, and poultry for milk, meat, and eggs. Together these two activities form agriculture. A GOOD answer to \"define agriculture\" will mention both crops and livestock; a WEAK answer will mention only crops and miss half the definition.\r\n\r\nNext, the two types. Subsistence agriculture means the farmer grows crops mainly to feed the family — there is little left over to sell. Think of a small farmer in a village in Bihar or Odisha growing rice on a one-acre plot. Commercial agriculture means the farmer grows crops mainly to sell in markets for profit — usually on large farms with modern inputs. Think of a large cotton farm in Gujarat or Maharashtra supplying textile mills. A GOOD answer gives one example of each; a WEAK answer only repeats the words \"for self\" and \"for sale\" without any concrete example.\r\n\r\nNow crop types. Food crops are grown for food — rice, wheat, maize, and millets (jowar, bajra, ragi). Cash crops are grown for sale or industrial use — cotton, jute, sugarcane, tea, coffee. Notice that \"cash crop\" does not mean the crop is not eaten; it means the crop is grown mainly to earn money. Sugarcane is processed into sugar in factories; cotton and jute are turned into cloth and bags; tea and coffee are plantation crops grown on large estates in Assam, West Bengal, and Karnataka. A GOOD answer classifies each crop correctly and gives one use; a WEAK answer confuses sugarcane (a cash crop) with rice (a food crop) because both are \"grown in fields.\"\r\n\r\nThen come the factors affecting agriculture. Climate gives the temperature and rainfall a crop needs — rice needs about 25°C and over 100 cm of rain, wheat needs about 10–15°C at sowing and 25°C at harvest with around 75 cm of rain. Soil provides nutrients — alluvial soil in the northern plains suits rice and wheat; black regur soil in the Deccan suits cotton. Topography decides the scale — flat Indo-Gangetic plains allow mechanised farming; steep slopes in the Himalayas and Western Ghats need terrace farming. Irrigation from canals, tube wells, and tanks lets farmers grow crops even when the monsoon fails. Labour is needed at every stage. Transport moves seeds and fertilisers in and the harvest out. A GOOD answer lists all six factors with one example each; a WEAK answer lists only \"climate and soil\" and forgets transport and labour.\r\n\r\nThe Green Revolution of the 1960s transformed Indian agriculture. High-yielding varieties of wheat (from Mexico) and rice, plus chemical fertilisers, pesticides, and better irrigation, raised yields sharply. Punjab, Haryana, and western Uttar Pradesh led the change. India moved from food shortages to self-sufficiency in food grains. Note: the Green Revolution is about food-grain production, not about forests or industries — examiners have observed students confusing it with other topics.\r\n\r\nFinally, the three agricultural seasons. Kharif — sown with the monsoon (June–July), harvested in autumn (September–October); rice, maize, cotton. Rabi — sown in winter (October–December), harvested in spring (March–April); wheat, barley, gram. Zaid — summer crops (April–June) on irrigated land; watermelon, cucumber, vegetables. A GOOD answer pairs each season with its sowing time, harvest time, and at least two crops; a WEAK answer mixes up kharif and rabi and forgets zaid altogether.\r\n\r\nIn the ICSE board exam, expect questions that ask you to define agriculture, distinguish subsistence from commercial agriculture, classify a list of crops, list factors with examples, and identify the season of a named crop. Examiners expect specific examples and correct temperature and rainfall figures where asked — vague answers lose marks.",
+    "eli5": "Agriculture is farming — growing plants like rice and wheat and raising animals like cows and hens for our food and use. Some farmers grow just enough for their family (subsistence); others grow a lot to sell in the market (commercial). Different crops like different weather and soil, just as you like different clothes in summer and winter. India has three farming seasons — rainy (kharif), winter (rabi), and summer (zaid) — each with its own crops.",
+    "misconceptionText": "Misconception 1: \"Agriculture means only growing crops.\" Correction: Agriculture includes both the cultivation of crops and the rearing of livestock (cattle, goats, poultry). Leaving out livestock makes the definition incomplete — a common weakness examiners note when students define agriculture narrowly.\r\n\r\nMisconception 2: \"Cash crops are crops that cannot be eaten, like cotton and jute.\" Correction: A cash crop is one grown mainly for sale and industrial use, not one that is inedible. Sugarcane is a cash crop even though it is edible, because it is grown to sell and to make sugar in factories. The classification is about purpose (sale vs food), not about edibility.\r\n\r\nMisconception 3: \"The Green Revolution was about planting more trees and increasing forests.\" Correction: CISCE examiners (2024) observed candidates confusing the Green Revolution with other transformations and even writing about subsistence farming instead of the transition to commercial farming. The Green Revolution specifically refers to the introduction of high-yielding crop varieties, fertilisers, pesticides, and modern techniques to increase food-grain production — mainly wheat and rice — starting in the 1960s in Punjab, Haryana, and western Uttar Pradesh. It is about food crops, not forests.\r\n\r\nMisconception 4: \"Kharif crops are sown in winter and rabi crops in the monsoon.\" Correction: This is reversed. Kharif crops are sown with the onset of the monsoon (June–July) and harvested in autumn; rabi crops are sown in winter (October–December) and harvested in spring. A simple memory aid: Kharif comes from the monsoon, Rabi from the winter.",
+    "diagnosticText": "Q1 (recall): Define agriculture and distinguish between subsistence and commercial agriculture with one example of each.\r\nAnswer: Agriculture is the cultivation of crops and the rearing of livestock for human use. It covers both crop farming (rice, wheat, cotton) and animal husbandry (cattle, goats, poultry). Subsistence agriculture is the production of crops and livestock mainly for self-consumption by the farmer and the farmer's family, with little surplus for sale. An example is a small farmer in a village in Bihar growing rice on a one-acre plot to feed the family. Commercial agriculture is the production of crops and livestock mainly for sale in markets, usually on large farms using modern inputs such as fertilisers and machinery. An example is a large cotton farm in Gujarat producing cotton for sale to textile mills. The key difference is the purpose: self-consumption versus sale for profit. Subsistence farms are usually small and use family labour and traditional tools; commercial farms are large, use hired labour and modern technology, and depend on transport to reach markets.\r\n\r\nQ2 (reasoning): Why is wheat grown in the rabi season and rice in the kharif season? Explain with reference to the climate each crop needs.\r\nAnswer: Wheat is a rabi crop because it needs cool, moist weather during growth and warm, sunny weather during ripening. It is sown in winter (October–December) when temperatures are around 10–15°C and the soil retains moisture from the retreating monsoon or irrigation; it is harvested in spring (March–April) when temperatures rise to about 25°C and the grains dry. Heavy monsoon rain would damage wheat, so it is not grown in the kharif season. Rice, by contrast, is a kharif crop because it needs high temperature (around 25°C or more) and heavy rainfall (over 100 cm) or assured irrigation. It is sown with the onset of the southwest monsoon in June–July, when the rains flood the fields that rice needs, and harvested in autumn (September–October) when the rains retreat. Rice cannot tolerate the cool, dry winter that suits wheat. Thus the climate requirement of each crop matches the season in which it is grown — temperature and rainfall decide whether a crop is kharif or rabi.\r\n\r\nQ3 (evaluate): \"The Green Revolution was an unmixed blessing for Indian agriculture.\" Evaluate this statement, giving a balanced argument.\r\nAnswer: The statement needs a balanced evaluation because the Green Revolution brought great benefits but also created new problems. On the positive side, the Green Revolution of the 1960s introduced high-yielding varieties of wheat and rice, chemical fertilisers, pesticides, and modern irrigation and machinery. Food-grain production rose sharply, especially in Punjab, Haryana, and western Uttar Pradesh. India, which had depended on food imports and faced shortages, became self-sufficient in food grains and even built buffer stocks. Farmers' incomes rose, and the rural economy in these states grew stronger. The revolution showed that scientific inputs could transform traditional farming. On the negative side, the benefits were uneven — the Green Revolution succeeded mainly in regions with assured irrigation and good infrastructure, while dry regions and small farmers gained far less. Heavy use of chemical fertilisers and pesticides degraded soil quality and polluted water over time. The focus on wheat and rice reduced the area under pulses and millets, affecting nutrition. Mechanisation reduced the demand for farm labour in some areas. Groundwater was overused through tube wells, lowering the water table in Punjab and Haryana. Therefore the Green Revolution was a major achievement that solved the food shortage but was not an unmixed blessing; its environmental and regional costs must be weighed against its gains. A fair evaluation recognises both the rise in production and the problems of equity, soil health, and water use.\r\n\r\nQ4 (apply): Classify the following crops into food crops and cash crops, and state the agricultural season for each: rice, wheat, cotton, maize, sugarcane, tea, watermelon, barley.\r\nAnswer: Food crops are grown mainly for food and include rice, wheat, maize, and barley. Cash crops are grown mainly for sale and industrial use and include cotton, sugarcane, and tea. Watermelon is neither a typical food crop nor a cash crop in the syllabus sense — it is a zaid crop grown in summer. Now the seasons: Rice is a kharif crop, sown with the monsoon (June–July) and harvested in autumn. Wheat is a rabi crop, sown in winter (October–December) and harvested in spring. Cotton is a kharif crop, sown at the start of the monsoon and harvested in autumn–winter. Maize is a kharif crop, though in some regions it is also grown as a rabi crop; at Class 6 level it is treated as kharif. Sugarcane is a year-round crop but is often listed with kharif; it is a cash crop supplying sugar factories. Tea is a plantation crop grown throughout the year in Assam, West Bengal, and Karnataka; it is a cash crop, not tied to a single season. Watermelon is a zaid crop, sown in summer (April–June) on irrigated land. Barley is a rabi crop, sown in winter and harvested in spring. This classification shows how the purpose (food or sale) and the season (kharif, rabi, zaid) are two separate ways of grouping crops.\r\n\r\nQ5 (create): Imagine you are a farmer in Punjab with a ten-acre plot and assured canal irrigation. Design a cropping plan for the year that uses all three agricultural seasons, naming one crop for each season and explaining why you chose it.\r\nAnswer: For my ten-acre plot in Punjab with assured canal irrigation, I would plan a three-season cropping pattern. For the kharif season (June–October) I would grow rice on about five acres. Rice needs high temperature and plenty of water, which the monsoon and canal irrigation provide; Punjab already grows high-yielding rice from the Green Revolution, so seeds and advice are easily available. For the rabi season (October–April) I would grow wheat on the same five acres after harvesting the rice. Wheat is the classic rabi crop of Punjab, needs cool winters and moderate water that the canal supplies, and has a ready market and a minimum support price, giving me assured income. On the remaining five acres I could rotate the same two crops. For the zaid season (April–June) I would grow watermelon or cucumber on one or two acres using canal irrigation, because these summer crops mature quickly, fetch good prices in local markets before the monsoon, and use the time between rabi harvest and kharif sowing. This plan keeps the land productive all year, spreads my income across three seasons, and uses the canal irrigation that Punjab farmers rely on. It also follows the idea that different crops suit different seasons because of their climate needs.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can define agriculture as the cultivation of crops and the rearing of livestock for human use. Can distinguish subsistence agriculture (self-consumption, e.g. a small farmer growing rice for the family) from commercial agriculture (sale in markets, e.g. a large cotton farm in Gujarat). Can classify crops as food crops (rice, wheat, maize, millets) or cash crops (cotton, jute, sugarcane, tea, coffee) with one use of each. Can list the six factors affecting agriculture — climate, soil, topography, irrigation, labour, transport — with one example each. Can describe the Green Revolution (1960s, high-yielding varieties, fertilisers, modern techniques, Punjab/Haryana/western UP) and its significance. Can identify the three seasons — kharif (rice, maize), rabi (wheat, barley), zaid (watermelon, cucumber) — with sowing and harvest times.",
+    "subject": "geo",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_geo_014",
+    "title": "Minerals — introduction",
+    "definition": "Minerals are naturally occurring, inorganic substances found in the earth's crust that have a definite chemical composition and characteristic physical properties such as colour, hardness, lustre, and crystal form. The word \"naturally occurring\" means minerals are formed by natural geological processes and not manufactured in a laboratory; \"inorganic\" means they are not derived from living matter, even though some minerals like limestone may form from the shells of ancient sea creatures; and \"definite chemical composition\" means each mineral has a fixed formula, such as quartz (SiO2) or haematite (Fe2O3). Minerals are broadly classified into two groups: metallic minerals and non-metallic minerals. Metallic minerals contain metal in raw form and yield metals on processing — examples include iron ore, copper, gold, silver, and aluminium (obtained from bauxite ore). Non-metallic minerals do not contain metals and are used largely as fuel, building material, or insulators — examples include coal, petroleum, limestone, and mica. India is richly endowed with mineral resources. Iron ore is found in Jharkhand and Odisha, the two leading producing states; coal is mined at Jharia and Raniganj in the Damodar valley of Jharkhand and West Bengal; bauxite (the ore of aluminium) is abundant in Odisha; and mica, once the pride of Indian mining, is chiefly produced from Jharkhand. Each mineral has distinct uses: iron ore is the backbone of the iron and steel industry; copper is used for electrical wiring and utensils; gold and silver are used for jewellery and as a reserve for currency; coal and petroleum are the primary energy sources that power factories, vehicles, and thermal power plants; limestone is the key raw material for cement manufacture; and mica, because of its excellent heat resistance and electrical insulation property, is used in electrical goods. Because mineral deposits are finite and take millions of years to form, conservation is essential. Conservation methods include recycling of mineral-based products such as scrap iron and aluminium cans, substituting minerals with alternative materials like plastics or composites where possible, and reducing wastage during mining and processing. Minerals are vital for industries and the national economy because almost every manufactured good — from a steel bridge to an electrical switch — depends on them, and the export and industrial use of minerals generate employment and revenue for the country.",
+    "textWalkthrough": "In Class 3 (node c3_geo_011) you first met the idea of natural resources — the useful things nature gives us, such as air, water, soil, plants, animals, and minerals. You learned that minerals are one kind of natural resource dug out of the earth. That early introduction was simple: \"minerals are useful things from the ground.\" Now in Class 6 we go deeper, because to study minerals properly you also need to know where they lie — and that is why the previous node, c6_geo_010 on landforms, is the direct prerequisite. Minerals are found inside landforms: in the folds of mountains, in the basins of plateaus, and in the valleys cut by rivers. The Chota Nagpur Plateau, the valleys of the Damodar and Subarnarekha rivers, and the hills of Odisha are all landforms you have already studied — and they happen to be India's richest mineral storehouses.\r\n\r\nLet us begin with the definition. A mineral must satisfy three conditions: it is naturally occurring (made by nature, not in a factory), inorganic (not formed from living tissue), and has a definite chemical composition (a fixed formula). A GOOD answer states all three conditions and gives an example such as \"haematite, Fe2O3, is a naturally occurring inorganic mineral of iron.\" A BAD answer says only \"minerals are things dug from the earth\" — that is too vague, because soil and groundwater are also dug from the earth but are not minerals. Always include the three conditions.\r\n\r\nNext, classification. Minerals are of two types. Metallic minerals contain metal and can be processed to yield metal: iron ore, copper, gold, silver, and bauxite (the ore of aluminium) are examples. Non-metallic minerals do not contain metal: coal, petroleum, limestone, and mica belong here. A common error is to call bauxite a \"non-metallic mineral\" because aluminium is light — but bauxite is the ore of a metal, so it is metallic. A GOOD answer groups them correctly and names at least two examples in each group.\r\n\r\nNow the distribution in India, which is map work. On an outline map of India, mark: iron ore in Jharkhand and Odisha; coal at Jharia and Raniganj (Damodar valley); bauxite in Odisha; and mica in Jharkhand. Notice that Jharkhand and Odisha appear again and again — this is because the Chota Nagpur Plateau region is geologically very old and rich in mineral-bearing rocks. A GOOD answer names both the state and the specific mine or belt (for example, \"coal from Jharia in Jharkhand\"). A BAD answer says only \"coal is found in India\" without any location.\r\n\r\nUses follow naturally from the type of mineral. Iron ore feeds the iron and steel industry — the steel for bridges, rails, and machines. Copper, an excellent conductor, is used for electrical wiring. Gold and silver are precious, used for jewellery and as backing for currency. Coal and petroleum are the great energy sources: coal burns in thermal power plants, petroleum runs vehicles and machinery. Limestone is roasted with clay to make cement. Mica, because it resists heat and electricity, is used as insulation in electrical goods — the CISCE 2025 examiner report specifically notes that candidates must be able to explain the importance of mica in the electrical industry, so do not treat mica as a minor example.\r\n\r\nFinally, conservation. Mineral deposits are finite — they cannot be grown back like forests. So we conserve by recycling (melting scrap iron and old aluminium cans), by using alternative materials (plastics or composites instead of metals where strength is not critical), and by reducing wastage in mining. Minerals matter for the economy because every industry depends on them; without iron there is no steel, without steel there are no factories, and without factories there is no industrial growth.\r\n\r\nIn the ICSE board examination you can expect questions that ask you to define minerals, classify them with examples, locate them on a map, state their uses, and explain conservation. The examiner expects specific place names (Jharia, Raniganj, Jharkhand, Odisha) and correct classification — vague answers lose marks. Practise the map locations until they are automatic.",
+    "eli5": "Minerals are treasures hiding inside rocks. Some are shiny metals like iron, copper, gold, and silver — we get aluminium from a rock called bauxite. Others are not metals at all, like coal and petroleum that burn to give energy, limestone that makes cement, and mica that keeps electricity safe in gadgets. India finds lots of these treasures in Jharkhand and Odisha. Because treasures cannot grow back, we must reuse and recycle them.",
+    "misconceptionText": "Misconception 1: \"Bauxite is a non-metallic mineral because aluminium is a light metal.\" Correction: Bauxite is the ore from which aluminium is extracted, so it is classified as a metallic mineral. The lightness of aluminium does not change the classification — what matters is whether the ore yields a metal on processing. The CISCE 2025 examiner report on the importance of mica reminds us that students often blur the metallic/non-metallic boundary; always classify by whether a metal is obtained.\r\n\r\nMisconception 2: \"Coal and petroleum are minerals formed from ancient forests, so they are organic and therefore not minerals.\" Correction: Although coal and petroleum originate from ancient plant and animal matter, over millions of years geological processes have converted them into inorganic-acting substances with definite composition; in ICSE geography they are classified as non-metallic minerals. The \"inorganic\" condition in the definition refers to the present chemical nature, not the biological origin.\r\n\r\nMisconception 3: \"Mica is a metallic mineral because it is shiny.\" Correction: Mica's shine is lustre, not metal content. Mica contains no metal and is used as an electrical insulator — the opposite of what a metal does. It is a non-metallic mineral. The 2025 examiner report stresses that students must correctly explain mica's role in the electrical industry, which only makes sense once mica is understood as a non-metallic insulator.",
+    "diagnosticText": "Q1 (recall): Define minerals and classify them into two types with two examples of each.\r\nAnswer: Minerals are naturally occurring, inorganic substances found in the earth's crust that have a definite chemical composition and characteristic physical properties. The three key conditions are that they are formed by natural geological processes (naturally occurring), they are not derived from living matter in their present form (inorganic), and each has a fixed chemical formula (definite composition). Minerals are classified into two types. Metallic minerals contain metal in raw form and yield metal on processing; examples are iron ore and copper, and also gold, silver, and bauxite (the ore of aluminium). Non-metallic minerals do not contain metals and are used mainly as fuel, building material, or insulators; examples are coal and petroleum (fuels), limestone (used for cement), and mica (used for electrical insulation). This two-fold classification is the foundation for everything else in this chapter, because the type of mineral determines where it is found, how it is used, and how it is conserved.\r\n\r\nQ2 (reasoning): Explain why Jharkhand and Odisha together account for so many of India's mineral deposits, and name the specific minerals and locations associated with each state.\r\nAnswer: Jharkhand and Odisha lie on the Chota Nagpur Plateau and its extension, a region made of very old, hard, crystalline rocks such as granite, gneiss, and schist. These ancient rocks formed over hundreds of millions of years through geological processes of folding, faulting, and volcanic activity that concentrated mineral-bearing ores in their folds and valleys. Because the rocks are old and have been stable for a long time, the minerals had time to accumulate in large deposits. Jharkhand is famous for iron ore, coal (mined at Jharia and Raniganj in the Damodar valley), and mica. Odisha is the leading producer of iron ore and bauxite, the ore of aluminium. So the same geological region supplies iron ore, coal, bauxite, and mica — four of the most important minerals for Indian industry. This is why the two states are often called the mineral heartland of India. Understanding the link between landforms (the plateau and its river valleys, studied in node c6_geo_010) and mineral distribution helps explain why minerals are not scattered randomly but concentrated in specific geological belts.\r\n\r\nQ3 (evaluate): \"Recycling alone is enough to solve the problem of mineral depletion in India.\" Evaluate this statement, giving a balanced argument and a reasoned conclusion.\r\nAnswer: The statement is only partly correct and, taken on its own, is an over-simplification of a complex problem. Recycling is certainly one of the most effective conservation methods. When scrap iron, old steel, used aluminium cans, and discarded copper wire are melted and reused, the demand for freshly mined ore falls, the life of existing mines is extended, and the energy and environmental cost of mining is reduced. Recycling also creates employment in the secondary sector and reduces the pressure on mineral-rich but ecologically fragile states like Jharkhand and Odisha. So the merit of the statement lies in recognising recycling as a powerful tool. However, recycling alone cannot solve mineral depletion for several reasons. First, not every mineral-based product is recyclable — coal and petroleum, once burnt as fuel, are gone forever and cannot be recycled, so for these the only answer is to use them efficiently and to develop alternative energy sources. Second, recycling is never one hundred percent efficient; some metal is always lost in collection, transport, and reprocessing. Third, India's industrial demand is growing so fast that even aggressive recycling cannot fully meet the gap; fresh mining will continue to be needed for decades. Fourth, recycling depends on infrastructure — collection systems, smelting plants, and public awareness — which is still uneven across the country. Therefore a balanced conservation strategy must combine recycling with two other measures named in the syllabus: substituting minerals with alternative materials (for example, using plastics or composites where strength is not critical) and reducing wastage during mining and processing. The reasoned conclusion is that recycling is necessary but not sufficient; it must be part of a wider plan that also includes substitution and waste reduction, along with careful, sustainable mining. Only such a combined approach can genuinely address mineral depletion in India.\r\n\r\nQ4 (apply): On an outline map of India, mark and label four mineral locations from the syllabus. For each, state the mineral and one major use.\r\nAnswer: On the outline map of India, mark the following four locations. First, Jharia in Jharkhand — label it \"Coal\"; coal is used as a fuel in thermal power plants and in the iron and steel industry. Second, Raniganj in West Bengal (on the Damodar valley, close to Jharkhand) — label it \"Coal\"; it is one of the oldest coalfields in India and supplies coal for power generation and industry. Third, the iron ore belt of Odisha (for example, the Barbil–Keonjhar region) — label it \"Iron ore\"; iron ore is the basic raw material for the iron and steel industry, used to make steel for bridges, rails, machinery, and tools. Fourth, the mica belt of Jharkhand (around Kodarma) — label it \"Mica\"; mica is used as an electrical insulator in appliances, capacitors, and electronic goods because it resists heat and does not conduct electricity. When marking the map, place the dots accurately in the correct states — Jharia and Kodarma in Jharkhand, Raniganj in West Bengal, and the iron ore and bauxite deposits in Odisha. A well-marked map with correct labels and a one-line use for each mineral is what the ICSE examiner expects.\r\n\r\nQ5 (create): Imagine you are the head of a mineral conservation committee for a small town near Jharia. Propose a three-point action plan to reduce mineral wastage and explain how each point helps the local economy.\r\nAnswer: As head of the conservation committee for a town near Jharia — a famous coal-mining region — I would propose the following three-point action plan. First, set up a community recycling centre where households and small workshops can deposit scrap iron, old steel utensils, broken aluminium vessels, and discarded copper wire. The centre would sort, clean, and sell this scrap to foundries for reprocessing. This reduces the demand for freshly mined coal and iron ore, extends the life of the Jharia coalfield, and creates local jobs in collection and sorting, directly helping the town's economy. Second, promote the use of alternative materials in local construction and packaging — for example, encouraging builders to use fly-ash bricks (made from the waste of coal-burning power plants) instead of clay bricks fired with coal, and encouraging shopkeepers to use cloth or jute bags instead of plastic made from petroleum. This substitutes non-renewable mineral-based products with reusable or waste-based alternatives, cuts coal and petroleum consumption, and supports small local industries producing fly-ash bricks and jute bags, generating employment. Third, train mine workers and supervisors in low-waste mining techniques — such as careful blasting, sorting ore from waste rock at the site, and backfilling exhausted pits — and award small bonuses to teams that reduce wastage. This reduces the amount of usable coal left behind in the mines, makes the existing deposits last longer, and keeps mining jobs secure for a longer period, which stabilises the local economy. Together, these three actions — recycling, substitution, and waste-reduction in mining — match the conservation methods in the syllabus and, by stretching the life of the mineral base, protect both the environment and the livelihoods of the people of the town.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can define minerals as naturally occurring inorganic substances with a definite chemical composition, stating all three conditions with an example such as haematite (Fe2O3). Can classify minerals into metallic (iron ore, copper, gold, silver, bauxite) and non-metallic (coal, petroleum, limestone, mica) with at least two correct examples in each group. Can locate on a map and name the distribution of four key minerals in India — iron ore (Jharkhand, Odisha), coal (Jharia, Raniganj), bauxite (Odisha), mica (Jharkhand). Can state one major use for each of six minerals (iron ore, copper, gold and silver, coal and petroleum, limestone, mica) and explain the three conservation methods (recycling, alternative materials, reducing wastage).",
+    "subject": "geo",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c7_geo_012",
+    "title": "Industries — agro-based",
+    "definition": "Agro-based industries are industries that use agricultural products — crops and animal products — as their raw material and process them into finished goods. They stand in contrast to mineral-based or heavy industries, because their raw material comes from farms and fields rather than from mines. Because agricultural raw materials are often bulky, perishable, or lose quality quickly after harvest, these industries tend to be located close to the regions where the raw material is grown. The factory, in effect, moves to the farm rather than the farm produce travelling long distances to the factory.\r\n\r\nThe cotton textile industry is the largest agro-based industry in India. Its raw material is cotton fibre, which is spun into yarn and then woven into cloth. The industry requires a humid climate because dry air makes the cotton yarn brittle and it breaks during spinning; abundant cheap labour for the many stages of spinning, weaving and finishing; a reliable power supply to run the spinning frames and power looms; good transport to bring in raw cotton and dispatch finished cloth; and a large market demand for cloth. The first successful cotton mill in India was set up in Mumbai in 1854, taking advantage of the nearby black-soil cotton-growing areas of Gujarat and Maharashtra and the natural harbour of Mumbai for importing machinery and exporting cloth. Ahmedabad became the second-largest centre, sitting in the Gujarat cotton belt. Surat and Coimbatore (in Tamil Nadu) are other important centres.\r\n\r\nThe sugar industry uses sugarcane as its raw material. It is a seasonal industry because the mills operate only during the crushing season, roughly November to March, when the sugarcane crop is harvested. Sugar factories must be located very close to the sugarcane fields because sugarcane is bulky and, once cut, loses its sucrose content rapidly — the longer the delay between harvest and crushing, the less sugar can be extracted. Uttar Pradesh is the largest producer of sugar in India, followed by Maharashtra.\r\n\r\nThe jute industry uses jute fibre, which is obtained from the bark of the jute plant through a process called retting, in which the stems are soaked in water so the fibres separate from the woody core. Jute mills are concentrated in Kolkata and along the Hooghly river, because the jute-growing delta of Bengal supplies the raw fibre, the river provides the large quantities of water needed for retting, and the Kolkata port allows gunny bags, sacks and carpets to be exported. The silk textile industry depends on sericulture — the rearing of silkworms — and is centred in Karnataka and West Bengal. The woollen textile industry uses wool as its raw material and is found mainly in Punjab and Himachal Pradesh, where sheep rearing and the cool climate suit it. Finally, the textile industry has two sectors: the handloom sector, which is traditional, small-scale, uses manual looms and provides rural employment, and the mill sector, which is modern, large-scale, uses power looms and produces cloth in bulk.",
+    "textWalkthrough": "In Class 5 (node c5_geo_014) you were first introduced to industries in India — you learned that an industry turns raw materials into finished goods using labour, machines and power, and you met a few examples of factories. Last year, in Class 6 (node c6_geo_013), you studied agriculture in detail — the crops Indian farmers grow, the seasons (kharif and rabi), and the conditions each crop needs. Now in Class 7 we bring those two ideas together: agro-based industries are the meeting point of agriculture and industry. The raw material comes from the farm, and the factory processes it. Keep that link in mind throughout this node.\r\n\r\nLet us begin with the cotton textile industry, the oldest and largest agro-based industry in India. The raw material is cotton fibre, grown mainly in the black-soil regions of Gujarat and Maharashtra. Ask yourself: why does a cotton mill need a humid climate? Try spinning a dry thread and you will find it snaps easily; cotton yarn behaves the same way. In humid coastal air the fibres stay flexible and do not break on the spinning frame. That is why Mumbai, on the damp Konkan coast, became the home of India's first cotton mill in 1854. Mumbai also had two other advantages: it sat close to the cotton fields of the Deccan, and it had a fine natural harbour for importing machinery and exporting cloth. Ahmedabad followed as the second-largest centre, because it lies in the Gujarat cotton belt. Surat and Coimbatore (Tamil Nadu) are other centres you must remember. A GOOD answer names the centre and explains the locational advantage — \"Mumbai, because of humid climate, nearby cotton fields and the port.\" A BAD answer merely lists \"Mumbai, Ahmedabad, Surat\" with no reason.\r\n\r\nNow the sugar industry. Its raw material, sugarcane, is bulky and, crucially, loses sucrose quickly once cut. So the factory must sit beside the field, and the industry is seasonal — mills run only from about November to March during the crushing season. Uttar Pradesh is the largest sugar-producing state, followed by Maharashtra. A common confusion, which CISCE examiners flagged in 2019, is mixing up sugarcane cultivation (a farming activity) with the sugar industry (a manufacturing activity). Cultivation happens in the field; the sugar industry happens in the mill. Keep them separate in your answers.\r\n\r\nThe jute industry is centred on Kolkata and the Hooghly river. Jute fibre is separated from the stem by retting — soaking the stems in water. The Hooghly provides that water, the Bengal delta provides the raw jute, and the Kolkata port ships out gunny bags, sacks and carpets. For silk, the raw material comes from sericulture (silkworm rearing); centres are Karnataka and West Bengal. For woollen textiles, the raw material is wool; centres are Punjab and Himachal Pradesh, where sheep rearing and cool climate suit the industry.\r\n\r\nFinally, distinguish the two sectors of the textile industry. The handloom sector is traditional, small-scale, uses manual looms and gives rural employment — think of a weaver in a village. The mill sector is modern, large-scale, uses power looms and mass-produces cloth — think of a big factory in Mumbai or Ahmedabad. In the ICSE board exam, expect questions asking you to state the raw material, give two locational reasons, and name two centres for each industry. Examiners reward answers that pair each centre with a reason, not bare lists.",
+    "eli5": "Agro-based industries are like kitchens that must be built right next to the farm. The raw material — cotton, sugarcane, jute, silk, wool — is bulky or goes bad quickly, so the factory moves to the field instead of the field sending its crop far away. A cotton mill needs damp air so the thread does not snap, a sugar mill must crush cane before its sweetness fades, and a jute mill needs river water to soften the stems.",
+    "misconceptionText": "Misconception 1: \"The sugar industry runs all year round like other factories.\" Correction: The sugar industry is a seasonal industry — mills operate only during the crushing season, roughly November to March, when sugarcane is harvested. For the rest of the year the mills are shut because there is no fresh cane to crush. CISCE examiners (2019) specifically reminded teachers to clarify the difference between sugarcane cultivation and the sugar industry, because students blur the two.\r\n\r\nMisconception 2: \"Cotton mills are located in Mumbai only because it is a big city.\" Correction: Mumbai's location is explained by three concrete factors — a humid coastal climate that prevents yarn from breaking, proximity to the black-soil cotton-growing areas of Gujarat and Maharashtra, and a natural port for importing machinery and exporting cloth. Being a \"big city\" is a result of the industry, not the cause of its location.\r\n\r\nMisconception 3: \"Jute and cotton are the same kind of fibre industry.\" Correction: Jute fibre is separated from the plant stem by retting (soaking in water), which is why jute mills cluster along the Hooghly river for water supply. Cotton fibre is picked from the cotton boll and spun into yarn, needing a humid climate rather than retting water. The two industries have different raw materials and different locational needs.",
+    "diagnosticText": "Q1 (recall): Define an agro-based industry and name the raw materials of the cotton, sugar, jute, silk and woollen textile industries.\r\nAnswer: An agro-based industry is one that uses agricultural products — crops or animal products — as its raw material and processes them into finished goods. The raw material of the cotton textile industry is cotton fibre; of the sugar industry is sugarcane; of the jute industry is jute fibre; of the silk textile industry is silk obtained from silkworm rearing (sericulture); and of the woollen textile industry is wool. Because these raw materials are bulky or perishable, the factories are usually located close to the regions where the raw material is grown, so that transport costs and losses are minimised. Examples include a cotton mill in Mumbai using cotton from the Deccan black-soil region, a sugar factory in Uttar Pradesh crushing locally grown cane, and jute mills along the Hooghly using Bengal delta jute.\r\n\r\nQ2 (reasoning): Why is the sugar industry called a seasonal industry, and why must sugar factories be located very close to sugarcane fields?\r\nAnswer: The sugar industry is called a seasonal industry because the mills operate only during the crushing season — roughly from November to March — when the sugarcane crop is harvested and brought to the factory. For the rest of the year the mills remain closed because there is no fresh cane to crush. Sugar factories must be located very close to the sugarcane fields for two connected reasons. First, sugarcane is bulky and heavy, so transporting it over long distances is expensive and difficult. Second, and more importantly, once sugarcane is cut its sucrose content drops rapidly with every passing hour — the longer the gap between harvest and crushing, the less sugar can be extracted and the lower the factory's yield. Therefore the factory is built beside the field so the cane can be crushed almost immediately after harvest. This is why Uttar Pradesh, a major sugarcane-growing state, is also the largest sugar producer, followed by Maharashtra.\r\n\r\nQ3 (evaluate): \"Agro-based industries should be located near big cities to be close to the market, not near the raw material source.\" Evaluate this statement.\r\nAnswer: This statement is only partly correct and, for most agro-based industries, is misleading. It is true that every industry needs a market for its finished goods, and being near a large city can help sell products. However, for agro-based industries the location decision is dominated by the nature of the raw material, not by the market. Cotton, sugarcane, jute, silk and wool are either bulky, perishable, or quick to lose quality after harvest. Sugarcane, for example, loses sucrose within hours of being cut, so a sugar mill must sit beside the cane field regardless of where the nearest big city is. Jute fibre must be retted in large volumes of water, so jute mills cluster along the Hooghly river near the jute-growing delta — not in a distant market city. Cotton yarn breaks in dry air, so cotton mills favour humid coastal Mumbai rather than a dry inland market town. That said, market access does matter once the locational needs of the raw material are met: Mumbai's port helped export cotton cloth, and being near buyers does lower distribution costs. So the balanced view is that agro-based industries are first located to satisfy raw-material requirements — humidity, water, perishability, bulk — and only then is proximity to market considered. A factory far from the raw material but near a city would face high transport costs and spoiled inputs, which would outweigh any market advantage. Therefore the statement overstates the role of the market and understates the decisive role of the raw material.\r\n\r\nQ4 (apply): On an outline map of India, mark and label the following: Mumbai and Ahmedabad (cotton textile), a sugar-producing area in Uttar Pradesh, Kolkata and the Hooghly river (jute), and Karnataka (silk). For each, write one locational reason beside it.\r\nAnswer: Mark Mumbai on the west coast of Maharashtra and label it \"Cotton textile — humid coastal climate, nearby cotton fields, port.\" Mark Ahmedabad in Gujarat and label it \"Cotton textile — Gujarat cotton belt, second-largest centre.\" Shade western Uttar Pradesh and label it \"Sugar industry — close to sugarcane fields, sucrose preserved by quick crushing; UP is the largest producer.\" Mark Kolkata in West Bengal and draw the Hooghly river flowing south past it; label \"Jute industry — Bengal delta jute, river water for retting, Kolkata port for export.\" Mark Karnataka in south India and label \"Silk textile — sericulture rearing of silkworms.\" Each label pairs the centre with the specific raw-material or locational advantage, which is exactly what ICSE examiners expect in map-work answers.\r\n\r\nQ5 (create): Imagine you are setting up a new cotton textile mill. Choose a location in India, justify your choice using at least four requirements of the cotton textile industry, and explain whether your mill would belong to the handloom or mill sector.\r\nAnswer: I would set up my cotton textile mill in Coimbatore, Tamil Nadu. Coimbatore lies in a region with a reasonably humid climate, which is essential because cotton yarn becomes brittle and snaps in dry air during spinning — humidity keeps the fibres flexible. Second, Tamil Nadu and neighbouring states grow cotton, so the raw material — cotton fibre — is available nearby, keeping transport costs low. Third, Coimbatore has good rail and road connectivity, satisfying the requirement for transport to bring in raw cotton and dispatch finished cloth to markets across south India. Fourth, the region has reliable power supply from hydroelectric and other sources, which is needed to run spinning frames and power looms continuously. There is also abundant skilled labour in the region, which the industry requires. My mill would belong to the mill sector, not the handloom sector, because I am planning a modern, large-scale unit using power looms for mass production. The handloom sector, by contrast, is traditional, small-scale and uses manual looms — suitable for a village weaver, but not for the factory I am designing. Thus Coimbatore satisfies the four key requirements — humid climate, raw material proximity, transport and power — and my unit fits the mill sector.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can define an agro-based industry and explain why such industries are located near raw material sources (bulky or perishable inputs). Can describe the cotton textile industry — raw material (cotton fibre), requirements (humid climate, cheap labour, power, transport, market) and major centres (Mumbai 1854, Ahmedabad, Surat, Coimbatore). Can describe the sugar industry as seasonal (November–March crushing season), located near sugarcane fields because sucrose drops rapidly after harvest, with UP the largest producer and Maharashtra second. Can describe the jute industry along the Hooghly river near Kolkata (retting, water, port, gunny bags) and distinguish handloom (traditional, manual, rural) from mill (modern, power looms, mass production) sectors.",
+    "subject": "geo",
+    "classLevel": 7
+  },
+  {
+    "nodeId": "c7_geo_013",
+    "title": "Industries — iron and steel",
+    "definition": "The iron and steel industry is a mineral-based heavy industry widely regarded as the backbone of industrial development because it supplies the basic raw material for infrastructure, defence, machinery, and countless ancillary industries. It is called a \"heavy industry\" because it uses bulky raw materials in very large quantities and produces heavy finished goods. The four key raw materials are iron ore (the chief source of iron, occurring mainly as hematite and magnetite), coking coal (which supplies intense heat and acts as a reducing agent that strips oxygen from iron ore), limestone (which combines with impurities in the ore to form slag that can be drained off), and manganese (added to make steel harder and rust-resistant).\r\n\r\nThe manufacturing process begins with smelting in a blast furnace, where iron ore, coking coal, and limestone are layered and hot air is blasted in. The coke burns to produce carbon monoxide, which reduces the iron oxide to molten iron. This molten iron, tapped off from the bottom of the furnace, is called pig iron — it has a high carbon content and is brittle. Pig iron is then refined into steel in a Basic Oxygen Furnace (BOF), where pure oxygen is blown onto the molten metal to burn off excess carbon, lowering the carbon content to the level required for strong, flexible steel.\r\n\r\nIntegrated steel plants carry out all steps — from raw material handling to finished steel — under one roof. India's first integrated steel plant was TISCO at Jamshedpur, established in 1907, located near the iron ore mines of Noamundi and the coal fields of Jharia. Other major integrated plants are Bhilai (Chhattisgarh, Russian collaboration), Rourkela (Odisha, German collaboration), Durgapur (West Bengal, British collaboration), and Bokaro (Jharkhand, Soviet collaboration). Mini steel plants are smaller units that use scrap steel or sponge iron melted in electric furnaces; they are flexible, conserve coking coal because they run on electricity, and serve local markets.\r\n\r\nThe location factors governing iron and steel plants include proximity to raw material sources (iron ore mines and coal fields, since the materials are bulky and costly to transport), a good transport network (railways and ports) for moving raw materials and finished steel, a ready market for steel products, and a reliable water supply for cooling furnaces. The industry's importance lies in providing rails, bridges, buildings, defence equipment (tanks, weapons), machinery, large-scale employment, and stimulation of ancillary industries.",
+    "textWalkthrough": "In Class 6 you studied minerals and ores in node c6_geo_014 — you learned that minerals are naturally occurring substances with a definite chemical composition, and that some minerals, like iron ore, are mined as ores from which metals are extracted. You also learned that iron, manganese, copper, and bauxite are important metallic minerals of India. That knowledge is the foundation for today's lesson: we now take those mineral resources and see how one of them — iron ore — is turned into steel in a giant industry.\r\n\r\nIn the previous node, c7_geo_012, you studied agro-based industries such as cotton textiles, sugar, and jute — industries that depend on farm produce as their raw material. Today we move to a mineral-based heavy industry, the iron and steel industry, which depends on mined minerals rather than crops. Notice the contrast: agro-based industries are generally light industries using perishable, lighter raw materials, while iron and steel is a heavy industry using bulky, heavy raw materials. This contrast is exactly what CISCE examiners expect you to articulate clearly.\r\n\r\nLet us first fix the raw materials and the role each one plays, because examiners repeatedly observe that students muddle them. Iron ore — chiefly hematite and magnetite — is the source of iron itself. Coking coal is special coal that burns very hot and, just as importantly, produces carbon monoxide which acts as a reducing agent, pulling oxygen out of the iron oxide. Limestone is a flux: it combines with sandy and rocky impurities in the ore to form slag, a molten liquid that floats on top of the metal and is drained off separately. Manganese is added in small quantities to make the finished steel harder and resistant to rust. A GOOD answer names all four and states each one's role; a WEAK answer merely lists \"iron ore and coal\" without explaining what the coal or limestone actually do.\r\n\r\nNow picture the process. Inside a blast furnace — a towering steel vessel lined with heat-resistant bricks — iron ore, coke, and limestone are charged in layers and a blast of hot air is blown in from the bottom. The coke burns, the carbon monoxide reduces the iron ore to molten iron, and the limestone forms slag with the impurities. The molten metal tapped from the bottom is pig iron: it is rich in carbon and brittle, so it cannot be used as steel directly. Pig iron is then taken to a Basic Oxygen Furnace (BOF), where a jet of pure oxygen is blown onto the molten metal. The oxygen burns away the excess carbon, bringing the carbon content down to the small percentage that gives steel its strength and flexibility. Remember the sequence: blast furnace → pig iron → BOF → steel.\r\n\r\nIntegrated steel plants perform every step — from unloading raw materials to rolling finished steel — within one large complex. TISCO at Jamshedpur, set up in 1907, was India's first integrated plant, sited near the Noamundi iron ore mines and the Jharia coal fields, with railway and water access. Bhilai (Chhattisgarh, Russian collaboration), Rourkela (Odisha, German collaboration), Durgapur (West Bengal, British collaboration), and Bokaro (Jharkhand, Soviet collaboration) are the other major integrated plants. Mini steel plants, by contrast, are smaller units that melt scrap steel or sponge iron in electric furnaces. They are flexible, they conserve coking coal because they run on electricity, and they cater to local demand. The 2024 examiner comment explicitly rewards the point that mini steel plants \"conserve coal as they operate on electricity and do not use coal for smelting\" — use this exact phrasing.\r\n\r\nWhy are these plants located where they are? The four location factors are proximity to raw materials (the bulky iron ore and coal are cheapest to move over the shortest distance), a strong transport network (railways and ports), a ready market for steel, and a reliable water supply for cooling. A GOOD answer discusses all four factors with an example such as Jamshedpur's access to Noamundi ore, Jharia coal, railways, and the Subarnarekha river. A WEAK answer says only \"near raw materials\" without naming transport, market, or water.\r\n\r\nFinally, why does this industry matter? It supplies rails, bridges, buildings, defence equipment such as tanks and weapons, machinery, and it generates large-scale employment while stimulating ancillary industries. The 2023 examiner comment notes that students should be able to explain how industry \"counters regional imbalances\" and \"promotes balance of trade\" — practise framing such answers in complete sentences, as the examiner specifically asked teachers to guide students on sentence framing.",
+    "eli5": "Iron and steel is the industry that turns rocks full of iron into strong steel. You dig up iron ore, mix it with special coal, limestone, and a pinch of manganese, then heat it all in a giant oven called a blast furnace. Out drips molten pig iron, which still has too much carbon. You blow oxygen on it to trim the carbon, and you get steel — the stuff of rails, bridges, tanks, and tools. Big plants do every step in one place; small plants melt scrap instead.",
+    "misconceptionText": "Misconception 1: \"Coking coal is used only for heat in the blast furnace.\" Correction: Coking coal does supply intense heat, but its equally important role is to produce carbon monoxide, which acts as a reducing agent that strips oxygen from iron oxide. Without this reducing action, the iron would not be freed from the ore. The 2019 examiner comment on localisation of iron and steel shows students often forget the chemical role of coke and list only generic factors.\r\n\r\nMisconception 2: \"Pig iron and steel are the same thing.\" Correction: Pig iron is the molten iron tapped from the blast furnace; it has a high carbon content and is brittle, so it cannot be used as steel. It must be refined in a Basic Oxygen Furnace, where oxygen burns off the excess carbon, to become strong, flexible steel. Confusing the two loses marks in process questions.\r\n\r\nMisconception 3: \"Mini steel plants use coking coal just like integrated plants.\" Correction: Mini steel plants use scrap steel or sponge iron melted in electric furnaces, so they run on electricity and do not use coal for smelting. The 2024 examiner comment explicitly rewards the answer that \"mini-steel plants conserve coal as they operate on electricity and do not use coal for smelting.\" Stating that mini plants use coal is a direct contradiction of this.",
+    "diagnosticText": "Q1 (recall): List the four raw materials of the iron and steel industry and state the role of each.\r\nAnswer: The four raw materials are iron ore, coking coal, limestone, and manganese. Iron ore — chiefly hematite and magnetite — is the source of iron itself. Coking coal supplies intense heat in the blast furnace and, more importantly, produces carbon monoxide which acts as a reducing agent, stripping oxygen from the iron oxide so that metallic iron is freed. Limestone acts as a flux: it combines with the rocky and sandy impurities in the ore to form slag, a molten liquid that floats on the metal and is drained off separately, leaving purer iron behind. Manganese is added in small quantities to make the finished steel harder and resistant to rust. A complete answer names all four and explains each role, not just the first two.\r\n\r\nQ2 (reasoning): Explain why pig iron must be refined in a Basic Oxygen Furnace before it can be called steel.\r\nAnswer: Pig iron is the molten iron tapped from the bottom of a blast furnace after smelting. It contains a high percentage of carbon absorbed from the coke, along with other impurities, which makes it brittle and unsuitable for most uses — it would crack under load and cannot be rolled into sheets or drawn into wires. Steel, by contrast, needs a much lower and carefully controlled carbon content to be strong yet flexible. In a Basic Oxygen Furnace (BOF), a jet of pure oxygen is blown onto the molten pig iron. The oxygen reacts with the excess carbon, burning it off as carbon monoxide and carbon dioxide, and also removes other impurities. Once the carbon content is brought down to the required small percentage, the metal becomes steel. Thus the BOF step is essential because it converts brittle, high-carbon pig iron into workable steel.\r\n\r\nQ3 (evaluate): \"An integrated steel plant and a mini steel plant serve the same purpose, so there is no real difference between them.\" Evaluate this statement.\r\nAnswer: The statement is misleading and largely incorrect. While both integrated steel plants and mini steel plants produce steel, they differ sharply in scale, raw materials, process, and purpose, and recognising these differences is exactly what CISCE examiners test.\r\n\r\nAn integrated steel plant is a very large complex that carries out every step of steel-making — from handling raw iron ore, coal, and limestone, through smelting in a blast furnace, to refining pig iron in a Basic Oxygen Furnace and rolling the finished steel — all under one roof. Examples include TISCO at Jamshedpur (1907, India's first), Bhilai, Rourkela, Durgapur, and Bokaro. These plants need huge capital, vast land, proximity to iron ore mines and coal fields, heavy transport infrastructure, and large water supply. They produce steel in massive quantities for national infrastructure such as rails, bridges, and defence equipment.\r\n\r\nA mini steel plant, by contrast, is a much smaller unit that does not begin with iron ore. It uses scrap steel or sponge iron as its input and melts it in an electric arc or induction furnace. Because it runs on electricity, it does not use coking coal for smelting — a point the 2024 examiner comment specifically rewards — and so it conserves coal. Mini plants are flexible, require less capital and land, can be set up near local markets, and serve regional demand for construction steel.\r\n\r\nSo the two are not interchangeable. They are complementary: integrated plants handle the heavy, primary production from ore, while mini plants recycle scrap and serve local markets. Saying there is \"no real difference\" ignores the differences in raw material, process, scale, energy source, and market — all of which are central to this topic.\r\n\r\nQ4 (apply): TISCO at Jamshedpur is located near the Noamundi iron ore mines and the Jharia coal fields, with railway and river access. Show how each location factor is satisfied by this site.\r\nAnswer: The four location factors for an iron and steel plant are proximity to raw materials, a good transport network, a ready market, and a reliable water supply. The TISCO site at Jamshedpur satisfies each one. Proximity to raw materials: the Noamundi iron ore mines supply the chief raw material, and the Jharia coal fields provide coking coal, both within a reasonable distance, which keeps transport costs low for these bulky materials. Transport network: Jamshedpur is connected by railways to the mines and coal fields and to the rest of India, allowing heavy raw materials to be brought in and finished steel to be dispatched; river and later road access further help. Market: eastern and central India's growing industrial and construction demand provides a ready market for steel products. Water supply: the Subarnarekha and Kharkai rivers provide the large volumes of water needed for cooling furnaces and for general plant use. Thus Jamshedpur is a textbook example of all four location factors working together.\r\n\r\nQ5 (create): Imagine you are asked to set up a new mini steel plant in a southern Indian state. Describe where you would locate it, what raw material you would use, what furnace you would choose, and which local market you would serve, justifying each choice.\r\nAnswer: I would locate the mini steel plant on the outskirts of a growing city in Tamil Nadu or Karnataka, say near Coimbatore or Bengaluru, close to a major railhead and an industrial zone. As raw material I would use scrap steel collected from local demolition sites, old vehicles, and industrial waste, supplemented by sponge iron bought from nearby mini blast furnace units. Because mini steel plants run on electricity rather than coking coal, I would install an electric arc furnace to melt the scrap — this conserves coal and suits a region that may not have coking coal fields nearby. I would secure a stable power supply from the state grid and, if possible, supplement it with a solar captive plant to keep costs down. The local market I would serve is the construction sector of the city and its surrounding towns: TMT bars, rods, and mild steel sections for housing, commercial buildings, and small infrastructure projects. Locating near the market keeps transport costs low, since finished steel is heavy; using local scrap reduces dependence on distant iron ore mines; and the electric furnace keeps the plant flexible and small enough to adjust output to local demand. This plan uses every location factor — raw material (scrap), transport (railhead), market (construction), and power instead of coal — in a way suited to a mini plant.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can list the four raw materials of the iron and steel industry (iron ore, coking coal, limestone, manganese) and explain each one's role (source of iron; heat and reducing agent; flux forming slag; hardens and rust-proofs steel). Can describe the steel-making process in sequence: smelting in a blast furnace produces pig iron with high carbon, which is refined in a Basic Oxygen Furnace (BOF) where oxygen reduces carbon content to produce steel. Can name the five major integrated steel plants (TISCO Jamshedpur 1907, Bhilai, Rourkela, Durgapur, Bokaro) with their locations and foreign collaborations, and distinguish them from mini steel plants that use scrap or sponge iron in electric furnaces and conserve coking coal. Can explain the four location factors (proximity to raw materials, transport network, market, water supply) and the importance of the industry (infrastructure, defence, machinery, employment, ancillary industries).",
+    "subject": "geo",
+    "classLevel": 7
+  },
+  {
+    "nodeId": "c7_geo_014",
+    "title": "Energy resources — conventional",
+    "definition": "Conventional energy resources are the traditional sources of power that human societies have relied on for centuries. They are divided into two groups: non-renewable sources (coal, petroleum, and natural gas) that take millions of years to form and cannot be replaced once used, and traditional renewable sources (hydel power) that can be regenerated but require large infrastructure. Coal is a black or brown combustible rock formed from the buried remains of ancient plant matter — swamp forests that flourished roughly 300 million years ago. When these plants died in wetlands, they were covered by sediment and subjected to intense heat and pressure over millions of years, gradually transforming into coal. Coal occurs in four types based on carbon content and quality: anthracite, which has the highest carbon content (over 80%), is the hardest, and is the best quality coal; bituminous coal, the most abundant variety, which is widely used in thermal power generation and steel smelting; lignite, a soft brown coal with low carbon content and low heat value; and peat, the first stage of coal formation, which is only partially decomposed and gives the lowest heat. India's major coal fields include Jharia in Jharkhand (famous for the best coking coal used in steel plants), Raniganj in West Bengal, and Bokaro in Jharkhand. Coal is used for thermal power generation, steel smelting, and running railways. Petroleum is a thick, dark liquid formed from the buried remains of tiny marine organisms that lived millions of years ago. These organisms were buried under sedimentary rock and, under heat and pressure, converted into crude oil. Petroleum is extracted by drilling wells both onshore and offshore. Crude oil is then refined into useful products such as petrol, diesel, kerosene, LPG, and lubricants. India's major oil fields are Mumbai High (an offshore field in the Arabian Sea and the country's largest producer), Digboi in Assam (where the first oil well in India was drilled in 1889), and Ankleshwar in Gujarat. Refineries are located near oil fields or near ports to minimise transport costs. Natural gas is found along with petroleum deposits and is considered a clean-burning fuel because it produces less smoke and pollution. It is used for cooking, power generation, and as Compressed Natural Gas (CNG) for transport. Major reserves lie in Mumbai High, Gujarat, and Assam. Hydel power is electricity generated by the force of falling water, which turns turbines connected to generators at dams. India's major hydel projects include Bhakra Nangal on the Sutlej river in Punjab, the Damodar Valley Corporation across West Bengal and Jharkhand (a multipurpose project), and Hirakud on the Mahanadi in Odisha. Thermal power is reliable and not dependent on rainfall but is polluting and uses non-renewable coal; hydel power is clean and renewable but depends on rainfall, has high initial cost, and can displace people.",
+    "textWalkthrough": "In Class 5 (node c5_geo_012) you first learned about natural resources — the useful things nature gives us, such as water, soil, minerals, and forests. You learned that some resources are renewable (they can be replaced) and some are non-renewable (they get used up). That distinction is the foundation for today's lesson, because energy resources are split exactly along that line: coal, petroleum, and natural gas are non-renewable, while hydel power is renewable.\r\n\r\nIn the previous node (c7_geo_013) you studied the iron and steel industry. You learned that steel plants need enormous amounts of energy to smelt iron ore — they cannot run without coal and electricity. That is why we now turn to energy resources: every industry you will study, from sugar to textiles to engineering goods, depends on a reliable power supply. Understanding where energy comes from is the next logical step.\r\n\r\nLet us begin with coal. Imagine a vast swamp forest 300 million years ago — giant ferns and trees dying and falling into waterlogged ground. Because the water blocked oxygen, the plants did not rot fully. Instead, layer upon layer piled up, got buried under sand and mud, and was squeezed by the weight above. Heat from deep inside the Earth cooked this mass slowly, over millions of years, until it turned into coal. The longer and deeper it is buried, the richer it becomes in carbon. That is why the four types form a quality ladder: peat (first stage, only partly decomposed, lowest heat) gives way to lignite (soft brown coal, low carbon), then bituminous (most abundant, used in thermal power and steel), and finally anthracite (highest carbon, hardest, best quality). A GOOD answer names all four in order of quality with one feature each; a BAD answer only says \"coal is black rock used as fuel\" — far too vague for the exam.\r\n\r\nNow locate India's coal fields on a map. Jharia in Jharkhand is the most important because it yields the best coking coal — the kind steel plants need. Raniganj in West Bengal is one of the oldest coal-mining areas in India. Bokaro, also in Jharkhand, supplies the Bokaro Steel Plant. Remember the cluster: most of India's best coal lies in the Damodar river valley of Jharkhand and West Bengal.\r\n\r\nNext comes petroleum. Unlike coal, which formed from land plants, petroleum formed from tiny marine organisms — plankton and algae — that died and sank to the sea floor millions of years ago. They were buried under sedimentary rock, and under heat and pressure their organic matter slowly turned into a thick dark liquid: crude oil. We extract it by drilling wells, both onshore (on land) and offshore (under the sea). Crude oil itself is not useful directly — it must be refined. Refining separates crude oil into fractions such as petrol, diesel, kerosene, LPG (cooking gas), and lubricants. India's three key oil fields to remember are Mumbai High (offshore in the Arabian Sea, our largest producer), Digboi in Assam (the first oil well in India, drilled in 1889), and Ankleshwar in Gujarat. Refineries are placed either near oil fields or near ports, because crude oil is heavy and expensive to transport long distances.\r\n\r\nNatural gas is the cleaner cousin of petroleum — it is found together with petroleum deposits and burns with very little smoke. It is used for cooking, for power generation, and as CNG for buses and auto-rickshaws. India's natural gas reserves lie in Mumbai High, Gujarat, and Assam — the same regions as petroleum, which makes sense because the two occur together.\r\n\r\nNow hydel power. The idea is simple: water stored behind a dam is released and allowed to fall from a height. The falling water rushes past the blades of a turbine, spinning it; the turbine is connected to a generator that produces electricity. Three dams to memorise: Bhakra Nangal on the Sutlej in Punjab, the Damodar Valley Corporation spanning West Bengal and Jharkhand (a multipurpose project that also controls floods and aids irrigation), and Hirakud on the Mahanadi in Odisha.\r\n\r\nFinally, compare thermal and hydel power. Thermal power (burning coal) is reliable — it runs day and night regardless of weather — but it pollutes the air and depends on a non-renewable resource. Hydel power is clean and renewable, but it depends on rainfall: in a drought year the dam may not have enough water, the turbines slow down, and power cuts follow. Hydel projects also cost a great deal to build and can displace thousands of people whose villages are submerged. A GOOD comparison answer always gives two points on each side; a BAD answer lists only advantages of one and forgets the disadvantages.\r\n\r\nIn the ICSE board exam, expect questions that ask you to name coal types in order of quality, locate coal and oil fields on a map, state uses of each fuel, and compare thermal versus hydel power with at least two points each. Examiners repeatedly note that students confuse the formation of coal (from land plants) with petroleum (from marine organisms), and that they name only one state when a question asks for a region spanning two states (for example, the Damodar Valley covers both West Bengal and Jharkhand). Always give the full answer.",
+    "eli5": "Conventional energy is the power our grandparents used. Coal is ancient swamp plants squashed underground for millions of years until they turned into black rock — the longer it is squeezed, the better it gets, from soft peat to hard anthracite. Petroleum is ancient sea creatures turned into dark oil, pumped up through wells and split into petrol, diesel, and cooking gas. Hydel power is simpler: a dam holds back river water, lets it fall, and the rushing water spins a wheel that makes electricity.",
+    "misconceptionText": "Misconception 1: \"Coal and petroleum both formed from ancient plants.\" Correction: Coal formed from buried land plant matter in swamp forests, whereas petroleum formed from tiny marine organisms (plankton and algae) buried under sedimentary rock. CISCE examiners (PPA 2024) observed that students blur the origins of raw materials when answering industry questions; the same confusion appears with energy sources. Always state the correct source for each fuel.\r\n\r\nMisconception 2: \"Anthracite is the most abundant coal because it is the best quality.\" Correction: Anthracite is the highest quality (highest carbon, hardest) but it is rare; bituminous coal is the most abundant type and is what thermal power plants and steel smelters mainly use. Quality and abundance are different things.\r\n\r\nMisconception 3: \"The Damodar Valley project is located only in West Bengal.\" Correction: The Damodar Valley Corporation spans both West Bengal and Jharkhand. CISCE examiners (PPA 2025) explicitly observed that candidates \"mentioned only one state (West Bengal)\" when a region covers two states, and some wrongly added Odisha. Always name both states for multipurpose valley projects.",
+    "diagnosticText": "Q1 (recall): Name the four types of coal in order of quality, and state one use of coal.\r\nAnswer: The four types of coal, arranged from lowest to highest quality, are peat, lignite, bituminous, and anthracite. Peat is the first stage of coal formation — only partially decomposed plant matter that gives the lowest heat. Lignite is a soft brown coal with low carbon content and low heat value. Bituminous coal is the most abundant variety; it has a higher carbon content and is the coal most commonly used in thermal power generation and in steel smelting. Anthracite is the highest quality coal: it has the highest carbon content (over 80%), is the hardest, and burns with the least smoke. One major use of coal is thermal power generation, in which coal is burned to heat water, produce steam, and drive turbines that generate electricity. Coal is also used in steel smelting (as coking coal in blast furnaces) and, historically, to run steam locomotives on the railways.\r\n\r\nQ2 (reasoning): Why are petroleum refineries located either near oil fields or near ports? Explain with reference to Mumbai High and a coastal refinery.\r\nAnswer: Petroleum refineries are placed near oil fields or near ports because crude oil is a thick, heavy, and bulky liquid that is expensive and hazardous to transport over long distances by road or rail. Locating a refinery close to the source of crude oil — whether an onshore field or an offshore platform — minimises the distance the raw material must travel before processing. Mumbai High is India's largest offshore oil field, situated in the Arabian Sea. Crude oil extracted there is piped directly to coastal refineries such as those in Mumbai and Gujarat, which are close to the coast precisely to receive this offshore crude. Refineries near ports can also import crude oil from abroad by tanker, refine it, and then distribute the finished products (petrol, diesel, kerosene, LPG) inland. This twin logic — proximity to domestic oil fields and access to imported crude via ports — explains why India's major refineries cluster around the coast in Gujarat, Maharashtra, and Tamil Nadu, and near inland fields in Assam.\r\n\r\nQ3 (evaluate): \"Hydel power is always a better choice than thermal power for India.\" Evaluate this statement, giving a balanced argument.\r\nAnswer: The statement is too absolute and needs to be evaluated on both sides. In favour of hydel power, it is a renewable and clean source of electricity — it produces no smoke, no carbon dioxide, and no ash, so it does not pollute the air the way burning coal does. Once a dam is built, the running cost is low because water is not \"consumed\" in the same way coal is. Hydel projects like Bhakra Nangal and Hirakud are also multipurpose: they provide irrigation water, control floods, and support fisheries alongside generating electricity. For these reasons hydel power is environmentally attractive. However, hydel power has serious drawbacks. It depends on rainfall — in a weak monsoon year the reservoir level falls, turbines slow, and power generation drops. The initial cost of building a large dam is very high, and construction takes many years. Most importantly, large dams submerge vast areas of land, displacing thousands of people and destroying forests and wildlife habitats. Thermal power, by contrast, is reliable and not dependent on the weather; a coal-fired plant can run 24 hours a day throughout the year. India has large coal reserves, especially in Jharkhand and West Bengal, making thermal power comparatively cheap to set up. The downside of thermal power is that coal is non-renewable and burning it releases carbon dioxide, sulphur dioxide, and ash, contributing to air pollution and climate change. A balanced conclusion is that India needs a mix of both: thermal power for reliability and base load, hydel power for clean peaking supply, supplemented increasingly by solar and wind. Neither source is \"always better\"; the right choice depends on location, cost, environmental impact, and energy security.\r\n\r\nQ4 (apply): On an outline map of India, mark and label the following: (a) Jharia coal field, (b) Mumbai High oil field, (c) Bhakra Nangal dam, (d) Hirakud dam. State the river and state for each dam.\r\nAnswer: (a) Jharia is marked in Jharkhand, in the Damodar river valley region of eastern India. It is famous for the best coking coal used in steel plants. (b) Mumbai High is marked offshore in the Arabian Sea, roughly west of the Mumbai coast. It is India's largest petroleum and natural gas producing field. (c) Bhakra Nangal dam is marked on the Sutlej river in the state of Punjab (with the Nangal part in Himachal Pradesh). It is one of the highest gravity dams in the world and a major hydel power and irrigation project. (d) Hirakud dam is marked on the Mahanadi river in the state of Odisha. It is one of the longest dams in the world and provides hydel power, irrigation, and flood control. When marking these on a map, place Jharia and Bokaro in the Damodar valley belt of Jharkhand, Mumbai High out in the Arabian Sea with a dotted line to the coast, Bhakra Nangal in the northwest on the Sutlej, and Hirakud in the east on the Mahanadi in Odisha.\r\n\r\nQ5 (create): Imagine you are the energy minister of a small Indian state with both a perennial river and a coal field. Design a balanced energy plan, explaining which source you would prioritise and why.\r\nAnswer: As energy minister, I would design a mixed energy plan that uses both hydel and thermal power, because each compensates for the other's weaknesses. First, I would build a medium-sized dam on the perennial river to generate hydel power. Because the river flows year-round, this gives a steady supply of clean electricity with no air pollution and low running costs. The reservoir would also supply irrigation water to nearby farms and help control floods in the monsoon. I would carefully plan the dam height and resettlement colonies so that as few people as possible are displaced, and those who are displaced receive fair compensation and new housing. Second, I would build a thermal power station near the coal field, using locally mined coal. This plant would provide reliable base-load electricity that does not depend on rainfall, ensuring that even in a drought year the state has power for hospitals, schools, and factories. To reduce pollution, I would install electrostatic precipitators and ash-utilisation systems so that fly ash is used to make bricks and cement rather than being dumped. Third, I would gradually add solar panels on government buildings and rooftops to diversify further. The priority would be hydel power for clean, day-to-day supply, with thermal power as a dependable backup — together they give the state energy security, lower pollution, and resilience against both droughts and fuel shortages.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "Can describe how coal forms from buried ancient plant matter under heat and pressure over millions of years, and can distinguish the four coal types by quality (peat lowest, lignite, bituminous most abundant, anthracite highest carbon and best quality). Can name three major Indian coal fields (Jharia in Jharkhand, Raniganj in West Bengal, Bokaro in Jharkhand) and state uses of coal (thermal power, steel smelting, railways). Can describe petroleum formation from marine organisms, extraction by drilling onshore and offshore, refining into petrol/diesel/kerosene/LPG/lubricants, and name three oil fields (Mumbai High, Digboi in Assam, Ankleshwar in Gujarat). Can describe hydel power generation by falling water turning turbines and name three dams (Bhakra Nangal on Sutlej in Punjab, Damodar Valley in West Bengal-Jharkhand, Hirakud on Mahanadi in Odisha). Can compare thermal and hydel power with at least two advantages and two disadvantages of each.",
+    "subject": "geo",
+    "classLevel": 7
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE ClimateResourceExplorerSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

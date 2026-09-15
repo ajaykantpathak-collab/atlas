@@ -12,6 +12,7 @@ import renderMathInElement from 'katex/contrib/auto-render'
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { create } from 'zustand'
 import { subscribeWithSelector } from 'zustand/middleware'
+import { getAuthToken } from "@/lib/api";
 
 // ───────────────────────────────────────────────────────────────
 //  Translations
@@ -503,13 +504,6 @@ const mockAssignments: Assignment[] = [
 //  API Helpers
 // ───────────────────────────────────────────────────────────────
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'
-
-function getAuthToken(): string | null {
-  if (typeof window !== 'undefined') {
-    return localStorage.getItem('auth_token')
-  }
-  return null
-}
 
 async function apiFetch<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
   const token = getAuthToken()

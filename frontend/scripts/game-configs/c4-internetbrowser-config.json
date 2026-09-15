@@ -1,0 +1,43 @@
+{
+  "gameTitle": "InternetBrowserGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\InternetBrowserGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\cs\\enrichment\\c4_cs_enrichment_part8.marker",
+    "D:\\cisce\\cs\\enrichment\\c4_cs_enrichment_part9.marker",
+    "D:\\cisce\\cs\\enrichment\\c4_cs_enrichment_part10.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_cs_008 (Computer network and Internet terminology - ISP, WWW, URL, HTTP, modem), c4_cs_009 (Search engine and net surfing - Google, keywords, search results), c4_cs_010 (Web browser components - title bar, menu bar, tabs, bookmarks, history)",
+  "mascotName": "Navigator Nikhil",
+  "mascotDescription": "a friendly internet guide with a compass badge, a globe, a magnifying glass, and a laptop. Custom SVG, not an owl.",
+  "sceneDescription": "internet cafe scene with sky gradient, a computer shop, a globe showing world connections, a browser window with tabs, and search engine icons",
+  "svgObjects": [
+    { "name": "NetworkIcon", "description": "connected computers forming a network" },
+    { "name": "ISPIcon", "description": "an ISP tower providing internet" },
+    { "name": "WWWIcon", "description": "a World Wide Web globe symbol" },
+    { "name": "URLIcon", "description": "a URL address bar with web address" },
+    { "name": "HTTPIcon", "description": "an HTTP protocol symbol" },
+    { "name": "ModemIcon", "description": "a modem device connecting to internet" },
+    { "name": "SearchEngineIcon", "description": "a search engine search box" },
+    { "name": "KeywordIcon", "description": "a keyword being typed in search" },
+    { "name": "BrowserIcon", "description": "a web browser window" },
+    { "name": "TabIcon", "description": "browser tabs showing multiple pages" },
+    { "name": "BookmarkIcon", "description": "a bookmark star icon" },
+    { "name": "HistoryIcon", "description": "a history clock icon" },
+    { "name": "RefreshIcon", "description": "a refresh circular arrow" },
+    { "name": "HomeButtonIcon", "description": "a home button (house shape)" }
+  ],
+  "challengeTypes": [
+    "identify: What is the INTERNET? (The world's largest computer network connecting millions of computers globally vs A single computer vs A type of software)",
+    "sort: Drag each Internet term to its correct meaning (ISP: company that gives internet access (Jio, Airtel, BSNL) | WWW: World Wide Web, collection of websites | URL: web address of a website | HTTP: protocol for transferring web pages | Modem: device that connects computer to internet)",
+    "identify: What does an ISP (Internet Service Provider) do? (Gives people and organisations access to the Internet vs Makes computers vs Creates websites)",
+    "sort: Drag each step of searching on the Internet in order (1. Open a web browser | 2. Type keywords in the search box | 3. Press Enter or click Search | 4. Look at the search results list | 5. Click on the most relevant result | 6. Read the website page)",
+    "identify: What is a SEARCH ENGINE? (A tool that helps you find information on the Internet using keywords (like Google) vs A type of modem vs A type of printer)",
+    "sort: Drag each browser component to its correct function (Title bar: shows the name of the page | Address bar: where you type the URL | Tabs: keep multiple pages open in one window | Bookmarks: saved shortcuts to favourite websites | History: record of pages you visited recently | Refresh button: reloads the current page | Home button: takes you to your home page)",
+    "identify: What are BOOKMARKS in a web browser? (Saved shortcuts to your favourite websites so you do not have to type the URL again vs A list of deleted files vs A type of virus)",
+    "sort: Drag each browser action to its correct description (Tabs: switch between multiple open pages without closing them | History: see which websites you visited before | Refresh: reload the page to get the latest version | Home: go back to your starting page | Bookmarks: save a page to visit again quickly)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Computer network and Internet — network = group of computers linked to share information. Internet = world's largest network connecting millions of computers. ISP (Internet Service Provider) = company giving internet access (Jio, Airtel, BSNL). WWW (World Wide Web) = collection of websites. URL = web address (like www.google.com). HTTP = protocol for transferring web pages. Modem = device connecting computer to internet. (2) Search engine and net surfing — search engine (Google) finds information using keywords. Type keywords in search box, press Enter, see results list, click relevant result. Use specific keywords for better results. (3) Web browser components — title bar: shows page name. Menu bar: File, Edit, View, Bookmarks, Help. Address bar: type URL. Tabs: multiple pages in one window (like file folder dividers). Bookmarks: saved shortcuts to favourite sites (no need to retype URL). History: record of visited pages. Refresh button: reloads page. Home button: goes to home page. Misconceptions: 'the Internet and the WWW are the same' (the Internet is the NETWORK of computers, the WWW is the collection of WEBSITES on the Internet — they are different things), 'a search engine creates websites' (a search engine FINDS existing websites using keywords — it does not create them), 'bookmarks and history are the same' (bookmarks are SAVED by you for future use, history is an AUTOMATIC record of pages you visited — they are different), 'URL and HTTP are the same' (URL is the ADDRESS of a website, HTTP is the PROTOCOL used to transfer web pages — they serve different purposes), 'tabs close all other pages when you open a new one' (tabs let you keep MULTIPLE pages open at the same time — opening a new tab does not close the others). Default width=720, height=560. Use named export (export function InternetBrowserGame), NOT export default. Export interface InternetBrowserGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

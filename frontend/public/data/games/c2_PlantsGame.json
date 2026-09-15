@@ -1,0 +1,785 @@
+{
+  "gameFile": "PlantsGame",
+  "classLevel": 2,
+  "cisceNodes": [
+    "c2_bio_010",
+    "c2_bio_011",
+    "c2_bio_012"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Parts of a Plant! 🌱",
+      "text": "Every plant has six main parts: Root (holds plant & drinks water), Stem (carries water like a straw), Leaf (makes food in sun), Flower (makes seeds), Fruit (protects seeds), and Seed (grows new plant)!",
+      "emoji": "🌱",
+      "bgColor": "from-emerald-400 to-green-600",
+      "spoken": "Every plant has six main parts: Root, Stem, Leaf, Flower, Fruit, and Seed!",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Roots and Stems! 🌿",
+      "text": "Roots stay hidden in soil and hold the plant firm while drinking water. The stem stands tall like a pillar and carries water from roots up to the leaves!",
+      "emoji": "🌿",
+      "bgColor": "from-green-500 to-teal-600",
+      "spoken": "Roots hold the plant and drink water. The stem carries water up to the leaves!",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Leaves Make Food! 🍃",
+      "text": "Leaves are flat and green because of chlorophyll! They cook food for the plant using sunlight, air, and water. This special cooking is called photosynthesis!",
+      "emoji": "🍃",
+      "bgColor": "from-teal-400 to-emerald-500",
+      "spoken": "Leaves make food for the plant using sunlight through photosynthesis!",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Goat",
+            "Lion"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Wonderful Plant Products! 🍎",
+      "text": "Plants give us so many useful things! We get fruits and vegetables for food, timber and wood for furniture, cotton for clothes, rubber for erasers, and neem for medicine!",
+      "emoji": "🍎",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Plants give us food, wood, cotton, rubber, and medicine!",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Underground Food Stores! 🥔",
+      "text": "Some plants store food underground! A potato and ginger are modified stems with buds. A carrot and radish are modified roots that taper down with no buds!",
+      "emoji": "🥔",
+      "bgColor": "from-yellow-500 to-amber-600",
+      "spoken": "Potatoes and ginger are modified stems. Carrots and radishes are modified roots!",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_part",
+      "question": "Which part of the plant stays underground and holds it firmly in the soil?",
+      "answer": "Root",
+      "options": [
+        "Root",
+        "Leaf",
+        "Flower"
+      ],
+      "hint": "Think: what is hidden under the soil like an anchor?",
+      "misconception": "The ROOT is hidden under the soil and grips the plant firmly! Leaves are up in the air catching sunlight, and flowers are colourful to attract insects!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Root",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Leaf",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Flower",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Root",
+          "Leaf"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_function",
+      "question": "Which part of the plant carries water from roots up to the leaves like a pipe?",
+      "answer": "Stem",
+      "options": [
+        "Stem",
+        "Seed",
+        "Fruit"
+      ],
+      "hint": "Think: what stands up tall and acts as the plant\\'s highway and pillar?",
+      "misconception": "The STEM is the plant\\'s pillar and highway! It holds leaves up to sunlight and carries water from roots to all parts of the plant.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Stem",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Seed",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Fruit",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Stem",
+          "Seed"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_leaf",
+      "question": "What is the main job of the green leaf?",
+      "answer": "Make food using sunlight",
+      "options": [
+        "Make food using sunlight",
+        "Absorb water from soil",
+        "Grow new roots"
+      ],
+      "hint": "Think: leaves are green food factories containing chlorophyll!",
+      "misconception": "The leaf\\'s main job is making food using sunlight through photosynthesis! Absorbing water is the job of the roots, not the leaves.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Make food using sunlight",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Absorb water from soil",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Grow new roots",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Make food using sunlight",
+          "Absorb water from soil"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_functions",
+      "question": "Drag each plant part to its main job!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Root holds and drinks, Stem carries water, Leaf makes food, Flower makes seeds!",
+      "misconception": "Each part has a special job: Root grips soil and drinks water; Stem carries water up; Leaf makes food; Flower attracts insects to make seeds!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "root-item",
+            "label": "Root",
+            "correctBin": "root-bin"
+          },
+          {
+            "id": "stem-item",
+            "label": "Stem",
+            "correctBin": "stem-bin"
+          },
+          {
+            "id": "leaf-item",
+            "label": "Leaf",
+            "correctBin": "leaf-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "root-item",
+          "kind": "circle",
+          "label": "Root",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "root-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "root-bin"
+        },
+        {
+          "id": "stem-item",
+          "kind": "circle",
+          "label": "Stem",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "stem-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "stem-bin"
+        },
+        {
+          "id": "leaf-item",
+          "kind": "leaf",
+          "label": "Leaf",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "leaf-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "leaf-bin"
+        },
+        {
+          "id": "flower-item",
+          "kind": "flower",
+          "label": "Flower",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ff69b4",
+          "category": "flower-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "flower-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "root-item",
+          "label": "Root",
+          "emoji": "",
+          "correctBin": "root-bin"
+        },
+        {
+          "id": "stem-item",
+          "label": "Stem",
+          "emoji": "",
+          "correctBin": "stem-bin"
+        },
+        {
+          "id": "leaf-item",
+          "label": "Leaf",
+          "emoji": "",
+          "correctBin": "leaf-bin"
+        },
+        {
+          "id": "flower-item",
+          "label": "Flower",
+          "emoji": "",
+          "correctBin": "flower-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "root-bin",
+          "label": "Holds plant & absorbs water",
+          "color": "#8D6E63"
+        },
+        {
+          "id": "stem-bin",
+          "label": "Carries water & food",
+          "color": "#795548"
+        },
+        {
+          "id": "leaf-bin",
+          "label": "Makes food (Photosynthesis)",
+          "color": "#4CAF50"
+        },
+        {
+          "id": "flower-bin",
+          "label": "Attracts insects & makes seeds",
+          "color": "#E91E63"
+        }
+      ]
+    },
+    {
+      "type": "identify_carrot",
+      "question": "A carrot is thick, orange, and grows underground. What plant part is it really?",
+      "answer": "Modified root",
+      "options": [
+        "Modified root",
+        "Modified stem",
+        "Leaf"
+      ],
+      "hint": "Think: does a carrot have buds or eyes? No, it tapers down like a root!",
+      "misconception": "A carrot is a modified ROOT! Even though it is thick and underground, it tapers down and has NO buds or eyes. Stems have buds, roots do not!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Modified root",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Modified stem",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Leaf",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Modified stem",
+          "Modified root"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_potato",
+      "question": "A potato grows underground and has little pits called eyes. What plant part is it?",
+      "answer": "Modified stem",
+      "options": [
+        "Modified stem",
+        "Modified root",
+        "Fruit"
+      ],
+      "hint": "Think: those eyes on a potato are buds that can grow new shoots!",
+      "misconception": "A potato is a modified STEM (tuber)! Its eyes are buds that can grow into new shoots. Roots do not have buds or eyes!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Modified stem",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Modified root",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Fruit",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Modified root",
+          "Modified stem"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_products",
+      "question": "Drag each plant product to what it gives us!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Cotton for clothes, Neem for medicine, Timber for wood, Mustard for oil!",
+      "misconception": "Plants provide diverse gifts: Cotton gives cloth, Neem leaves give medicine, Tree trunks give timber wood, Mustard seeds give cooking oil!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "clothes-item",
+            "label": "Cotton Shirt",
+            "correctBin": "clothes-bin"
+          },
+          {
+            "id": "med-item",
+            "label": "Neem Medicine",
+            "correctBin": "med-bin"
+          },
+          {
+            "id": "wood-item",
+            "label": "Wooden Chair",
+            "correctBin": "wood-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "clothes-item",
+          "kind": "circle",
+          "label": "Cotton Shirt",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "clothes-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "clothes-bin"
+        },
+        {
+          "id": "med-item",
+          "kind": "circle",
+          "label": "Neem Medicine",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "med-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "med-bin"
+        },
+        {
+          "id": "wood-item",
+          "kind": "circle",
+          "label": "Wooden Chair",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "wood-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "wood-bin"
+        },
+        {
+          "id": "oil-item",
+          "kind": "star",
+          "label": "Mustard Oil",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ffd700",
+          "category": "oil-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "oil-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "clothes-item",
+          "label": "Cotton Shirt",
+          "emoji": "",
+          "correctBin": "clothes-bin"
+        },
+        {
+          "id": "med-item",
+          "label": "Neem Medicine",
+          "emoji": "",
+          "correctBin": "med-bin"
+        },
+        {
+          "id": "wood-item",
+          "label": "Wooden Chair",
+          "emoji": "",
+          "correctBin": "wood-bin"
+        },
+        {
+          "id": "oil-item",
+          "label": "Mustard Oil",
+          "emoji": "",
+          "correctBin": "oil-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "clothes-bin",
+          "label": "Clothes (Cotton)",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "med-bin",
+          "label": "Medicine (Neem)",
+          "color": "#10B981"
+        },
+        {
+          "id": "wood-bin",
+          "label": "Wood & Furniture",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "oil-bin",
+          "label": "Oil (Seeds)",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "sort_modifications",
+      "question": "Drag each vegetable! Is it a modified root or a modified stem?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Carrot & Radish = roots (tapering, no buds)! Potato & Ginger = stems (tubers/rhizomes with buds)!",
+      "misconception": "Roots store food by tapering (carrot, radish)! Stems store food with buds or bulb layers (potato, ginger, onion)!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "carrot-mod",
+            "label": "Carrot",
+            "correctBin": "root-mod-bin"
+          },
+          {
+            "id": "radish-mod",
+            "label": "Radish",
+            "correctBin": "root-mod-bin"
+          },
+          {
+            "id": "potato-mod",
+            "label": "Potato",
+            "correctBin": "stem-mod-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "carrot-mod",
+          "kind": "circle",
+          "label": "Carrot",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "root-mod-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "root-mod-bin"
+        },
+        {
+          "id": "radish-mod",
+          "kind": "circle",
+          "label": "Radish",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "root-mod-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "root-mod-bin"
+        },
+        {
+          "id": "potato-mod",
+          "kind": "circle",
+          "label": "Potato",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "stem-mod-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "stem-mod-bin"
+        },
+        {
+          "id": "ginger-mod",
+          "kind": "circle",
+          "label": "Ginger",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "stem-mod-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "stem-mod-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "carrot-mod",
+          "label": "Carrot",
+          "emoji": "",
+          "correctBin": "root-mod-bin"
+        },
+        {
+          "id": "radish-mod",
+          "label": "Radish",
+          "emoji": "",
+          "correctBin": "root-mod-bin"
+        },
+        {
+          "id": "potato-mod",
+          "label": "Potato",
+          "emoji": "",
+          "correctBin": "stem-mod-bin"
+        },
+        {
+          "id": "ginger-mod",
+          "label": "Ginger",
+          "emoji": "",
+          "correctBin": "stem-mod-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "root-mod-bin",
+          "label": "Modified Root 🥕",
+          "color": "#F97316"
+        },
+        {
+          "id": "stem-mod-bin",
+          "label": "Modified Stem 🥔",
+          "color": "#84CC16"
+        }
+      ]
+    }
+  ],
+  "theme": "garden",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c2_bio_010",
+    "region": "Biosphere",
+    "mapX": 0.6799999999999999,
+    "mapY": 0.47,
+    "icon": "🌱",
+    "prerequisites": [
+      "c2_bio_011"
+    ]
+  },
+  "subject": "biology"
+}

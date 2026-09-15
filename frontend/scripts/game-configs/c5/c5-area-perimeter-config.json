@@ -1,0 +1,41 @@
+{
+  "gameTitle": "AreaPerimeterGame",
+  "classLevel": 5,
+  "ageRange": "10-11",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class5\\AreaPerimeterGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part52.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part53.marker",
+    "D:\\cisce\\maths\\enrichment\\c5_maths_enrichment_part54.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\ShapesSymmetryGame.tsx",
+  "cisceNodes": "c5_math_052 (Area and perimeter of simple geometrical shapes; ideas and their measurement), c5_math_053 (Daily life problems involving length, weight, time, money and volume - Use of four number operations), c5_math_054 (Idea of larger and smaller units of length, weight, time, money and volume and conversion)",
+  "mascotName": "Builder Bala",
+  "mascotDescription": "a construction builder with a hard hat, tool belt, measuring tape, and blueprints. He measures areas and perimeters to build rooms and gardens. Custom SVG, not an owl.",
+  "sceneDescription": "construction site with sky gradient, a half-built house with walls, a measuring tape, blueprint rolls, bricks, cement bags, and a garden with a fence being measured",
+  "svgObjects": [
+    { "name": "SquareIcon", "description": "a square shape with sides labeled" },
+    { "name": "RectangleIcon", "description": "a rectangle shape with length and width labeled" },
+    { "name": "TriangleIcon", "description": "a triangle shape with base and height labeled" },
+    { "name": "RulerIcon", "description": "a measuring ruler with cm markings" },
+    { "name": "MeasuringTapeIcon", "description": "a rolled measuring tape" },
+    { "name": "BlueprintIcon", "description": "a rolled blueprint with grid lines" },
+    { "name": "BrickIcon", "description": "a stack of bricks" },
+    { "name": "FenceIcon", "description": "a garden fence around a plot" },
+    { "name": "AreaGridIcon", "description": "a grid showing area as squares inside a shape" },
+    { "name": "PerimeterIcon", "description": "a shape with arrows showing the perimeter path" },
+    { "name": "UnitConversionIcon", "description": "arrows showing km to m, m to cm, cm to mm conversions" },
+    { "name": "HardHatIcon", "description": "a yellow construction hard hat" }
+  ],
+  "challengeTypes": [
+    "identify: What is the perimeter of a square with side 6 cm? (24 cm vs 36 cm vs 12 cm vs 6 cm)",
+    "sort: Drag each shape to its correct perimeter (Square side 5 = 20 cm | Rectangle 8x3 = 22 cm | Triangle sides 4,5,6 = 15 cm | Square side 7 = 28 cm | Rectangle 10x4 = 28 cm | Equilateral triangle side 6 = 18 cm)",
+    "identify: What is the area of a rectangle with length 8 cm and width 5 cm? (40 sq cm vs 13 sq cm vs 26 cm vs 40 cm)",
+    "sort: Drag each shape to its correct area (Square side 6 = 36 sq cm | Rectangle 7x4 = 28 sq cm | Rectangle 9x3 = 27 sq cm | Square side 8 = 64 sq cm | Triangle base 6 height 4 = 12 sq cm | Rectangle 5x5 = 25 sq cm)",
+    "identify: A garden is 12 m long and 8 m wide. What length of fencing is needed to go all around it? (40 m vs 20 m vs 96 m vs 96 sq m)",
+    "sort: Drag each unit conversion to its correct answer (1 km = 1000 m | 1 m = 100 cm | 1 cm = 10 mm | 1 kg = 1000 g | 1 litre = 1000 ml | 1 hour = 60 minutes)",
+    "identify: A room is 5 m long and 4 m wide. Tiles are 50 cm by 50 cm. How many tiles cover the floor? (80 tiles vs 20 tiles vs 40 tiles vs 100 tiles)",
+    "sort: Drag each daily life problem to its correct answer (A rope 2.5 m cut into 5 equal pieces = 0.5 m each | 3 boxes weigh 4.5 kg total = 1.5 kg each | A tank holds 500 litres, filled at 25 litres/min = 20 min | A wire 12 m bent into square = 3 m side | 5 kg rice packed in 250 g bags = 20 bags | A car travels 240 km in 4 hours = 60 km/h)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Perimeter — the total length around the boundary of a shape. Square: 4 x side. Rectangle: 2 x (length + width). Triangle: sum of all three sides. Units: cm, m, km. (2) Area — the space inside a shape. Square: side x side. Rectangle: length x width. Triangle: 1/2 x base x height. Units: sq cm, sq m. (3) Daily life problems — use four operations with length, weight, time, money, volume. Example: fencing a garden = perimeter. Tiling a floor = area. Buying cloth = length. Weighing rice = weight. Filling a tank = volume. Travel time = time. (4) Unit conversions — Length: 1 km = 1000 m, 1 m = 100 cm, 1 cm = 10 mm. Weight: 1 kg = 1000 g, 1 g = 1000 mg. Volume: 1 litre = 1000 ml. Time: 1 hour = 60 minutes, 1 minute = 60 seconds. Money: 1 rupee = 100 paise. Misconceptions: 'perimeter and area are the same' (WRONG — perimeter is the boundary length, area is the space inside), 'area of a rectangle is length + width' (WRONG — area is length TIMES width, not plus), 'perimeter of a rectangle is length x width' (WRONG — perimeter is 2 times (length + width), not multiplied), '1 m = 10 cm' (WRONG — 1 m = 100 cm, not 10), 'area unit is the same as length unit' (WRONG — area is in square units like sq cm, sq m, not cm or m)."
+}

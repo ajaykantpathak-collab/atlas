@@ -1,0 +1,884 @@
+{
+  "gameFile": "CirculatoryGame",
+  "classLevel": 5,
+  "cisceNodes": [],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "The Circulatory System & Heart ❤️",
+      "text": "The heart is a strong muscular organ in your chest, about the size of your closed fist! It beats continuously day and night, pumping blood through a vast network of blood vessels to every corner of your body.",
+      "emoji": "❤️",
+      "bgColor": "from-red-500 to-rose-600",
+      "spoken": "The heart is a strong muscular organ in your chest that pumps blood through your body continuously.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 0
+        }
+      }
+    },
+    {
+      "title": "Arteries vs Veins 🛣️",
+      "text": "Arteries are thick, strong blood vessels that carry blood AWAY from the heart under high pressure. Veins carry blood BACK to the heart and have special one-way valves to prevent blood from flowing backward!",
+      "emoji": "🛣️",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Arteries carry blood away from the heart with thick walls, while veins bring blood back with valves to stop backflow.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 1
+        }
+      }
+    },
+    {
+      "title": "Functions of Blood 🩸",
+      "text": "Blood is our living transport system! Red blood cells carry oxygen from lungs. Plasma carries nutrients from food. White blood cells fight germs like soldiers, and platelets help blood clot at cuts.",
+      "emoji": "🩸",
+      "bgColor": "from-rose-500 to-red-700",
+      "spoken": "Blood carries oxygen and food, removes waste, fights disease with white cells, and clots cuts using platelets.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Heart",
+            "Arteries",
+            "Veins",
+            "Blood"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "The Components of Blood 🧬",
+      "text": "Blood has a pale-yellow liquid part called plasma. Floating in plasma are red blood cells, infection-fighting white blood cells, and tiny repair platelets.",
+      "emoji": "🧬",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "Plasma is the liquid part of blood that carries red blood cells, white blood cells, and platelets.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Heart",
+            "Arteries",
+            "Veins",
+            "Blood"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "The Endless Cycle of Circulation 🔄",
+      "text": "Circulation is an endless loop: Heart pumps blood -> Arteries carry it to body -> Capillaries deliver oxygen/food and collect waste -> Veins return blood to heart -> Heart pumps it to lungs for fresh oxygen!",
+      "emoji": "🔄",
+      "bgColor": "from-teal-500 to-emerald-600",
+      "spoken": "Blood circulates continuously from heart to arteries, body cells, veins, and lungs in a never-ending journey.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Heart",
+            "Arteries",
+            "Veins",
+            "Blood"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which organ is the central muscular pump that pushes blood to the whole body?",
+      "answer": "Heart",
+      "options": [
+        "Heart",
+        "Lungs",
+        "Stomach",
+        "Kidneys"
+      ],
+      "hint": "Think of the fist-sized organ beating in your chest right now!",
+      "misconception": "The heart is the central muscular pump! While lungs supply oxygen and stomach digests food, the heart beats continuously to pump blood everywhere.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Heart",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Lungs",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Stomach",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Kidneys",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Heart",
+          "Lungs"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each blood vessel or feature to its correct category!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Arteries carry blood away with thick walls; veins bring blood back with valves!",
+      "misconception": "Remember: arteries carry blood AWAY from the heart with thick walls, and veins carry blood BACK to the heart with one-way valves!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "art1",
+            "label": "Carries blood away",
+            "correctBin": "artery-bin"
+          },
+          {
+            "id": "vein1",
+            "label": "Carries blood back",
+            "correctBin": "vein-bin"
+          },
+          {
+            "id": "art2",
+            "label": "Thick, strong walls",
+            "correctBin": "artery-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "art1",
+          "kind": "circle",
+          "label": "Carries blood away",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "artery-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "artery-bin"
+        },
+        {
+          "id": "vein1",
+          "kind": "circle",
+          "label": "Carries blood back",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "vein-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "vein-bin"
+        },
+        {
+          "id": "art2",
+          "kind": "circle",
+          "label": "Thick, strong walls",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "artery-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "artery-bin"
+        },
+        {
+          "id": "vein2",
+          "kind": "circle",
+          "label": "Has valves for backflow",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "vein-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "vein-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "art1",
+          "label": "Carries blood away",
+          "emoji": "",
+          "correctBin": "artery-bin"
+        },
+        {
+          "id": "vein1",
+          "label": "Carries blood back",
+          "emoji": "",
+          "correctBin": "vein-bin"
+        },
+        {
+          "id": "art2",
+          "label": "Thick, strong walls",
+          "emoji": "",
+          "correctBin": "artery-bin"
+        },
+        {
+          "id": "vein2",
+          "label": "Has valves for backflow",
+          "emoji": "",
+          "correctBin": "vein-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "artery-bin",
+          "label": "Arteries 🔴",
+          "color": "#D32F2F"
+        },
+        {
+          "id": "vein-bin",
+          "label": "Veins 🔵",
+          "color": "#1976D2"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What do red blood cells mainly carry from the lungs to every cell in the body?",
+      "answer": "Oxygen",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Digested waste",
+        "Germs"
+      ],
+      "hint": "We breathe this in from fresh air so our cells can release energy!",
+      "misconception": "Red blood cells carry oxygen from the lungs to all cells! Carbon dioxide is waste carried back to the lungs to be breathed out.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Oxygen",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Carbon dioxide",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Digested waste",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Germs",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Oxygen",
+          "Carbon dioxide"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each blood part to its correct vital function!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Red cells = oxygen, White cells = fight germs, Platelets = clot!",
+      "misconception": "Each blood part has a specific job: red cells carry oxygen, white cells fight germs like soldiers, and platelets help wounds clot and heal!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Red cells = oxygen, White cells = fight germs, Platelets = clot!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "rbc",
+          "kind": "circle",
+          "label": "Carry Oxygen",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-rbc",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-rbc"
+        },
+        {
+          "id": "wbc",
+          "kind": "circle",
+          "label": "Fight Germs",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-wbc",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-wbc"
+        },
+        {
+          "id": "plat",
+          "kind": "circle",
+          "label": "Help Blood Clot",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-plat",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-plat"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "rbc",
+          "label": "Carry Oxygen",
+          "emoji": "",
+          "correctBin": "bin-rbc"
+        },
+        {
+          "id": "wbc",
+          "label": "Fight Germs",
+          "emoji": "",
+          "correctBin": "bin-wbc"
+        },
+        {
+          "id": "plat",
+          "label": "Help Blood Clot",
+          "emoji": "",
+          "correctBin": "bin-plat"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-rbc",
+          "label": "Red Blood Cells 🔴",
+          "color": "#E53935"
+        },
+        {
+          "id": "bin-wbc",
+          "label": "White Blood Cells ⚪",
+          "color": "#78909C"
+        },
+        {
+          "id": "bin-plat",
+          "label": "Platelets 🛡️",
+          "color": "#FFB74D"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is the correct general path of blood during circulation?",
+      "answer": "Heart -> Arteries -> Body cells -> Veins -> Heart",
+      "options": [
+        "Heart -> Arteries -> Body cells -> Veins -> Heart",
+        "Body cells -> Heart -> Arteries -> Veins",
+        "Heart -> Veins -> Body cells -> Arteries -> Heart",
+        "Arteries -> Heart -> Veins -> Body cells"
+      ],
+      "hint": "Heart pumps out through arteries, and returns through veins!",
+      "misconception": "The path of blood is: Heart pumps blood out through arteries to the body, and it returns to the heart through veins!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Heart -> Arteries -> Body cells -> Veins -> Heart",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Body cells -> Heart -> Arteries -> Veins",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Heart -> Veins -> Body cells -> Arteries -> Heart",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Arteries -> Heart -> Veins -> Body cells",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Body cells -> Heart -> Arteries -> Veins",
+          "Heart -> Arteries -> Body cells -> Veins -> Heart"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag the steps of blood circulation into the correct order!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Start with the heart pumping out, then capillaries exchange, then veins return!",
+      "misconception": "Circulation order: Heart pumps blood out -> Capillaries deliver oxygen/nutrients and pick up waste -> Veins return blood to heart -> Lungs refresh blood with oxygen!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "s1",
+            "label": "1. Heart pumps blood out",
+            "correctBin": "b1"
+          },
+          {
+            "id": "s2",
+            "label": "2. Arteries carry to body",
+            "correctBin": "b2"
+          },
+          {
+            "id": "s3",
+            "label": "3. Capillaries exchange",
+            "correctBin": "b3"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "s1",
+          "kind": "circle",
+          "label": "1. Heart pumps blood out",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "b1",
+          "interaction": "drag-to-bin",
+          "targetBin": "b1"
+        },
+        {
+          "id": "s2",
+          "kind": "circle",
+          "label": "2. Arteries carry to body",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "b2",
+          "interaction": "drag-to-bin",
+          "targetBin": "b2"
+        },
+        {
+          "id": "s3",
+          "kind": "circle",
+          "label": "3. Capillaries exchange",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "b3",
+          "interaction": "drag-to-bin",
+          "targetBin": "b3"
+        },
+        {
+          "id": "s4",
+          "kind": "circle",
+          "label": "4. Veins return to heart",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "b4",
+          "interaction": "drag-to-bin",
+          "targetBin": "b4"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s1",
+          "label": "1. Heart pumps blood out",
+          "emoji": "",
+          "correctBin": "b1"
+        },
+        {
+          "id": "s2",
+          "label": "2. Arteries carry to body",
+          "emoji": "",
+          "correctBin": "b2"
+        },
+        {
+          "id": "s3",
+          "label": "3. Capillaries exchange",
+          "emoji": "",
+          "correctBin": "b3"
+        },
+        {
+          "id": "s4",
+          "label": "4. Veins return to heart",
+          "emoji": "",
+          "correctBin": "b4"
+        }
+      ],
+      "bins": [
+        {
+          "id": "b1",
+          "label": "Step 1 ❤️",
+          "color": "#E53935"
+        },
+        {
+          "id": "b2",
+          "label": "Step 2 🛣️",
+          "color": "#D32F2F"
+        },
+        {
+          "id": "b3",
+          "label": "Step 3 🔀",
+          "color": "#10B981"
+        },
+        {
+          "id": "b4",
+          "label": "Step 4 🔄",
+          "color": "#1976D2"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Why do veins in your legs have one-way valves inside them?",
+      "answer": "To prevent blood from flowing backward against gravity",
+      "options": [
+        "To prevent blood from flowing backward against gravity",
+        "To pump blood faster than the heart",
+        "To make veins look blue through the skin",
+        "To create oxygen in the blood vessels"
+      ],
+      "hint": "Gravity pulls blood down; valves stop it from slipping backward!",
+      "misconception": "Valves in veins act like one-way doors to stop blood from flowing backward against gravity when returning from the legs!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "To prevent blood from flowing backward against gravity",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "To pump blood faster than the heart",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "To make veins look blue through the skin",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "To create oxygen in the blood vessels",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "To prevent blood from flowing backward against gravity",
+          "To pump blood faster than the heart"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each statement to True (Correct function of blood/circulatory system) or False!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Blood carries oxygen, food, waste, and fights disease. It does NOT digest food!",
+      "misconception": "Blood carries oxygen, nutrients, and waste, and fights disease. It does NOT digest food in the stomach—digestion is done by the digestive system!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "t1",
+            "label": "Carries oxygen to cells",
+            "correctBin": "true-bin"
+          },
+          {
+            "id": "t2",
+            "label": "Carries food nutrients",
+            "correctBin": "true-bin"
+          },
+          {
+            "id": "t3",
+            "label": "Digests food in stomach",
+            "correctBin": "false-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "t1",
+          "kind": "circle",
+          "label": "Carries oxygen to cells",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "true-bin"
+        },
+        {
+          "id": "t2",
+          "kind": "circle",
+          "label": "Carries food nutrients",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "true-bin"
+        },
+        {
+          "id": "t3",
+          "kind": "circle",
+          "label": "Digests food in stomach",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "false-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "false-bin"
+        },
+        {
+          "id": "t4",
+          "kind": "circle",
+          "label": "Fights germs with WBC",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "true-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "t1",
+          "label": "Carries oxygen to cells",
+          "emoji": "",
+          "correctBin": "true-bin"
+        },
+        {
+          "id": "t2",
+          "label": "Carries food nutrients",
+          "emoji": "",
+          "correctBin": "true-bin"
+        },
+        {
+          "id": "t3",
+          "label": "Digests food in stomach",
+          "emoji": "",
+          "correctBin": "false-bin"
+        },
+        {
+          "id": "t4",
+          "label": "Fights germs with WBC",
+          "emoji": "",
+          "correctBin": "true-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "true-bin",
+          "label": "True ✅",
+          "color": "#10B981"
+        },
+        {
+          "id": "false-bin",
+          "label": "False ❌",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "theme": "body",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_CirculatoryGame",
+    "region": "Biosphere",
+    "mapX": 0.8200000000000001,
+    "mapY": 1.4300000000000002,
+    "icon": "🌱",
+    "prerequisites": []
+  },
+  "subject": "biology"
+}

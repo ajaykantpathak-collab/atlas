@@ -1,0 +1,33 @@
+{
+  "gameTitle": "SunMoonGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\physics\\SunMoonGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\physics\\enrichment\\c1_physics_enrichment_part6.marker",
+    "D:\\cisce\\physics\\enrichment\\c1_physics_enrichment_part7.marker",
+    "D:\\cisce\\physics\\enrichment\\c1_physics_enrichment_part8.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\chem\\WaterGame.tsx",
+  "cisceNodes": "c1_phy_006 (Sun gives light and heat), c1_phy_007 (Sun in seasons), c1_phy_008 (Day and night)",
+  "mascotName": "Astronomer Tara",
+  "mascotDescription": "a friendly young astronomer girl with a telescope, star hair clip, and a purple dress. She has big curious eyes, a warm smile, and holds a small telescope. SVG should be custom, not an owl.",
+  "sceneDescription": "sky scene with day sky gradient (blue to light blue), a bright sun with rays, fluffy clouds, stars (faint in day), a moon, and a horizon with hills. Should transition between day and night themes.",
+  "svgObjects": [
+    { "name": "SunIcon", "description": "bright yellow sun with animated rotating rays, warm glow" },
+    { "name": "MoonIcon", "description": "crescent moon with craters, soft silver glow" },
+    { "name": "StarIcon", "description": "five-pointed star with sparkle, twinkling animation" },
+    { "name": "CloudIcon", "description": "fluffy white cloud with soft shadows" },
+    { "name": "TreeIcon", "description": "green tree with brown trunk, seasonal color variation" },
+    { "name": "SnowflakeIcon", "description": "six-pointed snowflake for winter" }
+  ],
+  "challengeTypes": [
+    "identify: Which gives us light and heat? (Sun vs Moon vs Star)",
+    "identify: What do we see in the DAY sky? (Sun vs Moon vs Stars)",
+    "identify: What do we see in the NIGHT sky? (Moon vs Sun vs Clouds)",
+    "sort: Drag objects into Day sky vs Night sky bins (sun, clouds, moon, stars)",
+    "identify: In which season is the sun hottest? (Summer vs Winter vs Rainy)",
+    "identify: Why can't we see stars in the day? (Sun too bright vs Stars disappear vs Clouds hide them)",
+    "sort: Drag seasonal items to the right season (Summer: ice cream, cap | Winter: sweater, snowflake | Rainy: umbrella, raincoat)",
+    "sort: Drag activities to Day or Night (play outside, sleep, see moon, see sun)"
+  ],
+  "extraInstructions": "The game must teach: (1) Sun gives BOTH light and heat, (2) Day sky has sun, night sky has moon and stars, (3) Stars are always there but sun is too bright in daytime, (4) Summer is hottest, winter is coldest, (5) Sun is the same all year — what changes is how much heat reaches us. Misconceptions to address: 'sun only gives light not heat', 'sun becomes colder in winter', 'moon and stars not present in daytime'."
+}

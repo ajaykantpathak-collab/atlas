@@ -1,0 +1,44 @@
+{
+  "gameTitle": "MapsIndiaGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\MapsIndiaGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\geo\\enrichment\\c4_geography_enrichment_part7.marker",
+    "D:\\cisce\\geo\\enrichment\\c4_geography_enrichment_part8.marker",
+    "D:\\cisce\\geo\\enrichment\\c4_geography_enrichment_part9.marker",
+    "D:\\cisce\\geo\\enrichment\\c4_geography_enrichment_part10.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_geo_007 (Understanding maps), c4_geo_008 (Elements of a map - title, scale, direction, legend), c4_geo_009 (Globe vs map and atlas), c4_geo_010 (Physical divisions of India)",
+  "mascotName": "Cartographer Karan",
+  "mascotDescription": "a friendly map maker with a compass badge, a rolled map, a pencil, and a globe pin. Custom SVG, not an owl.",
+  "sceneDescription": "map making studio scene with sky gradient, a large map of India on a wall, a globe on a desk, an atlas book, compass roses, and map elements scattered around",
+  "svgObjects": [
+    { "name": "PhysicalMapIcon", "description": "a physical map showing mountains and rivers" },
+    { "name": "PoliticalMapIcon", "description": "a political map showing state boundaries" },
+    { "name": "ThematicMapIcon", "description": "a thematic map showing rainfall" },
+    { "name": "GlobeIcon", "description": "a 3D globe" },
+    { "name": "AtlasIcon", "description": "an atlas book of maps" },
+    { "name": "CompassRoseIcon", "description": "a compass rose showing N, S, E, W" },
+    { "name": "ScaleIcon", "description": "a map scale bar" },
+    { "name": "LegendIcon", "description": "a map legend/key" },
+    { "name": "HimalayasIcon", "description": "the Himalayan mountains (Northern Mountains)" },
+    { "name": "NorthernPlainsIcon", "description": "the flat Northern Plains" },
+    { "name": "DeccanPlateauIcon", "description": "the Peninsular/Deccan Plateau" },
+    { "name": "CoastalPlainsIcon", "description": "the Coastal Plains" },
+    { "name": "DesertIcon", "description": "the Thar Desert" },
+    { "name": "IslandsIcon", "description": "the Islands (Andaman and Lakshadweep)" }
+  ],
+  "challengeTypes": [
+    "identify: What is a MAP? (A flat, two-dimensional representation of the Earth or part of it, drawn on paper vs A 3D ball-shaped model vs A type of photograph)",
+    "sort: Drag each type of map to its correct description (Physical map: shows natural features like mountains, rivers, plains | Political map: shows boundaries of countries, states, cities | Thematic map: shows one specific theme like rainfall, population, or crops)",
+    "identify: What are the main ELEMENTS of a map? (Title, scale, direction, and legend vs Only colours vs Only the title)",
+    "sort: Drag each map element to its correct function (Title: tells what the map shows | Scale: shows the relationship between map distance and real distance | Direction: compass rose shows North, South, East, West | Legend: explains the symbols and colours used on the map)",
+    "identify: What is the difference between a GLOBE and a MAP? (A globe is a 3D ball-shaped model showing the whole Earth, a map is flat and portable and can show one area in detail vs They are the same thing vs A globe is flat and a map is round)",
+    "sort: Drag each feature to Globe or Map (Globe: 3D, shows true shape of continents, cannot be folded, shows whole Earth at small scale | Map: flat, portable, can show small area in detail, many can be bound in an atlas, easy to carry)",
+    "identify: Which physical division of India contains the snow-capped HIMALAYAS? (The Northern Mountains vs The Northern Plains vs The Deccan Plateau)",
+    "sort: Drag each physical division of India to its correct description (Northern Mountains: Himalayas, snow-capped, feed rivers like Ganga and Yamuna | Northern Plains: flat and fertile, formed by river alluvium, good for farming | Peninsular Plateau: Deccan Plateau, oldest landmass, rich in minerals | Coastal Plains: narrow strips along east and west coasts, fishing and ports | Desert: Thar Desert in Rajasthan, sandy and dry | Islands: Andaman and Lakshadweep)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Understanding maps — map is a flat 2D representation of Earth or part of it. Three types: physical (natural features — mountains brown, rivers blue), political (boundaries of countries/states/cities in different colours), thematic (one theme — rainfall, population, crops). (2) Elements of a map — title (tells what map shows), scale (relationship between map distance and real distance), direction (compass rose — N, S, E, W), legend/key (explains symbols and colours). (3) Globe vs map and atlas — globe: 3D ball, shows true shape, cannot be folded, shows whole Earth at small scale. Map: flat, portable, shows small area in detail, easy to carry. Atlas: collection of maps bound in a book with an index. (4) Physical divisions of India — 6 divisions: Northern Mountains (Himalayas, snow-capped, feed Ganga/Yamuna/Brahmaputra, protect from cold winds), Northern Plains (flat, fertile, formed by alluvium from rivers, good for farming), Peninsular Plateau/Deccan Plateau (oldest landmass, hard rocks, rich in minerals, Narmada/Godavari/Krishna rivers), Coastal Plains (narrow strips along east and west coasts, fishing and ports), Desert (Thar Desert in Rajasthan, sandy and dry), Islands (Andaman and Nicobar in Bay of Bengal, Lakshadweep in Arabian Sea). Misconceptions: 'a physical map and a political map are the same' (physical maps show NATURAL features like mountains and rivers, political maps show BOUNDARIES of countries and states — they show different things), 'the compass rose is just decoration' (the compass rose shows DIRECTION — North, South, East, West — it is essential for reading a map correctly), 'a globe and a map are the same' (a globe is 3D and round, a map is FLAT and portable — a globe shows the whole Earth but cannot be carried easily, a map can be folded and carried), 'the Northern Plains are made of hard rock' (the Northern Plains are made of soft fertile ALLUVIUM deposited by rivers — they are NOT rocky, the Deccan Plateau is the rocky region), 'the Himalayas are in the south of India' (the Himalayas are in the NORTH of India — they form the Northern Mountains division, not the south). Default width=720, height=560. Use named export (export function MapsIndiaGame), NOT export default. Export interface MapsIndiaGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

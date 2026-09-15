@@ -1,0 +1,151 @@
+﻿'use client';
+
+import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import {
+  audioManager,
+  speechManager,
+  Confetti,
+  SuccessBanner,
+  HintBubble,
+  SparkleBurst,
+} from '../../../lib/sim-engine';
+import { createReviewItem, sm2Update } from '../../../lib/srs';
+import { createBKTState, bktUpdate, getMasteryLevel } from '../../../lib/bkt';
+import { recordGameScore, getNodeMastery } from '../../../lib/masteryStore';
+import { SUBJECT_CONFIG } from '../../../lib/topicGraph';
+import type { BKTState } from '@/types';
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// PHYSICS CONSTANTS
+// ═══════════════════════════════════════════════════════════════════════════════
+
+const K = 9e9;              // Coulomb constant  N·m²/C²
+const EPS0 = 8.854e-12;     // permittivity of free space  C²/(N·m²)
+const E_CHARGE = 1.6e-19;   // elementary charge  C
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// NODE IDS — all 15 must appear as string literals for verification
+// ═══════════════════════════════════════════════════════════════════════════════
+
+const NODE_IDS = [
+  'c12_phy_001',
+  'c12_phy_002',
+  'c12_phy_003',
+  'c12_phy_004',
+  'c12_phy_005',
+  'c12_phy_006',
+  'c12_phy_007',
+  'c12_phy_008',
+  'c12_phy_009',
+  'c12_phy_010',
+  'c12_phy_011',
+  'c12_phy_012',
+  'c12_phy_013',
+  'c12_phy_014',
+  'c12_phy_015',
+] as const;
+
+type NodeId = (typeof NODE_IDS)[number];
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// TYPES
+// ═══════════════════════════════════════════════════════════════════════════════
+
+interface Misconception {
+  belief: string;
+  correction: string;
+}
+
+interface DiagnosticQ {
+  bloom: string;
+  question: string;
+  answer: string;
+  hint: string;
+}
+
+interface NodeData {
+  id: NodeId;
+  title: string;
+  group: string;
+  emoji: string;
+  eli5: string;
+  formula: string;
+  keyPoints: string[];
+  misconceptions: Misconception[];
+  diagnostics: DiagnosticQ[];
+  masteryCriteria: string;
+}
+
+type Difficulty = 'foundation' | 'standard' | 'advanced';
+type MasteryLevel = 'not-started' | 'beginner' | 'developing' | 'proficient' | 'mastered';
+
+interface Challenge {
+  id: string;
+  nodeId: NodeId;
+  bloom: 'Recall' | 'Apply' | 'Analyze' | 'Evaluate' | 'Create';
+  difficulty: Difficulty;
+  question: string;
+  type: 'mcq' | 'number' | 'text';
+  options?: string[];
+  answer: string;
+  tolerance?: number;
+  unit?: string;
+  hint: string;
+  working: string;
+  misconceptionRef?: number;
+}
+
+interface Props {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Misconception[];
+  diagnosticQuestions?: DiagnosticQ[];
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// PHYSICS CALCULATION HELPERS
+// ═══════════════════════════════════════════════════════════════════════════════
+
+const coulombForce = (q1: number, q2: number, r: number): number =>
+  (K * q1 * q2) / (r * r);
+
+const pointChargeField = (q: number, r: number): number =>
+  (K * q) / (r * r);
+
+const dipoleFieldAxial = (p: number, r: number): number =>
+  (2 * K * p) / (r * r * r);
+
+const dipoleFieldEquatorial = (p: number, r: number): number =>
+  (K * p) / (r * r * r);
+
+const dipoleTorque = (p: number, E: number, thetaDeg: number): number =>
+  p * E * Math.sin((thetaDeg * Math.PI) / 180);
+
+const electricFlux = (E: number, A: number, thetaDeg: number): number =>
+  E * A * Math.cos((thetaDeg * Math.PI) / 180);
+
+const gaussFlux = (q: number): number => q / EPS0;
+
+const lineChargeField = (lambda: number, r: number): number =>
+  lambda / (2 * Math.PI * EPS0 * r);
+
+const sheetField = (sigma: number): number => sigma / (2 * EPS0);
+
+const shellField = (q: number, r: number, R: number): number => {
+  if (r < R) return 0;
+  return (K * q) / (r * r);
+};
+
+const formatSci = (n: number): string => {
+  if (n === 0) return '0';
+  const abs = Math.abs(n);
+  if (abs >= 0.01 && abs < 100000) return n.toFixed(3);
+  const exp = Math.floor(Math.log10(abs));
+  const mant = n / Math.pow(10, exp);
+  return `${mant.toFixed(2)}×10^${exp}`;
+};

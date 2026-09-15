@@ -1,0 +1,885 @@
+{
+  "gameFile": "IndiaLocationGame",
+  "classLevel": 5,
+  "cisceNodes": [],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "India - Location & Extent 🇮🇳",
+      "text": "India is located entirely in the Northern Hemisphere in South Asia. Its mainland extends from 8°4'N to 37°6'N latitude and from 68°7'E to 97°25'E longitude. The Tropic of Cancer (23°30'N) divides India into two temperature zones!",
+      "emoji": "🇮🇳",
+      "bgColor": "from-blue-600 to-indigo-700",
+      "spoken": "India is located entirely in the Northern Hemisphere in South Asia. Its mainland extends from 8°4'N to 37°6'N latitude and from 68°7'E to 97°25'E longitude.",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {
+          "region": {
+            "x": 0,
+            "y": 0,
+            "label": "India"
+          }
+        }
+      }
+    },
+    {
+      "title": "India's Boundaries & Peninsula 🌊",
+      "text": "India is surrounded by water on three sides — the Arabian Sea to the west, the Bay of Bengal to the east, and the Indian Ocean to the south — making India a peninsula with a coastline of about 7,516 km!",
+      "emoji": "🌊",
+      "bgColor": "from-teal-600 to-cyan-700",
+      "spoken": "India is surrounded by water on three sides, making India a peninsula with a coastline of about 7,516 kilometres!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {
+          "region": {
+            "x": 0,
+            "y": 0,
+            "label": "India"
+          }
+        }
+      }
+    },
+    {
+      "title": "India's Neighbours 🤝",
+      "text": "India has seven land neighbours: Pakistan in the west, Afghanistan in the northwest, China, Nepal, and Bhutan in the north, and Bangladesh and Myanmar in the east. Sri Lanka and the Maldives are our maritime neighbours to the south!",
+      "emoji": "🤝",
+      "bgColor": "from-amber-600 to-orange-700",
+      "spoken": "India has seven land neighbours including Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar, and Afghanistan, plus maritime neighbours Sri Lanka and the Maldives.",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {
+          "region": {
+            "x": 0,
+            "y": 0,
+            "label": "India"
+          }
+        }
+      }
+    },
+    {
+      "title": "Climate of India — Seasons ☀️",
+      "text": "India experiences four main seasons: Winter (Dec-Feb) which is cold and dry, Summer (Mar-May) which is hot, Monsoon (Jun-Sep) with heavy southwest monsoon rains crucial for farming, and Autumn (Oct-Nov) which is pleasant!",
+      "emoji": "🌦️",
+      "bgColor": "from-emerald-600 to-green-700",
+      "spoken": "India experiences four main seasons: Winter, Summer, Monsoon, and Autumn. The monsoon brings vital rain for Indian agriculture.",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {
+          "region": {
+            "x": 0,
+            "y": 0,
+            "label": "India"
+          }
+        }
+      }
+    },
+    {
+      "title": "Natural Vegetation of India 🌲",
+      "text": "Because of diverse climates, India has five main vegetation types: Tropical Evergreen rainforests in heavy rain areas, Deciduous forests with trees shedding leaves, Thorn & Scrub in dry deserts, Mountain forests in the Himalayas, and Mangrove tidal forests in deltas!",
+      "emoji": "🌲",
+      "bgColor": "from-purple-600 to-indigo-800",
+      "spoken": "Because of diverse climates, India has five main vegetation types, including tropical evergreen, deciduous, thorn forests, mountain forests, and mangroves.",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {
+          "region": {
+            "x": 0,
+            "y": 0,
+            "label": "India"
+          }
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "In which part of the Asian continent is India located?",
+      "answer": "South Asia",
+      "options": [
+        "South Asia",
+        "East Asia",
+        "West Asia"
+      ],
+      "hint": "Think about India's central position pointing south into the Indian Ocean.",
+      "misconception": "India is located in South Asia, occupying a central peninsular position surrounded by the Indian Ocean.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "South Asia",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "East Asia",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "West Asia",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "East Asia",
+          "South Asia"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each geographic fact about India to its correct category!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match the northern mountains, southern ocean, latitudinal extent, and Tropic of Cancer!",
+      "misconception": "India extends from 8°4'N to 37°6'N latitude, has the Himalayas in the north, and the Indian Ocean to the south.",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "item-him",
+            "label": "Himalayas",
+            "correctBin": "bin-north"
+          },
+          {
+            "id": "item-oce",
+            "label": "Indian Ocean",
+            "correctBin": "bin-south"
+          },
+          {
+            "id": "item-lat",
+            "label": "8°4\\",
+            "correctBin": "bin-extent"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "item-him",
+          "kind": "circle",
+          "label": "Himalayas",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-north",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-north"
+        },
+        {
+          "id": "item-oce",
+          "kind": "circle",
+          "label": "Indian Ocean",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-south",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-south"
+        },
+        {
+          "id": "item-lat",
+          "kind": "circle",
+          "label": "8°4\\",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-extent",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-extent"
+        },
+        {
+          "id": "item-toc",
+          "kind": "circle",
+          "label": "Tropic of Cancer",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-central",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-central"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "item-him",
+          "label": "Himalayas",
+          "emoji": "",
+          "correctBin": "bin-north"
+        },
+        {
+          "id": "item-oce",
+          "label": "Indian Ocean",
+          "emoji": "",
+          "correctBin": "bin-south"
+        },
+        {
+          "id": "item-lat",
+          "label": "8°4\\",
+          "emoji": "",
+          "correctBin": "bin-extent"
+        },
+        {
+          "id": "item-toc",
+          "label": "Tropic of Cancer",
+          "emoji": "",
+          "correctBin": "bin-central"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-north",
+          "label": "Northern Border 🏔️",
+          "color": "#64748B"
+        },
+        {
+          "id": "bin-south",
+          "label": "Southern Water 🌊",
+          "color": "#0284C7"
+        },
+        {
+          "id": "bin-extent",
+          "label": "Latitudinal Range 📏",
+          "color": "#16A34A"
+        },
+        {
+          "id": "bin-central",
+          "label": "Middle Line 🎯",
+          "color": "#D97706"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of India's neighbours lies directly to the NORTH?",
+      "answer": "China",
+      "options": [
+        "China",
+        "Sri Lanka",
+        "Maldives"
+      ],
+      "hint": "Think about the high Himalayan mountain border shared with the largest northern neighbour.",
+      "misconception": "China lies to the north and northeast of India along the Himalayas. Sri Lanka and Maldives are southern maritime neighbours.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "China",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Sri Lanka",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Maldives",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Sri Lanka",
+          "China"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each neighbouring country to its correct direction relative to India!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Pakistan is west, China is north, Bangladesh is east, Sri Lanka is south!",
+      "misconception": "Pakistan is to the west, China to the north/northeast, Bangladesh to the east, and Sri Lanka to the south across the Palk Strait.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "nbr-pak",
+            "label": "Pakistan",
+            "correctBin": "bin-west"
+          },
+          {
+            "id": "nbr-chn",
+            "label": "China",
+            "correctBin": "bin-north"
+          },
+          {
+            "id": "nbr-ban",
+            "label": "Bangladesh",
+            "correctBin": "bin-east"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "nbr-pak",
+          "kind": "circle",
+          "label": "Pakistan",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-west",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-west"
+        },
+        {
+          "id": "nbr-chn",
+          "kind": "circle",
+          "label": "China",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-north",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-north"
+        },
+        {
+          "id": "nbr-ban",
+          "kind": "circle",
+          "label": "Bangladesh",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-east",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-east"
+        },
+        {
+          "id": "nbr-sl",
+          "kind": "circle",
+          "label": "Sri Lanka",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-south",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-south"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "nbr-pak",
+          "label": "Pakistan",
+          "emoji": "",
+          "correctBin": "bin-west"
+        },
+        {
+          "id": "nbr-chn",
+          "label": "China",
+          "emoji": "",
+          "correctBin": "bin-north"
+        },
+        {
+          "id": "nbr-ban",
+          "label": "Bangladesh",
+          "emoji": "",
+          "correctBin": "bin-east"
+        },
+        {
+          "id": "nbr-sl",
+          "label": "Sri Lanka",
+          "emoji": "",
+          "correctBin": "bin-south"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-west",
+          "label": "West ⬅️",
+          "color": "#CA8A04"
+        },
+        {
+          "id": "bin-north",
+          "label": "North ⬆️",
+          "color": "#2563EB"
+        },
+        {
+          "id": "bin-east",
+          "label": "East ➡️",
+          "color": "#16A34A"
+        },
+        {
+          "id": "bin-south",
+          "label": "South ⬇️",
+          "color": "#9333EA"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What are the four main seasons of India?",
+      "answer": "Winter, Summer, Monsoon, and Autumn",
+      "options": [
+        "Winter, Summer, Monsoon, and Autumn",
+        "Spring, Summer, Autumn, and Winter only",
+        "Hot, Cold, Wet, and Dry seasons"
+      ],
+      "hint": "Remember that India's climate cycle includes winter, summer, rainy monsoon, and retreating monsoon autumn.",
+      "misconception": "India has four distinct seasons: Winter (Dec-Feb), Summer (Mar-May), Monsoon (Jun-Sep), and Autumn (Oct-Nov).",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Winter, Summer, Monsoon, and Autumn",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Spring, Summer, Autumn, and Winter only",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Hot, Cold, Wet, and Dry seasons",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Spring, Summer, Autumn, and Winter only",
+          "Winter, Summer, Monsoon, and Autumn"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each season to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Winter is cold and dry, Summer is hot, Monsoon brings rain, Autumn is pleasant!",
+      "misconception": "Winter is cold and dry (Dec-Feb), Summer is hot (Mar-May), Monsoon brings heavy rains (Jun-Sep), and Autumn is pleasant (Oct-Nov).",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "seas-win",
+            "label": "Winter (Dec-Feb)",
+            "correctBin": "bin-cold"
+          },
+          {
+            "id": "seas-sum",
+            "label": "Summer (Mar-May)",
+            "correctBin": "bin-hot"
+          },
+          {
+            "id": "seas-mon",
+            "label": "Monsoon (Jun-Sep)",
+            "correctBin": "bin-rain"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "seas-win",
+          "kind": "circle",
+          "label": "Winter (Dec-Feb)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-cold",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-cold"
+        },
+        {
+          "id": "seas-sum",
+          "kind": "circle",
+          "label": "Summer (Mar-May)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-hot",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-hot"
+        },
+        {
+          "id": "seas-mon",
+          "kind": "circle",
+          "label": "Monsoon (Jun-Sep)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-rain",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-rain"
+        },
+        {
+          "id": "seas-aut",
+          "kind": "circle",
+          "label": "Autumn (Oct-Nov)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-pleasant",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-pleasant"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "seas-win",
+          "label": "Winter (Dec-Feb)",
+          "emoji": "",
+          "correctBin": "bin-cold"
+        },
+        {
+          "id": "seas-sum",
+          "label": "Summer (Mar-May)",
+          "emoji": "",
+          "correctBin": "bin-hot"
+        },
+        {
+          "id": "seas-mon",
+          "label": "Monsoon (Jun-Sep)",
+          "emoji": "",
+          "correctBin": "bin-rain"
+        },
+        {
+          "id": "seas-aut",
+          "label": "Autumn (Oct-Nov)",
+          "emoji": "",
+          "correctBin": "bin-pleasant"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-cold",
+          "label": "Cold & Dry ❄️",
+          "color": "#0284C7"
+        },
+        {
+          "id": "bin-hot",
+          "label": "Hot & Dry ☀️",
+          "color": "#CA8A04"
+        },
+        {
+          "id": "bin-rain",
+          "label": "Heavy Rains 🌧️",
+          "color": "#2563EB"
+        },
+        {
+          "id": "bin-pleasant",
+          "label": "Pleasant & Clear 🍃",
+          "color": "#16A34A"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which type of natural vegetation is found in the Himalayan mountain region?",
+      "answer": "Mountain forests with pine, fir and deodar",
+      "options": [
+        "Mountain forests with pine, fir and deodar",
+        "Thorny scrub and cactus",
+        "Mangrove tidal forests"
+      ],
+      "hint": "Think about high altitude cold regions where trees have needle-like leaves.",
+      "misconception": "Mountain forests in the Himalayas feature pine, fir, and deodar trees which change with altitude and withstand cold temperatures.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Mountain forests with pine, fir and deodar",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Thorny scrub and cactus",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Mangrove tidal forests",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Thorny scrub and cactus",
+          "Mountain forests with pine, fir and deodar"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each vegetation type to its correct region in India!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Evergreen in Western Ghats, Thorn in Thar Desert, Mangrove in Sundarbans, Mountain in Himalayas!",
+      "misconception": "Tropical evergreen forests grow in the Western Ghats (>200cm rain), thorn forests in Rajasthan (<70cm rain), and mangroves in the Sundarbans delta.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "veg-ev",
+            "label": "Evergreen Forest",
+            "correctBin": "bin-wg"
+          },
+          {
+            "id": "veg-th",
+            "label": "Thorn & Scrub",
+            "correctBin": "bin-raj"
+          },
+          {
+            "id": "veg-mg",
+            "label": "Mangroves",
+            "correctBin": "bin-sun"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "veg-ev",
+          "kind": "circle",
+          "label": "Evergreen Forest",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-wg",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-wg"
+        },
+        {
+          "id": "veg-th",
+          "kind": "circle",
+          "label": "Thorn & Scrub",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-raj",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-raj"
+        },
+        {
+          "id": "veg-mg",
+          "kind": "circle",
+          "label": "Mangroves",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-sun",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-sun"
+        },
+        {
+          "id": "veg-mt",
+          "kind": "circle",
+          "label": "Mountain Forest",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-him",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-him"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "veg-ev",
+          "label": "Evergreen Forest",
+          "emoji": "",
+          "correctBin": "bin-wg"
+        },
+        {
+          "id": "veg-th",
+          "label": "Thorn & Scrub",
+          "emoji": "",
+          "correctBin": "bin-raj"
+        },
+        {
+          "id": "veg-mg",
+          "label": "Mangroves",
+          "emoji": "",
+          "correctBin": "bin-sun"
+        },
+        {
+          "id": "veg-mt",
+          "label": "Mountain Forest",
+          "emoji": "",
+          "correctBin": "bin-him"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-wg",
+          "label": "Western Ghats 🌧️",
+          "color": "#16A34A"
+        },
+        {
+          "id": "bin-raj",
+          "label": "Thar Desert 🌵",
+          "color": "#CA8A04"
+        },
+        {
+          "id": "bin-sun",
+          "label": "Sundarbans 🌊",
+          "color": "#0284C7"
+        },
+        {
+          "id": "bin-him",
+          "label": "Himalayas 🏔️",
+          "color": "#64748B"
+        }
+      ]
+    }
+  ],
+  "theme": "outdoor",
+  "storyArc": {
+    "theme": "An adventurer travels across the world",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-map",
+    "title": "World Map",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_IndiaLocationGame",
+    "region": "World Explorer",
+    "mapX": 0.8200000000000001,
+    "mapY": 1.4300000000000002,
+    "icon": "🌍",
+    "prerequisites": []
+  },
+  "subject": "geography"
+}

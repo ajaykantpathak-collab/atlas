@@ -1,0 +1,42 @@
+{
+  "gameTitle": "ResourcesGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\ResourcesGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\geo\\enrichment\\c3_geography_enrichment_part11.marker",
+    "D:\\cisce\\geo\\enrichment\\c3_geography_enrichment_part12.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_geo_011 (Natural resources - water, soil, forests), c3_geo_012 (Local geography - my region)",
+  "mascotName": "Conservationist Kavya",
+  "mascotDescription": "a friendly conservation worker with a water bottle, a small plant, a recycling symbol badge, and a sun hat. Custom SVG, not an owl.",
+  "sceneDescription": "natural resources scene with sky gradient, a forest, a river, fertile soil, a well, mountains, and a village using resources",
+  "svgObjects": [
+    { "name": "WaterResourceIcon", "description": "clean water as a resource" },
+    { "name": "SoilIcon", "description": "fertile soil with a plant growing" },
+    { "name": "ForestIcon", "description": "a forest with many trees" },
+    { "name": "TreeIcon", "description": "a single tree" },
+    { "name": "RiverIcon", "description": "a river (water resource)" },
+    { "name": "WellIcon", "description": "a well for groundwater" },
+    { "name": "MountainIcon", "description": "mountains (natural feature)" },
+    { "name": "CropIcon", "description": "crops growing in soil" },
+    { "name": "WoodIcon", "description": "wood from trees" },
+    { "name": "OxygenIcon", "description": "oxygen from trees" },
+    { "name": "RecycleIcon", "description": "a recycling symbol" },
+    { "name": "SaveWaterIcon", "description": "a save water symbol" },
+    { "name": "PlantTreeIcon", "description": "planting a tree" },
+    { "name": "VillageIcon", "description": "a village in a region" }
+  ],
+  "challengeTypes": [
+    "identify: What are NATURAL RESOURCES? (Things from nature that we use to live vs Things made in factories vs Things bought from shops)",
+    "identify: Which of these is a natural resource? (Water vs Plastic vs Cement)",
+    "sort: Drag each natural resource to its correct use (Water: drinking, farming, cooking | Soil: growing crops and plants | Forest: wood, paper, oxygen, shelter for animals | Sun: light, heat, solar energy | Air: breathing, wind energy)",
+    "identify: Why are FORESTS important? (They give oxygen, wood, and shelter for animals vs They are good for building factories vs They block the sun)",
+    "sort: Drag each forest product to its use (Wood: furniture and houses | Paper: books and notebooks | Medicine: from neem and tulsi trees | Fruits: mango, apple from trees | Oxygen: trees clean air | Shelter: homes for birds and animals)",
+    "identify: Why is SOIL important for humans? (We grow crops in it for food vs We can build planes from it vs We can drink it)",
+    "sort: Drag each action to Conserve or Waste resources (Conserve: turn off taps, plant trees, use less paper, recycle water | Waste: leave taps running, cut trees, waste paper, pollute rivers)",
+    "sort: Drag each feature to what it tells about your local region (Local geography tells: what rivers are nearby, what landforms are around, what crops grow here, what natural resources we have | Local geography does NOT tell: what happened 1000 years ago, what is on the moon, what is in other countries)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Natural resources — natural resources are things from nature that we use to live. Main resources: water (drinking, farming, cooking, cleaning), soil (growing crops, plants, and trees), forests (wood, paper, medicine, fruits, oxygen, shelter for animals), sun (light, heat, solar energy), air (breathing, wind energy), minerals (from rocks). Natural resources are FREE from nature but LIMITED — we must conserve them. (2) Forests — forests give us: wood (furniture, houses), paper (from wood pulp), medicine (neem, tulsi), fruits (mango, apple), oxygen (trees clean air), shelter for animals and birds. Forests prevent soil erosion and floods. Cutting too many trees = deforestation = less oxygen, more floods, less rain. (3) Soil — soil is the top layer of earth where plants grow. Fertile soil has nutrients for crops. Without soil, we cannot grow food. Soil is made from broken rocks and dead leaves over thousands of years. (4) Water conservation — water is limited. Save water: turn off taps, fix leaks, use buckets not hoses, collect rainwater, recycle water. Don't pollute rivers with garbage and chemicals. (5) Local geography — your local region has specific natural features: nearby rivers, landforms (mountains, plains), climate, crops that grow, natural resources available. Understanding local geography helps us use resources wisely. Misconceptions: 'natural resources are unlimited' (many resources like water and forests are limited — we must conserve them), 'soil is just dirt' (soil is valuable — it has nutrients that grow our food), 'forests are only for wood' (forests give oxygen, medicine, fruits, prevent floods, and shelter animals), 'paper comes from factories' (paper is made from wood pulp — cutting trees for paper causes deforestation), 'water will never run out' (clean drinking water is limited — many places face water shortage). Default width=720, height=560. Use named export (export function ResourcesGame), NOT export default. Export interface ResourcesGameProps with width?, height?, onComplete?: (score: number) => void."
+}

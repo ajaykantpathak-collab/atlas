@@ -1,0 +1,47 @@
+{
+  "gameTitle": "OperationsGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\OperationsGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part10.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part11.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part12.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part13.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part14.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part15.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part16.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_math_010 (Addition and subtraction up to 4 digits with/without regrouping), c4_math_011 (Multiplication tables up to 10), c4_math_012 (2 and 3 digit multiplication - standard and lattice), c4_math_013 (Single digit division), c4_math_014 (Four operations in real-life situations), c4_math_015 (Word problems based on mathematical statements), c4_math_016 (Estimation and mental verification)",
+  "mascotName": "Shopkeeper Suresh",
+  "mascotDescription": "a friendly shopkeeper with a green apron, a calculator badge, a receipt book, and coins. Custom SVG, not an owl.",
+  "sceneDescription": "grocery shop scene with sky gradient, a shop front with a sign, shelves with items, a cash counter with a calculator, and baskets of fruits and vegetables",
+  "svgObjects": [
+    { "name": "PlusIcon", "description": "an addition plus sign" },
+    { "name": "MinusIcon", "description": "a subtraction minus sign" },
+    { "name": "MultiplyIcon", "description": "a multiplication X sign" },
+    { "name": "DivideIcon", "description": "a division sign" },
+    { "name": "CalculatorIcon", "description": "a calculator" },
+    { "name": "CoinIcon", "description": "a stack of coins" },
+    { "name": "ReceiptIcon", "description": "a receipt with numbers" },
+    { "name": "BasketIcon", "description": "a basket of fruits" },
+    { "name": "TableIcon", "description": "a multiplication table chart" },
+    { "name": "LatticeIcon", "description": "a lattice multiplication grid" },
+    { "name": "EstimateIcon", "description": "an estimate/approximate symbol" },
+    { "name": "RegroupIcon", "description": "a carry/borrow arrow showing regrouping" },
+    { "name": "MoneyIcon", "description": "rupee notes" },
+    { "name": "ScaleIcon", "description": "a weighing scale for real-life math" }
+  ],
+  "challengeTypes": [
+    "identify: What is 3456 + 1232? (4688 vs 4680 vs 4700)",
+    "identify: What is 2345 + 1678? (4023 vs 4013 vs 3923)",
+    "sort: Drag each multiplication fact to its correct answer (7 x 8 = 56 | 9 x 6 = 54 | 8 x 8 = 64 | 7 x 9 = 63 | 6 x 8 = 48 | 9 x 9 = 81)",
+    "identify: What is 234 x 3? (702 vs 602 vs 712)",
+    "sort: Drag each division problem to its correct answer (48 / 6 = 8 | 72 / 8 = 9 | 56 / 7 = 8 | 63 / 9 = 7 | 45 / 5 = 9 | 36 / 4 = 9)",
+    "identify: A shopkeeper has 8 boxes of pens with 12 pens in each box. He sells 45 pens. How many pens are left? (51 pens vs 96 pens vs 45 pens)",
+    "sort: Drag each word problem to the correct operation needed (Addition: total cost of 3 items | Subtraction: money left after spending | Multiplication: 6 boxes with 12 eggs each | Division: share Rs 96 among 4 children | Estimation: roughly how much is 48 + 73)",
+    "sort: Drag each number to its rounded value (48 rounds to 50 | 42 rounds to 40 | 73 rounds to 70 | 512 rounds to 500 | 198 rounds to 200 | 380 rounds to 400)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Addition and subtraction up to 4 digits — start from ones place, move left. Without regrouping: 3456 + 1232 = 4688 (no carry). With regrouping: 2345 + 1678 = 4023 (carry from ones to tens to hundreds to thousands). Subtraction with borrowing: 5000 - 2347 = 2653 (borrow from thousands to hundreds to tens to ones). (2) Multiplication tables up to 10 — know all tables from 2 to 10. 7x8=56, 9x6=54, 8x8=64, 7x9=63, 6x8=48, 9x9=81. (3) Two and three digit multiplication — standard algorithm: 234 x 3 = 702 (multiply 3 by each digit, carry over). Lattice method: draw a grid, multiply digits in cells, add along diagonals. (4) Single digit division — 48/6=8, 72/8=9, 56/7=8. Division is sharing equally. (5) Four operations in real life — addition: combining totals. subtraction: finding what is left or difference. multiplication: equal groups. division: sharing equally. Example: 8 boxes of 12 pens, sell 45, how many left? 8x12=96, 96-45=51. (6) Word problems — read the problem, identify quantities, choose the operation, solve with correct units (rupees, metres, kilograms, litres). (7) Estimation — round to nearest ten or hundred, then calculate mentally. 48 rounds to 50, 73 rounds to 70, estimated sum = 120. Exact sum = 121, close to estimate. Rounding rule: 0-4 round down, 5-9 round up. Misconceptions: 'addition always goes left to right' (always start from the ONES place on the RIGHT and move left), 'borrowing changes the answer' (borrowing is just exchanging — the value stays the same, we just regroup), 'multiplication is the same as addition' (multiplication is repeated addition — 6x8 means 8 added 6 times, not 6+8), 'estimation is guessing randomly' (estimation uses rounding rules — it is a calculated approximation, not a random guess), 'division makes numbers bigger' (division SPLITS a number into equal parts, so the answer is smaller than the original number, except when dividing by 1). Default width=720, height=560. Use named export (export function OperationsGame), NOT export default. Export interface OperationsGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

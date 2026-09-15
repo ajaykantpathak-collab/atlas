@@ -1,0 +1,744 @@
+{
+  "gameFile": "FoodShelterGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_evs_007",
+    "c3_evs_008",
+    "c3_evs_009",
+    "c3_evs_010"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Welcome to Our Village! 🏡",
+      "text": "Come explore with Village Guide Vikram! Today we learn about the food we eat, the shelters animals live in, how we travel, and wonderful crafts we can make!",
+      "emoji": "🗺️",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Welcome to our village! Come explore with Village Guide Vikram! Today we learn about food, shelters, transport, and crafts!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 0
+        }
+      }
+    },
+    {
+      "title": "Different Types of Food 🍚",
+      "text": "Food gives us energy to play and grow! Energy foods (rice, wheat) give us strength. Body-building foods (dal, milk) build muscles. Protective foods (fruits, veggies) keep us healthy!",
+      "emoji": "🍎",
+      "bgColor": "from-green-400 to-emerald-600",
+      "spoken": "Food gives us energy to play and grow! Energy foods like rice give us strength. Body building foods like milk build muscles. Protective fruits keep us healthy!",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Goat",
+            "Lion"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Shelters of Living Beings 🦅",
+      "text": "A shelter is a safe home! Humans live in houses and huts. Birds weave nests on trees. Rabbits dig underground burrows. Lions rest in dark caves. Every creature needs a safe shelter!",
+      "emoji": "⛺",
+      "bgColor": "from-yellow-500 to-amber-600",
+      "spoken": "A shelter is a safe home! Humans live in houses. Birds weave nests on trees. Rabbits dig burrows underground. Every creature needs a safe shelter!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Local Travel & Transport 🚌",
+      "text": "To go from place to place we use transport! Walking and cycling are great for short distances. Buses and trains are public transport carrying many people. Cars and auto-rickshaws give personal service!",
+      "emoji": "🚲",
+      "bgColor": "from-cyan-400 to-blue-600",
+      "spoken": "To go from place to place we use transport! Walking and cycling are great for short distances. Buses carry many people, and cars give personal service!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Simple Crafts: Clay & Paper 🎨",
+      "text": "Crafts make our fingers clever! We shape soft clay into pots and diyas for Diwali. We fold paper into boats and aeroplanes without scissors or glue. We draw colourful pictures with crayons!",
+      "emoji": "🎨",
+      "bgColor": "from-purple-400 to-indigo-600",
+      "spoken": "Crafts make our fingers clever! We shape soft clay into pots and diyas. We fold paper into boats. We draw colourful pictures with crayons!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which food gives us ENERGY to run and play?",
+      "answer": "Rice and chapati",
+      "options": [
+        "Rice and chapati",
+        "Apple and spinach",
+        "Water"
+      ],
+      "hint": "Think: what staple food gives your body the strength to run around the playground?",
+      "misconception": "Rice and chapati are energy foods! They are rich in carbohydrates that give us energy to study and play. Fruits and vegetables are protective foods!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Rice and chapati",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Apple and spinach",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Water",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Rice and chapati",
+          "Apple and spinach"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each food to its correct food group!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Rice is energy food, Dal is body-building, Apple is protective!",
+      "misconception": "Remember: Rice gives energy, dal and milk build our muscles and bones, and fruits and spinach protect us from falling ill!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "hint": "Take it slow. Rice is energy food, Dal is body-building, Apple is protective!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "rice",
+          "kind": "circle",
+          "label": "Rice & Wheat",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "energy",
+          "interaction": "drag-to-bin",
+          "targetBin": "energy"
+        },
+        {
+          "id": "dal",
+          "kind": "circle",
+          "label": "Dal & Milk",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "body",
+          "interaction": "drag-to-bin",
+          "targetBin": "body"
+        },
+        {
+          "id": "apple",
+          "kind": "apple",
+          "label": "Apple & Amla",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ff4444",
+          "category": "protective",
+          "interaction": "drag-to-bin",
+          "targetBin": "protective"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "rice",
+          "label": "Rice & Wheat",
+          "emoji": "",
+          "correctBin": "energy"
+        },
+        {
+          "id": "dal",
+          "label": "Dal & Milk",
+          "emoji": "",
+          "correctBin": "body"
+        },
+        {
+          "id": "apple",
+          "label": "Apple & Amla",
+          "emoji": "",
+          "correctBin": "protective"
+        }
+      ],
+      "bins": [
+        {
+          "id": "energy",
+          "label": "Energy ⚡",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "body",
+          "label": "Body-Building 💪",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "protective",
+          "label": "Protective 🛡️",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is a SHELTER?",
+      "answer": "A safe place to live and rest",
+      "options": [
+        "A safe place to live and rest",
+        "A game played outdoors",
+        "A type of fruit"
+      ],
+      "hint": "Think about where you sleep at night or where a bird raises its chicks!",
+      "misconception": "A shelter is a safe place where living beings rest, hide from danger, and raise their young! Just like humans have houses, animals have nests and caves!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A safe place to live and rest",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A game played outdoors",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A type of fruit",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A game played outdoors",
+          "A safe place to live and rest"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each living being to its correct shelter!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Birds live in nests, rabbits in burrows, humans in houses!",
+      "misconception": "Not all animals live in houses! Birds weave nests on trees, rabbits dig underground burrows to escape predators, and humans build houses!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Birds live in nests, rabbits in burrows, humans in houses!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "human",
+          "kind": "circle",
+          "label": "Human Family",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "house-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "house-bin"
+        },
+        {
+          "id": "bird",
+          "kind": "circle",
+          "label": "Weaver Bird",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "nest-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "nest-bin"
+        },
+        {
+          "id": "rabbit",
+          "kind": "circle",
+          "label": "Rabbit",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "burrow-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "burrow-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "human",
+          "label": "Human Family",
+          "emoji": "",
+          "correctBin": "house-bin"
+        },
+        {
+          "id": "bird",
+          "label": "Weaver Bird",
+          "emoji": "",
+          "correctBin": "nest-bin"
+        },
+        {
+          "id": "rabbit",
+          "label": "Rabbit",
+          "emoji": "",
+          "correctBin": "burrow-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "house-bin",
+          "label": "Brick House 🏡",
+          "color": "#EF4444"
+        },
+        {
+          "id": "nest-bin",
+          "label": "Tree Nest 🌳",
+          "color": "#10B981"
+        },
+        {
+          "id": "burrow-bin",
+          "label": "Underground Burrow 🕳️",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of these is a PUBLIC transport used by many people together?",
+      "answer": "Bus",
+      "options": [
+        "Bus",
+        "Bicycle",
+        "Walking"
+      ],
+      "hint": "Think: which vehicle carries thirty or forty passengers at once along a fixed route?",
+      "misconception": "A bus is public transport that carries many passengers along a fixed route! A bicycle is personal transport for one or two people.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Bus",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Bicycle",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Walking",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Bus",
+          "Bicycle"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each vehicle to its transport type!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Buses run on land, boats on water, aeroplanes in the air!",
+      "misconception": "Different vehicles travel in different places! Buses and cars move on land roads, boats and ships sail on water, and aeroplanes fly high in the air!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. Buses run on land, boats on water, aeroplanes in the air!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "bus",
+          "kind": "circle",
+          "label": "City Bus",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "land-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "land-bin"
+        },
+        {
+          "id": "boat",
+          "kind": "circle",
+          "label": "River Boat",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "water-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "water-bin"
+        },
+        {
+          "id": "plane",
+          "kind": "circle",
+          "label": "Aeroplane",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "air-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "air-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "bus",
+          "label": "City Bus",
+          "emoji": "",
+          "correctBin": "land-bin"
+        },
+        {
+          "id": "boat",
+          "label": "River Boat",
+          "emoji": "",
+          "correctBin": "water-bin"
+        },
+        {
+          "id": "plane",
+          "label": "Aeroplane",
+          "emoji": "",
+          "correctBin": "air-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "land-bin",
+          "label": "Land Transport 🛣️",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "water-bin",
+          "label": "Water Transport 🌊",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "air-bin",
+          "label": "Air Transport ✈️",
+          "color": "#06B6D4"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What can you make with soft CLAY and water?",
+      "answer": "Pots and diyas",
+      "options": [
+        "Pots and diyas",
+        "Paper boats",
+        "Plastic bottles"
+      ],
+      "hint": "Think about Diwali lamps and earthen pots made by potters!",
+      "misconception": "Soft clay is shaped with fingers into pots, toys, and diyas, then left to dry in the sun! Paper boats are made by folding paper, not clay!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "Pots and diyas",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "Paper boats",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Plastic bottles",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Paper boats",
+          "Pots and diyas"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each craft material to what it makes!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Clay makes diyas, paper makes origami boats, crayons make drawings!",
+      "misconception": "Each craft uses the right material! Clay is shaped into 3D pots and diyas, square paper is folded into boats without scissors, and crayons fill in drawings!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Clay makes diyas, paper makes origami boats, crayons make drawings!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "clay-item",
+          "kind": "circle",
+          "label": "Soft Clay",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "clay-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "clay-bin"
+        },
+        {
+          "id": "paper-item",
+          "kind": "circle",
+          "label": "Square Paper",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "paper-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "paper-bin"
+        },
+        {
+          "id": "crayon-item",
+          "kind": "circle",
+          "label": "Crayons & Pencils",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "drawing-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "drawing-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "clay-item",
+          "label": "Soft Clay",
+          "emoji": "",
+          "correctBin": "clay-bin"
+        },
+        {
+          "id": "paper-item",
+          "label": "Square Paper",
+          "emoji": "",
+          "correctBin": "paper-bin"
+        },
+        {
+          "id": "crayon-item",
+          "label": "Crayons & Pencils",
+          "emoji": "",
+          "correctBin": "drawing-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "clay-bin",
+          "label": "Clay Diya 🪔",
+          "color": "#D97706"
+        },
+        {
+          "id": "paper-bin",
+          "label": "Paper Boat ⛵",
+          "color": "#2563EB"
+        },
+        {
+          "id": "drawing-bin",
+          "label": "Crayon Drawing 🖍️",
+          "color": "#EC4899"
+        }
+      ]
+    }
+  ],
+  "theme": "kitchen",
+  "storyArc": {
+    "theme": "A nature lover discovers the world around them",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-garden",
+    "title": "Learning Garden",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_evs_007",
+    "region": "Nature Park",
+    "mapX": 1.02,
+    "mapY": 1.03,
+    "icon": "🌿",
+    "prerequisites": [
+      "c3_evs_008"
+    ]
+  },
+  "subject": "evs"
+}

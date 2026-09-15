@@ -1,0 +1,1289 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete AtomBuilderSimulation.tsx component about Atomic Structure (atoms, subatomic particles, atomic number, mass number, elements).
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "💡 Simple Explanation (ELI5)", "📖 Chemistry Theory", "⚠️ Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- diagnosticQuestions items must have: number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint?
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall → apply → evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_chem_010",
+    "title": "Atomic number and mass number",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "Every element in the universe has a unique identity, and that identity begins with the number of protons inside the nucleus of its atom. This number is called the atomic number. It is the most important label of an element because no two elements share the same number of protons. For example, any atom that contains exactly six protons is carbon, any atom with exactly eleven protons is sodium, and any atom with exactly one proton is hydrogen. Because protons carry a positive charge, the atomic number also tells us the positive charge of the nucleus and, in a neutral atom, the number of electrons that must surround the nucleus to balance that charge. The mass number, on the other hand, is the total count of the heavy particles in the nucleus, which means it is the sum of the protons and the neutrons. If an atom of sodium has eleven protons and twelve neutrons, its mass number is twenty-three, which is written as a superscript before the symbol as 23Na. The number of neutrons alone can be found by subtracting the atomic number from the mass number, so in that sodium atom there are 23 minus 11, which equals 12 neutrons. Alongside these numbers, a Class 6 learner must also become familiar with the first twenty elements of the periodic table by their names and symbols, recognising that some symbols come from Latin or other older names, such as Na for sodium, K for potassium, Fe for iron, and Au for gold. Even though iron and gold lie beyond the first twenty, this habit of checking the symbol against the name is essential. Valency is the next key idea. It describes the combining capacity of an element, most simply expressed as the number of hydrogen atoms that one atom of an element can combine with or replace. Hydrogen itself has a valency of one, so when oxygen combines with two hydrogens to form water, oxygen is said to have a valency of two. When nitrogen combines with three hydrogens to form ammonia, its valency is three. Carbon forms methane with four hydrogens, so its valency is four. There is a useful connection between valency and the group number in the periodic table for the first few groups: elements in Group 1, such as hydrogen, lithium, sodium and potassium, usually have a valency of one; elements in Group 2, such as beryllium, magnesium and calcium, usually have a valency of two; elements in Group 13, such as boron and aluminium, usually have a valency of three; and elements in Group 14, such as carbon and silicon, usually have a valency of four. This is not an accident but a pattern, because the group number often hints at how many outer-shell electrons are available for sharing or transferring. A radical is a group of atoms that behaves as a single charged particle and also has its own combining capacity, such as the hydroxide radical OH or the sulphate radical SO4, but the present node focuses primarily on the combining capacity of single elements. By the end of this topic, a student should be able to look at any one of the first twenty elements, write its name and symbol, state its atomic number and mass number for the common isotope, count its protons and neutrons, and predict its valency from its position in the periodic table.",
+    "eli5": "Every kind of atom has a special number called the atomic number, which is the count of tiny positive balls called protons inside it. If two atoms have different numbers of protons, they are different elements. The mass number is the total of those protons plus the neutral balls called neutrons. Valency is how many hydrogen friends an atom can hold at once, and it often matches the group number in the periodic table. So sodium has one proton more than the next smallest element, is written as Na, and has a valency of one.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Write the names and symbols of the first twenty elements in the periodic table, and explain why sodium is represented by Na while potassium is represented by K.",
+        "answer": "The first twenty elements, in order of increasing atomic number, are hydrogen (H), helium (He), lithium (Li), beryllium (Be), boron (B), carbon (C), nitrogen (N), oxygen (O), fluorine (F), neon (Ne), sodium (Na), magnesium (Mg), aluminium (Al), silicon (Si), phosphorus (P), sulphur (S), chlorine (Cl), argon (Ar), potassium (K) and calcium (Ca). These names and symbols must be learned by heart, because the symbol is the chemist's shorthand. Some symbols, like H for hydrogen and C for carbon, are the first letter of the English name. Other symbols do not match the English name because they come from older Latin or other historical names. Sodium is a very good example. Its symbol is Na, not So, because it comes from the Latin word natrium. Potassium also has a surprising symbol, K, which comes from the Latin word kalium. This is one reason why the periodic table must be studied carefully: the symbol is not always the first one or two letters of the name we say in English. When a student writes Na, any chemist in the world knows that element is sodium, and when a student writes K, the chemist knows that element is potassium, no matter what language the chemist speaks."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "An element has atomic number 12 and mass number 24. Determine the number of protons, neutrons and electrons in a neutral atom of this element, identify the element and explain what its valency is likely to be.",
+        "answer": "The atomic number of the element is 12, which means that every neutral atom of this element contains exactly 12 protons in its nucleus. In a neutral atom, the number of electrons equals the number of protons, because the positive charge of the protons must balance the negative charge of the electrons. Therefore, there are 12 electrons moving around the nucleus. The mass number is 24, and the mass number is the sum of the protons and the neutrons. Since the number of protons is 12, the number of neutrons must be 24 minus 12, which equals 12. The element with 12 protons is magnesium. Looking at the periodic table, magnesium is in Group 2, and for the main-group elements in the first twenty, the group number tells us the usual valency. A Group 2 element normally has a valency of two, which means one atom of magnesium can combine with or replace two hydrogen atoms. In many compounds, such as magnesium oxide MgO or magnesium chloride MgCl2, we can see this valency of two in action, because magnesium needs two of the one-valent chlorine atoms or one of the two-valent oxygen atoms to balance its combining capacity."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "Consider the statement, \"The valency of an element is always equal to its group number in the periodic table.\" Evaluate whether this statement is always true, partly true, or never true, using examples from the first twenty elements.",
+        "answer": "This statement is partly true but it is not always true, so a careful student should not accept it without thinking. For the elements in the first few groups of the periodic table, the statement works very well. Hydrogen, lithium, sodium and potassium are all in Group 1 and they show a valency of one, because one atom of each of these elements combines with one hydrogen atom or replaces one hydrogen atom in a compound. Beryllium, magnesium and calcium are in Group 2 and they usually show a valency of two, as in magnesium oxide and calcium chloride. Aluminium is in Group 13 and normally has a valency of three, as in aluminium oxide. Carbon and silicon are in Group 14 and often show a valency of four, as in methane and silicon tetrachloride. So for these groups, the statement is a useful and powerful pattern. However, the statement becomes less reliable once we move to the right-hand side of the periodic table. Nitrogen is in Group 15 but its common valency with hydrogen in ammonia is three, not five. Oxygen is in Group 16 but its valency in water is two, not six. Fluorine is in Group 17 and has a valency of one, not seven. The reason is that elements on the right side of the table tend to gain or share electrons to complete a stable outer shell of eight, so their combining capacity is often better described by the difference between eight and the group number. This is called a different rule and it shows that the simple equality \"valency equals group number\" works only for the metals and some non-metals in the early groups. Therefore, the statement is a helpful starting point for the first twenty elements when limited to Groups 1, 2, 13 and 14, but it is not a universal rule for every group and every situation."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A compound has the formula XH3, where the symbol X stands for one of the first twenty elements. The compound forms when one atom of X combines with three hydrogen atoms. Identify the most likely element X, give its symbol, atomic number and group number, and calculate the number of neutrons if its mass number is 14.",
+        "answer": "The formula XH3 tells us that one atom of element X has combined with three hydrogen atoms. Since each hydrogen atom has a valency of one, the total combining capacity supplied by the three hydrogen atoms is three. For the compound to be stable, the valency of X must also be three, so that the combining capacities balance. An element with a valency of three among the first twenty is nitrogen, which is in Group 15 of the periodic table but commonly shows a valency of three in ammonia, NH3. The symbol of nitrogen is N, and its atomic number is 7, which means a nitrogen atom has 7 protons. The mass number given is 14. Since the mass number is the sum of protons and neutrons, the number of neutrons is 14 minus 7, which equals 7. Therefore, the element X is nitrogen, its symbol is N, its atomic number is 7, its group number is 15, and the atom in this compound contains 7 protons and 7 neutrons. This example shows how the formula of a compound and the idea of valency can be used together to identify an element and count its nuclear particles."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple classroom card game to help a group of Class 6 students memorise the first twenty elements, their symbols and their valencies. Describe the rules, the materials needed and how the game checks whether the students have understood the idea.",
+        "answer": "The card game could be called \"Valency Match\" and would require a deck of forty small cards. Each of the first twenty elements would have two cards: one card would show the name and the atomic number, and the other card would show the symbol and the valency. For example, one sodium card would say \"Sodium, atomic number 11,\" and the matching card would say \"Na, valency 1.\" The cards are shuffled and dealt face down on a table. In turn, each student flips over two cards. If the two cards match an element with the correct symbol and valency, the student keeps the pair and earns one point. If the two cards do not match, the student flips them back and the next student takes a turn. To make the game more challenging, a special set of \"challenge cards\" can be added. A challenge card might show a simple compound formula such as H2O or NaCl, and the student who picks it must name the elements, give their symbols, and explain how the valencies balance. If the explanation is correct, the student earns a bonus point. The game checks understanding in three ways. First, it checks memory, because the student must remember the location of the matching cards. Second, it checks association, because the student must connect the name with the symbol and the valency. Third, the challenge cards check reasoning, because the student must explain why the formula is written in a particular way. The first student to collect the most matching pairs and correctly answer the most challenge cards is the winner."
+      }
+    ],
+    "masteryCriteria": "Can define atomic number as the number of protons and mass number as protons plus neutrons; can calculate the number of neutrons given mass number and atomic number (neutrons = mass number - atomic number); can find protons, neutrons, and electrons for five elements using the periodic table.",
+    "cognitiveLevel": "apply"
+  },
+  {
+    "nodeId": "c6_chem_011",
+    "title": "Language of chemistry - symbols of elements",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "Chemistry is the science that studies a large number of elements and the many compounds they form. If chemists had to write the full name of every element every time they spoke or wrote about a substance, chemical communication would become slow, repetitive, and full of mistakes. To avoid this, chemists use symbols -- short one- or two-letter notations that stand for the names of elements. A symbol is therefore a shorthand notation for an element. For example, the element hydrogen is represented by the single letter H, oxygen by O, and carbon by C. These symbols are simply the first letters of the English names. However, not all symbols are taken from English. Several elements keep symbols from their older Latin, Greek, or historical names. Sodium is represented by Na from the Latin word natrium, iron by Fe from the Latin ferrum, potassium by K from kalium, gold by Au from aurum, silver by Ag from argentum, and copper by Cu from cuprum. When two or more elements begin with the same first letter, a second distinctive letter is added: carbon is C, but calcium is Ca; chlorine is Cl, but chromium is Cr; copper is Cu, and cobalt is Co. The first letter of a symbol is always a capital letter, and the second letter, if present, is always a small letter. Writing CO instead of Co is a serious mistake, because CO is the formula of the compound carbon monoxide, while Co is the symbol for the element cobalt. Symbols are more than just abbreviations; they are a universal language of chemical communication used by scientists all over the world. When chemists describe a chemical reaction, the starting substances are called reactants and the new substances formed are called products. The reactants are usually written on the left, and the products on the right. For example, if hydrogen and oxygen combine to form water, the reactants are the elements H and O, and the product is the compound H2O. At this level, the focus is only on learning the symbols of common elements and recognising that these symbols are the building blocks of chemical communication. Compound formulae and full chemical equations are reserved for later nodes. By mastering these symbols, the student moves from the idea that mixtures have separable components to the idea that every element has a unique chemical symbol that allows quick and accurate scientific conversation.",
+    "eli5": "Chemical symbols are like tiny nicknames for elements. Instead of writing \"hydrogen\" every time, scientists just write H. Some nicknames come from old names, like Na for sodium from natrium. These short codes help chemists everywhere talk clearly and quickly without getting confused.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Write the chemical symbols of the following elements: hydrogen, oxygen, carbon, sodium, iron, aluminium, copper, potassium, gold, and silver.",
+        "answer": "Hydrogen is represented by H, oxygen by O, and carbon by C. These three are the first letters of their English names. Sodium is Na, not S, because its symbol comes from the Latin word natrium. Iron is Fe, from the Latin ferrum. Aluminium is Al, using the first two letters of its name. Copper is Cu, from the Latin cuprum. Potassium is K, from the historical name kalium. Gold is Au, from the Latin aurum. Silver is Ag, from the Latin argentum. Each of these symbols is a fixed, one- or two-letter code. In a correct answer, the first letter is capital and the second, if any, is small. Writing all capital letters, or taking letters from the wrong language, is an error. Learning these symbols thoroughly is the first step in reading and writing chemical information."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Why does the element sodium have the symbol Na instead of So or S?",
+        "answer": "The symbol Na is used for sodium because chemical symbols are not always taken from the English name. In this case, the symbol comes from the Latin word natrium, which was an older name for a sodium compound. When scientists across the world needed a single, fixed code for each element, they kept some symbols from Latin, Greek, and other historical languages. If we used So, it might be confused with the English word \"so\" or with other elements. If we used S, it would clash with sulphur, which already has the symbol S. The symbol Na is unique, short, and recognised everywhere. This shows why symbols are a form of chemical communication: they must be the same in every country and every language, so that scientists can share results without confusion. The choice of Na also reminds us that chemistry has a long history, and many of its symbols were decided before English became the common language of science."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"A chemical symbol must always match the first letters of the English name of the element, otherwise it is wrong.\" Evaluate this statement.",
+        "answer": "This statement is only partly true and can be misleading. For some elements, the symbol does match the first letter or first two letters of the English name. Hydrogen is H, oxygen is O, carbon is C, nitrogen is N, and aluminium is Al. In these cases, the symbol is an abbreviation of the English name. However, many symbols do not follow this rule. Sodium is Na from natrium, iron is Fe from ferrum, copper is Cu from cuprum, potassium is K from kalium, gold is Au from aurum, and silver is Ag from argentum. Some symbols do not even start with the same letter as the English name, yet they are still correct. Therefore, the statement is too strict. A chemical symbol is a fixed, internationally agreed shorthand, and it may come from Latin, Greek, Arabic, or another historical source. The important point is that the symbol is unique and accepted, not that it matches the English name. On the other hand, the student is right in one sense: once a symbol is fixed, it must be written exactly, with the correct capital and small letters. So the statement is partly correct for simple elements but wrong as a general rule. A better way to think about it is that a symbol is like a passport code for an element -- it does not have to look like the English name, but it must be the official, agreed code."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "A teacher writes the following on the board: \"When hydrogen and oxygen combine, water is formed. The reactants are H and O, and the product contains H and O together.\" Identify the reactants and the product, and explain what the symbols H and O tell us.",
+        "answer": "In this description, the reactants are the starting substances, hydrogen and oxygen. Their symbols are H and O. The product is the new substance formed, water, whose formula at this stage can be thought of as a combination of H and O. The symbols H and O tell us which elements are present. H stands for hydrogen, the lightest and most common element in the universe, and O stands for oxygen, the gas we need to breathe. By writing H and O, chemists can quickly show the names of the elements without writing the full words. This is the power of chemical symbols: they make communication short and clear. The reactants are written on the left side of a reaction description, and the product is written on the right. In this case, the product water is made from the same two elements, but they are now joined in a new arrangement. The student should remember that this is only a beginning idea; full chemical equations and compound formulae will be studied in later classes."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Imagine you have to teach the symbols of five common elements to a friend who missed the class. Create a small memory aid or a short rhyme that helps your friend remember the correct symbols for hydrogen, oxygen, carbon, sodium, and iron.",
+        "answer": "A good memory aid links the English name to the correct symbol clearly. For hydrogen, oxygen, and carbon, the symbols are simply the first letters: H, O, and C. A short rhyme could be: \"H for hydrogen, light as a bubble; O for oxygen, breathe without trouble; C for carbon, found in every tree; these three symbols are as easy as can be.\" For sodium, the symbol Na is trickier because it does not match the English name. A useful sentence is: \"Na-trium is the old Latin name, so sodium is Na, not So or Same.\" For iron, the symbol Fe comes from ferrum, the Latin word for iron. A memory aid could be: \"Iron is strong, like a fer-ocious lion, so its symbol is Fe, not Ir or ion.\" A well-designed memory aid should avoid making the symbols depend on the English spelling, especially for the historical ones. It should also show the correct capital and small letters. By creating and sharing such aids, the student strengthens their own memory and helps a friend at the same time."
+      }
+    ],
+    "masteryCriteria": "Can state the symbols of fifteen common elements (H, C, N, O, Na, Mg, Al, P, S, Cl, K, Ca, Fe, Cu, Zn); can explain that symbols are derived from English or Latin names (Fe from ferrum, Na from natrium); can write the symbol given the element name and vice versa.",
+    "cognitiveLevel": "understand"
+  },
+  {
+    "nodeId": "c6_chem_005",
+    "title": "Elements",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "An element is a pure substance that represents the simplest form of matter. It cannot be broken down into simpler substances by ordinary chemical means such as heating, electrolysis, or reaction with acids. Every element is made up of tiny particles called atoms, and in a sample of an element all these atoms are of the same kind. The classification of matter therefore begins by deciding which substances are elements and which are not: an element is the stopping point of chemical breaking down, because no ordinary process can split it further. To identify an element quickly, we use its symbol, a short one- or two-letter code. For example, the symbol Fe stands for iron, Al stands for aluminium, and Cu stands for copper. A symbol is not a formula: a formula shows how different elements are joined together, while a symbol represents only one element. When a substance is shown by a single symbol, such as Fe, Al, or Cu, we classify it as an element. Around us, these three elements appear constantly. Iron is a hard, greyish metal that is magnetic; it is used in gates, bridges, railway tracks, and tools. Aluminium is a light, silvery metal that does not rust easily; it is found in kitchen foil, window frames, and parts of aeroplanes. Copper is a reddish-brown metal that is not magnetic and is an excellent conductor of electricity; it is used in electric wires, water pipes, and coins. These metals come to us from natural sources in different parts of India: iron ore is mined in the Singhbhum region of Jharkhand, bauxite ore for aluminium is obtained from places such as Korba in Chhattisgarh, and copper is associated with mines such as those at Khetri in Rajasthan. All the known elements are collected in the periodic table, which helps us compare their symbols and properties. The central idea is that all matter, whether solid, liquid, or gas, is built from one or more elements, and an element is the fundamental substance that cannot be broken down further by ordinary chemical means.",
+    "eli5": "An element is the tiniest building block of matter that cannot be split into simpler pieces by normal chemical methods such as heating or mixing with acid. Everything around you is made of matter, and all matter is made of one or more elements. Iron, aluminium, and copper are common examples. Each has its own short name, or symbol: Fe, Al, and Cu.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define an element and give two examples, each with its symbol and one simple property.",
+        "answer": "An element is a pure substance that is the simplest form of matter and cannot be broken down into simpler substances by ordinary chemical means such as heating, mixing with acid, or passing an electric current through it. It is made up of only one kind of atom, and every atom in a sample of the element is the same. A strong definition therefore contains two parts: it is the simplest form of matter, and it cannot be broken down by ordinary chemical means. Two clear examples are iron and aluminium. Iron carries the symbol Fe. It is a hard, greyish metal and is magnetic, so a magnet will attract an iron nail or an iron gate. Aluminium carries the symbol Al. It is a light, silvery metal that does not rust quickly and is often pressed into thin foil for wrapping food. Both are elements because, however small the pieces become, each piece is still the same kind of matter; it does not turn into a new, simpler substance."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Why is water not an element, while hydrogen is?",
+        "answer": "Water is not an element because its formula, H2O, contains two different symbols, H and O. This tells us that water is made of two different kinds of atoms joined together, so it is a compound, not an element. A compound can be broken down into simpler substances; for example, passing electricity through water during electrolysis gives hydrogen gas and oxygen gas. Hydrogen, on the other hand, has the symbol H. It is made of only one kind of atom, and it cannot be broken down into simpler substances by ordinary chemical means. Therefore, hydrogen is an element. The key test is the symbol: a single symbol means an element, while a formula with more than one symbol points to a compound. This is why the short form is not just a label; it is a piece of chemical information."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says: \"All metals are magnetic, and all magnetic substances are elements.\" Evaluate this statement.",
+        "answer": "The statement has two parts, and both are false. First, not all metals are magnetic. Iron is magnetic, which is why it is used in nails, tools, and the railings of Indian railway stations. However, aluminium and copper are also metals, but they are not magnetic. If you bring a magnet close to an aluminium foil or a copper wire, it will not be attracted. Second, not all magnetic substances are elements. Magnetite, a mineral often found in rocks, is magnetic, but its formula, Fe3O4, shows that it is a compound of iron and oxygen. Some mixtures, such as iron filings mixed with sand, can also show magnetic behaviour because the iron pieces are pulled by a magnet, but the mixture itself is not an element. Finally, not every element is magnetic; for example, sulphur, phosphorus, and gold are elements that are not magnetic. A balanced view is that magnetism is one property of a few substances, including the element iron and the compound magnetite, but it cannot be used to define an element. To classify something as an element we must look at its symbol and ask whether it can be broken down into simpler substances by ordinary chemical means, not simply at whether it is magnetic."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "Your teacher gives you three rods that look alike: one of iron, one of aluminium, and one of copper. Describe how you would identify each rod using two simple tests that do not need a chemical change.",
+        "answer": "I would use two safe tests: the magnet test and a close look at the colour. First, I would move a strong magnet over the three rods. The rod that is attracted strongly to the magnet is iron, because iron is magnetic. The other two rods, aluminium and copper, will not be attracted. Next, I would examine the colour and brightness of the two non-magnetic rods. Copper has a distinctive reddish-brown or pinkish colour, especially when freshly scratched, while aluminium is silvery-white and light in appearance. If colour is hard to judge, I could also compare weight by holding rods of the same size; aluminium feels much lighter than copper and iron. A more detailed answer would also recall that copper is an excellent conductor of electricity, but a colour and magnet test is enough for a quick identification. Therefore, the magnet separates iron, and colour and lightness separate aluminium from copper. These tests rely on simple physical properties, which is why this node asks for state, colour, and magnetic nature."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a one-day \"Elements around me\" scavenger hunt for your school. List five items, the element each contains, and one safety rule.",
+        "answer": "For a one-day \"Elements around me\" scavenger hunt, I would ask groups to find five objects and name the element in each. First, a steel gate or nail, which contains the element iron, symbol Fe, because it is magnetic and hard. Second, a piece of aluminium foil from a lunch box or kitchen, which contains the element aluminium, symbol Al, because it is light and silvery. Third, an electrical wire from a discarded charger, which contains the element copper, symbol Cu, because copper carries electric current well. Fourth, the black core of a pencil, which contains the element carbon, symbol C, because it is soft and makes a mark on paper. Fifth, a small piece of gold jewellery or a gold-coloured ring, which contains the element gold, symbol Au, because it is bright yellow and does not tarnish. The one essential safety rule would be to look only with the eyes and not to touch or taste any object, especially wires, broken metal, or unknown materials; any sample should be shown to the teacher before being handled. This activity makes the abstract idea of an element visible in real objects around the school."
+      }
+    ],
+    "masteryCriteria": "Can define an element as a substance made of only one kind of atom; can classify elements as metals (iron, copper), non-metals (oxygen, sulphur), and metalloids (silicon); can name the symbols of ten common elements (H, O, C, N, Na, Cl, Fe, Cu, Zn, Ca).",
+    "cognitiveLevel": "analyze"
+  },
+  {
+    "nodeId": "c6_chem_009",
+    "title": "Atomic structure - subatomic particles",
+    "subject": "chem",
+    "classLevel": 6,
+    "definition": "Everything we can touch, smell, or see around us is matter, and matter is made up of very tiny particles. In Class 5 you learnt that matter exists in three states -- solid, liquid and gas -- and that each state has its own properties. Now, in Class 6, we dig deeper and ask: what are those tiny particles actually made of? The answer begins with three important ideas -- the atom, the molecule, and the radical.\r\n\r\nAn atom is the smallest particle of an element that can take part in a chemical reaction. It is the tiniest bit of an element that still behaves like that element. For example, if you keep dividing a piece of copper wire into smaller and smaller bits, the last useful piece of copper is one copper atom. You cannot break that atom into anything simpler by ordinary chemical means and still call it copper. An atom of an element usually does not have independent existence; it prefers to combine with other atoms to become stable. That is why you rarely see single sodium or chlorine atoms floating about by themselves in nature.\r\n\r\nA molecule, on the other hand, is the smallest particle of an element or a compound that is capable of independent existence. When two or more atoms combine, they form a molecule. Oxygen gas, for instance, is made of molecules, each containing two oxygen atoms joined together, so its formula is O_2. Water is a compound, and the smallest independent bit of water is a water molecule, H_2O, made of two hydrogen atoms and one oxygen atom. If you break a water molecule, you no longer have water; you have hydrogen and oxygen, which behave very differently from water.\r\n\r\nA radical is a single atom or a group of atoms that behaves as a single charged unit. Radicals carry a charge and act as one particle in chemical reactions. You can think of them as a squad of atoms that always move together. Common examples are the sulphate radical, SO_4^2^-, the nitrate radical, NO_3^-, and the ammonium radical, NH_4^+. Because they have an overall charge, they are not the same as neutral molecules. In the ICSE syllabus, radicals are treated as groups of atoms that act like a single charged unit, and they are the building blocks of many salts such as sodium chloride, sodium sulphate and ammonium nitrate.\r\n\r\nAtomicity is a term we use to count the number of atoms in a molecule of an element or compound. If a molecule contains only one atom, it is called monoatomic; helium and neon are examples, and their molecules are written as He and Ne. A molecule made of two atoms is diatomic; hydrogen (H_2), nitrogen (N_2), oxygen (O_2), chlorine (Cl_2) and bromine (Br_2) are all diatomic. A molecule with three atoms is triatomic; ozone (O_3) and water (H_2O) are triatomic. Molecules with more than three atoms are called polyatomic; for example, the glucose molecule C_6H_1_2O_6 contains twenty-four atoms, and sulphur molecules in the ordinary form contain eight atoms, S_8.\r\n\r\nFinally, valency is the combining capacity of an element. It tells us how many atoms of another element or radical one atom of the element can combine with. Hydrogen has a valency of one, so it is like a single hand that can hold one other atom. Oxygen has a valency of two, so it can join with two hydrogen atoms to form H_2O. Sodium has a valency of one, and it combines with one atom of chlorine, which also has a valency of one, to form NaCl. Carbon has a valency of four, which is why a carbon atom can form four bonds, as we see in methane CH_4. The periodic table helps us to predict the valency of elements; elements in the same group often show similar combining capacity.",
+    "eli5": "Everything is made of tiny bits called particles. The smallest bit of any element is an atom. When atoms join together and can live on their own, they make a molecule. A radical is a small group of atoms that sticks together and carries a charge. Valency tells us how many friends an atom can hold at one time. Counting the atoms in one molecule is called atomicity -- one is mono, two is di, three is tri, and many is poly.",
+    "misconceptions": [
+      {
+        "belief": "Students often confuse an atom with a molecule and write that an atom can exist independently. The board exam guidance for compounds and formulae note that candidates sometimes choose the wrong option because they do not understand whether a particle is an atom or a molecule.",
+        "correction": "An atom is the smallest particle of an element but is usually not capable of independent existence. A molecule is the smallest particle of an element or compound that is capable of independent existence. For example, a single oxygen atom cannot live alone as a stable gas; it needs another oxygen atom to become O_2."
+      },
+      {
+        "belief": "Some students write the name of a compound when the question asks for a formula, or vice versa. The 2025 board examiner comment on Question 3 noted that some candidates correctly understood the ratio but then mistakenly gave the name of the compound instead of the formula, while a few wrote incorrect formulae such as X_2Y or X_6Y_1_2.",
+        "correction": "Read the question carefully. If it asks for a formula, use chemical symbols and subscript numbers, such as H_2O or CO_2. If it asks for a name, write the full English name, such as water or carbon dioxide. Practise converting names to formulae and formulae to names using valency."
+      },
+      {
+        "belief": "Students sometimes think a radical is a single atom that has gone bad or is dangerous, because of the everyday meaning of the word \"radical.\" In chemistry, a radical is a single atom or a group of atoms that behaves as a single charged unit.",
+        "correction": "In chemistry, \"radical\" means a charged group of atoms that acts as one unit in chemical reactions. Examples are the sulphate radical SO_4^2^- and the ammonium radical NH_4^+. These are not dangerous by themselves; they are simply building blocks of salts."
+      }
+    ],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define an atom, a molecule, and a radical. Give one example of each.",
+        "answer": "An atom is the smallest particle of an element that can take part in a chemical reaction. It is the tiniest bit of the element that still shows the properties of that element, but it is usually not capable of independent existence. For example, one atom of gold is the smallest bit of gold that is still gold. A molecule is the smallest particle of an element or a compound that is capable of independent existence. It is made of two or more atoms joined together. For example, a molecule of water is H_2O, made of two hydrogen atoms and one oxygen atom, and it can exist on its own as a tiny bit of water. A radical is a single atom or a group of atoms that behaves as a single charged unit. It carries an overall charge and acts like one particle in chemical reactions. For example, the sulphate radical SO_4^2^- is made of one sulphur atom and four oxygen atoms, and the whole group has a two-minus charge. Atoms are the basic units of elements, molecules can exist independently, and radicals are charged groups that act as one unit."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Oxygen gas has the formula O_2, while neon gas has the formula Ne. Explain why one is diatomic and the other is monoatomic, using the idea of independent existence.",
+        "answer": "The formula of a gas tells us how many atoms are present in one molecule of that gas. In oxygen gas, the formula is O_2, which means that each molecule of oxygen contains two oxygen atoms joined together. Therefore oxygen is diatomic, because \"di\" means two and its molecule has two atoms. A single oxygen atom is not stable on its own, so it combines with another oxygen atom to form an O_2 molecule that can exist independently in the air we breathe. On the other hand, neon is a noble gas with the formula Ne. This means that one atom of neon itself is the complete particle. A neon atom does not need to combine with another atom to become stable, so it can exist independently as a single atom. That is why neon is monoatomic, because \"mono\" means one. The key difference is that oxygen atoms need a partner to exist as a stable gas, while a neon atom is already stable by itself."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"A molecule is always bigger than an atom, so a molecule of a compound can never contain atoms of only one element.\" Is this statement correct? Give a balanced argument with examples.",
+        "answer": "This statement is partly correct and partly incorrect, so we need to examine it carefully. The first part says a molecule is always bigger than an atom. This is generally true because a molecule is made of two or more atoms joined together, so a molecule contains at least as many atoms as the smallest molecule and usually more. For example, a molecule of oxygen O_2 contains two atoms, which is more mass and more particles than one oxygen atom, so the molecule is bigger. The second part of the statement says a molecule of a compound can never contain atoms of only one element. This is also true, because by definition a compound is a substance made of two or more elements chemically combined in a fixed ratio. Therefore a molecule of a compound must contain atoms of at least two different elements. Water H_2O is a compound, and its molecule contains two different elements, hydrogen and oxygen. Carbon dioxide CO_2 is another compound, and its molecule contains carbon and oxygen. However, the statement as a whole is misleading because it mixes two separate ideas. A molecule of an element, such as O_2 or N_2, does contain atoms of only one element. So molecules can be of elements or compounds. A molecule of an element can contain one type of atom, while a molecule of a compound must contain at least two types of atoms. The correct conclusion is that the student is right about compound molecules but wrong to apply that rule to all molecules. A molecule is not defined by having many different elements; it is defined by being a group of atoms, of the same or different elements, that can exist independently. We must always remember that both element molecules and compound molecules exist, and that compounds are a special kind of molecule made from more than one element."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "The valency of magnesium is 2 and the valency of chlorine is 1. Use this information to write the formula of magnesium chloride and explain how you worked it out.",
+        "answer": "Valency tells us the combining capacity of an element, that is, how many atoms of another element one atom of the element can combine with. Magnesium has a valency of 2, which means one magnesium atom can hold or combine with two chlorine atoms. Chlorine has a valency of 1, which means one chlorine atom can combine with one magnesium atom. To write the formula, we place the symbol of magnesium first because it is the metal, and then the symbol of chlorine. Since one magnesium atom needs two chlorine atoms, the formula is MgCl_2. The small \"2\" at the bottom right of Cl tells us that there are two chlorine atoms for every one magnesium atom. This formula also obeys the cross-over method: we write the valency of magnesium as the subscript of chlorine and the valency of chlorine as the subscript of magnesium, which gives Mg_1Cl_2, and we do not write the subscript \"1.\" So the final formula is MgCl_2. This compound is called magnesium chloride."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Imagine you are a chemistry teacher preparing a short chart for your classmates. Design a \"family band\" poster that explains monoatomic, diatomic, triatomic and polyatomic molecules using examples. Describe what each \"band size\" looks like and which real substances belong in each group.",
+        "answer": "The poster would be titled \"Atomicity: The Molecule Family Band.\" In the monoatomic corner, there would be a single musician standing alone with the caption \"Solo artist -- one atom is the whole band.\" The examples would be helium He, neon Ne and argon Ar. These noble gases do not need to combine with other atoms, so each atom is its own complete molecule. In the diatomic section, there would be two musicians holding hands, with the caption \"Duo -- two atoms make one molecule.\" Examples would be hydrogen H_2, nitrogen N_2, oxygen O_2, chlorine Cl_2 and bromine Br_2. These elements exist as pairs of atoms because one atom alone is not stable. The triatomic section would show three musicians, with the caption \"Trio -- three atoms in one molecule.\" Examples would be ozone O_3 and water H_2O. Water has two different elements, while ozone has three oxygen atoms. Finally, the polyatomic section would show a full orchestra with many musicians, and the caption \"Full band -- more than three atoms.\" Examples would be sulphur S_8, with eight atoms, and glucose C_6H_1_2O_6, which has twenty-four atoms. The poster would also have a note at the bottom: \"Atomicity is just counting the number of atoms in one molecule.\" This poster would help students remember that the number of atoms in a molecule has a special name, and that different substances have different band sizes."
+      }
+    ],
+    "masteryCriteria": "Can name the three subatomic particles (proton, neutron, electron); can state the charge and location of each (proton: +1, nucleus; neutron: 0, nucleus; electron: -1, shells); can state that protons and neutrons have similar mass while electrons are much lighter.",
+    "cognitiveLevel": "analyze"
+  },
+  {
+    "nodeId": "c7_chem_006",
+    "title": "Elements - metals and non-metals revisited",
+    "subject": "chem",
+    "classLevel": 7,
+    "definition": "An element is the simplest form of matter that cannot be broken down into simpler substances by ordinary chemical methods. In Class 7, we revisit the classification of elements as metals, non-metals and metalloids, strengthening the bridge between the physical and chemical ways of describing them. Metals such as iron, copper and gold are generally lustrous, that is, they have a bright shiny surface, especially when freshly cut or polished. They are also good conductors of heat and electricity, and most are malleable, which means they can be hammered into thin sheets without breaking. These properties make copper an excellent choice for electrical wiring and gold for delicate jewellery. Iron, on the other hand, is valued for its strength and is used in construction, machinery and household tools, though it can rust when exposed to moist air, showing its chemical reactivity with oxygen and water.\r\n\r\nNon-metals such as sulphur and oxygen look and behave quite differently. They usually lack the bright metallic shine, so they are described as dull, and they are poor conductors of heat and electricity. Sulphur is a yellow, brittle solid, while oxygen is a colourless gas essential for burning and for respiration. These elements do not show malleability; instead, many are brittle in the solid state or exist as gases and liquids. The contrast between the bright, flexible metal copper and the dull, powdery non-metal sulphur is one of the easiest ways to begin sorting elements.\r\n\r\nSome elements do not fit neatly into either group. Silicon is the best known metalloid, a substance that has properties of both metals and non-metals. It looks somewhat like a metal but is not as good a conductor as copper, and it is widely used in computer chips because its conductivity can be carefully controlled. This classification into metal, non-metal and metalloid helps chemists predict how an element will react and what it can be used for.\r\n\r\nAlongside the classification of elements, this node also reminds us about mixtures and compounds. A mixture contains two or more substances that are not chemically joined, so the components keep their individual properties and can often be separated by physical means. A compound is a substance in which two or more elements are chemically combined in fixed proportions. Separating the parts of a mixture is based on differences in physical properties such as size, solubility, magnetic behaviour, boiling point or ability to sublime. For example, a mixture of iron filings and sulphur can be separated with a magnet because iron is magnetic and sulphur is not. Common salt dissolved in water can be recovered by evaporation from places such as the salt pans of Gujarat and Rajasthan. A mixture of coloured inks can be separated by chromatography because different pigments travel at different speeds through a special paper. The key idea is that each separation technique uses a physical difference to pull the components apart, just as we might sort coins by size or use a sieve to separate sand from gravel.",
+    "eli5": "Everything around us is made of tiny building blocks called elements. Some elements, like iron, copper and gold, are metals that shine, bend easily and let electricity pass through. Others, like sulphur and oxygen, are non-metals that are dull, brittle and do not conduct electricity. A few, like silicon, sit in the middle and are called metalloids. Mixtures are like a bowl of mixed nuts; we can separate them using small differences, such as size or stickiness.",
+    "misconceptions": [],
+    "diagnosticQuestions": [
+      {
+        "number": 1,
+        "bloomLevel": "recall",
+        "question": "Define the terms element, metal, non-metal and metalloid, and give one example of each. List the main physical properties used to decide whether an element is a metal or a non-metal.",
+        "answer": "An element is a pure substance that is made of only one kind of atom and cannot be broken down into anything simpler by ordinary chemical means. Examples include iron, copper, sulphur, oxygen and silicon. A metal is an element that is generally hard, lustrous, malleable, ductile and a good conductor of heat and electricity; for example, copper is used in electrical wires because it is highly conductive, and gold is used in ornaments because it is lustrous and can be drawn into thin wires. A non-metal is an element that usually lacks metallic shine, is not malleable, is often brittle if solid, and is a poor conductor of heat and electricity; sulphur is a dull, yellow solid that breaks easily, while oxygen is a colourless gas that supports burning and respiration. A metalloid is an element that has properties intermediate between those of metals and non-metals; the best-known example is silicon, which looks like a metal but does not conduct electricity as well as copper, and its conductivity can be controlled for use in electronic chips. The main physical properties used to classify an element are lustre, conductivity, malleability and ductility, along with the way the element feels when struck or pressed."
+      },
+      {
+        "number": 2,
+        "bloomLevel": "reasoning",
+        "question": "Why is copper used for electrical wiring, while sulphur is not used for this purpose? Explain by comparing the two elements in terms of their classification and properties.",
+        "answer": "Copper is chosen for electrical wiring because it is a metal, and metals are good conductors of electricity. Copper in particular has a bright lustrous surface, is highly malleable, and can be drawn into long, thin wires without breaking. These properties come from the way the atoms in a metal are arranged in a lattice with free-moving electrons that carry electric current. Sulphur, on the other hand, is a non-metal. It is dull, brittle and does not allow electricity to pass through it; in fact, solid sulphur is an electrical insulator. If you tried to make a wire from sulphur, it would crack and crumble, and it would not carry any current. Therefore, copper is suitable for wiring because of its metallic properties of conductivity and malleability, whereas sulphur fails on both counts because of its non-metallic properties. This comparison shows that the classification of an element as a metal or a non-metal is directly linked to its uses in everyday life."
+      },
+      {
+        "number": 3,
+        "bloomLevel": "evaluate",
+        "question": "A student says, \"All the components of any mixture can be separated by filtration.\" Evaluate this statement, giving a balanced argument with at least one example in favour and one against, and state the correct principle for separating mixtures.",
+        "answer": "The statement is not fully correct, so it should be evaluated carefully. Filtration is a useful separation technique, but it only works when there is a clear difference in particle size or in the state of the components, specifically when a solid is mixed with a liquid or a gas and the solid particles are large enough to be trapped by the filter paper. For example, a mixture of sand and water can be separated by filtration because sand is an insoluble solid that does not pass through the pores of the filter. Similarly, a mixture of chalk and water can be separated in this way.\r\n\r\nHowever, many mixtures cannot be separated by filtration. If the solid is very fine and passes through the filter, or if the mixture is of two dissolved solids in water, filtration will fail. For instance, common salt dissolved in seawater or in water from the salt pans of Gujarat cannot be separated by filtration because the salt particles are too small and have dissolved. Instead, evaporation is used because the water turns to vapour and leaves the salt behind. A mixture of alcohol and water cannot be separated by filtration either, because both are liquids; distillation is the right method because it uses the difference in boiling points. A mixture of iron filings and sulphur can be separated with a magnet because iron is magnetic, a property that has nothing to do with particle size. The correct principle for separating mixtures is that every method must use a physical difference between the components, whether that difference is solubility, magnetism, boiling point, size or the speed at which substances move through a medium. Therefore, while filtration is a valuable technique, it is not universal, and the choice of method must depend on the actual properties of the mixture in question."
+      },
+      {
+        "number": 4,
+        "bloomLevel": "apply",
+        "question": "You are given a mixture of iron filings, sulphur powder and common salt. Describe a step-by-step method, with reasons, to obtain each component separately in its pure form.",
+        "answer": "First, use a magnet to remove the iron filings from the mixture. Iron is magnetic, while sulphur and common salt are not, so the iron filings will stick to the magnet and can be collected. This takes advantage of the difference in magnetic property between the components. Next, add the remaining mixture to water and stir well. Common salt is soluble in water, but sulphur is not, so the salt dissolves while the sulphur remains as an insoluble solid. Filter the mixture using filter paper. The insoluble sulphur will be left on the filter paper as the residue; it can be washed with a little distilled water and dried. The filtrate will be a solution of salt in water. Finally, pour the filtrate into an evaporating dish and heat it gently over a water bath or low flame. The water will evaporate, and the white crystals of common salt will be left behind. By choosing three different physical properties, magnetism, solubility in water and the volatility of water, we have separated all three components cleanly. This is a practical illustration of the principle that the components of a mixture keep their individual properties, so we can use these properties to separate them."
+      },
+      {
+        "number": 5,
+        "bloomLevel": "create",
+        "question": "Design a simple board game for Class 6 students to learn the difference between metals, non-metals and metalloids. Name the game, list the rules, and explain how playing it will help students remember the properties of these elements.",
+        "answer": "The game can be called \"Element Quest: Metal, Non-Metal or Metalloid?\" It is a board game for two to four players, played on a winding path across a large sheet. Each space on the path has a coloured square: silver for metal, yellow for non-metal and purple for metalloid. Each player rolls a die and moves the number of spaces. When a player lands on a square, he or she picks a card from the matching pile. The card describes an element, such as \"This element is used in electrical wires and is very malleable\" or \"This element is the main ingredient in sand and computer chips.\" The player must say whether the element is a metal, a non-metal or a metalloid and give one reason. If the answer is correct, the player moves two extra spaces; if it is wrong, the player must read the correction card and stay where he or she is.\r\n\r\nThe game includes \"Challenge\" spaces where players must match properties with examples, such as pairing \"lustrous\" with \"gold,\" \"brittle\" with \"sulphur,\" or \"used in electronics\" with \"silicon.\" There is also a \"Mix-Up\" space where the player must suggest one method for separating a given mixture and explain the principle. The winner is the first player to reach the final square, called the \"Periodic Castle.\" Playing this game will help students remember that classification is based on a pattern of properties, not on random facts. The repeated act of explaining \"because\" reinforces the links between appearance, conductivity, malleability, reactivity and real-world uses, making the concepts stick better than simple memorisation."
+      }
+    ],
+    "masteryCriteria": "Can classify ten elements as metals or non-metals using properties (lustre, conductivity, malleability); can state two differences between metals and non-metals (metals: shiny, conduct electricity; non-metals: dull, poor conductors); can identify metalloids (silicon, boron).",
+    "cognitiveLevel": "apply"
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE AtomBuilderSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

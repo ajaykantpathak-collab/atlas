@@ -1,0 +1,47 @@
+{
+  "gameTitle": "ShapesSymmetryGame",
+  "classLevel": 4,
+  "ageRange": "9-10",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class4\\ShapesSymmetryGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part24.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part25.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part26.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part27.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part28.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part29.marker",
+    "D:\\cisce\\maths\\enrichment\\c4_maths_enrichment_part30.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c4_math_024 (Tangram shapes), c4_math_025 (Tessellation), c4_math_026 (Circle - centre, radius, diameter), c4_math_027 (Diameter/radius relationship), c4_math_028 (Reflection symmetry), c4_math_029 (Area and perimeter of simple shapes), c4_math_030 (Plan, elevation, side view)",
+  "mascotName": "Artist Anjali",
+  "mascotDescription": "a friendly geometry artist with a beret, a paintbrush, a protractor badge, and a palette with shapes. Custom SVG, not an owl.",
+  "sceneDescription": "art and geometry studio scene with sky gradient, an easel with shapes, a tangram puzzle on a table, a circle drawing with radius and diameter, and symmetric butterfly art on the wall",
+  "svgObjects": [
+    { "name": "TangramIcon", "description": "a tangram puzzle with 7 pieces forming a square" },
+    { "name": "TriangleIcon", "description": "a triangle from tangram" },
+    { "name": "SquareIcon", "description": "a square shape" },
+    { "name": "ParallelogramIcon", "description": "a parallelogram shape" },
+    { "name": "CircleIcon", "description": "a circle with centre, radius, and diameter labelled" },
+    { "name": "RadiusIcon", "description": "a radius line from centre to edge" },
+    { "name": "DiameterIcon", "description": "a diameter line across the circle" },
+    { "name": "SymmetryIcon", "description": "a butterfly with a line of symmetry" },
+    { "name": "TessellationIcon", "description": "a tessellation pattern of repeated shapes" },
+    { "name": "AreaIcon", "description": "a grid showing area of a rectangle" },
+    { "name": "PerimeterIcon", "description": "a shape with perimeter marked" },
+    { "name": "PlanViewIcon", "description": "a plan view of a building (top view)" },
+    { "name": "ElevationIcon", "description": "an elevation view of a building (front view)" },
+    { "name": "MirrorIcon", "description": "a mirror showing reflection symmetry" }
+  ],
+  "challengeTypes": [
+    "identify: How many pieces are in a TANGRAM puzzle? (7 pieces — 5 triangles, 1 square, 1 parallelogram vs 5 pieces vs 10 pieces)",
+    "sort: Drag each tangram piece to its correct type (Large triangles: 2 pieces | Medium triangle: 1 piece | Small triangles: 2 pieces | Square: 1 piece | Parallelogram: 1 piece)",
+    "identify: What is the RADIUS of a circle? (The distance from the centre to any point on the circle vs The distance across the circle through the centre vs The line around the outside of the circle)",
+    "sort: Drag each statement about circles to True or False (True: diameter = 2 x radius, radius is half of diameter, all radii of a circle are equal | False: radius is longer than diameter, diameter is half of radius, a circle has corners)",
+    "identify: A butterfly has reflection symmetry. What does that mean? (One half is a mirror image of the other half vs Both halves are different shapes vs The butterfly has no patterns)",
+    "sort: Drag each shape to how many lines of symmetry it has (Square: 4 lines | Rectangle: 2 lines | Equilateral triangle: 3 lines | Circle: infinite lines | Scalene triangle: 0 lines)",
+    "sort: Drag each shape to its area or perimeter formula (Square area: side x side | Rectangle area: length x breadth | Square perimeter: 4 x side | Rectangle perimeter: 2 x (length + breadth) | Triangle area: 1/2 x base x height)",
+    "sort: Drag each view to its description (Plan view: looking from directly above | Elevation view: looking from the front | Side view: looking from the side)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Tangram — 7 pieces: 2 large triangles, 1 medium triangle, 2 small triangles, 1 square, 1 parallelogram. Pieces fit together to form a square. Can be rearranged to make animals, people, shapes. Composing (joining) and decomposing (breaking apart) shapes. (2) Tessellation — covering a surface with repeated shapes that fit together with no gaps and no overlaps. Squares, rectangles, and hexagons tessellate. Circles do NOT tessellate (they leave gaps). (3) Circle — centre is the middle point. Radius is the distance from centre to any point on the circle. Diameter is the distance across the circle through the centre. All radii of a circle are equal. Diameter = 2 x radius. Radius = diameter / 2. (4) Reflection symmetry — one half is a mirror image of the other. The fold line is the line of symmetry. Butterfly, leaf, human face, letter A are symmetric. Square has 4 lines, rectangle has 2, equilateral triangle has 3, circle has infinite, scalene triangle has 0. (5) Area and perimeter — area is the space inside a shape. Square area = side x side. Rectangle area = length x breadth. Triangle area = 1/2 x base x height. Perimeter is the distance around the edge. Square perimeter = 4 x side. Rectangle perimeter = 2 x (length + breadth). (6) Plan, elevation, side view — plan view: looking from directly above (top view). Elevation view: looking from the front (front view). Side view: looking from the side. Misconceptions: 'radius and diameter are the same' (diameter is TWICE the radius — d = 2r, r = d/2), 'all shapes can tessellate' (circles leave gaps — only shapes that fit without gaps tessellate, like squares, rectangles, triangles, hexagons), 'a rectangle has 4 lines of symmetry' (a rectangle has only 2 lines of symmetry — horizontal and vertical, NOT diagonal), 'area and perimeter are the same' (area measures the SPACE INSIDE, perimeter measures the DISTANCE AROUND — they are different measurements), 'plan view means looking from the front' (plan view is looking from ABOVE — elevation is looking from the front). Default width=720, height=560. Use named export (export function ShapesSymmetryGame), NOT export default. Export interface ShapesSymmetryGameProps with width?, height?, onComplete?: (score: number) => void. Use double quotes for ALL strings containing apostrophes. Use 'currentChallenge' as variable name, NOT 'challenge'. Auto-hint timer MUST be exactly 10000ms."
+}

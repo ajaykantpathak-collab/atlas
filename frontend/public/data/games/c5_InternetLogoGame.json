@@ -1,0 +1,878 @@
+{
+  "gameFile": "InternetLogoGame",
+  "classLevel": 5,
+  "cisceNodes": [],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Internet Services — Email & Search 📧",
+      "text": "Email lets you send and receive electronic messages instantly across the Internet! Search engines like Google help you find information on any topic instantly.",
+      "emoji": "📧",
+      "bgColor": "from-blue-600 to-indigo-700",
+      "spoken": "Email lets you send and receive electronic messages instantly across the Internet! Search engines like Google help you find information on any topic instantly.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Request",
+            "Server",
+            "Response",
+            "Display"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Online Shopping, E-Learning & Cloud 🛒",
+      "text": "Online shopping lets you buy goods from websites like Amazon and Flipkart. E-learning brings education home via BYJU's or DIKSHA. Cloud storage keeps files safe on remote servers!",
+      "emoji": "🛒",
+      "bgColor": "from-indigo-600 to-purple-700",
+      "spoken": "Online shopping lets you buy goods from websites like Amazon and Flipkart. E-learning brings education home. Cloud storage keeps files safe on remote servers!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Composing & Sending Emails ✉️",
+      "text": "To send an email, fill in the To address, write a clear Subject, type the body message, attach files if needed with the paperclip icon, and click Send! Received mail goes to your Inbox.",
+      "emoji": "✉️",
+      "bgColor": "from-purple-600 to-pink-700",
+      "spoken": "To send an email, fill in the To address, write a clear Subject, type the body message, attach files with the paperclip icon, and click Send!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Internet Safety & Strong Passwords 🛡️",
+      "text": "Never share your full name, home address, phone number, or school name online. Use strong passwords with mixed letters and numbers, and never share them with anyone!",
+      "emoji": "🛡️",
+      "bgColor": "from-blue-500 to-cyan-600",
+      "spoken": "Never share your full name, home address, phone number, or school name online. Use strong passwords with mixed letters and numbers, and never share them with anyone!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Request",
+            "Server",
+            "Response",
+            "Display"
+          ]
+        }
+      }
+    },
+    {
+      "title": "LOGO REPEAT Command & Shapes 🐢",
+      "text": "The LOGO REPEAT command runs instructions multiple times! A square uses REPEAT 4 [FD 100 RT 90]. The turning angle for any regular polygon is 360 divided by the number of sides.",
+      "emoji": "🐢",
+      "bgColor": "from-cyan-600 to-teal-700",
+      "spoken": "The LOGO REPEAT command runs instructions multiple times! A square uses REPEAT 4 [FD 100 RT 90]. The turning angle for any regular polygon is 360 divided by the number of sides.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Start",
+            "Steps",
+            "Decision",
+            "End"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which Internet service allows you to send and receive electronic messages almost instantly?",
+      "answer": "Email",
+      "options": [
+        "Email",
+        "Cloud storage",
+        "Online shopping"
+      ],
+      "hint": "Think: what electronic service replaced paper letters for fast messaging?",
+      "misconception": "Email is short for electronic mail, used for sending messages instantly over the Internet. Cloud storage is for saving files, and online shopping is for buying goods!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Email",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Cloud storage",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Online shopping",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Cloud storage",
+          "Email"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each Internet service to its correct definition!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match Email to messaging, Search to finding info, Shopping to buying goods, E-learning to studying online, and Cloud to saving files!",
+      "misconception": "Remember each Internet service has a specific job: Email sends messages, Search finds info, Online shopping buys products, E-learning teaches online, and Cloud storage saves files on remote servers.",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "s1",
+            "label": "Email",
+            "correctBin": "bin-email"
+          },
+          {
+            "id": "s2",
+            "label": "Search Engine",
+            "correctBin": "bin-search"
+          },
+          {
+            "id": "s3",
+            "label": "Online Shopping",
+            "correctBin": "bin-shopping"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "s1",
+          "kind": "circle",
+          "label": "Email",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-email",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-email"
+        },
+        {
+          "id": "s2",
+          "kind": "circle",
+          "label": "Search Engine",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-search",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-search"
+        },
+        {
+          "id": "s3",
+          "kind": "circle",
+          "label": "Online Shopping",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-shopping",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-shopping"
+        },
+        {
+          "id": "s4",
+          "kind": "circle",
+          "label": "E-Learning",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-elearning",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-elearning"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s1",
+          "label": "Email",
+          "emoji": "",
+          "correctBin": "bin-email"
+        },
+        {
+          "id": "s2",
+          "label": "Search Engine",
+          "emoji": "",
+          "correctBin": "bin-search"
+        },
+        {
+          "id": "s3",
+          "label": "Online Shopping",
+          "emoji": "",
+          "correctBin": "bin-shopping"
+        },
+        {
+          "id": "s4",
+          "label": "E-Learning",
+          "emoji": "",
+          "correctBin": "bin-elearning"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-email",
+          "label": "Send Messages 📧",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-search",
+          "label": "Find Info 🔍",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-shopping",
+          "label": "Buy Goods 🛒",
+          "color": "#EC4899"
+        },
+        {
+          "id": "bin-elearning",
+          "label": "Study Online 🎓",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is an email ATTACHMENT?",
+      "answer": "A separate file like a picture or document sent along with an email message",
+      "options": [
+        "A separate file like a picture or document sent along with an email message",
+        "The email subject line title",
+        "The recipient email address in the To field"
+      ],
+      "hint": "Think: what do you attach using a paperclip icon when emailing a photo?",
+      "misconception": "An attachment is NOT the subject line or address! It is a separate file (like a photo or PDF worksheet) that travels alongside your email message.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A separate file like a picture or document sent along with an email message",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The email subject line title",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The recipient email address in the To field",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A separate file like a picture or document sent along with an email message",
+          "The email subject line title"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each email part to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match To to recipient address, Subject to title, Body to message text, and Attachment to file!",
+      "misconception": "Remember: The To field holds the recipient address, Subject is the short title, Body is the main message text, and Attachment is the extra file sent with the email.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "e1",
+            "label": "To Field",
+            "correctBin": "bin-to"
+          },
+          {
+            "id": "e2",
+            "label": "Subject Line",
+            "correctBin": "bin-subject"
+          },
+          {
+            "id": "e3",
+            "label": "Email Body",
+            "correctBin": "bin-body"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "e1",
+          "kind": "circle",
+          "label": "To Field",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-to",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-to"
+        },
+        {
+          "id": "e2",
+          "kind": "circle",
+          "label": "Subject Line",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-subject",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-subject"
+        },
+        {
+          "id": "e3",
+          "kind": "circle",
+          "label": "Email Body",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-body",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-body"
+        },
+        {
+          "id": "e4",
+          "kind": "circle",
+          "label": "Attachment",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-att",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-att"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "e1",
+          "label": "To Field",
+          "emoji": "",
+          "correctBin": "bin-to"
+        },
+        {
+          "id": "e2",
+          "label": "Subject Line",
+          "emoji": "",
+          "correctBin": "bin-subject"
+        },
+        {
+          "id": "e3",
+          "label": "Email Body",
+          "emoji": "",
+          "correctBin": "bin-body"
+        },
+        {
+          "id": "e4",
+          "label": "Attachment",
+          "emoji": "",
+          "correctBin": "bin-att"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-to",
+          "label": "Recipient Address ✉️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-subject",
+          "label": "Short Title 🏷️",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-body",
+          "label": "Main Message 📝",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-att",
+          "label": "Attached File 📎",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of these is a safe Internet practice?",
+      "answer": "Use strong passwords with mixed letters and numbers and keep them secret",
+      "options": [
+        "Use strong passwords with mixed letters and numbers and keep them secret",
+        "Share your home address and phone number with online strangers",
+        "Write your password on a paper on your desk for everyone to see"
+      ],
+      "hint": "Think: should you share personal details or keep passwords secure?",
+      "misconception": "Sharing personal information or writing passwords where others can see them is unsafe! Always use strong passwords with mixed letters and numbers and keep them completely secret.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Use strong passwords with mixed letters and numbers and keep them secret",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Share your home address and phone number with online strangers",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Write your password on a paper on your desk for everyone to see",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Share your home address and phone number with online strangers",
+          "Use strong passwords with mixed letters and numbers and keep them secret"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Sort these practices into Safe or Unsafe Internet habits!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Strong passwords and asking adults are Safe. Sharing addresses and passwords are Unsafe!",
+      "misconception": "Remember: Using strong passwords and keeping personal details private are safe habits. Sharing passwords or giving your home address to strangers online are major cyber safety risks.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "h1",
+            "label": "Strong Password",
+            "correctBin": "bin-safe"
+          },
+          {
+            "id": "h2",
+            "label": "Sharing Address",
+            "correctBin": "bin-unsafe"
+          },
+          {
+            "id": "h3",
+            "label": "Different Passwords",
+            "correctBin": "bin-safe"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "h1",
+          "kind": "circle",
+          "label": "Strong Password",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-safe",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-safe"
+        },
+        {
+          "id": "h2",
+          "kind": "circle",
+          "label": "Sharing Address",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-unsafe",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-unsafe"
+        },
+        {
+          "id": "h3",
+          "kind": "circle",
+          "label": "Different Passwords",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-safe",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-safe"
+        },
+        {
+          "id": "h4",
+          "kind": "circle",
+          "label": "Sharing Password",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-unsafe",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-unsafe"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "h1",
+          "label": "Strong Password",
+          "emoji": "",
+          "correctBin": "bin-safe"
+        },
+        {
+          "id": "h2",
+          "label": "Sharing Address",
+          "emoji": "",
+          "correctBin": "bin-unsafe"
+        },
+        {
+          "id": "h3",
+          "label": "Different Passwords",
+          "emoji": "",
+          "correctBin": "bin-safe"
+        },
+        {
+          "id": "h4",
+          "label": "Sharing Password",
+          "emoji": "",
+          "correctBin": "bin-unsafe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-safe",
+          "label": "Safe Habit ✅",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-unsafe",
+          "label": "Unsafe Habit ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "In LOGO programming, what does the REPEAT command do?",
+      "answer": "Runs a set of commands inside brackets multiple times without rewriting them",
+      "options": [
+        "Runs a set of commands inside brackets multiple times without rewriting them",
+        "Deletes all turtle drawings from the screen",
+        "Saves the computer program file to cloud storage"
+      ],
+      "hint": "Think: what does 'repeat' mean in daily life when doing an action over and over?",
+      "misconception": "The REPEAT command does NOT delete drawings or save files! It is a loop construct that executes a block of commands multiple times efficiently.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Runs a set of commands inside brackets multiple times without rewriting them",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Deletes all turtle drawings from the screen",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Saves the computer program file to cloud storage",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Deletes all turtle drawings from the screen",
+          "Runs a set of commands inside brackets multiple times without rewriting them"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each LOGO REPEAT command to the shape it draws!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Square is REPEAT 4, Triangle is REPEAT 3, Hexagon is REPEAT 6, and Circle is REPEAT 360!",
+      "misconception": "Remember the 360 divided by sides rule: Square has 4 sides (90° turn), Triangle has 3 sides (120° turn), Hexagon has 6 sides (60° turn), and Circle uses 360 tiny steps!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "l1",
+            "label": "Square (4 sides)",
+            "correctBin": "bin-sq"
+          },
+          {
+            "id": "l2",
+            "label": "Triangle (3 sides)",
+            "correctBin": "bin-tri"
+          },
+          {
+            "id": "l3",
+            "label": "Hexagon (6 sides)",
+            "correctBin": "bin-hex"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "l1",
+          "kind": "circle",
+          "label": "Square (4 sides)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-sq",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-sq"
+        },
+        {
+          "id": "l2",
+          "kind": "circle",
+          "label": "Triangle (3 sides)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-tri",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-tri"
+        },
+        {
+          "id": "l3",
+          "kind": "circle",
+          "label": "Hexagon (6 sides)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-hex",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-hex"
+        },
+        {
+          "id": "l4",
+          "kind": "circle",
+          "label": "Circle (Smooth curve)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-cir",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-cir"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "l1",
+          "label": "Square (4 sides)",
+          "emoji": "",
+          "correctBin": "bin-sq"
+        },
+        {
+          "id": "l2",
+          "label": "Triangle (3 sides)",
+          "emoji": "",
+          "correctBin": "bin-tri"
+        },
+        {
+          "id": "l3",
+          "label": "Hexagon (6 sides)",
+          "emoji": "",
+          "correctBin": "bin-hex"
+        },
+        {
+          "id": "l4",
+          "label": "Circle (Smooth curve)",
+          "emoji": "",
+          "correctBin": "bin-cir"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-sq",
+          "label": "REPEAT 4 [FD 100 RT 90]",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-tri",
+          "label": "REPEAT 3 [FD 100 RT 120]",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-hex",
+          "label": "REPEAT 6 [FD 100 RT 60]",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "bin-cir",
+          "label": "REPEAT 360 [FD 1 RT 1]",
+          "color": "#10B981"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A tech-savvy kid learns how computers work",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-structure",
+    "title": "Computer Tower",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_InternetLogoGame",
+    "region": "Tech City",
+    "mapX": 0.98,
+    "mapY": 1.07,
+    "icon": "💻",
+    "prerequisites": []
+  },
+  "subject": "cs"
+}

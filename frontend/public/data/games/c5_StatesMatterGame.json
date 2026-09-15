@@ -1,0 +1,866 @@
+{
+  "gameFile": "StatesMatterGame",
+  "classLevel": 5,
+  "cisceNodes": [],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Three States of Matter 🧊",
+      "text": "Matter exists in three main states: Solid (fixed shape and volume), Liquid (fixed volume, takes container shape), and Gas (no fixed shape or volume)!",
+      "emoji": "🧊",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Matter exists in three main states: Solid with fixed shape and volume, Liquid with fixed volume, and Gas with no fixed shape or volume!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Solid",
+            "Liquid",
+            "Gas"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Interconversion of States 🔄",
+      "text": "Matter can change from one state to another when we heat or cool it! Ice melts into water, and water boils into steam. This is called interconversion.",
+      "emoji": "🔄",
+      "bgColor": "from-cyan-500 to-blue-600",
+      "spoken": "Matter can change from one state to another when we heat or cool it! Ice melts into water, and water boils into steam. This is interconversion.",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Melting and Freezing 🔥❄️",
+      "text": "Melting is solid changing to liquid on heating (like ice at 0 degrees Celsius). Freezing is liquid changing to solid on cooling (like water turning to ice).",
+      "emoji": "🔥",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "Melting is solid changing to liquid on heating. Freezing is liquid changing to solid on cooling. Both happen at the same temperature for pure substances!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Evaporation and Condensation 💧☁️",
+      "text": "Evaporation turns liquid into gas at the surface (wet clothes drying). Condensation turns gas back into liquid on cooling (water drops on a cold glass).",
+      "emoji": "☁️",
+      "bgColor": "from-teal-500 to-emerald-600",
+      "spoken": "Evaporation turns liquid into gas at the surface. Condensation turns gas back into liquid when it cools down on a cold surface.",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Sublimation (Skipping Liquid!) 🌬️",
+      "text": "Sublimation is when a solid turns DIRECTLY into a gas without becoming a liquid first! Camphor, naphthalene balls, and dry ice are wonderful examples.",
+      "emoji": "🌬️",
+      "bgColor": "from-purple-500 to-indigo-700",
+      "spoken": "Sublimation is when a solid turns directly into a gas without becoming a liquid first! Camphor and naphthalene balls are wonderful examples.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "In which state of matter do particles have a FIXED shape and volume?",
+      "answer": "Solid",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "None of these"
+      ],
+      "hint": "Think: which state stays firm and keeps its own shape unless broken or melted?",
+      "misconception": "Solids have a definite shape and volume. Liquids take the shape of their container, and gases fill all space!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Solid",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Liquid",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Gas",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "square",
+          "label": "None of these",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Solid",
+          "Liquid"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each property to its correct state of matter!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Solids have fixed shape and volume. Liquids take container shape. Gases fill the entire container!",
+      "misconception": "Remember: solids keep fixed shape and volume, liquids flow to take container shape, and gases expand to fill any container completely!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "hint": "Take it slow. Solids have fixed shape and volume. Liquids take container shape. Gases fill the entire container!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "s1",
+          "kind": "circle",
+          "label": "Fixed shape & volume",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "solid-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "solid-bin"
+        },
+        {
+          "id": "s2",
+          "kind": "circle",
+          "label": "Takes container shape",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "liquid-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "liquid-bin"
+        },
+        {
+          "id": "s3",
+          "kind": "circle",
+          "label": "Fills entire container",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "gas-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "gas-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s1",
+          "label": "Fixed shape & volume",
+          "emoji": "",
+          "correctBin": "solid-bin"
+        },
+        {
+          "id": "s2",
+          "label": "Takes container shape",
+          "emoji": "",
+          "correctBin": "liquid-bin"
+        },
+        {
+          "id": "s3",
+          "label": "Fills entire container",
+          "emoji": "",
+          "correctBin": "gas-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "solid-bin",
+          "label": "Solid 🧊",
+          "color": "#3F51B5"
+        },
+        {
+          "id": "liquid-bin",
+          "label": "Liquid 💧",
+          "color": "#00ACC1"
+        },
+        {
+          "id": "gas-bin",
+          "label": "Gas 🌬️",
+          "color": "#FF9800"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is the process called when a solid turns directly into a liquid?",
+      "answer": "Melting",
+      "options": [
+        "Melting",
+        "Freezing",
+        "Evaporation",
+        "Sublimation"
+      ],
+      "hint": "Think: what happens to ice cream on a warm day in Chennai?",
+      "misconception": "Melting is the change from solid to liquid on heating. Freezing is liquid to solid. Do not confuse the two!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Melting",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Freezing",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Evaporation",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Sublimation",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Melting",
+          "Freezing"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each state change process to its correct name!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Solid to liquid is melting. Liquid to solid is freezing. Liquid to gas is evaporation.",
+      "misconception": "Careful! Solid to liquid is melting, liquid to solid is freezing, liquid to gas is evaporation, and gas to liquid is condensation.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "p1",
+            "label": "Solid to Liquid",
+            "correctBin": "melting"
+          },
+          {
+            "id": "p2",
+            "label": "Liquid to Solid",
+            "correctBin": "freezing"
+          },
+          {
+            "id": "p3",
+            "label": "Liquid to Gas",
+            "correctBin": "evaporation"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "p1",
+          "kind": "circle",
+          "label": "Solid to Liquid",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "melting",
+          "interaction": "drag-to-bin",
+          "targetBin": "melting"
+        },
+        {
+          "id": "p2",
+          "kind": "circle",
+          "label": "Liquid to Solid",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "freezing",
+          "interaction": "drag-to-bin",
+          "targetBin": "freezing"
+        },
+        {
+          "id": "p3",
+          "kind": "circle",
+          "label": "Liquid to Gas",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "evaporation",
+          "interaction": "drag-to-bin",
+          "targetBin": "evaporation"
+        },
+        {
+          "id": "p4",
+          "kind": "circle",
+          "label": "Gas to Liquid",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "condensation",
+          "interaction": "drag-to-bin",
+          "targetBin": "condensation"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "p1",
+          "label": "Solid to Liquid",
+          "emoji": "",
+          "correctBin": "melting"
+        },
+        {
+          "id": "p2",
+          "label": "Liquid to Solid",
+          "emoji": "",
+          "correctBin": "freezing"
+        },
+        {
+          "id": "p3",
+          "label": "Liquid to Gas",
+          "emoji": "",
+          "correctBin": "evaporation"
+        },
+        {
+          "id": "p4",
+          "label": "Gas to Liquid",
+          "emoji": "",
+          "correctBin": "condensation"
+        }
+      ],
+      "bins": [
+        {
+          "id": "melting",
+          "label": "Melting 🔥",
+          "color": "#E65100"
+        },
+        {
+          "id": "freezing",
+          "label": "Freezing ❄️",
+          "color": "#0288D1"
+        },
+        {
+          "id": "evaporation",
+          "label": "Evaporation ☀️",
+          "color": "#2E7D32"
+        },
+        {
+          "id": "condensation",
+          "label": "Condensation 💧",
+          "color": "#512DA8"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "At what temperature does pure ice melt into water under normal conditions?",
+      "answer": "0 degrees Celsius",
+      "options": [
+        "0 degrees Celsius",
+        "100 degrees Celsius",
+        "50 degrees Celsius",
+        "25 degrees Celsius"
+      ],
+      "hint": "Think: at what temperature on the thermometer does water turn into solid ice in the freezer?",
+      "misconception": "Pure ice melts and water freezes at exactly 0 degrees Celsius. 100 degrees Celsius is the boiling point of water!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "0 degrees Celsius",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "100 degrees Celsius",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "50 degrees Celsius",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "water-drop",
+          "label": "25 degrees Celsius",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "0 degrees Celsius",
+          "100 degrees Celsius"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each everyday example to the correct process!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Ice turning to water is melting. Water turning to ice in freezer is freezing. Wet clothes drying is evaporation.",
+      "misconception": "Make sure you match the starting and ending states: ice to water is melting, water to ice is freezing, water to steam is evaporation, and water drops on a cold glass is condensation!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "ex1",
+            "label": "Ice cream melting",
+            "correctBin": "melt"
+          },
+          {
+            "id": "ex2",
+            "label": "Water to ice in freezer",
+            "correctBin": "freeze"
+          },
+          {
+            "id": "ex3",
+            "label": "Wet clothes drying",
+            "correctBin": "evap"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "ex1",
+          "kind": "circle",
+          "label": "Ice cream melting",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "melt",
+          "interaction": "drag-to-bin",
+          "targetBin": "melt"
+        },
+        {
+          "id": "ex2",
+          "kind": "water-drop",
+          "label": "Water to ice in freezer",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "freeze",
+          "interaction": "drag-to-bin",
+          "targetBin": "freeze"
+        },
+        {
+          "id": "ex3",
+          "kind": "circle",
+          "label": "Wet clothes drying",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "evap",
+          "interaction": "drag-to-bin",
+          "targetBin": "evap"
+        },
+        {
+          "id": "ex4",
+          "kind": "circle",
+          "label": "Drops on cold glass",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "cond",
+          "interaction": "drag-to-bin",
+          "targetBin": "cond"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "ex1",
+          "label": "Ice cream melting",
+          "emoji": "",
+          "correctBin": "melt"
+        },
+        {
+          "id": "ex2",
+          "label": "Water to ice in freezer",
+          "emoji": "",
+          "correctBin": "freeze"
+        },
+        {
+          "id": "ex3",
+          "label": "Wet clothes drying",
+          "emoji": "",
+          "correctBin": "evap"
+        },
+        {
+          "id": "ex4",
+          "label": "Drops on cold glass",
+          "emoji": "",
+          "correctBin": "cond"
+        }
+      ],
+      "bins": [
+        {
+          "id": "melt",
+          "label": "Melting 🔥",
+          "color": "#E65100"
+        },
+        {
+          "id": "freeze",
+          "label": "Freezing ❄️",
+          "color": "#0288D1"
+        },
+        {
+          "id": "evap",
+          "label": "Evaporation ☀️",
+          "color": "#2E7D32"
+        },
+        {
+          "id": "cond",
+          "label": "Condensation 💧",
+          "color": "#512DA8"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is SUBLIMATION?",
+      "answer": "Solid directly changing to gas without becoming liquid",
+      "options": [
+        "Solid directly changing to gas without becoming liquid",
+        "Liquid changing to gas very slowly",
+        "Gas changing directly into a solid",
+        "Solid changing into a liquid first"
+      ],
+      "hint": "Think: what do camphor and naphthalene balls do in a cupboard without leaving any wet puddle?",
+      "misconception": "Sublimation is a special exception where a solid changes straight into a gas, completely skipping the liquid state!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Solid directly changing to gas without becoming liquid",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Liquid changing to gas very slowly",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Gas changing directly into a solid",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Solid changing into a liquid first",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Liquid changing to gas very slowly",
+          "Solid directly changing to gas without becoming liquid"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each substance or factor to its correct category!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Camphor and naphthalene undergo sublimation. Temperature and wind speed affect evaporation.",
+      "misconception": "Camphor and naphthalene sublime directly to gas. Heat and wind make evaporation happen faster!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "sub1",
+            "label": "Camphor (Kapur)",
+            "correctBin": "sublimation"
+          },
+          {
+            "id": "sub2",
+            "label": "Naphthalene balls",
+            "correctBin": "sublimation"
+          },
+          {
+            "id": "fac1",
+            "label": "Higher temperature",
+            "correctBin": "evap-factor"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "sub1",
+          "kind": "circle",
+          "label": "Camphor (Kapur)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "sublimation",
+          "interaction": "drag-to-bin",
+          "targetBin": "sublimation"
+        },
+        {
+          "id": "sub2",
+          "kind": "circle",
+          "label": "Naphthalene balls",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "sublimation",
+          "interaction": "drag-to-bin",
+          "targetBin": "sublimation"
+        },
+        {
+          "id": "fac1",
+          "kind": "circle",
+          "label": "Higher temperature",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "evap-factor",
+          "interaction": "drag-to-bin",
+          "targetBin": "evap-factor"
+        },
+        {
+          "id": "fac2",
+          "kind": "circle",
+          "label": "Breezy wind",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "evap-factor",
+          "interaction": "drag-to-bin",
+          "targetBin": "evap-factor"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "sub1",
+          "label": "Camphor (Kapur)",
+          "emoji": "",
+          "correctBin": "sublimation"
+        },
+        {
+          "id": "sub2",
+          "label": "Naphthalene balls",
+          "emoji": "",
+          "correctBin": "sublimation"
+        },
+        {
+          "id": "fac1",
+          "label": "Higher temperature",
+          "emoji": "",
+          "correctBin": "evap-factor"
+        },
+        {
+          "id": "fac2",
+          "label": "Breezy wind",
+          "emoji": "",
+          "correctBin": "evap-factor"
+        }
+      ],
+      "bins": [
+        {
+          "id": "sublimation",
+          "label": "Sublimation 🌬️",
+          "color": "#7B1FA2"
+        },
+        {
+          "id": "evap-factor",
+          "label": "Faster Evaporation ☀️",
+          "color": "#C2185B"
+        }
+      ]
+    }
+  ],
+  "theme": "lab",
+  "storyArc": {
+    "theme": "A young scientist experiments with matter and materials",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Science Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_StatesMatterGame",
+    "region": "Chemistry Lab",
+    "mapX": 1.22,
+    "mapY": 1.4300000000000002,
+    "icon": "🧪",
+    "prerequisites": []
+  },
+  "subject": "chemistry"
+}

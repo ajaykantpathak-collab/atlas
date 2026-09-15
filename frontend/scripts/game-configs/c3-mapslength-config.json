@@ -1,0 +1,47 @@
+{
+  "gameTitle": "MapsLengthGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\MapsLengthGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part22.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part23.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part24.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part25.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part26.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part27.marker",
+    "D:\\cisce\\maths\\enrichment\\c3_maths_enrichment_part28.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_math_022 (Simple map reading), c3_math_023 (Line-drawings of 3D objects), c3_math_024 (Need for standard units for length), c3_math_025 (Measurement of lengths using cm and m), c3_math_026 (Use of measuring tools like scale and tape), c3_math_027 (Estimation of length and verification), c3_math_028 (Relationship between metre and centimeter)",
+  "mascotName": "Surveyor Suresh",
+  "mascotDescription": "a friendly land surveyor with a measuring tape, a ruler, a map, and a compass. Custom SVG, not an owl.",
+  "sceneDescription": "surveying scene with sky gradient, a measuring tape, a ruler, a map with distances, 3D objects (cube, sphere), and a surveyor's table",
+  "svgObjects": [
+    { "name": "RulerIcon", "description": "a ruler (15cm scale)" },
+    { "name": "MeasuringTapeIcon", "description": "a measuring tape (for metres)" },
+    { "name": "MapIcon", "description": "a simple map with landmarks" },
+    { "name": "CubeIcon", "description": "a 3D cube" },
+    { "name": "SphereIcon", "description": "a 3D sphere/ball" },
+    { "name": "ConeIcon", "description": "a 3D cone" },
+    { "name": "CylinderIcon", "description": "a 3D cylinder" },
+    { "name": "CentimeterIcon", "description": "a centimeter mark (cm)" },
+    { "name": "MetreIcon", "description": "a metre stick (m)" },
+    { "name": "PencilIcon", "description": "a pencil (to measure)" },
+    { "name": "BookIcon", "description": "a book (to measure)" },
+    { "name": "TableIcon", "description": "a table (to measure in metres)" },
+    { "name": "EstimateIcon", "description": "an estimation symbol (~)" },
+    { "name": "VerifyIcon", "description": "a checkmark for verification" }
+  ],
+  "challengeTypes": [
+    "identify: What unit do we use to measure the length of a PENCIL? (Centimeters (cm) vs Metres (m) vs Kilograms)",
+    "identify: What unit do we use to measure the length of a ROOM? (Metres (m) vs Centimeters (cm) vs Litres)",
+    "sort: Drag each object to the best unit for measuring its length (Centimeters: pencil, book, eraser, spoon | Metres: room, table, height of door, length of car)",
+    "identify: How many centimeters are in 1 metre? (100 cm vs 10 cm vs 1000 cm)",
+    "sort: Drag each measurement to its correct conversion (1 metre = 100 cm | 2 metres = 200 cm | 3.5 metres = 350 cm | 500 cm = 5 metres | 150 cm = 1.5 metres)",
+    "identify: Which tool is BEST for measuring the length of a small book? (A 15 cm ruler vs A measuring tape vs A weighing scale)",
+    "sort: Drag each tool to its best use (Ruler (15cm): measure small things like pencil, book | Measuring tape: measure long things like room, table, height | Metre stick: measure medium things like cloth, desk | Hand span: non-standard, estimate only)",
+    "sort: Drag each estimation to its correct verification (Estimate pencil = 15 cm, verify with ruler | Estimate table = 1.5 m, verify with tape | Estimate book = 25 cm, verify with ruler | Estimate room = 4 m, verify with tape)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. Use speechManager.speakNumber() for reading numbers aloud. The game must teach: (1) Simple map reading — a map shows where things are. Maps use symbols and distances. A simple map may show your school, home, park, and roads. Maps may not be to scale. Read a map by finding landmarks and following directions. (2) 3D objects drawings — 3D objects: cube (like a dice, 6 faces), sphere (like a ball), cone (like an ice cream cone), cylinder (like a can). Drawing 3D on flat paper: use lines to show depth — visible edges as solid lines, hidden edges as dotted lines. (3) Standard units for length — we need standard units so everyone measures the same way. Non-standard units (hand span, foot) vary from person to person. Standard units: centimeter (cm) for small things, metre (m) for long things. (4) Measuring with cm and m — use a ruler (15 cm) for small objects (pencil, book, eraser). Use a measuring tape or metre stick for long objects (room, table, height). Pencil ≈ 15 cm, Book ≈ 25 cm, Table ≈ 1.5 m, Room ≈ 4 m. (5) Measuring tools — ruler (15 cm, for small things), measuring tape (flexible, for long and curved things), metre stick (1 m, for medium things). Always start from 0 on the scale, not from the edge. (6) Estimation and verification — estimate first (guess the length), then verify by actual measurement. Good estimation comes from practice. Example: estimate pencil ≈ 15 cm, then measure with ruler to verify. (7) Metre and centimeter relationship — 1 metre = 100 centimeters. 2 m = 200 cm. 3.5 m = 350 cm. 500 cm = 5 m. 150 cm = 1.5 m. To convert m to cm: multiply by 100. To convert cm to m: divide by 100. Misconceptions: 'we can use hand span for accurate measurement' (hand span varies — standard units like cm and m are needed for accuracy), '1 metre = 10 cm' (1 metre = 100 cm, not 10), 'ruler and measuring tape are the same' (ruler is 15 cm for small things, tape is longer and flexible for big things), 'start measuring from the edge of the ruler' (start from 0 mark on the scale, not the physical edge), '3D objects are flat' (3D objects have length, width, AND depth — they are not flat like 2D shapes). Default width=720, height=560. Use named export (export function MapsLengthGame), NOT export default. Export interface MapsLengthGameProps with width?, height?, onComplete?: (score: number) => void."
+}

@@ -1,0 +1,976 @@
+{
+  "gameFile": "LivingPlantsGame",
+  "classLevel": 4,
+  "cisceNodes": [
+    "c4_evs_001",
+    "c4_evs_002",
+    "c4_evs_003"
+  ],
+  "mascot": "Doctor Divya (friendly doctor with stethoscope, plant badge, magnifying glass)",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Living vs Non-Living 🌱",
+      "text": "Living things grow, need food and water, breathe, reproduce, feel things, and eventually die! Non-living things like stones and chairs do none of these!",
+      "emoji": "🌱",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Living things grow, need food and water, breathe, reproduce, feel things, and eventually die! Non-living things like stones and chairs do not!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 0
+        }
+      }
+    },
+    {
+      "title": "The Tricky Seeds & Eggs 🌰",
+      "text": "A dry seed or hen's egg looks lifeless, but they are LIVING in a dormant resting stage! Give them moisture, warmth, and air, and they sprout or hatch!",
+      "emoji": "🥚",
+      "bgColor": "from-teal-400 to-cyan-500",
+      "spoken": "A dry seed or hen's egg looks lifeless, but they are living in a dormant resting stage! Give them moisture, warmth, and air, and they sprout or hatch!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 1
+        }
+      }
+    },
+    {
+      "title": "Plants Around Us 🌿",
+      "text": "Plants are living things! Their roots anchor and drink water, stems transport food, leaves make food using sunlight, flowers make seeds, and seeds grow into new plants!",
+      "emoji": "🌻",
+      "bgColor": "from-green-400 to-emerald-500",
+      "spoken": "Plants are living things! Their roots anchor and drink water, stems transport food, leaves make food using sunlight, flowers make seeds, and seeds grow into new plants!",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Internal Organs — Inside Helpers ❤️",
+      "text": "Hidden safely inside our bodies are internal organs! The brain in our head thinks and controls. The heart and lungs in our chest pump blood and breathe!",
+      "emoji": "🧠",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "Hidden safely inside our bodies are internal organs! The brain in our head thinks and controls. The heart and lungs in our chest pump blood and breathe!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Tummy Team & Working Together 🫀",
+      "text": "In our abdomen, the stomach, liver, kidneys, and intestines digest food and clean waste! All organs work together as a team to keep us healthy and strong!",
+      "emoji": "🩺",
+      "bgColor": "from-indigo-400 to-purple-500",
+      "spoken": "In our abdomen, the stomach, liver, kidneys, and intestines digest food and clean waste! All organs work together as a team to keep us healthy and strong!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which of these is a true characteristic of LIVING things?",
+      "answer": "They grow, need food, breathe, and reproduce",
+      "options": [
+        "They grow, need food, breathe, and reproduce",
+        "They stay the exact same size forever",
+        "They never need water or food"
+      ],
+      "hint": "Think about what you, puppies, and plants do every day! Do living things grow and breathe?",
+      "misconception": "Living things grow, need food and water, breathe, and reproduce! Non-living things like stones do none of these.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "They grow, need food, breathe, and reproduce",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "They stay the exact same size forever",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "They never need water or food",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "They stay the exact same size forever",
+          "They grow, need food, breathe, and reproduce"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each object! Is it Living or Non-Living?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Living things grow and breathe (Tree, Puppy, Seed). Non-living things do not (Stone, Chair, Pencil)!",
+      "misconception": "Remember: a dry seed is LIVING in a dormant stage! Stones and chairs are non-living because they do not grow or breathe.",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tree",
+            "label": "Mango Tree",
+            "correctBin": "living"
+          },
+          {
+            "id": "puppy",
+            "label": "Puppy",
+            "correctBin": "living"
+          },
+          {
+            "id": "seed",
+            "label": "Dry Seed",
+            "correctBin": "living"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tree",
+          "kind": "circle",
+          "label": "Mango Tree",
+          "x": 0.14285714285714285,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "living",
+          "interaction": "drag-to-bin",
+          "targetBin": "living"
+        },
+        {
+          "id": "puppy",
+          "kind": "circle",
+          "label": "Puppy",
+          "x": 0.2857142857142857,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "living",
+          "interaction": "drag-to-bin",
+          "targetBin": "living"
+        },
+        {
+          "id": "seed",
+          "kind": "circle",
+          "label": "Dry Seed",
+          "x": 0.42857142857142855,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "living",
+          "interaction": "drag-to-bin",
+          "targetBin": "living"
+        },
+        {
+          "id": "stone",
+          "kind": "circle",
+          "label": "Stone",
+          "x": 0.5714285714285714,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "nonliving",
+          "interaction": "drag-to-bin",
+          "targetBin": "nonliving"
+        },
+        {
+          "id": "chair",
+          "kind": "circle",
+          "label": "Chair",
+          "x": 0.7142857142857142,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "nonliving",
+          "interaction": "drag-to-bin",
+          "targetBin": "nonliving"
+        },
+        {
+          "id": "pencil",
+          "kind": "circle",
+          "label": "Pencil",
+          "x": 0.8571428571428571,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "nonliving",
+          "interaction": "drag-to-bin",
+          "targetBin": "nonliving"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tree",
+          "label": "Mango Tree",
+          "emoji": "",
+          "correctBin": "living"
+        },
+        {
+          "id": "puppy",
+          "label": "Puppy",
+          "emoji": "",
+          "correctBin": "living"
+        },
+        {
+          "id": "seed",
+          "label": "Dry Seed",
+          "emoji": "",
+          "correctBin": "living"
+        },
+        {
+          "id": "stone",
+          "label": "Stone",
+          "emoji": "",
+          "correctBin": "nonliving"
+        },
+        {
+          "id": "chair",
+          "label": "Chair",
+          "emoji": "",
+          "correctBin": "nonliving"
+        },
+        {
+          "id": "pencil",
+          "label": "Pencil",
+          "emoji": "",
+          "correctBin": "nonliving"
+        }
+      ],
+      "bins": [
+        {
+          "id": "living",
+          "label": "Living Things 🌱",
+          "color": "#22C55E"
+        },
+        {
+          "id": "nonliving",
+          "label": "Non-Living Things 🪨",
+          "color": "#64748B"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "A dry chana seed looks lifeless on a table. Why is it classified as LIVING?",
+      "answer": "It is in a dormant stage and sprouts when given moisture, warmth, and air",
+      "options": [
+        "It is in a dormant stage and sprouts when given moisture, warmth, and air",
+        "It is actually non-living until you paint it",
+        "It moves around the room at night"
+      ],
+      "hint": "Think about what happens when you soak a seed in wet cotton. Does it wake up?",
+      "misconception": "A dry seed is LIVING but in a dormant (resting) stage! When given moisture, warmth, and air, it germinates and grows into a seedling.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "It is in a dormant stage and sprouts when given moisture, warmth, and air",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "It is actually non-living until you paint it",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "It moves around the room at night",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "It is actually non-living until you paint it",
+          "It is in a dormant stage and sprouts when given moisture, warmth, and air"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each life process to match its correct example!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Growth = puppy to dog. Breathing = fish with gills. Reproduction = hen laying eggs. Response = plant bending to sun.",
+      "misconception": "Every living thing shows specific life processes: growth, breathing, reproduction, and response to stimuli!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "growth",
+            "label": "Puppy grows to dog",
+            "correctBin": "growth-bin"
+          },
+          {
+            "id": "breathe",
+            "label": "Fish uses gills",
+            "correctBin": "breathe-bin"
+          },
+          {
+            "id": "repro",
+            "label": "Hen lays eggs",
+            "correctBin": "repro-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "growth",
+          "kind": "circle",
+          "label": "Puppy grows to dog",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "growth-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "growth-bin"
+        },
+        {
+          "id": "breathe",
+          "kind": "circle",
+          "label": "Fish uses gills",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "breathe-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "breathe-bin"
+        },
+        {
+          "id": "repro",
+          "kind": "circle",
+          "label": "Hen lays eggs",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "repro-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "repro-bin"
+        },
+        {
+          "id": "stimuli",
+          "kind": "leaf",
+          "label": "Plant bends to light",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "stimuli-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "stimuli-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "growth",
+          "label": "Puppy grows to dog",
+          "emoji": "",
+          "correctBin": "growth-bin"
+        },
+        {
+          "id": "breathe",
+          "label": "Fish uses gills",
+          "emoji": "",
+          "correctBin": "breathe-bin"
+        },
+        {
+          "id": "repro",
+          "label": "Hen lays eggs",
+          "emoji": "",
+          "correctBin": "repro-bin"
+        },
+        {
+          "id": "stimuli",
+          "label": "Plant bends to light",
+          "emoji": "",
+          "correctBin": "stimuli-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "growth-bin",
+          "label": "Growth 📈",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "breathe-bin",
+          "label": "Breathing 💨",
+          "color": "#06B6D4"
+        },
+        {
+          "id": "repro-bin",
+          "label": "Reproduction 🥚",
+          "color": "#EC4899"
+        },
+        {
+          "id": "stimuli-bin",
+          "label": "Stimuli ☀️",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Where is the BRAIN located in the human body?",
+      "answer": "Inside the head, protected by the skull",
+      "options": [
+        "Inside the head, protected by the skull",
+        "Inside the chest next to the heart",
+        "Inside the stomach in the abdomen"
+      ],
+      "hint": "Where do you feel your thoughts? The control centre is right at the top inside a bony helmet!",
+      "misconception": "The brain is located inside the HEAD, protected by the skull! It acts as the body control centre for thinking and movement.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Inside the head, protected by the skull",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Inside the chest next to the heart",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Inside the stomach in the abdomen",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Inside the chest next to the heart",
+          "Inside the head, protected by the skull"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each internal organ to its correct region and function!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Head = Brain. Chest = Heart & Lungs. Abdomen = Stomach, Liver, Kidneys, Intestines!",
+      "misconception": "Remember: Heart and lungs are in the CHEST. Stomach, liver, kidneys, and intestines are in the ABDOMEN below the chest!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "brain",
+            "label": "Brain (Head)",
+            "correctBin": "head-bin"
+          },
+          {
+            "id": "heart",
+            "label": "Heart (Chest)",
+            "correctBin": "chest-bin"
+          },
+          {
+            "id": "lungs",
+            "label": "Lungs (Chest)",
+            "correctBin": "chest-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "brain",
+          "kind": "circle",
+          "label": "Brain (Head)",
+          "x": 0.14285714285714285,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "head-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "head-bin"
+        },
+        {
+          "id": "heart",
+          "kind": "circle",
+          "label": "Heart (Chest)",
+          "x": 0.2857142857142857,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "chest-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "chest-bin"
+        },
+        {
+          "id": "lungs",
+          "kind": "circle",
+          "label": "Lungs (Chest)",
+          "x": 0.42857142857142855,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "chest-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "chest-bin"
+        },
+        {
+          "id": "stomach",
+          "kind": "circle",
+          "label": "Stomach (Abdomen)",
+          "x": 0.5714285714285714,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "abdomen-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "abdomen-bin"
+        },
+        {
+          "id": "liver",
+          "kind": "circle",
+          "label": "Liver (Abdomen)",
+          "x": 0.7142857142857142,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "abdomen-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "abdomen-bin"
+        },
+        {
+          "id": "kidneys",
+          "kind": "circle",
+          "label": "Kidneys (Abdomen)",
+          "x": 0.8571428571428571,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "abdomen-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "abdomen-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "brain",
+          "label": "Brain (Head)",
+          "emoji": "",
+          "correctBin": "head-bin"
+        },
+        {
+          "id": "heart",
+          "label": "Heart (Chest)",
+          "emoji": "",
+          "correctBin": "chest-bin"
+        },
+        {
+          "id": "lungs",
+          "label": "Lungs (Chest)",
+          "emoji": "",
+          "correctBin": "chest-bin"
+        },
+        {
+          "id": "stomach",
+          "label": "Stomach (Abdomen)",
+          "emoji": "",
+          "correctBin": "abdomen-bin"
+        },
+        {
+          "id": "liver",
+          "label": "Liver (Abdomen)",
+          "emoji": "",
+          "correctBin": "abdomen-bin"
+        },
+        {
+          "id": "kidneys",
+          "label": "Kidneys (Abdomen)",
+          "emoji": "",
+          "correctBin": "abdomen-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "head-bin",
+          "label": "Head 🧠",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "chest-bin",
+          "label": "Chest ❤️",
+          "color": "#EF4444"
+        },
+        {
+          "id": "abdomen-bin",
+          "label": "Abdomen 🫀",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which internal organ PUMPS BLOOD to every part of the body?",
+      "answer": "The heart",
+      "options": [
+        "The heart",
+        "The lungs",
+        "The stomach"
+      ],
+      "hint": "It is a strong, fist-sized muscle beating inside your left chest!",
+      "misconception": "The heart pumps blood! The lungs help us breathe air, and the stomach digests food. Each organ has its own special job.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "The heart",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The lungs",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The stomach",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "The lungs",
+          "The heart"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each body part! Is it an Internal Organ or External Body Part?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Internal organs are hidden inside (Heart, Brain, Stomach). External parts are on the outside (Eyes, Ears, Skin)!",
+      "misconception": "Internal organs lie safely inside the body protected by bones and skin. External parts like eyes, ears, and hands are on the outside and can be seen directly.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "heart-ext",
+            "label": "Heart",
+            "correctBin": "internal"
+          },
+          {
+            "id": "lungs-ext",
+            "label": "Lungs",
+            "correctBin": "internal"
+          },
+          {
+            "id": "brain-ext",
+            "label": "Brain",
+            "correctBin": "internal"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "heart-ext",
+          "kind": "circle",
+          "label": "Heart",
+          "x": 0.14285714285714285,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "internal",
+          "interaction": "drag-to-bin",
+          "targetBin": "internal"
+        },
+        {
+          "id": "lungs-ext",
+          "kind": "circle",
+          "label": "Lungs",
+          "x": 0.2857142857142857,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "internal",
+          "interaction": "drag-to-bin",
+          "targetBin": "internal"
+        },
+        {
+          "id": "brain-ext",
+          "kind": "circle",
+          "label": "Brain",
+          "x": 0.42857142857142855,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "internal",
+          "interaction": "drag-to-bin",
+          "targetBin": "internal"
+        },
+        {
+          "id": "eyes",
+          "kind": "circle",
+          "label": "Eyes",
+          "x": 0.5714285714285714,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "external",
+          "interaction": "drag-to-bin",
+          "targetBin": "external"
+        },
+        {
+          "id": "ears",
+          "kind": "circle",
+          "label": "Ears",
+          "x": 0.7142857142857142,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "external",
+          "interaction": "drag-to-bin",
+          "targetBin": "external"
+        },
+        {
+          "id": "skin",
+          "kind": "circle",
+          "label": "Skin",
+          "x": 0.8571428571428571,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "external",
+          "interaction": "drag-to-bin",
+          "targetBin": "external"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "heart-ext",
+          "label": "Heart",
+          "emoji": "",
+          "correctBin": "internal"
+        },
+        {
+          "id": "lungs-ext",
+          "label": "Lungs",
+          "emoji": "",
+          "correctBin": "internal"
+        },
+        {
+          "id": "brain-ext",
+          "label": "Brain",
+          "emoji": "",
+          "correctBin": "internal"
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "emoji": "",
+          "correctBin": "external"
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "emoji": "",
+          "correctBin": "external"
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "emoji": "",
+          "correctBin": "external"
+        }
+      ],
+      "bins": [
+        {
+          "id": "internal",
+          "label": "Internal Organ 🫀",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "external",
+          "label": "External Part 👀",
+          "color": "#F59E0B"
+        }
+      ]
+    }
+  ],
+  "theme": "garden",
+  "storyArc": {
+    "theme": "A nature lover discovers the world around them",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-garden",
+    "title": "Learning Garden",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_evs_001",
+    "region": "Nature Park",
+    "mapX": 0.9600000000000001,
+    "mapY": 0.9900000000000001,
+    "icon": "🌿",
+    "prerequisites": [
+      "c4_evs_002"
+    ]
+  },
+  "subject": "evs"
+}

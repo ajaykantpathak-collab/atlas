@@ -1,0 +1,732 @@
+{
+  "gameFile": "WindowsWordGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_cs_006",
+    "c3_cs_007",
+    "c3_cs_008"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Welcome to MS Word 2016! 💻",
+      "text": "Microsoft Word 2016 is a word processor! It lets you type, change, and keep your writing in a digital file called a document. No more plain paper — use the keyboard and document area!",
+      "emoji": "📝",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Microsoft Word 2016 is a word processor! It lets you type, change, and keep your writing in a digital file called a document.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Create",
+            "Edit",
+            "Format",
+            "Save"
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Word Window Interface 🗂️",
+      "text": "At the top is the Title Bar showing your document name and window buttons. Below it is the Ribbon, a toolbar full of tabs and commands. The big white space is the Document Area where the blinking cursor sits!",
+      "emoji": "🖥️",
+      "bgColor": "from-indigo-500 to-purple-600",
+      "spoken": "At the top is the Title Bar showing your document name. Below it is the Ribbon toolbar. The big white space is the Document Area where the blinking cursor sits!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Create",
+            "Edit",
+            "Format",
+            "Save"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Formatting Text — Make it Stand Out! ✨",
+      "text": "Formatting changes how text looks! Make words Bolder with B, slanted with Italic (I), underlined with U, change Font Size to be bigger, and pick wonderful Text Colours!",
+      "emoji": "🎨",
+      "bgColor": "from-purple-500 to-pink-600",
+      "spoken": "Formatting changes how text looks! Make words bold with B, slanted with italic, underlined with U, change font size, and pick wonderful text colours!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Saving Your Work — Keep it Safe! 💾",
+      "text": "Never close Word without saving! Press Ctrl+S or click the Save button. Give your file a clear name like My_School_Essay. Word adds .docx automatically so you can find it on your desktop later!",
+      "emoji": "📂",
+      "bgColor": "from-emerald-500 to-teal-600",
+      "spoken": "Never close Word without saving! Press Control S or click the Save button. Give your file a clear name so you can find it on your desktop later!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Opening Saved Documents 🔍",
+      "text": "Once saved, your file sits on the desktop like a notebook on a study table with a blue W icon. Double-click it anytime to open Word and continue your wonderful writing!",
+      "emoji": "📖",
+      "bgColor": "from-teal-500 to-cyan-600",
+      "spoken": "Once saved, your file sits on the desktop with a blue icon. Double-click it anytime to open Word and continue your wonderful writing!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_use",
+      "question": "What is the main purpose of MS Word 2016?",
+      "answer": "Typing and formatting text documents",
+      "options": [
+        "Typing and formatting text documents",
+        "Drawing pictures with pencil and brush",
+        "Playing racing video games"
+      ],
+      "hint": "Think: do you draw in Word or write stories and reports?",
+      "misconception": "MS Word is a word processor designed for typing, editing, and formatting text documents! Drawing pictures belongs in MS Paint, not Word!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Typing and formatting text documents",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Drawing pictures with pencil and brush",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Playing racing video games",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Drawing pictures with pencil and brush",
+          "Typing and formatting text documents"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_cursor",
+      "question": "Where does your typed text appear when you press keys in MS Word?",
+      "answer": "At the blinking cursor",
+      "options": [
+        "At the blinking cursor",
+        "At the very top of the screen",
+        "On the taskbar"
+      ],
+      "hint": "Look for the blinking vertical line inside the white document area.",
+      "misconception": "Text always appears exactly where the blinking cursor (insertion point) is flashing in the document area! It does not magically appear on the taskbar!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "At the blinking cursor",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "At the very top of the screen",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "On the taskbar",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "At the very top of the screen",
+          "At the blinking cursor"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort_interface",
+      "question": "Drag each part of the MS Word window to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Title bar shows file name, Ribbon holds commands, Document area is for typing!",
+      "misconception": "Make sure you match each part correctly: Title bar shows document name, Ribbon holds tabbed commands, and Document area is your blank typing page!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Title bar shows file name, Ribbon holds commands, Document area is for typing!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "title",
+          "kind": "circle",
+          "label": "Title Bar",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-title",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-title"
+        },
+        {
+          "id": "ribbon",
+          "kind": "circle",
+          "label": "Ribbon",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ribbon",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ribbon"
+        },
+        {
+          "id": "doc-area",
+          "kind": "circle",
+          "label": "Document Area",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-doc",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-doc"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "title",
+          "label": "Title Bar",
+          "emoji": "",
+          "correctBin": "bin-title"
+        },
+        {
+          "id": "ribbon",
+          "label": "Ribbon",
+          "emoji": "",
+          "correctBin": "bin-ribbon"
+        },
+        {
+          "id": "doc-area",
+          "label": "Document Area",
+          "emoji": "",
+          "correctBin": "bin-doc"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-title",
+          "label": "Shows file name & window buttons 🏷️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-ribbon",
+          "label": "Tabbed toolbar with commands 🛠️",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "bin-doc",
+          "label": "Large white space to type text 📄",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify_bold",
+      "question": "Which button on the Home tab makes selected text thicker and darker?",
+      "answer": "The B (Bold) button",
+      "options": [
+        "The B (Bold) button",
+        "The I (Italic) button",
+        "The U (Underline) button"
+      ],
+      "hint": "Think of the letter that stands for Bold!",
+      "misconception": "The Bold button (B) makes text thicker and darker! Italic (I) slants text to the right, and Underline (U) draws a line beneath it!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "The B (Bold) button",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The I (Italic) button",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The U (Underline) button",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "The I (Italic) button",
+          "The B (Bold) button"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_formatting",
+      "question": "Drag each formatting tool to what it does to your text!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Bold makes text thick, Italic slants text, Underline puts a line underneath!",
+      "misconception": "Review your formatting tools carefully: Bold makes letters thick and dark, Italic slants them rightward, and Underline puts a neat line under them!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. Bold makes text thick, Italic slants text, Underline puts a line underneath!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "bold-tool",
+          "kind": "circle",
+          "label": "Bold (B)",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-bold",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-bold"
+        },
+        {
+          "id": "italic-tool",
+          "kind": "circle",
+          "label": "Italic (I)",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-italic",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-italic"
+        },
+        {
+          "id": "underline-tool",
+          "kind": "circle",
+          "label": "Underline (U)",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-underline",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-underline"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "bold-tool",
+          "label": "Bold (B)",
+          "emoji": "",
+          "correctBin": "bin-bold"
+        },
+        {
+          "id": "italic-tool",
+          "label": "Italic (I)",
+          "emoji": "",
+          "correctBin": "bin-italic"
+        },
+        {
+          "id": "underline-tool",
+          "label": "Underline (U)",
+          "emoji": "",
+          "correctBin": "bin-underline"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-bold",
+          "label": "Makes text thicker & darker 🔠",
+          "color": "#EF4444"
+        },
+        {
+          "id": "bin-italic",
+          "label": "Makes text slant to the right ↗️",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-underline",
+          "label": "Draws a line underneath text 🔗",
+          "color": "#3B82F6"
+        }
+      ]
+    },
+    {
+      "type": "identify_save",
+      "question": "What must you do before closing Word so your typed story is not lost?",
+      "answer": "Save the document",
+      "options": [
+        "Save the document",
+        "Just close the window",
+        "Turn off computer power"
+      ],
+      "hint": "Remember: unsaved work lives only in temporary memory and vanishes when closed!",
+      "misconception": "You MUST save your document before closing! If you close without saving, all your typing is permanently lost because RAM is temporary memory!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Save the document",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Just close the window",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Turn off computer power",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Save the document",
+          "Just close the window"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_save_steps",
+      "question": "Drag the correct steps to save a Word file in order (1 to 3)!",
+      "answer": "sort",
+      "options": [],
+      "hint": "First press Save, then type a name, then click final Save!",
+      "misconception": "Saving order matters: 1. Click Save (or Ctrl+S), 2. Type a clear file name, 3. Click Save button in the dialog box!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. First press Save, then type a name, then click final Save!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "step-1",
+          "kind": "circle",
+          "label": "1. Click Save / Ctrl+S",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-step1",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-step1"
+        },
+        {
+          "id": "step-2",
+          "kind": "circle",
+          "label": "2. Type file name",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-step2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-step2"
+        },
+        {
+          "id": "step-3",
+          "kind": "circle",
+          "label": "3. Click Save button",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-step3",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-step3"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "step-1",
+          "label": "1. Click Save / Ctrl+S",
+          "emoji": "",
+          "correctBin": "bin-step1"
+        },
+        {
+          "id": "step-2",
+          "label": "2. Type file name",
+          "emoji": "",
+          "correctBin": "bin-step2"
+        },
+        {
+          "id": "step-3",
+          "label": "3. Click Save button",
+          "emoji": "",
+          "correctBin": "bin-step3"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-step1",
+          "label": "Step 1: Open Save command 💾",
+          "color": "#6366F1"
+        },
+        {
+          "id": "bin-step2",
+          "label": "Step 2: Enter file name ⌨️",
+          "color": "#EC4899"
+        },
+        {
+          "id": "bin-step3",
+          "label": "Step 3: Confirm & save file ✅",
+          "color": "#14B8A6"
+        }
+      ]
+    },
+    {
+      "type": "sort_save_open",
+      "question": "Drag each action to either Saving or Opening a document!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Ctrl+S is for saving, double-clicking desktop icon is for opening!",
+      "misconception": "Saving stores your work permanently on the disk (Ctrl+S), while Opening loads a saved file back into Word so you can read and edit it again!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Ctrl+S is for saving, double-clicking desktop icon is for opening!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "act-ctrls",
+          "kind": "circle",
+          "label": "Press Ctrl+S",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-save",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-save"
+        },
+        {
+          "id": "act-open",
+          "kind": "circle",
+          "label": "Double-click icon",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-open",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-open"
+        },
+        {
+          "id": "act-name",
+          "kind": "circle",
+          "label": "Type file name",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-save",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-save"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "act-ctrls",
+          "label": "Press Ctrl+S",
+          "emoji": "",
+          "correctBin": "bin-save"
+        },
+        {
+          "id": "act-open",
+          "label": "Double-click icon",
+          "emoji": "",
+          "correctBin": "bin-open"
+        },
+        {
+          "id": "act-name",
+          "label": "Type file name",
+          "emoji": "",
+          "correctBin": "bin-save"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-save",
+          "label": "Saving a Document 💾",
+          "color": "#22C55E"
+        },
+        {
+          "id": "bin-open",
+          "label": "Opening a Document 📂",
+          "color": "#3B82F6"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A tech-savvy kid learns how computers work",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-structure",
+    "title": "Computer Tower",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_cs_006",
+    "region": "Tech City",
+    "mapX": 0.38,
+    "mapY": 0.67,
+    "icon": "💻",
+    "prerequisites": [
+      "c3_cs_007"
+    ]
+  },
+  "subject": "cs"
+}

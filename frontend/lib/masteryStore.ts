@@ -26,9 +26,74 @@ export interface MasteryData {
 // ─── Constants ────────────────────────────────────────────────
 
 const STORAGE_KEY = 'atlas_mastery'
+const PENDING_KEY = 'atlas_pending_sync'
 const MASTERY_THRESHOLD = 0.7       // 70% to be "mastered"
 const REVIEW_INTERVAL = 7 * 24 * 60 * 60 * 1000  // 7 days for spaced review
 const IN_PROGRESS_THRESHOLD = 0.15   // Played but not mastered
+
+// ─── Backend sync (fire-and-forget, offline-queued) ───────────
+// localStorage stays the fast cache; this pushes each result to the
+// server so progress survives device/browser changes.
+
+interface PendingResult {
+  attemptId: string
+  nodeIds: string[]
+  score: number
+  simId?: string
+  ts: number
+}
+
+function pendingQueue(): PendingResult[] {
+  try {
+    return JSON.parse(localStorage.getItem(PENDING_KEY) || '[]')
+  } catch {
+    return []
+  }
+}
+
+function savePending(q: PendingResult[]): void {
+  try {
+    localStorage.setItem(PENDING_KEY, JSON.stringify(q))
+  } catch {}
+}
+
+async function postSimResult(r: PendingResult): Promise<boolean> {
+  try {
+    const { getAuthToken } = await import('./api')
+    const token = getAuthToken()
+    if (!token) return false
+    const base = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'
+    const res = await fetch(`${base}/api/progress/sim-result`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({
+        node_ids: r.nodeIds,
+        score: r.score,
+        sim_id: r.simId,
+        attempt_id: r.attemptId,
+      }),
+      signal: AbortSignal.timeout(8000),
+    })
+    return res.ok
+  } catch {
+    return false
+  }
+}
+
+/** Flush queued results — called on load and after each new result. */
+export async function syncPendingResults(): Promise<void> {
+  if (typeof window === 'undefined') return
+  const q = pendingQueue()
+  if (q.length === 0) return
+  const remaining: PendingResult[] = []
+  for (const r of q) {
+    if (!(await postSimResult(r))) remaining.push(r)
+  }
+  savePending(remaining)
+}
 
 // ─── Storage helpers ──────────────────────────────────────────
 
@@ -127,6 +192,19 @@ export function recordGameScore(nodeIds: string | readonly string[], score: numb
   // Recompute total stars (1 star per mastered node)
   data.totalStars = Object.values(data.nodes).filter(n => n.mastery >= MASTERY_THRESHOLD).length
   saveData(data)
+
+  // ── Server sync (best-effort) ──────────────────────────────
+  const result: PendingResult = {
+    attemptId: `${now}-${Math.random().toString(36).slice(2, 9)}`,
+    nodeIds: [...ids],
+    score,
+    ts: now,
+  }
+  const q = pendingQueue()
+  q.push(result)
+  savePending(q)
+  // fire-and-forget — sync flushes the queue incl. this attempt
+  void syncPendingResults()
 }
 
 /**

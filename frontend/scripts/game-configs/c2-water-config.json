@@ -1,0 +1,38 @@
+{
+  "gameTitle": "WaterGame",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class2\\WaterGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\chem\\enrichment\\c2_chemistry_enrichment_part1.marker",
+    "D:\\cisce\\chem\\enrichment\\c2_chemistry_enrichment_part2.marker",
+    "D:\\cisce\\chem\\enrichment\\c2_chemistry_enrichment_part3.marker",
+    "D:\\cisce\\chem\\enrichment\\c2_chemistry_enrichment_part4.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c2_chem_001 (Storage of water), c2_chem_002 (Simple properties of water), c2_chem_003 (Water conservation), c2_chem_004 (Vessels and containers for water storage)",
+  "mascotName": "Jalwala Jaya",
+  "mascotDescription": "a friendly water conservation officer with a blue uniform, a water drop badge, a clipboard, and a blue cap. Custom SVG, not an owl.",
+  "sceneDescription": "water scene with sky gradient, a river, a water tap, clay pots and steel containers, and a water tank",
+  "svgObjects": [
+    { "name": "WaterDropIcon", "description": "a blue water drop" },
+    { "name": "ClayPotIcon", "description": "a traditional clay pot (matka) for storing water" },
+    { "name": "SteelContainerIcon", "description": "a steel water container" },
+    { "name": "BottleIcon", "description": "a water bottle" },
+    { "name": "BucketIcon", "description": "a bucket of water" },
+    { "name": "TapIcon", "description": "a water tap with drops" },
+    { "name": "RiverIcon", "description": "a flowing river" },
+    { "name": "ClosedTapIcon", "description": "a closed tap (saving water)" },
+    { "name": "LeakingTapIcon", "description": "a leaking tap (wasting water)" },
+    { "name": "RainIcon", "description": "rain falling from clouds" }
+  ],
+  "challengeTypes": [
+    "identify: What colour is pure water? (No colour vs Blue vs White — water has no colour)",
+    "identify: What does pure water taste like? (No taste vs Sweet vs Salty — water has no taste)",
+    "identify: What does pure water smell like? (No smell vs Fragrant vs Bad — water has no smell)",
+    "sort: Drag vessels to the right use (Drinking: clay pot, steel glass, bottle | Bathing: bucket, mug | Cooking: steel pot, pan | Storing large: water tank, drum)",
+    "identify: Which tap is WASTING water? (Leaking tap vs Closed tap vs No tap)",
+    "sort: Drag actions to Save Water vs Waste Water (Save: close tap while brushing, fix leaking tap, use bucket for bath, collect rainwater | Waste: leave tap open, use shower for long time, wash one dish at a time under running tap, ignore leaking tap)",
+    "identify: Why should we store water in a CLAY POT? (It keeps water cool and safe vs It makes water colourful vs It makes water sweet)",
+    "sort: Drag water sources to their type (Natural: river, rain, lake, well, pond | Man-made: tap, water tank, bottle, bucket, water cooler)"
+  ],
+  "extraInstructions": "IMPORTANT: Do NOT use speechManager.speak() anywhere in the game. Only use audioManager.play() for sound effects. Valid sound effects: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint. The game must teach: (1) Storage of water — water is stored in clay pots (matka), steel containers, plastic bottles, buckets, drums, water tanks. Clay pots keep water cool naturally. Water should be covered to keep dust and germs out. (2) Simple properties of water — pure water has no colour, no taste, no smell. Water is transparent (we can see through it). Water takes the shape of the container it is in. Water flows from high to low. (3) Water conservation — close taps while brushing teeth, fix leaking taps, use a bucket instead of a shower for bathing, collect rainwater, do not waste water while washing dishes. (4) Vessels and containers — clay pot (matka) for cool drinking water, steel container for kitchen, plastic bottle for carrying, bucket for bathing, water tank for storing large amounts. Misconceptions: 'water is blue' (pure water has no colour, the sea looks blue because of the sky reflection), 'water has taste' (pure water has no taste, if water tastes different it has something mixed in it), 'leaking tap wastes very little water' (a leaking tap can waste many litres of water in a day), 'clay pot makes water dirty' (clay pot keeps water cool and is safe for drinking if cleaned regularly). Default width=720, height=560. Use named export (export function WaterGame), NOT export default. Export interface WaterGameProps with width?, height?, onComplete?: (score: number) => void."
+}

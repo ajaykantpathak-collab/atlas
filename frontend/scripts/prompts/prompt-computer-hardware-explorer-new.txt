@@ -1,0 +1,1127 @@
+You are generating a React/TypeScript simulation component for a CISCE Class 6-8 science learning platform.
+
+TASK: Generate a complete ComputerHardwareExplorerSimulation.tsx component about Computer categories, CPU, RAM, ROM, memory, storage, input/output devices, ports, translators, operating systems.
+
+This is for STRUGGLING students. It must TEACH through interaction, not just decorate.
+
+CRITICAL: You must follow this EXACT template structure from the reference file below. Do NOT deviate from the layout, styling, or component structure. Use Tailwind CSS classes (NOT inline styles). Use the same light theme (white background, slate text, blue accents).
+
+The component MUST have these sections in this order:
+1. HEADER — node ID badge, title, score badge
+2. TABS — 3 tabs: "Simple Explanation (ELI5)", "CS Theory", "Common Misconceptions" with AnimatePresence
+3. MAIN GRID — grid-cols-1 lg:grid-cols-[1fr_320px]:
+   - LEFT: SVG simulation canvas with mode selector buttons + reset button
+   - RIGHT: Live Readouts card (with EDITABLE number inputs that update the simulation) + Controls card (sliders with min/max labels)
+4. PROGRESSIVE CHALLENGES — full width, with formula display, answer input (number/text/mcq), feedback with step-by-step working, check answer button, next button, hint
+5. REAL-WORLD ACTIVITY — full width, textarea for observation, submit button
+
+STRICT REQUIREMENTS:
+- 'use client' at top
+- import React, { useState, useEffect, useRef, useCallback } from 'react'
+- import { motion, AnimatePresence } from 'framer-motion'
+- Export interface with: nodeId?, title?, definition?, eli5?, misconceptions?, diagnosticQuestions?, masteryCriteria?, onComplete?
+- misconceptions items: { belief: string; correction: string }
+- diagnosticQuestions items: { number, bloomLevel, question, answer, answerType ('number'|'text'|'mcq'), unit?, formula?, working?, options?, hint? }
+- Default props MUST use the REAL enrichment data provided below — use the first node's definition, eli5, misconceptions, and masteryCriteria
+- 3 progressive challenges: recall -> apply -> evaluate
+- Each challenge MUST require interacting with the simulation
+- Each challenge MUST show formula, working (step-by-step), and meaningful feedback
+- Live readouts MUST be editable <input type="number"> fields that update the simulation when typed into
+- Sliders MUST have min/max explanatory labels
+- Reset button to restore defaults
+- SVG must show a topic-specific interactive visualization with animated elements
+- Mode selector buttons for different aspects of the topic
+- All Tailwind classes, NO inline styles except for SVG attributes
+- Must compile with TypeScript (no 'any' types, no unused imports, no LaTeX in JSX)
+- Target 700-900 lines
+- Do NOT use LaTeX notation like \\frac — use plain text like (a/b)
+
+CHALLENGE DESIGN:
+- Derive the 3 challenges from the enrichment diagnostic questions below
+- Convert essay-style questions into interactive challenges that require using the simulation
+- Challenge 1 (recall): Ask the student to set a value in the simulation and read a readout. Numeric answer.
+- Challenge 2 (apply): Give a calculation problem based on the topic. Show formula, provide values, student calculates. Numeric answer with unit.
+- Challenge 3 (evaluate): Ask student to change something in the simulation and explain what happens. Text answer.
+- Each challenge's "working" field must show step-by-step solution
+- Each challenge's "hint" must guide the student to use the simulation
+
+Here is the REAL ENRICHMENT DATA for this topic. Use the first node's content for the default props (definition, eli5, misconceptions, masteryCriteria). Derive challenges from the diagnostic questions:
+
+--- ENRICHMENT DATA ---
+[
+  {
+    "nodeId": "c6_cs_001",
+    "title": "Categories of computers - micro, mini, mainframe, supercomputer",
+    "definition": "The term \"categories of computers\" refers to the way we group computing machines according to their physical size, processing power, number of simultaneous users, and the kind of work they are built to do. The four main categories you will study at this level are microcomputers, minicomputers, mainframe computers, and supercomputers. Each step up in this list generally means a larger machine, faster processing, more memory, and the ability to serve more people or solve harder problems.\r\n\r\nA microcomputer is the smallest and most familiar category. It is built around a microprocessor, which is a complete central processing unit placed on a single chip. Personal computers or PCs that you see in homes, schools, and small offices, laptops that students carry in their bags, tablets, and even the tiny chips inside smartwatches are all microcomputers. Because they are small and affordable, one person or a very small group usually uses a microcomputer at a time. A desktop PC used for writing assignments or a laptop used for online classes in a school in Kolkata or Bengaluru is a perfect example.\r\n\r\nA minicomputer, also called a mid-range server, is bigger and more powerful than a microcomputer. It is designed to support a small group of users working together, often in the same department of an office or a small organisation. Several people can use a minicomputer at the same time through connected terminals. It is commonly used for tasks such as handling a college admission database, managing a small factory's inventory, or running a local bank branch's internal network. In Indian contexts, regional offices of public sector companies or mid-sized hospitals might use minicomputers to share data among their staff.\r\n\r\nA mainframe computer is a much larger and very powerful machine that can serve hundreds or even thousands of users at the same time. Banks, airlines, railway reservation systems, insurance companies, and government departments use mainframes because these organisations must process enormous numbers of transactions quickly and reliably. For example, the Indian Railways reservation system and many nationalised banks in India use mainframe technology to handle ticket bookings, account balances, and money transfers across the country without crashing under heavy load.\r\n\r\nA supercomputer is the most powerful category. It is built to perform billions, or even trillions, of calculations every second. Scientists and engineers use supercomputers for weather forecasting, climate research, space exploration, nuclear simulations, oil exploration, and complex engineering design. India has several important supercomputers, including PARAM, which was developed by the Centre for Development of Advanced Computing in Pune, and Pratyush, which is used for weather and climate forecasting by the Indian Institute of Tropical Meteorology in Pune. These machines are often room-sized, consume large amounts of electricity, and need special cooling systems to prevent overheating.\r\n\r\nThe key idea is that computers are not all the same. Just as we classify vehicles into bicycles, scooters, cars, buses, and aeroplanes, we classify computers into micro, mini, mainframe, and supercomputers based on their scale and strength.",
+    "textWalkthrough": "Before we begin, let us remember what you already learned in the earlier node c5_cs_004. There, you studied the characteristics, advantages, and limitations of computers. You understood that every computer works with speed, accuracy, storage, and processing power, but each computer also has limits on how much it can do. That knowledge is the foundation of today's lesson because the categories micro, mini, mainframe, and supercomputer are simply groups of computers with different levels of these very characteristics. The direct prerequisite c5_cs_003 also asked you to think about the processing power, storage capacity, speed, and user scale of computers, and now we will use those ideas to sort computers into a hierarchy.\r\n\r\nLet us start with a question. Have you ever noticed that a wristwatch, a school laptop, a college office computer, a bank's large machine room, and the giant computers used by scientists all look and work very differently? They are all computers, yet the watch can only show time and count your steps, while the room-sized machine can predict the monsoon. Why do we call them all \"computers\" if they are so different? The answer is that they belong to different categories of computers.\r\n\r\nThe first category is the microcomputer. Think of this as a personal assistant. It is small, cheap, and meant for one person or a very small number of people. A personal computer in your home, a laptop in your school bag, and the tiny chip inside a smartwatch are all microcomputers. A good example in India is the desktop PC you might see in a government school's computer lab or a low-cost laptop used for online study. A bad example would be calling a bank's huge machine a microcomputer; that would be wrong because the bank machine must serve thousands of people at the same time, which a microcomputer cannot do.\r\n\r\nNext comes the minicomputer. Imagine a small team working together in a department. They need one computer that all of them can share. That is a minicomputer. It is more powerful than a microcomputer and can support several users together. In an Indian setting, the computer network in a district hospital that stores patient records for a few dozen doctors and nurses, or the system in a small college office handling admissions, could be called a minicomputer. A bad example would be calling a single student's laptop a minicomputer, because a laptop is only meant for one or two people, not a team.\r\n\r\nThen we have the mainframe computer. This is like the company server. Hundreds or even thousands of people can use a mainframe at the same time. Banks, airlines, and railway reservation systems are classic users. In India, the computerized reservation system of Indian Railways and the core banking systems used by State Bank of India or other large banks are mainframe examples. A bad example here would be saying that the computer in a small shop is a mainframe. That small computer cannot serve thousands of users or process millions of transactions every day.\r\n\r\nFinally, the supercomputer is the giant brain of the computer world. It can do billions of calculations per second and is used for weather forecasting, space research, and scientific discovery. PARAM and Pratyush in Pune are well-known Indian supercomputers. Supercomputers are not used for typing essays or watching videos; they are used for problems that would take ordinary computers years to solve. A bad example would be saying your smartphone is a supercomputer. Smartphones are powerful microcomputers, but they cannot predict the weather for the whole country.\r\n\r\nIn the ICSE and ISC board exams, examiners expect you to name the four categories correctly, give one characteristic of each, and give a sensible example. They do not want vague answers like \"big computer\" or \"small computer.\" Instead, they look for terms such as personal computer, server, and processing power. Always remember to connect size, speed, user scale, and real-life Indian examples in your answer.",
+    "eli5": "Computers come in four sizes. Tiny ones for one person are microcomputers, like laptops. Bigger ones for a small team are minicomputers. Huge ones used by banks and railways are mainframes. The biggest and fastest ones that help scientists and weather experts are supercomputers. Each is bigger, faster, and can help more people than the one before it.",
+    "misconceptionText": "Misconception 1: Students often confuse category names with brand names or single features. Some candidates write answers that mix up \"mainframe\" with \"microprocessor\" because both words begin with \"micro\" or \"main.\" In the CISCE PPA data, examiners have noticed that students sometimes produce technically wrong placements or groupings in questions that require classification. Correction: A microcomputer is a full machine for one user, like a PC; a mainframe is a huge shared machine for hundreds of users. Keep the two names completely separate by counting users and size.\r\n\r\nMisconception 2: Many students think size is the only way to classify. They may say, \"A laptop is a microcomputer only because it is small,\" but forget processing power and user count. PPA examiner comments frequently point out that students do not understand the formation of proper groups and include redundant or incorrect groupings. Correction: Size is only one factor. Processing power, number of users, and the type of work also matter. For example, a smartphone is small but is still a microcomputer, while a supercomputer is room-sized because it does complex calculations.\r\n\r\nMisconception 3: Some students believe a supercomputer is just a faster personal computer. They think any fast gaming PC is a supercomputer. PPA comments show that students sometimes mishandle the logic of scale and incorrectly apply ideas from one type to another. Correction: Supercomputers perform billions of calculations per second for huge scientific tasks like weather forecasting and space research. A fast gaming PC is still a microcomputer because it is designed for one user at a time.",
+    "diagnosticText": "Q1 (recall): Name the four categories of computers and give one example of each.\r\nAnswer: The four categories of computers are microcomputers, minicomputers, mainframes, and supercomputers. A microcomputer is a small computer designed for one person or a very small group. Examples include personal computers, laptops, tablets, and the chips inside smartwatches. A minicomputer is a mid-sized machine that supports a small team or department of users. An example is the server in a college admission office that handles student records for several staff members together. A mainframe computer is a large, powerful machine that can serve hundreds or thousands of users at the same time. An example is the computer system used by Indian Railways for ticket reservations or the core banking system used by nationalised banks to manage customer accounts. A supercomputer is the most powerful category, capable of performing billions of calculations per second for complex scientific and research work. Examples include PARAM and Pratyush in India, which are used for scientific and weather forecasting tasks.\r\n\r\nQ2 (reasoning): Why is a mainframe computer used by a large bank instead of a microcomputer?\r\nAnswer: A mainframe computer is used by a large bank instead of a microcomputer because the bank must handle a very large number of customers and transactions at the same time. A microcomputer, such as a personal computer or laptop, is designed for one person or a small group. It does not have enough processing power, memory, or speed to serve thousands of bank employees and millions of customers simultaneously. A mainframe, on the other hand, is built to support hundreds or thousands of users working together on the same system. It can process thousands of deposits, withdrawals, and money transfers every minute with very high reliability. In a country like India, with millions of bank accounts and huge daily transaction volumes, nationalised banks need the strength and dependability of mainframe computers. Using microcomputers for this work would cause the system to become slow or crash, leading to serious problems for customers and the bank.\r\n\r\nQ3 (evaluate): A student says, \"A smartphone is a supercomputer because it can play games, run maps, and connect to the internet very quickly.\" Do you agree with this statement? Give reasons for your answer, considering both the similarities and the differences between a smartphone and a supercomputer.\r\nAnswer: This statement is not correct. A smartphone is not a supercomputer, although it is a very powerful microcomputer. The argument in favour of the statement is that a smartphone can indeed run maps, play games, connect to the internet, and do many tasks faster than older computers. It has a strong processor, memory, and storage for its small size, and it can do billions of small calculations inside its chip. However, the argument against the statement is much stronger. A supercomputer is built to solve extremely large scientific and research problems, such as predicting the monsoon, designing aircraft, or simulating space missions. Supercomputers can perform thousands of trillions of calculations per second, use special cooling systems, and occupy whole rooms. They are used by many scientists together, not by one person. A smartphone is made for one user at a time and is designed for calling, messaging, browsing, and entertainment. While both have processing power, the scale, purpose, and user count are completely different. Therefore, the student's statement overstates the abilities of a smartphone. The correct view is that a smartphone is an advanced microcomputer, not a supercomputer.\r\n\r\nQ4 (apply): Imagine your school wants to buy a computer for three different purposes: a single teacher's desk for preparing report cards, the school office for keeping records of five hundred students, and the science department for helping researchers study weather patterns. Which category of computer would be suitable for each purpose, and why?\r\nAnswer: For the teacher's desk, a microcomputer such as a desktop PC or laptop would be suitable. The teacher works alone on report cards and does not need a large shared system. A microcomputer is affordable, easy to use, and powerful enough for one person. For the school office, a minicomputer or a small server would be more suitable. The office must store and manage records for five hundred students, and several staff members such as the principal, clerks, and accountants may need to use the system together. A minicomputer can support this small group of users and handle a larger amount of data than a single PC. For the science department that studies weather patterns, a supercomputer would be needed if the work is complex and national in scale, such as predicting rainfall across India. Weather forecasting requires billions of calculations and huge amounts of data, which only a supercomputer like Pratyush in Pune can perform quickly. If the school only wants to teach basic weather concepts, a microcomputer with internet access may be enough, but real research requires a supercomputer.\r\n\r\nQ5 (create): Design a poster or a short presentation for your class that explains the four categories of computers using an everyday analogy. Your analogy should use examples from India.\r\nAnswer: The presentation should begin with a clear title such as \"Categories of Computers: From Bicycle to Aeroplane.\" The first slide can introduce the analogy that computers, like vehicles, come in different sizes for different jobs. The microcomputer can be compared to a bicycle: small, cheap, and meant for one person, such as a student in a school in Delhi using a laptop for homework. The minicomputer can be compared to a shared autorickshaw or a small bus for a group, such as the computer network in a district hospital in Chennai where several nurses and doctors share patient records. The mainframe can be compared to a long-distance train that carries hundreds of passengers at the same time, like the Indian Railways reservation system that serves people all over the country. The supercomputer can be compared to an aeroplane or rocket that covers huge distances and does enormous work, like Pratyush in Pune, which predicts the weather for the whole of India. Each slide should show the category name, size, number of users, an Indian example, and one key task. The final slide should remind classmates that the four categories are micro, mini, mainframe, and supercomputer, and that they differ in size, speed, users, and power.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "The student must be able to name all four categories of computers — microcomputer, minicomputer, mainframe, and supercomputer — in the correct order of increasing size and power, without confusing the names with one another. The student must be able to state at least two distinguishing features of each category, such as physical size, processing power, number of simultaneous users, and typical use, and must give one correct real-life example for each category, preferably an Indian example such as a school laptop, a district hospital server, the Indian Railways reservation system, or PARAM/Pratyush. The student must also be able to classify a given real-world scenario (for example, a bank, a single teacher's desk, a research lab) into the correct category by reasoning about user count and the type of work, rather than by size alone.",
+    "subject": "cs",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_cs_011",
+    "title": "PowerPoint - importing data, hyperlinks, action buttons",
+    "definition": "In this node we take a Microsoft PowerPoint presentation beyond its basic visual look and turn it into a connected, interactive document. The three skills you will master are importing data from other applications, creating hyperlinks, and adding action buttons. Importing data means that information created in another program, most commonly a Microsoft Excel worksheet, can be placed directly on a slide without re-typing it. For example, if a class has recorded the monthly rainfall of Delhi, Mumbai, Chennai and Kolkata in an Excel sheet, that table or its chart can be inserted into PowerPoint either as an embedded object that can still be edited in PowerPoint or as a linked object that stays connected to the original Excel file. A hyperlink is a clickable connection attached to text, a picture, a shape, or any object on a slide. When the viewer clicks the hyperlink during a slide show, PowerPoint can jump to a web page in a browser, open another file, or move to a different slide in the same presentation. This makes the presentation non-linear: instead of watching every slide in order from beginning to end, the audience can choose what to see next. An action button is a special ready-made shape that already contains a hyperlink-like action. Action buttons are found in the Shapes gallery under Action Buttons and include symbols such as Home, Next, Previous, Information, and Return. After drawing the button, the presenter sets the action it performs, most often navigating to another slide, running a program, or playing a sound. All three features work together to make a presentation more informative and interactive. Importing data keeps facts accurate and current, hyperlinks connect slides and the wider web, and action buttons give the viewer a simple way to control the show. In the practical part of this topic you will insert a hyperlink to an external website, link an object to another slide, create an action button for slide navigation, and import a chart from Excel into a slide.",
+    "textWalkthrough": "Let us begin by thinking about what you already know. In node c5_cs_011 you learned to enhance a PowerPoint presentation using inbuilt templates, themes, colour schemes and background colours. You understood that a good presentation is not only about correct information but also about how professional and attractive the slides look. Then, in node c6_cs_010, you moved on to animations and transitions, learning how slides can appear with motion and how objects on a slide can entrance, emphasise or exit with effects. Those skills gave you the idea that a presentation has a visual flow from one slide to the next. Now, in c6_cs_011, we add the next layer: we make the presentation interactive by connecting it to outside data and by letting the viewer decide where to go next.\r\n\r\nThe first new idea is importing data from another application. Imagine you have made a beautiful bar chart in Excel showing the population of four Indian states: Uttar Pradesh, Maharashtra, Bihar and West Bengal. Instead of drawing the chart again in PowerPoint, you can bring it in. Open PowerPoint, go to the slide where you want the chart, then use the Insert tab. Click Object, choose Create from file, and locate the Excel file. If you keep the link option selected, the chart in PowerPoint will update whenever you change the numbers in Excel. This is a linked object. If you do not select the link option, the chart becomes part of the PowerPoint file and is called an embedded object. A good answer in an exam would say, “I can insert an Excel chart by using Insert > Object and choosing the Excel file.” A weak answer might simply say, “Copy and paste the chart,” because copying and pasting sometimes loses the live connection and the examiner wants to see that you know the proper method.\r\n\r\nThe second idea is the hyperlink. A hyperlink is like a bridge. On a slide you might have a text box that says, “Click here to learn more about ISRO.” If you select that text and insert a hyperlink to the ISRO website, then during the slide show the text becomes blue and underlined and a click will open the site. But a hyperlink does not have to go to the internet. It can also link to another slide in the same presentation. Suppose slide 2 is a map of India and slide 8 has information about Tamil Nadu. You can draw a small box over Tamil Nadu on the map and hyperlink it to slide 8. When the viewer clicks that box, the presentation jumps to the Tamil Nadu slide. A strong answer describes both types of link, gives a real Indian example, and explains that the link is tested in Slide Show view. A weak answer only says, “A hyperlink goes to a website,” because it misses the internal slide-to-slide links that are equally important.\r\n\r\nThe third idea is the action button. Action buttons are pre-drawn shapes with built-in commands. You insert one from the Shapes gallery, then the Action Settings dialog box opens automatically. You can set the button to go to the next slide, the previous slide, the first slide, the last slide, or any specific slide number. For example, you might place a “Home” action button on every slide that always returns the viewer to slide 1, or a “Next” button that moves to the next slide. This is especially useful in a classroom presentation where the teacher wants to move around the show without pressing arrow keys. A good student also knows that action buttons can be used to play a sound or run a program, but the most common use in Class 6 is navigation. The difference between a normal hyperlink and an action button is that an action button is a shape with a ready-made command, while a hyperlink is usually attached to text or any object and the user chooses the target.\r\n\r\nWhen the CISCE board asks about this topic, it is usually looking for clear, practical steps. Examiners want to see that you can name the correct menu tabs, describe the difference between a hyperlink and an action button, and explain the advantage of importing a chart from Excel. They also expect you to use the correct vocabulary: hyperlink, action button, import, link, navigate, interactive, Excel, chart and PowerPoint. Keep your answers specific, use Indian examples, and always remember to mention Slide Show view because that is where the interactivity actually works.",
+    "eli5": "Imagine a PowerPoint show is like a storybook. A hyperlink is a magic word you tap to jump to another page or to a website. An action button is a picture-shaped button that takes you to the next or any other page. Importing from Excel is like copying a picture of your graph from another book and putting it into this storybook so the numbers look the same. These tools make your show like a game you can click around.",
+    "misconceptionText": "Misconception 1 — “A hyperlink always opens a website.” CISCE examiners often report that candidates follow the first idea that comes to mind and miss the full requirement. Just as some candidates in the 2024 PPA applied the wrong sorting logic because they did not read the question carefully, many students in PowerPoint think a hyperlink only links to the internet. The correction is that a hyperlink in PowerPoint can link to a web page, another file, an email address, or another slide in the same presentation. You must choose the target after selecting the text or object and opening the Insert Hyperlink dialog.\r\n\r\nMisconception 2 — “Action buttons and hyperlinks are the same thing.” Examiners note that candidates sometimes create extra or unnecessary objects, like the 2025 PPA observation that candidates created three objects instead of two. In PowerPoint, a student may draw a normal shape and type text on it, but forget to set the action. An action button is a special shape from the Shapes > Action Buttons group that opens the Action Settings dialog automatically and is designed for navigation. A normal shape with text is just a decoration unless an action or hyperlink is added to it.\r\n\r\nMisconception 3 — “Copying a chart from Excel is the same as importing it.” Some learners copy the chart and paste it as a picture. This is like the PPA remark that candidates created a new array instead of using the intended method; they deviated from the proper approach. The correction is that importing through Insert > Object, or using the proper paste options, can keep the chart linked to Excel so it updates when the data changes. Pasting as a picture gives only a static image and loses the live data connection.",
+    "diagnosticText": "Q1 (recall): What is a hyperlink in PowerPoint and what are the two main destinations it can link to?\r\nAnswer: A hyperlink in PowerPoint is a clickable connection that you attach to text, a picture, a shape, or any other object on a slide. When the presentation is viewed in Slide Show view, clicking the hyperlinked object performs an action. The two main destinations it can link to are an external web page or another slide within the same presentation. For example, the words “Visit the ISRO website” on a slide can be linked to isro.gov.in so that during the show a click opens the site in a browser. Alternatively, a small map of India on slide 2 can have a hyperlink to slide 5, which contains information about the selected state. To create a hyperlink, select the object, go to the Insert tab, click Hyperlink, then choose the target. The colour of the linked text usually changes to show that it is clickable, and the action only works in Slide Show view, not in the normal editing view.\r\n\r\nQ2 (reasoning): Why would a presenter add an action button instead of using a simple text hyperlink?\r\nAnswer: An action button is used when the presenter wants a clear, visual navigation control that the audience can recognise immediately. Text hyperlinks are useful for linking words to websites or other slides, but they can be hard to notice on a busy slide. An action button, such as the Next, Previous, Home, or Return button from the Shapes gallery, is a ready-made picture that clearly tells the viewer what to do. For example, a teacher giving a presentation about the rivers of India may place a “Home” action button on every content slide so that at any point the class can return to the first slide, which has the main menu. Action buttons also save time because they open the Action Settings dialog automatically and already contain common commands. They are especially helpful during live shows, where the person running the computer can click the button quickly without searching for small text links. However, action buttons are not meant for long web addresses; for that, a text hyperlink is better.\r\n\r\nQ3 (evaluate): A student says, “Adding hyperlinks and action buttons to a PowerPoint presentation is a waste of time because the audience can simply watch the slides in order.” Evaluate this statement.\r\nAnswer: This statement is not fully correct. It is true that many simple presentations are shown from the first slide to the last, and in such cases the audience does not need to click anything. However, saying that interactive features are a waste of time ignores the main purpose of hyperlinks and action buttons, which is to give the viewer control and to make the presentation more useful. First, in a long presentation, an action button lets the presenter move back to an important slide or to a main menu without leaving Slide Show view, which makes the show run more smoothly. Second, a hyperlink to a website, such as the official site of the Archaeological Survey of India, gives the audience a way to find more information later, making the presentation a starting point rather than a complete resource. Third, in a quiz or a school project, hyperlinks can create a branching story: the answer on one slide links to a slide that explains the result, making learning more active. On the other hand, if a presentation is very short and every slide is shown in order, adding too many buttons could be unnecessary and distracting. Therefore, hyperlinks and action buttons are not always needed, but when they match the purpose of the presentation they are a powerful tool, not a waste of time. The student’s view is too narrow.\r\n\r\nQ4 (apply): You have an Excel file containing the quarterly sales of a school bookshop in Chennai: July, August, September and October. Describe the steps to import the chart from Excel into slide 3 of your PowerPoint presentation so that the chart can still be updated if the sales numbers change.\r\nAnswer: To keep the chart connected to the Excel data, you should insert it as a linked object. First, save the Excel file and make a note of its location. Open the PowerPoint presentation and select slide 3. Go to the Insert tab, click Object, and choose Create from file. Browse to the Excel file that contains the bookshop sales chart. Before clicking OK, make sure the “Link” check box is selected. This keeps a connection between the PowerPoint slide and the Excel file. Click OK to insert the chart. Because you used the link option, the chart in PowerPoint is not just a copied picture; it is a live object. Later, if the sales numbers for July, August, September or October change in the Excel file, the chart on the PowerPoint slide can be updated by right-clicking it and choosing Update Link, or it may update automatically when the presentation is opened. If the link is not selected, the chart becomes an embedded object and will not change with the Excel data, which is not what the question wants.\r\n\r\nQ5 (create): Design a five-slide interactive PowerPoint presentation for a class project on “Famous Monuments of India.” Show where you would use hyperlinks and action buttons.\r\nAnswer: The first slide would be the title slide with the heading “Famous Monuments of India” and the student’s name. The second slide would show four pictures: the Taj Mahal, the Red Fort, the Qutub Minar and the Gateway of India. Each picture would have a hyperlink to one of the next three slides. Slide 3 would be about the Taj Mahal in Agra; at the bottom it would have an action button shaped like a house labelled “Home” that returns the viewer to slide 2. Slide 4 would describe the Red Fort in Delhi, with another “Home” action button. Slide 5 would give information about the Qutub Minar in Delhi and the Gateway of India in Mumbai, with a “Home” button and a “Next” button that goes back to the title. I would also place a text hyperlink on the last slide that says “Learn more” and links to the Archaeological Survey of India website. This design lets the audience choose which monument to read about first and then return to the menu, making the presentation interactive and easy to follow.",
+    "cognitiveLevel": "apply",
+    "masteryCriteria": "The student must be able to insert an Excel chart or table into a PowerPoint slide using Insert > Object and correctly choose between a linked and an embedded object, explaining when each is appropriate. The student must be able to create a hyperlink on text or an object that links both to an external website and to another slide within the same presentation, and test it in Slide Show view. The student must be able to add an action button from the Shapes > Action Buttons gallery, set its action through the Action Settings dialog, and distinguish it from a normal hyperlink by purpose and use.",
+    "subject": "cs",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_cs_003",
+    "title": "Translators - compiler, interpreter, assembler",
+    "definition": "A translator is a special kind of system software that takes a computer program written in a language humans understand and converts it into a form the computer's processor can execute. You already know from the previous node that programming languages come in three broad levels: machine language made of binary ones and zeros, assembly language made of short mnemonics such as ADD, MOV and SUB, and high-level languages such as C, C++, Java and Python that use English-like words. A machine cannot run a program in any of these higher forms directly; it must first be translated into machine code. That is exactly the job of a translator, and there are three important translators you need to know: the compiler, the interpreter and the assembler.\r\n\r\nA compiler is a translator that works on the whole program at one time. When you finish writing a C or C++ program, you run the compiler, which reads every line of the source code, checks the entire file for mistakes and, if no serious errors are found, produces a complete machine-language version of the program. This machine-language version is usually stored as an executable file, such as a .exe file on Windows or an .out file on Linux. Only after the executable is made can you run the program by double-clicking the file or typing its name. If there are syntax errors, the compiler lists all of them before it stops; it does not run the program half-way. In a school computer lab, a student in India might type `gcc hello.c -o hello` and then `./hello` to compile and run a C program. Java is a slightly special case: the `javac` compiler translates a `.java` source file into `.class` files that contain bytecode, which is a portable intermediate code rather than the final machine code of one particular processor.\r\n\r\nAn interpreter is a translator that works line by line instead of reading the whole program first. When you run a Python script in IDLE, the interpreter looks at the first line, translates it into an action, executes it, then moves to the next line and does the same. The moment it meets an error, it stops and reports that exact line. This is very different from a compiler, which would keep scanning the whole file and would create an executable file. An interpreter does not create an executable file; the source code itself is run each time. This makes interpreters helpful for beginners because they get immediate feedback, but it also means the program is usually slower because translation happens during every run.\r\n\r\nAn assembler is a translator for the lowest level of the three language types. Assembly language is just above machine language, and a programmer writes instructions using mnemonics such as ADD for addition, MOV for moving data and SUB for subtraction. The assembler converts each of these mnemonics into the binary machine code the processor understands. It is like a very precise dictionary that says, \"Whenever you see ADD, write this pattern of bits.\" Assembly language is still difficult to read, but it is easier than raw binary, and the assembler closes that last small gap between human-readable mnemonics and the processor's native language.",
+    "textWalkthrough": "Let us begin by recalling where you are coming from. In the earlier Depth Prerequisite node c5_cs_013, you learned that a program is a set of instructions that tells the computer what to do, and you experienced this by dragging blocks in Scratch. In Scratch, the environment quietly translated your blocks into sprite actions automatically; you did not have to think about the translation. In Class 6 we now pull back the curtain and give names to the different kinds of translators that turn source code into machine-executable code. Before this node, in c6_cs_002, you also learned the three types of computer languages: machine language, assembly language and high-level language. Keep that distinction in mind because each translator is matched to one of those languages.\r\n\r\nImagine you have written a small C program in the computer lab of a school in Bangalore. The source code is saved in a file called `marks.c`. This file is written in a high-level language, so the computer cannot run it yet. You have to call a compiler such as GCC or Turbo C. The compiler reads the whole program, looks at every function and every variable, and only then creates an executable file. A good way to remember this is to think of a compiler as a translator who is asked to translate an entire book before anyone is allowed to read it. The finished book is like the executable file. A poor answer would say, \"A compiler checks one line and runs it immediately,\" because that confuses the compiler with an interpreter. A strong answer says, \"A compiler translates the entire high-level program into machine code at once before execution and produces an executable file.\"\r\n\r\nNow suppose you open IDLE on the same computer and type a Python program line by line. When you press Enter after each line, the interpreter translates and runs that line right away. If you type `print(\"Hello\")` the screen shows `Hello` instantly. If the third line has a mistake, the interpreter stops at the third line and tells you exactly where the problem is. This is the line by line style. A weak answer might claim that an interpreter first makes an `.exe` file; that is wrong because an interpreter does not create an executable file. A strong answer says, \"An interpreter translates and executes a high-level program line by line, stopping at the first error it meets.\" You can think of it as a live translator at a conference who speaks each sentence as soon as it is said.\r\n\r\nFinally, consider a very low-level assembly program containing lines such as `ADD A, B` and `SUB C, D`. These are not English-like high-level commands; they are mnemonics that a programmer uses to stay just above binary. To make them run, you need an assembler. The assembler takes each mnemonic and turns it into the right pattern of bits for the processor. A weak answer would call the assembler a compiler for C or Python, which is wrong because an assembler only understands assembly language. A strong answer says, \"An assembler converts assembly language mnemonics such as ADD, MOV and SUB into binary machine code.\" When you sit for the ICSE or ISC board examination, the examiner expects you to use the exact keywords whole program, line by line and mnemonics, and to keep the three translators clearly separated. So practise writing one correct sentence for each, and make sure you do not swap the compiler with the interpreter.",
+    "eli5": "A translator is like a helper that turns your computer instructions into a language the machine understands. A compiler reads your whole program first and makes a finished file you can run. An interpreter reads one line, runs it, then goes to the next. An assembler turns short words like ADD and MOV into the ones and zeros the chip uses.",
+    "misconceptionText": "CISCE examiner reports show that students often struggle when abstract concepts are not made clear. One common Class 6 error is to think that a compiler and an interpreter do the same job. A pupil may write, \"Both compilers and interpreters convert high-level language into machine code,\" and then stop, as if there were no difference. The correction is that a compiler translates the entire program in one go and creates an executable file, whereas an interpreter translates and runs the program line by line without creating an executable. This is similar to the 2019 PPA note that many candidates mixed up pushadd and popadd because the concept of a queue was not clear; when the basic distinction is not taught carefully, students start swapping names and processes.\r\n\r\nA second error is to believe that an assembler can translate a high-level language such as Python or C. A pupil may say, \"An assembler converts English-like programs into binary.\" That is wrong. The correction is that an assembler only works on assembly language, which uses mnemonics such as ADD, MOV and SUB. It does not understand high-level commands such as `print` or `if`. This matches the examiner comment about misuse of essential keywords: if a student does not know which translator belongs to which language level, they will use terms such as compiler, interpreter and assembler in the wrong places.\r\n\r\nA third error is the idea that a compiler translates a program line by line and stops at the very first error. The correction is that a compiler scans the whole program, reports many or all of the errors it finds, and only produces an executable if the entire source is acceptable. This whole program view is the opposite of the interpreter's line by line approach. The 2024 PPA noted that candidates often failed to understand the base case in recursion because they did not see the whole structure; in the same way, a student who does not see the compiler's whole program scan will confuse it with an interpreter.",
+    "diagnosticText": "Q1 (recall): Define the three translators — compiler, interpreter and assembler — and state one example of a language or tool that uses each.\r\nAnswer: A compiler is system software that translates an entire high-level program into machine code at one time and usually creates an executable file. For example, the C language is compiled using GCC or Turbo C, and the Java language uses `javac` to compile source code into `.class` bytecode. An interpreter is system software that translates and executes a high-level program line by line, stopping as soon as it finds an error. For example, Python is usually interpreted through the Python interpreter, and JavaScript is also interpreted in many environments. An assembler is system software that converts assembly language mnemonics such as ADD, MOV and SUB into binary machine code. For example, a low-level 8085 or 8086 assembly program written with mnemonics is translated by an assembler such as MASM or TASM. The three translators differ in the language level they accept and in the way they produce runnable code, so remembering these definitions together is the safest way to avoid mixing them up.\r\n\r\nQ2 (reasoning): Why does an assembler not need to translate a high-level Python command such as `print(\"Hello\")`? Why must a Python command go to an interpreter or a compiler instead?\r\nAnswer: An assembler is built to understand only assembly language, which is a low-level language made of short mnemonics such as ADD, MOV and SUB. Each of these mnemonics corresponds almost directly to one machine instruction, and the assembler merely replaces the text with the matching binary pattern. A high-level Python command such as `print(\"Hello\")` is not a single machine instruction; it is an English-like instruction that hides many steps, such as locating the screen, formatting the text and sending it to the output. Because these commands do not match simple mnemonics, the assembler cannot translate them. A compiler or interpreter, on the other hand, is designed to understand the grammar and meaning of high-level languages. The compiler would take the entire Python source and translate it into a form the machine can run, while the interpreter would translate and run one line at a time. Therefore, the language level decides which translator is needed, and an assembler is the wrong choice for a high-level program.\r\n\r\nQ3 (evaluate): A student says, \"A compiler is always better than an interpreter because it makes a faster and more useful program.\" Do you agree with this statement? Give a balanced argument.\r\nAnswer: This statement is partly true but not completely correct. It is true that a compiled program usually runs faster after it has been produced, because the translation into machine code has already been done before the program is run. The executable file can be started again and again without repeating the translation, so games, operating systems and large applications often use compilers for speed. However, the claim that a compiler is always better is wrong. An interpreter is often better for learning and for quick testing because it runs a program line by line and gives immediate feedback when a mistake appears. A beginner writing Python in an IDLE window at an Indian school can fix an error the moment it occurs, rather than waiting for the whole program to compile and then discovering several errors at once. There are also situations where the source must be run on different types of computers; interpreted programs are usually easier to move from one machine to another because the source code is the same. Finally, an interpreter is not useful if you need to distribute a finished product without sharing the source, while a compiler is less friendly for quick experiments. So the choice depends on the need: compilers are stronger for finished speed, and interpreters are stronger for learning and flexibility. Neither is always better.\r\n\r\nQ4 (apply): A Class 6 student has four files on the desktop: (a) a C program saved as `hello.c`, (b) a Python script opened in IDLE, (c) an assembly listing with the lines `ADD A, B` and `SUB C, D`, and (d) a Java file compiled with `javac` to make `.class` files. Match each file to the correct translator and explain what happens if the second line of each contains a syntax error.\r\nAnswer: File (a), `hello.c`, is a high-level C program and needs a compiler. If the second line has a syntax error, the compiler reads the whole file, reports the error along with other errors it may find, and does not create an executable. File (b) is a Python script, so it needs an interpreter. If the second line has an error, the interpreter translates and runs the first line, then stops at the second line and reports the exact line where the problem occurred; it does not create an executable file. File (c) contains assembly language mnemonics, so it needs an assembler. If the second line has a wrong mnemonic, the assembler tries to translate the first line but cannot convert the second one into the correct binary pattern, so it reports an error for that instruction and does not produce machine code. File (d) is a Java source compiled with `javac`, so it uses a compiler that turns the source into `.class` files containing bytecode. If the second line has an error, `javac` scans the file, reports the error and refuses to make any `.class` files until the source is fixed. Each translator is matched to a specific language level, and each behaves differently when it meets an error.\r\n\r\nQ5 (create): Design a one-page cheat sheet for a Class 6 student that uses one real-life analogy for each of the three translators. The sheet must also contain one \"Do Not Confuse\" box warning against the most common mix-up.\r\nAnswer: The top of the sheet should have three columns. The first column is for the compiler and shows a picture of a printed, bound book with the title \"Whole Book.\" Under it the student should write the sentence, \"A compiler translates the entire high-level program at once and makes an executable file, like a translator finishing a whole book before anyone reads it.\" The second column is for the interpreter and shows a live interpreter at a meeting with the title \"Live Conversation.\" Under it the student should write, \"An interpreter translates and runs one line at a time, like a person repeating each sentence as it is spoken, and it does not make an executable file.\" The third column is for the assembler and shows a small dictionary with the title \"Mnemonic Dictionary.\" Under it the student should write, \"An assembler converts assembly mnemonics such as ADD, MOV and SUB into binary machine code, like a dictionary that turns short words into their real meanings.\" In a bold \"Do Not Confuse\" box across the bottom, the student should write, \"A compiler does the whole program first and creates an executable; an interpreter does not create a file and stops at the first error line. Do not say that a compiler works line by line or that an interpreter makes an .exe file.\" The sheet should use large headings and short examples so that a Class 5 or Class 6 student can read it quickly before an exam.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "The student must be able to name the three translators — compiler, interpreter and assembler — and state in one clear sentence each how they differ in the way they translate source code (whole program at once versus line by line versus mnemonic to binary). The student must be able to match each translator to the correct language level: compiler and interpreter to high-level languages such as C, C++, Java and Python, and assembler to assembly language written with mnemonics such as ADD, MOV and SUB. The student must also be able to explain, with at least one correct example, what happens when a syntax error appears in a program under each translator — namely that a compiler reports errors for the whole file and produces no executable, an interpreter stops at the first faulty line, and an assembler fails to convert the offending mnemonic into binary.",
+    "subject": "cs",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c6_cs_004",
+    "title": "Hardware components overview - input, output, storage, processing devices",
+    "definition": "Hardware is the collective name for all the physical parts of a computer that you can see and touch. It is different from software, which is the set of instructions that tells the hardware what to do. In Class 6, you study hardware by sorting it into four functional families: input devices, output devices, storage devices, and processing devices. An input device is any piece of hardware that brings data or instructions into the computer from the outside world. The keyboard and mouse are everyday input devices; a scanner converts a printed page into a digital image, and a microphone converts sound waves into electrical signals the computer can understand. An output device is the opposite: it carries results from the computer out to the user. The monitor shows text and pictures on a screen, the printer puts them on paper, and the speaker releases sound. A storage device keeps data safely after the computer is switched off, so information is not lost. The hard disk inside a desktop, the small pen drive that fits in a pocket, and the compact disc (CD) are all storage devices. Finally, processing devices are the parts that think and calculate. The Central Processing Unit (CPU) is the brain of the computer; it fetches each instruction, decodes what it means, and then executes it. Inside the CPU, the Arithmetic Logic Unit (ALU) does the mathematics, the Control Unit (CU) manages the sequence of work, and registers give the CPU tiny, super-fast workspaces. A Graphics Processing Unit (GPU) is another processing device, useful for images, games, and many parallel calculations. To classify a piece of hardware means to decide which family it belongs to by asking, “Does it bring data in, send results out, save data for later, or do the actual thinking?” Once you can answer that question, you can name at least two examples for each category and explain the special function of the CPU as the computer’s processing manager.",
+    "textWalkthrough": "Let us begin where you already are. In the prerequisite node c3_cs_002, you learned that a computer system has five main units: the CPU, memory, the input unit, the output unit, and the storage unit. You already know that the CPU is the brain, that memory holds work currently in use, and that information must come in, be processed, and go out. The task in c6_cs_004 is to take that big picture and sharpen it: you now sort real, physical hardware into the same four functional families. The alternative depth prerequisite c5_cs_003 gave you the story of the generations of computers, from giant vacuum-tube machines to modern chips. That history helps because it shows you that the same four jobs—input, output, storage, and processing—have been performed by very different technologies over time. A first-generation computer used punched cards for input and printouts for output, while today you use a keyboard and an LCD monitor, but the purpose has not changed.\r\n\r\nStart with input devices. Ask yourself: what do all input devices have in common? They are messengers. They carry raw facts from the world into the computer. The keyboard is the most common; every key press becomes a binary code the CPU can read. The mouse sends signals about position and clicks. A scanner, like the ones used in Indian post offices or the DigiLocker kiosks in many government offices, turns a paper document into a digital image. A microphone, used in online classes or speech-to-text apps, turns sound into data. A good answer for “Name two input devices” is: keyboard and mouse, because they are the everyday tools for entering data. A weak answer would be “monitor and printer,” because those are output devices; the student has only listed things they see, not things that enter data.\r\n\r\nNext come output devices. These are the announcers of the computer world. The monitor, also called the Visual Display Unit or VDU, shows the screen image. The printer, such as the dot-matrix or inkjet printers used in Indian school labs, puts the image on paper. The speaker releases sound. A good answer names two of these and says what comes out of the computer. A weak answer might say “CPU and hard disk,” because those are not for showing or giving out results.\r\n\r\nStorage devices are like filing cabinets. A hard disk, found in most desktops and laptops in Indian schools, stores large amounts of data even when the power is off. A pen drive, also called a USB flash drive, is small and portable; students often carry projects to and from the computer lab on it. A CD, or compact disc, is another storage medium, though less common today. A good answer names two and adds why they are storage: they save data permanently. A common mistake is to call RAM a storage device; RAM is actually memory used while the computer is on, not a permanent storage device in the same way.\r\n\r\nProcessing devices are the workers. The CPU is the main one. It fetches instructions from memory, decodes them, and executes them. Inside, the ALU performs arithmetic and logic, the CU directs traffic, and registers hold small bits of data during calculations. The GPU is a helper processing device that is very good at many small calculations at once, such as the graphics in a video game or the physics simulations run on Indian supercomputers like the PARAM series developed by C-DAC in Pune. A strong answer explains that the CPU is the “brain” because it executes instructions and processes data, while a weak answer simply says “the CPU thinks” without explaining what thinking means in a computer.\r\n\r\nIn the ICSE and ISC board examinations, questions on this topic usually ask you to classify devices or to name two examples for each category. Examiners expect neat, correct spellings and a clear understanding that the CPU is the processing unit, not an output or storage device. If you can explain the function of each category and give two correct Indian examples, you will earn full marks.",
+    "eli5": "Imagine your computer is like a kitchen. Input devices are the hands bringing ingredients inside, like a keyboard and mouse. Output devices are the plates and speakers that serve the food. Storage devices are the fridge and cupboards that keep things for later. The processing device, the CPU, is the cook that follows the recipe and does all the thinking and mixing.",
+    "misconceptionText": "Misconception 1: “The CPU stores all my files, so it is a storage device.” CISCE examiners often note that candidates confuse related ideas, similar to the 2024 PPA comment that many were “confused about the concepts of complement and dual.” In hardware, the CPU and storage are closely linked but different. Correction: the CPU processes instructions using its registers and the ALU; it does not permanently store files. Files live on storage devices such as the hard disk, pen drive, or CD.\r\n\r\nMisconception 2: “A monitor is an input device because I touch it or look at it.” This is like the 2024 observation that candidates “answered it as XOR because they failed to understand the concept of series.” The direction of data flow is the key idea being missed. Correction: the monitor only receives data from the computer and shows it to you. It is an output device. Input devices, such as the keyboard, mouse, scanner, and microphone, send data into the computer.\r\n\r\nMisconception 3: “Any device with a wire is either input or output; there are only two types.” This matches the 2024 comment that students did not use the Scanner class correctly because they missed the purpose of input handling. Correction: hardware has four categories. Once data is inside, it must be processed by the CPU and then either sent to an output device or saved on a storage device. Storage and processing are separate families, and every device has one main function.",
+    "diagnosticText": "Q1 (recall): Name the four hardware categories and give one example for each category.\r\nAnswer: The four hardware categories are input devices, output devices, storage devices, and processing devices. An input device is any hardware that sends data into the computer; the keyboard is a clear example because every key press is turned into a code the CPU can read. An output device is hardware that carries results from the computer to the user; the monitor is an example because it displays text and pictures on a screen. A storage device is hardware that keeps data permanently even after the computer is switched off; the hard disk is an example because it can hold thousands of files and programs for a long time. A processing device is hardware that executes instructions and works on data; the CPU is the main example because it fetches, decodes, and carries out the instructions of a program. The GPU is also a processing device, especially useful for images and calculations that can be done in parallel. Being able to list these four categories with correct examples is the foundation of this topic.\r\n\r\nQ2 (reasoning): Why is a mouse called an input device but a monitor is called an output device?\r\nAnswer: The difference between an input device and an output device depends on the direction in which data travels. A mouse is an input device because it sends information from the user into the computer. When you move the mouse, a sensor detects the movement and sends a signal telling the computer where the pointer should appear on the screen. A monitor, on the other hand, is an output device because it receives a video signal from the computer and displays it for the user. It does not send any information back into the computer; it only shows what the computer has already produced. This is why the mouse is on the “in” side and the monitor is on the “out” side. The same rule works for other devices: a keyboard, scanner, and microphone bring data in, while a printer and speaker carry results out.\r\n\r\nQ3 (evaluate): A student says, “A pen drive is both a storage device and an input device because we put data into the computer when we plug it in.” Is this statement correct? Evaluate with a balanced argument.\r\nAnswer: The statement is partly true in one narrow sense but incorrect overall. It is true that, when you copy a file from a pen drive into the computer, data is moving from the pen drive into the computer. However, the pen drive itself is not an input device. The function of an input device is to collect new data from the outside world or from a user, such as a keyboard collecting key presses or a microphone collecting sound. A pen drive’s real job is to hold data safely when the computer is switched off; that is why it belongs to the storage-device family. The confusion comes from the act of transferring data, but the transfer is only possible because the data was already stored. In an input device, the data is being created or captured for the first time. In a storage device, the data already exists and is being saved or moved. Therefore, the pen drive should be classified as a storage device, not an input device, even though data may travel from it to the computer. This balanced view respects the true function of each category.\r\n\r\nQ4 (apply): In a school computer lab in India, the following devices are on a desk: a keyboard, a mouse, a monitor, a printer, a pen drive, and the CPU inside the cabinet. Classify each device into the correct hardware category and explain what would happen if the CPU were removed.\r\nAnswer: The keyboard and mouse are input devices because they send the user’s instructions and data into the computer. The monitor and printer are output devices because they show or print the results for the user. The pen drive is a storage device because it keeps files safe and can move them between computers. The CPU inside the cabinet is the processing device because it executes instructions and processes data. If the CPU were removed, the computer would not be able to do anything useful. The monitor might still light up, but nothing would be calculated, and no instructions would run. The keyboard and mouse would send signals, but no part of the machine would understand what to do with them. The printer would not print because there would be no processed results to send, and the pen drive would still hold files but no one could open or run them. The CPU is therefore the most important processing unit in the whole system.\r\n\r\nQ5 (create): Design a small computer setup for an Indian village information centre. Choose at least one input device, one output device, one storage device, and one processing device. Explain why each device is needed.\r\nAnswer: For an Indian village information centre, I would choose a keyboard and mouse as input devices, a monitor and a small speaker as output devices, a hard disk and pen drives as storage devices, and a CPU as the processing device. The keyboard and mouse let the village operator type in names, forms, and questions, and move around the screen easily. The monitor is essential because many users may not read English well, so the operator can show forms, crop information, or video tutorials in regional languages. The speaker can play audio instructions or educational videos. A hard disk inside the computer will store all the records and programs safely, while extra pen drives will let farmers carry copies of land records or application forms to government offices. The CPU is the most important part because it will process every request, search the database, and display the right information. Since village centres often have limited electricity, the CPU should be in a desktop or a low-power mini-computer. This setup keeps the four categories clear and makes sure each device does the right job.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "The student must be able to classify any given piece of hardware into one of the four functional families—input, output, storage, or processing—and justify the choice by stating the direction of data flow or the job the device performs. They must name at least two correct examples for each of the four categories, using real devices such as the keyboard, mouse, monitor, printer, hard disk, pen drive, CD, CPU, and GPU, and must be able to explain the CPU’s special role as the processing unit that fetches, decodes, and executes instructions (with the ALU, Control Unit, and registers). They must also be able to correct a misclassification, such as calling a monitor an input device or the CPU a storage device, by referring back to the defining function of each family.",
+    "subject": "cs",
+    "classLevel": 6
+  },
+  {
+    "nodeId": "c7_cs_001",
+    "title": "Internal hardware - motherboard, CPU, RAM, ROM, GPU",
+    "definition": "Internal hardware means the physical parts that are fitted inside the computer case or cabinet and work together to make the machine run. Unlike the keyboard, mouse or monitor, which you can touch from the outside, these parts are hidden inside the system unit. The five internal hardware components you need to know for this chapter are the motherboard, the CPU, RAM, ROM and the GPU. The motherboard is the largest circuit board in the computer and is often called the backbone of the system. It is the main circuit board that connects all the other parts, allows them to communicate with one another and supplies power to them through the buses and circuits printed on it. The CPU, or Central Processing Unit, is the brain of the computer because it fetches, decodes and executes the instructions that make up every program. It is the processing device that performs arithmetic and logical operations on the data. RAM, or Random Access Memory, is the volatile temporary working memory of the computer. It holds the data and programs that are currently in use, but the moment the power is switched off everything stored in RAM disappears. ROM, or Read Only Memory, is the non-volatile permanent storage chip that keeps important instructions such as the boot program or BIOS even when the computer is not receiving power. Finally, the GPU, or Graphics Processing Unit, is the component that processes and renders images, video and anything you see on the screen. It is specially designed to handle a large number of similar calculations very quickly, which makes it ideal for graphics. The key distinction you must remember is that RAM is volatile while ROM is non-volatile, and the motherboard is the central connecting platform on which all these parts sit and through which they talk to one another.",
+    "textWalkthrough": "Let us begin by remembering what you already know. In the earlier Class 6 node c6_cs_004, you studied the four hardware categories: input devices, output devices, storage devices and processing devices. Those four categories gave you a useful mental shelf into which you can now place each new component. The motherboard does not fall neatly into one of those four boxes because it is the supporting platform that lets all the boxes talk to one another. Think of it like the school assembly ground where all the classes gather before dispersing to their rooms. Now, when you open the desktop cabinet of a computer in your school lab in Delhi, Bengaluru, Mumbai or Chennai, the biggest flat green board you see is the motherboard. Can you see why it is called the backbone? Every wire, every data path and most of the power path runs through it, just as the spine carries signals from the brain to every part of the body. A good answer would say: the motherboard is the main circuit board that connects and communicates between all hardware components. A weaker answer only says, it is a board inside the computer, which is too vague to earn full marks.\r\n\r\nNext, meet the CPU, the brain. The CPU is the main processing device because it executes instructions and processes data. Imagine you are giving a long list of sums to your friend. Your friend reads each sum, does the calculation, and writes the answer down. The CPU does the same thing at an unimaginable speed, carrying out instructions fetched from memory, one after another. It is not storage, it is not a place where data lives permanently; it is the decision-maker and the calculator. A strong Class 7 answer would name the full form Central Processing Unit and explain that it executes instructions and processes data. A poor answer might simply call it the brain without saying what it actually does, or might confuse it with the hard disk, which is a storage device you studied in Class 6.\r\n\r\nNow let us revise the memory you first met in Class 4 node c4_cs_002. You already know that the computer has two important kinds of memory, RAM and ROM. In this Class 7 chapter, you are looking at them again as parts of the full internal hardware architecture. RAM is like a top of your school desk. You spread out the books you are reading at the moment, but when the bell rings and you pack up, the desk becomes empty again. That is why RAM is volatile; it holds only the current work and loses it when the power goes off. ROM, on the other hand, is like the instructions printed on the back of your class time-table; even when the classroom lights are switched off at night, the words are still there the next morning. It is non-volatile because it keeps its contents without power. The ROM chip in a computer stores the startup or boot instructions, so when the power button is pressed the CPU knows how to start the operating system.\r\n\r\nFinally, think about what you see on the screen. Every picture, every video, every moving graphic is being painted for you by the GPU, the Graphics Processing Unit. In a school computer, the GPU may be a small chip built into the motherboard, or it may be a separate card. Either way, its role is to process and render images and video. A good answer would mention that it is specially made to handle graphics, not general calculations, although it can also help the CPU with some types of work. A bad answer might say that the GPU is only for games, which misses the point that any image, from a textbook diagram to a video lesson, needs the GPU.\r\n\r\nWhen you sit for the ICSE or ISC board exams, remember that the examiners expect clear definitions followed by the correct function. They have repeatedly observed that candidates who give vague definitions, or who only write examples without defining the term, lose marks. For this node, you must be ready to define the motherboard, CPU, RAM, ROM and GPU, explain the special role of the motherboard as the connecting platform, and give the difference between volatile and non-volatile memory using RAM and ROM.",
+    "eli5": "A computer has hidden parts inside its body. The motherboard is like the backbone because everything connects to it. The CPU is like the brain because it thinks and decides. RAM is like short-term memory because it only remembers while the power is on. ROM is like long-term memory because it keeps important startup instructions even when the power is off. The GPU is like an artist because it makes the pictures and videos appear on the screen.",
+    "misconceptionText": "Misconception 1: Writing the name of the part without explaining what it does. CISCE examiners have noted that many candidates write only examples or give vague definitions without the actual meaning, which costs them marks. For example, saying the CPU is the brain is an example or an analogy, not a definition; the correct response must also explain that the CPU fetches, decodes and executes instructions and processes data.\r\n\r\nMisconception 2: Confusing RAM with ROM. Just as some candidates in other topics have mixed up related ideas such as an encoder and a decoder or an OR gate with an AND gate, students often think RAM and ROM are the same kind of memory. RAM is volatile and temporary; it holds currently used data and loses it when the power is switched off. ROM is non-volatile and permanent; it stores boot instructions and keeps them even without power.\r\n\r\nMisconception 3: Believing that the GPU is only for playing games or that the CPU does all the work including screen pictures. The GPU is responsible for processing and rendering graphics and video. Every image displayed on the monitor, whether from a lesson, a video or a game, is produced with the help of the GPU. The CPU handles general processing and instructions, but the GPU is specially designed for the heavy parallel work that images need.",
+    "diagnosticText": "Q1 (recall): Define each of the five internal hardware components: motherboard, CPU, RAM, ROM and GPU.\r\nAnswer: The motherboard is the main circuit board inside the computer. It is the central platform that connects all the internal hardware components and allows them to communicate with one another. It also supplies power and data paths through buses and circuits printed on the board. The CPU, or Central Processing Unit, is the brain of the computer. It fetches instructions from memory, decodes them and executes them, performing arithmetic and logical operations on data. RAM, or Random Access Memory, is the temporary working memory of the computer. It stores the data and programs that are currently active while the computer is switched on. It is volatile, which means that all its contents are lost as soon as the power supply is removed. ROM, or Read Only Memory, is the non-volatile permanent memory that stores important instructions such as the boot program. It retains its contents even when the computer is switched off. The GPU, or Graphics Processing Unit, is the component that handles the processing and rendering of images, video and anything that appears on the screen. Together these five parts form the core internal hardware of a computer.\r\n\r\nQ2 (reasoning): Why is RAM called volatile memory while ROM is called non-volatile memory? Explain with the help of an example.\r\nAnswer: RAM is called volatile memory because it needs a continuous supply of electrical power to hold the data stored in it. When the computer is running, RAM stores the operating system files, the applications that are open and the data you are working on, so that the CPU can access them very quickly. However, as soon as the power is switched off or the system is restarted, all the information in RAM disappears. This is why an unsaved document is lost when the computer suddenly shuts down. ROM is called non-volatile memory because it does not require power to keep its contents. The ROM chip contains permanent instructions, such as the boot instructions or the BIOS, that help the computer start up when it is turned on. These instructions are written at the time of manufacture and remain in the chip even when the computer is unplugged. The difference is therefore about whether the stored information survives without power. RAM is fast but temporary, while ROM is slower to change but permanent.\r\n\r\nQ3 (evaluate): A student says, A computer used only in a school office for typing and watching educational videos does not need a GPU because GPUs are only meant for gaming. Evaluate this statement.\r\nAnswer: This statement is partly true and partly false, so it needs a balanced evaluation. It is true that dedicated high-end GPUs are often chosen for gaming and advanced graphics because they can process millions of pixels very quickly. It is also true that a normal school office computer does not need the most expensive gaming GPU. However, the statement is false in saying that a computer does not need a GPU at all. Every image, icon, letter, diagram and video that appears on the screen must be processed and rendered by a graphics processing unit. Most school computers use an integrated GPU, which is a small graphics chip built into the motherboard or inside the CPU itself. This integrated GPU is enough for typing documents, viewing presentations and watching educational videos. Without any GPU, the monitor would not be able to show anything at all, because the CPU does not handle screen graphics by itself. Therefore, the correct view is that the school computer does not need a powerful dedicated gaming GPU, but it certainly needs some kind of GPU, either integrated or separate, to display everyday graphics and videos.\r\n\r\nQ4 (apply): A computer lab in a school in Bengaluru has twenty desktop computers. After a sudden power cut, all the students lose the documents they were typing but the computers start normally when the power returns. Which component is responsible for the loss of unsaved work, and which component helps the computer start again? Justify your answer.\r\nAnswer: The loss of unsaved work is caused by the nature of RAM, the volatile temporary memory. While the students were typing, their documents were being held in RAM because the word processor needed fast access to the text while it was being edited. RAM requires power to keep its contents. When the power cut happened, the electrical supply to the RAM stopped, so all the temporary data, including the unsaved documents, disappeared. On the other hand, the computer was able to start normally when the power returned because of ROM, the non-volatile permanent memory. The ROM chip stores the boot instructions that tell the CPU how to begin the startup process, check the hardware and load the operating system. These instructions remain in the ROM even when there is no power, so the computer can begin working again from the same starting point. To avoid losing work in the future, the students should save their documents frequently to a non-volatile storage device such as the hard disk or solid-state drive.\r\n\r\nQ5 (create): Imagine you have to teach a Class 5 student about the five internal hardware components using a single human-body analogy. Design the analogy and explain each comparison clearly.\r\nAnswer: The human body is a useful analogy for the inside of a computer. The motherboard is like the human skeleton because it holds all the other parts together and gives the system its shape. Just as the spine and ribs connect to the arms, legs and organs, the motherboard connects the CPU, RAM, ROM, GPU and other parts. The CPU is like the brain because it makes decisions and controls the activities of the whole body. The brain reads messages from nerves, just as the CPU fetches and executes instructions from memory. RAM is like short-term memory, which helps you remember the questions on a worksheet while you are solving them, but it is forgotten once the class ends. ROM is like long-term memory or the habits written in your mind, such as remembering how to tie your shoelaces, which stays with you even when you are asleep. The GPU is like the eyes and the visual part of the brain because it processes pictures, colours and movement. Without the eyes, you cannot see the world; without the GPU, the computer cannot show graphics on the screen. This analogy helps a younger student understand how each hidden part has a special role inside the computer.",
+    "cognitiveLevel": "understand",
+    "masteryCriteria": "To master this node, the student must be able to give the full form and a correct functional definition of each of the five internal hardware components (motherboard, CPU, RAM, ROM and GPU) without confusing their roles, and must explain why the motherboard is called the backbone or central connecting platform rather than just another board inside the cabinet. The student must also be able to distinguish volatile from non-volatile memory by correctly assigning RAM to the volatile category and ROM to the non-volatile category, and justify the assignment using the behaviour of each when the power supply is removed. Finally, the student must be able to apply this knowledge to a real situation, such as explaining why unsaved work is lost after a power cut while the computer still boots again, naming the specific component responsible for each outcome.",
+    "subject": "cs",
+    "classLevel": 7
+  }
+]
+--- END ENRICHMENT DATA ---
+
+Here is the REFERENCE TEMPLATE (LightRaySimulation.tsx) — follow its EXACT structure, styling, and patterns:
+
+--- REFERENCE TEMPLATE ---
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+// ─── Props Interface ─────────────────────────────────────────
+
+export interface LightRaySimulationProps {
+  nodeId?: string;
+  title?: string;
+  definition?: string;
+  eli5?: string;
+  misconceptions?: Array<{ belief: string; correction: string }>;
+  diagnosticQuestions?: Array<{
+    number: number;
+    bloomLevel: string;
+    question: string;
+    answer: string;
+    answerType?: 'number' | 'text' | 'mcq';
+    unit?: string;
+    formula?: string;
+    working?: string;
+    options?: string[];
+    hint?: string;
+  }>;
+  masteryCriteria?: string;
+  onComplete?: (score: number) => void;
+}
+
+// ─── Default Enrichment Data (CISCE Class 6-8 Physics) ───────
+
+const DEFAULT_PROPS: Required<Omit<LightRaySimulationProps, 'onComplete'>> = {
+  nodeId: 'c8_phy_light_01',
+  title: 'Reflective & Refractive Ray Tracer',
+  definition: `Light travels in a straight line in a homogenous medium. When light encounters a boundary between two different media or a reflective surface, its path changes. 
+  According to the Law of Reflection, the angle of incidence equals the angle of reflection (∠i = ∠r), measured with respect to the normal. 
+  Curved mirrors (concave and convex) bend parallel light rays to converge at a focal point or appear to diverge from it. 
+  Lenses use refraction—the bending of light as it passes from one transparent medium to another of different optical density—to focus or disperse light. 
+  A prism refracts light twice, splitting white light into its constituent spectral colors (dispersion) because different wavelengths of light bend by different angles.`,
+  eli5: 'Imagine light is a stream of tiny, super-fast bouncing balls. If you bounce them off a flat floor, they fly off at the exact same angle they hit. If you bounce them off a curved slide, they either scatter outwards or zoom together to one single point! Lenses and prisms act like glass tunnels that slow down and bend the path of these balls, sometimes even sorting them into a beautiful rainbow!',
+  misconceptions: [
+    {
+      belief: 'The angle of reflection is measured from the surface of the mirror.',
+      correction: 'Angles of incidence and reflection are ALWAYS measured from the "Normal"—an imaginary perpendicular line (90°) to the surface at the point of impact.'
+    },
+    {
+      belief: 'Convex mirrors form real, inverted images.',
+      correction: 'Convex mirrors always diverge light rays, forming virtual, upright, and diminished (smaller) images behind the mirror.'
+    },
+    {
+      belief: 'Light travels at the exact same speed through glass as it does in air.',
+      correction: 'Light slows down when it enters optically denser materials like glass or water, which is what causes it to bend (refraction).'
+    },
+    {
+      belief: 'A prism adds color to white light.',
+      correction: 'White light already contains all the colors of the rainbow! The prism simply separates them because each color bends at a slightly different angle.'
+    }
+  ],
+  diagnosticQuestions: [
+    {
+      number: 1,
+      bloomLevel: 'recall',
+      question: 'Use the simulation: set the Incident Angle Tilt slider to 25°. Look at the LIVE READOUT — what is the Angle of Reflection?',
+      answer: '25',
+      answerType: 'number',
+      unit: '°',
+      formula: '∠i = ∠r  (Law of Reflection)',
+      working: 'Given: ∠i = 25°\nFormula: ∠i = ∠r\nTherefore: ∠r = 25°\n\nThe angle of incidence ALWAYS equals the angle of reflection. Both are measured from the NORMAL (the dashed perpendicular line), not from the mirror surface.',
+      hint: 'The Law of Reflection states that the angle of incidence equals the angle of reflection. Look at the readout box in the top-left of the simulation.',
+      options: undefined,
+    },
+    {
+      number: 2,
+      bloomLevel: 'apply',
+      question: 'A concave mirror has focal length f = 20 cm. An object is placed 60 cm in front of it. Use the mirror formula to calculate the image distance v.',
+      answer: '30',
+      answerType: 'number',
+      unit: 'cm',
+      formula: '1/f = 1/u + 1/v   →   1/v = 1/f − 1/u',
+      working: 'Given: f = 20 cm, u = 60 cm\nFormula: 1/v = 1/f − 1/u\n\nStep 1: 1/v = 1/20 − 1/60\nStep 2: Find common denominator (60):\n        1/v = 3/60 − 1/60\nStep 3: 1/v = 2/60 = 1/30\nStep 4: v = 30/1 = 30 cm\n\nThe image forms 30 cm in front of the mirror. Since v is positive, the image is REAL and INVERTED.\nYou can verify this: switch to Concave mode, set focal length to 20 cm, and check the Image Distance readout.',
+      hint: 'Rearrange the mirror formula: 1/v = 1/f − 1/u. Substitute f = 20 and u = 60. Find a common denominator.',
+      options: undefined,
+    },
+    {
+      number: 3,
+      bloomLevel: 'evaluate',
+      question: 'Switch to Prism mode in the simulation. Increase the refractive index slider from 1.3 to 1.8. What happens to the spread of the colors? Explain WHY in your own words.',
+      answer: 'spread',
+      answerType: 'text',
+      unit: '',
+      formula: 'Refractive index n = sin(i) / sin(r). Higher n → more bending → wider spread.',
+      working: 'When refractive index increases:\n1. Light bends MORE at each surface of the prism\n2. Each color bends by a different amount (violet bends most, red bends least)\n3. The DIFFERENCE in bending between colors increases\n4. So the rainbow spread becomes WIDER\n\nThis is called DISPERSION. White light contains all colors. The prism separates them because each wavelength (color) has a slightly different refractive index — violet has the highest n, red has the lowest.',
+      hint: 'Watch the rainbow rays as you drag the slider. Do the colors spread apart more or less? Think about WHY higher refractive index causes more bending.',
+      options: undefined,
+    }
+  ],
+  masteryCriteria: 'Can state the Law of Reflection (∠i = ∠r), apply the mirror formula (1/f = 1/u + 1/v) to calculate image distance, and explain dispersion using refractive index.'
+};
+
+// ─── Main Component ──────────────────────────────────────────
+
+export default function LightRaySimulation(props: LightRaySimulationProps) {
+  // Merge props with defaults
+  const {
+    nodeId,
+    title,
+    definition,
+    eli5,
+    misconceptions,
+    diagnosticQuestions,
+    masteryCriteria,
+    onComplete
+  } = { ...DEFAULT_PROPS, ...props };
+
+  // ─── Simulation State ──────────────────────────────────────
+  const [mode, setMode] = useState<'plane' | 'concave' | 'convex' | 'lens' | 'prism'>('plane');
+  const [lightY, setLightY] = useState<number>(200); // Draggable/adjustable light source Y
+  const [beamAngle, setBeamAngle] = useState<number>(0); // Angle of incident beam (-30 to 30 deg)
+  const [focalLength, setFocalLength] = useState<number>(100); // Focal length for curved elements (60 to 150)
+  const [prismN, setPrismN] = useState<number>(1.5); // Refractive index of prism (1.3 to 1.8)
+  const [activeTab, setActiveTab] = useState<'eli5' | 'theory' | 'misconceptions'>('eli5');
+
+  // Reset simulation to defaults
+  const resetSim = () => {
+    setMode('plane');
+    setLightY(200);
+    setBeamAngle(0);
+    setFocalLength(100);
+    setPrismN(1.5);
+  };
+  
+  // ─── Challenge State ───────────────────────────────────────
+  const [currentChallengeIdx, setCurrentChallengeIdx] = useState<number>(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [feedback, setFeedback] = useState<{ type: 'correct' | 'wrong'; text: string } | null>(null);
+  const [score, setScore] = useState<number>(100);
+  const [challengesCompleted, setChallengesCompleted] = useState<boolean>(false);
+
+  // ─── Real-World Activity State ─────────────────────────────
+  const [activityInput, setActivityInput] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+
+  // ─── SVG Layout Coordinates ────────────────────────────────
+  const W = 650;
+  const H = 380;
+  const elementX = 325; // Center of optical element
+  const elementY = 190;
+  const sourceX = 80;
+
+  // ─── Mathematical Ray Tracing Logic ────────────────────────
+  // Calculate incident rays and output paths based on state
+  const getRayPaths = useCallback(() => {
+    const paths: Array<{
+      d: string;
+      color: string;
+      glowColor: string;
+      label?: string;
+      isRainbow?: boolean;
+    }> = [];
+
+    // We can draw 3 parallel rays or 1 central ray with an adjustable angle.
+    // To make it look gorgeous, let's draw 3 rays.
+    const offsets = [-35, 0, 35];
+
+    offsets.forEach((offset, idx) => {
+      const startY = lightY + offset;
+      const rad = (beamAngle * Math.PI) / 180;
+      
+      // Calculate intersection with the optical element plane (X = elementX)
+      // For prism, let's handle it separately to draw the beautiful spectrum.
+      if (mode === 'prism') {
+        return; 
+      }
+
+      const hitX = elementX;
+      // Equation of line: y - startY = tan(rad) * (x - sourceX)
+      const hitY = startY + Math.tan(rad) * (hitX - sourceX);
+
+      // Incident Ray Path
+      const incidentPath = `M ${sourceX} ${startY} L ${hitX} ${hitY}`;
+      paths.push({
+        d: incidentPath,
+        color: '#00ffcc',
+        glowColor: 'rgba(0, 255, 204, 0.4)',
+        label: idx === 1 ? 'Incident Ray' : undefined
+      });
+
+      // Compute Reflected/Refracted Ray
+      if (mode === 'plane') {
+        // Law of Reflection: angle of incidence = angle of reflection
+        // Normal is horizontal (0 degrees)
+        // Reflected ray goes back to the left
+        const reflectedAngleRad = Math.PI - rad;
+        const outX = 50;
+        const outY = hitY + Math.tan(reflectedAngleRad) * (outX - hitX);
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff3366',
+          glowColor: 'rgba(255, 51, 102, 0.4)',
+          label: idx === 1 ? 'Reflected Ray' : undefined
+        });
+      } 
+      else if (mode === 'concave') {
+        // Concave mirror converges parallel rays to Focus F (elementX - focalLength)
+        // For simple, beautiful physics display:
+        const focusX = elementX - focalLength;
+        const focusY = elementY;
+        
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        // Extend path back to the left edge
+        const t = (hitX - 50) / -dx; // how far to get to X=50
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff00ff',
+          glowColor: 'rgba(255, 0, 255, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Converging)' : undefined
+        });
+      } 
+      else if (mode === 'convex') {
+        // Convex mirror diverges parallel rays as if they came from virtual Focus F (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Vector from virtual focus to hit point (diverging outwards to the left)
+        const dx = hitX - focusX;
+        const dy = hitY - focusY;
+        const t = (hitX - 50) / -dx;
+        const outX = 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#ff9900',
+          glowColor: 'rgba(255, 153, 0, 0.4)',
+          label: idx === 1 ? 'Reflected Ray (Diverging)' : undefined
+        });
+        
+        // Virtual rays behind mirror (dashed)
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${focusX} ${focusY}`,
+          color: 'rgba(255, 255, 255, 0.35)',
+          glowColor: 'transparent'
+        });
+      } 
+      else if (mode === 'lens') {
+        // Convex Lens converges refracted rays to Focus F on the right (elementX + focalLength)
+        const focusX = elementX + focalLength;
+        const focusY = elementY;
+
+        // Direction vector from hit point to Focus
+        const dx = focusX - hitX;
+        const dy = focusY - hitY;
+        const t = (W - 50 - hitX) / dx;
+        const outX = W - 50;
+        const outY = hitY + t * dy;
+
+        paths.push({
+          d: `M ${hitX} ${hitY} L ${outX} ${outY}`,
+          color: '#3399ff',
+          glowColor: 'rgba(51, 153, 255, 0.4)',
+          label: idx === 1 ? 'Refracted Ray' : undefined
+        });
+      }
+    });
+
+    // Special dispersion rendering for Prism
+    if (mode === 'prism') {
+      const prismTopY = elementY - 80;
+      const prismBottomY = elementY + 80;
+      const prismLeftX = elementX - 60;
+      const prismRightX = elementX + 60;
+
+      // Draw single white light ray hitting the left face
+      const startY = lightY;
+      const hitLeftX = prismLeftX + 20;
+      const hitLeftY = elementY + (startY - elementY) * 0.4; // Approximated entry point
+
+      paths.push({
+        d: `M ${sourceX} ${startY} L ${hitLeftX} ${hitLeftY}`,
+        color: '#ffffff',
+        glowColor: 'rgba(255, 255, 255, 0.6)',
+        label: 'Incident White Light'
+      });
+
+      // Rainbow wavelengths and their respective refraction offsets inside the prism
+      const rainbow = [
+        { name: 'Red', color: '#ff0000', bend: 1.1 },
+        { name: 'Orange', color: '#ff7f00', bend: 1.18 },
+        { name: 'Yellow', color: '#ffff00', bend: 1.26 },
+        { name: 'Green', color: '#00ff00', bend: 1.34 },
+        { name: 'Blue', color: '#0000ff', bend: 1.42 },
+        { name: 'Violet', color: '#8b00ff', bend: 1.5 }
+      ];
+
+      rainbow.forEach((colorObj) => {
+        // Inside prism path: from left hit point to right face
+        // Bending depends on refractive index state (prismN) and color wavelength (bend)
+        const refractiveFactor = prismN * colorObj.bend * 0.15;
+        const hitRightX = prismRightX - 15;
+        const hitRightY = hitLeftY + (hitRightX - hitLeftX) * refractiveFactor;
+
+        // Out of prism path: dispersing outwards
+        const outX = W - 60;
+        const outY = hitRightY + (outX - hitRightX) * (refractiveFactor * 2.5);
+
+        // Path inside
+        paths.push({
+          d: `M ${hitLeftX} ${hitLeftY} L ${hitRightX} ${hitRightY}`,
+          color: colorObj.color,
+          glowColor: 'transparent',
+          isRainbow: true
+        });
+
+        // Path outside
+        paths.push({
+          d: `M ${hitRightX} ${hitRightY} L ${outX} ${outY}`,
+          color: colorObj.color,
+          glowColor: colorObj.color,
+          isRainbow: true
+        });
+      });
+    }
+
+    return paths;
+  }, [mode, lightY, beamAngle, focalLength, prismN]);
+
+  // ─── Live Readouts Calculation ─────────────────────────────
+  const incidenceAngleVal = Math.abs(beamAngle);
+  const reflectionAngleVal = mode === 'plane' ? incidenceAngleVal : undefined;
+  const displayedFocalLength = mode === 'prism' ? undefined : Math.round(focalLength / 5);
+  const imageDistanceVal = mode === 'concave' 
+    ? Math.round((1 / ((1 / (focalLength / 5)) - (1 / (Math.abs(elementX - sourceX) / 5)))) * 10) / 10
+    : undefined;
+
+  // ─── Handle Challenge Submission ───────────────────────────
+  const currentQuestion = diagnosticQuestions[currentChallengeIdx];
+  const [textAnswer, setTextAnswer] = useState<string>('');
+  const [showWorking, setShowWorking] = useState<boolean>(false);
+
+  const handleAnswerSubmit = () => {
+    const ansType = currentQuestion.answerType || 'mcq';
+    let isCorrect = false;
+
+    if (ansType === 'number') {
+      const userNum = parseFloat(textAnswer);
+      const correctNum = parseFloat(currentQuestion.answer);
+      isCorrect = !isNaN(userNum) && Math.abs(userNum - correctNum) < 0.5;
+    } else if (ansType === 'text') {
+      // For text answers, check if key concept words are present
+      const userLower = textAnswer.toLowerCase();
+      const answerLower = currentQuestion.answer.toLowerCase();
+      const keyWords = answerLower.split(/[\s,]+/).filter(w => w.length > 3);
+      isCorrect = keyWords.some(w => userLower.includes(w)) || userLower.includes(answerLower);
+    } else {
+      isCorrect = selectedAnswer === currentQuestion.answer;
+    }
+
+    if (isCorrect) {
+      setFeedback({
+        type: 'correct',
+        text: `✅ Correct!\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nWorking:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.min(100, prev + 5));
+    } else {
+      // Find matching misconception
+      const matchingMisconception = misconceptions.find((m) => {
+        if (currentChallengeIdx === 0) return m.belief.includes('surface') || m.belief.includes('reflection');
+        if (currentChallengeIdx === 1) return m.belief.includes('Convex') || m.belief.includes('real');
+        if (currentChallengeIdx === 2) return m.belief.includes('prism') || m.belief.includes('color') || m.belief.includes('speed');
+        return false;
+      }) || misconceptions[0];
+
+      setFeedback({
+        type: 'wrong',
+        text: `⚠️ Misconception: ${matchingMisconception.belief}\n\n💡 Correction: ${matchingMisconception.correction}\n\nFormula: ${currentQuestion.formula || 'N/A'}\n\nCorrect Working:\n${currentQuestion.working || ''}`
+      });
+      setShowWorking(true);
+      setScore((prev) => Math.max(10, prev - 15));
+    }
+  };
+
+  const handleNextChallenge = () => {
+    setFeedback(null);
+    setSelectedAnswer('');
+    setTextAnswer('');
+    setShowWorking(false);
+    if (currentChallengeIdx < diagnosticQuestions.length - 1) {
+      setCurrentChallengeIdx((prev) => prev + 1);
+    } else {
+      setChallengesCompleted(true);
+    }
+  };
+
+  // ─── Finish Simulation ─────────────────────────────────────
+  const handleFinalSubmit = () => {
+    setIsSubmitted(true);
+    if (onComplete) {
+      onComplete(score);
+    }
+  };
+
+  return (
+    <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-white text-slate-800 rounded-2xl shadow-xl border border-slate-200">
+
+      {/* ─── HEADER ─────────────────────────────────────────── */}
+      <header className="mb-6 border-b border-slate-200 pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+              CISCE Science Lab • Node: {nodeId}
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 mt-2 tracking-tight">
+              {title}
+            </h1>
+          </div>
+          <div className="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 text-center">
+            <span className="text-xs text-slate-500 block font-medium">Performance Score</span>
+            <span className="text-xl font-bold text-emerald-600">{score}/100</span>
+          </div>
+        </div>
+      </header>
+
+      {/* ─── TABS: ELI5 / Theory / Misconceptions ──────────── */}
+      <div className="flex gap-2 mb-5">
+        <button
+          onClick={() => setActiveTab('eli5')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'eli5'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          💡 Simple Explanation (ELI5)
+        </button>
+        <button
+          onClick={() => setActiveTab('theory')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'theory'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          📖 Physics Theory
+        </button>
+        <button
+          onClick={() => setActiveTab('misconceptions')}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+            activeTab === 'misconceptions'
+              ? 'bg-blue-500 text-white shadow-md'
+              : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+          }`}
+        >
+          ⚠️ Common Misconceptions
+        </button>
+      </div>
+
+      {/* Tab Content with Framer Motion */}
+      <div className="min-h-[100px] mb-6">
+        <AnimatePresence mode="wait">
+          {activeTab === 'eli5' && (
+            <motion.div
+              key="eli5"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-blue-50 border border-blue-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-blue-600 mb-2">How to understand this:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{eli5}</p>
+            </motion.div>
+          )}
+
+          {activeTab === 'theory' && (
+            <motion.div
+              key="theory"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-slate-50 border border-slate-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-slate-900 mb-2">Scientific Definition & Laws:</h3>
+              <p className="text-sm text-slate-600 leading-relaxed">{definition}</p>
+              <div className="mt-3 p-3 bg-white rounded-lg text-sm border-l-4 border-blue-500">
+                <strong>Key Formula:</strong> ∠i = ∠r (Law of Reflection) &nbsp;|&nbsp; 1/f = 1/u + 1/v (Mirror Formula) &nbsp;|&nbsp; n = sin(i)/sin(r) (Snell's Law)
+              </div>
+            </motion.div>
+          )}
+
+          {activeTab === 'misconceptions' && (
+            <motion.div
+              key="misconceptions"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="bg-rose-50 border border-rose-200 rounded-xl p-4"
+            >
+              <h3 className="text-base font-bold text-rose-600 mb-3">Watch Out for These Pitfalls!</h3>
+              <ul className="flex flex-col gap-3 text-sm pl-5 list-disc">
+                {misconceptions.map((item, idx) => (
+                  <li key={idx} className="leading-relaxed">
+                    <strong className="text-rose-600">Belief:</strong> {item.belief}<br />
+                    <strong className="text-emerald-600">Science Fact:</strong> {item.correction}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* ─── MAIN SIMULATION GRID: SVG (left) + Readouts & Controls (right) ─ */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 mb-6 items-start">
+
+        {/* LEFT: Interactive Optics Bench */}
+        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+          {/* Mode Selector + Reset */}
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-sm font-bold text-slate-500">LIVE INTERACTIVE OPTICS BENCH</span>
+            <button
+              onClick={resetSim}
+              className="bg-rose-500 text-white rounded-lg px-3 py-1 text-xs font-semibold cursor-pointer hover:bg-rose-600 transition-all"
+            >
+              Reset Bench
+            </button>
+          </div>
+
+          {/* Mode Selector Tabs */}
+          <div className="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 mb-3">
+            {(['plane', 'concave', 'convex', 'lens', 'prism'] as const).map((m) => (
+              <button
+                key={m}
+                onClick={() => { setMode(m); setFeedback(null); }}
+                className={`flex-1 min-w-[70px] py-2 px-2 rounded-lg text-xs font-bold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                {m.charAt(0).toUpperCase() + m.slice(1)}
+              </button>
+            ))}
+          </div>
+
+          {/* SVG Canvas */}
+          <div className="bg-slate-100 rounded-lg overflow-hidden border border-slate-300">
+            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto block select-none">
+              <defs>
+                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="4" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                  <path d="M 25 0 L 0 0 0 25" fill="none" stroke="rgba(148, 163, 184, 0.2)" strokeWidth="1" />
+                </pattern>
+                <linearGradient id="canvas-bg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#f8fafc" />
+                  <stop offset="100%" stopColor="#e2e8f0" />
+                </linearGradient>
+                <style>{`
+                  @keyframes ray-flow { to { stroke-dashoffset: -40; } }
+                  .animated-ray { stroke-dasharray: 8, 5; animation: ray-flow 1.5s linear infinite; }
+                `}</style>
+              </defs>
+
+              <rect width={W} height={H} fill="url(#canvas-bg)" />
+              <rect width={W} height={H} fill="url(#grid)" />
+
+              {/* Principal Axis */}
+              <line x1={30} y1={elementY} x2={W - 30} y2={elementY} stroke="rgba(148, 163, 184, 0.25)" strokeWidth="1.5" strokeDasharray="5, 5" />
+              <text x={40} y={elementY - 6} fill="rgba(100, 116, 139, 0.6)" className="text-[10px] font-mono">Principal Axis</text>
+
+              {/* Optical Elements */}
+              {mode === 'plane' && (
+                <g>
+                  <line x1={elementX - 80} y1={elementY} x2={elementX + 80} y2={elementY} stroke="rgba(244, 63, 94, 0.5)" strokeWidth="1" strokeDasharray="3, 3" />
+                  <text x={elementX - 60} y={elementY - 6} fill="rgba(244, 63, 94, 0.7)" className="text-[9px] font-mono">Normal (90°)</text>
+                  <line x1={elementX + 4} y1={elementY - 90} x2={elementX + 4} y2={elementY + 90} stroke="rgba(148, 163, 184, 0.4)" strokeWidth="2" />
+                  <line x1={elementX} y1={elementY - 90} x2={elementX} y2={elementY + 90} stroke="#64748b" strokeWidth="6" strokeLinecap="round" filter="url(#glow)" />
+                  <text x={elementX - 10} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Plane Mirror</text>
+                </g>
+              )}
+
+              {mode === 'concave' && (
+                <g>
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX + 25} ${elementY - 90} Q ${elementX - 15} ${elementY} ${elementX + 25} ${elementY + 90}`} fill="none" stroke="#3b82f6" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX - focalLength} cy={elementY} r="4" fill="#ef4444" />
+                  <text x={elementX - focalLength} y={elementY - 10} fill="#ef4444" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Concave Mirror (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'convex' && (
+                <g>
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#94a3b8" strokeWidth="8" strokeLinecap="round" />
+                  <path d={`M ${elementX - 25} ${elementY - 90} Q ${elementX + 15} ${elementY} ${elementX - 25} ${elementY + 90}`} fill="none" stroke="#f97316" strokeWidth="4" strokeLinecap="round" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#f97316" strokeDasharray="2,2" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#f97316" className="text-[10px] font-bold" textAnchor="middle">Virtual F</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Mirror (Diverging)</text>
+                </g>
+              )}
+
+              {mode === 'lens' && (
+                <g>
+                  <path d={`M ${elementX} ${elementY - 90} Q ${elementX + 25} ${elementY} ${elementX} ${elementY + 90} Q ${elementX - 25} ${elementY} ${elementX} ${elementY - 90}`} fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" strokeWidth="3" filter="url(#glow)" />
+                  <circle cx={elementX + focalLength} cy={elementY} r="4" fill="#3b82f6" />
+                  <text x={elementX + focalLength} y={elementY - 10} fill="#3b82f6" className="text-[10px] font-bold" textAnchor="middle">F (Focus)</text>
+                  <text x={elementX} y={elementY - 100} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Convex Lens (Converging)</text>
+                </g>
+              )}
+
+              {mode === 'prism' && (
+                <g>
+                  <polygon points={`${elementX},${elementY - 80} ${elementX - 65},${elementY + 80} ${elementX + 65},${elementY + 80}`} fill="rgba(148, 163, 184, 0.15)" stroke="#94a3b8" strokeWidth="3" />
+                  <text x={elementX} y={elementY - 90} fill="#475569" className="text-[10px] font-bold" textAnchor="middle">Glass Prism (Dispersion)</text>
+                </g>
+              )}
+
+              {/* Light Rays */}
+              {getRayPaths().map((ray, idx) => (
+                <g key={idx}>
+                  {ray.glowColor !== 'transparent' && (
+                    <path d={ray.d} stroke={ray.glowColor} strokeWidth={ray.isRainbow ? "4" : "6"} fill="none" strokeLinecap="round" filter="url(#glow)" />
+                  )}
+                  <path d={ray.d} stroke={ray.color} strokeWidth={ray.isRainbow ? "1.5" : "2.5"} fill="none" strokeLinecap="round" className="animated-ray" />
+                  {ray.label && (
+                    <text x={sourceX + 15} y={lightY - 45} fill={ray.color} className="text-[9px] font-bold tracking-wide">{ray.label}</text>
+                  )}
+                </g>
+              ))}
+
+              {/* Laser Source */}
+              <g transform={`translate(${sourceX}, ${lightY})`}>
+                <rect x="-50" y="-18" width="50" height="36" rx="6" fill="#1e293b" stroke="#475569" strokeWidth="2" />
+                <rect x="0" y="-8" width="12" height="16" fill="#fbbf24" stroke="#d97706" strokeWidth="1" />
+                <circle cx="-15" cy="0" r="5" fill="#f43f5e" className="animate-pulse" />
+                <circle cx="-15" cy="0" r="3" fill="#ff85a1" />
+                <g className="cursor-ns-resize">
+                  <circle cx="-35" cy="0" r="10" fill="rgba(59, 130, 246, 0.2)" stroke="#3b82f6" strokeWidth="1.5" />
+                  <path d="M -35 -5 L -35 5 M -38 -2 L -35 -5 L -32 -2 M -38 2 L -35 5 L -32 2" stroke="#3b82f6" strokeWidth="1.5" fill="none" />
+                </g>
+                <text x="-55" y="30" fill="#64748b" className="text-[9px] font-mono select-none">Drag Laser Y</text>
+              </g>
+
+              {/* Drag overlay */}
+              <rect
+                x={sourceX - 55} y={30} width="70" height={H - 60}
+                fill="transparent" className="cursor-ns-resize"
+                onPointerMove={(e) => {
+                  if (e.buttons === 1) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const relativeY = ((e.clientY - rect.top) / rect.height) * (H - 60) + 30;
+                    setLightY(Math.max(60, Math.min(H - 60, relativeY)));
+                  }
+                }}
+              />
+            </svg>
+
+            {/* Tip below SVG */}
+            <div className="bg-slate-200 py-2 px-4 border-t border-slate-300 text-center text-xs text-slate-600">
+              💡 <span className="text-blue-600 font-semibold">Tip:</span> Drag the laser or use the controls to see rays bend instantly!
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: Live Readouts + Controls */}
+        <div className="flex flex-col gap-5">
+
+          {/* Live Readouts Card — EDITABLE FIELDS */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
+            <h3 className="text-sm font-bold text-blue-600 uppercase mb-3">📊 Live Readouts</h3>
+            <div className="flex flex-col gap-2.5">
+              {/* Angle of Incidence — editable */}
+              <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-xs text-slate-500">Angle of Incidence</span>
+                <div className="flex items-center gap-1">
+                  <input
+                    type="number"
+                    value={incidenceAngleVal}
+                    onChange={(e) => {
+                      const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                      setBeamAngle(v);
+                    }}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                  <span className="text-sm text-slate-400">°</span>
+                </div>
+              </div>
+
+              {/* Angle of Reflection — editable (plane mode only) */}
+              {reflectionAngleVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Angle of Reflection</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={reflectionAngleVal}
+                      onChange={(e) => {
+                        const v = Math.max(-30, Math.min(30, Number(e.target.value)));
+                        setBeamAngle(v);
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">°</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Focal Length — editable */}
+              {displayedFocalLength !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Focal Length (f)</span>
+                  <div className="flex items-center gap-1">
+                    <input
+                      type="number"
+                      value={displayedFocalLength}
+                      onChange={(e) => {
+                        const cm = Number(e.target.value);
+                        setFocalLength(Math.max(60, Math.min(150, cm * 5)));
+                      }}
+                      className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                    />
+                    <span className="text-sm text-slate-400">cm</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Image Distance — computed, read-only */}
+              {imageDistanceVal !== undefined && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Image Distance (v)</span>
+                  <span className="text-sm font-bold text-blue-600 font-mono">
+                    {imageDistanceVal > 0 ? `${imageDistanceVal} cm` : 'Virtual'}
+                  </span>
+                </div>
+              )}
+
+              {/* Refractive Index — editable (prism mode) */}
+              {mode === 'prism' && (
+                <div className="flex justify-between items-center bg-white p-2.5 rounded-lg border border-slate-200">
+                  <span className="text-xs text-slate-500">Refractive Index (n)</span>
+                  <input
+                    type="number"
+                    step="0.05"
+                    value={prismN}
+                    onChange={(e) => setPrismN(Math.max(1.3, Math.min(1.8, Number(e.target.value))))}
+                    className="w-16 text-right text-sm font-bold text-blue-600 font-mono bg-transparent border-b border-slate-300 focus:border-blue-500 outline-none"
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Controls Card */}
+          <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col gap-4">
+            <h3 className="text-sm font-bold text-blue-600 uppercase">⚙️ Optics Controls</h3>
+
+            {/* Laser Height */}
+            <div>
+              <div className="flex justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-600">Laser Height (Y)</label>
+                <span className="text-xs font-bold text-blue-600">{Math.round(lightY)} px</span>
+              </div>
+              <input type="range" min="60" max={H - 60} value={lightY}
+                onChange={(e) => setLightY(Number(e.target.value))}
+                className="w-full accent-blue-500 cursor-pointer" />
+              <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                <span>60 (Top)</span><span>{H - 60} (Bottom)</span>
+              </div>
+            </div>
+
+            {/* Beam Angle / Refractive Index */}
+            {mode !== 'prism' ? (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Incident Angle Tilt</label>
+                  <span className="text-xs font-bold text-blue-600">{beamAngle}°</span>
+                </div>
+                <input type="range" min="-30" max="30" value={beamAngle}
+                  onChange={(e) => setBeamAngle(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>-30°</span><span>+30°</span>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Refractive Index (n)</label>
+                  <span className="text-xs font-bold text-blue-600">{prismN}</span>
+                </div>
+                <input type="range" min="1.3" max="1.8" step="0.05" value={prismN}
+                  onChange={(e) => setPrismN(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>1.3 (Water)</span><span>1.8 (Dense Glass)</span>
+                </div>
+              </div>
+            )}
+
+            {/* Focal Length */}
+            {['concave', 'convex', 'lens'].includes(mode) && (
+              <div>
+                <div className="flex justify-between mb-1.5">
+                  <label className="text-xs font-semibold text-slate-600">Focal Length (f)</label>
+                  <span className="text-xs font-bold text-blue-600">{Math.round(focalLength / 5)} cm</span>
+                </div>
+                <input type="range" min="60" max="150" value={focalLength}
+                  onChange={(e) => setFocalLength(Number(e.target.value))}
+                  className="w-full accent-blue-500 cursor-pointer" />
+                <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+                  <span>12 cm (Strong)</span><span>30 cm (Weak)</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* ─── PROGRESSIVE CHALLENGES (full width) ───────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 mb-6">
+        <div className="flex justify-between items-center mb-3.5 border-b border-slate-200 pb-2.5">
+          <h3 className="text-base font-bold text-amber-600">
+            🏆 Challenge {currentChallengeIdx + 1} of {diagnosticQuestions.length}: {currentQuestion.bloomLevel} Level
+          </h3>
+          <span className="text-xs text-slate-500 bg-white px-2 py-1 rounded-full border border-slate-200">
+            Score: {score}/100
+          </span>
+        </div>
+
+        {!challengesCompleted ? (
+          <div>
+            <p className="text-sm text-slate-700 leading-relaxed mb-4">{currentQuestion.question}</p>
+
+            {/* Formula */}
+            {currentQuestion.formula && !showWorking && (
+              <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 mb-4">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase block mb-1">Formula to use:</span>
+                <code className="text-sm text-indigo-700 font-mono">{currentQuestion.formula}</code>
+              </div>
+            )}
+
+            {/* Answer Input */}
+            {!showWorking && (
+              <>
+                {currentQuestion.answerType === 'number' && (
+                  <div className="flex gap-2 items-center mb-4">
+                    <input
+                      type="number"
+                      value={textAnswer}
+                      onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                      placeholder={`Enter answer in ${currentQuestion.unit || 'units'}`}
+                      className="flex-1 bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500"
+                    />
+                    {currentQuestion.unit && (
+                      <span className="text-sm text-slate-500 font-mono">{currentQuestion.unit}</span>
+                    )}
+                  </div>
+                )}
+
+                {currentQuestion.answerType === 'text' && (
+                  <textarea
+                    value={textAnswer}
+                    onChange={(e) => { setTextAnswer(e.target.value); setFeedback(null); }}
+                    placeholder="Type your explanation here..."
+                    className="w-full bg-white border-2 border-slate-200 rounded-lg p-2.5 text-sm text-slate-900 focus:outline-none focus:border-blue-500 resize-none h-20 mb-4"
+                  />
+                )}
+
+                {(!currentQuestion.answerType || currentQuestion.answerType === 'mcq') && currentQuestion.options && (
+                  <div className="flex flex-col gap-2 mb-4">
+                    {currentQuestion.options.map((option) => (
+                      <button
+                        key={option}
+                        onClick={() => { setSelectedAnswer(option); setFeedback(null); }}
+                        className={`w-full text-left p-3 rounded-lg text-xs font-medium border transition-all ${
+                          selectedAnswer === option
+                            ? 'bg-blue-50 border-blue-500 text-blue-600'
+                            : 'bg-white border-slate-200 hover:border-slate-300 text-slate-600'
+                        }`}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Feedback */}
+            <div className="min-h-[50px] mb-3">
+              <AnimatePresence mode="wait">
+                {feedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -5 }}
+                    className={`p-3 rounded-lg text-xs leading-relaxed border whitespace-pre-line ${
+                      feedback.type === 'correct'
+                        ? 'bg-emerald-50 border-emerald-500 text-emerald-700'
+                        : 'bg-rose-50 border-rose-400 text-rose-600'
+                    }`}
+                  >
+                    {feedback.text}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-2.5 justify-end">
+              {!feedback || feedback.type === 'wrong' ? (
+                <button
+                  onClick={handleAnswerSubmit}
+                  disabled={(currentQuestion.answerType === 'number' || currentQuestion.answerType === 'text')
+                    ? !textAnswer.trim()
+                    : !selectedAnswer}
+                  className="px-5 py-2.5 bg-blue-500 hover:bg-blue-400 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  Check Answer
+                </button>
+              ) : (
+                <button
+                  onClick={handleNextChallenge}
+                  className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs rounded-lg transition-all"
+                >
+                  {currentChallengeIdx < diagnosticQuestions.length - 1 ? 'Next Challenge →' : 'Finish Challenges →'}
+                </button>
+              )}
+            </div>
+
+            {/* Hint */}
+            {currentQuestion.hint && !showWorking && (
+              <p className="text-xs text-slate-400 italic text-center mt-2.5">
+                💡 Hint: {currentQuestion.hint}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-4">
+            <h4 className="text-lg font-bold text-emerald-600 mb-2">🎉 All Challenges Completed!</h4>
+            <p className="text-sm text-slate-500 mb-4">
+              You mastered reflection, mirror formulas, and dispersion. Complete the activity below to finish!
+            </p>
+            <button
+              onClick={() => { setCurrentChallengeIdx(0); setChallengesCompleted(false); setFeedback(null); setSelectedAnswer(''); setTextAnswer(''); setShowWorking(false); }}
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold text-sm cursor-pointer hover:bg-blue-600"
+            >
+              Retry Challenges
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* ─── REAL-WORLD ACTIVITY (full width) ──────────────── */}
+      <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+        <h3 className="text-base font-bold text-blue-600 mb-2">🏡 Do It Real: Try This at Home!</h3>
+        <p className="text-sm text-slate-600 leading-relaxed mb-3">
+          Take a highly polished steel spoon. Look at your reflection on the front (inner cave) side, then flip it and look at the back (outer bulge) side.
+        </p>
+        <p className="text-sm font-bold text-amber-600 mb-3">
+          What to observe: Which side makes you look upside down (inverted), and which side keeps you upright but smaller?
+        </p>
+        <textarea
+          rows={3}
+          placeholder="Write your observation here... (e.g., 'The inner side of the spoon made me look upside down because it acts like a concave mirror...')"
+          value={activityInput}
+          onChange={(e) => setActivityInput(e.target.value)}
+          className="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-sm text-slate-700 focus:outline-none focus:border-blue-500 resize-none mb-4"
+        />
+        <div className="flex justify-between items-center">
+          <span className="text-xs text-slate-400">Mastery: {masteryCriteria}</span>
+          {!isSubmitted ? (
+            <button
+              onClick={handleFinalSubmit}
+              disabled={!activityInput || activityInput.trim().length < 10}
+              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 disabled:bg-slate-300 disabled:text-slate-400 text-white font-bold text-sm rounded-lg transition-all"
+            >
+              Submit & Complete Lab
+            </button>
+          ) : (
+            <span className="text-sm font-bold text-emerald-600">✓ Submitted! Score: {score}/100</span>
+          )}
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+
+
+--- END REFERENCE TEMPLATE ---
+
+Generate the COMPLETE ComputerHardwareExplorerSimulation.tsx file. Output ONLY the TypeScript code, no markdown fences, no explanations.

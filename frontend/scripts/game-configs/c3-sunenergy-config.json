@@ -1,0 +1,44 @@
+{
+  "gameTitle": "SunEnergyGame",
+  "classLevel": 3,
+  "ageRange": "8-9",
+  "outputFile": "D:\\dream_app\\frontend\\components\\simulations\\class3\\SunEnergyGame.tsx",
+  "enrichmentFiles": [
+    "D:\\cisce\\physics\\enrichment\\c3_physics_enrichment_part3.marker",
+    "D:\\cisce\\physics\\enrichment\\c3_physics_enrichment_part4.marker",
+    "D:\\cisce\\physics\\enrichment\\c3_physics_enrichment_part5.marker",
+    "D:\\cisce\\physics\\enrichment\\c3_physics_enrichment_part6.marker"
+  ],
+  "referenceFile": "D:\\dream_app\\frontend\\components\\simulations\\class1\\WaterGame.tsx",
+  "cisceNodes": "c3_phy_003 (Sun as a natural source of energy), c3_phy_004 (Solar energy in daily life - solar cooker, solar cell, solar heater), c3_phy_005 (Renewable and non-renewable sources of energy), c3_phy_006 (Conservation of energy)",
+  "mascotName": "Solar Engineer Sana",
+  "mascotDescription": "a friendly solar engineer with a hard hat, a solar panel, a wrench, and a sun badge. Custom SVG, not an owl.",
+  "sceneDescription": "solar energy scene with sky gradient, a bright sun, solar panels on a roof, a solar cooker, a wind turbine, and a power grid",
+  "svgObjects": [
+    { "name": "SunIcon", "description": "the sun with rays (energy source)" },
+    { "name": "SolarPanelIcon", "description": "a solar panel making electricity" },
+    { "name": "SolarCookerIcon", "description": "a solar cooker cooking food" },
+    { "name": "SolarHeaterIcon", "description": "a solar water heater" },
+    { "name": "WindTurbineIcon", "description": "a wind turbine (renewable)" },
+    { "name": "WaterDamIcon", "description": "a hydroelectric dam (renewable)" },
+    { "name": "CoalIcon", "description": "coal (non-renewable)" },
+    { "name": "PetrolIcon", "description": "petrol/oil (non-renewable)" },
+    { "name": "GasIcon", "description": "natural gas (non-renewable)" },
+    { "name": "LightBulbIcon", "description": "a light bulb (using energy)" },
+    { "name": "FanIcon", "description": "a fan (using energy)" },
+    { "name": "TvIcon", "description": "a TV (using energy)" },
+    { "name": "SwitchOffIcon", "description": "switch off to save energy" },
+    { "name": "RecycleIcon", "description": "recycle/reuse symbol" }
+  ],
+  "challengeTypes": [
+    "identify: What is the SUN's main role for Earth? (It gives light and heat energy vs It gives water vs It gives air)",
+    "identify: What does a SOLAR PANEL do? (Converts sunlight into electricity vs Cooks food vs Heats water)",
+    "sort: Drag each solar device to its correct use (Solar panel: makes electricity from sunlight | Solar cooker: cooks food using sun heat | Solar heater: heats water using sun energy | Solar cell: stores solar energy in batteries)",
+    "identify: Which of these is a RENEWABLE source of energy? (Sunlight vs Coal vs Petrol)",
+    "sort: Drag each energy source to Renewable or Non-Renewable (Renewable: sunlight, wind, water/hydro, biomass | Non-Renewable: coal, petrol, diesel, natural gas, nuclear)",
+    "identify: Why are coal and petrol called NON-RENEWABLE? (They take millions of years to form and will run out vs They are too expensive vs They are dirty)",
+    "sort: Drag each action to Save Energy or Waste Energy (Save: turn off lights when leaving, use LED bulbs, switch off TV when not watching, use public transport | Waste: leave lights on all day, keep AC on when not home, leave fridge door open, use car for short distances)",
+    "sort: Drag each energy fact to True or False (True: sun is renewable and free, solar energy does not pollute, we should save energy, renewable energy is better for earth | False: coal will last forever, sun energy causes pollution, we can waste energy because it is free, non-renewable energy is good for environment)"
+  ],
+  "extraInstructions": "IMPORTANT: You MUST import and use BOTH audioManager AND speechManager. Import speechManager from '../../../lib/sim-engine/speech'. Use audioManager.play() for sound effects (valid: pickup, drop-correct, drop-wrong, tap, success, error, celebration, hint). Use speechManager.speak() for spoken teaching slide narration, challenge questions, correct/incorrect feedback, and hints. The game must teach: (1) Sun as energy source — the sun is the main natural source of energy for Earth. It gives us light and heat. Without the sun, Earth would be dark and frozen. Plants use sun for photosynthesis. Sun causes wind and rain. Sun is renewable and free. (2) Solar energy in daily life — solar panel (converts sunlight to electricity), solar cooker (cooks food using sun heat, no fuel needed), solar heater (heats water using sun energy), solar cell/battery (stores solar energy). Solar energy is clean — no pollution, no smoke, no noise. (3) Renewable and non-renewable energy — renewable: sunlight, wind, water (hydro), biomass — these never run out, are clean, and are free. Non-renewable: coal, petrol, diesel, natural gas, nuclear — these take millions of years to form, will run out, and cause pollution. We should use more renewable energy. (4) Conservation of energy — save energy: turn off lights and fans when not needed, use LED bulbs (use less electricity), switch off TV and computer when not watching, use public transport or walk for short distances, keep AC at 24°C. Wasting energy: leaving lights on, keeping AC on when not home, leaving fridge door open. Saving energy saves money and helps the environment. Misconceptions: 'sun energy will run out' (sun is renewable — it will shine for billions of years), 'coal and petrol are renewable' (they are non-renewable — they take millions of years to form and will run out), 'solar energy causes pollution' (solar energy is clean — no smoke or pollution), 'leaving lights on uses no energy' (lights use electricity even when no one is in the room — turn them off), 'energy is free so we can waste it' (electricity costs money and uses resources — wasting energy harms the environment). Default width=720, height=560. Use named export (export function SunEnergyGame), NOT export default. Export interface SunEnergyGameProps with width?, height?, onComplete?: (score: number) => void."
+}

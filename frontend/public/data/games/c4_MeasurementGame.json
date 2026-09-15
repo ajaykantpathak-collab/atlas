@@ -1,0 +1,774 @@
+{
+  "gameFile": "MeasurementGame",
+  "classLevel": 4,
+  "cisceNodes": [
+    "c4_phy_005",
+    "c4_phy_006",
+    "c4_phy_007"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Why Do We Measure? 📏",
+      "text": "Measurement is the process of finding out the size, amount, or degree of something using a standard unit! Without measurement, buying cloth, cooking, or checking a fever would be impossible guesswork!",
+      "emoji": "📏",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Measurement is the process of finding out the size, amount, or degree of something using a standard unit! Without measurement, buying cloth, cooking, or checking a fever would be guesswork!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Numbers and Units! 🔢",
+      "text": "Every measurement needs TWO things — a number and a unit! Saying 'I want 2 of cloth' is meaningless. Saying 'I want 2 metres of cloth' tells the shopkeeper exactly how much to cut!",
+      "emoji": "✂️",
+      "bgColor": "from-cyan-500 to-blue-600",
+      "spoken": "Every measurement needs two things — a number and a unit! Saying 'I want 2 of cloth' is meaningless. Saying 'I want 2 metres of cloth' tells the shopkeeper exactly how much to cut!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Four Physical Quantities! ⚖️",
+      "text": "At Class 4, we learn four common physical quantities: Length (metres/centimetres), Mass (kilograms/grams), Time (hours/minutes), and Temperature (degrees Celsius)! Each has a special instrument!",
+      "emoji": "🌡️",
+      "bgColor": "from-teal-500 to-cyan-600",
+      "spoken": "At Class 4, we learn four common physical quantities: Length, Mass, Time, and Temperature! Each has a special instrument!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Measuring Instruments! 🚰",
+      "text": "A ruler and tape measure length! A weighing machine measures mass! A thermometer measures temperature in degrees Celsius! A clock measures time in hours and minutes!",
+      "emoji": "⏰",
+      "bgColor": "from-emerald-500 to-teal-600",
+      "spoken": "A ruler and tape measure length! A weighing machine measures mass! A thermometer measures temperature! A clock measures time!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Using Them Correctly! 🎯",
+      "text": "Always start a ruler at the zero mark, not the edge! Stand still on a weighing machine and wait for the needle to stop! Shake down a thermometer and keep it under your tongue for one minute!",
+      "emoji": "⭐",
+      "bgColor": "from-green-500 to-emerald-600",
+      "spoken": "Always start a ruler at the zero mark, not the edge! Stand still on a weighing machine and wait for the needle to stop! Shake down a thermometer and keep it under your tongue for one minute!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Why do we need MEASUREMENT in daily life?",
+      "answer": "To find the exact size, amount, or degree of something using a standard unit",
+      "options": [
+        "To find the exact size, amount, or degree of something using a standard unit",
+        "To make things look pretty in the house",
+        "To waste time when shopping"
+      ],
+      "hint": "Think about buying cloth or potatoes! Without exact numbers and units, buying goods would be pure guesswork.",
+      "misconception": "Measurement is not just for looks — it replaces guesswork with exactness so we can buy correct quantities of goods, cook properly, and check our health!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "To find the exact size, amount, or degree of something using a standard unit",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "To make things look pretty in the house",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "To waste time when shopping",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "To make things look pretty in the house",
+          "To find the exact size, amount, or degree of something using a standard unit"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each physical quantity to its correct measuring instrument!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Ruler/tape = Length | Weighing machine = Mass | Thermometer = Temperature | Clock = Time",
+      "misconception": "Each physical quantity has one correct instrument: ruler/tape for length, weighing machine for mass, thermometer for temperature, and clock for time!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "item-len",
+            "label": "Length",
+            "correctBin": "bin-ruler"
+          },
+          {
+            "id": "item-mass",
+            "label": "Mass",
+            "correctBin": "bin-scale"
+          },
+          {
+            "id": "item-temp",
+            "label": "Temperature",
+            "correctBin": "bin-therm"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "item-len",
+          "kind": "circle",
+          "label": "Length",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ruler",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ruler"
+        },
+        {
+          "id": "item-mass",
+          "kind": "circle",
+          "label": "Mass",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-scale",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-scale"
+        },
+        {
+          "id": "item-temp",
+          "kind": "circle",
+          "label": "Temperature",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-therm",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-therm"
+        },
+        {
+          "id": "item-time",
+          "kind": "circle",
+          "label": "Time",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-clock",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-clock"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "item-len",
+          "label": "Length",
+          "emoji": "",
+          "correctBin": "bin-ruler"
+        },
+        {
+          "id": "item-mass",
+          "label": "Mass",
+          "emoji": "",
+          "correctBin": "bin-scale"
+        },
+        {
+          "id": "item-temp",
+          "label": "Temperature",
+          "emoji": "",
+          "correctBin": "bin-therm"
+        },
+        {
+          "id": "item-time",
+          "label": "Time",
+          "emoji": "",
+          "correctBin": "bin-clock"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-ruler",
+          "label": "Ruler 📏",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-scale",
+          "label": "Scale ⚖️",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-therm",
+          "label": "Thermometer 🌡️",
+          "color": "#EF4444"
+        },
+        {
+          "id": "bin-clock",
+          "label": "Clock ⏰",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What TWO things does every measurement need?",
+      "answer": "A number and a unit",
+      "options": [
+        "A number and a unit",
+        "Only a number without any unit",
+        "Only a colour and a name"
+      ],
+      "hint": "Saying 'I want 2' is meaningless! You must say '2 metres' or '2 kilograms'.",
+      "misconception": "A measurement is always a number PLUS a unit ('2 metres' or '1 kilogram'). A number alone like '2' tells the shopkeeper nothing!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A number and a unit",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Only a number without any unit",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Only a colour and a name",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Only a number without any unit",
+          "A number and a unit"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Match each daily-life situation to the correct measurement item!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Tailor = cloth in metres | Vegetable seller = mass in kg | Doctor = thermometer for fever | Clock = time",
+      "misconception": "Tailors measure cloth in metres, vegetable sellers weigh potatoes in kilograms, doctors check fever with a thermometer in degrees Celsius, and clocks show time in hours!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Tailor = cloth in metres | Vegetable seller = mass in kg | Doctor = thermometer for fever | Clock = time"
+      },
+      "interactiveObjects": [
+        {
+          "id": "s-cloth",
+          "kind": "circle",
+          "label": "Tailor cutting cloth",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-cloth",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-cloth"
+        },
+        {
+          "id": "s-veg",
+          "kind": "circle",
+          "label": "Weighing vegetables",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-veg",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-veg"
+        },
+        {
+          "id": "s-fever",
+          "kind": "circle",
+          "label": "Checking fever",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-fever",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-fever"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s-cloth",
+          "label": "Tailor cutting cloth",
+          "emoji": "",
+          "correctBin": "bin-cloth"
+        },
+        {
+          "id": "s-veg",
+          "label": "Weighing vegetables",
+          "emoji": "",
+          "correctBin": "bin-veg"
+        },
+        {
+          "id": "s-fever",
+          "label": "Checking fever",
+          "emoji": "",
+          "correctBin": "bin-fever"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-cloth",
+          "label": "Metres (Length) ✂️",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "bin-veg",
+          "label": "Kilograms (Mass) ⚖️",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-fever",
+          "label": "Degrees (Temp) 🌡️",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "When using a RULER to measure length, where do you place the zero mark?",
+      "answer": "Exactly at one end of the object",
+      "options": [
+        "Exactly at one end of the object",
+        "In the middle of the object",
+        "At the other end from the object"
+      ],
+      "hint": "The zero mark is the starting point! Placing the edge instead of zero makes the measurement wrong.",
+      "misconception": "You must always place the ZERO mark exactly at one end of the object, because many rulers have a small blank strip before the zero!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Exactly at one end of the object",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "In the middle of the object",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "At the other end from the object",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Exactly at one end of the object",
+          "In the middle of the object"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each step of using a ruler into the correct order!",
+      "answer": "sort",
+      "options": [],
+      "hint": "1. Place zero at end -> 2. Lay ruler straight -> 3. Look at marking -> 4. Read to nearest cm",
+      "misconception": "Using a ruler requires steps in order: first align the zero mark at one end, lay it straight, look at the other end marking, and read to the nearest centimetre!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. 1. Place zero at end -> 2. Lay ruler straight -> 3. Look at marking -> 4. Read to nearest cm"
+      },
+      "interactiveObjects": [
+        {
+          "id": "step-1",
+          "kind": "circle",
+          "label": "Place zero at end",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-1",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-1"
+        },
+        {
+          "id": "step-2",
+          "kind": "circle",
+          "label": "Lay ruler straight",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-2"
+        },
+        {
+          "id": "step-3",
+          "kind": "circle",
+          "label": "Read marking",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-3",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-3"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "step-1",
+          "label": "Place zero at end",
+          "emoji": "",
+          "correctBin": "bin-1"
+        },
+        {
+          "id": "step-2",
+          "label": "Lay ruler straight",
+          "emoji": "",
+          "correctBin": "bin-2"
+        },
+        {
+          "id": "step-3",
+          "label": "Read marking",
+          "emoji": "",
+          "correctBin": "bin-3"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-1",
+          "label": "Step 1 (Start)",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-2",
+          "label": "Step 2 (Align)",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "bin-3",
+          "label": "Step 3 (Read)",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What does a THERMOMETER measure?",
+      "answer": "Temperature in degrees Celsius",
+      "options": [
+        "Temperature in degrees Celsius",
+        "Length in centimetres",
+        "Mass in kilograms"
+      ],
+      "hint": "A thermometer is used by doctors and mothers when a child feels warm or unwell.",
+      "misconception": "A thermometer measures TEMPERATURE (how hot or cold something is) in degrees Celsius — it does NOT measure weight or length!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Temperature in degrees Celsius",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Length in centimetres",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Mass in kilograms",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Length in centimetres",
+          "Temperature in degrees Celsius"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each instrument to how it is used correctly!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Ruler = start at zero | Weighing machine = stand still and wait | Thermometer = shake down & keep under tongue",
+      "misconception": "Each instrument has a unique correct procedure: rulers start at zero, weighing machines need you to stand still and wait for the needle to stop, and thermometers need to be shaken down first!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Ruler = start at zero | Weighing machine = stand still and wait | Thermometer = shake down & keep under tongue"
+      },
+      "interactiveObjects": [
+        {
+          "id": "u-ruler",
+          "kind": "circle",
+          "label": "Ruler",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ur",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ur"
+        },
+        {
+          "id": "u-scale",
+          "kind": "circle",
+          "label": "Weighing machine",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-us",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-us"
+        },
+        {
+          "id": "u-therm",
+          "kind": "circle",
+          "label": "Thermometer",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ut",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ut"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "u-ruler",
+          "label": "Ruler",
+          "emoji": "",
+          "correctBin": "bin-ur"
+        },
+        {
+          "id": "u-scale",
+          "label": "Weighing machine",
+          "emoji": "",
+          "correctBin": "bin-us"
+        },
+        {
+          "id": "u-therm",
+          "label": "Thermometer",
+          "emoji": "",
+          "correctBin": "bin-ut"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-ur",
+          "label": "Start at zero mark 📏",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-us",
+          "label": "Stand still & wait ⚖️",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-ut",
+          "label": "Shake down & wait 1 min 🌡️",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A curious physicist explores the forces of nature",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Physics Lab Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_phy_005",
+    "region": "Physics Realm",
+    "mapX": 0.4,
+    "mapY": 0.7500000000000001,
+    "icon": "⚡",
+    "prerequisites": [
+      "c4_phy_006"
+    ]
+  },
+  "subject": "physics"
+}

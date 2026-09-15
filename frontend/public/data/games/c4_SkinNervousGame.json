@@ -1,0 +1,805 @@
+{
+  "gameFile": "SkinNervousGame",
+  "classLevel": 4,
+  "cisceNodes": [],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Skin: The Largest Sense Organ! 🛡️",
+      "text": "The skin covers our entire body like a protective blanket! It has two main layers: the outer epidermis and the inner dermis. It protects us and helps us feel the world!",
+      "emoji": "🛡️",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "The skin covers our entire body like a protective blanket! It has two main layers: the outer epidermis and the inner dermis. It protects us and helps us feel the world!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Brain",
+            "Spinal Cord",
+            "Nerves",
+            "Skin"
+          ],
+          "highlightIndex": 0
+        }
+      }
+    },
+    {
+      "title": "Two Layers of Skin 🔬",
+      "text": "The epidermis is the thin outer layer that acts like a raincoat against germs and dirt. The dermis is the thick inner layer with tiny nerve endings that pick up touch, hot, cold, and pain!",
+      "emoji": "🔬",
+      "bgColor": "from-sky-400 to-blue-600",
+      "spoken": "The epidermis is the thin outer layer that acts like a raincoat against germs and dirt. The dermis is the thick inner layer with tiny nerve endings that pick up touch, hot, cold, and pain!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Brain",
+            "Spinal Cord",
+            "Nerves",
+            "Skin"
+          ],
+          "highlightIndex": 1
+        }
+      }
+    },
+    {
+      "title": "Sweating Keeps Us Cool 💧",
+      "text": "When we play hard or when it is very hot, our skin produces sweat through tiny pores. As the sweat dries, it takes away heat and cools our body down!",
+      "emoji": "💧",
+      "bgColor": "from-teal-400 to-cyan-600",
+      "spoken": "When we play hard or when it is very hot, our skin produces sweat through tiny pores. As the sweat dries, it takes away heat and cools our body down!",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Goat",
+            "Lion"
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Nervous System: Boss & Highway 🧠",
+      "text": "The nervous system is our body's control network! It is made of three parts: the brain (the control centre inside the skull), the spinal cord (the information highway), and nerves (tiny wires across the body)!",
+      "emoji": "🧠",
+      "bgColor": "from-purple-400 to-indigo-600",
+      "spoken": "The nervous system is our body's control network! It is made of three parts: the brain, the spinal cord, and nerves!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Brain",
+            "Spinal Cord",
+            "Nerves",
+            "Skin"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "The Amazing Signal Pathway ⚡",
+      "text": "When you touch a hot pan: Skin feels it -> Nerve carries signal -> Spinal cord -> Brain decides -> Response! The message travels at lightning speed!",
+      "emoji": "⚡",
+      "bgColor": "from-pink-500 to-rose-600",
+      "spoken": "When you touch a hot pan: Skin feels it, nerve carries signal, spinal cord, brain decides, and response! The message travels at lightning speed!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is the LARGEST sense organ of the human body?",
+      "answer": "The skin",
+      "options": [
+        "The skin",
+        "The eye",
+        "The ear"
+      ],
+      "hint": "Think: which organ covers your entire body from head to toe?",
+      "misconception": "The skin is the largest sense organ because it covers our whole body! Eyes, ears, nose, and tongue are located in specific spots, but skin is everywhere.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "The skin",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The eye",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The ear",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "The eye",
+          "The skin"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "What are the TWO main layers of the skin?",
+      "answer": "Epidermis (outer) and dermis (inner)",
+      "options": [
+        "Epidermis (outer) and dermis (inner)",
+        "Skull and brain",
+        "Heart and lungs"
+      ],
+      "hint": "Think about the thin outer shield and the thicker inner layer with nerve endings.",
+      "misconception": "The two main layers are the epidermis (outer protective layer) and dermis (inner layer with nerve endings). Skull and brain belong to the nervous system!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Epidermis (outer) and dermis (inner)",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Skull and brain",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Heart and lungs",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Skull and brain",
+          "Epidermis (outer) and dermis (inner)"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each skin part or function to the correct layer!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Epidermis is the outer shield against germs. Dermis has nerve endings for feeling!",
+      "misconception": "The outer epidermis protects against germs and water loss. The inner dermis contains nerve endings for touch, heat, cold, and pain, plus sweat glands and hair follicles!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "epi-shield",
+            "label": "Protects from germs",
+            "correctBin": "epidermis"
+          },
+          {
+            "id": "der-nerve",
+            "label": "Nerve endings for touch",
+            "correctBin": "dermis"
+          },
+          {
+            "id": "der-sweat",
+            "label": "Sweat glands for cooling",
+            "correctBin": "dermis"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "epi-shield",
+          "kind": "circle",
+          "label": "Protects from germs",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "epidermis",
+          "interaction": "drag-to-bin",
+          "targetBin": "epidermis"
+        },
+        {
+          "id": "der-nerve",
+          "kind": "circle",
+          "label": "Nerve endings for touch",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "dermis",
+          "interaction": "drag-to-bin",
+          "targetBin": "dermis"
+        },
+        {
+          "id": "der-sweat",
+          "kind": "circle",
+          "label": "Sweat glands for cooling",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "dermis",
+          "interaction": "drag-to-bin",
+          "targetBin": "dermis"
+        },
+        {
+          "id": "epi-water",
+          "kind": "water-drop",
+          "label": "Prevents water loss",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "epidermis",
+          "interaction": "drag-to-bin",
+          "targetBin": "epidermis"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "epi-shield",
+          "label": "Protects from germs",
+          "emoji": "",
+          "correctBin": "epidermis"
+        },
+        {
+          "id": "der-nerve",
+          "label": "Nerve endings for touch",
+          "emoji": "",
+          "correctBin": "dermis"
+        },
+        {
+          "id": "der-sweat",
+          "label": "Sweat glands for cooling",
+          "emoji": "",
+          "correctBin": "dermis"
+        },
+        {
+          "id": "epi-water",
+          "label": "Prevents water loss",
+          "emoji": "",
+          "correctBin": "epidermis"
+        }
+      ],
+      "bins": [
+        {
+          "id": "epidermis",
+          "label": "Epidermis (Outer)",
+          "color": "#D97706"
+        },
+        {
+          "id": "dermis",
+          "label": "Dermis (Inner)",
+          "color": "#DC2626"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "When you touch a HOT cup of tea, what happens FIRST?",
+      "answer": "Nerve endings in the skin feel heat and send a message",
+      "options": [
+        "Nerve endings in the skin feel heat and send a message",
+        "The brain pulls the hand away without any signal",
+        "The hand moves on its own without touching anything"
+      ],
+      "hint": "Skin nerve endings act like antennas to pick up heat or cold first!",
+      "misconception": "The skin's nerve endings must feel the heat first and send a signal through nerves to the brain before the brain can order the hand to move!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Nerve endings in the skin feel heat and send a message",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The brain pulls the hand away without any signal",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The hand moves on its own without touching anything",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Nerve endings in the skin feel heat and send a message",
+          "The brain pulls the hand away without any signal"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag the signal pathway steps in correct order (1 to 4)!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Starts at sense organ -> nerve -> spinal cord -> brain!",
+      "misconception": "The correct pathway always starts at the sense organ collecting information, travels along nerves, through the spinal cord, up to the brain, and finally back to the muscles as a response!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "step-1",
+            "label": "1. Skin feels touch",
+            "correctBin": "bin-1"
+          },
+          {
+            "id": "step-2",
+            "label": "2. Nerve sends signal",
+            "correctBin": "bin-2"
+          },
+          {
+            "id": "step-3",
+            "label": "3. Spinal cord highway",
+            "correctBin": "bin-3"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "step-1",
+          "kind": "circle",
+          "label": "1. Skin feels touch",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-1",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-1"
+        },
+        {
+          "id": "step-2",
+          "kind": "circle",
+          "label": "2. Nerve sends signal",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-2"
+        },
+        {
+          "id": "step-3",
+          "kind": "circle",
+          "label": "3. Spinal cord highway",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-3",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-3"
+        },
+        {
+          "id": "step-4",
+          "kind": "circle",
+          "label": "4. Brain decides response",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-4",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-4"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "step-1",
+          "label": "1. Skin feels touch",
+          "emoji": "",
+          "correctBin": "bin-1"
+        },
+        {
+          "id": "step-2",
+          "label": "2. Nerve sends signal",
+          "emoji": "",
+          "correctBin": "bin-2"
+        },
+        {
+          "id": "step-3",
+          "label": "3. Spinal cord highway",
+          "emoji": "",
+          "correctBin": "bin-3"
+        },
+        {
+          "id": "step-4",
+          "label": "4. Brain decides response",
+          "emoji": "",
+          "correctBin": "bin-4"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-1",
+          "label": "Step 1",
+          "color": "#2563EB"
+        },
+        {
+          "id": "bin-2",
+          "label": "Step 2",
+          "color": "#7C3AED"
+        },
+        {
+          "id": "bin-3",
+          "label": "Step 3",
+          "color": "#DB2777"
+        },
+        {
+          "id": "bin-4",
+          "label": "Step 4",
+          "color": "#059669"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which organ is the CONTROL CENTRE of the body that helps us think, learn, and remember?",
+      "answer": "The brain",
+      "options": [
+        "The brain",
+        "The heart",
+        "The stomach"
+      ],
+      "hint": "It is a soft, jelly-like organ protected safely inside your skull.",
+      "misconception": "The brain is the control centre of the body! It helps us think, remember, feel emotions, and decide how we move.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "The brain",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The heart",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The stomach",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "The heart",
+          "The brain"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each nervous system part to its correct function!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Brain = control centre. Spinal cord = information highway. Nerves = tiny wires.",
+      "misconception": "The brain controls thinking and memory, the spinal cord carries messages up and down the back highway, and nerves branch out like wires to every corner of the body!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. Brain = control centre. Spinal cord = information highway. Nerves = tiny wires."
+      },
+      "interactiveObjects": [
+        {
+          "id": "part-brain",
+          "kind": "circle",
+          "label": "Brain: Control centre",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-brain",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-brain"
+        },
+        {
+          "id": "part-spinal",
+          "kind": "circle",
+          "label": "Spinal cord: Message highway",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-spinal",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-spinal"
+        },
+        {
+          "id": "part-nerves",
+          "kind": "circle",
+          "label": "Nerves: Wire-like carriers",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-nerves",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-nerves"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "part-brain",
+          "label": "Brain: Control centre",
+          "emoji": "",
+          "correctBin": "bin-brain"
+        },
+        {
+          "id": "part-spinal",
+          "label": "Spinal cord: Message highway",
+          "emoji": "",
+          "correctBin": "bin-spinal"
+        },
+        {
+          "id": "part-nerves",
+          "label": "Nerves: Wire-like carriers",
+          "emoji": "",
+          "correctBin": "bin-nerves"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-brain",
+          "label": "Brain 🧠",
+          "color": "#DB2777"
+        },
+        {
+          "id": "bin-spinal",
+          "label": "Spinal Cord 🧬",
+          "color": "#2563EB"
+        },
+        {
+          "id": "bin-nerves",
+          "label": "Nerves ⚡",
+          "color": "#D97706"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag each sense organ to what it senses!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Eyes = sight, Ears = hearing, Skin = touch/pain!",
+      "misconception": "Each sense organ has a specific job: eyes for sight, ears for hearing, nose for smell, tongue for taste, and skin for touch, temperature, and pain!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Eyes = sight, Ears = hearing, Skin = touch/pain!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "sense-eye",
+          "kind": "circle",
+          "label": "Eyes: Sight",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-sight",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-sight"
+        },
+        {
+          "id": "sense-ear",
+          "kind": "circle",
+          "label": "Ears: Hearing",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-hearing",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-hearing"
+        },
+        {
+          "id": "sense-skin",
+          "kind": "circle",
+          "label": "Skin: Touch & Pain",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-touch",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-touch"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "sense-eye",
+          "label": "Eyes: Sight",
+          "emoji": "",
+          "correctBin": "bin-sight"
+        },
+        {
+          "id": "sense-ear",
+          "label": "Ears: Hearing",
+          "emoji": "",
+          "correctBin": "bin-hearing"
+        },
+        {
+          "id": "sense-skin",
+          "label": "Skin: Touch & Pain",
+          "emoji": "",
+          "correctBin": "bin-touch"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-sight",
+          "label": "Sight 👀",
+          "color": "#2563EB"
+        },
+        {
+          "id": "bin-hearing",
+          "label": "Hearing 👂",
+          "color": "#059669"
+        },
+        {
+          "id": "bin-touch",
+          "label": "Touch ✋",
+          "color": "#D97706"
+        }
+      ]
+    }
+  ],
+  "theme": "body",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_SkinNervousGame",
+    "region": "Biosphere",
+    "mapX": 0.88,
+    "mapY": 0.8700000000000001,
+    "icon": "🌱",
+    "prerequisites": []
+  },
+  "subject": "biology"
+}
