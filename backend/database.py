@@ -108,14 +108,20 @@ def _resolve_database_url() -> str:
 DATABASE_URL: str = _resolve_database_url()
 
 # -- Async engine with connection pooling ----------------------------
-engine: AsyncEngine = create_async_engine(
-    DATABASE_URL,
-    echo=os.environ.get("SQL_ECHO", "false").lower() == "true",
+# SQLite (NullPool) rejects pool_size/max_overflow — only pass pooling
+# kwargs to real servers.
+_is_sqlite = DATABASE_URL.startswith("sqlite")
+_engine_kwargs = {} if _is_sqlite else dict(
     pool_size=int(os.environ.get("DB_POOL_SIZE", "10")),
     max_overflow=int(os.environ.get("DB_MAX_OVERFLOW", "20")),
     pool_timeout=int(os.environ.get("DB_POOL_TIMEOUT", "30")),
     pool_recycle=int(os.environ.get("DB_POOL_RECYCLE", "1800")),
-    pool_pre_ping=True,
+)
+engine: AsyncEngine = create_async_engine(
+    DATABASE_URL,
+    echo=os.environ.get("SQL_ECHO", "false").lower() == "true",
+    pool_pre_ping=not _is_sqlite,
+    **_engine_kwargs,
 )
 
 # -- sqlite runtime compatibility ------------------------------------
@@ -171,9 +177,12 @@ def get_sync_engine():
             url = url.replace("postgresql+asyncpg", "postgresql+psycopg2")
         elif "+aiosqlite" in url:
             url = url.replace("sqlite+aiosqlite", "sqlite")
-        _sync_engine = _create_sync_engine(
-            url, pool_pre_ping=True, pool_size=5, max_overflow=5,
-        )
+        if url.startswith("sqlite"):
+            _sync_engine = _create_sync_engine(url)
+        else:
+            _sync_engine = _create_sync_engine(
+                url, pool_pre_ping=True, pool_size=5, max_overflow=5,
+            )
     return _sync_engine
 
 

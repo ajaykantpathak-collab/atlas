@@ -9,6 +9,7 @@ pydantic-settings==2.2.1
 # ==================== DATABASES ====================
 sqlalchemy[asyncio]==2.0.30
 asyncpg==0.29.0
+aiosqlite==0.20.0            # sqlite fallback engine (local/no-postgres mode)
 alembic==1.13.1
 neo4j==5.19.0
 redis[hiredis]==5.0.4
@@ -23,7 +24,7 @@ psycopg2-binary==2.9.9
 # outside _archive; langgraph==0.1.0 doesn't exist on PyPI anyway.
 openai==1.30.0
 langfuse==2.36.0
-sympy==1.12
+sympy==1.13.1            # torch 2.5.1+cpu pins sympy==1.13.1 exactly
 
 # ==================== MATH / SCIENCE ENGINES ====================
 symengine==0.11.0          # Fast symbolic computation (fallback cascade tier 1)
@@ -45,6 +46,7 @@ svgwrite==1.4.3            # SVG diagram generation
 
 # ==================== AUTH ====================
 PyJWT==2.8.0
+python-jose[cryptography]==3.3.0   # jose.JWT used by services/auth_service + jwt_service
 passlib[bcrypt]==1.7.4
 python-multipart==0.0.9
 

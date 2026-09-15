@@ -9,12 +9,13 @@ except ImportError:
 
 settings = get_settings()
 
+_db_url = settings.POSTGRES_URL
+_is_sqlite = _db_url.startswith("sqlite")
 engine = create_async_engine(
-    settings.POSTGRES_URL,
+    _db_url,
     echo=settings.ENVIRONMENT == "development",
-    pool_size=20,
-    max_overflow=10,
-    pool_pre_ping=True,
+    pool_pre_ping=not _is_sqlite,
+    **({} if _is_sqlite else dict(pool_size=20, max_overflow=10)),
 )
 
 async_session = async_sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)
