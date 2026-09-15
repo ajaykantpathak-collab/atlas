@@ -1,0 +1,846 @@
+{
+  "gameFile": "ResourcesGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_geo_011",
+    "c3_geo_012"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "What Are Natural Resources? 🌿",
+      "text": "Natural resources are gifts from nature that we use to live, grow food, and build shelters! They are not made by people — water, soil, forests, and sun are natural!",
+      "emoji": "🌿",
+      "bgColor": "from-emerald-400 to-green-600",
+      "spoken": "Natural resources are gifts from nature that we use to live, grow food, and build shelters. Water, soil, forests, and sun are natural resources!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Natural",
+            "Process",
+            "Product"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Water & Soil — Our Life Givers! 💧",
+      "text": "Water in rivers and groundwater is used for drinking and farming. Alluvial soil in the Northern Plains is rich and fertile, growing wheat, rice, and sugarcane!",
+      "emoji": "💧",
+      "bgColor": "from-blue-400 to-cyan-600",
+      "spoken": "Water is used for drinking and farming. Fertile soil helps plants and crops grow wheat, rice, and sugarcane!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Wonderful Forests! 🌲",
+      "text": "Forests give us timber for furniture, oxygen to breathe, fruits, and medicine! Their roots hold soil tightly to prevent soil erosion and floods.",
+      "emoji": "🌲",
+      "bgColor": "from-green-500 to-emerald-700",
+      "spoken": "Forests give us timber, oxygen, fruits, and medicine. Their roots hold soil tightly to prevent soil erosion and floods!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Conserve Like a Piggy Bank! 💰",
+      "text": "Resources are like money in a piggy bank! If we keep taking without saving, it becomes empty. We must conserve water, plant trees, and avoid waste!",
+      "emoji": "🌱",
+      "bgColor": "from-amber-400 to-orange-600",
+      "spoken": "Resources are like money in a piggy bank. If we keep taking without saving, it becomes empty. We must conserve water, plant trees, and avoid waste!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Local Geography — My Region! 🗺️",
+      "text": "Local geography studies our own region — nearby rivers, landforms, climate, crops, and resources that shape our daily clothes, food, and work!",
+      "emoji": "🗺️",
+      "bgColor": "from-teal-400 to-blue-600",
+      "spoken": "Local geography studies our own region, nearby rivers, landforms, climate, and crops that shape our daily food and work!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What are natural resources?",
+      "answer": "Gifts of nature that we use to live",
+      "options": [
+        "Gifts of nature that we use to live",
+        "Plastic toys made in factories",
+        "Video games played on computers"
+      ],
+      "hint": "Think: what exists on its own in land, water, and air without being made by humans?",
+      "misconception": "Natural resources are gifts of nature like water, soil, and forests — not man-made plastic toys or video games!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Gifts of nature that we use to live",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Plastic toys made in factories",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Video games played on computers",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Gifts of nature that we use to live",
+          "Plastic toys made in factories"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "Which of these is a natural resource?",
+      "answer": "River water",
+      "options": [
+        "River water",
+        "Plastic bottle",
+        "Glass window"
+      ],
+      "hint": "Look for something that comes directly from nature, not manufactured in a factory.",
+      "misconception": "River water is a natural resource! Plastic bottles and glass windows are man-made objects, not gifts of nature.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "River water",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Plastic bottle",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Glass window",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "River water",
+          "Plastic bottle"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each natural resource to its main use or feature!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Water is for drinking/farming, soil for growing crops, forest for wood/oxygen, sun for light/energy!",
+      "misconception": "Each natural resource has a specific role: water quenches thirst and waters crops, soil grows food, forests give oxygen and timber!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "water-use",
+            "label": "Water",
+            "correctBin": "drink-farm"
+          },
+          {
+            "id": "soil-use",
+            "label": "Soil",
+            "correctBin": "grow-crops"
+          },
+          {
+            "id": "forest-use",
+            "label": "Forest",
+            "correctBin": "wood-oxygen"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "water-use",
+          "kind": "water-drop",
+          "label": "Water",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "drink-farm",
+          "interaction": "drag-to-bin",
+          "targetBin": "drink-farm"
+        },
+        {
+          "id": "soil-use",
+          "kind": "circle",
+          "label": "Soil",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "grow-crops",
+          "interaction": "drag-to-bin",
+          "targetBin": "grow-crops"
+        },
+        {
+          "id": "forest-use",
+          "kind": "circle",
+          "label": "Forest",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "wood-oxygen",
+          "interaction": "drag-to-bin",
+          "targetBin": "wood-oxygen"
+        },
+        {
+          "id": "sun-use",
+          "kind": "circle",
+          "label": "Sunlight",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "light-energy",
+          "interaction": "drag-to-bin",
+          "targetBin": "light-energy"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "water-use",
+          "label": "Water",
+          "emoji": "",
+          "correctBin": "drink-farm"
+        },
+        {
+          "id": "soil-use",
+          "label": "Soil",
+          "emoji": "",
+          "correctBin": "grow-crops"
+        },
+        {
+          "id": "forest-use",
+          "label": "Forest",
+          "emoji": "",
+          "correctBin": "wood-oxygen"
+        },
+        {
+          "id": "sun-use",
+          "label": "Sunlight",
+          "emoji": "",
+          "correctBin": "light-energy"
+        }
+      ],
+      "bins": [
+        {
+          "id": "drink-farm",
+          "label": "Drinking & Farming 💧",
+          "color": "#0284C7"
+        },
+        {
+          "id": "grow-crops",
+          "label": "Growing Crops 🌱",
+          "color": "#16A34A"
+        },
+        {
+          "id": "wood-oxygen",
+          "label": "Wood & Oxygen 🌲",
+          "color": "#15803D"
+        },
+        {
+          "id": "light-energy",
+          "label": "Light & Energy ☀️",
+          "color": "#CA8A04"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Why are forests important for our planet?",
+      "answer": "They give oxygen, wood, and animal shelter",
+      "options": [
+        "They give oxygen, wood, and animal shelter",
+        "They block all sunlight from reaching earth",
+        "They are only used to build giant parking lots"
+      ],
+      "hint": "Think about what trees produce and who lives inside them.",
+      "misconception": "Forests are vital because they give us oxygen to breathe, timber, medicine, and safe homes for wildlife — they do not block sunlight or exist for parking lots!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "They give oxygen, wood, and animal shelter",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "They block all sunlight from reaching earth",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "They are only used to build giant parking lots",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "They give oxygen, wood, and animal shelter",
+          "They block all sunlight from reaching earth"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each forest product to its correct category!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Wood makes furniture, neem/tulsi makes medicine, mangoes are fruit, trees give oxygen!",
+      "misconception": "Forests provide diverse products: strong timber for furniture and houses, leaves like neem for healing medicine, and fresh oxygen for breathing!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "wood-prod",
+            "label": "Timber Wood",
+            "correctBin": "furniture"
+          },
+          {
+            "id": "med-prod",
+            "label": "Neem & Tulsi",
+            "correctBin": "medicine"
+          },
+          {
+            "id": "fruit-prod",
+            "label": "Fresh Mango",
+            "correctBin": "food"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "wood-prod",
+          "kind": "circle",
+          "label": "Timber Wood",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "furniture",
+          "interaction": "drag-to-bin",
+          "targetBin": "furniture"
+        },
+        {
+          "id": "med-prod",
+          "kind": "circle",
+          "label": "Neem & Tulsi",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "medicine",
+          "interaction": "drag-to-bin",
+          "targetBin": "medicine"
+        },
+        {
+          "id": "fruit-prod",
+          "kind": "circle",
+          "label": "Fresh Mango",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "food",
+          "interaction": "drag-to-bin",
+          "targetBin": "food"
+        },
+        {
+          "id": "oxy-prod",
+          "kind": "circle",
+          "label": "Fresh Oxygen",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "breathing",
+          "interaction": "drag-to-bin",
+          "targetBin": "breathing"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "wood-prod",
+          "label": "Timber Wood",
+          "emoji": "",
+          "correctBin": "furniture"
+        },
+        {
+          "id": "med-prod",
+          "label": "Neem & Tulsi",
+          "emoji": "",
+          "correctBin": "medicine"
+        },
+        {
+          "id": "fruit-prod",
+          "label": "Fresh Mango",
+          "emoji": "",
+          "correctBin": "food"
+        },
+        {
+          "id": "oxy-prod",
+          "label": "Fresh Oxygen",
+          "emoji": "",
+          "correctBin": "breathing"
+        }
+      ],
+      "bins": [
+        {
+          "id": "furniture",
+          "label": "Furniture & Houses 🪑",
+          "color": "#B45309"
+        },
+        {
+          "id": "medicine",
+          "label": "Medicines 🌿",
+          "color": "#047857"
+        },
+        {
+          "id": "food",
+          "label": "Delicious Food 🍎",
+          "color": "#DC2626"
+        },
+        {
+          "id": "breathing",
+          "label": "Clean Breathing Air 💨",
+          "color": "#0284C7"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Why is alluvial soil in the Northern Plains so special?",
+      "answer": "It is very fertile and grows wheat and rice",
+      "options": [
+        "It is very fertile and grows wheat and rice",
+        "It is made entirely of hard concrete blocks",
+        "It can only be used to make plastic toys"
+      ],
+      "hint": "Think about what rivers deposit in plains and why farmers love it for crops.",
+      "misconception": "Alluvial soil brought down by rivers is rich and fertile, making the Northern Plains perfect for growing wheat, rice, and sugarcane — it is not made of concrete!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "It is very fertile and grows wheat and rice",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "It is made entirely of hard concrete blocks",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "It can only be used to make plastic toys",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "It is made entirely of hard concrete blocks",
+          "It is very fertile and grows wheat and rice"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each action to Conserve or Waste natural resources!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Turning off taps and planting trees conserve resources; leaving taps running wastes them!",
+      "misconception": "Conservation means protecting resources: closing taps saves water, planting trees grows forests, while leaving taps running or polluting rivers wastes them!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "act-tap",
+            "label": "Close tap tightly",
+            "correctBin": "conserve"
+          },
+          {
+            "id": "act-tree",
+            "label": "Plant a new tree",
+            "correctBin": "conserve"
+          },
+          {
+            "id": "act-run",
+            "label": "Let tap run wastefully",
+            "correctBin": "waste"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "act-tap",
+          "kind": "circle",
+          "label": "Close tap tightly",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "conserve",
+          "interaction": "drag-to-bin",
+          "targetBin": "conserve"
+        },
+        {
+          "id": "act-tree",
+          "kind": "leaf",
+          "label": "Plant a new tree",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "conserve",
+          "interaction": "drag-to-bin",
+          "targetBin": "conserve"
+        },
+        {
+          "id": "act-run",
+          "kind": "circle",
+          "label": "Let tap run wastefully",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "waste",
+          "interaction": "drag-to-bin",
+          "targetBin": "waste"
+        },
+        {
+          "id": "act-cut",
+          "kind": "circle",
+          "label": "Cut down all forests",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "waste",
+          "interaction": "drag-to-bin",
+          "targetBin": "waste"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "act-tap",
+          "label": "Close tap tightly",
+          "emoji": "",
+          "correctBin": "conserve"
+        },
+        {
+          "id": "act-tree",
+          "label": "Plant a new tree",
+          "emoji": "",
+          "correctBin": "conserve"
+        },
+        {
+          "id": "act-run",
+          "label": "Let tap run wastefully",
+          "emoji": "",
+          "correctBin": "waste"
+        },
+        {
+          "id": "act-cut",
+          "label": "Cut down all forests",
+          "emoji": "",
+          "correctBin": "waste"
+        }
+      ],
+      "bins": [
+        {
+          "id": "conserve",
+          "label": "Conserve Resources ✅",
+          "color": "#16A34A"
+        },
+        {
+          "id": "waste",
+          "label": "Waste Resources ⚠️",
+          "color": "#DC2626"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "What does local geography study about your region?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Local geography studies landforms, climate, crops, and rivers nearby — not the moon!",
+      "misconception": "Local geography studies our immediate surroundings: nearby rivers, landforms, climate, and local crops — it does not study what happened centuries ago or objects on the moon!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "geo-river",
+            "label": "Nearby Rivers",
+            "correctBin": "local"
+          },
+          {
+            "id": "geo-crop",
+            "label": "Local Crops",
+            "correctBin": "local"
+          },
+          {
+            "id": "geo-moon",
+            "label": "Moon Rocks",
+            "correctBin": "not-local"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "geo-river",
+          "kind": "circle",
+          "label": "Nearby Rivers",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "local",
+          "interaction": "drag-to-bin",
+          "targetBin": "local"
+        },
+        {
+          "id": "geo-crop",
+          "kind": "circle",
+          "label": "Local Crops",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "local",
+          "interaction": "drag-to-bin",
+          "targetBin": "local"
+        },
+        {
+          "id": "geo-moon",
+          "kind": "circle",
+          "label": "Moon Rocks",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "not-local",
+          "interaction": "drag-to-bin",
+          "targetBin": "not-local"
+        },
+        {
+          "id": "geo-dino",
+          "kind": "circle",
+          "label": "Ancient Dinosaurs",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "not-local",
+          "interaction": "drag-to-bin",
+          "targetBin": "not-local"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "geo-river",
+          "label": "Nearby Rivers",
+          "emoji": "",
+          "correctBin": "local"
+        },
+        {
+          "id": "geo-crop",
+          "label": "Local Crops",
+          "emoji": "",
+          "correctBin": "local"
+        },
+        {
+          "id": "geo-moon",
+          "label": "Moon Rocks",
+          "emoji": "",
+          "correctBin": "not-local"
+        },
+        {
+          "id": "geo-dino",
+          "label": "Ancient Dinosaurs",
+          "emoji": "",
+          "correctBin": "not-local"
+        }
+      ],
+      "bins": [
+        {
+          "id": "local",
+          "label": "Local Geography 🗺️",
+          "color": "#0284C7"
+        },
+        {
+          "id": "not-local",
+          "label": "Not Local Geography ❌",
+          "color": "#6B7280"
+        }
+      ]
+    }
+  ],
+  "theme": "outdoor",
+  "storyArc": {
+    "theme": "An adventurer travels across the world",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-map",
+    "title": "World Map",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_geo_011",
+    "region": "World Explorer",
+    "mapX": 0.7,
+    "mapY": 0.55,
+    "icon": "🌍",
+    "prerequisites": [
+      "c3_geo_012"
+    ]
+  },
+  "subject": "geography"
+}

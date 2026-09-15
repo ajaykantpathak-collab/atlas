@@ -1,0 +1,248 @@
+
+########## c7_math_ch01 | Large Numbers Around Us · Part 1/2
+-- c7_math_ch01_001 --
+DEF: The lakh is a unit in the Indian numbering system equal to one hundred thousand ($1,00,000$ or $10^5$), representing the threshold where 5-digit numbers transition to 6-digit numbers. Its magnitude signifies a value ten times greater than ten thousand and forms the primary grouping marker in the Indian place value system before the crore.
+WALK: Imagine saving money in your piggy bank to buy a bicycle that costs ₹1,00,000. When you count past ninety-nine thousand nine hundred ninety-nine, what number comes next, and how do we write it? To answer this, we extend our familiar place value chart past the ten-thousands column into a brand-new column called the 'lakh' place. Recall from Class 6 how each place value is ten times the value of the column immediately to its right ($10 \times 10,00
+MISC: Students frequently misplace commas or miscount zeros when writing and reading numbers involving lakhs, writing numbers like $10,0,000$ or confusing $1,00,000$ with $10,000$ because they forget that a lakh requires five zeros following the digit 1 in the Indian system.
+DQ1: What is the numeral form for "one lakh" in the Indian numbering system, and how many digits does it contain?
+CQ1: QUESTION: A civic body reports that City A has a population of $4,08,200$ and City B has a population of $3,99,900$. A student claims that City B has a larger population because the digit 9 is larger than the digit 4. Analyze this claim, identify the misconception, and determine which city actually has a greater population with mathematical justifi
+-- c7_math_ch01_002 --
+DEF: The place value system extends to 6-digit (lakhs) and 7-digit (ten lakhs) numbers in the Indian numbering system, where each digit's position to the left represents a value ten times greater than the position immediately to its right. This allows us to represent, read, and write very large quantities, such as country populations or national budgets
+WALK: Imagine the ticket collector at a busy railway station in Mumbai announces that 4,52,389 passengers traveled across suburban lines today! To understand how massive that number is, we cannot just rely on hundreds or thousands anymore; we need to step into the world of lakhs. Let us begin by recalling how 5-digit numbers use Ten Thousands, and observe how adding one more column to the left opens up the Lakhs and Ten Lakhs places. When writing down 
+MISC: Students frequently misplace commas or misread 6 and 7-digit numbers by treating them like the International system (grouping by threes from the right: millions/billions) instead of the Indian system (grouping by threes first, then groups of two: Thousands, Lakhs, Crores). For example, when reading 4252389, they might 
+DQ1: What is the place value of the digit '7' in the 7-digit number 47,25,910 in the Indian system?
+CQ1: QUESTION: Rahul says that the number 5,08,009 has fewer digits than 50,809 because zeros in the middle do not count toward length. Analyze his statement, identify the mathematical error in his reasoning regarding place value, and write the correct number of digits for both numbers with their proper Indian comma placement.
+
+COMPETENCY: Error ident
+
+########## c7_math_ch02 | Arithmetic Expressions · Part 1/2
+-- c7_math_ch02_001 --
+DEF: An arithmetic expression is a combination of numbers and operational symbols (+, -, ×, ÷) that represents a single numerical value, where individual parts separated by addition or subtraction signs are called terms.
+WALK: Imagine you go to a stationery shop in your neighborhood and buy 3 notebooks for ₹25 each and 2 pens for ₹10 each. When you write down the total cost as $3 \times 25 + 2 \times 10$, you have created an arithmetic expression. In Class 6, you learned how to perform individual operations on whole numbers, integers, and fractions. Now, we group these operations together into a single mathematical phrase called an expression. Each separate chunk being
+MISC: Students often split an expression at every single operation symbol (+, -, ×, ÷), treating every number as its own term. For example, in $20 - 4 \times 3$, a struggling student might mistakenly think there are three terms ($20$, $4$, and $3$) and try to subtract before multiplying.
+DQ1: In the arithmetic expression $15 + 4 \times 3 - 8$, how many terms are separated by addition and subtraction signs?
+CQ1: QUESTION: Consider the arithmetic expression $100 - 10 \times 5 + 20 \div 2$. A student claims that because there are four numbers, there must be four terms: $100$, $10$, $5$, and $20 \div 2$. Is this correct? Identify all actual terms in this expression and compute its final value with full reasoning.
+COMPETENCY: Term identification and structura
+-- c7_math_ch02_002 --
+DEF: Evaluating an arithmetic expression requires computing its final numerical value by following a strict, universally agreed-upon sequence of operations known as BODMAS/PEMDAS (Brackets, Orders/Exponents, Division and Multiplication from left to right, Addition and Subtraction from left to right). This rule ensures that every expression yields one un
+WALK: Imagine you are at a local stationery shop in Delhi buying notebooks and pens for school. If a packet has 3 notebooks at ₹40 each and 2 pens at ₹10 each, plus an extra delivery charge of ₹15, how do you write and calculate the total bill? You write the expression as $3 \times 40 + 2 \times 10 + 15$. In Class 6, you learned basic operations and properties of integers and fractions, but when multiple operations appear together, computing strictly f
+MISC: Students often evaluate expressions strictly from left to right across all operation types, ignoring the priority of multiplication and division over addition and subtraction. For example, when evaluating $10 + 5 \times 2$, a student incorrectly adds $10 + 5 = 15$ first, then multiplies by $2$ to get $30$, instead of m
+DQ1: What does the letter 'D' stand for in the BODMAS rule used for evaluating arithmetic expressions?
+CQ1: QUESTION: Two students, Amit and Priya, are asked to evaluate the expression $100 - 20 \times 3 + 10$. 
+Amit's work: $100 - 60 + 10 \rightarrow 40 + 10 = 50$.
+Priya's work: $80 \times 3 + 10 \rightarrow 240 + 10 = 250$.
+Identify who is correct, explain the exact mathematical error made by the incorrect student, and provide the correct step-by-st
+
+########## c7_math_ch03 | A Peek Beyond the Point · Part 1/2
+-- c7_math_ch03_001 --
+DEF: The need for smaller units arises when whole numbers and standard large measurement units are insufficient to express fractional amounts or precise quantities between two consecutive whole units, requiring the division of a whole into equal smaller parts such as tenths or hundredths. This foundational shift extends our number system beyond whole nu
+WALK: Imagine you are measuring the length of your science notebook with a standard plastic ruler, and the edge lands somewhere between 14 cm and 15 cm. If you only know whole numbers, you are stuck because the length is more than 14 but not quite 15. To solve this everyday dilemma, we must look closer at the space between 14 and 15 and divide that single centimeter into 10 smaller, equal parts called millimeters. Connecting back to our prior work with
+MISC: Students often treat the smaller fractional parts (tenths, hundredths) as independent whole numbers rather than parts of a whole, leading them to write $3$ strips and $4$ parts as $34$ instead of $3\frac{4}{10}$. Another common error is believing that because 100 is greater than 10, a hundredth ($\frac{1}{100}$) is lar
+DQ1: If a pencil's length falls between 7 cm and 8 cm on a ruler, why are natural numbers and whole numbers alone insufficient to state its exact length?
+CQ1: QUESTION: Rahul and Sneha are discussing why a ruler has tiny marks between every centimeter. Rahul says the tiny marks are just decoration. Sneha says they are smaller units needed because lengths do not always land on whole centimeter marks. Write a short paragraph evaluating both arguments using the concept of measurement precision.
+COMPETENCY:
+-- c7_math_ch03_002 --
+DEF: The tenth part represents one of ten equal parts of a whole unit, expressed as the fraction $\frac{1}{10}$ or as the decimal number $0.1$. It is the first position to the right of the decimal point, representing a value ten times smaller than a whole number one.
+WALK: Imagine you go to a stationery shop to buy a pencil, and the shopkeeper tells you it costs one rupee, but you also notice small rulers where a centimetre is divided into 10 tiny equal tick marks called millimetres. How do we write a length that is just 1 tiny tick mark out of those 10 equal parts of a centimetre? Just like we use fractions like $\frac{1}{10}$ to show sharing a whole into 10 equal pieces, mathematicians invented decimals to write 
+MISC: Students often write the fraction $\frac{1}{10}$ as decimal $0.01$ instead of $0.1$. This happens because they confuse the tenths place (the first position after the decimal point) with the hundredths place, thinking that the number of zeros in the denominator ($10$ has one zero) does not correspond directly to the dec
+DQ1: What fraction is represented by the decimal number $0.3$?
+CQ1: QUESTION: Rahul claims that the decimal $0.2$ is smaller than the fraction $\frac{3}{10}$ because 2 is smaller than 3, but he also claims that $0.2$ is larger than $\frac{1}{10}$. Evaluate his claims and explain using tenths place value.
+COMPETENCY: Comparing and justifying fractions and decimals using place value
+STEPS:
+- step 1: Convert both f
+
+########## c7_math_ch04 | Expressions Using Letter-Numbers · Part 1/2
+-- c7_math_ch04_001 --
+DEF: A variable is a letter or symbol used in algebra to represent an unknown or changing quantity that can take various numerical values. It allows us to express general rules, formulas, and relationships in mathematics concisely.
+WALK: Imagine you are buying notebooks for your school opening day at the local stationery shop where each notebook costs ₹25, but the total number of notebooks you need depends on how many your teacher asks you to buy. Instead of writing a new sentence every time, we can use a letter like $n$ to stand for the number of notebooks, making our cost calculation $25 \times n$. In Class 6, you learned how to use basic operations with numbers, fractions, and
+MISC: Students frequently confuse variables with constants or labels, treating a letter like $a$ as an abbreviation for an object (e.g., thinking $a$ stands for "apples" rather than "the number of apples"). For example, when asked to write "There are 5 more pens than pencils," where pencils are $p$ and pens are $n$, a studen
+DQ1: In the algebraic expression $4x + 7$, what does the letter $x$ represent? Is it a fixed number or a variable?
+CQ1: QUESTION: Amit says that in the expression $3m + 4$, the letter $m$ can be replaced by any integer, including negative integers. Sneha argues that $m$ can only represent positive counting numbers because you cannot have a negative number of objects in real life. Evaluate both arguments based on the mathematical definition of a variable in algebra.
+-- c7_math_ch04_002 --
+DEF: An algebraic expression is made up of terms added or subtracted together, where each term consists of a numerical coefficient multiplied by one or more variables, or stands alone as a constant term.
+WALK: Imagine you are buying stationery for school in Delhi: 3 notebooks cost 3 rupees each, 2 pens cost ₹10 each, and you also paid an entry fee of ₹5. If a notebook is represented by $x$ and a pen by $y$, your total bill can be written as $3x + 2y + 5$. To make sense of this mathematical sentence, we need to break it down into its building blocks just like we separate whole numbers into digits using place value. Each distinct piece added together—$3x
+MISC: Students frequently drop the negative sign when identifying coefficients of terms that follow a subtraction sign, or they confuse the constant term with coefficients. For example, in the expression $3x^2 - 5x + 7$, a student will often say the coefficient of $x$ is $5$ instead of $-5$, ignoring the minus sign that belo
+DQ1: What is the definition of a "term" in an algebraic expression? Give a brief description.
+CQ1: QUESTION: A school science club makes and sells two types of science kits. Deluxe kits sold for ₹$x$ each bring in total revenue, and standard kits sold for ₹$y$ each bring in another part, plus a government grant of ₹5000. The total funds expression is given by $100x + 75y - 2000 + 5000$, where $-2000$ represents expenses. A student says the const
+
+########## c7_math_ch05 | Parallel and Intersecting Lines · Part 1/2
+-- c7_math_ch05_001 --
+DEF: Intersecting lines are two or more straight lines in a plane that meet or cross each other at a single common point called the point of intersection, forming four angles at that junction.
+WALK: Imagine walking down a street in your neighborhood where two straight roads cross each other at a junction. If you stand right at the middle of the crossing where all four corners meet, you are standing at the exact spot where both roads share space—this is a real-world point of intersection! In geometry, when two straight lines meet, they do not just touch; they cross through one another, creating a unique point and dividing the space around it 
+MISC: Students often confuse the "point of intersection" with the endpoints of line segments or think that intersecting lines can have multiple crossing points without curving. For example, when shown two intersecting lines, a student might point to the ends of the drawn segments instead of the central crossing point, or the
+DQ1: What is the special name given to the exact point where two straight lines cross each other?
+CQ1: QUESTION: Two straight railway tracks, line $L_1$ and line $L_2$, cross each other at a switchyard, creating a junction point $J$. A junior engineer claims that because the tracks are long steel beams, they must intersect at two different points to stay stable. Do you agree with the engineer's claim? Justify your answer using geometric properties o
+-- c7_math_ch05_002 --
+DEF: A linear pair of angles is a pair of adjacent angles formed when two lines intersect, whose non-common arms form a straight line and whose angle measures always sum up to exactly 180 degrees.
+WALK: Imagine walking along a straight divider on an Indian highway, then turning sharply onto a side road to enter a petrol pump; the two paths you took form angles along the straight edge of the main road. If you measure both turns together, they span a complete straight flat path, which is always a flat 180 degrees. To begin solving these problems mathematically, we first identify if two angles share a common vertex and a common arm while resting on
+MISC: Students frequently confuse the linear pair sum property ($180^\circ$) with complementary angles ($90^\circ$) or full-turn angles ($360^\circ$). When solving algebraic equations like $4x + 20 = 180$, they often subtract $20$ from $180$ correctly to get $160$, but then divide by $4$ incorrectly or mistakenly add the coe
+DQ1: If two angles form a linear pair and one of them measures $75^\circ$, what is the measure of the other angle?
+CQ1: QUESTION: A carpenter designs a triangular wooden wedge where an exterior extension forms a linear pair with an interior angle. If the interior angle measures $70^\circ$, but the carpenter's apprentice claims the exterior linear pair angle is $120^\circ$, evaluate this claim using mathematical reasoning and calculate the correct exterior angle.
+CO
+
+########## c7_math_ch06 | Number Play · Part 1/2
+-- c7_math_ch06_001 --
+DEF: Interpreting number sequences involves analyzing a ordered list of numbers arranged according to a specific mathematical rule to uncover the underlying pattern, predict future terms, or solve real-world problems. By examining how terms grow, shrink, or change from one step to the next, we can describe the relationship using mathematical rules or al
+WALK: Imagine you are standing at a metro station in Delhi and watching the digital board show the arrival times of trains: 5 minutes, 10 minutes, 15 minutes, 20 minutes... How do you know the next train will arrive in 25 minutes? You are interpreting a number sequence! To begin analyzing any sequence, start by writing down the given numbers in order and finding the difference or ratio between consecutive terms. Connect this to what you already know ab
+MISC: Students often assume every sequence is an arithmetic progression (grows by addition) and mistakenly apply a constant difference when the sequence actually grows by multiplication (geometric) or by changing differences (quadratic). For example, in the sequence 2, 6, 18, 54, a student might look at the first jump ($6 - 
+DQ1: What is a number sequence?
+CQ1: QUESTION: Amit looks at the sequence 1, 4, 9, 16, 25 and states, "The rule is to add 3, then add 5, then add 7, then add 9. Therefore, the next number is obtained by adding 11, so it is 36." Priya looks at the same sequence and states, "Each number is the square of its position number ($1^2, 2^2, 3^2, ...$), so the 6th term is $6^2 = 36$." Are both
+-- c7_math_ch06_002 --
+DEF: Even numbers are integers divisible by $2$ (ending in $0, 2, 4, 6, 8$), while odd numbers are integers not divisible by $2$ (ending in $1, 3, 5, 7, 9$). Algebraically, any even number can be represented as $2n$ and any odd number as $2n + 1$ (where $n$ is an integer).
+WALK: Imagine you are organizing students into rows for the school assembly in Delhi. If every row has exactly $2$ students, you will never have a leftover student; the total count of students is even. But if every row has $2$ students and one row has a leftover student standing alone, the total count is odd. In Class 6, you learned about factors, multiples, and divisibility rules, noting that numbers ending in $0, 2, 4, 6, 8$ are multiples of $2$. Now
+MISC: Students often assume that rules for adding even and odd numbers apply identically to multiplication, or they confuse the results of operations. Specifically, students frequently state that the product of two odd numbers is an even number because they incorrectly add the terms mentally or think "odd times odd equals ev
+DQ1: Which of the following integers is an odd number: $-45$, $0$, $102$, or $338$?
+CQ1: QUESTION: Two students are debating about integer properties. Student A claims: "If you square any odd number, the result is always odd." Student B claims: "If you square any even number, the result is always a multiple of $4$." Validate both claims using algebraic proofs and give a numerical example for each.
+
+COMPETENCY: Translating real-world 
+
+########## c7_math_ch07 | A Tale of Three Intersecting Lines · Part 1/2
+-- c7_math_ch07_001 --
+DEF: A triangle is a closed, two-dimensional geometric polygon formed by three intersecting straight line segments, having exactly three vertices, three sides, and three interior angles. It is the simplest polygon that can enclose a flat region in space.
+WALK: Imagine you are sitting in your school classroom, and you look at the corner where two walls meet the floor—that meeting point is like a vertex! If you stretch three straight wooden sticks end-to-end to form a closed boundary on your desk, you create a triangle. In Class 6, you learned about basic lines, line segments, and angles, as well as an introduction to basic shapes. Now, we zoom in on the triangle, which is the foundational building block
+MISC: Students often confuse the perimeter or area calculations with the basic structural components of a triangle, or they mix up the labels of vertices, sides, and angles. For example, when asked to name the side opposite to vertex A in triangle ABC, a student might write vertex B or angle C instead of writing the line seg
+DQ1: How many vertices, sides, and angles does a triangle have?
+CQ1: QUESTION: Priya claims that any three straight lines drawn on a paper will always form a triangle. Do you agree with Priya? Justify your answer using the definition of a triangle and its components.
+COMPETENCY: Evaluating geometric definitions and identifying counter-examples
+STEPS:
+- Step 1: Analyze Priya's claim carefully: "any three straight 
+-- c7_math_ch07_002 --
+DEF: An equilateral triangle is a special three-sided polygon in which all three sides are equal in length and all three interior angles are equal, measuring exactly 60° each.
+WALK: Imagine you are an architect designing a stained-glass window for a school auditorium in Delhi, and you need to cut three glass panels that are identical in every way, forming a perfectly balanced triangle where every corner and edge matches. To begin, you must recall that triangles have three sides and three angles, but an equilateral triangle is unique because its symmetry means all boundary lengths are identical. We start by drawing a base lin
+MISC: Students often believe that if they draw three lines of any random length that meet at three corners, they can force them to form an equilateral triangle by adjusting the angles to 60° without checking if the compass radius matches the base line segment during construction. For example, when constructing a triangle wit
+DQ1: What is the measure of each interior angle in an equilateral triangle?
+CQ1: QUESTION: Rahul attempts to draw an equilateral triangle with side length 6 cm. He draws a base line segment $XY = 6\text{ cm}$. Then, from point $X$, he uses his compass opened to 6 cm to draw an arc. From point $Y$, he uses his compass opened to 5 cm to draw an intersecting arc at point $Z$. Will triangle $XYZ$ be an equilateral triangle? Justify
+
+########## c7_math_ch08 | Working with Fractions · Part 1/2
+-- c7_math_ch08_001 --
+DEF: Multiplication of fractions is an operation where two or more fractional numbers are combined by multiplying their numerators together to form the new numerator and their denominators together to form the new denominator. The fundamental rule states that for any fractions $\frac{a}{b}$ and $\frac{c}{d}$ where $b \neq 0$ and $d \neq 0$, the product 
+WALK: Imagine you bought a large cake for your school farewell party, and after the party, $\frac{3}{4}$ of the cake is left over. The next day, your teacher asks you to take home $\frac{1}{2}$ of that leftover cake. How much of the whole original cake are you taking home? To solve this, you need to find $\frac{1}{2}$ of $\frac{3}{4}$, which translates mathematically to multiplying $\frac{1}{2} \times \frac{3}{4}$. Building on your prior knowledge of f
+MISC: Students often mistakenly apply the rules of fraction addition and subtraction to multiplication by finding a common denominator before multiplying the numerators, or they forget to convert mixed numbers into improper fractions before multiplying. For example, when solving $2\frac{1}{2} \times \frac{3}{4}$, a student m
+DQ1: What is the primary rule for multiplying two fractions, such as $\frac{2}{3} \times \frac{4}{5}$?
+CQ1: QUESTION: Two students, Amit and Sneha, are trying to solve $\frac{4}{9} \times \frac{3}{8}$. Amit multiplies straight across to get $\frac{12}{72}$ and then simplifies. Sneha simplifies the fractions diagonally before multiplying, cancelling 4 with 8 and 3 with 9, to get $\frac{1}{3} \times \frac{1}{2}$. Evaluate both methods. Which method is more
+-- c7_math_ch08_002 --
+DEF: Multiplying a fraction by a whole number means finding a repeated sum or a fractional part of that whole number, calculated by multiplying the whole number by the numerator and keeping the denominator the same. For any whole number $w$ and fraction $\frac{a}{b}$, the product is given by $\frac{w \times a}{b}$.
+WALK: Imagine you are buying 3 packets of biscuits, and each packet weighs $\frac{3}{4}$ kg. To find the total weight, you need to add $\frac{3}{4}$ three times: $\frac{3}{4} + \frac{3}{4} + \frac{3}{4}$. Just like repeated addition in whole numbers becomes multiplication (e.g., $3 \times 4$), repeated addition of fractions becomes multiplying a fraction by a whole number. To begin, write down the whole number and the fraction as a multiplication expre
+MISC: Students frequently multiply both the numerator AND the denominator of a fraction by the whole number (e.g., calculating $4 \times \frac{2}{3}$ as $\frac{8}{12}$ instead of $\frac{8}{3}$). They confuse this operation with finding equivalent fractions or assume that scaling applies to both parts equally.
+DQ1: What is the rule for multiplying a whole number by a fraction $\frac{a}{b}$?
+CQ1: QUESTION: Rahul and Sneha were asked to solve $8 \times \frac{3}{4}$. 
+Rahul writes: $8 \times \frac{3}{4} = \frac{8 \times 3}{4 \times 4} = \frac{24}{16} = \frac{3}{2}$.
+Sneha writes: $8 \times \frac{3}{4} = \frac{8 \times 3}{4} = \frac{24}{4} = 6$.
+Who is correct? Identify the mathematical error made by the incorrect student and explain why th
+
+########## c7_math_ch09 | Geometric Twins · Part 1/2
+-- c7_math_ch09_001 --
+DEF: Congruent figures are geometric shapes that have the exact same shape and the exact same size, meaning one can be placed precisely over the other so that they cover each other completely through rigid transformations like translation, rotation, or reflection.
+WALK: Imagine you buy two identical brand-new exercise notebooks from a stationery shop in your market for ₹40 each. When you stack them on top of your desk, the cover of the top book fits the bottom book so perfectly that no edges stick out. In geometry, when two objects match up completely in both shape and size, we call them **congruent figures**. Building on our earlier work with lines and basic shapes from Class 6, we now look closely at how geome
+MISC: Students often confuse "similar" figures with "congruent" figures, assuming that if two objects look alike (like a small photo and a large poster of the same picture), they are congruent. For example, they might look at an equilateral triangle with $3\text{ cm}$ sides and an equilateral triangle with $6\text{ cm}$ side
+DQ1: What condition must two geometric figures satisfy to be called "congruent"?
+CQ1: QUESTION: Rahul cuts out two paper stars from a template. Star 1 has 5 points with all outer edge segments measuring exactly $3\text{ cm}$ each. Star 2 also has 5 points with all outer edge segments measuring $3\text{ cm}$ each. Rahul states: "Since all outer edge segments of both stars are equal to $3\text{ cm}$, the two stars must be congruent." 
+-- c7_math_ch09_002 --
+DEF: Congruence of triangles means that two triangles have the exact same shape and size, such that when one is placed over the other, they coincide completely. The corresponding sides and corresponding angles of congruent triangles are equal in measurement, denoted symbolically by the symbol $\cong$.
+WALK: Imagine you and your friend buy two identical plastic triangular set-squares from the school stationery shop in Delhi. If you place your set-square directly on top of your friend's set-square, every edge and every corner fits over the other without any overhang. In geometry, we call such overlapping figures congruent geometric twins. To study them mathematically, we must match the corners (vertices) in the correct order so that side matches side 
+MISC: Students often assume that the letters in a triangle's name can be written in any random order when stating congruence (e.g., writing $\triangle ABC \cong \triangle QPR$ when the actual correspondence is $A \leftrightarrow P$, $B \leftrightarrow Q$, $C \leftrightarrow R$). This error breaks the fundamental rule of vert
+DQ1: If $\triangle PQR \cong \triangle XYZ$, which side corresponds to side $QR$?
+A) $XY$
+B) $YZ$
+C) $XZ$
+D) $YX$
+CQ1: QUESTION: Priya writes down two triangles on her notebook and states that $\triangle ABC \cong \triangle QPR$. Her friend Rohan looks at her work and says, "That means angle $C$ is equal to angle $R$." Evaluate Rohan's statement using vertex correspondence principles and explain whether he is right or wrong.
+COMPETENCY: Error identification and co
+
+########## c7_math_ch10 | Operations with Integers · Part 1/2
+-- c7_math_ch10_001 --
+DEF: Integers are a set of numbers that include all whole numbers and their negative counterparts, represented as $\{..., -3, -2, -1, 0, 1, 2, 3, ...\}$, where positive integers lie to the right of zero, negative integers lie to the left of zero, and zero is neither positive nor negative.
+WALK: Imagine you are standing at ground level in a multi-story parking building in Delhi. Ground level is marked as 0. If you go up 3 floors to park your car, we call that $+3$ (positive 3). If you take the elevator down 2 floors to the basement to check the electricity meter, we call that $-2$ (negative 2). To understand integers fully, we expand our whole numbers by introducing a mirror image of counting numbers to the left of zero. We write positiv
+MISC: Students often confuse the absolute magnitude of digits with the value of negative numbers, assuming that a larger numeral with a negative sign (e.g., $-98$) is greater than a smaller numeral with a negative sign (e.g., $-12$), or they treat zero as a positive number. For instance, when asked to order $\{-12, -5, -98\}
+DQ1: Which of the following numbers is considered neither a positive integer nor a negative integer?
+A) $+1$
+B) $0$
+C) $-1$
+D) Both A and C
+CQ1: QUESTION: A student states, "Zero is a positive integer because it is greater than all negative numbers." Evaluate this statement mathematically. In your explanation, define the exact classification of zero and why it cannot be classified as positive or negative.
+COMPETENCY: Mathematical reasoning and classification justification
+STEPS:
+- Step 1
+-- c7_math_ch10_002 --
+DEF: The addition of integers using a number line is a visual method where positive integers are added by moving to the right and negative integers are added by moving to the left from a starting number. This process physically models how positive and negative values combine on a linear scale.
+WALK: Imagine you are playing a board game where your score is currently at $-3$ (3 points in debt), and you roll a dice that gives you $+5$ points. Where does your final score land on the scoring track? To solve this, we start at our initial position on the number line and use directional movement: positive numbers mean moving right (forward), and negative numbers mean moving left (backward). This builds directly on comparing and ordering integers fro
+MISC: Students often confuse the sign of the integer being added with the operation sign, resulting in wrong directional movement. For example, when evaluating $(-4) + (-3)$, a student might start at $-4$ and move 3 units to the *right* because they see a plus sign between the brackets, completely ignoring that the second nu
+DQ1: What direction on a horizontal number line do you move when adding a positive integer?
+CQ1: QUESTION: Two students, Aarav and Meera, are trying to solve $(+3) + (-5)$ using a number line. Aarav starts at $+3$ and moves 5 units left, arriving at $-2$. Meera starts at $-5$ and moves 3 units right, arriving at $-2$. Both got $-2$. Explain why both methods work, referencing mathematical properties.
+COMPETENCY: Comparing and justifying mathem
+
+########## c7_math_ch11 | Finding Common Ground · Part 1/2
+-- c7_math_ch11_001 --
+DEF: Common factors of two numbers are the whole numbers that divide both given numbers exactly without leaving any remainder. In other words, they are the intersection of the factor sets of both numbers.
+WALK: Imagine you are organizing a school sports event and have 12 red flags and 18 blue flags. You want to divide both types of flags into identical rows so that no flags are left over, asking: what are the possible sizes of equal groups we can make? To solve this, we begin by listing every single factor of 12 and every single factor of 18 using our knowledge of multiplication tables. Building on our Class 6 work with factors and multiples, we find nu
+MISC: Students often confuse common factors with common multiples, listing numbers that are larger than the given numbers instead of smaller divisors. For example, when finding common factors of 4 and 6, a student might list 12, 24, and 36 because they calculate $4 \times 3$ and $6 \times 2$, performing multiplication instea
+DQ1: What is the definition of a common factor of two numbers?
+CQ1: QUESTION: Rahul says, "Since 4 is a factor of 12 and 4 is a factor of 20, any multiple of 4 must also be a common factor of 12 and 20." Evaluate Rahul's statement with justification.
+COMPETENCY: Error identification and mathematical reasoning
+STEPS:
+- Step 1: Analyze Rahul's claim about multiples of factors.
+- Step 2: Test the claim with an exa
+-- c7_math_ch11_002 --
+DEF: The Highest Common Factor (HCF) of two or more numbers is the greatest positive integer that divides each of those numbers completely without leaving any remainder. It represents the ultimate sharing capacity or the largest uniform grouping possible for given quantities.
+WALK: Imagine you are organizing a school cultural fest in Delhi and have 24 red ribbons and 36 blue ribbons. You want to make identical gift hampers such that every hamper has the exact same number of red ribbons and the exact same number of blue ribbons, with none left over. To find the maximum number of identical hampers you can make, you need to find the factors that are shared by both 24 and 36. You learned about factors and divisibility rules in 
+MISC: Students frequently confuse HCF (Highest Common Factor) with LCM (Lowest Common Multiple), resulting in students multiplying the numbers or finding huge numbers instead of divisors. Another common error is missing factors when listing them out—for example, forgetting that numbers like 36 can be written as $4 \times 9$,
+DQ1: What does HCF stand for, and what does it mathematically signify when comparing two numbers like 12 and 18?
+CQ1: QUESTION: A school has 72 students in Class 7A and 90 students in Class 7B. The sports teacher wants to arrange both classes into separate rows such that every row in both classes has the exact same number of students, and that number is as large as possible. 
+Part A: How many students will be in each row? 
+Part B: How many total rows will be for
+
+########## c7_math_ch12 | Another Peek Beyond the Point · Part 1/2
+-- c7_math_ch12_001 --
+DEF: Decimals are an extension of our place value system used to represent numbers smaller than one by utilizing powers of ten in the denominator, separated from the whole number part by a decimal point. Each position to the right of the decimal point represents a fractional value divided by 10, 100, 1,000, and so on.
+WALK: Imagine you are at a vegetable market in India buying 2 kilograms and 350 grams of potatoes, and the shopkeeper writes the price tag as ₹45.75. How do we understand what the .75 actually means in terms of parts of a whole? We begin by recalling that our place value system grows larger by multiplying by 10 as we move left, so it must shrink by dividing by 10 as we move right past the ones place. Connect this to fractions, where tenths ($\frac{1}{1
+MISC: Students often assume that the longer a decimal number is, the larger its value (e.g., believing $0.452$ is greater than $0.5$ because $452$ is greater than $5$). They ignore the place value of the first digit after the decimal point (the tenths place) and treat the decimal part as a standalone whole number.
+DQ1: What is the place value of the digit $7$ in the decimal number $45.278$?
+CQ1: QUESTION: A school running track timer records three students' 100m sprint times: Amit: $14.2\text{ s}$, Sneha: $14.05\text{ s}$, and Rohan: $14.125\text{ s}$. 
+(a) Who won the race (recorded the lowest time)? 
+(b) Sneha claims she beat Amit by $0.25$ seconds because $20$ (from $14.20$) minus $05$ (from $14.05$) is $15$, wait—explain the error in
+-- c7_math_ch12_002 --
+DEF: Multiplying a decimal number by a whole number involves multiplying the numbers as if they were whole numbers, and then placing the decimal point in the product so that it has the same number of decimal places as the original decimal factor.
+WALK: Imagine you are buying 4 notebooks for school, and each notebook costs ₹24.75. To find the total cost, you need to calculate $4 \times 24.75$, which means adding 24.75 four times. Just as you learned to multiply large numbers and handle fractions in earlier classes, we can look at decimals as fractions with denominators of 10, 100, or 1000. To begin without getting confused by the dot, write down the numbers and multiply them as if they were stan
+MISC: Students often align the decimal points vertically as they do in addition and subtraction, or they miscount the total number of decimal places in the product. For instance, when calculating $1.25 \times 3$, they might write down $1.25$ and $3$, misalign or misplace the decimal point to get $37.5$ instead of $3.75$ by t
+DQ1: What is the rule for placing the decimal point when multiplying a decimal number by a whole number?
+CQ1: QUESTION: Without calculating the exact product, determine whether the product of $7.89 \times 12$ is greater than or less than $90$, and justify your reasoning using estimation.
+COMPETENCY: Estimating and justifying decimal operations
+STEPS:
+- Step 1: Round the decimal factor $7.89$ to the nearest whole number, which is $8$.
+- Step 2: Multiply
+
+########## c7_math_ch13 | Connecting the Dots · Part 1/2
+-- c7_math_ch13_001 --
+DEF: A statistical question is a question that anticipates variability in the data related to the question and accounts for it in the answers, whereas a non-statistical question expects a single, fixed, and specific answer with no variability.
+WALK: Imagine you walk into your Class 7 mathematics classroom and ask two different questions: "How many students are in this room right now?" and "How many hours of sleep did each student in this room get last night?" For the first question, you will count the heads and get one single, exact number that is the same for everyone. For the second question, you will likely get a list of different numbers—some slept 7 hours, some 8, some 9. This differenc
+MISC: Students often believe that any question containing numbers, measurements, or math words is automatically a "statistical question." For example, they might classify "How many sides does a triangle have?" or "What is 45 kilograms plus 12 kilograms?" as statistical questions because numbers are involved. They fail to und
+DQ1: Which of the following questions is a statistical question? 
+A) What is the capital of India? 
+B) How tall is the tallest teacher in your school? 
+C) How man
+CQ1: QUESTION: Priya wants to conduct a survey in her apartment complex. She writes down two questions: 
+Question A: "What is your favorite festival?"
+Question B: "How many festivals does your family celebrate each year?"
+Analyze both questions. Which one is guaranteed to be a statistical question, and which one could be interpreted either way depend
+-- c7_math_ch13_002 --
+DEF: Collecting and organising raw data into a structured frequency table involves systematically counting how many times each distinct data value appears using tally marks, allowing us to summarize large datasets clearly.
+WALK: Imagine you are the captain of your school cricket team, and you recorded the runs scored by players in the last 10 matches: 12, 45, 12, 30, 45, 12, 60, 30, 45, 12. Looking at this messy list, it is hard to tell how many times a score of 12 actually happened without counting carefully. To make sense of this information, we build upon what we learned in basic data handling by systematically organizing items into categories and counting them using 
+MISC: Students often fail to cross off or check off raw data items as they tally them, leading to missed entries or double-counting. For example, when given a list of 20 numbers, a student might count only 18 tallies because they skipped numbers or lost track mid-way, resulting in a frequency sum that does not match the tota
+DQ1: What is the primary purpose of using tally marks in a frequency table when organizing a large dataset?
+CQ1: QUESTION: Rahul collected the daily temperatures (in °C) for two different weeks in Delhi and claimed that a temperature of 34°C occurred more often in Week 1 than in Week 2. However, Rahul did not tally his data and only looked at random notes. Explain why building a frequency table is mathematically necessary to prove or disprove Rahul's claim, a
+
+########## c7_math_ch14 | Constructions and Tilings · Part 1/2
+-- c7_math_ch14_001 --
+DEF: Geometric constructions involve drawing precise figures, line segments, angles, and shapes using only two standard mathematical tools: a ungraduated straightedge (ruler) and a pair of compasses, without relying on measurement numbers. This foundational skill ensures geometric exactness based on axioms and Euclidean principles.
+WALK: Imagine you are a builder designing a traditional Indian temple or a school playground, and you need to draw a perfectly straight line or split a land boundary into two identical halves without using a measuring tape. How can you be entirely sure your lines are exact? Instead of using numbers or a measuring scale, ancient mathematicians discovered that using a ruler just for drawing straight paths and a compass for keeping a fixed distance allows
+MISC: Students often change the compass opening inadvertently while drawing arcs because they grip the compass legs too tightly or apply uneven downward pressure, causing the hinge to slip. For example, when trying to transfer a length of 5 cm, a student's hand slips, changing the radius to 5.2 cm, which ruins subsequent int
+DQ1: What are the only two permitted tools allowed in classical geometric constructions according to Euclidean rules?
+CQ1: QUESTION: A student claims that to draw a line segment 6 cm long, it is faster and more accurate to use the millimetre markings on a plastic ruler than to set a compass to 6 cm from a ruler and swing an arc. Do you agree or disagree? Justify your answer using the principles of geometric construction.
+COMPETENCY: Comparing and justifying constructi
+-- c7_math_ch14_002 --
+DEF: A perpendicular bisector of a line segment is a line, ray, or line segment that divides the given line segment into two equal halves (bisects it) and intersects it at a right angle ($90^\circ$). Using a compass and ruler, it is constructed by drawing intersecting arcs from both endpoints of the segment with a radius greater than half its length.
+WALK: Imagine you and your friend Priya are standing at opposite ends of a long school corridor, and you want to place a plant pot on the floor exactly halfway between you, but positioned in a way that forms a straight T-junction with the corridor wall. How do you find that exact spot without a measuring tape? Just like drawing a neat symmetry line across a paper fold, we can use a compass to swing two pairs of matching arcs from each endpoint of our l
+MISC: Students often change the compass radius halfway through the construction when moving from one endpoint to the other (e.g., using a radius of $6\text{ cm}$ from point $A$ and a different radius of $5\text{ cm}$ from point $B$). This results in asymmetric arcs that do not line up correctly, causing the drawn bisector to
+DQ1: What is the primary geometric definition of a perpendicular bisector of a line segment?
+CQ1: QUESTION: Meera constructed a perpendicular bisector to line segment $AB$, but her compass slipped while drawing the second arc from point $B$. Explain how she can determine whether her current intersection points still form a valid perpendicular bisector, and what specific tests she should perform on her drawing.
+COMPETENCY: Error identification 

@@ -1,0 +1,791 @@
+{
+  "gameFile": "MatterAirGame",
+  "classLevel": 4,
+  "cisceNodes": [
+    "c4_chem_001",
+    "c4_chem_002",
+    "c4_chem_003",
+    "c4_chem_004"
+  ],
+  "mascot": "Chemist Chetan — a friendly chemist with a lab coat, safety goggles,",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Three States of Matter! 🧊",
+      "text": "Matter is anything that takes up space and has weight! Solids have a definite shape and volume (stone, book). Liquids have a definite volume but take the container shape (water, milk). Gases have neither definite shape nor volume, filling any space (air, steam)!",
+      "emoji": "🧊",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Matter is anything that takes up space and has weight! Solids have a definite shape and volume. Liquids take the shape of their container. Gases fill any space completely!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Properties of Air! 💨",
+      "text": "Air is invisible, has weight, occupies space, and expands when heated! A balloon filled with air weighs more than an empty one. Water cannot enter an inverted tumbler because air already occupies that space!",
+      "emoji": "💨",
+      "bgColor": "from-cyan-500 to-blue-600",
+      "spoken": "Air is invisible, has weight, occupies space, and expands when heated! A balloon filled with air weighs more than an empty one.",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Composition of Air! 🌍",
+      "text": "Air is not a single gas — it is a mixture! The major component is Nitrogen (about 78 percent), which is the largest part. Oxygen makes up about 21 percent and is essential for breathing and burning. Carbon dioxide and water vapour make up the rest!",
+      "emoji": "🌍",
+      "bgColor": "from-teal-500 to-cyan-600",
+      "spoken": "Air is a mixture of gases! Nitrogen makes up seventy-eight percent, and oxygen makes up twenty-one percent. There is also carbon dioxide and water vapour!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Breathing and Respiration! 🫁",
+      "text": "Breathing is the physical process of taking in oxygen-rich air (inhalation) and giving out carbon dioxide-rich air (exhalation). Respiration is the chemical process inside body cells where oxygen breaks down food to release energy!",
+      "emoji": "🫁",
+      "bgColor": "from-emerald-500 to-teal-600",
+      "spoken": "Breathing is taking in oxygen and giving out carbon dioxide. Respiration is the chemical process inside our cells where oxygen breaks down food to release energy!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Burning and Oxygen! 🔥",
+      "text": "Both a burning candle and a living person need oxygen from the air! Burning is a fast reaction outside the body, while respiration is a slow, controlled reaction inside the body. Both use oxygen and release carbon dioxide!",
+      "emoji": "🔥",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "Both a burning candle and a living person need oxygen from the air! Burning is fast, while respiration inside our body is slow and controlled.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which state of matter has a DEFINITE shape and DEFINITE volume?",
+      "answer": "Solid",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas"
+      ],
+      "hint": "Think: A stone or a book keeps its own shape and size everywhere!",
+      "misconception": "Solids have both a definite shape and a definite volume! Liquids take container shape, and gases fill any space.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Solid",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Liquid",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Gas",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Solid",
+          "Liquid"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "Which state of matter takes the SHAPE of its container but keeps the same volume?",
+      "answer": "Liquid",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas"
+      ],
+      "hint": "Think: Water flows and changes shape when poured from a glass to a bowl!",
+      "misconception": "Liquids have a definite volume but no definite shape — they take the shape of their container! Gases have neither.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Solid",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Liquid",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Gas",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Solid",
+          "Liquid"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each object to its correct state of matter!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Solids keep shape (stone), liquids flow (water), gases fill space (air)!",
+      "misconception": "Check your sorting! Solids have fixed shape, liquids flow into containers, and gases spread everywhere.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "stone",
+            "label": "Stone (Solid)",
+            "correctBin": "solids"
+          },
+          {
+            "id": "water",
+            "label": "Water (Liquid)",
+            "correctBin": "liquids"
+          },
+          {
+            "id": "air",
+            "label": "Air (Gas)",
+            "correctBin": "gases"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "stone",
+          "kind": "circle",
+          "label": "Stone (Solid)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "solids",
+          "interaction": "drag-to-bin",
+          "targetBin": "solids"
+        },
+        {
+          "id": "water",
+          "kind": "water-drop",
+          "label": "Water (Liquid)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "liquids",
+          "interaction": "drag-to-bin",
+          "targetBin": "liquids"
+        },
+        {
+          "id": "air",
+          "kind": "circle",
+          "label": "Air (Gas)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "gases",
+          "interaction": "drag-to-bin",
+          "targetBin": "gases"
+        },
+        {
+          "id": "milk",
+          "kind": "circle",
+          "label": "Milk (Liquid)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "liquids",
+          "interaction": "drag-to-bin",
+          "targetBin": "liquids"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "stone",
+          "label": "Stone (Solid)",
+          "emoji": "",
+          "correctBin": "solids"
+        },
+        {
+          "id": "water",
+          "label": "Water (Liquid)",
+          "emoji": "",
+          "correctBin": "liquids"
+        },
+        {
+          "id": "air",
+          "label": "Air (Gas)",
+          "emoji": "",
+          "correctBin": "gases"
+        },
+        {
+          "id": "milk",
+          "label": "Milk (Liquid)",
+          "emoji": "",
+          "correctBin": "liquids"
+        }
+      ],
+      "bins": [
+        {
+          "id": "solids",
+          "label": "Solids 🧊",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "liquids",
+          "label": "Liquids 💧",
+          "color": "#06B6D4"
+        },
+        {
+          "id": "gases",
+          "label": "Gases 💨",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is AIR mostly made of?",
+      "answer": "A mixture of gases (mostly nitrogen & oxygen)",
+      "options": [
+        "A pure substance of only oxygen",
+        "A mixture of gases (mostly nitrogen & oxygen)",
+        "A liquid like water"
+      ],
+      "hint": "Remember: air contains nitrogen (~78%), oxygen (~21%), and other gases!",
+      "misconception": "Air is NOT pure oxygen! It is a mixture of different gases, with nitrogen as the major component and oxygen second.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A pure substance of only oxygen",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A mixture of gases (mostly nitrogen & oxygen)",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A liquid like water",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A pure substance of only oxygen",
+          "A mixture of gases (mostly nitrogen & oxygen)"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each gas to its correct percentage in air!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Nitrogen is the biggest part (~78%), oxygen is second (~21%)!",
+      "misconception": "Nitrogen is ~78% (the major part), oxygen is ~21%, and carbon dioxide & others make up the rest!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. Nitrogen is the biggest part (~78%), oxygen is second (~21%)!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "nitrogen",
+          "kind": "circle",
+          "label": "Nitrogen (~78%)",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-78",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-78"
+        },
+        {
+          "id": "oxygen",
+          "kind": "circle",
+          "label": "Oxygen (~21%)",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-21",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-21"
+        },
+        {
+          "id": "co2",
+          "kind": "circle",
+          "label": "Carbon Dioxide",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-co2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-co2"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "nitrogen",
+          "label": "Nitrogen (~78%)",
+          "emoji": "",
+          "correctBin": "bin-78"
+        },
+        {
+          "id": "oxygen",
+          "label": "Oxygen (~21%)",
+          "emoji": "",
+          "correctBin": "bin-21"
+        },
+        {
+          "id": "co2",
+          "label": "Carbon Dioxide",
+          "emoji": "",
+          "correctBin": "bin-co2"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-78",
+          "label": "Nitrogen 78%",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-21",
+          "label": "Oxygen 21%",
+          "color": "#EF4444"
+        },
+        {
+          "id": "bin-co2",
+          "label": "CO2 & Others",
+          "color": "#6B7280"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What does a burning candle NEED to keep burning?",
+      "answer": "Oxygen from the air",
+      "options": [
+        "Nitrogen from the air",
+        "Oxygen from the air",
+        "Carbon dioxide"
+      ],
+      "hint": "Think: Both living beings and burning flames need this vital gas!",
+      "misconception": "Burning requires OXYGEN from the air! Nitrogen does not support burning.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Nitrogen from the air",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Oxygen from the air",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Carbon dioxide",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Nitrogen from the air",
+          "Oxygen from the air"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each statement to Breathing or Burning or Both!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Breathing takes in oxygen; burning also needs oxygen to make flame!",
+      "misconception": "Both breathing and burning use oxygen and release carbon dioxide, but breathing happens in living bodies while burning is a flame outside!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. Breathing takes in oxygen; burning also needs oxygen to make flame!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "breathing-in",
+          "kind": "circle",
+          "label": "Inhales oxygen",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "breathing",
+          "interaction": "drag-to-bin",
+          "targetBin": "breathing"
+        },
+        {
+          "id": "burn-fuel",
+          "kind": "circle",
+          "label": "Needs fuel & flame",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "burning",
+          "interaction": "drag-to-bin",
+          "targetBin": "burning"
+        },
+        {
+          "id": "burn-both",
+          "kind": "circle",
+          "label": "Releases CO2",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "both",
+          "interaction": "drag-to-bin",
+          "targetBin": "both"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "breathing-in",
+          "label": "Inhales oxygen",
+          "emoji": "",
+          "correctBin": "breathing"
+        },
+        {
+          "id": "burn-fuel",
+          "label": "Needs fuel & flame",
+          "emoji": "",
+          "correctBin": "burning"
+        },
+        {
+          "id": "burn-both",
+          "label": "Releases CO2",
+          "emoji": "",
+          "correctBin": "both"
+        }
+      ],
+      "bins": [
+        {
+          "id": "breathing",
+          "label": "Breathing 🫁",
+          "color": "#EC4899"
+        },
+        {
+          "id": "burning",
+          "label": "Burning 🔥",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "both",
+          "label": "Both 🌍",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag the steps of breathing and respiration in order!",
+      "answer": "sort",
+      "options": [],
+      "hint": "First we breathe in air, oxygen goes to lungs, then blood, then respiration!",
+      "misconception": "Order of breathing: 1. Breathe in air (inhalation) -> 2. Air enters lungs -> 3. Oxygen absorbed by blood -> 4. Respiration releases energy!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "step1",
+            "label": "1. Inhale air",
+            "correctBin": "order1"
+          },
+          {
+            "id": "step2",
+            "label": "2. Air enters lungs",
+            "correctBin": "order2"
+          },
+          {
+            "id": "step3",
+            "label": "3. Oxygen to blood",
+            "correctBin": "order3"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "step1",
+          "kind": "circle",
+          "label": "1. Inhale air",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "order1",
+          "interaction": "drag-to-bin",
+          "targetBin": "order1"
+        },
+        {
+          "id": "step2",
+          "kind": "circle",
+          "label": "2. Air enters lungs",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "order2",
+          "interaction": "drag-to-bin",
+          "targetBin": "order2"
+        },
+        {
+          "id": "step3",
+          "kind": "circle",
+          "label": "3. Oxygen to blood",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "order3",
+          "interaction": "drag-to-bin",
+          "targetBin": "order3"
+        },
+        {
+          "id": "step4",
+          "kind": "circle",
+          "label": "4. Cellular energy",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "order4",
+          "interaction": "drag-to-bin",
+          "targetBin": "order4"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "step1",
+          "label": "1. Inhale air",
+          "emoji": "",
+          "correctBin": "order1"
+        },
+        {
+          "id": "step2",
+          "label": "2. Air enters lungs",
+          "emoji": "",
+          "correctBin": "order2"
+        },
+        {
+          "id": "step3",
+          "label": "3. Oxygen to blood",
+          "emoji": "",
+          "correctBin": "order3"
+        },
+        {
+          "id": "step4",
+          "label": "4. Cellular energy",
+          "emoji": "",
+          "correctBin": "order4"
+        }
+      ],
+      "bins": [
+        {
+          "id": "order1",
+          "label": "Step 1: Inhale",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "order2",
+          "label": "Step 2: Lungs",
+          "color": "#06B6D4"
+        },
+        {
+          "id": "order3",
+          "label": "Step 3: Blood",
+          "color": "#10B981"
+        },
+        {
+          "id": "order4",
+          "label": "Step 4: Energy",
+          "color": "#8B5CF6"
+        }
+      ]
+    }
+  ],
+  "theme": "lab",
+  "storyArc": {
+    "theme": "A young scientist experiments with matter and materials",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Science Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_chem_001",
+    "region": "Chemistry Lab",
+    "mapX": 1.12,
+    "mapY": 1.23,
+    "icon": "🧪",
+    "prerequisites": [
+      "c4_chem_002"
+    ]
+  },
+  "subject": "chemistry"
+}

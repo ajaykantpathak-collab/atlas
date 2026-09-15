@@ -1,0 +1,775 @@
+{
+  "gameFile": "BalanceGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_math_021"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "What is Weight? ⚖️",
+      "text": "Weight is how heavy or how light an object is! When you hold a book and a pencil, the book presses down more — it is heavier! The pencil presses down less — it is light!",
+      "emoji": "📚",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Weight is how heavy or how light an object is! When you hold a book and a pencil, the book presses down more.",
+      "diagram": {
+        "type": "balance-scale",
+        "animate": true,
+        "data": {
+          "leftWeight": 5,
+          "rightWeight": 5
+        }
+      }
+    },
+    {
+      "title": "The Toy Weighing Balance ⚖️",
+      "text": "A toy weighing balance has two pans hanging from a beam, like a playground see-saw! When you put a heavy object on one pan, that side goes DOWN and the other side goes UP!",
+      "emoji": "🎢",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "A toy weighing balance has two pans hanging from a beam, like a playground see-saw!",
+      "diagram": {
+        "type": "balance-scale",
+        "animate": true,
+        "data": {
+          "leftWeight": 5,
+          "rightWeight": 3
+        }
+      }
+    },
+    {
+      "title": "Size Does Not Decide Weight! 🧱",
+      "text": "Do not judge by size alone! A small iron ball is heavier than a large cotton ball. A real coin is heavier than a crumpled paper ball of the exact same size!",
+      "emoji": "🪙",
+      "bgColor": "from-purple-400 to-pink-500",
+      "spoken": "Do not judge by size alone! A small iron ball is heavier than a large cotton ball.",
+      "diagram": {
+        "type": "balance-scale",
+        "animate": true,
+        "data": {
+          "leftWeight": 5,
+          "rightWeight": 5
+        }
+      }
+    },
+    {
+      "title": "Heavier and Lighter ⬆️⬇️",
+      "text": "The pan that sinks down holds the HEAVIER object. The pan that goes up holds the LIGHTER object. If both pans stay level, the two objects weigh the same!",
+      "emoji": "⚖️",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "The pan that sinks down holds the heavier object. The pan that goes up holds the lighter object.",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Become a Weight Master! 🌟",
+      "text": "Always check with your hands or a toy balance, never just your eyes. Use words like heavier, lighter, heavy, light, and same correctly!",
+      "emoji": "🌟",
+      "bgColor": "from-amber-500 to-yellow-500",
+      "spoken": "Always check with your hands or a toy balance, never just your eyes.",
+      "diagram": {
+        "type": "balance-scale",
+        "animate": true,
+        "data": {
+          "leftWeight": 5,
+          "rightWeight": 5
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which is HEAVIER — a heavy book or a light pencil?",
+      "answer": "Heavy book",
+      "options": [
+        "Heavy book",
+        "Light pencil",
+        "They weigh the same"
+      ],
+      "hint": "Hold both in your hands: which one presses down more strongly?",
+      "misconception": "The heavy book presses down much more than the pencil! Books are heavy, pencils are light.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Heavy book",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Light pencil",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "They weigh the same",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Heavy book",
+          "Light pencil"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "Which is LIGHTER — a big fluffy feather or a small stone?",
+      "answer": "Big fluffy feather",
+      "options": [
+        "Small stone",
+        "Big fluffy feather",
+        "They weigh the same"
+      ],
+      "hint": "Think about a feather floating in the air vs a stone sinking in water!",
+      "misconception": "The feather is much lighter! Feathers float and press down very little, while stones sink and are heavy.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Small stone",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Big fluffy feather",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "They weigh the same",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Small stone",
+          "Big fluffy feather"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "On a toy balance scale, which side goes DOWN?",
+      "answer": "The heavier side",
+      "options": [
+        "The lighter side",
+        "The heavier side",
+        "Neither side moves"
+      ],
+      "hint": "Think of a playground see-saw: the heavier child makes their side sink down!",
+      "misconception": "The heavier side always sinks DOWN! Heavier objects pull their pan down, just like a see-saw.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "The lighter side",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The heavier side",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Neither side moves",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "The lighter side",
+          "The heavier side"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each object into the correct weight bin!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Books, stones, and iron balls are heavy! Feathers, pencils, and cotton balls are light!",
+      "misconception": "Remember: books and stones pull down hard (heavy), while feathers and pencils press down very little (light)!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "book",
+            "label": "Heavy book",
+            "correctBin": "heavy"
+          },
+          {
+            "id": "stone",
+            "label": "Stone",
+            "correctBin": "heavy"
+          },
+          {
+            "id": "feather",
+            "label": "Feather",
+            "correctBin": "light"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "book",
+          "kind": "circle",
+          "label": "Heavy book",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "heavy",
+          "interaction": "drag-to-bin",
+          "targetBin": "heavy"
+        },
+        {
+          "id": "stone",
+          "kind": "circle",
+          "label": "Stone",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "heavy",
+          "interaction": "drag-to-bin",
+          "targetBin": "heavy"
+        },
+        {
+          "id": "feather",
+          "kind": "circle",
+          "label": "Feather",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "light",
+          "interaction": "drag-to-bin",
+          "targetBin": "light"
+        },
+        {
+          "id": "pencil",
+          "kind": "circle",
+          "label": "Pencil",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "light",
+          "interaction": "drag-to-bin",
+          "targetBin": "light"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "book",
+          "label": "Heavy book",
+          "emoji": "📚",
+          "correctBin": "heavy"
+        },
+        {
+          "id": "stone",
+          "label": "Stone",
+          "emoji": "🪨",
+          "correctBin": "heavy"
+        },
+        {
+          "id": "feather",
+          "label": "Feather",
+          "emoji": "🪶",
+          "correctBin": "light"
+        },
+        {
+          "id": "pencil",
+          "label": "Pencil",
+          "emoji": "✏️",
+          "correctBin": "light"
+        }
+      ],
+      "bins": [
+        {
+          "id": "heavy",
+          "label": "Heavy Objects ⬇️",
+          "color": "#D97706"
+        },
+        {
+          "id": "light",
+          "label": "Light Objects ⬆️",
+          "color": "#0284C7"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "A big cotton ball and a small iron ball. Which is heavier?",
+      "answer": "Small iron ball",
+      "options": [
+        "Big cotton ball",
+        "Small iron ball",
+        "They weigh the same"
+      ],
+      "hint": "Remember: size does not decide weight! Metal weighs more than cotton!",
+      "misconception": "Size does not decide weight! Even though the cotton ball is bigger, metal is much denser and heavier than cotton. The small iron ball is heavier!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "ball",
+          "label": "Big cotton ball",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "ball",
+          "label": "Small iron ball",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "ball",
+          "label": "They weigh the same",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Small iron ball",
+          "Big cotton ball"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify",
+      "question": "Can we tell which object is heavier just by looking at its SIZE?",
+      "answer": "No, we must check with a balance or hands",
+      "options": [
+        "Yes, bigger is always heavier",
+        "No, we must check with a balance or hands",
+        "Yes, smaller is always heavier"
+      ],
+      "hint": "Think of the cotton ball and iron ball. Can eyes alone trick us?",
+      "misconception": "Size can trick our eyes! A large balloon or cotton ball can be lighter than a small stone or iron ball. Always check with a balance or your hands!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Yes, bigger is always heavier",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "No, we must check with a balance or hands",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Yes, smaller is always heavier",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Yes, bigger is always heavier",
+          "No, we must check with a balance or hands"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each object to where it goes on a toy balance scale!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Heavy iron balls go down! Light feathers go up! Equal wooden blocks stay level!",
+      "misconception": "Heavy things go DOWN, light things go UP, and equal things stay level in the middle!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "iron",
+            "label": "Iron ball",
+            "correctBin": "down"
+          },
+          {
+            "id": "feather",
+            "label": "Feather",
+            "correctBin": "up"
+          },
+          {
+            "id": "block1",
+            "label": "Wood block A",
+            "correctBin": "level"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "iron",
+          "kind": "circle",
+          "label": "Iron ball",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "down",
+          "interaction": "drag-to-bin",
+          "targetBin": "down"
+        },
+        {
+          "id": "feather",
+          "kind": "circle",
+          "label": "Feather",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "up",
+          "interaction": "drag-to-bin",
+          "targetBin": "up"
+        },
+        {
+          "id": "block1",
+          "kind": "circle",
+          "label": "Wood block A",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "level",
+          "interaction": "drag-to-bin",
+          "targetBin": "level"
+        },
+        {
+          "id": "block2",
+          "kind": "circle",
+          "label": "Wood block B",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "level",
+          "interaction": "drag-to-bin",
+          "targetBin": "level"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "iron",
+          "label": "Iron ball",
+          "emoji": "⚽",
+          "correctBin": "down"
+        },
+        {
+          "id": "feather",
+          "label": "Feather",
+          "emoji": "🪶",
+          "correctBin": "up"
+        },
+        {
+          "id": "block1",
+          "label": "Wood block A",
+          "emoji": "🟩",
+          "correctBin": "level"
+        },
+        {
+          "id": "block2",
+          "label": "Wood block B",
+          "emoji": "🟩",
+          "correctBin": "level"
+        }
+      ],
+      "bins": [
+        {
+          "id": "down",
+          "label": "Goes DOWN ⬇️",
+          "color": "#DC2626"
+        },
+        {
+          "id": "up",
+          "label": "Goes UP ⬆️",
+          "color": "#2563EB"
+        },
+        {
+          "id": "level",
+          "label": "Stays LEVEL ⚖️",
+          "color": "#16A34A"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag each comparison sentence to Correct or Incorrect!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Stones are heavier than feathers! Pencils are lighter than books!",
+      "misconception": "Check carefully: stones sink (heavier than feathers), pencils press less (lighter than books)!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "c1",
+            "label": "Stone is heavier than feather",
+            "correctBin": "correct"
+          },
+          {
+            "id": "c2",
+            "label": "Pencil is lighter than book",
+            "correctBin": "correct"
+          },
+          {
+            "id": "i1",
+            "label": "Feather is heavier than stone",
+            "correctBin": "incorrect"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "c1",
+          "kind": "circle",
+          "label": "Stone is heavier than feather",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "correct",
+          "interaction": "drag-to-bin",
+          "targetBin": "correct"
+        },
+        {
+          "id": "c2",
+          "kind": "circle",
+          "label": "Pencil is lighter than book",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "correct",
+          "interaction": "drag-to-bin",
+          "targetBin": "correct"
+        },
+        {
+          "id": "i1",
+          "kind": "circle",
+          "label": "Feather is heavier than stone",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "incorrect",
+          "interaction": "drag-to-bin",
+          "targetBin": "incorrect"
+        },
+        {
+          "id": "i2",
+          "kind": "circle",
+          "label": "Book is lighter than pencil",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "incorrect",
+          "interaction": "drag-to-bin",
+          "targetBin": "incorrect"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "c1",
+          "label": "Stone is heavier than feather",
+          "emoji": "🪨",
+          "correctBin": "correct"
+        },
+        {
+          "id": "c2",
+          "label": "Pencil is lighter than book",
+          "emoji": "📚",
+          "correctBin": "correct"
+        },
+        {
+          "id": "i1",
+          "label": "Feather is heavier than stone",
+          "emoji": "🪶",
+          "correctBin": "incorrect"
+        },
+        {
+          "id": "i2",
+          "label": "Book is lighter than pencil",
+          "emoji": "✏️",
+          "correctBin": "incorrect"
+        }
+      ],
+      "bins": [
+        {
+          "id": "correct",
+          "label": "CORRECT ✅",
+          "color": "#16A34A"
+        },
+        {
+          "id": "incorrect",
+          "label": "INCORRECT ❌",
+          "color": "#DC2626"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_math_021",
+    "region": "Mathland",
+    "mapX": 0.42000000000000004,
+    "mapY": 0.63,
+    "icon": "🔢",
+    "prerequisites": []
+  },
+  "subject": "maths"
+}

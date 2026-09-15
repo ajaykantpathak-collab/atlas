@@ -1,0 +1,687 @@
+{
+  "gameFile": "NeighbourhoodGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_geo_009",
+    "c1_geo_010"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Welcome to Our Neighbourhood! 🏡",
+      "text": "The neighbourhood is the area close to our home where we live, play, learn, and meet people. It has many important places that help us every day!",
+      "emoji": "🏡",
+      "bgColor": "from-emerald-400 to-green-500",
+      "spoken": "",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Places That Help Us! 🏫",
+      "text": "A school is where we learn with teachers! A hospital is where doctors help us when we are sick. A park is where we play on swings and slides!",
+      "emoji": "🏫",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Markets & Post Offices! 🛒",
+      "text": "We buy fruits, vegetables, and books at the market! The post office sorts and sends letters and parcels to people far away!",
+      "emoji": "🛒",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Land Features Around Us! ⛰️",
+      "text": "Not all land is the same! A hill is high land we climb up. Flat land (plain) is level ground where we play. A valley is the low land between hills!",
+      "emoji": "⛰️",
+      "bgColor": "from-teal-400 to-cyan-500",
+      "spoken": "",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Rivers and Ponds! 🌊",
+      "text": "A river is a long stream of flowing water that moves along. A pond is a small body of still water that stays in one place!",
+      "emoji": "🌊",
+      "bgColor": "from-cyan-400 to-blue-500",
+      "spoken": "",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_place_learn",
+      "question": "Where do we go to learn reading, writing, and counting?",
+      "answer": "School",
+      "options": [
+        "School",
+        "Hospital",
+        "Market"
+      ],
+      "hint": "Think: where do teachers help you study every morning?",
+      "misconception": "We go to SCHOOL to learn! Teachers help us read and write there! Hospitals are for when we are sick, and markets are for buying things!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "apple",
+          "label": "School",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "apple",
+          "label": "Hospital",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "apple",
+          "label": "Market",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Hospital",
+          "School"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_place_sick",
+      "question": "Where do we go when we are sick or hurt, so doctors can help us?",
+      "answer": "Hospital",
+      "options": [
+        "Park",
+        "Hospital",
+        "Post Office"
+      ],
+      "hint": "Think: who looks after you with medicines when you have a high fever?",
+      "misconception": "We go to a HOSPITAL when we are sick or hurt! Doctors and nurses examine us and give us medicines so we get well! Parks are for playing, not for sickness!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Park",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Hospital",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Post Office",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Park",
+          "Hospital"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_place_play",
+      "question": "Where is the open green place with swings and slides where we play?",
+      "answer": "Park",
+      "options": [
+        "Police Station",
+        "Park",
+        "Railway Station"
+      ],
+      "hint": "Think: where do you run around on holidays and breathe fresh air on grass?",
+      "misconception": "A PARK is an open green place with swings and slides where we play with friends! Police stations are for keeping us safe, and railway stations are for boarding trains!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Police Station",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Park",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Railway Station",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Police Station",
+          "Park"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_places",
+      "question": "Drag each place to the right bin! What do we do there?",
+      "answer": "sort",
+      "options": [],
+      "hint": "School = learn | Hospital = get well | Park = play | Market = buy things!",
+      "misconception": "Each place has a special job! School is for learning, hospital is for getting well, park is for playing, and market is for buying vegetables and books!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "sch",
+            "label": "School",
+            "correctBin": "learn"
+          },
+          {
+            "id": "hos",
+            "label": "Hospital",
+            "correctBin": "sick"
+          },
+          {
+            "id": "prk",
+            "label": "Park",
+            "correctBin": "play"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "sch",
+          "kind": "circle",
+          "label": "School",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "learn",
+          "interaction": "drag-to-bin",
+          "targetBin": "learn"
+        },
+        {
+          "id": "hos",
+          "kind": "circle",
+          "label": "Hospital",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "sick",
+          "interaction": "drag-to-bin",
+          "targetBin": "sick"
+        },
+        {
+          "id": "prk",
+          "kind": "circle",
+          "label": "Park",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "play",
+          "interaction": "drag-to-bin",
+          "targetBin": "play"
+        },
+        {
+          "id": "mkt",
+          "kind": "circle",
+          "label": "Market",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "buy",
+          "interaction": "drag-to-bin",
+          "targetBin": "buy"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "sch",
+          "label": "School",
+          "emoji": "🏫",
+          "correctBin": "learn"
+        },
+        {
+          "id": "hos",
+          "label": "Hospital",
+          "emoji": "🏥",
+          "correctBin": "sick"
+        },
+        {
+          "id": "prk",
+          "label": "Park",
+          "emoji": "🌳",
+          "correctBin": "play"
+        },
+        {
+          "id": "mkt",
+          "label": "Market",
+          "emoji": "🛒",
+          "correctBin": "buy"
+        }
+      ],
+      "bins": [
+        {
+          "id": "learn",
+          "label": "Learn 📚",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "sick",
+          "label": "Get Well 💊",
+          "color": "#EF4444"
+        },
+        {
+          "id": "play",
+          "label": "Play 🛝",
+          "color": "#22C55E"
+        },
+        {
+          "id": "buy",
+          "label": "Buy 🍎",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "identify_flowing",
+      "question": "Which water body has FLOWING water that moves from high land?",
+      "answer": "River",
+      "options": [
+        "River",
+        "Pond",
+        "Well"
+      ],
+      "hint": "Think: which one moves along like the Ganga through towns and cities?",
+      "misconception": "A RIVER has flowing water that moves along! A pond has still water that stays in one place and does not move!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "River",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "Pond",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Well",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "River",
+          "Pond"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_high",
+      "question": "Which land feature is HIGH land that rises up and needs climbing?",
+      "answer": "Hill",
+      "options": [
+        "Hill",
+        "Flat land (Plain)",
+        "Valley"
+      ],
+      "hint": "Think: when you walk towards it, your legs feel tired going higher up!",
+      "misconception": "A HILL is high land that rises up above the ground! Flat land (plain) is level ground where we walk easily without climbing!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Hill",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Flat land (Plain)",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Valley",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Flat land (Plain)",
+          "Hill"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_land",
+      "question": "Drag each land feature to its correct type!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Hill = high land | Plain = flat level land | Valley = low dip between hills!",
+      "misconception": "Remember: hills are high, plains are flat level ground, and valleys are the low dips between hills!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. Hill = high land | Plain = flat level land | Valley = low dip between hills!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "h1",
+          "kind": "circle",
+          "label": "Hill",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "high",
+          "interaction": "drag-to-bin",
+          "targetBin": "high"
+        },
+        {
+          "id": "p1",
+          "kind": "circle",
+          "label": "Plain",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "flat",
+          "interaction": "drag-to-bin",
+          "targetBin": "flat"
+        },
+        {
+          "id": "v1",
+          "kind": "circle",
+          "label": "Valley",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "low",
+          "interaction": "drag-to-bin",
+          "targetBin": "low"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "h1",
+          "label": "Hill",
+          "emoji": "⛰️",
+          "correctBin": "high"
+        },
+        {
+          "id": "p1",
+          "label": "Plain",
+          "emoji": "🟩",
+          "correctBin": "flat"
+        },
+        {
+          "id": "v1",
+          "label": "Valley",
+          "emoji": "🏞️",
+          "correctBin": "low"
+        }
+      ],
+      "bins": [
+        {
+          "id": "high",
+          "label": "High (Hill) ⛰️",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "flat",
+          "label": "Flat (Plain) 🟩",
+          "color": "#10B981"
+        },
+        {
+          "id": "low",
+          "label": "Low (Valley) 🏞️",
+          "color": "#F97316"
+        }
+      ]
+    },
+    {
+      "type": "sort_water",
+      "question": "Drag each water body to flowing vs still water!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Rivers flow and move! Ponds stay still in one place!",
+      "misconception": "Rivers have flowing water that moves, while ponds have still water that stays in one place!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Rivers flow and move! Ponds stay still in one place!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "r1",
+          "kind": "circle",
+          "label": "River",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "flow",
+          "interaction": "drag-to-bin",
+          "targetBin": "flow"
+        },
+        {
+          "id": "p2",
+          "kind": "circle",
+          "label": "Pond",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "still",
+          "interaction": "drag-to-bin",
+          "targetBin": "still"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "r1",
+          "label": "River",
+          "emoji": "🌊",
+          "correctBin": "flow"
+        },
+        {
+          "id": "p2",
+          "label": "Pond",
+          "emoji": "💧",
+          "correctBin": "still"
+        }
+      ],
+      "bins": [
+        {
+          "id": "flow",
+          "label": "Flowing Water 🌊",
+          "color": "#0284C7"
+        },
+        {
+          "id": "still",
+          "label": "Still Water 💧",
+          "color": "#0EA5E9"
+        }
+      ]
+    }
+  ],
+  "theme": "city",
+  "storyArc": {
+    "theme": "An adventurer travels across the world",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-map",
+    "title": "World Map",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_geo_009",
+    "region": "World Explorer",
+    "mapX": 0.26,
+    "mapY": 0.39,
+    "icon": "🌍",
+    "prerequisites": [
+      "c1_geo_010"
+    ]
+  },
+  "subject": "geography"
+}

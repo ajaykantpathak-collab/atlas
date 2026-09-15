@@ -1,0 +1,798 @@
+{
+  "gameFile": "WaterSunGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_chem_006",
+    "c3_chem_007",
+    "c3_chem_008"
+  ],
+  "mascot": "Environmentalista Ela ─────────────────",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Wonders of Water 💧",
+      "text": "Water is a liquid that takes the shape of whatever container you pour it into! Pure, clean water is transparent, colourless, tasteless, and odourless. It dissolves sugar and salt to form solutions!",
+      "emoji": "💧",
+      "bgColor": "from-cyan-400 to-blue-600",
+      "spoken": "Water is a liquid that takes the shape of its container. Pure clean water is transparent and dissolves sugar and salt!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Water as Our Resource 🚰",
+      "text": "Water is Earth\\'s most precious resource! All living things need water to survive. We use water for drinking, cooking, bathing, washing, farming, and industries. We must keep water clean by boiling or filtering!",
+      "emoji": "🌊",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Water is Earth\\'s most precious resource. We use it for drinking, cooking, and farming. Always boil or filter water before drinking!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Saving Water 🪣",
+      "text": "Clean drinking water is limited! We can save water by closing taps tightly while brushing, fixing leaking taps, using a bucket for bathing instead of a hose, and collecting rainwater!",
+      "emoji": "🌱",
+      "bgColor": "from-teal-500 to-emerald-600",
+      "spoken": "Clean drinking water is limited. Save water by turning off taps while brushing and fixing leaks!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "The Sun — Our Natural Powerhouse ☀️",
+      "text": "The Sun is a magnificent natural resource that gives us light and heat energy! It is a renewable energy source that shines every day. Without the Sun, life on Earth could not exist!",
+      "emoji": "☀️",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "The Sun is a natural resource giving us light and heat energy. It is renewable and shines every single day!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "How the Sun Helps Us 🔋",
+      "text": "Sunlight helps green plants make food through photosynthesis! The Sun also dries wet clothes, evaporates water for the water cycle, and powers solar panels and solar cookers!",
+      "emoji": "🌻",
+      "bgColor": "from-orange-400 to-amber-600",
+      "spoken": "Sunlight helps plants make food, dries wet clothes, drives the water cycle, and powers solar panels and cookers!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is the normal state of pure water at room temperature?",
+      "answer": "Liquid",
+      "options": [
+        "Liquid",
+        "Solid",
+        "Gas"
+      ],
+      "hint": "Think: Can you pour water from a glass into a bowl? It flows freely!",
+      "misconception": "Water at room temperature is a liquid! It flows and takes the shape of its container, unlike solids like ice or gases like steam.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "Liquid",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "Solid",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Gas",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Solid",
+          "Liquid"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "At what temperature does liquid water turn into ice (solid)?",
+      "answer": "0 degrees Celsius",
+      "options": [
+        "0 degrees Celsius",
+        "50 degrees Celsius",
+        "100 degrees Celsius"
+      ],
+      "hint": "Think about putting water in the freezer compartment of a refrigerator!",
+      "misconception": "Water freezes into ice at 0 degrees Celsius! At 100 degrees Celsius, water boils and turns into steam.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "0 degrees Celsius",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "50 degrees Celsius",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "100 degrees Celsius",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "0 degrees Celsius",
+          "50 degrees Celsius"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each statement to True or False about water!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Think about pure water: is it clear and colourless? Does it dissolve salt?",
+      "misconception": "Pure water is transparent, colourless, odourless, and dissolves substances like sugar and salt! It is never solid at room temperature and has no colour.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "t1",
+            "label": "Water is transparent",
+            "correctBin": "true-bin"
+          },
+          {
+            "id": "t2",
+            "label": "Dissolves sugar & salt",
+            "correctBin": "true-bin"
+          },
+          {
+            "id": "f1",
+            "label": "Water has a bright colour",
+            "correctBin": "false-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "t1",
+          "kind": "water-drop",
+          "label": "Water is transparent",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "true-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "true-bin"
+        },
+        {
+          "id": "t2",
+          "kind": "circle",
+          "label": "Dissolves sugar & salt",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "true-bin"
+        },
+        {
+          "id": "f1",
+          "kind": "water-drop",
+          "label": "Water has a bright colour",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "false-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "false-bin"
+        },
+        {
+          "id": "f2",
+          "kind": "water-drop",
+          "label": "Water is solid in a room",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "false-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "false-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "t1",
+          "label": "Water is transparent",
+          "emoji": "",
+          "correctBin": "true-bin"
+        },
+        {
+          "id": "t2",
+          "label": "Dissolves sugar & salt",
+          "emoji": "",
+          "correctBin": "true-bin"
+        },
+        {
+          "id": "f1",
+          "label": "Water has a bright colour",
+          "emoji": "",
+          "correctBin": "false-bin"
+        },
+        {
+          "id": "f2",
+          "label": "Water is solid in a room",
+          "emoji": "",
+          "correctBin": "false-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "true-bin",
+          "label": "True Statement ✅",
+          "color": "#10B981"
+        },
+        {
+          "id": "false-bin",
+          "label": "False Statement ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of these is the most important use of water for living things?",
+      "answer": "Drinking and staying alive",
+      "options": [
+        "Drinking and staying alive",
+        "Making plastic toys",
+        "Painting walls"
+      ],
+      "hint": "All animals and humans must drink this every single day to survive!",
+      "misconception": "Drinking and staying alive is the most critical use of water! Every living cell in plants, animals, and humans needs water to function.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "Drinking and staying alive",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "Making plastic toys",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Painting walls",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Drinking and staying alive",
+          "Making plastic toys"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each water source to Safe to Drink or Unsafe without boiling/filtering!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Raw river water and muddy puddles have germs! Treated taps and filtered water are safe!",
+      "misconception": "Raw river water and open puddles contain germs and mud! They are unsafe until boiled or filtered. Treated tap water and tested well water are safe.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "s1",
+            "label": "Filtered Tap Water",
+            "correctBin": "safe-bin"
+          },
+          {
+            "id": "s2",
+            "label": "Tested Well Water",
+            "correctBin": "safe-bin"
+          },
+          {
+            "id": "u1",
+            "label": "Raw River Water",
+            "correctBin": "unsafe-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "s1",
+          "kind": "water-drop",
+          "label": "Filtered Tap Water",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "safe-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "safe-bin"
+        },
+        {
+          "id": "s2",
+          "kind": "water-drop",
+          "label": "Tested Well Water",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "safe-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "safe-bin"
+        },
+        {
+          "id": "u1",
+          "kind": "water-drop",
+          "label": "Raw River Water",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "unsafe-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "unsafe-bin"
+        },
+        {
+          "id": "u2",
+          "kind": "water-drop",
+          "label": "Muddy Puddle Water",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "unsafe-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "unsafe-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s1",
+          "label": "Filtered Tap Water",
+          "emoji": "",
+          "correctBin": "safe-bin"
+        },
+        {
+          "id": "s2",
+          "label": "Tested Well Water",
+          "emoji": "",
+          "correctBin": "safe-bin"
+        },
+        {
+          "id": "u1",
+          "label": "Raw River Water",
+          "emoji": "",
+          "correctBin": "unsafe-bin"
+        },
+        {
+          "id": "u2",
+          "label": "Muddy Puddle Water",
+          "emoji": "",
+          "correctBin": "unsafe-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "safe-bin",
+          "label": "Safe to Drink 🚰",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "unsafe-bin",
+          "label": "Needs Boiling/Filtering ⚠️",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "The Sun is a vital natural resource because it provides us with:",
+      "answer": "Light and heat energy",
+      "options": [
+        "Light and heat energy",
+        "Only cold breeze",
+        "Only sound waves"
+      ],
+      "hint": "Step outside on a sunny day — what do you feel on your skin and see with your eyes?",
+      "misconception": "The Sun gives us BOTH light and heat energy! This energy drives the water cycle, warms our planet, and powers life.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Light and heat energy",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Only cold breeze",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Only sound waves",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Only cold breeze",
+          "Light and heat energy"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each solar application to how the Sun helps us!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Solar panels make electricity! Solar cookers cook food! Sunlight helps plants make food!",
+      "misconception": "The Sun powers solar panels to make electricity, runs solar cookers to cook food without fuel, and gives energy to plants for photosynthesis!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. Solar panels make electricity! Solar cookers cook food! Sunlight helps plants make food!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "sp1",
+          "kind": "circle",
+          "label": "Solar Panel Electricity",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "electricity-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "electricity-bin"
+        },
+        {
+          "id": "sc1",
+          "kind": "circle",
+          "label": "Solar Cooker Food",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "cooking-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "cooking-bin"
+        },
+        {
+          "id": "ph1",
+          "kind": "leaf",
+          "label": "Plant Photosynthesis",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "plant-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "plant-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "sp1",
+          "label": "Solar Panel Electricity",
+          "emoji": "",
+          "correctBin": "electricity-bin"
+        },
+        {
+          "id": "sc1",
+          "label": "Solar Cooker Food",
+          "emoji": "",
+          "correctBin": "cooking-bin"
+        },
+        {
+          "id": "ph1",
+          "label": "Plant Photosynthesis",
+          "emoji": "",
+          "correctBin": "plant-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "electricity-bin",
+          "label": "Electricity ⚡",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "cooking-bin",
+          "label": "Cooking Food 🍲",
+          "color": "#EC4899"
+        },
+        {
+          "id": "plant-bin",
+          "label": "Plant Food 🌱",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag each action to Save Water or Waste Water!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Closing taps while brushing saves water! Leaving taps running wastes water!",
+      "misconception": "Good habits like turning off taps while brushing, fixing leaks, and using buckets save precious water! Leaving taps running wastes thousands of litres.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "w1",
+            "label": "Turn off tap while brushing",
+            "correctBin": "save-bin"
+          },
+          {
+            "id": "w2",
+            "label": "Fix leaking taps quickly",
+            "correctBin": "save-bin"
+          },
+          {
+            "id": "w3",
+            "label": "Leave tap running all day",
+            "correctBin": "waste-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "w1",
+          "kind": "circle",
+          "label": "Turn off tap while brushing",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "save-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "save-bin"
+        },
+        {
+          "id": "w2",
+          "kind": "circle",
+          "label": "Fix leaking taps quickly",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "save-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "save-bin"
+        },
+        {
+          "id": "w3",
+          "kind": "circle",
+          "label": "Leave tap running all day",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "waste-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "waste-bin"
+        },
+        {
+          "id": "w4",
+          "kind": "circle",
+          "label": "Use hose to wash car daily",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "waste-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "waste-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "w1",
+          "label": "Turn off tap while brushing",
+          "emoji": "",
+          "correctBin": "save-bin"
+        },
+        {
+          "id": "w2",
+          "label": "Fix leaking taps quickly",
+          "emoji": "",
+          "correctBin": "save-bin"
+        },
+        {
+          "id": "w3",
+          "label": "Leave tap running all day",
+          "emoji": "",
+          "correctBin": "waste-bin"
+        },
+        {
+          "id": "w4",
+          "label": "Use hose to wash car daily",
+          "emoji": "",
+          "correctBin": "waste-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "save-bin",
+          "label": "Save Water 💧",
+          "color": "#10B981"
+        },
+        {
+          "id": "waste-bin",
+          "label": "Waste Water 🚫",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "theme": "ocean",
+  "storyArc": {
+    "theme": "A young scientist experiments with matter and materials",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Science Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_chem_006",
+    "region": "Chemistry Lab",
+    "mapX": 1.02,
+    "mapY": 1.03,
+    "icon": "🧪",
+    "prerequisites": [
+      "c3_chem_007"
+    ]
+  },
+  "subject": "chemistry"
+}

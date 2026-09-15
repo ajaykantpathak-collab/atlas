@@ -1,0 +1,225 @@
+import type { SimDef } from '../../engine/types';
+
+/** v3 generated — c8_math_ch04_p1 (6 nodes). Deterministic build
+ * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
+export const c8_math_ch04_p1: SimDef = {
+    id: 'v3_c8_math_ch04_p1',
+    title: 'Quadrilaterals · Part 1/2',
+    subtitle: 'Every four-sided shape hides two triangles',
+    classLevel: 8, subject: 'mathematics', topic: 'Quadrilaterals · Part 1/2',
+    chapters: ['c8_math_ch04'],
+    nodeIds: ['c8_math_ch4_1', 'c8_math_ch4_10', 'c8_math_ch4_11', 'c8_math_ch4_12', 'c8_math_ch4_2', 'c8_math_ch4_3'],
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+
+    scenario: { role: 'a land surveyor measuring odd-shaped plots', intro: 'Fields, doors, tiles, kites — the world is full of four-sided figures that don\'t look like rectangles. Learn the one rule that governs all of them.', goal: 'Understand quadrilaterals — sides, vertices, angles, diagonals, convex vs concave — and prove the interior angle sum is 360° using the two-triangle split.' },
+    discovery: {
+        question: 'Draw any wonky four-sided shape — even one with a dented-in corner — and its angles will always total the same number. What is it, and why?',
+        options: ['360° — one diagonal splits any quadrilateral into two triangles, and each triangle carries 180°', '180° — same as a triangle', '720° — four corners, 180° each', 'It depends on the shape'],
+        answer: '360° — one diagonal splits any quadrilateral into two triangles, and each triangle carries 180°',
+        hook: 'A quadrilateral doesn\'t need to look \'regular\' to count. Kites, tilted tables, even a shape with a 270° dent — four sides is four sides, and the two hidden triangles inside guarantee the angles always sum to 360°.',
+    },
+    teaching: [
+        { title: 'Quadrilaterals: Definition and Basic Properties', text: 'A quadrilateral is a closed plane figure bounded by four line segments (sides) that intersect only at their endpoints (vertices), forming four interior angles and two diagonals.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+    ],
+    beats: [
+        { type: 'mission', nodeId: 'c8_math_ch4_1', title: 'Your mission',
+          mission: { widget: 'balance', validate: 'balance:left=5,right=5',
+            instruction: 'On the lab: balance both sides at 5 — is the scale level?.',
+        context: 'Take the 360° toolkit into the field: find the missing corner angle of a farmer\'s crooked plot, classify shapes as convex or concave, and prove the angle sum never changes — rectangle or weird-shaped kite.',
+            observePrompt: 'What did the balance interactive show you?' } },
+        { type: 'scaffold', nodeId: 'c8_math_ch4_1', title: 'Quadrilaterals: Definition and Basic Properties',
+          scaffold: { problem: 'A rectangular garden plot measures 12 m by 8 m. The owner wants to divide it into two triangular sections by laying a diagonal path.',
+            steps: [
+            { text: 'Identify the garden as a rectangle (a type of quadrilateral) with four right angles (90° each).' },
+            { text: 'Recall triangle angle sum property: any triangle\'s interior angles sum to 180°.' },
+            { text: 'The diagonal divides the rectangle into two triangles. Each triangle\'s angle sum = 180°.' },
+            { text: 'Total for both triangles = 180° + 180° = 360°.' },
+            { text: 'Verify with quadrilateral property: 90° + 90° + 90° + 90° = 360°. Both match.', faded: true, blankAnswer: 'Each triangular section: 180°; Whole garden: 360°.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_math_ch4_10', title: 'Diagonals of a Parallelogram: Bisect Each Other',
+          scaffold: { problem: 'A parallelogram-shaped field ABCD has diagonals AC and BD crossing at point O. The length of diagonal AC is 24 m and diagonal BD is 18 m.',
+            steps: [
+            { text: 'Identify the given information: AC = 24 m, BD = 18 m, O is the intersection of diagonals.' },
+            { text: 'Recall the property: In a parallelogram, diagonals bisect each other. So AO = OC and BO = OD.' },
+            { text: 'Compute half of each diagonal: AO = OC = AC / 2 = 24 / 2 = 12 m. BO = OD = BD / 2 = 18 / 2 = 9 m.' },
+            { text: 'Verify: AO + OC = 12 + 12 = 24 m = AC. BO + OD = 9 + 9 = 18 m = BD.' },
+            { text: 'State the answer with units.', faded: true, blankAnswer: 'AO = 12 m, OC = 12 m, BO = 9 m, OD = 9 m' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_math_ch4_11', title: 'Kite: Definition and Properties',
+          scaffold: { problem: 'In kite ABCD, AB = AD = 7 cm, CB = CD = 5 cm. Diagonal AC = 8 cm. Diagonals intersect at O.',
+            steps: [
+            { text: 'Identify the symmetry diagonal. In kite ABCD, equal sides meet at A and C, so AC is the axis of symmetry.' },
+            { text: 'Focus on right triangle AOB. We know AB = 7 cm (hypotenuse), AO = ? We need AO.' },
+            { text: 'Use the other right triangle COB. CB = 5 cm (hypotenuse), CO = AC - AO = 8 - AO, BO is common.' },
+            { text: 'Equate the two expressions for BO²: 49 - AO² = 25 - (64 - 16AO + AO²) => 49 - AO² = 25 - 64 + 16AO - AO² => 49 = -39.' },
+            { text: 'Find BO: BO² = 49 - (5.5)² = 49 - 30.25 = 18.75 => BO = √18.75 = √(75/4) = (5√3)/2 ≈ 4.33 cm.' },
+            { text: 'Area of kite = ½ × AC × BD = ½ × 8 × 5√3 = 20√3 cm² ≈ 34.64 cm².', faded: true, blankAnswer: 'BD = 5√3 cm (≈ 8.66 cm), Area = 20√3 cm² (≈ 34.64 cm²)' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_math_ch4_12', title: 'Angle Sum Property of Quadrilaterals: 360 Degrees',
+          scaffold: { problem: 'A quadrilateral-shaped garden plot has three corners measuring 85°, 95°, and 110°.',
+            steps: [
+            { text: 'Identify the given angles: ∠1 = 85°, ∠2 = 95°, ∠3 = 110°. We need to find ∠4.' },
+            { text: 'Recall the angle sum property: sum of all four interior angles = 360°.' },
+            { text: 'Add the three known angles: 85° + 95° + 110° = 290°.' },
+            { text: 'Subtract the sum from 360° to find the missing angle: ∠4 = 360° − 290° = 70°.' },
+            { text: 'Compare with the bracket: a right-angled bracket is 90°, but the corner is 70°.', faded: true, blankAnswer: 'The fourth angle is 70°. The right-angled (90°) bracket.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_math_ch4_2', title: 'Rectangle: Definition and Properties',
+          scaffold: { problem: 'A rectangular playground has a length that is 5 metres more than its breadth. The perimeter of the playground is 90 metres.',
+            steps: [
+            { text: 'Let the breadth be \\(b\\) metres. Then length \\(l = b + 5\\) metres. (Use variable for unknown, express given relation.)' },
+            { text: 'Recall perimeter of rectangle = \\(2(l + b)\\). Substitute the expressions: \\(2((b+5) + b) = 90\\).' },
+            { text: 'Simplify inside brackets: \\(2(2b + 5) = 90\\). Divide both sides by 2: \\(2b + 5 = 45\\). (Algebraic manipulation.)' },
+            { text: 'Subtract 5: \\(2b = 40\\). Divide by 2: \\(b = 20\\). Then \\(l = 20 + 5 = 25\\). (Solve for breadth, then length.)' },
+            { text: 'Verify: Perimeter = \\(2(25 + 20) = 2 \\times 45 = 90\\) m. Matches given. (Check answer.)', faded: true, blankAnswer: 'Length = 25 m, Breadth = 20 m.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_math_ch4_3', title: 'Diagonals of a Rectangle: Equal Length (Proof by Congruence)',
+          scaffold: { problem: 'A rectangular garden plot measures 40 metres by 30 metres. The owner wants to lay two straight irrigation pipes along the diagonals.',
+            steps: [
+            { text: 'Draw rectangle ABCD with AB = 40 m (length), BC = 30 m (breadth). Diagonals are AC and BD.' },
+            { text: 'Consider triangles ΔABC and ΔDCB. In these triangles: AB = DC = 40 m (opposite sides of rectangle), ∠ABC = ∠DCB = 90°.' },
+            { text: 'By SAS congruence criterion (two sides and included angle), ΔABC ≅ ΔDCB.' },
+            { text: 'By CPCT (Corresponding Parts of Congruent Triangles), AC = BD. Thus the diagonals are equal.' },
+            { text: 'AC = √2500 = 50 m. Both irrigation pipes need to be 50 metres long.', faded: true, blankAnswer: 'The diagonals are equal (proved by SAS congruence). Each.' }
+            ] } },
+        { type: 'drill', nodeId: 'c8_math_ch4_3', title: 'Rapid check',
+          drill: { kind: 'data', count: 4, level: 3 } },
+        { type: 'case', nodeId: 'c8_math_ch4_1', title: 'Use it in the wild',
+          caseStudy: { intro: 'Surveying a plot for a school garden, students measure three corners as 100°, 110° and 70°. Without measuring, the teacher asks the fourth angle. A student objects: \'The plot isn\'t a neat rectangle, so the 360° rule may not apply.\'',
+            decisions: [{ prompt: 'Does the angle-sum rule still hold?', options: [
+                { text: 'Yes — any quadrilateral, however irregular, splits along a diagonal into two triangles, so its interior angles total 2 × 180° = 360°; the missing corner is 360 − (100+110+70) = 80°.', outcome: 'This applies the proof behind the rule — two triangles — which works for every four-sided closed figure, even concave ones.' },
+                { text: 'The student is right — the 360° total only holds for rectangles and squares where all angles look equal.', outcome: 'The rule depends on having four sides, not on looking regular; a lopsided or even a dented concave quadrilateral still sums to 360°.', reveals: '360-only-rectangles' },
+                { text: 'The rule gives 180°, not 360° — quadrilaterals follow the same angle sum as triangles.', outcome: 'A quadrilateral contains two triangles\' worth of angles, so the total doubles the triangle\'s 180°.', reveals: 'quad-means-180' }
+            ] }] } },
+        { type: 'case', nodeId: 'c8_math_ch4_3', title: 'The bigger picture',
+          caseStudy: { intro: 'Four sides, four vertices, two diagonals — and one unbreakable rule: the angles inside always add to 360°, because two triangles are hiding in every quadrilateral.',
+            decisions: [{ prompt: 'What comes next? Quadrilaterals · Part 2/2 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — Quadrilaterals · Part 2/2 builds on exactly this.' },
+                { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
+            ] }] } }
+    ],
+    explore: { lab: 'balance', prompt: 'Explore the balance interactive — watch what changes!' },
+    observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'balance', verifyPrompt: 'Try it — were you right?' },
+    challenges: [
+        { type: 'subpart', nodeId: 'c8_math_ch4_1', difficulty: 'standard',
+          question: 'A quadrilateral is a closed plane figure bounded by four line segments (sides).',
+          hint: 'Revisit c7_math_ch07_007 (Triangle angle sum property) and c6_math_ch07_072 (Angle types.',
+          misconception: 'Students often think a quadrilateral must look "regular" like a rectangle or square.',
+          parts: [
+                { id: 'a', prompt: 'Explain why the sum of interior angles of ANY quadrilateral is 360°, using a diagram and the triangle angle sum property.', answer: 'Draw diagonal AC in quadrilateral ABCD',
+                  options: ['Draw diagonal AC in quadrilateral ABCD', 'because it has 4 right angles', 'regular', 'not quadrilaterals'],
+                  hint: 'Revisit c7_math_ch07_007 (Triangle angle sum property) and c6_math_ch07_072 (Angle types and.',
+                  misconception: 'Students often think a quadrilateral must look "regular" like a rectangle or square.' },
+                { id: 'b', prompt: 'In quadrilateral WXYZ, ∠W = 80°, ∠X = 110°, ∠Y = 95°. Find ∠Z. Show all steps.', answer: 'Step 1: Use angle sum property: ∠W + ∠X + ∠Y + ∠Z = 360°',
+                  options: ['Step 1: Use angle sum property: ∠W + ∠X + ∠Y + ∠Z = 360°', 'regular', 'not quadrilaterals', 'vertex'],
+                  hint: 'Revisit c7_math_ch07_007 (Triangle angle sum property) and c6_math_ch07_072 (Angle types and.',
+                  misconception: 'Students often think a quadrilateral must look "regular" like a rectangle or square.' },
+                { id: 'c', prompt: 'Two quadrilaterals have the same side lengths: 5 cm, 7 cm, 5 cm, 7 cm. One is a rectangle, the other is a parallelogram that is NOT a rectangle.', answer: 'Both have angle sum 360° (same)',
+                  options: ['Both have angle sum 360° (same)', 'angle sums differ', 'regular', 'not quadrilaterals'],
+                  hint: 'Revisit c7_math_ch07_007 (Triangle angle sum property) and c6_math_ch07_072 (Angle types and.',
+                  misconception: 'Students often think a quadrilateral must look "regular" like a rectangle or square.' }
+          ],
+            remediations: { 'a-quadrilateral-must-look-regular': { steps: ['Give the student 5 cut-out shapes: square, rectangle, kite, irregular quadrilateral, and a triangle.', 'Ask: "Which are quadrilaterals?', 'For each quadrilateral, have them trace it, label vertices A-B-C-D in order, and list sides, vertices, angles.', 'Draw one diagonal in each and verify the two triangles\' angles sum to 180° each.'], labTask: { instruction: 'On the interactive: balance both sides at 5 — is the scale level? — then check.', widget: 'balance', validate: 'balance:left=5,right=5' } } } },
+        { type: 'subpart', nodeId: 'c8_math_ch4_1', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think a quadrilateral must look "regular" like a rectangle or square.',
+          parts: [
+                { id: 'a', prompt: 'A student draws a four-sided figure with one interior angle of 270° and claims it\'s a quadrilateral. Evaluate this claim. Is the figure a quadrilateral?', answer: 'Yes, it is a quadrilateral (closed, four sides)',
+                  options: ['Yes, it is a quadrilateral (closed, four sides)', 'not a quadrilateral', 'regular', 'not quadrilaterals'],
+                  hint: 'Revisit c7_math_ch07_007 (Triangle angle sum property) and c6_math_ch07_072 (Angle types and.',
+                  misconception: 'Students often think a quadrilateral must look "regular" like a rectangle or square.' },
+                { id: 'b', prompt: 'Create a real-life problem (Indian context) where you need to find an unknown angle of a quadrilateral-shaped field, floor tile, or piece of cloth.', answer: 'Example: A farmer\'s quadrilateral plot has angles 85°, 100°, 115°',
+                  options: ['Example: A farmer\'s quadrilateral plot has angles 85°, 100°, 115°', 'regular', 'not quadrilaterals', 'vertex'],
+                  hint: 'Revisit c7_math_ch07_007 (Triangle angle sum property) and c6_math_ch07_072 (Angle types and.',
+                  misconception: 'Students often think a quadrilateral must look "regular" like a rectangle or square.' }
+          ],
+            remediations: { 'a-quadrilateral-must-look-regular': { steps: ['Give the student 5 cut-out shapes: square, rectangle, kite, irregular quadrilateral, and a triangle.', 'Ask: "Which are quadrilaterals?', 'For each quadrilateral, have them trace it, label vertices A-B-C-D in order, and list sides, vertices, angles.', 'Draw one diagonal in each and verify the two triangles\' angles sum to 180° each.'], labTask: { instruction: 'On the interactive: balance both sides at 5 — is the scale level? — then check.', widget: 'balance', validate: 'balance:left=5,right=5' } } } },
+        { type: 'subpart', nodeId: 'c8_math_ch4_10', difficulty: 'standard',
+          question: 'In a parallelogram, the two diagonals intersect at a point that divides each.',
+          hint: 'Review alternate interior angles (c7_math_ch05_008) and ASA congruence (c7_math_ch09_007).',
+          misconception: 'Students often confuse "diagonals bisect each other" with "diagonals are equal" (rectangle) or "diagonals are.',
+          parts: [
+                { id: 'a', prompt: 'State the property of diagonals in a parallelogram. If ABCD is a parallelogram with diagonals intersecting at O, write the two equalities that describe this.', answer: 'The diagonals bisect each other: AO = OC and BO = OD',
+                  options: ['The diagonals bisect each other: AO = OC and BO = OD', 'diagonals bisect each other', 'diagonals are equal', 'diagonals are perpendicular'],
+                  hint: 'Review alternate interior angles (c7_math_ch05_008) and ASA congruence (c7_math_ch09_007) with.',
+                  misconception: 'Students often confuse "diagonals bisect each other" with "diagonals are equal" (rectangle) or "diagonals are perpendicular" (rhombus).' },
+                { id: 'b', prompt: 'Explain why the triangles formed by one diagonal of a parallelogram are congruent. Which congruence criterion (SSS, SAS, ASA, RHS) applies and why?', answer: 'Diagonal AC divides parallelogram ABCD into ΔABC and ΔCDA',
+                  options: ['Diagonal AC divides parallelogram ABCD into ΔABC and ΔCDA', 'diagonals bisect each other', 'diagonals are equal', 'diagonals are perpendicular'],
+                  hint: 'Review alternate interior angles (c7_math_ch05_008) and ASA congruence (c7_math_ch09_007) with.',
+                  misconception: 'Students often confuse "diagonals bisect each other" with "diagonals are equal" (rectangle) or "diagonals are perpendicular" (rhombus).' },
+                { id: 'c', prompt: 'In parallelogram PQRS, diagonals PR and QS intersect at T. If PT = 3x + 2 cm and TR = 5x - 4 cm, find the value of x and the length of diagonal PR.', answer: 'Since diagonals bisect each other, PT = TR',
+                  options: ['Since diagonals bisect each other, PT = TR', 'diagonals bisect each other', 'diagonals are equal', 'diagonals are perpendicular'],
+                  hint: 'Review alternate interior angles (c7_math_ch05_008) and ASA congruence (c7_math_ch09_007) with.',
+                  misconception: 'Students often confuse "diagonals bisect each other" with "diagonals are equal" (rectangle) or "diagonals are perpendicular" (rhombus).' },
+                { id: 'd', prompt: 'A student claims: "If the diagonals of a quadrilateral bisect each other, the quadrilateral must be a parallelogram." Is this statement true?', answer: 'Yes, the statement is true',
+                  options: ['Yes, the statement is true', 'diagonals bisect each other', 'diagonals are equal', 'diagonals are perpendicular'],
+                  hint: 'Review alternate interior angles (c7_math_ch05_008) and ASA congruence (c7_math_ch09_007) with.',
+                  misconception: 'Students often confuse "diagonals bisect each other" with "diagonals are equal" (rectangle) or "diagonals are perpendicular" (rhombus).' }
+          ],
+            remediations: { 'students-often-confuse-diagonals-bisect': { steps: ['Have the student draw a parallelogram on grid paper, measure the diagonal segments with a ruler, and verify AO = OC,.', 'Revisit the proof: highlight that we use opposite sides parallel → alternate interior angles equal → triangles.', 'Contrast with rectangle (diagonals equal) and rhombus (diagonals perpendicular) using separate diagrams.', 'Practice: "In parallelogram ABCD, AC=10, BD=12.'], labTask: { instruction: 'On the interactive: balance both sides at 5 — is the scale level? — then check.', widget: 'balance', validate: 'balance:left=5,right=5' } } } },
+        { type: 'subpart', nodeId: 'c8_math_ch4_11', difficulty: 'standard',
+          question: 'A kite is a quadrilateral with two distinct pairs of adjacent sides that are.',
+          hint: 'Revisit c7_math_ch09_005 (SSS Congruence Criterion) and practice proving two triangles.',
+          misconception: 'Students often think "kite = rhombus" and apply rhombus properties: they assume both diagonals bisect each other, both.',
+          parts: [
+                { id: 'a', prompt: 'In kite ABCD with AB = AD and CB = CD, diagonal AC is drawn. Explain why ∠ABC = ∠ADC using triangle congruence. Which congruence criterion applies and why?', answer: 'ΔABC ≅ ΔADC by SSS (AB=AD, CB=CD, AC common)',
+                  options: ['ΔABC ≅ ΔADC by SSS (AB=AD, CB=CD, AC common)', 'angles are equal', 'kite = rhombus', 'all sides are 5 cm'],
+                  hint: 'Revisit c7_math_ch09_005 (SSS Congruence Criterion) and practice proving two triangles congruent.',
+                  misconception: 'Students often think "kite = rhombus" and apply rhombus properties: they assume both diagonals bisect each other, both diagonals are.' },
+                { id: 'b', prompt: 'In kite PQRS, PQ = PS = 8 cm, QR = RS = 5 cm. Diagonal PR = 10 cm and intersects QS at right angles at O.', answer: 'Step 1: In a kite, one diagonal bisects the other perpendicularly',
+                  options: ['Step 1: In a kite, one diagonal bisects the other perpendicularly', 'bisect', 'two pairs', 'kite = rhombus'],
+                  hint: 'Revisit c7_math_ch09_005 (SSS Congruence Criterion) and practice proving two triangles congruent.',
+                  misconception: 'Students often think "kite = rhombus" and apply rhombus properties: they assume both diagonals bisect each other, both diagonals are.' }
+          ],
+            remediations: { 'kite-rhombus-and-apply-rhombus': { steps: ['Have the student draw a kite with two clearly different side lengths (e.g., 3 cm and 5 cm) on grid paper.', 'Measure both diagonals and their intersection — they will see only one is bisected.', 'Use coloured pencils to trace the two congruent triangles (ΔABC and ΔADC) and the two non-congruent triangles (ΔABD and.', 'Ask: "Which diagonal is the line of symmetry? Which triangles are mirror images?" This visual + tactile activity breaks.'], labTask: { instruction: 'On the interactive: balance both sides at 5 — is the scale level? — then check.', widget: 'balance', validate: 'balance:left=5,right=5' } } } },
+        { type: 'subpart', nodeId: 'c8_math_ch4_12', difficulty: 'standard',
+          question: 'The sum of the interior angles of any quadrilateral is always 360 degrees.',
+          hint: 'Revisit c7_math_ch07_007 (Angle Sum Property of a Triangle) and practice drawing.',
+          misconception: 'Students often subtract the sum of three given angles from 180° instead of 360° when finding the fourth angle, because.',
+          parts: [
+                { id: 'a', prompt: 'What is the sum of interior angles of any quadrilateral? State the value in degrees.', answer: '360 degrees',
+                  options: ['360 degrees', 'two triangles'],
+                  hint: 'Revisit c7_math_ch07_007 (Angle Sum Property of a Triangle) and practice drawing diagonals.',
+                  misconception: 'Students often subtract the sum of three given angles from 180° instead of 360° when finding the fourth angle, because they over-generalise.' },
+                { id: 'b', prompt: 'Explain why the sum of interior angles of a quadrilateral is 360° using the concept of triangles. Draw a rough diagram to support your explanation.', answer: 'Drawing a diagonal divides the quadrilateral into two triangles',
+                  options: ['Drawing a diagonal divides the quadrilateral into two triangles', 'it\'s a rule'],
+                  hint: 'Revisit c7_math_ch07_007 (Angle Sum Property of a Triangle) and practice drawing diagonals.',
+                  misconception: 'Students often subtract the sum of three given angles from 180° instead of 360° when finding the fourth angle, because they over-generalise.' }
+          ],
+            remediations: { 'students-often-subtract-the-sum': { steps: ['Ask the student to draw any quadrilateral and a diagonal.', 'Have them label the two triangles formed.', 'Remind them: "Each triangle\'s angles add to 180°.', 'How many triangles do you see?'], labTask: { instruction: 'On the interactive: balance both sides at 5 — is the scale level? — then check.', widget: 'balance', validate: 'balance:left=5,right=5' } } } },
+        { type: 'subpart', nodeId: 'c8_math_ch4_2', difficulty: 'standard',
+          question: 'A rectangle is a quadrilateral with four right angles (each measuring 90°).',
+          hint: 'Revisit c8_math_ch4_1 (parallelogram properties) and c6_math_ch07_072 (measuring right.',
+          misconception: 'Students often believe that the diagonals of a rectangle are perpendicular to each other, confusing the rectangle with.',
+          parts: [
+                { id: 'a', prompt: 'In a rectangle ABCD, side AB = 8 cm and side BC = 5 cm. Without measuring, what are the lengths of CD and AD? Explain why you are certain.', answer: 'CD = 8 cm and AD = 5 cm',
+                  options: ['CD = 8 cm and AD = 5 cm', 'cannot be determined'],
+                  hint: 'Revisit c8_math_ch4_1 (parallelogram properties) and c6_math_ch07_072 (measuring right angles).',
+                  misconception: 'Students often believe that the diagonals of a rectangle are perpendicular to each other, confusing the rectangle with a rhombus or square.' },
+                { id: 'b', prompt: 'Rectangle PQRS has diagonals PR and QS intersecting at O. If PR = 10 cm, what is the length of QS? What is the length of PO?', answer: 'QS = 10 cm (diagonals of a rectangle are equal)',
+                  options: ['QS = 10 cm (diagonals of a rectangle are equal)', 'equal diagonals', 'bisecting diagonals'],
+                  hint: 'Revisit c8_math_ch4_1 (parallelogram properties) and c6_math_ch07_072 (measuring right angles).',
+                  misconception: 'Students often believe that the diagonals of a rectangle are perpendicular to each other, confusing the rectangle with a rhombus or square.' },
+                { id: 'c', prompt: 'A carpenter builds a frame with opposite sides equal: 120 cm and 80 cm. He measures one angle and finds it is 85°. Is this frame a rectangle?', answer: 'No, it is not a rectangle',
+                  options: ['No, it is not a rectangle', 'yes, because opposite sides are equal', 'no, because adjacent sides are not equal'],
+                  hint: 'Revisit c8_math_ch4_1 (parallelogram properties) and c6_math_ch07_072 (measuring right angles).',
+                  misconception: 'Students often believe that the diagonals of a rectangle are perpendicular to each other, confusing the rectangle with a rhombus or square.' }
+          ],
+            remediations: { 'the-diagonals-of-a-rectangle': { steps: ['Draw a non-square rectangle (e.g., length 8 cm, breadth 4 cm) on grid paper.', 'Draw the diagonals and measure the angle of intersection with a protractor.', 'Then fold the rectangle along the diagonal to see the two halves match (congruent triangles), proving diagonals are.', 'Explicitly contrast with a rhombus/square where diagonals are perpendicular.'], labTask: { instruction: 'On the interactive: balance both sides at 5 — is the scale level? — then check.', widget: 'balance', validate: 'balance:left=5,right=5' } } } },
+        { type: 'subpart', nodeId: 'c8_math_ch4_3', difficulty: 'standard',
+          question: 'In a rectangle, the two diagonals are equal in length. This is proven.',
+          hint: 'Review c7_math_ch09_006 (SAS Congruence Criterion) and c8_math_ch4_2 (Rectangle.',
+          misconception: 'Students often write the congruence statement with incorrect vertex order, such as ΔABC ≅ ΔDCB (correct) vs ΔABC ≅ ΔBCD.',
+          parts: [
+                { id: 'a', prompt: 'Compare the proof that diagonals of a rectangle are equal with the proof that diagonals of a parallelogram are NOT necessarily equal.', answer: 'The proof uses the fact that all angles of a rectangle are 90° (right angles)',
+                  options: ['The proof uses the fact that all angles of a rectangle are 90° (right angles)', 'opposite sides are equal'],
+                  hint: 'Review c7_math_ch09_006 (SAS Congruence Criterion) and c8_math_ch4_2 (Rectangle Properties).',
+                  misconception: 'Students often write the congruence statement with incorrect vertex order, such as ΔABC ≅ ΔDCB (correct) vs ΔABC ≅ ΔBCD (incorrect).' }
+          ],
+            remediations: { 'students-often-write-the-congruence': { steps: ['If a student writes an incorrect congruence statement, have them: (1) Draw the rectangle and label vertices clockwise.', '(2) Draw diagonal AC and diagonal BD.', '(3) Identify the two triangles that have AC and BD as corresponding sides: ΔABC and ΔDCB (or ΔBAD and ΔCDA).', '(4) Write the vertices in matching order: first triangle A-B-C, second triangle D-C-B.'], labTask: { instruction: 'On the interactive: balance both sides at 5 — is the scale level? — then check.', widget: 'balance', validate: 'balance:left=5,right=5' } } } }
+    ],
+    reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
+    successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',
+};

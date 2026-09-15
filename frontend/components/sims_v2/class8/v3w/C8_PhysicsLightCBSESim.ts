@@ -1,0 +1,272 @@
+import type { SimDef } from '../../engine/types';
+import C8_PhysicsLightCBSESim from '../../../simulations/c6_12/C8_PhysicsLightCBSESim';
+
+/** v3 wrapped master — C8_PhysicsLightCBSESim. Rich bespoke scene mounted inside the
+ * adaptive loop; diagnostics generated from its declared node ids.
+ * Regenerate via tools/wrap_masters.mjs. */
+export const w_c8_physicslightcbsesim: SimDef = {
+    id: 'v3w_c8_physicslightcbsesim',
+    title: 'Light CBSE',
+    subtitle: 'This node covers only the definition and basic identification of concave and convex.',
+    classLevel: 8, subject: 'physics', topic: 'Spherical Mirrors: Concave and Convex - Definition',
+    chapters: [],
+    nodeIds: ['c8_physics_ch6_1', 'c8_physics_ch6_10', 'c8_physics_ch6_3', 'c8_physics_ch6_6', 'c8_physics_ch6_7', 'c8_physics_ch6_9'],
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    scenario: { role: 'a class 8 learner', intro: 'Take a stainless steel spoon from the kitchen and look at your face in the inner curved side — you see a.', goal: 'Master Light CBSE.' },
+    discovery: {
+        question: 'Why does a stainless steel spoon show an inverted image on one side when held at arm\'s length but an upright image on the other side at the same distance?',
+        options: ['The inner side of the spoon is a concave mirror', 'concave', 'convex'],
+        answer: 'The inner side of the spoon is a concave mirror',
+        hook: 'Students believe the name "concave" or "convex" describes the overall shape of the mirror object (e.g., the glass.',
+    },
+    teaching: [
+        { title: 'A spherical mirror is a reflecting surface.', text: 'A spherical mirror is a reflecting surface that forms a part of a hollow sphere; if the inner (concave) surface is polished and reflects light, it is a concave mirror, and if the outer (convex).', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+    ],
+    beats: [
+        { type: 'scaffold', nodeId: 'c8_physics_ch6_1', title: 'A spherical mirror is a reflecting.',
+          scaffold: { problem: 'Riya has a stainless steel spoon and a shiny steel bowl (katori) in her kitchen.',
+            steps: [
+            { text: 'Recall the definition — a concave mirror has the inner (caved-in) surface of a sphere as the reflecting surface; a.' },
+            { text: 'For the spoon — the inner side curves inward like a cave; this surface reflects light → concave mirror.' },
+            { text: 'For the bowl — the inner side curves inward (holds food); this surface reflects light → concave mirror.' },
+            { text: 'Compile the answers: (i) inner spoon = concave, (ii) outer spoon = convex, (iii) inner bowl = concave, (iv) outer bowl.' },
+            { text: 'Verify — each identification follows the rule: reflecting surface caves in = concave, bulges out = convex.', faded: true, blankAnswer: '(i) Concave mirror, (ii) Convex mirror, (iii) Concave.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_physics_ch6_10', title: 'A lens is a transparent optical medium.',
+          scaffold: { problem: 'A student holds a convex lens of focal length 10 cm towards the Sun and projects a sharp image of the Sun on a piece of paper.',
+            steps: [
+            { text: 'Identify given quantities – focal length f = 10 cm, object distance u = ∞ (Sun is very far).' },
+            { text: 'Recall principle – for a thin convex lens, parallel rays from a distant object converge at the principal focus, so.' },
+            { text: 'Substitute – v = 10 cm.' },
+            { text: 'Unit check – focal length in cm, image distance in cm; consistent.' },
+            { text: 'Physical reasonableness – a 10 cm focal length is typical for a magnifying glass; holding paper at 10 cm produces a.', faded: true, blankAnswer: '10 cm' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_physics_ch6_3', title: 'The principal focus (F) of a concave.',
+          scaffold: { problem: 'A concave mirror in a dentist\'s clinic has a focal length of -12 cm. What is its radius of curvature?',
+            steps: [
+            { text: 'Identify given: f = -12 cm = -0.12 m (negative for concave mirror). Find: R (radius of curvature) in metres.' },
+            { text: 'Recall formula relating f and R: f = R/2. Rearrange: R = 2f.' },
+            { text: 'Substitute f with units: R = 2 × (-0.12 m) = -0.24 m.' },
+            { text: 'Check unit cancellation: 2 (dimensionless) × m = m. Sign: negative, consistent with concave mirror (centre of curvature.' },
+            { text: 'Verify reasonableness: A dentist\'s mirror typically has a focal length of 10-15 cm, so R = 24 cm is plausible.', faded: true, blankAnswer: 'R = -0.24 m' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_physics_ch6_6', title: 'Image formation by a convex mirror is.',
+          scaffold: { problem: 'A convex mirror of focal length 10 cm is used as a side-view mirror on a tractor. A tree 3 m tall stands 15 m in front of the mirror.',
+            steps: [
+            { text: 'Convert given values to scale. Focal length f = 10 cm = 0.1 m → on diagram, F is 0.1 cm behind P.' },
+            { text: 'Draw principal axis horizontally. Draw convex mirror as a shallow curve bulging left (towards object).' },
+            { text: 'Draw Ray 1 from top of object arrow parallel to principal axis towards mirror.' },
+            { text: 'Draw Ray 2 from top of object arrow heading towards C behind the mirror.' },
+            { text: 'Extend both reflected rays backwards (dashed lines) behind the mirror.' },
+            { text: 'Measure image distance (distance from P to image along axis behind mirror) and image height on diagram.', faded: true, blankAnswer: 'Image distance = 9 cm behind the mirror (virtual). Image.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_physics_ch6_7', title: 'A real image is formed when light rays.',
+          scaffold: { problem: 'A student holds a concave mirror of focal length 10 cm facing a window.',
+            steps: [
+            { text: 'Identify given quantities: focal length f = 10 cm, sharp image at screen distance = 10 cm from mirror.' },
+            { text: 'Recall principle: For a concave mirror, parallel rays from a distant object converge at the focus.' },
+            { text: 'At screen position 10 cm (at focus), rays actually converge → real image formed on screen.' },
+            { text: 'At screen position 5 cm (between mirror and focus), rays have not yet converged (they converge at 10 cm) → no sharp.' },
+            { text: 'Conclusion: The sharp image at 10 cm is real because it is formed by actual convergence of rays and caught on screen.', faded: true, blankAnswer: 'The sharp image forms at 10 cm because that is the focal.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_physics_ch6_9', title: 'Convex mirrors are spherical mirrors.',
+          scaffold: { problem: 'A car\'s convex side-view mirror has a focal length of 0.5 m. A truck is approaching from behind at a distance of 15 m.',
+            steps: [
+            { text: 'Identify the mirror type (convex) and given values: focal length f = 0.5 m (virtual focus behind mirror), object.' },
+            { text: 'Recall the universal rule for convex mirrors: regardless of object position, the image always forms between the pole.' },
+            { text: 'Determine image characteristics: (a) Virtual – formed behind the mirror, cannot be caught on a screen.' },
+            { text: 'Connect to utility: The diminished image compresses a wide angular view of the road behind into the small mirror area,.' },
+            { text: 'Verify reasonableness: A truck 15 m away appearing as a small image near the focus (0.5 m behind mirror) is consistent.', faded: true, blankAnswer: 'Image is virtual, erect, highly diminished, located.' }
+            ] } },
+        { type: 'dissect', nodeId: 'c8_physics_ch6_10', title: 'Identify each idea',
+          dissect: { specimen: 'Light CBSE', spots: [
+            { id: 's1', label: 'A spherical mirror is a', prompt: 'Which idea is this? — A spherical mirror is a reflecting surface that forms a part of a hollow sphere; if the.', answer: 'A spherical mirror is a', options: ['A spherical mirror is a', 'A lens is a transparent', 'The principal focus F of', 'Image formation by a convex'] },
+            { id: 's2', label: 'A lens is a transparent', prompt: 'Which idea is this? — A lens is a transparent optical medium bounded by two spherical surfaces (or one.', answer: 'A lens is a transparent', options: ['A lens is a transparent', 'A spherical mirror is a', 'The principal focus F of', 'Image formation by a convex'] },
+            { id: 's3', label: 'The principal focus F of', prompt: 'Which idea is this? — The principal focus (F) of a concave mirror is the point on the principal axis where.', answer: 'The principal focus F of', options: ['The principal focus F of', 'A spherical mirror is a', 'A lens is a transparent', 'Image formation by a convex'] },
+            { id: 's4', label: 'Image formation by a convex', prompt: 'Which idea is this? — Image formation by a convex mirror is the process of locating the virtual, erect, and.', answer: 'Image formation by a convex', options: ['Image formation by a convex', 'A spherical mirror is a', 'A lens is a transparent', 'The principal focus F of'] },
+            { id: 's5', label: 'A real image is formed', prompt: 'Which idea is this? — A real image is formed when light rays actually converge at a point after reflection or.', answer: 'A real image is formed', options: ['A real image is formed', 'A spherical mirror is a', 'A lens is a transparent', 'The principal focus F of'] },
+            { id: 's6', label: 'Convex mirrors are spherical mirrors', prompt: 'Which idea is this? — Convex mirrors are spherical mirrors with reflecting surfaces curved outward, which.', answer: 'Convex mirrors are spherical mirrors', options: ['Convex mirrors are spherical mirrors', 'A spherical mirror is a', 'A lens is a transparent', 'The principal focus F of'] }
+          ] } }
+    ],
+    explore: { component: C8_PhysicsLightCBSESim, prompt: 'Explore the interactive — Light CBSE' },
+    challenges: [
+        { type: 'subpart', nodeId: 'c8_physics_ch6_1', difficulty: 'standard',
+          question: 'A spherical mirror is a reflecting surface that forms a part of a hollow.',
+          hint: 'If stuck, revisit "Light Travels in Straight Lines" (c6_physics_ch11_036) and "Images.',
+          misconception: 'Students believe the name "concave" or "convex" describes the overall shape of the mirror object (e.g., the glass.',
+          parts: [
+                { id: 'a', prompt: 'Why does a stainless steel spoon show an inverted image on one side when held at arm\'s length but an upright image on the other side at the same distance?', answer: 'The inner side of the spoon is a concave mirror',
+                  options: ['The inner side of the spoon is a concave mirror', 'concave', 'convex'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe the name "concave" or "convex" describes the overall shape of the mirror object (e.g., the glass bulges out, so it\'s.' },
+                { id: 'b', prompt: 'A student says: "A concave mirror is just a piece of a sphere, so any spherical piece of glass with a shiny coating is a concave mirror." Is this statement.', answer: 'The statement is incorrect',
+                  options: ['The statement is incorrect', 'concave', 'convex'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe the name "concave" or "convex" describes the overall shape of the mirror object (e.g., the glass bulges out, so it\'s.' },
+                { id: 'c', prompt: 'Compare the reflecting surfaces of a concave mirror, a convex mirror, and a plane mirror. What geometric property distinguishes all three?', answer: 'A plane mirror has a flat (zero curvature) reflecting surface',
+                  options: ['A plane mirror has a flat (zero curvature) reflecting surface', 'concave', 'convex'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe the name "concave" or "convex" describes the overall shape of the mirror object (e.g., the glass bulges out, so it\'s.' }
+          ],
+            remediations: { 'the-name-concave-or-convex': { steps: ['Give the student a stainless steel spoon and a shiny steel bowl.', 'Ask them to touch the reflecting side of each with a finger — inner side of spoon, outer side of bowl.', 'Have them say aloud: "This surface caves in — concave mirror" or "This surface bulges out — convex mirror."', 'Repeat with a silvered glass ball (if available) silvered on the inside — guide them to touch the inner surface and.', 'Reinforce: "The mirror is named by the reflecting surface you touch, not the object\'s outer shape."'] } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch6_1', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe the name "concave" or "convex" describes the overall shape of the mirror object (e.g., the glass.',
+          parts: [
+                { id: 'a', prompt: 'A teacher shows a spherical glass shell silvered on the inside and asks: "Is this a concave or convex mirror?" The student replies: "It\'s convex because the.', answer: 'The response is incorrect',
+                  options: ['The response is incorrect', 'concave', 'convex'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe the name "concave" or "convex" describes the overall shape of the mirror object (e.g., the glass bulges out, so it\'s.' },
+                { id: 'b', prompt: 'Design a simple activity using household items to demonstrate the difference between concave and convex mirrors to a Class 6 student.', answer: 'Items: a stainless steel spoon, a shiny steel bowl (katori), a flat steel plate',
+                  options: ['Items: a stainless steel spoon, a shiny steel bowl (katori), a flat steel plate', 'concave', 'convex'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe the name "concave" or "convex" describes the overall shape of the mirror object (e.g., the glass bulges out, so it\'s.' }
+          ],
+            remediations: { 'the-name-concave-or-convex': { steps: ['Give the student a stainless steel spoon and a shiny steel bowl.', 'Ask them to touch the reflecting side of each with a finger — inner side of spoon, outer side of bowl.', 'Have them say aloud: "This surface caves in — concave mirror" or "This surface bulges out — convex mirror."', 'Repeat with a silvered glass ball (if available) silvered on the inside — guide them to touch the inner surface and.', 'Reinforce: "The mirror is named by the reflecting surface you touch, not the object\'s outer shape."'] } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch6_10', difficulty: 'standard',
+          question: 'A lens is a transparent optical medium bounded by two spherical surfaces (or.',
+          hint: 'Review the refraction activities from Class 7 (e.g., pencil in water, coin in bowl) and.',
+          misconception: 'Students often think a concave lens "always forms a virtual image" is its defining property, but they confuse this with.',
+          parts: [
+                { id: 'a', prompt: 'A student picks up a lens and notices it is thicker at the middle than at the edges.', answer: 'It is a convex (converging) lens',
+                  options: ['It is a convex (converging) lens', 'thicker at centre', 'converging'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think a concave lens "always forms a virtual image" is its defining property, but they confuse this with the fact that a.' }
+          ],
+            remediations: { 'a-concave-lens-always-forms': { steps: ['If a student confuses lens and mirror focal-length relationships, do this: (1) Take a convex lens and a concave mirror.', '(2) Focus sunlight with each onto paper; measure both focal lengths.', '(3) Notice they are not simply R/2.', '(4) Then draw ray diagrams for a single spherical refracting surface to show bending depends on refractive index,.'] } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch6_10', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think a concave lens "always forms a virtual image" is its defining property, but they confuse this with.',
+          parts: [
+                { id: 'a', prompt: 'A student claims: "If I cover the lower half of a convex lens with black paper, the image of a distant object will become half." Evaluate this claim and.', answer: 'The claim is false',
+                  options: ['The claim is false', 'always forms a virtual image'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think a concave lens "always forms a virtual image" is its defining property, but they confuse this with the fact that a.' }
+          ],
+            remediations: { 'a-concave-lens-always-forms': { steps: ['If a student confuses lens and mirror focal-length relationships, do this: (1) Take a convex lens and a concave mirror.', '(2) Focus sunlight with each onto paper; measure both focal lengths.', '(3) Notice they are not simply R/2.', '(4) Then draw ray diagrams for a single spherical refracting surface to show bending depends on refractive index,.'] } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch6_3', difficulty: 'standard',
+          question: 'The principal focus (F) of a concave mirror is the point on the principal axis.',
+          hint: 'Review "Parts of a Spherical Mirror" (c8_physics_ch6_2) to recall definitions of pole,.',
+          misconception: 'Students often think the principal focus is a physical "hole" or "spot" on the mirror surface where light enters,.',
+          parts: [
+                { id: 'a', prompt: 'Two concave mirrors A and B have the same aperture but mirror A has a radius of curvature of 30 cm while mirror B has a radius of curvature of 60 cm.', answer: 'Mirror A: f_A = -15 cm',
+                  options: ['Mirror A: f_A = -15 cm', 'more curved'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think the principal focus is a physical "hole" or "spot" on the mirror surface where light enters, rather than a point in.' }
+          ],
+            remediations: { 'the-principal-focus-is-a': { steps: ['To correct the "focus on the mirror" misconception: (1) Take a concave mirror and a laser pointer.', '(2) Shine the laser parallel to the principal axis from different heights and mark where the reflected dot hits a.', '(3) Students will see the dots converge at one point in air, not on the mirror.', '(4) Then cover half the mirror with tape and repeat — the convergence point stays the same, only the brightness changes.'] } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch6_3', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think the principal focus is a physical "hole" or "spot" on the mirror surface where light enters,.',
+          parts: [
+                { id: 'a', prompt: 'Two concave mirrors A and B have the same aperture but mirror A has a radius of curvature of 30 cm while mirror B has a radius of curvature of 60 cm.', answer: 'Mirror A: f_A = -15 cm',
+                  options: ['Mirror A: f_A = -15 cm', 'more curved'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think the principal focus is a physical "hole" or "spot" on the mirror surface where light enters, rather than a point in.' }
+          ],
+            remediations: { 'the-principal-focus-is-a': { steps: ['To correct the "focus on the mirror" misconception: (1) Take a concave mirror and a laser pointer.', '(2) Shine the laser parallel to the principal axis from different heights and mark where the reflected dot hits a.', '(3) Students will see the dots converge at one point in air, not on the mirror.', '(4) Then cover half the mirror with tape and repeat — the convergence point stays the same, only the brightness changes.'] } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch6_6', difficulty: 'standard',
+          question: 'Image formation by a convex mirror is the process of locating the virtual,.',
+          hint: 'If stuck, revisit c8_physics_ch6_4 (Principal Focus and Focal Length of a Convex Mirror).',
+          misconception: 'Students often think the focal point (F) and centre of curvature (C) of a convex mirror are in front of the mirror.',
+          parts: [
+                { id: 'a', prompt: 'What are the two principal rays used to draw a ray diagram for a convex mirror, and how does each ray behave after reflection?', answer: 'Ray 1: Incident parallel to the principal axis',
+                  options: ['Ray 1: Incident parallel to the principal axis', 'F is halfway between P and C'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think the focal point (F) and centre of curvature (C) of a convex mirror are in front of the mirror (like a concave mirror).' },
+                { id: 'b', prompt: 'An object of height 4 cm is placed 20 cm in front of a convex mirror of focal length 15 cm.', answer: 'Steps: 1) Draw principal axis, mirror (curved outward), mark P',
+                  options: ['Steps: 1) Draw principal axis, mirror (curved outward), mark P', 'F is halfway between P and C'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think the focal point (F) and centre of curvature (C) of a convex mirror are in front of the mirror (like a concave mirror).' },
+                { id: 'c', prompt: 'Compare the ray diagrams for a convex mirror and a concave mirror when the object is placed at infinity. How do the image positions and natures differ?', answer: 'For convex mirror: Rays from infinity are parallel',
+                  options: ['For convex mirror: Rays from infinity are parallel', 'F is halfway between P and C'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think the focal point (F) and centre of curvature (C) of a convex mirror are in front of the mirror (like a concave mirror).' }
+          ],
+            remediations: { 'the-focal-point-f-and': { steps: ['Take a stainless steel spoon.', 'Look at the back (convex side).', 'See your erect, small image.', 'Trace the spoon\'s curve on paper.'] } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch6_6', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think the focal point (F) and centre of curvature (C) of a convex mirror are in front of the mirror.',
+          parts: [
+                { id: 'a', prompt: 'A student draws a ray diagram for a convex mirror with the object between P and infinity.', answer: 'The error is drawing the image inverted',
+                  options: ['The error is drawing the image inverted', 'F is halfway between P and C'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think the focal point (F) and centre of curvature (C) of a convex mirror are in front of the mirror (like a concave mirror).' },
+                { id: 'b', prompt: 'Design a simple experiment using a convex mirror (like a shiny metal spoon\'s back), a candle, and a screen to demonstrate that a convex mirror cannot form a.', answer: 'Procedure: Place a lit candle in front of the convex mirror (spoon back)',
+                  options: ['Procedure: Place a lit candle in front of the convex mirror (spoon back)', 'F is halfway between P and C'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think the focal point (F) and centre of curvature (C) of a convex mirror are in front of the mirror (like a concave mirror).' }
+          ],
+            remediations: { 'the-focal-point-f-and': { steps: ['Take a stainless steel spoon.', 'Look at the back (convex side).', 'See your erect, small image.', 'Trace the spoon\'s curve on paper.'] } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch6_7', difficulty: 'standard',
+          question: 'A real image is formed when light rays actually converge at a point after.',
+          hint: 'Review the ray diagram rules for concave mirror (c8_physics_ch6_5) and convex mirror.',
+          misconception: 'Students believe that virtual images are "not real" in the sense of being illusions, and therefore cannot be.',
+          parts: [
+                { id: 'a', prompt: 'An object is placed 20 cm in front of a concave mirror of focal length 15 cm. Without drawing a ray diagram, determine whether the image is real or virtual.', answer: 'Given: f = 15 cm, u = 20 cm (object distance)',
+                  options: ['Given: f = 15 cm, u = 20 cm (object distance)', 'not real'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe that virtual images are "not real" in the sense of being illusions, and therefore cannot be photographed or seen.' },
+                { id: 'b', prompt: 'Compare the image formed by a concave mirror when the object is at the centre of curvature (C) versus when the object is between the pole (P) and focus (F).', answer: 'At C: image at C, real, inverted, same size',
+                  options: ['At C: image at C, real, inverted, same size', 'not real'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe that virtual images are "not real" in the sense of being illusions, and therefore cannot be photographed or seen.' }
+          ],
+            remediations: { 'virtual-images-are-not-real': { steps: ['Use a concave mirror to form a real image of a distant window on a wall (screen).', 'Let students touch the image on the wall.', 'Then have them look into the same mirror from close up (object between P and F) — they see an erect magnified image but.', 'Explicitly contrast: "You can touch the first image on the wall; the second image exists only in the mirror." 4.'] } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch6_7', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe that virtual images are "not real" in the sense of being illusions, and therefore cannot be.',
+          parts: [
+                { id: 'a', prompt: 'A teacher projects a sharp image of a distant tree onto a screen using a concave mirror.', answer: 'Both images are real',
+                  options: ['Both images are real', 'virtual for lens', 'not real'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe that virtual images are "not real" in the sense of being illusions, and therefore cannot be photographed or seen.' },
+                { id: 'b', prompt: 'Design a simple experiment using a concave mirror, a candle, and a screen to demonstrate that a real image is formed when the object is beyond the focus, but a.', answer: 'Steps: 1) Find approximate focal length by focusing sunlight on paper',
+                  options: ['Steps: 1) Find approximate focal length by focusing sunlight on paper', 'not real'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe that virtual images are "not real" in the sense of being illusions, and therefore cannot be photographed or seen.' },
+                { id: 'c', prompt: 'Compare the image formed by a concave mirror when the object is at the centre of curvature (C) versus when the object is between the pole (P) and focus (F).', answer: 'At C: image at C, real, inverted, same size',
+                  options: ['At C: image at C, real, inverted, same size', 'not real'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe that virtual images are "not real" in the sense of being illusions, and therefore cannot be photographed or seen.' }
+          ],
+            remediations: { 'virtual-images-are-not-real': { steps: ['Use a concave mirror to form a real image of a distant window on a wall (screen).', 'Let students touch the image on the wall.', 'Then have them look into the same mirror from close up (object between P and F) — they see an erect magnified image but.', 'Explicitly contrast: "You can touch the first image on the wall; the second image exists only in the mirror." 4.'] } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch6_9', difficulty: 'standard',
+          question: 'Convex mirrors are spherical mirrors with reflecting surfaces curved outward,.',
+          hint: 'Revisit c8_physics_ch6_6 (Image Formation by Convex Mirror: Ray Diagrams) and.',
+          misconception: 'Students often think convex mirrors are used in vehicle headlights (like concave mirrors) because both are "curved.',
+          parts: [
+                { id: 'a', prompt: 'What type of image is always formed by a convex mirror, regardless of where the object is placed?', answer: 'A convex mirror always forms a virtual, erect, and diminished image',
+                  options: ['A convex mirror always forms a virtual, erect, and diminished image', 'real and inverted', 'magnified'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think convex mirrors are used in vehicle headlights (like concave mirrors) because both are "curved mirrors." They confuse.' },
+                { id: 'b', prompt: 'A bus driver looks into a convex side-view mirror of focal length 0.6 m. A cyclist is 12 m behind the bus.', answer: 'Image position: between pole and focus (i.e., < 0.6 m behind mirror)',
+                  options: ['Image position: between pole and focus (i.e., < 0.6 m behind mirror)', 'curved mirrors'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think convex mirrors are used in vehicle headlights (like concave mirrors) because both are "curved mirrors." They confuse.' },
+                { id: 'c', prompt: 'Compare the field of view provided by a convex side-view mirror and a plane mirror of identical dimensions mounted on a car.', answer: 'The convex mirror shows more traffic',
+                  options: ['The convex mirror shows more traffic', 'it doesn\'t shrink things', 'curved mirrors'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think convex mirrors are used in vehicle headlights (like concave mirrors) because both are "curved mirrors." They confuse.' }
+          ],
+            remediations: { 'convex-mirrors-are-used-in': { steps: ['Take a stainless steel spoon: observe your face in the concave side (magnified, inverted when far) and the convex side.', 'Then shine a torch into each side in a dark room: the concave side focuses light into a bright spot (like a headlight),.', 'This direct comparison of the two curvatures corrects the confusion.'] } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch6_9', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think convex mirrors are used in vehicle headlights (like concave mirrors) because both are "curved.',
+          parts: [
+                { id: 'a', prompt: 'Design a simple activity using a stainless steel spoon (convex side) and a plane mirror to demonstrate why convex mirrors are used as side-view mirrors in.', answer: 'Steps: (1) Hold the spoon\'s convex side and a plane mirror at arm\'s length',
+                  options: ['Steps: (1) Hold the spoon\'s convex side and a plane mirror at arm\'s length', 'curved mirrors'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think convex mirrors are used in vehicle headlights (like concave mirrors) because both are "curved mirrors." They confuse.' }
+          ],
+            remediations: { 'convex-mirrors-are-used-in': { steps: ['Take a stainless steel spoon: observe your face in the concave side (magnified, inverted when far) and the convex side.', 'Then shine a torch into each side in a dark room: the concave side focuses light into a bright spot (like a headlight),.', 'This direct comparison of the two curvatures corrects the confusion.'] } } }
+    ],
+    reflect: { prompts: ['What did the interactive reveal?', 'Where can this idea go wrong?'] },
+    successLine: 'Mastered! 🌟', tryAgainLine: 'Revisit the simulation, then retry.',
+};

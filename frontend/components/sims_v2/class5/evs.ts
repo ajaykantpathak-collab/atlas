@@ -1,0 +1,273 @@
+/**
+ * Class 5 sims — EVS (Looking Around Class 5).
+ * Themes: senses, digestion, seeds/plants, water conservation,
+ * health/disease, space, energy, disasters, forests, heredity.
+ */
+import type { SimDef } from '../engine/types';
+
+export const c5Senses: SimDef = {
+    id: 'c5_senses', title: 'Super Senses', subtitle: 'How animals sense!',
+    classLevel: 5, subject: 'evs', topic: 'Senses',
+    chapters: ['Looking Around-5 Ch1: Super Senses'],
+    emoji: '👃', theme: { bg: 'from-purple-100 to-violet-200', accent: 'purple', scene: 'senses' },
+    scenario: { role: "a sense-scientist", intro: "Bats echolocate, dogs smell — super senses!", goal: "Learn every super sense." },
+    discovery: {
+        question: "Can a bat 'see' in total darkness - how?",
+        options: ["Echolocation - sound echoes!", "Super eyes", "It cannot"],
+        answer: "Echolocation - sound echoes!",
+        hook: "Bats hear their way in the dark! Let's learn super senses.",
+    },
+    teaching: [
+        { title: 'Animal Superpowers! 👃', text: 'Dogs smell what we cannot, eagles see far, bats hear in the dark. Animals have super senses!', emoji: '👃', bgColor: 'from-purple-400 to-violet-500' },
+        { title: 'Smell and Mark 🐕', text: 'Dogs mark territory with smell. Ants follow smell trails. Smell is a language for animals!', emoji: '🐕', bgColor: 'from-amber-400 to-orange-500' },
+        { title: 'Sight and Sound 🦇', text: 'Eagles see tiny prey from high. Bats use echoes to "see" in the dark — echolocation!', emoji: '🦇', bgColor: 'from-sky-400 to-blue-500' },
+    ],
+    explore: { widget: "tray", prompt: "Match animals to their super senses!" },
+    challenges: [
+        { type: 'mcq', question: 'Bats find their way in the dark using...', answer: 'Echolocation (sound echoes)', options: ['Super eyes', 'Echolocation (sound echoes)', 'Smell only'],
+          hint: 'They send out sounds!', misconception: 'Bats send sounds and listen to echoes — echolocation, not eyes!',
+          workedExample: ['Bat makes sound.', 'Echo comes back.', 'They "hear" the shape.'] },
+        { type: 'mcq', question: 'Which sense is strongest in a dog?', answer: 'Smell', options: ['Sight', 'Smell', 'Taste'],
+          hint: 'Dogs sniff everything!', misconception: 'Dogs have super smell — thousands of times better than ours!',
+          workedExample: ['Dogs sniff to explore.', 'Smell is strongest.'] },
+        { type: 'mcq', question: 'Ants follow a trail to food using...', answer: 'Smell trail', options: ['Maps', 'Smell trail', 'Sounds'],
+          hint: 'They leave a scent path!', misconception: 'Ants leave a smell trail — others follow the scent to food!',
+          workedExample: ['Ant leaves scent.', 'Others follow the smell.', 'Smell trail.'] },
+        { type: 'sort', question: 'Match animal to its super sense!', options: [],
+          sortItems: [
+            { id: 'ss1', label: 'Eagle', emoji: '🦅', correctBin: 'sight' },
+            { id: 'ss2', label: 'Dog', emoji: '🐕', correctBin: 'smell' },
+            { id: 'ss3', label: 'Bat', emoji: '🦇', correctBin: 'hearing' },
+            { id: 'ss4', label: 'Owl', emoji: '🦉', correctBin: 'sight' },
+          ],
+          bins: [ { id: 'sight', label: 'Super Sight 🦅', color: '#3b82f6' }, { id: 'smell', label: 'Super Smell 🐕', color: '#ca8a04' },
+                  { id: 'hearing', label: 'Super Hearing 🦇', color: '#8b5cf6' } ],
+          hint: 'Eagle/owl see far, dog smells, bat hears!',
+          misconception: 'Eagle & owl have super sight, dog super smell, bat super hearing!',
+          workedExample: ['Eagle, owl → sight.', 'Dog → smell.', 'Bat → hearing.'] },
+    ],
+    reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
+    successLine: 'Super sensor! ⭐', tryAgainLine: 'Which sense is super?',
+};
+
+export const c5Digestion: SimDef = {
+    id: 'c5_digestion', title: 'From Tasting to Digesting', subtitle: 'The food journey!',
+    classLevel: 5, subject: 'evs', topic: 'Digestion and Health',
+    chapters: ['Looking Around-5 Ch3: From Tasting to Digesting', 'Ch8: A Treat for Mosquitoes'],
+    emoji: '🍽️', theme: { bg: 'from-rose-100 to-pink-200', accent: 'rose', scene: 'body' },
+    scenario: { role: "a digestion-doctor", intro: "Food travels mouth to intestine — follow it!", goal: "Trace digestion." },
+    discovery: {
+        question: "Where does the food go after you swallow - does it just sit?",
+        options: ["On a journey - mouth to intestine!", "Just sits", "Disappears"],
+        answer: "On a journey - mouth to intestine!",
+        hook: "Food travels through your body! Let's follow it.",
+    },
+    teaching: [
+        { title: 'The Food Journey! 🍽️', text: 'Food travels: mouth (chew) → food pipe → stomach (churn) → intestine (absorb) → out!', emoji: '🍽️', bgColor: 'from-rose-400 to-pink-500' },
+        { title: 'Teeth Start It 🦷', text: 'Teeth break food, saliva softens it. Chewing well helps the stomach!', emoji: '🦷', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Germs and Mosquitoes 🦟', text: 'Mosquitoes spread malaria and dengue. Keep water from collecting, use nets!', emoji: '🦟', bgColor: 'from-emerald-400 to-teal-500' },
+    ],
+    explore: { widget: "tray", prompt: "Trace food through the body!" },
+    challenges: [
+        { type: 'order', question: 'Order the food\'s journey through the body!', options: [],
+          sortItems: [
+            { id: 'd1', label: 'Stomach churns it', emoji: '🌀', correctBin: 's2' },
+            { id: 'd2', label: 'Mouth chews it', emoji: '👄', correctBin: 's1' },
+            { id: 'd3', label: 'Intestine absorbs it', emoji: '🧽', correctBin: 's3' },
+          ],
+          bins: [ { id: 's1', label: '1st', color: '#ec4899' }, { id: 's2', label: '2nd', color: '#8b5cf6' },
+                  { id: 's3', label: '3rd', color: '#3b82f6' } ],
+          hint: 'Mouth → stomach → intestine!',
+          misconception: 'Food journey: mouth → stomach → intestine!',
+          workedExample: ['Mouth chews.', 'Stomach churns.', 'Intestine absorbs.'] },
+        { type: 'mcq', question: 'Where is food first broken down?', answer: 'Mouth', options: ['Stomach', 'Mouth', 'Intestine'],
+          hint: 'Teeth and saliva!', misconception: 'The mouth starts digestion — teeth break, saliva softens!',
+          workedExample: ['Teeth break food.', 'Saliva softens.', 'Mouth first.'] },
+        { type: 'mcq', question: 'Malaria and dengue are spread by...', answer: 'Mosquitoes', options: ['Flies', 'Mosquitoes', 'Butterflies'],
+          hint: 'The buzzing biter!', misconception: 'Mosquitoes carry malaria and dengue germs — keep water from collecting!',
+          workedExample: ['Mosquito bites.', 'Carries disease.', 'Malaria/dengue.'] },
+    ],
+    reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
+    successLine: 'Body expert! ⭐', tryAgainLine: 'Follow the food!',
+};
+
+export const c5Seeds: SimDef = {
+    id: 'c5_seeds', title: 'Seeds and Seeds', subtitle: 'How plants travel!',
+    classLevel: 5, subject: 'evs', topic: 'Plants and Seeds',
+    chapters: ['Looking Around-5 Ch5: Seeds and Seeds', 'Ch19: A Seed Tells a Farmer\'s Story'],
+    emoji: '🌱', theme: { bg: 'from-green-100 to-emerald-200', accent: 'green', scene: 'seeds' },
+    scenario: { role: "a seed-traveler", intro: "Seeds fly, float, stick — how do they travel?", goal: "Learn seed dispersal." },
+    discovery: {
+        question: "How does a coconut reach a new island with no one to carry it?",
+        options: ["It floats on the sea!", "Birds carry it", "It cannot"],
+        answer: "It floats on the sea!",
+        hook: "Seeds travel by wind, water, animals! Let's learn.",
+    },
+    teaching: [
+        { title: 'Seeds Travel! 🌱', text: 'Seeds fly on wind, float on water, stick to animals, or pop out. They spread far to grow!', emoji: '🌱', bgColor: 'from-green-400 to-emerald-500' },
+        { title: 'A Seed Needs 🌰', text: 'A seed needs water, air, and warmth to sprout. Inside is a tiny baby plant waiting!', emoji: '🌰', bgColor: 'from-amber-400 to-orange-500' },
+        { title: 'How Seeds Move 💨', text: 'Dandelion seeds fly, coconut floats, burrs stick to fur, pea pods burst open!', emoji: '💨', bgColor: 'from-sky-400 to-blue-500' },
+    ],
+    explore: { widget: "tray", prompt: "How do seeds travel?" },
+    challenges: [
+        { type: 'sort', question: 'Sort seeds by how they travel!', options: [],
+          sortItems: [
+            { id: 'sd1', label: 'Dandelion', emoji: '🌼', correctBin: 'wind' },
+            { id: 'sd2', label: 'Coconut', emoji: '🥥', correctBin: 'water' },
+            { id: 'sd3', label: 'Burr', emoji: '🌰', correctBin: 'animal' },
+            { id: 'sd4', label: 'Pea pod', emoji: '🫛', correctBin: 'burst' },
+          ],
+          bins: [ { id: 'wind', label: 'Wind 💨', color: '#3b82f6' }, { id: 'water', label: 'Water 🌊', color: '#06b6d4' },
+                  { id: 'animal', label: 'Animal fur 🐕', color: '#ca8a04' }, { id: 'burst', label: 'Bursts 💥', color: '#ec4899' } ],
+          hint: 'Flies, floats, sticks, or pops?',
+          misconception: 'Dandelion→wind, coconut→water, burr→animal fur, pea→bursts!',
+          workedExample: ['Light & fluffy → wind.', 'Hollow → water.', 'Sticky → animal.', 'Pod → bursts.'] },
+        { type: 'mcq', question: 'What does a seed need to sprout?', answer: 'Water, air, and warmth', options: ['Only sunlight', 'Water, air, and warmth', 'Nothing'],
+          hint: 'Think of planting a seed!', misconception: 'Seeds need water, air, and warmth to sprout — not sunlight yet!',
+          workedExample: ['Seed underground.', 'Needs water, air, warmth.', 'Sprouts.'] },
+        { type: 'mcq', question: 'A coconut travels by...', answer: 'Floating on water', options: ['Wind', 'Floating on water', 'Animal fur'],
+          hint: 'It can cross the sea!', misconception: 'Coconuts float — they travel on water to new shores!',
+          workedExample: ['Coconut is buoyant.', 'Floats on water.'] },
+    ],
+    reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
+    successLine: 'Seed sprinter! ⭐', tryAgainLine: 'How does it travel?',
+};
+
+export const c5WaterSave: SimDef = {
+    id: 'c5_watersave', title: 'Every Drop Counts', subtitle: 'Save water!',
+    classLevel: 5, subject: 'evs', topic: 'Water Conservation',
+    chapters: ['Looking Around-5 Ch6: Every Drop Counts', 'Ch7: Experiments with Water'],
+    emoji: '💧', theme: { bg: 'from-blue-100 to-cyan-200', accent: 'blue', scene: 'water' },
+    scenario: { role: "a water-guardian", intro: "Fresh water is rare — learn to save it!", goal: "Master conservation." },
+    discovery: {
+        question: "If 97% of water is salty sea, how much is left for us to drink?",
+        options: ["Very little - save every drop!", "Lots", "Half"],
+        answer: "Very little - save every drop!",
+        hook: "Fresh water is rare and precious! Let's learn to save it.",
+    },
+    teaching: [
+        { title: 'Water is Precious! 💧', text: 'Only a little of Earth\'s water is fresh and drinkable. Most is salty sea water. Save every drop!', emoji: '💧', bgColor: 'from-blue-400 to-cyan-500' },
+        { title: 'Old Water Wisdom 🏺', text: 'Long ago people built stepwells, tanks, and bunds to save rainwater. Clever water saving!', emoji: '🏺', bgColor: 'from-amber-400 to-orange-500' },
+        { title: 'Water Experiments 🧪', text: 'Some things float, some sink. Water has surface tension — a needle can rest on it!', emoji: '🧪', bgColor: 'from-indigo-400 to-violet-500' },
+    ],
+    explore: { lab: "pour", prompt: "Try the lab — what do you discover?" },
+    challenges: [
+        { type: 'mcq', question: 'Most of Earth\'s water is...', answer: 'Salty sea water', options: ['Fresh drinking water', 'Salty sea water', 'In rivers'],
+          hint: 'The oceans hold the most!', misconception: '97% of water is salty sea — very little is fresh and drinkable!',
+          workedExample: ['Oceans = most water.', 'Salt water.', 'Little is fresh.'] },
+        { type: 'mcq', question: 'What is a stepwell for?', answer: 'Saving rainwater underground', options: ['Decoration', 'Saving rainwater underground', 'Climbing'],
+          hint: 'Old water storage!', misconception: 'Stepwells stored rainwater for dry times — ancient water saving!',
+          workedExample: ['Stepwell = water store.', 'Saved rain for later.'] },
+        { type: 'mcq', question: 'A steel spoon in water will...', answer: 'Sink', options: ['Float', 'Sink', 'Dissolve'],
+          hint: 'Metal is dense!', misconception: 'Steel is denser than water — it sinks!',
+          workedExample: ['Dense things sink.', 'Steel is dense.', 'It sinks.'] },
+        { type: 'mcq', question: 'Which saves the most water?', answer: 'Using a bucket instead of shower', options: ['Long showers', 'Using a bucket instead of shower', 'Leaving taps running'],
+          hint: 'Less water wasted!', misconception: 'A bucket uses much less water than a running shower!',
+          workedExample: ['Shower = lots of water.', 'Bucket = little.', 'Bucket saves more.'] },
+    ],
+    reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
+    successLine: 'Water saver! ⭐', tryAgainLine: 'Every drop counts!',
+};
+
+export const c5Space: SimDef = {
+    id: 'c5_space', title: 'Sunita in Space', subtitle: 'Up in the stars!',
+    classLevel: 5, subject: 'evs', topic: 'Space and Earth',
+    chapters: ['Looking Around-5 Ch11: Sunita in Space', 'Ch12: What if it Finishes?'],
+    emoji: '🚀', theme: { bg: 'from-indigo-100 to-violet-200', accent: 'indigo', scene: 'space' },
+    scenario: { role: "an astronaut", intro: "Gravity, orbits, planets — explore space!", goal: "Know the solar system." },
+    discovery: {
+        question: "Why do astronauts FLOAT in space - are they light?",
+        options: ["No gravity pulling down!", "They are light", "Special suits"],
+        answer: "No gravity pulling down!",
+        hook: "In space nothing pulls you down! Let's explore.",
+    },
+    teaching: [
+        { title: 'Sunita in Space! 🚀', text: 'Sunita Williams floated in space — no gravity! Earth looks like a blue marble from up there.', emoji: '🚀', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: 'Floating Astronauts 🧑‍🚀', text: 'In space there is no gravity pulling down — astronauts float, water forms balls, food floats!', emoji: '🧑‍🚀', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Earth is Special 🌍', text: 'Earth has air, water, and life. From space it looks mostly blue — the oceans!', emoji: '🌍', bgColor: 'from-emerald-400 to-teal-500' },
+    ],
+    explore: { lab: "orbit", prompt: "Try the lab — what do you discover?" },
+    challenges: [
+        { type: 'mcq', question: 'Why do astronauts float in space?', answer: 'No gravity pulling them down', options: ['They are very light', 'No gravity pulling them down', 'They wear special suits'],
+          hint: 'What pulls us down on Earth?', misconception: 'In space gravity barely pulls — so things float!',
+          workedExample: ['Earth pulls us down.', 'Space = little pull.', 'They float.'] },
+        { type: 'mcq', question: 'Earth looks mostly ___ from space.', answer: 'blue (oceans)', options: ['green', 'blue (oceans)', 'brown'],
+          hint: 'Most of Earth is water!', misconception: 'Earth looks blue — the oceans cover most of it!',
+          workedExample: ['Oceans cover Earth.', 'Blue from space.'] },
+        { type: 'mcq', question: 'What does Earth have that makes life possible?', answer: 'Air and water', options: ['Only rocks', 'Air and water', 'Nothing special'],
+          hint: 'We breathe and drink!', misconception: 'Earth has air to breathe and water to drink — that is why life exists here!',
+          workedExample: ['Air = breathe.', 'Water = drink.', 'Life possible.'] },
+    ],
+    reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
+    successLine: 'Space explorer! ⭐', tryAgainLine: 'No gravity up there!',
+};
+
+export const c5Disaster: SimDef = {
+    id: 'c5_disaster', title: 'When the Earth Shook', subtitle: 'Earthquakes and help!',
+    classLevel: 5, subject: 'evs', topic: 'Disasters and Community',
+    chapters: ['Looking Around-5 Ch14: When the Earth Shook', 'Ch16: Who will do this Work?'],
+    emoji: '🌍', theme: { bg: 'from-amber-100 to-orange-200', accent: 'amber', scene: 'disaster' },
+    scenario: { role: "a safety-expert", intro: "Earthquakes, floods — know what to do!", goal: "Stay safe in disasters." },
+    discovery: {
+        question: "When the ground shakes, should you run outside or hide under a table?",
+        options: ["Drop, cover, hold under a table!", "Run outside fast", "Stand still"],
+        answer: "Drop, cover, hold under a table!",
+        hook: "Knowing what to do saves lives! Let's learn safety.",
+    },
+    teaching: [
+        { title: 'When the Earth Shakes! 🌍', text: 'An earthquake is the ground shaking. Drop, cover, and hold on — stay safe under a table!', emoji: '🌍', bgColor: 'from-amber-400 to-orange-500' },
+        { title: 'People Help People 🤝', text: 'After a disaster, everyone helps — rescue teams, doctors, neighbours. Community is strength!', emoji: '🤝', bgColor: 'from-rose-400 to-pink-500' },
+        { title: 'Every Job Matters 🧹', text: 'Cleaners, sweepers, helpers — every job is important. Respect all work!', emoji: '🧹', bgColor: 'from-sky-400 to-blue-500' },
+    ],
+    explore: { widget: "tray", prompt: "What to do in an earthquake?" },
+    challenges: [
+        { type: 'mcq', question: 'During an earthquake, you should...', answer: 'Drop, cover under a table, hold on', options: ['Run outside fast', 'Drop, cover under a table, hold on', 'Stand by a window'],
+          hint: 'Protect your head!', misconception: 'Drop-Cover-Hold is safest — protect yourself under strong furniture!',
+          workedExample: ['Drop down.', 'Cover under table.', 'Hold on.'] },
+        { type: 'mcq', question: 'After a disaster, the most important thing is...', answer: 'People helping each other', options: ['Everyone runs away alone', 'People helping each other', 'Waiting alone'],
+          hint: 'Community strength!', misconception: 'Helping each other — rescue, food, care — is what saves people after disaster!',
+          workedExample: ['Disaster strikes.', 'People help people.', 'Community saves.'] },
+        { type: 'mcq', question: 'Why should we respect cleaners and sweepers?', answer: 'Their work keeps us healthy', options: ['Their work keeps us healthy', 'No reason', 'Only doctors matter'],
+          hint: 'Who keeps our places clean?', misconception: 'Cleaners stop disease and keep places healthy — every job matters!',
+          workedExample: ['Clean places = healthy.', 'Cleaners do that work.', 'Respect all jobs.'] },
+    ],
+    reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
+    successLine: 'Safety star! ⭐', tryAgainLine: 'Drop, cover, hold!',
+};
+
+export const c5Forests: SimDef = {
+    id: 'c5_forests', title: 'Whose Forests?', subtitle: 'Forests belong to all!',
+    classLevel: 5, subject: 'evs', topic: 'Forests and Nature',
+    chapters: ['Looking Around-5 Ch20: Whose Forests', 'Ch10: Walls Tell Stories'],
+    emoji: '🌲', theme: { bg: 'from-emerald-100 to-green-200', accent: 'emerald', scene: 'forest' },
+    scenario: { role: "a forest-protector", intro: "Forests belong to all — protect them!", goal: "Learn forest value." },
+    discovery: {
+        question: "Do forests belong only to the government - or to everyone?",
+        options: ["To animals, people, all of us!", "Only government", "No one"],
+        answer: "To animals, people, all of us!",
+        hook: "Forests belong to all who need them! Let's learn.",
+    },
+    teaching: [
+        { title: 'Whose Forests? 🌲', text: 'Forests belong to the animals, the people who live there, and all of us. Everyone shares them!', emoji: '🌲', bgColor: 'from-emerald-400 to-green-500' },
+        { title: 'Forest Life 🦌', text: 'Forests are home to animals, birds, and tribal people. They take only what they need!', emoji: '🦌', bgColor: 'from-lime-400 to-green-500' },
+        { title: 'Nature\'s Balance ⚖️', text: 'Forests give air, rain, and homes. Destroy them and the balance breaks!', emoji: '⚖️', bgColor: 'from-sky-400 to-blue-500' },
+    ],
+    explore: { lab: "grow", prompt: "Grow a forest — who lives there?" },
+    challenges: [
+        { type: 'mcq', question: 'Who do forests belong to?', answer: 'Animals, forest people, and all of us', options: ['Only the government', 'Animals, forest people, and all of us', 'No one'],
+          hint: 'Many share the forest!', misconception: 'Forests belong to everyone — animals, tribal people, and all of us share them!',
+          workedExample: ['Animals live there.', 'People live there.', 'All share it.'] },
+        { type: 'mcq', question: 'How do tribal people use the forest?', answer: 'Take only what they need', options: ['Cut all trees', 'Take only what they need', 'Burn it'],
+          hint: 'They live with nature!', misconception: 'Forest people live in balance — they take only what they need, keeping the forest alive!',
+          workedExample: ['Live in harmony.', 'Take only what is needed.'] },
+        { type: 'mcq', question: 'What do forests give us?', answer: 'Air, rain, and animal homes', options: ['Nothing useful', 'Air, rain, and animal homes', 'Only wood'],
+          hint: 'More than just wood!', misconception: 'Forests give oxygen, bring rain, and are homes — far more than wood!',
+          workedExample: ['Trees give oxygen.', 'Forests bring rain.', 'Animals live there.'] },
+    ],
+    reflect: { prompts: ['What surprised you?', 'Tell a friend one thing you learned!'] },
+    successLine: 'Forest friend! ⭐', tryAgainLine: 'Forests belong to all!',
+};
+
+export const class5EvsSims: SimDef[] = [
+    c5Senses, c5Digestion, c5Seeds, c5WaterSave, c5Space, c5Disaster, c5Forests,
+];

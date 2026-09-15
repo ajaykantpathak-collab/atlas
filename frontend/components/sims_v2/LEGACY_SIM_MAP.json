@@ -1,0 +1,2945 @@
+{
+  "meta": {
+    "tool": "backend/tools/build_legacy_sim_map.py",
+    "scope": "frontend/components/simulations: class1-class5, maths, loose subject folders (bio/chem/cs/evs/geo/physics if non-empty) + root-level shared widgets. EXCLUDED: c6_12* (owned by c6_12 mapper), three/, _* archive/backup folders.",
+    "dedupeReference": "frontend/components/sims_v2/SIMS_V2_QUALITY.json",
+    "v2QualitySha256": "7a46a546584be3a4072e9da4d2f3be63a1722463db4f255a9c9670484fc3a4b1",
+    "v2EntriesUsed": 176,
+    "topicKeyScheme": "g{class}.{slug} = class-band sim (g1..g5); m0.{slug} = loose maths/ simple-machine sims (unpinned class); infra.{slug} = shared root widget, not a topic sim",
+    "verdictRules": [
+      "SUPERSEDED: same-class-band sims_v2 entry covers the topic with verdict PERFECT/GOOD",
+      "KEEP-MASTER: same-class-band v2 entry exists but is THIN/BROKEN, or GOOD with off-topic/degenerate generator issues while legacy is a >=600-line bespoke component",
+      "KEEP-UNIQUE: no same-class-band v2 coverage (or only cross-class adjacency, which never supersedes)"
+    ],
+    "deterministic": "no timestamps; v2QualitySha256 pins the dedupe reference; re-run byte-identical while inputs unchanged"
+  },
+  "summary": {
+    "totalEntries": 142,
+    "countsPerVerdict": {
+      "SUPERSEDED": 55,
+      "KEEP-UNIQUE": 81,
+      "KEEP-MASTER": 6
+    },
+    "perFolder": {
+      "bio": {
+        "files": 0,
+        "SUPERSEDED": 0,
+        "KEEP-UNIQUE": 0,
+        "KEEP-MASTER": 0
+      },
+      "chem": {
+        "files": 0,
+        "SUPERSEDED": 0,
+        "KEEP-UNIQUE": 0,
+        "KEEP-MASTER": 0
+      },
+      "class1": {
+        "files": 24,
+        "SUPERSEDED": 19,
+        "KEEP-UNIQUE": 4,
+        "KEEP-MASTER": 1
+      },
+      "class2": {
+        "files": 20,
+        "SUPERSEDED": 5,
+        "KEEP-UNIQUE": 13,
+        "KEEP-MASTER": 2
+      },
+      "class3": {
+        "files": 31,
+        "SUPERSEDED": 14,
+        "KEEP-UNIQUE": 16,
+        "KEEP-MASTER": 1
+      },
+      "class4": {
+        "files": 28,
+        "SUPERSEDED": 8,
+        "KEEP-UNIQUE": 18,
+        "KEEP-MASTER": 2
+      },
+      "class5": {
+        "files": 33,
+        "SUPERSEDED": 9,
+        "KEEP-UNIQUE": 24,
+        "KEEP-MASTER": 0
+      },
+      "cs": {
+        "files": 0,
+        "SUPERSEDED": 0,
+        "KEEP-UNIQUE": 0,
+        "KEEP-MASTER": 0
+      },
+      "evs": {
+        "files": 0,
+        "SUPERSEDED": 0,
+        "KEEP-UNIQUE": 0,
+        "KEEP-MASTER": 0
+      },
+      "geo": {
+        "files": 0,
+        "SUPERSEDED": 0,
+        "KEEP-UNIQUE": 0,
+        "KEEP-MASTER": 0
+      },
+      "maths": {
+        "files": 2,
+        "SUPERSEDED": 0,
+        "KEEP-UNIQUE": 2,
+        "KEEP-MASTER": 0
+      },
+      "physics": {
+        "files": 0,
+        "SUPERSEDED": 0,
+        "KEEP-UNIQUE": 0,
+        "KEEP-MASTER": 0
+      },
+      "(root widgets)": {
+        "files": 4,
+        "SUPERSEDED": 0,
+        "KEEP-UNIQUE": 4,
+        "KEEP-MASTER": 0
+      }
+    },
+    "perSubject": {
+      "shared": {
+        "total": 4,
+        "SUPERSEDED": 0,
+        "KEEP-UNIQUE": 4,
+        "KEEP-MASTER": 0
+      },
+      "maths": {
+        "total": 36,
+        "SUPERSEDED": 23,
+        "KEEP-UNIQUE": 8,
+        "KEEP-MASTER": 5
+      },
+      "science": {
+        "total": 51,
+        "SUPERSEDED": 18,
+        "KEEP-UNIQUE": 32,
+        "KEEP-MASTER": 1
+      },
+      "evs": {
+        "total": 16,
+        "SUPERSEDED": 6,
+        "KEEP-UNIQUE": 10,
+        "KEEP-MASTER": 0
+      },
+      "cs": {
+        "total": 19,
+        "SUPERSEDED": 4,
+        "KEEP-UNIQUE": 15,
+        "KEEP-MASTER": 0
+      },
+      "social": {
+        "total": 16,
+        "SUPERSEDED": 4,
+        "KEEP-UNIQUE": 12,
+        "KEEP-MASTER": 0
+      }
+    },
+    "emptySubjectFolders": [
+      "bio",
+      "chem",
+      "cs",
+      "evs",
+      "geo",
+      "physics"
+    ]
+  },
+  "entries": [
+    {
+      "file": "frontend/components/simulations/GameRenderer.tsx",
+      "folder": "(root)",
+      "classBand": "shared",
+      "subjectGuess": "shared",
+      "topicKey": "infra.game-renderer",
+      "title": "GameRenderer",
+      "cisceNodes": [],
+      "lines": 1358,
+      "bytes": 63959,
+      "kind": "shared-widget",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "shared infrastructure component, not a topic sim; no v2 equivalent -- shared renderer for the legacy game-engine challenge system; wired into app/play + app/game-test and lib/game-engine"
+    },
+    {
+      "file": "frontend/components/simulations/InteractiveNumberLine.tsx",
+      "folder": "(root)",
+      "classBand": "shared",
+      "subjectGuess": "shared",
+      "topicKey": "infra.number-line",
+      "title": "InteractiveNumberLine",
+      "cisceNodes": [],
+      "lines": 100,
+      "bytes": 3237,
+      "kind": "shared-widget",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "shared infrastructure component, not a topic sim; no v2 equivalent -- interactive number-line widget; no importers found (orphan candidate)"
+    },
+    {
+      "file": "frontend/components/simulations/SVGBodyDiagram.tsx",
+      "folder": "(root)",
+      "classBand": "shared",
+      "subjectGuess": "shared",
+      "topicKey": "infra.body-diagram",
+      "title": "SVGBodyDiagram",
+      "cisceNodes": [],
+      "lines": 249,
+      "bytes": 9569,
+      "kind": "shared-widget",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "shared infrastructure component, not a topic sim; no v2 equivalent -- clickable body-diagram widget; no importers found (orphan candidate)"
+    },
+    {
+      "file": "frontend/components/simulations/VisualChallenge.tsx",
+      "folder": "(root)",
+      "classBand": "shared",
+      "subjectGuess": "shared",
+      "topicKey": "infra.visual-challenge",
+      "title": "VisualChallenge",
+      "cisceNodes": [],
+      "lines": 791,
+      "bytes": 41180,
+      "kind": "shared-widget",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "shared infrastructure component, not a topic sim; no v2 equivalent -- generic multi-subject challenge visualizer widget; no importers found (orphan candidate)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/AdditionGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "maths",
+      "topicKey": "g1.addition-subtraction",
+      "title": "AdditionGame",
+      "cisceNodes": [
+        "c1_math_010"
+      ],
+      "lines": 710,
+      "bytes": 34721,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_addsub"
+      ],
+      "evidence": "v2 covers topic: c1_addsub(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/AirGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "science",
+      "topicKey": "g1.air",
+      "title": "AirGame",
+      "cisceNodes": [
+        "c1_phy_001",
+        "c1_phy_002",
+        "c1_phy_003"
+      ],
+      "lines": 773,
+      "bytes": 37216,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_air"
+      ],
+      "evidence": "v2 covers topic: c1_air(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/AnimalTypesGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "science",
+      "topicKey": "g1.animal-types-habitats",
+      "title": "AnimalTypesGame",
+      "cisceNodes": [
+        "c1_bio_019",
+        "c1_bio_020",
+        "c1_bio_021",
+        "c1_bio_022"
+      ],
+      "lines": 812,
+      "bytes": 39427,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_animals"
+      ],
+      "evidence": "v2 covers topic: c1_animals(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/AnimalsGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "evs",
+      "topicKey": "g1.animals",
+      "title": "AnimalsGame",
+      "cisceNodes": [
+        "c1_evs_003"
+      ],
+      "lines": 732,
+      "bytes": 36133,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_animals"
+      ],
+      "evidence": "v2 covers topic: c1_animals(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/BalanceGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "maths",
+      "topicKey": "g1.weight-comparison",
+      "title": "BalanceGame",
+      "cisceNodes": [
+        "c1_math_021"
+      ],
+      "lines": 751,
+      "bytes": 36924,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_measure"
+      ],
+      "evidence": "v2 covers topic: c1_measure(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/BiologyFoundationsSimulation.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "science",
+      "topicKey": "g1.biology-foundations",
+      "title": "BiologyFoundationsSimulation",
+      "cisceNodes": [
+        "c1_bio_001",
+        "c1_bio_002",
+        "c1_bio_003",
+        "c2_bio_001",
+        "c2_bio_002"
+      ],
+      "lines": 858,
+      "bytes": 47398,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: c1_body(PERFECT), c2_homes(GOOD) (never supersedes) -- cross-class 1-5 foundations series; class1 body/plants/animals slices exist as separate v2 entries but no cross-class equivalent"
+    },
+    {
+      "file": "frontend/components/simulations/class1/BodyGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "science",
+      "topicKey": "g1.body-parts-senses",
+      "title": "BodyGame",
+      "cisceNodes": [
+        "c1_bio_001",
+        "c1_bio_002",
+        "c1_bio_003"
+      ],
+      "lines": 918,
+      "bytes": 48047,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_body"
+      ],
+      "evidence": "v2 covers topic: c1_body(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/CleanlinessGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "evs",
+      "topicKey": "g1.cleanliness",
+      "title": "CleanlinessGame",
+      "cisceNodes": [
+        "c1_evs_010"
+      ],
+      "lines": 689,
+      "bytes": 35043,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_clean"
+      ],
+      "evidence": "v2 covers topic: c1_clean(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/ComputerBasicsGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "cs",
+      "topicKey": "g1.computer-basics",
+      "title": "ComputerBasicsGame",
+      "cisceNodes": [
+        "c1_cs_001",
+        "c1_cs_002",
+        "c1_cs_003",
+        "c1_cs_004",
+        "c1_cs_005"
+      ],
+      "lines": 712,
+      "bytes": 38024,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "cs_basics"
+      ],
+      "evidence": "v2 covers topic: cs_basics(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/ComputerInputGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "cs",
+      "topicKey": "g1.computer-input-devices",
+      "title": "ComputerInputGame",
+      "cisceNodes": [
+        "c1_cs_006",
+        "c1_cs_007",
+        "c1_cs_008",
+        "c1_cs_009",
+        "c1_cs_010"
+      ],
+      "lines": 766,
+      "bytes": 37074,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- input devices / keyboard / mouse / storage skills not in v2 cs track (cs_basics stops at parts & uses)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/ComputerSkillsC1_5Sim.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "cs",
+      "topicKey": "g1.computer-skills-foundations",
+      "title": "ComputerSkillsC1_5Sim",
+      "cisceNodes": [
+        "c1_comp_001",
+        "c5_comp_010"
+      ],
+      "lines": 857,
+      "bytes": 48532,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: cs_basics(PERFECT), cs_scratch(PERFECT) (never supersedes) -- cross-class 1-5 foundations series; no v2 equivalent"
+    },
+    {
+      "file": "frontend/components/simulations/class1/CountingGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "maths",
+      "topicKey": "g1.counting",
+      "title": "CountingGame",
+      "cisceNodes": [
+        "c1_math_001"
+      ],
+      "lines": 639,
+      "bytes": 33360,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-MASTER",
+      "v2CoveredBy": [
+        "c1_counting"
+      ],
+      "evidence": "v2 GOOD but generator filler/degenerate (c1_counting(GOOD)) vs 639-line bespoke legacy sim"
+    },
+    {
+      "file": "frontend/components/simulations/class1/EarthWeatherGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "social",
+      "topicKey": "g1.earth-weather",
+      "title": "EarthWeatherGame",
+      "cisceNodes": [
+        "c1_geo_001",
+        "c1_geo_005"
+      ],
+      "lines": 789,
+      "bytes": 38539,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_sky",
+        "c1_hood"
+      ],
+      "evidence": "v2 covers topic: c1_sky(PERFECT),c1_hood(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/FoodGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "evs",
+      "topicKey": "g1.food",
+      "title": "FoodGame",
+      "cisceNodes": [
+        "c1_evs_006"
+      ],
+      "lines": 682,
+      "bytes": 34607,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_food"
+      ],
+      "evidence": "v2 covers topic: c1_food(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/NeighbourhoodGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "social",
+      "topicKey": "g1.neighbourhood",
+      "title": "NeighbourhoodGame",
+      "cisceNodes": [
+        "c1_geo_009",
+        "c1_geo_010"
+      ],
+      "lines": 774,
+      "bytes": 37562,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_hood"
+      ],
+      "evidence": "v2 covers topic: c1_hood(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/PatternsGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "maths",
+      "topicKey": "g1.patterns",
+      "title": "PatternsGame",
+      "cisceNodes": [
+        "c1_math_027"
+      ],
+      "lines": 685,
+      "bytes": 35937,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_patterns"
+      ],
+      "evidence": "v2 covers topic: c1_patterns(GOOD)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/PhysicsWorldSim.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "science",
+      "topicKey": "g1.physics-foundations",
+      "title": "PhysicsWorldSim",
+      "cisceNodes": [
+        "c1_phy_001",
+        "c5_phy_010"
+      ],
+      "lines": 869,
+      "bytes": 47901,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: c1_sky(PERFECT) (never supersedes) -- cross-class 1-5 foundations series (c1_phy_001 + c5_phy_010); no v2 equivalent"
+    },
+    {
+      "file": "frontend/components/simulations/class1/PlantTypesGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "science",
+      "topicKey": "g1.plant-types",
+      "title": "PlantTypesGame",
+      "cisceNodes": [
+        "c1_bio_015",
+        "c1_bio_016",
+        "c1_bio_017"
+      ],
+      "lines": 884,
+      "bytes": 41368,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_plants"
+      ],
+      "evidence": "v2 covers topic: c1_plants(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/PlantsGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "evs",
+      "topicKey": "g1.plants",
+      "title": "PlantsGame",
+      "cisceNodes": [
+        "c1_evs_004"
+      ],
+      "lines": 704,
+      "bytes": 36418,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_plants"
+      ],
+      "evidence": "v2 covers topic: c1_plants(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/SafetyGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "evs",
+      "topicKey": "g1.safety",
+      "title": "SafetyGame",
+      "cisceNodes": [
+        "c1_evs_009"
+      ],
+      "lines": 677,
+      "bytes": 34231,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_safety"
+      ],
+      "evidence": "v2 covers topic: c1_safety(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/ShapeSortGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "maths",
+      "topicKey": "g1.shapes-sorting",
+      "title": "ShapeSortGame",
+      "cisceNodes": [
+        "c1_math_013",
+        "c1_math_016"
+      ],
+      "lines": 698,
+      "bytes": 34326,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_shapes"
+      ],
+      "evidence": "v2 covers topic: c1_shapes(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/SunMoonGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "science",
+      "topicKey": "g1.sun-moon-seasons",
+      "title": "SunMoonGame",
+      "cisceNodes": [
+        "c1_phy_006",
+        "c1_phy_007",
+        "c1_phy_008"
+      ],
+      "lines": 775,
+      "bytes": 38161,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_sky"
+      ],
+      "evidence": "v2 covers topic: c1_sky(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/TransportGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "science",
+      "topicKey": "g1.transport",
+      "title": "TransportGame",
+      "cisceNodes": [
+        "c1_phy_004",
+        "c1_phy_005"
+      ],
+      "lines": 945,
+      "bytes": 51908,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_transport"
+      ],
+      "evidence": "v2 covers topic: c1_transport(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class1/WaterGame.tsx",
+      "folder": "class1",
+      "classBand": "1",
+      "subjectGuess": "science",
+      "topicKey": "g1.water",
+      "title": "WaterGame",
+      "cisceNodes": [
+        "c1_chem_001",
+        "c1_chem_002",
+        "c1_chem_003",
+        "c1_chem_004"
+      ],
+      "lines": 875,
+      "bytes": 47300,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c1_water"
+      ],
+      "evidence": "v2 covers topic: c1_water(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class2/AddSubGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "maths",
+      "topicKey": "g2.addition-subtraction",
+      "title": "AddSubGame",
+      "cisceNodes": [
+        "c2_math_005",
+        "c2_math_006",
+        "c2_math_007",
+        "c2_math_008",
+        "c2_math_009",
+        "c2_math_010",
+        "c2_math_011",
+        "c2_math_014"
+      ],
+      "lines": 809,
+      "bytes": 33428,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c2_arith"
+      ],
+      "evidence": "v2 covers topic: c2_arith(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class2/AirCleanGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "science",
+      "topicKey": "g2.air-cleanliness-health",
+      "title": "AirCleanGame",
+      "cisceNodes": [
+        "c2_bio_005",
+        "c2_bio_006",
+        "c2_bio_007",
+        "c2_bio_008",
+        "c2_bio_009"
+      ],
+      "lines": 943,
+      "bytes": 41237,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class2/AirVehiclesGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "science",
+      "topicKey": "g2.air-vehicles-fuels",
+      "title": "AirVehiclesGame",
+      "cisceNodes": [
+        "c2_phy_001",
+        "c2_phy_002",
+        "c2_phy_003",
+        "c2_phy_004",
+        "c2_phy_005"
+      ],
+      "lines": 854,
+      "bytes": 37459,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class2/AnimalsGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "science",
+      "topicKey": "g2.animals-habitats-lifecycles",
+      "title": "AnimalsGame",
+      "cisceNodes": [
+        "c2_bio_013",
+        "c2_bio_014",
+        "c2_bio_015"
+      ],
+      "lines": 949,
+      "bytes": 42309,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c2_homes covers only the animal-homes slice; characteristics/butterfly lifecycle uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class2/BodyFunctionsGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "science",
+      "topicKey": "g2.body-functions",
+      "title": "BodyFunctionsGame",
+      "cisceNodes": [
+        "c2_bio_001"
+      ],
+      "lines": 910,
+      "bytes": 39044,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class2/ComputerBasicsGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "cs",
+      "topicKey": "g2.computer-basics",
+      "title": "ComputerBasicsGame",
+      "cisceNodes": [
+        "c2_cs_001",
+        "c2_cs_002",
+        "c2_cs_003",
+        "c2_cs_004",
+        "c2_cs_005",
+        "c2_cs_006"
+      ],
+      "lines": 926,
+      "bytes": 40328,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: cs_basics(PERFECT) (never supersedes) -- v2 cs_basics sits at classLevel 1; v2 class-2 CS slot is cs_files (files/folders)"
+    },
+    {
+      "file": "frontend/components/simulations/class2/ComputerFilesGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "cs",
+      "topicKey": "g2.files-folders-paint",
+      "title": "ComputerFilesGame",
+      "cisceNodes": [
+        "c2_cs_007",
+        "c2_cs_008",
+        "c2_cs_009",
+        "c2_cs_010",
+        "c2_cs_011",
+        "c2_cs_012"
+      ],
+      "lines": 893,
+      "bytes": 40791,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "cs_files"
+      ],
+      "evidence": "v2 covers topic: cs_files(PERFECT) -- cs_files covers files/folders; paint-tool slice partial"
+    },
+    {
+      "file": "frontend/components/simulations/class2/DirectionsMapGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "social",
+      "topicKey": "g2.directions-maps",
+      "title": "DirectionsMapGame",
+      "cisceNodes": [
+        "c2_geo_006",
+        "c2_geo_007",
+        "c2_geo_008",
+        "c2_geo_009",
+        "c2_geo_010"
+      ],
+      "lines": 989,
+      "bytes": 42368,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c2_directions"
+      ],
+      "evidence": "v2 covers topic: c2_directions(GOOD) -- water-sources/landforms slices only partly covered"
+    },
+    {
+      "file": "frontend/components/simulations/class2/EarthSunGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "social",
+      "topicKey": "g2.earth-sun",
+      "title": "EarthSunGame",
+      "cisceNodes": [
+        "c2_geo_001",
+        "c2_geo_002",
+        "c2_geo_003",
+        "c2_geo_004",
+        "c2_geo_005"
+      ],
+      "lines": 902,
+      "bytes": 38210,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: c2_seasons(PERFECT) (never supersedes) -- c2_seasons covers only the seasons slice; sun/shadows/day-night uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class2/FoodGroupsGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "science",
+      "topicKey": "g2.food-groups",
+      "title": "FoodGroupsGame",
+      "cisceNodes": [
+        "c2_bio_002",
+        "c2_bio_003",
+        "c2_bio_004"
+      ],
+      "lines": 827,
+      "bytes": 37044,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class2/MeasurementGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "maths",
+      "topicKey": "g2.measurement",
+      "title": "MeasurementGame",
+      "cisceNodes": [
+        "c2_math_020",
+        "c2_math_021",
+        "c2_math_022",
+        "c2_math_023"
+      ],
+      "lines": 994,
+      "bytes": 42703,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-MASTER",
+      "v2CoveredBy": [
+        "c2_measure"
+      ],
+      "evidence": "v2 GOOD but generator filler/degenerate (c2_measure(GOOD)) vs 994-line bespoke legacy sim"
+    },
+    {
+      "file": "frontend/components/simulations/class2/MulDivGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "maths",
+      "topicKey": "g2.multiplication-tables",
+      "title": "MulDivGame",
+      "cisceNodes": [
+        "c2_math_012",
+        "c2_math_013"
+      ],
+      "lines": 887,
+      "bytes": 36604,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c2_groups is counting-in-groups/tens groundwork, not tables/equal-sharing"
+    },
+    {
+      "file": "frontend/components/simulations/class2/MyEnvironmentGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "evs",
+      "topicKey": "g2.my-environment",
+      "title": "MyEnvironmentGame",
+      "cisceNodes": [
+        "c2_evs_001",
+        "c2_evs_002",
+        "c2_evs_003",
+        "c2_evs_004",
+        "c2_evs_005"
+      ],
+      "lines": 1037,
+      "bytes": 44156,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c2_helpers/c2_homes cover only community-helpers and animal-homes slices"
+    },
+    {
+      "file": "frontend/components/simulations/class2/NumbersGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "maths",
+      "topicKey": "g2.numbers-place-value",
+      "title": "NumbersGame",
+      "cisceNodes": [
+        "c2_math_001",
+        "c2_math_002",
+        "c2_math_003",
+        "c2_math_004"
+      ],
+      "lines": 837,
+      "bytes": 37201,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-MASTER",
+      "v2CoveredBy": [
+        "c2_place"
+      ],
+      "evidence": "v2 coverage inadequate: c2_place(THIN)"
+    },
+    {
+      "file": "frontend/components/simulations/class2/PatternsGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "maths",
+      "topicKey": "g2.patterns-graphs",
+      "title": "PatternsGame",
+      "cisceNodes": [
+        "c2_math_024",
+        "c2_math_025",
+        "c2_math_026",
+        "c2_math_027"
+      ],
+      "lines": 732,
+      "bytes": 33736,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c2_patterns"
+      ],
+      "evidence": "v2 covers topic: c2_patterns(PERFECT) -- simple-graphs slice only partly covered"
+    },
+    {
+      "file": "frontend/components/simulations/class2/PlantsGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "science",
+      "topicKey": "g2.plants-parts-products",
+      "title": "PlantsGame",
+      "cisceNodes": [
+        "c2_bio_010",
+        "c2_bio_011",
+        "c2_bio_012"
+      ],
+      "lines": 955,
+      "bytes": 42862,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class2/SafetyCleanGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "evs",
+      "topicKey": "g2.safety-hygiene",
+      "title": "SafetyCleanGame",
+      "cisceNodes": [
+        "c2_evs_006",
+        "c2_evs_007",
+        "c2_evs_008",
+        "c2_evs_009",
+        "c2_evs_010"
+      ],
+      "lines": 879,
+      "bytes": 38522,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class2/ShapesLinesGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "maths",
+      "topicKey": "g2.shapes-lines",
+      "title": "ShapesLinesGame",
+      "cisceNodes": [
+        "c2_math_015",
+        "c2_math_016",
+        "c2_math_017",
+        "c2_math_018",
+        "c2_math_019"
+      ],
+      "lines": 1012,
+      "bytes": 40272,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c2_shapes"
+      ],
+      "evidence": "v2 covers topic: c2_shapes(GOOD)"
+    },
+    {
+      "file": "frontend/components/simulations/class2/SolarSystemGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "science",
+      "topicKey": "g2.solar-system",
+      "title": "SolarSystemGame",
+      "cisceNodes": [
+        "c2_phy_006",
+        "c2_phy_007",
+        "c2_phy_008",
+        "c2_phy_009",
+        "c2_phy_010"
+      ],
+      "lines": 928,
+      "bytes": 36587,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class2/WaterGame.tsx",
+      "folder": "class2",
+      "classBand": "2",
+      "subjectGuess": "science",
+      "topicKey": "g2.water-storage-conservation",
+      "title": "WaterGame",
+      "cisceNodes": [
+        "c2_chem_001",
+        "c2_chem_002",
+        "c2_chem_003",
+        "c2_chem_004"
+      ],
+      "lines": 817,
+      "bytes": 37454,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/AddSubGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "maths",
+      "topicKey": "g3.addition-subtraction",
+      "title": "AddSubGame",
+      "cisceNodes": [
+        "c3_math_006",
+        "c3_math_007",
+        "c3_math_008"
+      ],
+      "lines": 928,
+      "bytes": 41462,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_givetake"
+      ],
+      "evidence": "v2 covers topic: c3_givetake(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class3/BirdsGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "science",
+      "topicKey": "g3.birds",
+      "title": "BirdsGame",
+      "cisceNodes": [
+        "c3_bio_006",
+        "c3_bio_007",
+        "c3_bio_008",
+        "c3_bio_009"
+      ],
+      "lines": 1019,
+      "bytes": 45677,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_animals"
+      ],
+      "evidence": "v2 covers topic: c3_animals(GOOD) -- bird subdomain of the v2 class-3 animals entry"
+    },
+    {
+      "file": "frontend/components/simulations/class3/ComputerSystemGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "cs",
+      "topicKey": "g3.computer-system",
+      "title": "ComputerSystemGame",
+      "cisceNodes": [
+        "c3_cs_001",
+        "c3_cs_002",
+        "c3_cs_003",
+        "c3_cs_004",
+        "c3_cs_005"
+      ],
+      "lines": 860,
+      "bytes": 39720,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/ContinentsGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "social",
+      "topicKey": "g3.continents-oceans",
+      "title": "ContinentsGame",
+      "cisceNodes": [
+        "c3_geo_003",
+        "c3_geo_004",
+        "c3_geo_005"
+      ],
+      "lines": 837,
+      "bytes": 36530,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/DataPatternsGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "maths",
+      "topicKey": "g3.data-patterns",
+      "title": "DataPatternsGame",
+      "cisceNodes": [
+        "c3_math_036",
+        "c3_math_037",
+        "c3_math_038",
+        "c3_math_039",
+        "c3_math_040"
+      ],
+      "lines": 941,
+      "bytes": 42352,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_charts",
+        "c3_patterns"
+      ],
+      "evidence": "v2 covers topic: c3_charts(PERFECT),c3_patterns(GOOD)"
+    },
+    {
+      "file": "frontend/components/simulations/class3/DirectionsMapsGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "social",
+      "topicKey": "g3.directions-maps-globes",
+      "title": "DirectionsMapsGame",
+      "cisceNodes": [
+        "c3_geo_006",
+        "c3_geo_007"
+      ],
+      "lines": 921,
+      "bytes": 41488,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/EarthSkyGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "evs",
+      "topicKey": "g3.earth-sky",
+      "title": "EarthSkyGame",
+      "cisceNodes": [
+        "c3_evs_004",
+        "c3_evs_005",
+        "c3_evs_006"
+      ],
+      "lines": 975,
+      "bytes": 40903,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/FloatSinkGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "science",
+      "topicKey": "g3.float-sink",
+      "title": "FloatSinkGame",
+      "cisceNodes": [
+        "c3_phy_001",
+        "c3_phy_002"
+      ],
+      "lines": 946,
+      "bytes": 41525,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/FoodShelterGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "evs",
+      "topicKey": "g3.food-shelter-transport",
+      "title": "FoodShelterGame",
+      "cisceNodes": [
+        "c3_evs_007",
+        "c3_evs_008",
+        "c3_evs_009",
+        "c3_evs_010"
+      ],
+      "lines": 896,
+      "bytes": 39712,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c3_shelter covers only the shelter slice; food types/transport/crafts uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class3/GlobeGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "social",
+      "topicKey": "g3.globe",
+      "title": "GlobeGame",
+      "cisceNodes": [
+        "c3_geo_001",
+        "c3_geo_002"
+      ],
+      "lines": 976,
+      "bytes": 42398,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/HealthGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "science",
+      "topicKey": "g3.health-hygiene",
+      "title": "HealthGame",
+      "cisceNodes": [
+        "c3_bio_021",
+        "c3_bio_022",
+        "c3_bio_023"
+      ],
+      "lines": 909,
+      "bytes": 40149,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/InsectsGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "science",
+      "topicKey": "g3.insects",
+      "title": "InsectsGame",
+      "cisceNodes": [
+        "c3_bio_010",
+        "c3_bio_011",
+        "c3_bio_012",
+        "c3_bio_013"
+      ],
+      "lines": 944,
+      "bytes": 43414,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_animals"
+      ],
+      "evidence": "v2 covers topic: c3_animals(GOOD) -- insect subdomain of the v2 class-3 animals entry"
+    },
+    {
+      "file": "frontend/components/simulations/class3/InternetGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "cs",
+      "topicKey": "g3.internet",
+      "title": "InternetGame",
+      "cisceNodes": [
+        "c3_cs_009",
+        "c3_cs_010"
+      ],
+      "lines": 960,
+      "bytes": 42078,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "cs_internet"
+      ],
+      "evidence": "v2 covers topic: cs_internet(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class3/LandformsGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "social",
+      "topicKey": "g3.landforms-rivers",
+      "title": "LandformsGame",
+      "cisceNodes": [
+        "c3_geo_008",
+        "c3_geo_009",
+        "c3_geo_010"
+      ],
+      "lines": 937,
+      "bytes": 41411,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/LivingEVSGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "evs",
+      "topicKey": "g3.living-nonliving",
+      "title": "LivingEVSGame",
+      "cisceNodes": [
+        "c3_evs_001",
+        "c3_evs_002",
+        "c3_evs_003"
+      ],
+      "lines": 899,
+      "bytes": 40153,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/LivingThingsGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "science",
+      "topicKey": "g3.living-things",
+      "title": "LivingThingsGame",
+      "cisceNodes": [
+        "c3_bio_001",
+        "c3_bio_002",
+        "c3_bio_003",
+        "c3_bio_004",
+        "c3_bio_005"
+      ],
+      "lines": 938,
+      "bytes": 41418,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/MapsLengthGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "maths",
+      "topicKey": "g3.maps-3d-length",
+      "title": "MapsLengthGame",
+      "cisceNodes": [
+        "c3_math_022",
+        "c3_math_023",
+        "c3_math_024",
+        "c3_math_025",
+        "c3_math_026",
+        "c3_math_027",
+        "c3_math_028"
+      ],
+      "lines": 819,
+      "bytes": 34444,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_lookfrom",
+        "c3_measure2"
+      ],
+      "evidence": "v2 covers topic: c3_lookfrom(GOOD),c3_measure2(PERFECT) -- views/perspectives + measurement jointly cover map-reading, 3D line drawings and length"
+    },
+    {
+      "file": "frontend/components/simulations/class3/MatterGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "science",
+      "topicKey": "g3.states-of-matter",
+      "title": "MatterGame",
+      "cisceNodes": [
+        "c3_chem_001",
+        "c3_chem_002",
+        "c3_chem_003",
+        "c3_chem_004",
+        "c3_chem_005"
+      ],
+      "lines": 906,
+      "bytes": 41027,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "sci_matter"
+      ],
+      "evidence": "v2 covers topic: sci_matter(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class3/MentalMathGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "maths",
+      "topicKey": "g3.mental-math",
+      "title": "MentalMathGame",
+      "cisceNodes": [
+        "c3_math_014",
+        "c3_math_015",
+        "c3_math_016"
+      ],
+      "lines": 732,
+      "bytes": 32749,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/MulDivGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "maths",
+      "topicKey": "g3.multiplication-division",
+      "title": "MulDivGame",
+      "cisceNodes": [
+        "c3_math_009",
+        "c3_math_010",
+        "c3_math_011",
+        "c3_math_012",
+        "c3_math_013"
+      ],
+      "lines": 921,
+      "bytes": 38994,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_times",
+        "c3_share"
+      ],
+      "evidence": "v2 covers topic: c3_times(PERFECT),c3_share(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class3/NumbersGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "maths",
+      "topicKey": "g3.numbers-4digit",
+      "title": "NumbersGame",
+      "cisceNodes": [
+        "c3_math_001",
+        "c3_math_002",
+        "c3_math_003",
+        "c3_math_004",
+        "c3_math_005"
+      ],
+      "lines": 846,
+      "bytes": 37549,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-MASTER",
+      "v2CoveredBy": [
+        "c3_numbers"
+      ],
+      "evidence": "v2 coverage inadequate: c3_numbers(THIN) -- v2 c3_numbers is THIN and even 3-digit scoped vs legacy 4-digit content"
+    },
+    {
+      "file": "frontend/components/simulations/class3/PaintFilesGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "cs",
+      "topicKey": "g3.paint-files",
+      "title": "PaintFilesGame",
+      "cisceNodes": [
+        "c3_cs_011",
+        "c3_cs_012",
+        "c3_cs_013",
+        "c3_cs_014",
+        "c3_cs_015"
+      ],
+      "lines": 859,
+      "bytes": 38079,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: cs_files(PERFECT) (never supersedes) -- cs_files sits at classLevel 2 and covers only the files slice"
+    },
+    {
+      "file": "frontend/components/simulations/class3/PlantUsesGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "science",
+      "topicKey": "g3.plant-uses",
+      "title": "PlantUsesGame",
+      "cisceNodes": [
+        "c3_bio_018",
+        "c3_bio_019",
+        "c3_bio_020"
+      ],
+      "lines": 975,
+      "bytes": 42272,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_plants"
+      ],
+      "evidence": "v2 covers topic: c3_plants(PERFECT) -- plant-uses subdomain of v2 c3_plants; sun-energy slice partial"
+    },
+    {
+      "file": "frontend/components/simulations/class3/PlantsGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "science",
+      "topicKey": "g3.plants-parts-seeds",
+      "title": "PlantsGame",
+      "cisceNodes": [
+        "c3_bio_014",
+        "c3_bio_015",
+        "c3_bio_016",
+        "c3_bio_017"
+      ],
+      "lines": 960,
+      "bytes": 41997,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_plants"
+      ],
+      "evidence": "v2 covers topic: c3_plants(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class3/ResourcesGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "social",
+      "topicKey": "g3.natural-resources",
+      "title": "ResourcesGame",
+      "cisceNodes": [
+        "c3_geo_011",
+        "c3_geo_012"
+      ],
+      "lines": 1026,
+      "bytes": 42301,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/ShapesTessellationGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "maths",
+      "topicKey": "g3.shapes-tessellation",
+      "title": "ShapesTessellationGame",
+      "cisceNodes": [
+        "c3_math_017",
+        "c3_math_018",
+        "c3_math_019",
+        "c3_math_020",
+        "c3_math_021"
+      ],
+      "lines": 803,
+      "bytes": 35590,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_shapes"
+      ],
+      "evidence": "v2 covers topic: c3_shapes(GOOD)"
+    },
+    {
+      "file": "frontend/components/simulations/class3/SunEnergyGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "science",
+      "topicKey": "g3.sun-energy",
+      "title": "SunEnergyGame",
+      "cisceNodes": [
+        "c3_phy_003",
+        "c3_phy_004",
+        "c3_phy_005",
+        "c3_phy_006"
+      ],
+      "lines": 905,
+      "bytes": 40688,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class3/TimeCalendarGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "maths",
+      "topicKey": "g3.time-calendar",
+      "title": "TimeCalendarGame",
+      "cisceNodes": [
+        "c3_math_032",
+        "c3_math_033",
+        "c3_math_034",
+        "c3_math_035"
+      ],
+      "lines": 905,
+      "bytes": 39196,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_time"
+      ],
+      "evidence": "v2 covers topic: c3_time(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class3/WaterSunGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "science",
+      "topicKey": "g3.water-sun-resources",
+      "title": "WaterSunGame",
+      "cisceNodes": [
+        "c3_chem_006",
+        "c3_chem_007",
+        "c3_chem_008"
+      ],
+      "lines": 1031,
+      "bytes": 45652,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_water"
+      ],
+      "evidence": "v2 covers topic: c3_water(PERFECT) -- water covered; sun-as-resource slice partial"
+    },
+    {
+      "file": "frontend/components/simulations/class3/WeightCapacityGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "maths",
+      "topicKey": "g3.weight-capacity",
+      "title": "WeightCapacityGame",
+      "cisceNodes": [
+        "c3_math_029",
+        "c3_math_030",
+        "c3_math_031"
+      ],
+      "lines": 1010,
+      "bytes": 43511,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c3_measure2"
+      ],
+      "evidence": "v2 covers topic: c3_measure2(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class3/WindowsWordGame.tsx",
+      "folder": "class3",
+      "classBand": "3",
+      "subjectGuess": "cs",
+      "topicKey": "g3.ms-word",
+      "title": "WindowsWordGame",
+      "cisceNodes": [
+        "c3_cs_006",
+        "c3_cs_007",
+        "c3_cs_008"
+      ],
+      "lines": 970,
+      "bytes": 43690,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class4/AdaptationsGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "science",
+      "topicKey": "g4.adaptations",
+      "title": "AdaptationsGame",
+      "cisceNodes": [
+        "c4_bio_009",
+        "c4_bio_010",
+        "c4_bio_011",
+        "c4_bio_012",
+        "c4_bio_013"
+      ],
+      "lines": 919,
+      "bytes": 40847,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-MASTER",
+      "v2CoveredBy": [
+        "c4_animals"
+      ],
+      "evidence": "v2 GOOD but generator filler/degenerate (c4_animals(GOOD)) vs 919-line bespoke legacy sim -- v2 c4_animals is degenerate (lex:sort yields 1 unique question) vs 919-line bespoke adaptations game"
+    },
+    {
+      "file": "frontend/components/simulations/class4/AlgorithmsLogoGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "cs",
+      "topicKey": "g4.algorithms-logo",
+      "title": "What is Stepwise Thinking? 🧠",
+      "cisceNodes": [],
+      "lines": 937,
+      "bytes": 42047,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "cs_logic"
+      ],
+      "evidence": "v2 covers topic: cs_logic(PERFECT) -- stepwise thinking/algorithm slices covered; Logo slice partial"
+    },
+    {
+      "file": "frontend/components/simulations/class4/ChangesTransportGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "evs",
+      "topicKey": "g4.locality-transport-changes",
+      "title": "ChangesTransportGame",
+      "cisceNodes": [
+        "c4_evs_004",
+        "c4_evs_005",
+        "c4_evs_006",
+        "c4_evs_007",
+        "c4_evs_008"
+      ],
+      "lines": 997,
+      "bytes": 43803,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c4_transport",
+        "c4_diversity"
+      ],
+      "evidence": "v2 covers topic: c4_transport(GOOD),c4_diversity(GOOD) -- transport + community slices covered; change-over-time narrative partial"
+    },
+    {
+      "file": "frontend/components/simulations/class4/ComputerMemoryGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "cs",
+      "topicKey": "g4.computer-memory-data",
+      "title": "Data vs Information! 📊",
+      "cisceNodes": [],
+      "lines": 889,
+      "bytes": 38392,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class4/ContinentsOceansGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "social",
+      "topicKey": "g4.continents-oceans",
+      "title": "ContinentsOceansGame",
+      "cisceNodes": [
+        "c4_geo_004",
+        "c4_geo_005",
+        "c4_geo_006"
+      ],
+      "lines": 947,
+      "bytes": 40711,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class4/DigestionGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "science",
+      "topicKey": "g4.digestion-excretion",
+      "title": "DigestionGame",
+      "cisceNodes": [
+        "c4_bio_006",
+        "c4_bio_007",
+        "c4_bio_008"
+      ],
+      "lines": 962,
+      "bytes": 43414,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: c5_digestion(GOOD) (never supersedes) -- v2 digestion entry sits at classLevel 5"
+    },
+    {
+      "file": "frontend/components/simulations/class4/EarthMotionsGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "social",
+      "topicKey": "g4.earth-motions",
+      "title": "EarthMotionsGame",
+      "cisceNodes": [
+        "c4_geo_001",
+        "c4_geo_002",
+        "c4_geo_003"
+      ],
+      "lines": 912,
+      "bytes": 39123,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class4/FactorsMultiplesGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "maths",
+      "topicKey": "g4.factors-multiples",
+      "title": "FactorsMultiplesGame",
+      "cisceNodes": [
+        "c4_math_017",
+        "c4_math_018",
+        "c4_math_019",
+        "c4_math_020",
+        "c4_math_021",
+        "c4_math_022",
+        "c4_math_023"
+      ],
+      "lines": 971,
+      "bytes": 43115,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: c5_factors(PERFECT) (never supersedes) -- v2 factors entry sits at classLevel 5"
+    },
+    {
+      "file": "frontend/components/simulations/class4/FoodTeethGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "evs",
+      "topicKey": "g4.food-teeth",
+      "title": "Food Components & Energy 🍚",
+      "cisceNodes": [],
+      "lines": 891,
+      "bytes": 41050,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: c4_food(GOOD) (never supersedes) -- c4_food is Food-and-Festivals; food components & teeth uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class4/ForceFrictionGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "science",
+      "topicKey": "g4.force-friction",
+      "title": "Push and Pull! 🚪",
+      "cisceNodes": [],
+      "lines": 930,
+      "bytes": 39658,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "sci_force"
+      ],
+      "evidence": "v2 covers topic: sci_force(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class4/FractionsGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "maths",
+      "topicKey": "g4.fractions",
+      "title": "What is a Fraction? 🍕",
+      "cisceNodes": [],
+      "lines": 925,
+      "bytes": 40651,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c4_fractions"
+      ],
+      "evidence": "v2 covers topic: c4_fractions(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class4/IndiaClimateGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "social",
+      "topicKey": "g4.india-rivers-climate",
+      "title": "Rivers of India — Himalayan vs Peninsular 🌊",
+      "cisceNodes": [],
+      "lines": 943,
+      "bytes": 41685,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c4_waterbodies"
+      ],
+      "evidence": "v2 covers topic: c4_waterbodies(PERFECT) -- rivers covered; climate slice partial"
+    },
+    {
+      "file": "frontend/components/simulations/class4/InternetBrowserGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "cs",
+      "topicKey": "g4.internet-www",
+      "title": "What is the Internet & WWW? 🌐",
+      "cisceNodes": [],
+      "lines": 877,
+      "bytes": 39809,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: cs_internet(PERFECT) (never supersedes) -- v2 internet entry sits at classLevel 3"
+    },
+    {
+      "file": "frontend/components/simulations/class4/LightGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "science",
+      "topicKey": "g4.light",
+      "title": "LightGame",
+      "cisceNodes": [
+        "c4_phy_001",
+        "c4_phy_002",
+        "c4_phy_003",
+        "c4_phy_004"
+      ],
+      "lines": 951,
+      "bytes": 42091,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "sci_light"
+      ],
+      "evidence": "v2 covers topic: sci_light(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class4/LinesMeasurementGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "maths",
+      "topicKey": "g4.lines-measurement",
+      "title": "Points, Lines, & Rays! 📐",
+      "cisceNodes": [],
+      "lines": 936,
+      "bytes": 41047,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class4/LivingPlantsGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "evs",
+      "topicKey": "g4.living-plants-organs",
+      "title": "LivingPlantsGame",
+      "cisceNodes": [
+        "c4_evs_001",
+        "c4_evs_002",
+        "c4_evs_003"
+      ],
+      "lines": 980,
+      "bytes": 42382,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c4_trees covers trees/environment slice; living-vs-nonliving and internal organs uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class4/MapsIndiaGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "social",
+      "topicKey": "g4.maps-india",
+      "title": "What is a Map? 🗺️",
+      "cisceNodes": [],
+      "lines": 961,
+      "bytes": 43610,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class4/MatterAirGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "science",
+      "topicKey": "g4.matter-air",
+      "title": "MatterAirGame",
+      "cisceNodes": [
+        "c4_chem_001",
+        "c4_chem_002",
+        "c4_chem_003",
+        "c4_chem_004"
+      ],
+      "lines": 948,
+      "bytes": 40729,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class4/MeasurementGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "science",
+      "topicKey": "g4.measurement",
+      "title": "MeasurementGame",
+      "cisceNodes": [
+        "c4_phy_005",
+        "c4_phy_006",
+        "c4_phy_007"
+      ],
+      "lines": 998,
+      "bytes": 43599,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: c4_weight(GOOD) (never supersedes) -- c4_weight covers only the weight slice and with an off-topic sub generator"
+    },
+    {
+      "file": "frontend/components/simulations/class4/NumbersGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "maths",
+      "topicKey": "g4.numbers-6digit-roman",
+      "title": "NumbersGame",
+      "cisceNodes": [
+        "c4_math_001",
+        "c4_math_002",
+        "c4_math_003",
+        "c4_math_004",
+        "c4_math_005"
+      ],
+      "lines": 919,
+      "bytes": 39830,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-MASTER",
+      "v2CoveredBy": [
+        "c4_bignum"
+      ],
+      "evidence": "v2 coverage inadequate: c4_bignum(THIN) -- v2 c4_bignum is THIN and 4-digit scoped vs legacy 6-digit + Roman numerals"
+    },
+    {
+      "file": "frontend/components/simulations/class4/OperationsGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "maths",
+      "topicKey": "g4.operations",
+      "title": "OperationsGame",
+      "cisceNodes": [
+        "c4_math_010",
+        "c4_math_011",
+        "c4_math_012",
+        "c4_math_013",
+        "c4_math_014",
+        "c4_math_015",
+        "c4_math_016"
+      ],
+      "lines": 876,
+      "bytes": 38410,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c4_tables covers only mul/div; class-4 v2 has no add/sub entry"
+    },
+    {
+      "file": "frontend/components/simulations/class4/PlantsAirGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "science",
+      "topicKey": "g4.plants-air",
+      "title": "PlantsAirGame",
+      "cisceNodes": [
+        "c4_bio_014",
+        "c4_bio_015",
+        "c4_bio_016",
+        "c4_bio_017",
+        "c4_bio_018"
+      ],
+      "lines": 942,
+      "bytes": 42152,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c4_trees covers trees/environment slice; photosynthesis/air-composition/breathing uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class4/PowerPointGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "cs",
+      "topicKey": "g4.powerpoint",
+      "title": "PowerPointGame",
+      "cisceNodes": [
+        "c4_cs_011",
+        "c4_cs_012",
+        "c4_cs_013"
+      ],
+      "lines": 1004,
+      "bytes": 44738,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class4/ShapesSymmetryGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "maths",
+      "topicKey": "g4.shapes-symmetry-views",
+      "title": "ShapesSymmetryGame",
+      "cisceNodes": [
+        "c4_math_024",
+        "c4_math_025",
+        "c4_math_026",
+        "c4_math_027",
+        "c4_math_028",
+        "c4_math_029",
+        "c4_math_030"
+      ],
+      "lines": 911,
+      "bytes": 39788,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c4_bricks",
+        "c4_wheels",
+        "c4_perimeter"
+      ],
+      "evidence": "v2 covers topic: c4_bricks(GOOD),c4_wheels(GOOD),c4_perimeter(GOOD) -- jointly covered by patterns/symmetry/views + circles + perimeter/area"
+    },
+    {
+      "file": "frontend/components/simulations/class4/SkinNervousGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "science",
+      "topicKey": "g4.skin-nervous",
+      "title": "Skin: The Largest Sense Organ! 🛡️",
+      "cisceNodes": [],
+      "lines": 927,
+      "bytes": 40321,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class4/SolutionsFloatGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "science",
+      "topicKey": "g4.solutions-float",
+      "title": "Materials and Their Properties 🪵",
+      "cisceNodes": [],
+      "lines": 938,
+      "bytes": 40564,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class4/TimeDataPatternsGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "maths",
+      "topicKey": "g4.time-data-patterns",
+      "title": "Time Units & Conversions ⏰",
+      "cisceNodes": [],
+      "lines": 919,
+      "bytes": 41729,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c4_time",
+        "c4_data"
+      ],
+      "evidence": "v2 covers topic: c4_time(PERFECT),c4_data(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class4/WordFormattingGame.tsx",
+      "folder": "class4",
+      "classBand": "4",
+      "subjectGuess": "cs",
+      "topicKey": "g4.word-processing",
+      "title": "WordFormattingGame",
+      "cisceNodes": [
+        "c4_cs_004",
+        "c4_cs_005",
+        "c4_cs_006",
+        "c4_cs_007"
+      ],
+      "lines": 1001,
+      "bytes": 44619,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class5/AgricultureHygieneGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.agriculture-hygiene",
+      "title": "AgricultureHygieneGame",
+      "cisceNodes": [
+        "c5_bio_019",
+        "c5_bio_020",
+        "c5_bio_021",
+        "c5_bio_022",
+        "c5_bio_023"
+      ],
+      "lines": 881,
+      "bytes": 40416,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- v2 farming entry sits at classLevel 4; c5_forests only partially adjacent"
+    },
+    {
+      "file": "frontend/components/simulations/class5/AnglesSymmetryGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "maths",
+      "topicKey": "g5.angles-symmetry",
+      "title": "Angles & Their Measures 📐",
+      "cisceNodes": [],
+      "lines": 823,
+      "bytes": 36305,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c5_angles"
+      ],
+      "evidence": "v2 covers topic: c5_angles(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class5/AreaPerimeterGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "maths",
+      "topicKey": "g5.area-perimeter",
+      "title": "AreaPerimeterGame",
+      "cisceNodes": [
+        "c5_math_052",
+        "c5_math_053",
+        "c5_math_054"
+      ],
+      "lines": 837,
+      "bytes": 36941,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c5_area"
+      ],
+      "evidence": "v2 covers topic: c5_area(GOOD) -- v2 generator has ~13% duplicate-option draws (audit GOOD)"
+    },
+    {
+      "file": "frontend/components/simulations/class5/ChangesAirGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.changes-air",
+      "title": "Physical Changes 🧊",
+      "cisceNodes": [],
+      "lines": 865,
+      "bytes": 38186,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class5/CirculatoryGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.circulatory",
+      "title": "The Circulatory System & Heart ❤️",
+      "cisceNodes": [],
+      "lines": 891,
+      "bytes": 37325,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "sci_body"
+      ],
+      "evidence": "v2 covers topic: sci_body(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class5/ComputerHistoryGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "cs",
+      "topicKey": "g5.computer-history",
+      "title": "Early Calculating Devices! 🧮",
+      "cisceNodes": [],
+      "lines": 898,
+      "bytes": 39605,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class5/DecimalsGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "maths",
+      "topicKey": "g5.decimals",
+      "title": "DecimalsGame",
+      "cisceNodes": [
+        "c5_math_022",
+        "c5_math_023",
+        "c5_math_024",
+        "c5_math_025",
+        "c5_math_026",
+        "c5_math_027",
+        "c5_math_028",
+        "c5_math_029",
+        "c5_math_030",
+        "c5_math_031",
+        "c5_math_032"
+      ],
+      "lines": 879,
+      "bytes": 44135,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c5_decimals"
+      ],
+      "evidence": "v2 covers topic: c5_decimals(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class5/EconomyGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "social",
+      "topicKey": "g5.india-economy-agriculture",
+      "title": "Agriculture in India 🌾",
+      "cisceNodes": [],
+      "lines": 942,
+      "bytes": 40415,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class5/EcosystemWasteGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.ecosystem-waste",
+      "title": "EcosystemWasteGame",
+      "cisceNodes": [
+        "c5_bio_015",
+        "c5_bio_016",
+        "c5_bio_017",
+        "c5_bio_018"
+      ],
+      "lines": 916,
+      "bytes": 40925,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c5_forests covers only the ecosystem slice; waste management uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class5/EnvironmentBodyGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "evs",
+      "topicKey": "g5.environment-body",
+      "title": "Environment: Living & Non-Living 🌿",
+      "cisceNodes": [],
+      "lines": 912,
+      "bytes": 40253,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- sci_body covers only the body slice; environment slice uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class5/EnvironmentResourcesGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "evs",
+      "topicKey": "g5.environment-resources",
+      "title": "Our Environment 🌿",
+      "cisceNodes": [],
+      "lines": 956,
+      "bytes": 41263,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c5_forests covers only the forests/nature slice"
+    },
+    {
+      "file": "frontend/components/simulations/class5/FactorsMultiGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "maths",
+      "topicKey": "g5.factors-multiples",
+      "title": "FactorsMultiGame",
+      "cisceNodes": [
+        "c5_math_033",
+        "c5_math_034",
+        "c5_math_035",
+        "c5_math_036",
+        "c5_math_037",
+        "c5_math_038",
+        "c5_math_039",
+        "c5_math_040"
+      ],
+      "lines": 880,
+      "bytes": 45795,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c5_factors"
+      ],
+      "evidence": "v2 covers topic: c5_factors(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class5/FractionsAdvancedGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "maths",
+      "topicKey": "g5.fractions-advanced",
+      "title": "FractionsAdvancedGame",
+      "cisceNodes": [
+        "c5_math_016",
+        "c5_math_017",
+        "c5_math_018",
+        "c5_math_019",
+        "c5_math_020",
+        "c5_math_021"
+      ],
+      "lines": 882,
+      "bytes": 43500,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: c4_fractions(PERFECT) (never supersedes) -- v2 fractions entries are class-4 intro (c4_fractions) and class-6; advanced class-5 work uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class5/HealthDiseasesGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.health-diseases",
+      "title": "Junk Food and Its Effects 🍔",
+      "cisceNodes": [],
+      "lines": 863,
+      "bytes": 39350,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c5_digestion covers only the digestion-and-health slice; diseases/junk-food effects uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class5/IndiaLocationGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "social",
+      "topicKey": "g5.india-location",
+      "title": "India - Location & Extent 🇮🇳",
+      "cisceNodes": [],
+      "lines": 900,
+      "bytes": 39596,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class5/IntegersGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "maths",
+      "topicKey": "g5.integers",
+      "title": "IntegersGame",
+      "cisceNodes": [
+        "c5_math_041",
+        "c5_math_042",
+        "c5_math_043",
+        "c5_math_044",
+        "c5_math_045"
+      ],
+      "lines": 912,
+      "bytes": 39655,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: c6_math_integers(GOOD) (never supersedes) -- v2 integers entry sits at classLevel 6"
+    },
+    {
+      "file": "frontend/components/simulations/class5/InternetLogoGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "cs",
+      "topicKey": "g5.internet-logo",
+      "title": "Internet Services — Email & Search 📧",
+      "cisceNodes": [],
+      "lines": 958,
+      "bytes": 42383,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- cs_scratch is block coding, not Logo turtle graphics; email/search services uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class5/LargeNumbersGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "maths",
+      "topicKey": "g5.large-numbers",
+      "title": "LargeNumbersGame",
+      "cisceNodes": [
+        "c5_math_001",
+        "c5_math_002",
+        "c5_math_003",
+        "c5_math_004",
+        "c5_math_005",
+        "c5_math_006",
+        "c5_math_007"
+      ],
+      "lines": 926,
+      "bytes": 44387,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c5_fish"
+      ],
+      "evidence": "v2 covers topic: c5_fish(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class5/LargeOperationsGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "maths",
+      "topicKey": "g5.large-operations",
+      "title": "LargeOperationsGame",
+      "cisceNodes": [
+        "c5_math_008",
+        "c5_math_009",
+        "c5_math_010",
+        "c5_math_011",
+        "c5_math_012",
+        "c5_math_013",
+        "c5_math_014",
+        "c5_math_015"
+      ],
+      "lines": 698,
+      "bytes": 39715,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c5_multiply"
+      ],
+      "evidence": "v2 covers topic: c5_multiply(PERFECT)"
+    },
+    {
+      "file": "frontend/components/simulations/class5/LatLongGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "social",
+      "topicKey": "g5.lat-long",
+      "title": "Latitudes: Parallels of Earth 🌍",
+      "cisceNodes": [],
+      "lines": 936,
+      "bytes": 42093,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c5_map covers maps-and-scale; the latitude/longitude grid itself is uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class5/LightEclipseGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.light-eclipse",
+      "title": "LightEclipseGame",
+      "cisceNodes": [
+        "c5_phy_009",
+        "c5_phy_010",
+        "c5_phy_011",
+        "c5_phy_012",
+        "c5_phy_013"
+      ],
+      "lines": 890,
+      "bytes": 38947,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: sci_light(PERFECT) (never supersedes) -- v2 light entry sits at classLevel 4"
+    },
+    {
+      "file": "frontend/components/simulations/class5/MixturesSeparationGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.mixtures-separation",
+      "title": "Solutions, Suspensions and Colloids 💧",
+      "cisceNodes": [],
+      "lines": 889,
+      "bytes": 39806,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class5/PercentageDataGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "maths",
+      "topicKey": "g5.percentage-data",
+      "title": "PercentageDataGame",
+      "cisceNodes": [
+        "c5_math_055",
+        "c5_math_056",
+        "c5_math_057",
+        "c5_math_058",
+        "c5_math_059",
+        "c5_math_060",
+        "c5_math_061",
+        "c5_math_062",
+        "c5_math_063",
+        "c5_math_064",
+        "c5_math_065",
+        "c5_math_066",
+        "c5_math_067"
+      ],
+      "lines": 904,
+      "bytes": 40064,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- c5_charts covers only the data slice; percentages uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class5/PlantReproductionGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.plant-reproduction",
+      "title": "PlantReproductionGame",
+      "cisceNodes": [
+        "c5_bio_010",
+        "c5_bio_011",
+        "c5_bio_012",
+        "c5_bio_013",
+        "c5_bio_014"
+      ],
+      "lines": 930,
+      "bytes": 40463,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "c5_seeds"
+      ],
+      "evidence": "v2 covers topic: c5_seeds(GOOD) -- reproduction/seeds subdomain of v2 c5_seeds"
+    },
+    {
+      "file": "frontend/components/simulations/class5/PowerPointScratchGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "cs",
+      "topicKey": "g5.powerpoint-scratch",
+      "title": "PowerPointScratchGame",
+      "cisceNodes": [
+        "c5_cs_011",
+        "c5_cs_012",
+        "c5_cs_013",
+        "c5_cs_014",
+        "c5_cs_015",
+        "c5_cs_016"
+      ],
+      "lines": 913,
+      "bytes": 40341,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- cs_scratch covers the Scratch slice; PowerPoint design uncovered"
+    },
+    {
+      "file": "frontend/components/simulations/class5/SimpleMachinesGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.simple-machines",
+      "title": "Why Do We Need Machines? 🛠️",
+      "cisceNodes": [],
+      "lines": 936,
+      "bytes": 39685,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- no v2 simple-machines entry in any class band 1-6"
+    },
+    {
+      "file": "frontend/components/simulations/class5/SkeletalGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.skeletal",
+      "title": "The Human Skeleton 💀",
+      "cisceNodes": [],
+      "lines": 838,
+      "bytes": 38253,
+      "kind": "topic-sim",
+      "dedupeVerdict": "SUPERSEDED",
+      "v2CoveredBy": [
+        "sci_body"
+      ],
+      "evidence": "v2 covers topic: sci_body(PERFECT) -- skeleton subdomain of v2 sci_body (Body Systems)"
+    },
+    {
+      "file": "frontend/components/simulations/class5/SoftwareGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "cs",
+      "topicKey": "g5.software-types",
+      "title": "Welcome to Software World!",
+      "cisceNodes": [],
+      "lines": 857,
+      "bytes": 37693,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class5/SoundNoiseGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.sound-noise",
+      "title": "SoundNoiseGame",
+      "cisceNodes": [
+        "c5_phy_001",
+        "c5_phy_002",
+        "c5_phy_003",
+        "c5_phy_004"
+      ],
+      "lines": 876,
+      "bytes": 39111,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class5/StatesMatterGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.states-matter",
+      "title": "Three States of Matter 🧊",
+      "cisceNodes": [],
+      "lines": 876,
+      "bytes": 40478,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic; cross-class-adjacent: sci_matter(PERFECT) (never supersedes) -- v2 matter entry sits at classLevel 3"
+    },
+    {
+      "file": "frontend/components/simulations/class5/WeatherBuildingsGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "evs",
+      "topicKey": "g5.weather-buildings",
+      "title": "WeatherBuildingsGame",
+      "cisceNodes": [
+        "c5_evs_005",
+        "c5_evs_006",
+        "c5_evs_007",
+        "c5_evs_008"
+      ],
+      "lines": 893,
+      "bytes": 41208,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class5/WordAdvancedGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "cs",
+      "topicKey": "g5.word-advanced",
+      "title": "WordAdvancedGame",
+      "cisceNodes": [
+        "c5_cs_008",
+        "c5_cs_009",
+        "c5_cs_010"
+      ],
+      "lines": 913,
+      "bytes": 40220,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/class5/WorkEnergyGame.tsx",
+      "folder": "class5",
+      "classBand": "5",
+      "subjectGuess": "science",
+      "topicKey": "g5.work-energy",
+      "title": "What is Work in Science? 🏋️",
+      "cisceNodes": [],
+      "lines": 901,
+      "bytes": 38671,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic"
+    },
+    {
+      "file": "frontend/components/simulations/maths/LeverSimulation.tsx",
+      "folder": "maths",
+      "classBand": "other",
+      "subjectGuess": "science",
+      "topicKey": "m0.lever",
+      "title": "Challenge 1: Balance It",
+      "cisceNodes": [],
+      "lines": 456,
+      "bytes": 19947,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- guided-discovery lever/principle-of-moments sim; no v2 simple-machines entry in any class band"
+    },
+    {
+      "file": "frontend/components/simulations/maths/PulleySimulation.tsx",
+      "folder": "maths",
+      "classBand": "other",
+      "subjectGuess": "science",
+      "topicKey": "m0.pulley",
+      "title": "PulleySimulation",
+      "cisceNodes": [],
+      "lines": 337,
+      "bytes": 13377,
+      "kind": "topic-sim",
+      "dedupeVerdict": "KEEP-UNIQUE",
+      "v2CoveredBy": null,
+      "evidence": "no same-class-band v2 entry covers this topic -- fixed/movable pulley MA sim; no v2 simple-machines entry in any class band"
+    }
+  ]
+}

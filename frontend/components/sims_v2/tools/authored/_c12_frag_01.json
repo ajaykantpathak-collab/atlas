@@ -1,0 +1,287 @@
+{
+"c12_bio_ch07": {
+ "discovery": {
+  "question": "Early Earth had no oxygen and only CH₄, NH₃, H₂O, H₂ and CO₂ — yet amino acids appeared. What did Miller and Urey actually demonstrate with sparks in a flask?",
+  "options": [
+   "That simple organic molecules can form abiotically from inorganic gases under early-Earth conditions",
+   "That the first living cell can be synthesised in a laboratory",
+   "That lightning created fully formed bacteria on early Earth",
+   "That life arrived on Earth from outer space in meteorites"
+  ],
+  "answer": "That simple organic molecules can form abiotically from inorganic gases under early-Earth conditions",
+  "hook": "Miller-Urey made chemicals, not creatures — it proved the first step of chemical evolution was plausible, which is exactly what Oparin-Haldane predicted and what students routinely overclaim."
+ },
+ "mission": "Reconstruct the origin-of-life argument stepwise — reducing atmosphere, energy sources, organic monomers, protocells — then connect it to Darwin's natural selection using the antibiotic-resistance plate as your model.",
+ "finale": "You can now defend how life began and how it changes, as two separate claims with separate evidence. Boards split these into different questions — knowing which experiment proves what is the whole game.",
+ "subtitle": "A spark in a flask, a farm of finches — two experiments that explain all of life.",
+ "role": "Evolutionary biologist reconstructing origins",
+ "intro": "Where life came from and how it changes are different questions — great scientists keep them separate.",
+ "goal": "Explain the Oparin-Haldane/Miller-Urey chemical evolution model and Darwinian natural selection."
+},
+"c12_bio_ch08": {
+ "discovery": {
+  "question": "Three classmates fall ill: one with high fever and abdominal pain, one struggling to breathe, one with a runny nose. All are 'infections' — what actually separates them?",
+  "options": [
+   "Different pathogens targeting different systems — Salmonella in the intestine, Streptococcus in the lungs, rhinovirus in the nose",
+   "The severity — all infections are the same disease at different intensities",
+   "The season — cold diseases are viral, hot-weather diseases are bacterial",
+   "The treatment — bacterial diseases need rest, viral diseases need antibiotics"
+  ],
+  "answer": "Different pathogens targeting different systems — Salmonella in the intestine, Streptococcus in the lungs, rhinovirus in the nose",
+  "hook": "'Infection' is not one thing — typhoid, pneumonia and the common cold differ in pathogen type, target organ and transmission route, and confusing them is why people wrongly demand antibiotics for a cold."
+ },
+ "mission": "Run a diagnostic clinic: match typhoid, pneumonia and common cold to their pathogens and symptoms, then trace each one's transmission pathway from a sneeze, a contaminated plate, or a carrier.",
+ "finale": "You now think like a clinician — pathogen, organ, route. Disease-vs-pathogen matching is evergreen board content and the bare minimum literacy of public health.",
+ "subtitle": "Same word 'infection', three different enemies — learn to tell them apart.",
+ "role": "Physician differentiating infections",
+ "intro": "Medicine begins the moment you stop saying 'infection' and start asking 'which pathogen, which organ, which route?'",
+ "goal": "Identify the pathogens, symptoms and transmission modes of typhoid, pneumonia and common cold."
+},
+"c12_bio_ch09": {
+ "discovery": {
+  "question": "Two dairy farms own identical cows — yet one yields twice the milk. What is the most likely difference?",
+  "options": [
+   "Management — balanced feeding, hygienic housing, veterinary care and breeding records drive yield",
+   "Luck — milk yield is fixed by the cow's genetics and cannot be managed",
+   "Climate — only farms in cold regions produce high yields",
+   "Breed alone — identical cows means identical yield regardless of care"
+  ],
+  "answer": "Management — balanced feeding, hygienic housing, veterinary care and breeding records drive yield",
+  "hook": "We credit the animal and blame the breed — but animal husbandry is a science precisely because yield is engineered through feeding, housing, health and records, not inherited wholesale."
+ },
+ "mission": "Audit a struggling dairy farm: redesign its feeding ration, housing hygiene and health protocol, and justify each change by the yield and welfare gains it produces.",
+ "finale": "You now see farms as systems, not just animals. Animal husbandry principles score easy board marks — and India's dairy economy runs on exactly this knowledge.",
+ "subtitle": "Same cows, double the milk — the difference is science, not luck.",
+ "role": "Dairy farm consultant",
+ "intro": "India became the world's largest milk producer on management science, not better cows — learn how.",
+ "goal": "Apply principles of animal husbandry and scientific dairy farm management."
+},
+"c12_bio_ch10": {
+ "discovery": {
+  "question": "A spoonful of yesterday's curd turns a pot of warm milk into dahi by morning. What did that spoonful actually carry?",
+  "options": [
+   "A starter culture of Lactobacillus that ferments milk sugar into lactic acid",
+   "Enzymes left over from yesterday that digest the new milk directly",
+   "Vitamins that thicken the milk proteins overnight",
+   "Nothing — curd forms spontaneously in any warm milk"
+  ],
+  "answer": "A starter culture of Lactobacillus that ferments milk sugar into lactic acid",
+  "hook": "It looks like magic or chemistry — it's inoculation. That spoonful is a living workforce, and the same principle scales from your kitchen to industrial fermenters producing antibiotics and enzymes."
+ },
+ "mission": "Trace microbes through your home and industry: explain curd-setting and cheese-making at household scale, then connect the same fermentation logic to antibiotic and enzyme production in fermenters.",
+ "finale": "You now recognise the invisible workforce in your kitchen. Microbial products are quick board marks — and the entry point to food science and industrial microbiology careers.",
+ "subtitle": "Your kitchen runs on microbes — that spoonful of dahi is a starter culture.",
+ "role": "Food microbiologist",
+ "intro": "Long before labs existed, humans were running biotech in their kitchens — here's the science behind it.",
+ "goal": "Explain microbial roles in household products, antibiotics and industrial enzymes."
+},
+"c12_bio_ch11": {
+ "discovery": {
+  "question": "You need to cut one specific gene out of a long DNA strand — like one word from a sentence with no spaces. What makes a cut at exactly the right spot?",
+  "options": [
+   "Restriction enzymes — bacterial 'scissors' that recognise specific palindromic sequences and cut there",
+   "DNA ligase — it cuts first, then pastes the gene into the vector",
+   "RNA polymerase — it transcribes the gene free of the surrounding DNA",
+   "Heat — boiling DNA breaks it precisely at gene boundaries"
+  ],
+  "answer": "Restriction enzymes — bacterial 'scissors' that recognise specific palindromic sequences and cut there",
+  "hook": "Genetic engineering was impossible until biology lent us its own tools — bacteria evolved these enzymes to shred viral DNA, and we borrowed them as precision instruments."
+ },
+ "mission": "Walk the journey from bread yeast to insulin-producing bacteria: define biotechnology's two core principles, then wield restriction enzymes to cut DNA at palindromic sites for engineering.",
+ "finale": "You now hold the molecular scissors that built the biotech industry. Genetic engineering principles and restriction enzymes are core board content — and the actual toolkit of every lab career.",
+ "subtitle": "Bacteria invented the scissors; we borrowed them to rewrite genomes.",
+ "role": "Genetic engineer's apprentice",
+ "intro": "From curd to CRISPR-era insulin — biotechnology is one principle: use living systems to make useful things.",
+ "goal": "Define biotechnology's core principles and explain restriction enzyme action on palindromic sites."
+},
+"c12_bio_ch12": {
+ "discovery": {
+  "question": "A Maharashtra farmer stops spraying 15-20 times a season, yet his bolls survive the bollworm. What did Bt cotton change inside the plant?",
+  "options": [
+   "The plant now produces a Cry toxin from Bacillus thuringiensis that kills larvae that eat it",
+   "The plant was coated permanently with a pesticide that never washes off",
+   "The cotton's taste changed so insects simply avoid it",
+   "The plant attracts predator insects that eat all the bollworms"
+  ],
+  "answer": "The plant now produces a Cry toxin from Bacillus thuringiensis that kills larvae that eat it",
+  "hook": "Bt cotton isn't sprayed — it's armed. The insecticide moved inside the plant's own cells, which is why the protection can't wash off and why only pests that bite the plant are harmed."
+ },
+ "mission": "Engineer pest resistance two ways: trace how the Cry toxin protects Bt cotton, then design an RNAi crop that silences an essential gene inside any nematode that feeds on it.",
+ "finale": "You've now engineered immunity into a plant — conceptually at least. Bt cotton and RNAi are board favourites and the flagship proof that biotechnology can feed and protect crops.",
+ "subtitle": "The pesticide is inside the plant — how Bt cotton outsmarted the bollworm.",
+ "role": "Agricultural biotechnologist",
+ "intro": "The best pesticide is one the plant makes itself — biotechnology turned that idea into India's cotton fields.",
+ "goal": "Explain Bt cotton's Cry toxin mechanism and RNA interference for pest resistance."
+},
+"c12_bio_ch13": {
+ "discovery": {
+  "question": "An Indian roller bird perches on a banyan tree. Its habitat is the tree — but what is its niche?",
+  "options": [
+   "Its functional role — hunting insects from that perch, nesting in cavities, interacting with other species",
+   "The same as its habitat — the two terms are interchangeable",
+   "The geographic range of all banyan trees across India",
+   "Its physical address — the exact branch it sits on"
+  ],
+  "answer": "Its functional role — hunting insects from that perch, nesting in cavities, interacting with other species",
+  "hook": "Habitat is the address; niche is the profession. Students merge the two — but an organism's niche is everything it *does*: what it eats, when it breeds, whom it competes with."
+ },
+ "mission": "Take a field trip in your mind: define habitat and niche for organisms you observe, then test how temperature, water and light set the limits on where each species can survive at all.",
+ "finale": "You now separate where an organism lives from what it does there — the first real skill of ecology. Niche vs habitat is a classic board trap and the foundation of environmental science careers.",
+ "subtitle": "Habitat is the address. Niche is the job description. Never confuse them.",
+ "role": "Field ecologist",
+ "intro": "Ecology starts with two questions: where does it live, and what does it do there? They're not the same.",
+ "goal": "Distinguish habitat from niche and explain how abiotic factors limit organism distribution."
+},
+"c12_biotech_ch01": {
+ "discovery": {
+  "question": "You drop a human insulin gene straight into E. coli — and it's gone by the next cell division. What was missing?",
+  "options": [
+   "A vector — a DNA vehicle that carries the gene, replicates with the host, and is stably maintained",
+   "More copies of the gene — enough DNA guarantees some survives",
+   "A bigger host — only mammalian cells can hold human genes",
+   "Antibiotics — they force the bacterium to keep foreign DNA"
+  ],
+  "answer": "A vector — a DNA vehicle that carries the gene, replicates with the host, and is stably maintained",
+  "hook": "Foreign DNA alone is debris; foreign DNA on a replicating vector is a clone. The host supplies the machinery, the vector supplies the passport — gene cloning needs both, matched."
+ },
+ "mission": "Assemble a working host-vector system: choose the right E. coli lab strain (why DH5α over wild-type?), pair it with a plasmid vector, and justify how the pair maintains your foreign gene across generations.",
+ "finale": "You've learned the chassis-and-cargo logic every gene clone rides on. Host-vector systems frame every downstream biotech question — in boards and in actual cloning labs.",
+ "subtitle": "A gene without a vehicle is just debris — meet the host-vector system.",
+ "role": "Cloning lab engineer",
+ "intro": "Turning a bacterium into a protein factory starts with matching the right host to the right vehicle.",
+ "goal": "Explain host-vector compatibility and select appropriate E. coli strains for cloning."
+},
+"c12_biotech_ch02": {
+ "discovery": {
+  "question": "You cut a plasmid with EcoRI (overhang AATT) and your gene with BamHI (overhang GATC), then ligate — zero colonies. Why?",
+  "options": [
+   "The sticky ends aren't complementary — EcoRI and BamHI overhangs cannot base-pair",
+   "Ligase only joins blunt ends, never sticky ends",
+   "EcoRI and BamHI are incompatible because both are Type II enzymes",
+   "The plasmid was too large for ligation to succeed"
+  ],
+  "answer": "The sticky ends aren't complementary — EcoRI and BamHI overhangs cannot base-pair",
+  "hook": "'Sticky' doesn't mean universally sticky — cohesion demands complementarity. Students assume any overhang joins any overhang; only matching sequences anneal, which makes enzyme choice a design decision."
+ },
+ "mission": "Design a cloning strategy: pick Type II restriction enzymes by their recognition sites, predict sticky vs blunt ends from the cut pattern, and plan compatible enzyme pairs for a directional clone.",
+ "finale": "You now read overhangs like a molecular engineer. Restriction enzyme types and end compatibility are precision board questions — and daily decisions in any molecular biology lab.",
+ "subtitle": "Sticky ends aren't universal glue — only matching overhangs can pair.",
+ "role": "Molecular cloning designer",
+ "intro": "Every successful clone is won or lost at the enzyme-selection step — before a single tube is opened.",
+ "goal": "Classify restriction endonucleases and predict compatibility of sticky and blunt ends."
+},
+"c12_biotech_ch03": {
+ "discovery": {
+  "question": "Bharat Biotech must mass-produce human insulin — but pancreas extraction can't scale. What does 'cloning the insulin gene' actually accomplish?",
+  "options": [
+   "Inserting the gene into a vector inside E. coli, which replicates it every division — turning bacteria into insulin factories",
+   "Growing human pancreas cells in a flask to secrete insulin",
+   "Copying insulin molecules directly, like a photocopier",
+   "Fusing two bacteria so they share the insulin gene between them"
+  ],
+  "answer": "Inserting the gene into a vector inside E. coli, which replicates it every division — turning bacteria into insulin factories",
+  "hook": "Cloning a gene isn't copying a protein — it's hijacking cell division. Each bacterial doubling doubles your DNA cargo, which is why a single recombinant cell becomes an industrial supply."
+ },
+ "mission": "Execute the 7-step gene cloning workflow for insulin — isolate, cut, ligate, transform, select, amplify, harvest — then build a genomic library and explain how you'd fish one gene out of billions of fragments.",
+ "finale": "You can now narrate the workflow that produces every recombinant drug on the market. Gene cloning steps are a guaranteed long-answer — and literally the job description of a biotech process scientist.",
+ "subtitle": "One cell becomes a factory — the 7-step workflow behind every insulin vial.",
+ "role": "Bioprocess scientist",
+ "intro": "Every recombinant medicine begins as one bacterium carrying one borrowed gene — here's the pipeline.",
+ "goal": "Outline the gene cloning workflow and describe the construction and use of a genomic library."
+},
+"c12_biotech_ch04": {
+ "discovery": {
+  "question": "Your therapeutic protein needs sugar chains (glycosylation) to work — but E. coli can't add them and clumps your protein into inclusion bodies. Where do you move production?",
+  "options": [
+   "Yeast — a eukaryotic microbe with Golgi machinery for glycosylation that still grows fast like bacteria",
+   "Back to E. coli — just increase the induction temperature",
+   "Plant cells — the only organisms capable of glycosylation",
+   "Nowhere — inclusion bodies are the functional form of the protein"
+  ],
+  "answer": "Yeast — a eukaryotic microbe with Golgi machinery for glycosylation that still grows fast like bacteria",
+  "hook": "Host choice is a feature-matching problem: E. coli is fast but can't fold or decorate complex proteins; yeast adds eukaryotic processing while keeping microbial speed — picking the host is half the engineering."
+ },
+ "mission": "Match protein to production host: produce insulin in E. coli despite its missing ER/Golgi, then switch a glycosylation-dependent therapeutic to yeast — justifying each system's trade-offs.",
+ "finale": "You now choose expression hosts the way industry does — by capability, not habit. E. coli vs yeast trade-offs are sharp board material and the daily calculus of biopharma manufacturing.",
+ "subtitle": "E. coli is fast but can't add sugar chains — so where do you make the drug?",
+ "role": "Biopharma production scientist",
+ "intro": "A recombinant protein is only as good as the host that folds it — choose wrong and you harvest clumps.",
+ "goal": "Compare E. coli and yeast expression systems for recombinant protein production."
+},
+"c12_biotech_ch05": {
+ "discovery": {
+  "question": "You're handed a 3-billion-letter instruction manual — no page numbers, no headings, sentences run together. What does structural genomics build first?",
+  "options": [
+   "The table of contents — physical maps of where genes sit and how chromosomes are organised",
+   "The index of protein functions — what every gene does in the cell",
+   "The list of mutations — every difference between individuals",
+   "The glossary — definitions of every DNA word"
+  ],
+  "answer": "The table of contents — physical maps of where genes sit and how chromosomes are organised",
+  "hook": "Before you can ask what a gene does, you must know where it is — structural genomics maps the genome's architecture (gene positions, chromatin, rearrangements) so functional questions become askable."
+ },
+ "mission": "Sort genome from gene, then map the genome: define the complete DNA set versus individual coding units, and use structural genomics to locate genes and explain why chromosome 21 maps to Down syndrome.",
+ "finale": "You can now navigate a genome instead of drowning in it. Genome-vs-gene and mapping concepts feed board answers — and underpin bioinformatics, one of the fastest-growing career fields.",
+ "subtitle": "Three billion letters, no index — genomics is the art of making it readable.",
+ "role": "Genome mapper",
+ "intro": "Sequencing gave us the letters; genomics gives us the map — and a map is what makes letters useful.",
+ "goal": "Differentiate genome from gene and explain what structural genomics reveals."
+},
+"c12_biotech_ch06": {
+ "discovery": {
+  "question": "A single differentiated carrot root cell — orange, non-dividing — is placed on nutrient gel and regenerates an entire carrot plant. What property made this possible?",
+  "options": [
+   "Totipotency — the cell retains the complete genetic programme and can dedifferentiate, divide and rebuild the whole plant",
+   "Mutation — the gel induced new genes that built the missing organs",
+   "Photosynthesis — light energy reorganised the cell's DNA",
+   "Fertilisation — a hidden gamete in the root completed the development"
+  ],
+  "answer": "Totipotency — the cell retains the complete genetic programme and can dedifferentiate, divide and rebuild the whole plant",
+  "hook": "Differentiation silences genes — it doesn't delete them. Haberlandt's 1902 insight still startles students: every somatic cell carries the full blueprint; tissue culture just gives it permission to restart."
+ },
+ "mission": "Prove totipotency yourself: take an explant from a differentiated tissue, drive it through callus to shoot and root regeneration, and trace the milestones from Haberlandt's concept to modern media.",
+ "finale": "You now understand why one cell can become a whole plant — the founding idea of plant biotech. Totipotency is a short-answer certainty on boards and the working principle of the entire propagation industry.",
+ "subtitle": "One carrot cell holds the blueprint for a whole carrot — Haberlandt called it in 1902.",
+ "role": "Plant biotechnologist",
+ "intro": "A root cell 'remembering' how to build leaves is not magic — it's the entire basis of plant tissue culture.",
+ "goal": "Define totipotency and outline the history and biological basis of plant tissue culture."
+},
+"c12_biotech_ch07": {
+ "discovery": {
+  "question": "A farmer needs 50,000 disease-free 'Grand Naine' banana plants by next season — suckers are scarce and carry viruses. Which technology delivers?",
+  "options": [
+   "Micropropagation — shoot tips multiplied through staged in vitro culture into thousands of identical plantlets",
+   "Grafting — joining banana stems to disease-free rootstocks",
+   "Seed propagation — planting 50,000 banana seeds from the fruit",
+   "Selective breeding — crossing varieties over several generations for uniformity"
+  ],
+  "answer": "Micropropagation — shoot tips multiplied through staged in vitro culture into thousands of identical plantlets",
+  "hook": "Bananas barely make viable seeds and suckers inherit every virus — so the answer isn't breeding at all. Staged culture (Stage 0 to IV) clones clean plants faster than any field method."
+ },
+ "mission": "Run a micropropagation pipeline: take a banana shoot tip through establishment, multiplication, rooting and hardening — then package elite sandalwood as synthetic seeds that survive a courier box.",
+ "finale": "You've industrialised a plant — clones at scale, shipped as alginate-bead 'seeds'. Micropropagation stages and synthetic seeds are board favourites and a real agri-business model.",
+ "subtitle": "50,000 identical banana plants from one shoot tip — cloning at industrial scale.",
+ "role": "Tissue-culture entrepreneur",
+ "intro": "When a crop can't seed and cuttings carry disease, the lab becomes the nursery — here's the assembly line.",
+ "goal": "Describe the stages of micropropagation and the construction of synthetic seeds."
+},
+"c12_biotech_ch08": {
+ "discovery": {
+  "question": "You must test a liver drug: choose between fresh primary hepatocytes from a donor and the immortal HepG2 cell line. What does each option really buy you?",
+  "options": [
+   "Primary cells give realistic drug metabolism; HepG2 gives unlimited identical replicates — realism vs reproducibility",
+   "Primary cells are cheaper; cell lines are only used when tissue is unavailable",
+   "HepG2 is always superior because immortal cells are genetically normal",
+   "There is no difference — any liver cell behaves identically in a flask"
+  ],
+  "answer": "Primary cells give realistic drug metabolism; HepG2 gives unlimited identical replicates — realism vs reproducibility",
+  "hook": "The 'better' cell doesn't exist — primary culture keeps the tissue's true character but dies; established lines are immortal and uniform but drift from normal. Every experiment pays for one with the other."
+ },
+ "mission": "Set up an animal cell culture lab: recreate the physico-chemical conditions cells demand outside the body, and choose between primary culture and established cell lines for a drug-toxicity study.",
+ "finale": "You now weigh realism against reproducibility — the core trade-off of all biomedical research. Culture types are crisp board content and the daily decision of every pharma research lab.",
+ "subtitle": "Fresh donor cells or an immortal line? Every drug test pays for one with the other.",
+ "role": "Cell-culture researcher",
+ "intro": "The polio vaccine was scaled in flasks, not animals — animal cell culture is how modern medicine tests everything.",
+ "goal": "Describe the conditions for animal cell culture and compare primary cultures with established cell lines."
+}
+}

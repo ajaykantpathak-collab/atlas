@@ -1,0 +1,262 @@
+import type { SimDef } from '../../engine/types';
+import C12_BiotechnologySomaticHybridisationpomatoSim from '../../../simulations/c6_12/C12_BiotechnologySomaticHybridisationpomatoSim';
+
+/** v3 wrapped master — C12_BiotechnologySomaticHybridisationpomatoSim. Rich bespoke scene mounted inside the
+ * adaptive loop; diagnostics generated from its declared node ids.
+ * Regenerate via tools/wrap_masters.mjs. */
+export const w_c12_biotechnologysomatichybridisationpomatosim: SimDef = {
+    id: 'v3w_c12_biotechnologysomatichybridisationpomatosim',
+    title: 'nology Somatic Hybridisationpomato',
+    subtitle: 'This node covers the concept, definition, historical origin (Haberlandt), and biological.',
+    classLevel: 12, subject: 'biotechnology', topic: 'Cell Totipotency: Concept and Biological Basis',
+    chapters: [],
+    nodeIds: ['c12_biotech_cbse_06_001', 'c12_biotech_cbse_06_002', 'c12_biotech_cbse_06_005', 'c12_biotech_cbse_06_006', 'c12_biotech_cbse_06_008', 'c12_biotech_cbse_06_009', 'c12_biotech_cbse_06_011'],
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you take a tiny piece of carrot root (a fully differentiated, orange, non-dividing cell) and place it.', goal: 'Master nology Somatic Hybridisationpomato.' },
+    discovery: {
+        question: 'A researcher isolates single cells from the pith of a mature tobacco plant and cultures them on MS medium with 2,4-D (auxin) and kinetin (cytokinin).',
+        options: ['Correct answer: (1) Dedifferentiation', 'mitosis causes callus', 'auxin alone causes shoots'],
+        answer: 'Correct answer: (1) Dedifferentiation',
+        hook: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical.',
+    },
+    teaching: [
+        { title: 'Cell totipotency is the inherent genetic.', text: 'Cell totipotency is the inherent genetic potential of a single plant cell to dedifferentiate, divide, and regenerate into a complete, fertile plant under appropriate in vitro culture conditions,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+    ],
+    beats: [
+        { type: 'scaffold', nodeId: 'c12_biotech_cbse_06_001', title: 'Cell totipotency is the inherent.',
+          scaffold: { problem: 'A Class 12 student reads that "Haberlandt proposed totipotency in 1902, but Steward proved it in 1958 using carrot phloem cells." The.',
+            steps: [
+            { text: 'Identify the error — the student states "all plant cells are totipotent" as an absolute fact, ignoring the word.' },
+            { text: 'Recall NCERT phrasing — "Theoretically all plant cells are able to give rise to a complete plant" (emphasis on.' },
+            { text: 'Incorporate Steward\'s specific contribution — he demonstrated *somatic embryogenesis* from *carrot phloem cells*, not.' },
+            { text: 'Add two limitations — (a) dead/empty cells (xylem vessels, sclereids) lack protoplasts; (b) recalcitrant genotypes.' },
+            { text: 'Construct the full-mark answer: "Haberlandt (1902) *theorized* that all plant cells are potentially totipotent.', faded: true, blankAnswer: 'Full-mark answer as constructed in Step 5.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c12_biotech_cbse_06_002', title: 'The history and milestones of plant.',
+          scaffold: { problem: 'A Class 12 student is asked to arrange these milestones in chronological order and identify which milestone directly enabled the next: (A).',
+            steps: [
+            { text: 'Identify the earliest milestone — Haberlandt\'s 1902 theoretical proposal of totipotency (E) is the conceptual origin.' },
+            { text: 'Find the first experimental validation — Gautheret & Nobecourt (1939) achieved sustained callus growth (D), proving.' },
+            { text: 'Identify the breakthrough in developmental control — Skoog & Miller (1957) discovered auxin/cytokinin ratios direct.' },
+            { text: 'Locate the somatic embryogenesis proof — Steward (1958) demonstrated bipolar embryo formation from single cells (C),.' },
+            { text: 'Identify the standardization milestone — Murashige & Skoog (1962) created a reproducible medium (A) that made all prior.' },
+            { text: 'Verify causal chain: E (concept) → D (callus proliferation) → B (organized regeneration control) → C (embryogenic.', faded: true, blankAnswer: 'Chronological order: E (1902) → D (1939) → B (1957) → C.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c12_biotech_cbse_06_005', title: 'Explant selection is the process of.',
+          scaffold: { problem: 'A tissue culture lab needs to prepare 2 L of 3% (v/v) sodium hypochlorite solution from commercial bleach labeled "10% w/v available.',
+            steps: [
+            { text: 'Identify given — Stock: 10% w/v NaOCl (10 g/100 mL = 100 g/L); Target: 3% v/v NaOCl. But careful: 3% v/v of what?' },
+            { text: 'Calculate for 2 L — Volume of commercial bleach = 3% × 2000 mL = 60 mL.' },
+            { text: 'Calculate final NaOCl concentration in w/v — 60 mL of 10% w/v bleach contains 60 mL × (10 g/100 mL) = 6 g NaOCl.' },
+            { text: 'Calculate molarity — Moles NaOCl = 6 g / 74.44 g/mol = 0.0806 mol.' },
+            { text: 'Verify — 40 mM NaOCl is within typical effective range (20–100 mM). pH adjustment to 6.5 would give ~90% as HOCl.', faded: true, blankAnswer: '60 mL commercial bleach + 1940 mL sterile distilled water;.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c12_biotech_cbse_06_006', title: 'Callus culture is the in vitro.',
+          scaffold: { problem: 'A research student needs to prepare 1 L of MS callus induction medium for *Nicotiana tabacum* containing: MS basal salts (4.43 g/L),.',
+            steps: [
+            { text: 'Identify target concentrations and stock concentrations. Target: 2,4-D = 2.0 mg/L; stock = 1 mg/mL = 1000 mg/L.' },
+            { text: 'Calculate volume of 2,4-D stock: C₁V₁ = C₂V₂ → (1000 mg/L) × V₁ = (2.0 mg/L) × 1000 mL → V₁ = 2.0 mL.' },
+            { text: 'Calculate volume of kinetin stock: (100 mg/L) × V₁ = (0.5 mg/L) × 1000 mL → V₁ = 5.0 mL.' },
+            { text: 'Calculate volume of vitamin stock: 100× → 1× = 10 mL of 100× stock per 1 L.' },
+            { text: 'Weigh solids: MS salts 4.43 g, sucrose 30.0 g, agar 8.0 g, ascorbic acid 0.150 g (150 mg).' },
+            { text: 'Dissolve solids in ~800 mL distilled water, add stocks, adjust pH to 5.8 with 1N NaOH/HCl, add water to 1 L, autoclave.', faded: true, blankAnswer: '2,4-D stock: 2.0 mL; Kinetin stock: 5.0 mL; Vitamin stock:.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c12_biotech_cbse_06_008', title: 'Organogenesis in plant tissue culture.',
+          scaffold: { problem: 'A protocol for shoot induction in *Solanum melongena* (brinjal) uses MS medium with 2 mg/L BAP (MW 225.25 g/mol) and 0.1 mg/L NAA (MW.',
+            steps: [
+            { text: 'Convert BAP from mg/L to μM: (2 mg/L) / (225.25 g/mol) × 1000 = 8.88 μM BAP.' },
+            { text: 'Convert NAA from mg/L to μM: (0.1 mg/L) / (186.21 g/mol) × 1000 = 0.54 μM NAA.' },
+            { text: 'Calculate molar ratio: [BAP] / [NAA] = 8.88 / 0.54 ≈ 16.4 : 1 (cytokinin:auxin).' },
+            { text: 'Interpret using Skoog-Miller principle: Ratio > 10:1 strongly favors shoot organogenesis.' },
+            { text: 'Verify with literature: Standard brinjal shoot induction uses 2 mg/L BAP + 0.1 mg/L NAA — prediction matches.', faded: true, blankAnswer: '[BAP] = 8.88 μM, [NAA] = 0.54 μM, Ratio = 16.4:1 → Shoot.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c12_biotech_cbse_06_009', title: 'Somatic embryogenesis is the process by.',
+          scaffold: { problem: 'A research lab wants to establish indirect somatic embryogenesis in coffee (Coffea arabica) using leaf explants.',
+            steps: [
+            { text: 'Analyze the induction medium — 2,4-D 4 mg/L is too high (supraoptimal); literature shows coffee requires 0.5–2.0 mg/L.' },
+            { text: 'Check cytokinin — Kinetin 1 mg/L is unnecessary for induction; auxin alone suffices.' },
+            { text: 'Evaluate development phase — "hormone-free" may lack maturation signals.' },
+            { text: 'Design corrected protocol: Induction: MS + 2,4-D 1.0 mg/L (no cytokinin), dark, 25°C, 4 weeks.' },
+            { text: 'Verify — expect globular embryos at 2 weeks development, cotyledonary at 4 weeks, >60% conversion on MS + 0.1 mg/L GA₃.', faded: true, blankAnswer: 'Corrected protocol: Induction = MS + 2,4-D 1.0 mg/L (dark,.' }
+            ] } },
+        { type: 'dissect', nodeId: 'c12_biotech_cbse_06_002', title: 'Identify each idea',
+          dissect: { specimen: 'nology Somatic Hybridisationpomato', spots: [
+            { id: 's1', label: 'Cell totipotency is the inherent', prompt: 'Which idea is this? — Cell totipotency is the inherent genetic potential of a single plant cell to.', answer: 'Cell totipotency is the inherent', options: ['Cell totipotency is the inherent', 'The history and milestones of', 'Explant selection is the process', 'Callus culture is the in'] },
+            { id: 's2', label: 'The history and milestones of', prompt: 'Which idea is this? — The history and milestones of plant tissue culture trace the chronological development of.', answer: 'The history and milestones of', options: ['The history and milestones of', 'Cell totipotency is the inherent', 'Explant selection is the process', 'Callus culture is the in'] },
+            { id: 's3', label: 'Explant selection is the process', prompt: 'Which idea is this? — Explant selection is the process of choosing a specific plant part (meristem, leaf disc,.', answer: 'Explant selection is the process', options: ['Explant selection is the process', 'Cell totipotency is the inherent', 'The history and milestones of', 'Callus culture is the in'] },
+            { id: 's4', label: 'Callus culture is the in', prompt: 'Which idea is this? — Callus culture is the in vitro technique of inducing an unorganized, proliferating mass.', answer: 'Callus culture is the in', options: ['Callus culture is the in', 'Cell totipotency is the inherent', 'The history and milestones of', 'Explant selection is the process'] },
+            { id: 's5', label: 'Organogenesis in plant tissue culture', prompt: 'Which idea is this? — Organogenesis in plant tissue culture is the process by which organized structures.', answer: 'Organogenesis in plant tissue culture', options: ['Organogenesis in plant tissue culture', 'Cell totipotency is the inherent', 'The history and milestones of', 'Explant selection is the process'] },
+            { id: 's6', label: 'Somatic embryogenesis is the process', prompt: 'Which idea is this? — Somatic embryogenesis is the process by which bipolar somatic embryos, structurally.', answer: 'Somatic embryogenesis is the process', options: ['Somatic embryogenesis is the process', 'Cell totipotency is the inherent', 'The history and milestones of', 'Explant selection is the process'] }
+          ] } }
+    ],
+    explore: { component: C12_BiotechnologySomaticHybridisationpomatoSim, prompt: 'Explore the interactive — nology Somatic Hybridisationpomato' },
+    challenges: [
+        { type: 'subpart', nodeId: 'c12_biotech_cbse_06_001', difficulty: 'standard',
+          question: 'Cell totipotency is the inherent genetic potential of a single plant cell to.',
+          hint: 'If stuck, revisit c11_biotech_cbse_02_009 (nucleus/chromatin) and c11_bio_cbse_13_003/004.',
+          misconception: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical.',
+          parts: [
+                { id: 'a', prompt: 'A researcher isolates single cells from the pith of a mature tobacco plant and cultures them on MS medium with 2,4-D (auxin) and kinetin (cytokinin).', answer: 'Correct answer: (1) Dedifferentiation',
+                  options: ['Correct answer: (1) Dedifferentiation', 'mitosis causes callus', 'auxin alone causes shoots'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical constraints: (1).' },
+                { id: 'b', prompt: 'Compare the genetic basis of totipotency in plants vs. animals.', answer: 'Correct analysis: (a) Both have identical nuclear DNA in somatic cells (genetic',
+                  options: ['Correct analysis: (a) Both have identical nuclear DNA in somatic cells (genetic', 'totipotency means any plant cell can *always* become a whole plant', '"totipotency means any plant cell can *always* become a whole plant'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical constraints: (1).' }
+          ],
+            remediations: { 'totipotency-means-any-plant-cell': { steps: ['If the student holds the above misconception: Step 1 — Show a micrograph of mature xylem (dead, lignified, no nucleus).', 'Step 3 — Assign a mini-literature search: "Find one crop where somatic embryogenesis fails despite optimized PGRs.".', 'This forces confrontation with the difference between *theoretical potential* and *practical realizability*.'] } } },
+        { type: 'subpart', nodeId: 'c12_biotech_cbse_06_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this statement: "Haberlandt\'s totipotency concept was proven by Steward\'s carrot experiment (1958), so we now know *every* plant cell is totipotent.".', answer: 'Correct evaluation: The statement is *partially incorrect*',
+                  options: ['Correct evaluation: The statement is *partially incorrect*', 'yes, it\'s proven', 'totipotency means any plant cell can *always* become a whole plant', '"totipotency means any plant cell can *always* become a whole plant'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical constraints: (1).' },
+                { id: 'b', prompt: 'Design a thought experiment: You have a variegated plant (green and white sectors). You culture single cells from the white (chloroplast-deficient) sector.', answer: 'Expected answer: The regenerated plant will be *all-white* (non-variegated)',
+                  options: ['Expected answer: The regenerated plant will be *all-white* (non-variegated)', 'it will be variegated', 'totipotency means any plant cell can *always* become a whole plant', '"totipotency means any plant cell can *always* become a whole plant'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical constraints: (1).' },
+                { id: 'c', prompt: 'Compare the genetic basis of totipotency in plants vs. animals.', answer: 'Correct analysis: (a) Both have identical nuclear DNA in somatic cells (genetic',
+                  options: ['Correct analysis: (a) Both have identical nuclear DNA in somatic cells (genetic', 'totipotency means any plant cell can *always* become a whole plant', '"totipotency means any plant cell can *always* become a whole plant'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "totipotency means any plant cell can *always* become a whole plant." They ignore three critical constraints: (1).' }
+          ],
+            remediations: { 'totipotency-means-any-plant-cell': { steps: ['If the student holds the above misconception: Step 1 — Show a micrograph of mature xylem (dead, lignified, no nucleus).', 'Step 3 — Assign a mini-literature search: "Find one crop where somatic embryogenesis fails despite optimized PGRs.".', 'This forces confrontation with the difference between *theoretical potential* and *practical realizability*.'] } } },
+        { type: 'subpart', nodeId: 'c12_biotech_cbse_06_002', difficulty: 'standard',
+          question: 'The history and milestones of plant tissue culture trace the chronological.',
+          hint: 'If stuck, revisit c12_biotech_cbse_06_001 (Cell Totipotency) and focus on the distinction.',
+          misconception: 'Students memorize milestone names and years as isolated facts (e.g., "Haberlandt 1902, MS medium 1962") without.',
+          parts: [
+                { id: 'a', prompt: 'Compare the scientific contributions of Murashige & Skoog (1962) versus Steward et al. (1958). Which milestone had broader impact on the field and why?', answer: 'Steward (1958) demonstrated somatic embryogenesis in carrot, proving totipotency',
+                  options: ['Steward (1958) demonstrated somatic embryogenesis in carrot, proving totipotency', 'Steward was more important'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students memorize milestone names and years as isolated facts (e.g., "Haberlandt 1902, MS medium 1962") without understanding the causal.' }
+          ],
+            remediations: { 'students-memorize-milestone-names-and': { steps: ['If the student cannot sequence milestones causally: (1) Have them draw a flowchart with arrows showing "enabled".', '(2) Assign a 200-word paragraph explaining why 1957 (Skoog & Miller) had to precede 1962 (MS medium) for the latter to.', '(3) Re-diagnose with DIAGNOSTIC_QUESTION_4 to verify they now grasp the dependency chain.'] } } },
+        { type: 'subpart', nodeId: 'c12_biotech_cbse_06_002', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students memorize milestone names and years as isolated facts (e.g., "Haberlandt 1902, MS medium 1962") without.',
+          parts: [
+                { id: 'a', prompt: 'Compare the scientific contributions of Murashige & Skoog (1962) versus Steward et al. (1958). Which milestone had broader impact on the field and why?', answer: 'Steward (1958) demonstrated somatic embryogenesis in carrot, proving totipotency',
+                  options: ['Steward (1958) demonstrated somatic embryogenesis in carrot, proving totipotency', 'Steward was more important'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students memorize milestone names and years as isolated facts (e.g., "Haberlandt 1902, MS medium 1962") without understanding the causal.' }
+          ],
+            remediations: { 'students-memorize-milestone-names-and': { steps: ['If the student cannot sequence milestones causally: (1) Have them draw a flowchart with arrows showing "enabled".', '(2) Assign a 200-word paragraph explaining why 1957 (Skoog & Miller) had to precede 1962 (MS medium) for the latter to.', '(3) Re-diagnose with DIAGNOSTIC_QUESTION_4 to verify they now grasp the dependency chain.'] } } },
+        { type: 'subpart', nodeId: 'c12_biotech_cbse_06_005', difficulty: 'standard',
+          question: 'Explant selection is the process of choosing a specific plant part (meristem,.',
+          hint: 'If stuck, revisit c12_biotech_cbse_06_001 (totipotency basis) and c11_biotech_cbse_12_011.',
+          misconception: 'Students believe "stronger sterilization = cleaner culture" and write protocols like "5% NaOCl for 30 min" for all.',
+          parts: [
+                { id: 'a', prompt: 'A REMEMBER level question: List the four most common chemical disinfectants used for plant explant surface sterilization and state the typical concentration.', answer: 'Correct answer: (1) Sodium hypochlorite (NaOCl)',
+                  options: ['Correct answer: (1) Sodium hypochlorite (NaOCl)', '5% NaOCl for 30 min', 'stronger sterilization = cleaner culture'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "stronger sterilization = cleaner culture" and write protocols like "5% NaOCl for 30 min" for all explants.' },
+                { id: 'b', prompt: 'An UNDERSTAND level question: Explain why meristem-tip culture (0.1–0.5 mm) is the preferred explant for virus elimination in crops like potato and banana,.', answer: 'Correct answer: Meristems lack vascular tissue and often have no virus particles',
+                  options: ['Correct answer: Meristems lack vascular tissue and often have no virus particles', 'meristems are more totipotent', 'leaf discs are too differentiated'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "stronger sterilization = cleaner culture" and write protocols like "5% NaOCl for 30 min" for all explants.' },
+                { id: 'c', prompt: 'An APPLY level question: You have 500 mL of commercial bleach containing 10% (w/v) available chlorine.', answer: 'Calculation: C₁V₁ = C₂V₂ → (10%) × V₁ = (2.5%) × 1000 mL → V₁ = 250 mL bleach',
+                  options: ['Calculation: C₁V₁ = C₂V₂ → (10%) × V₁ = (2.5%) × 1000 mL → V₁ = 250 mL bleach', 'stronger sterilization = cleaner culture', '5% NaOCl for 30 min'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "stronger sterilization = cleaner culture" and write protocols like "5% NaOCl for 30 min" for all explants.' }
+          ],
+            remediations: { 'stronger-sterilization-cleaner-culture-and': { steps: ['If the student exhibits the "stronger is better" misconception: Step 1 — Show them a photo series of the same explant.', 'Step 2 — Have them calculate the C×t product for each and plot % survival vs.', 'C×t to visualize the peaked response.', 'Step 3 — Assign a re-diagnostic: "Design a 2% NaOCl, 10 min protocol for tomato leaf discs; predict outcome if changed.'] } } },
+        { type: 'subpart', nodeId: 'c12_biotech_cbse_06_006', difficulty: 'standard',
+          question: 'Callus culture is the in vitro technique of inducing an unorganized,.',
+          hint: 'If stuck on PGR selection, revisit the Skoog-Miller ratio concept in.',
+          misconception: '**Misconception:** "Callus is just a mass of undifferentiated cells, so any auxin will work and the exact.',
+          parts: [
+                { id: 'a', prompt: 'You are tasked with establishing a callus culture from mature nodal segments of *Azadirachta indica* (neem), a woody tree known for high phenolic content.', answer: '**Protocol:** 1',
+                  options: ['**Protocol:** 1', '2,4-D, NAA, IAA, and IBA are interchangeable for callus induction'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: '**Misconception:** "Callus is just a mass of undifferentiated cells, so any auxin will work and the exact type/concentration doesn\'t matter.' },
+                { id: 'b', prompt: 'Compare and contrast "friable callus" and "compact callus" in terms of: (a) cellular structure, (b) suitability for cell suspension culture initiation, (c).', answer: '| Feature | Friable Callus | Compact Callus |',
+                  options: ['| Feature | Friable Callus | Compact Callus |', '2,4-D, NAA, IAA, and IBA are interchangeable for callus induction'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: '**Misconception:** "Callus is just a mass of undifferentiated cells, so any auxin will work and the exact type/concentration doesn\'t matter.' }
+          ],
+            remediations: { 'misconception-callus-is-just-a': { steps: ['**Revisit c12_biotech_cbse_06_004 (PGRs: Auxins & Cytokinins Role)** — focus on the Skoog-Miller hypothesis, the.', 'NAA/IAA (resistance to degradation, receptor binding affinity for TIR1/AFB), and the quantitative auxin:cytokinin ratio.', '**Revisit c12_biotech_cbse_06_003 (MS Medium Composition)** — understand why MS high nitrate:ammonium ratio (20:1) and.', '**Diagnostic re-test:** Give the student a new explant type (e.g., *Datura innoxia* hypocotyl) and ask them to write a.'] } } },
+        { type: 'subpart', nodeId: 'c12_biotech_cbse_06_006', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: '**Misconception:** "Callus is just a mass of undifferentiated cells, so any auxin will work and the exact.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the following statement: "Once a callus line is established, it can be maintained indefinitely on the same induction medium without any risk of.', answer: '**Judgment: False.** Three evidences: 1',
+                  options: ['**Judgment: False.** Three evidences: 1', 'contamination risk', '2,4-D, NAA, IAA, and IBA are interchangeable for callus induction'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: '**Misconception:** "Callus is just a mass of undifferentiated cells, so any auxin will work and the exact type/concentration doesn\'t matter.' },
+                { id: 'b', prompt: 'Compare and contrast "friable callus" and "compact callus" in terms of: (a) cellular structure, (b) suitability for cell suspension culture initiation, (c).', answer: '| Feature | Friable Callus | Compact Callus |',
+                  options: ['| Feature | Friable Callus | Compact Callus |', '2,4-D, NAA, IAA, and IBA are interchangeable for callus induction'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: '**Misconception:** "Callus is just a mass of undifferentiated cells, so any auxin will work and the exact type/concentration doesn\'t matter.' }
+          ],
+            remediations: { 'misconception-callus-is-just-a': { steps: ['**Revisit c12_biotech_cbse_06_004 (PGRs: Auxins & Cytokinins Role)** — focus on the Skoog-Miller hypothesis, the.', 'NAA/IAA (resistance to degradation, receptor binding affinity for TIR1/AFB), and the quantitative auxin:cytokinin ratio.', '**Revisit c12_biotech_cbse_06_003 (MS Medium Composition)** — understand why MS high nitrate:ammonium ratio (20:1) and.', '**Diagnostic re-test:** Give the student a new explant type (e.g., *Datura innoxia* hypocotyl) and ask them to write a.'] } } },
+        { type: 'subpart', nodeId: 'c12_biotech_cbse_06_008', difficulty: 'standard',
+          question: 'Organogenesis in plant tissue culture is the process by which organized.',
+          hint: 'Revisit c12_biotech_cbse_06_004 (PGR roles) and practice converting mg/L to μM for auxins.',
+          misconception: 'Students believe "high cytokinin always gives shoots, high auxin always gives roots" as an absolute rule.',
+          parts: [
+                { id: 'a', prompt: 'Define organogenesis in the context of plant tissue culture and distinguish it from somatic embryogenesis based on the origin of the regenerated structure.', answer: 'Organogenesis is the de novo formation of organs (shoots/roots) directly from',
+                  options: ['Organogenesis is the de novo formation of organs (shoots/roots) directly from', 'both form whole plants so they are the same', 'high cytokinin always gives shoots, high auxin always gives roots'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "high cytokinin always gives shoots, high auxin always gives roots" as an absolute rule.' },
+                { id: 'b', prompt: 'A student prepares MS medium with 2 mg/L NAA (auxin) and 0.5 mg/L BAP (cytokinin) for shoot induction from tobacco leaf callus.', answer: 'The auxin:cytokinin ratio is 4:1 (high auxin)',
+                  options: ['The auxin:cytokinin ratio is 4:1 (high auxin)', 'NAA is needed for shoots', 'auxin for roots, cytokinin for shoots'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "high cytokinin always gives shoots, high auxin always gives roots" as an absolute rule.' },
+                { id: 'c', prompt: 'Compare and contrast *direct organogenesis* and *indirect organogenesis* in terms of: (a) genetic fidelity of regenerants, (b) time to plantlet formation, (c).', answer: 'genetic fidelity of regenerants, (',
+                  options: ['genetic fidelity of regenerants, (', 'indirect is better for transformation', 'high cytokinin always gives shoots, high auxin always gives roots'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "high cytokinin always gives shoots, high auxin always gives roots" as an absolute rule.' }
+          ],
+            remediations: { 'high-cytokinin-always-gives-shoots': { steps: ['If a student cannot predict morphogenic outcome from hormone ratios: Step 1 — Revisit c12_biotech_cbse_06_004 (PGR.', 'Step 3 — Analyze a published protocol (e.g., tobacco leaf disc organogenesis) and identify the exact ratio used at each.', 'Step 4 — Re-attempt Diagnostic Questions 2 and 3.', 'If still stuck, the gap is usually *quantitative reasoning with ratios* — review Class 10 math (ratios/proportions) in.'] } } },
+        { type: 'subpart', nodeId: 'c12_biotech_cbse_06_008', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe "high cytokinin always gives shoots, high auxin always gives roots" as an absolute rule.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this statement: "For commercial micropropagation, indirect organogenesis via callus is preferred over direct organogenesis because it produces higher.', answer: 'The statement is **false**',
+                  options: ['The statement is **false**', 'high cytokinin always gives shoots, high auxin always gives roots'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "high cytokinin always gives shoots, high auxin always gives roots" as an absolute rule.' }
+          ],
+            remediations: { 'high-cytokinin-always-gives-shoots': { steps: ['If a student cannot predict morphogenic outcome from hormone ratios: Step 1 — Revisit c12_biotech_cbse_06_004 (PGR.', 'Step 3 — Analyze a published protocol (e.g., tobacco leaf disc organogenesis) and identify the exact ratio used at each.', 'Step 4 — Re-attempt Diagnostic Questions 2 and 3.', 'If still stuck, the gap is usually *quantitative reasoning with ratios* — review Class 10 math (ratios/proportions) in.'] } } },
+        { type: 'subpart', nodeId: 'c12_biotech_cbse_06_009', difficulty: 'standard',
+          question: 'Somatic embryogenesis is the process by which bipolar somatic embryos,.',
+          hint: 'If stuck on stage identification or protocol design, revisit c12_biotech_cbse_06_004 (PGR.',
+          misconception: 'Students confuse somatic embryogenesis with organogenesis because both produce "plantlets." The critical error:.',
+          parts: [
+                { id: 'a', prompt: 'A student writes: "Somatic embryos develop directly from explant epidermis without callus formation in all plant species." Explain why this statement is.', answer: 'The statement is incorrect',
+                  options: ['The statement is incorrect', 'plantlets', 'small shoots with roots'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students confuse somatic embryogenesis with organogenesis because both produce "plantlets." The critical error: assuming somatic embryos.' },
+                { id: 'b', prompt: 'Design a two-phase MS medium protocol for indirect somatic embryogenesis in carrot (Daucus carota) using leaf explant.', answer: 'using leaf explant',
+                  options: ['using leaf explant', 'plantlets', 'small shoots with roots'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students confuse somatic embryogenesis with organogenesis because both produce "plantlets." The critical error: assuming somatic embryos.' },
+                { id: 'c', prompt: 'Compare somatic embryogenesis and organogenesis across these parameters: (i) Origin of meristems, (ii) PGR requirement pattern, (iii) Genetic fidelity risk,.', answer: '| Parameter | Somatic Embryogenesis | Organogenesis |',
+                  options: ['| Parameter | Somatic Embryogenesis | Organogenesis |', 'plantlets', 'small shoots with roots'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students confuse somatic embryogenesis with organogenesis because both produce "plantlets." The critical error: assuming somatic embryos.' }
+          ],
+            remediations: { 'students-confuse-somatic-embryogenesis-with': { steps: ['If a student cannot distinguish the two pathways or misidentifies stages: Step 1 — Revisit c12_biotech_cbse_06_001.', 'Step 2 — Use c12_biotech_cbse_06_006 (callus culture) to see how callus heterogeneity leads to indirect pathway.', 'Step 3 — Draw side-by-side zygotic vs.', 'somatic embryo development timelines (globular → heart → torpedo → cotyledonary) on paper; label SAM, RAM, procambium,.'] } } },
+        { type: 'subpart', nodeId: 'c12_biotech_cbse_06_009', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students confuse somatic embryogenesis with organogenesis because both produce "plantlets." The critical error:.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this claim: "Adding 10 µM abscisic acid (ABA) during the torpedo stage improves somatic embryo maturation and germination conversion in most dicots.".', answer: 'The claim is NOT universally true',
+                  options: ['The claim is NOT universally true', 'plantlets', 'small shoots with roots'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students confuse somatic embryogenesis with organogenesis because both produce "plantlets." The critical error: assuming somatic embryos.' }
+          ],
+            remediations: { 'students-confuse-somatic-embryogenesis-with': { steps: ['If a student cannot distinguish the two pathways or misidentifies stages: Step 1 — Revisit c12_biotech_cbse_06_001.', 'Step 2 — Use c12_biotech_cbse_06_006 (callus culture) to see how callus heterogeneity leads to indirect pathway.', 'Step 3 — Draw side-by-side zygotic vs.', 'somatic embryo development timelines (globular → heart → torpedo → cotyledonary) on paper; label SAM, RAM, procambium,.'] } } }
+    ],
+    reflect: { prompts: ['What did the interactive reveal?', 'Where can this idea go wrong?'] },
+    successLine: 'Mastered! 🌟', tryAgainLine: 'Revisit the simulation, then retry.',
+};

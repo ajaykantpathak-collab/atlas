@@ -1,0 +1,722 @@
+{
+  "gameFile": "PowerPointGame",
+  "classLevel": 4,
+  "cisceNodes": [
+    "c4_cs_011",
+    "c4_cs_012",
+    "c4_cs_013"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Welcome to PowerPoint 2016! 🖥️",
+      "text": "Microsoft PowerPoint 2016 is a presentation program that lets you build electronic slides like a digital slideshow! A presentation is made of slides saved with the .pptx extension.",
+      "emoji": "🖥️",
+      "bgColor": "from-orange-400 to-amber-500",
+      "spoken": "Microsoft PowerPoint 2016 is a presentation program that lets you build electronic slides like a digital slideshow! A presentation is made of slides saved with the dot p p t x extension.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Create",
+            "Edit",
+            "Format",
+            "Save"
+          ]
+        }
+      }
+    },
+    {
+      "title": "The PowerPoint Window 🧰",
+      "text": "The window has three main parts: The Ribbon (tool belt at top with tabs like Home & Insert), the Slide Pane (central canvas where you edit slides), and the Notes Area (private reminders for the speaker).",
+      "emoji": "📋",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "The window has three main parts: The Ribbon, the Slide Pane, and the Notes Area. The notes are private reminders for the speaker and do not show on the slide!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Create",
+            "Edit",
+            "Format",
+            "Save"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Adding Slides & Layouts 📄",
+      "text": "A new presentation starts with a Title Slide. You can add new slides from the Home tab or press Ctrl+M. Choose layouts like Title and Content or Two Content, then click inside placeholders to type or add pictures!",
+      "emoji": "✨",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "A new presentation starts with a Title Slide. You can add new slides using the New Slide button on the Home tab, and choose layouts like Title and Content!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Saving Your Presentation 💾",
+      "text": "Always save your work! Saving stores your presentation on the computer with a file name and .pptx. Remember: saving stores the file, while closing just removes it from the screen. Always save before closing!",
+      "emoji": "💾",
+      "bgColor": "from-purple-400 to-indigo-500",
+      "spoken": "Always save your work! Saving stores your presentation on the computer with a file name and dot p p t x. Always save before closing so you do not lose your work!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Running the Slide Show 🎬",
+      "text": "When your presentation is ready, press the F5 key to start the slide show from the first slide in full screen! When you are done, press the Escape key to return to the editing view.",
+      "emoji": "🎬",
+      "bgColor": "from-rose-400 to-pink-500",
+      "spoken": "When your presentation is ready, press the F 5 key to start the slide show in full screen! When you are done, press the Escape key to return to editing view.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is Microsoft PowerPoint 2016?",
+      "answer": "A presentation program for creating slides with text, pictures, and charts",
+      "options": [
+        "A presentation program for creating slides with text, pictures, and charts",
+        "A word processor for writing letters and stories",
+        "A web browser for searching the Internet"
+      ],
+      "hint": "Think about what PowerPoint makes: electronic slides with pictures and text!",
+      "misconception": "PowerPoint 2016 is a presentation program for making slides, not just a word processor or web browser! It creates electronic slideshows.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A presentation program for creating slides with text, pictures, and charts",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A word processor for writing letters and stories",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A web browser for searching the Internet",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A presentation program for creating slides with text, pictures, and charts",
+          "A word processor for writing letters and stories"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each PowerPoint interface part to its correct function!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Ribbon = tool belt at top! Slide Pane = central canvas! Notes Area = private speaker notes!",
+      "misconception": "Remember: the Ribbon is the tool belt with tabs, the Slide Pane is your design canvas, and the Notes Area is strictly private for the speaker!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "hint": "Take it slow. Ribbon = tool belt at top! Slide Pane = central canvas! Notes Area = private speaker notes!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "ribbon",
+          "kind": "circle",
+          "label": "Ribbon",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ribbon",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ribbon"
+        },
+        {
+          "id": "pane",
+          "kind": "circle",
+          "label": "Slide Pane",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-pane",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-pane"
+        },
+        {
+          "id": "notes",
+          "kind": "circle",
+          "label": "Notes Area",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-notes",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-notes"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "ribbon",
+          "label": "Ribbon",
+          "emoji": "",
+          "correctBin": "bin-ribbon"
+        },
+        {
+          "id": "pane",
+          "label": "Slide Pane",
+          "emoji": "",
+          "correctBin": "bin-pane"
+        },
+        {
+          "id": "notes",
+          "label": "Notes Area",
+          "emoji": "",
+          "correctBin": "bin-notes"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-ribbon",
+          "label": "Ribbon (Tool Belt) 🧰",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-pane",
+          "label": "Slide Pane (Canvas) 🎨",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-notes",
+          "label": "Notes Area (Speaker) 📝",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is the FIRST slide of a new presentation usually called?",
+      "answer": "Title slide",
+      "options": [
+        "Title slide",
+        "Content slide",
+        "Blank slide"
+      ],
+      "hint": "When you open a blank presentation, the very first slide has a title and subtitle placeholder. What is it called?",
+      "misconception": "The first slide of a new presentation is always the Title slide! It contains placeholders for your main heading and subtitle.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Title slide",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Content slide",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Blank slide",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Content slide",
+          "Title slide"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag the steps to create a new presentation in the correct order!",
+      "answer": "sort",
+      "options": [],
+      "hint": "First open from Start menu, then choose Blank Presentation, then type your title in the placeholder!",
+      "misconception": "The correct sequence starts with opening PowerPoint from the Start menu, choosing Blank Presentation, and typing in the title placeholder!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. First open from Start menu, then choose Blank Presentation, then type your title in the placeholder!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "step1",
+          "kind": "star",
+          "label": "1. Open from Start menu",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ffd700",
+          "category": "bin-order",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-order"
+        },
+        {
+          "id": "step2",
+          "kind": "circle",
+          "label": "2. Choose Blank Presentation",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-order",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-order"
+        },
+        {
+          "id": "step3",
+          "kind": "circle",
+          "label": "3. Type in Title placeholder",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-order",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-order"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "step1",
+          "label": "1. Open from Start menu",
+          "emoji": "",
+          "correctBin": "bin-order"
+        },
+        {
+          "id": "step2",
+          "label": "2. Choose Blank Presentation",
+          "emoji": "",
+          "correctBin": "bin-order"
+        },
+        {
+          "id": "step3",
+          "label": "3. Type in Title placeholder",
+          "emoji": "",
+          "correctBin": "bin-order"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-order",
+          "label": "Creation Steps 📋",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "How do you add a NEW SLIDE to a presentation in PowerPoint?",
+      "answer": "Click New Slide on the Home tab",
+      "options": [
+        "Click New Slide on the Home tab",
+        "Press the Escape key",
+        "Close the presentation"
+      ],
+      "hint": "Look at the Home tab on the Ribbon. There is a special button for adding a new page!",
+      "misconception": "You add a new slide by clicking the New Slide button on the Home tab (or pressing Ctrl+M)! Escape stops a slide show, and closing removes the file.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Click New Slide on the Home tab",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Press the Escape key",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Close the presentation",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Click New Slide on the Home tab",
+          "Press the Escape key"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each action to its correct PowerPoint tool or tab!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Adding pictures uses the Insert tab! Changing layouts uses the Home tab!",
+      "misconception": "Always match the action to the correct feature: pictures are inserted via the Insert tab, while new slides and layouts are managed on the Home tab!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. Adding pictures uses the Insert tab! Changing layouts uses the Home tab!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "act-pic",
+          "kind": "circle",
+          "label": "Add picture",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-insert",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-insert"
+        },
+        {
+          "id": "act-slide",
+          "kind": "circle",
+          "label": "New slide button",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-home",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-home"
+        },
+        {
+          "id": "act-layout",
+          "kind": "circle",
+          "label": "Change layout",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-home",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-home"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "act-pic",
+          "label": "Add picture",
+          "emoji": "",
+          "correctBin": "bin-insert"
+        },
+        {
+          "id": "act-slide",
+          "label": "New slide button",
+          "emoji": "",
+          "correctBin": "bin-home"
+        },
+        {
+          "id": "act-layout",
+          "label": "Change layout",
+          "emoji": "",
+          "correctBin": "bin-home"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-home",
+          "label": "Home Tab 🏠",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-insert",
+          "label": "Insert Tab 🖼️",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What key do you press to START a slide show from the first slide?",
+      "answer": "F5",
+      "options": [
+        "F5",
+        "Escape",
+        "Enter"
+      ],
+      "hint": "It is one of the function keys at the very top of your keyboard! It starts the show in full screen.",
+      "misconception": "Pressing the F5 key starts the slide show from the first slide in full screen! Escape stops the show, it does not start it.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "star",
+          "label": "F5",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ffd700",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "star",
+          "label": "Escape",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ffd700",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "star",
+          "label": "Enter",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ffd700",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Escape",
+          "F5"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each file action to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Saving stores with .pptx! F5 runs the slide show! Escape stops the show!",
+      "misconception": "Remember: saving stores your work with .pptx, F5 runs the slide show, and Escape only returns you to editing view without closing PowerPoint!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Saving stores with .pptx! F5 runs the slide show! Escape stops the show!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "act-save",
+          "kind": "circle",
+          "label": "Store file (.pptx)",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-save",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-save"
+        },
+        {
+          "id": "act-run",
+          "kind": "circle",
+          "label": "Run show (F5)",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-run",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-run"
+        },
+        {
+          "id": "act-esc",
+          "kind": "circle",
+          "label": "Stop show (Escape)",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-esc",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-esc"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "act-save",
+          "label": "Store file (.pptx)",
+          "emoji": "",
+          "correctBin": "bin-save"
+        },
+        {
+          "id": "act-run",
+          "label": "Run show (F5)",
+          "emoji": "",
+          "correctBin": "bin-run"
+        },
+        {
+          "id": "act-esc",
+          "label": "Stop show (Escape)",
+          "emoji": "",
+          "correctBin": "bin-esc"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-save",
+          "label": "Saving 💾",
+          "color": "#6366F1"
+        },
+        {
+          "id": "bin-run",
+          "label": "Slide Show 🎬",
+          "color": "#EC4899"
+        },
+        {
+          "id": "bin-esc",
+          "label": "Exit Show ↩️",
+          "color": "#84CC16"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A tech-savvy kid learns how computers work",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-structure",
+    "title": "Computer Tower",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_cs_011",
+    "region": "Tech City",
+    "mapX": 0.7200000000000001,
+    "mapY": 1.23,
+    "icon": "💻",
+    "prerequisites": [
+      "c4_cs_012"
+    ]
+  },
+  "subject": "cs"
+}

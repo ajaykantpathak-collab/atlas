@@ -1,0 +1,840 @@
+{
+  "gameFile": "EarthMotionsGame",
+  "classLevel": 4,
+  "cisceNodes": [
+    "c4_geo_001",
+    "c4_geo_002",
+    "c4_geo_003"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Rotation of the Earth 🌍",
+      "text": "Rotation is the spinning of the Earth on its own axis from west to east. One full spin takes 24 hours, which is equal to one whole day and night!",
+      "emoji": "🔄",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Rotation is the spinning of the Earth on its own axis from west to east. One full spin takes 24 hours, giving us day and night!",
+      "diagram": {
+        "type": "solar-system",
+        "animate": true,
+        "data": {
+          "planets": [
+            {
+              "name": "Earth",
+              "color": 4886745,
+              "distance": 70,
+              "size": 8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Tilted Axis 📐",
+      "text": "The axis is an imaginary line from the North Pole to the South Pole through the Earth's centre. It is tilted at an angle of 23.5 degrees from the vertical!",
+      "emoji": "🧭",
+      "bgColor": "from-indigo-500 to-purple-600",
+      "spoken": "The axis is an imaginary line from the North Pole to the South Pole, tilted at an angle of 23.5 degrees from the vertical!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Revolution around the Sun ☀️",
+      "text": "Revolution is the Earth's yearly journey travelling in an elliptical orbit around the Sun. One full revolution takes 365 and one-quarter days — one year!",
+      "emoji": "🪐",
+      "bgColor": "from-cyan-500 to-blue-600",
+      "spoken": "Revolution is the Earth's yearly journey travelling in an elliptical orbit around the Sun, taking 365.25 days for one year!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Leap Years & Extra Days 📅",
+      "text": "The leftover quarter-day from each revolution adds up over four years to make one full extra day — February 29th in a leap year with 366 days!",
+      "emoji": "⏱️",
+      "bgColor": "from-teal-500 to-cyan-600",
+      "spoken": "The leftover quarter-day from each revolution adds up over four years to make February 29th in a leap year!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Seasons Caused by Tilt & Revolution 🍂",
+      "text": "Seasons are caused by revolution combined with the 23.5-degree axis tilt! When the Northern Hemisphere tilts toward the Sun, we get summer; when away, winter!",
+      "emoji": "🌸",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "Seasons are caused by revolution combined with the axis tilt! When our hemisphere tilts toward the Sun, we get summer; when away, winter!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is ROTATION of the Earth?",
+      "answer": "Spinning on its own axis from west to east in 24 hours",
+      "options": [
+        "Spinning on its own axis from west to east in 24 hours",
+        "Travelling in a big loop around the Sun in one year",
+        "Standing completely still in space"
+      ],
+      "hint": "Think: rotation is like a spinning top turning on the spot in one day!",
+      "misconception": "Rotation is the Earth SPINNING on its own axis, taking 24 hours! Travelling around the Sun is REVOLUTION, not rotation!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Spinning on its own axis from west to east in 24 hours",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Travelling in a big loop around the Sun in one year",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Standing completely still in space",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Spinning on its own axis from west to east in 24 hours",
+          "Travelling in a big loop around the Sun in one year"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each statement! Is it TRUE or FALSE about Earth's rotation?",
+      "answer": "sort",
+      "options": [],
+      "hint": "True facts: Earth rotates west to east, takes 24 hours, causes day and night, axis tilts at 23.5 degrees!",
+      "misconception": "Remember: rotation takes 24 hours and causes day and night! Revolution takes a year and causes seasons! Do not mix them up!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "rot-true-1",
+            "label": "Rotates west to east",
+            "correctBin": "true"
+          },
+          {
+            "id": "rot-true-2",
+            "label": "Takes 24 hours (1 day)",
+            "correctBin": "true"
+          },
+          {
+            "id": "rot-false-1",
+            "label": "Takes 365 days",
+            "correctBin": "false"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "rot-true-1",
+          "kind": "circle",
+          "label": "Rotates west to east",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true",
+          "interaction": "drag-to-bin",
+          "targetBin": "true"
+        },
+        {
+          "id": "rot-true-2",
+          "kind": "circle",
+          "label": "Takes 24 hours (1 day)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true",
+          "interaction": "drag-to-bin",
+          "targetBin": "true"
+        },
+        {
+          "id": "rot-false-1",
+          "kind": "circle",
+          "label": "Takes 365 days",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "false",
+          "interaction": "drag-to-bin",
+          "targetBin": "false"
+        },
+        {
+          "id": "rot-false-2",
+          "kind": "circle",
+          "label": "Rotation causes seasons",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "false",
+          "interaction": "drag-to-bin",
+          "targetBin": "false"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "rot-true-1",
+          "label": "Rotates west to east",
+          "emoji": "",
+          "correctBin": "true"
+        },
+        {
+          "id": "rot-true-2",
+          "label": "Takes 24 hours (1 day)",
+          "emoji": "",
+          "correctBin": "true"
+        },
+        {
+          "id": "rot-false-1",
+          "label": "Takes 365 days",
+          "emoji": "",
+          "correctBin": "false"
+        },
+        {
+          "id": "rot-false-2",
+          "label": "Rotation causes seasons",
+          "emoji": "",
+          "correctBin": "false"
+        }
+      ],
+      "bins": [
+        {
+          "id": "true",
+          "label": "TRUE about Rotation ✅",
+          "color": "#22C55E"
+        },
+        {
+          "id": "false",
+          "label": "FALSE about Rotation ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "How long does ONE ROTATION of the Earth take?",
+      "answer": "24 hours (one day)",
+      "options": [
+        "24 hours (one day)",
+        "365 days (one year)",
+        "12 hours (half a day)"
+      ],
+      "hint": "One full spin of the Earth from one midnight to the next midnight takes this long!",
+      "misconception": "One rotation takes 24 hours, which equals one day! 365 days is how long one revolution takes!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "24 hours (one day)",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "365 days (one year)",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "12 hours (half a day)",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "365 days (one year)",
+          "24 hours (one day)"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each event to the right time of day caused by rotation!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Sunrise = moving into sunlight; Noon = facing Sun directly; Sunset = moving out of sunlight; Night = facing away!",
+      "misconception": "As the Earth rotates eastward, places move from darkness into light (sunrise), face the Sun (noon), and turn away into night (sunset)!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "sun-rise",
+            "label": "Sunrise in the east",
+            "correctBin": "sunrise"
+          },
+          {
+            "id": "sun-noon",
+            "label": "Noon (sun overhead)",
+            "correctBin": "noon"
+          },
+          {
+            "id": "sun-set",
+            "label": "Sunset in the west",
+            "correctBin": "sunset"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "sun-rise",
+          "kind": "circle",
+          "label": "Sunrise in the east",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "sunrise",
+          "interaction": "drag-to-bin",
+          "targetBin": "sunrise"
+        },
+        {
+          "id": "sun-noon",
+          "kind": "circle",
+          "label": "Noon (sun overhead)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "noon",
+          "interaction": "drag-to-bin",
+          "targetBin": "noon"
+        },
+        {
+          "id": "sun-set",
+          "kind": "circle",
+          "label": "Sunset in the west",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "sunset",
+          "interaction": "drag-to-bin",
+          "targetBin": "sunset"
+        },
+        {
+          "id": "night-time",
+          "kind": "circle",
+          "label": "Night (facing away)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "night",
+          "interaction": "drag-to-bin",
+          "targetBin": "night"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "sun-rise",
+          "label": "Sunrise in the east",
+          "emoji": "",
+          "correctBin": "sunrise"
+        },
+        {
+          "id": "sun-noon",
+          "label": "Noon (sun overhead)",
+          "emoji": "",
+          "correctBin": "noon"
+        },
+        {
+          "id": "sun-set",
+          "label": "Sunset in the west",
+          "emoji": "",
+          "correctBin": "sunset"
+        },
+        {
+          "id": "night-time",
+          "label": "Night (facing away)",
+          "emoji": "",
+          "correctBin": "night"
+        }
+      ],
+      "bins": [
+        {
+          "id": "sunrise",
+          "label": "Sunrise 🌅",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "noon",
+          "label": "Noon ☀️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "sunset",
+          "label": "Sunset 🌇",
+          "color": "#EC4899"
+        },
+        {
+          "id": "night",
+          "label": "Night 🌙",
+          "color": "#4B5563"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is REVOLUTION of the Earth?",
+      "answer": "Travelling around the Sun in an orbit in 365.25 days",
+      "options": [
+        "Travelling around the Sun in an orbit in 365.25 days",
+        "Spinning on its own axis in 24 hours",
+        "Floating randomly in outer space"
+      ],
+      "hint": "Think: revolution is the big yearly trip around the Sun in an oval path!",
+      "misconception": "Revolution is the Earth's yearly journey orbiting the Sun! Spinning on its own axis is rotation!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Travelling around the Sun in an orbit in 365.25 days",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Spinning on its own axis in 24 hours",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Floating randomly in outer space",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Spinning on its own axis in 24 hours",
+          "Travelling around the Sun in an orbit in 365.25 days"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each fact! Is it TRUE or FALSE about Earth's revolution?",
+      "answer": "sort",
+      "options": [],
+      "hint": "True: orbits Sun, takes 365.25 days, equals one year, combined with tilt causes seasons! False: takes 24 hours!",
+      "misconception": "Revolution takes 365.25 days (one year). The extra quarter day accumulates over 4 years to create a leap year!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "rev-true-1",
+            "label": "Takes 365.25 days",
+            "correctBin": "true"
+          },
+          {
+            "id": "rev-true-2",
+            "label": "Equals one year",
+            "correctBin": "true"
+          },
+          {
+            "id": "rev-false-1",
+            "label": "Takes 24 hours",
+            "correctBin": "false"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "rev-true-1",
+          "kind": "circle",
+          "label": "Takes 365.25 days",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true",
+          "interaction": "drag-to-bin",
+          "targetBin": "true"
+        },
+        {
+          "id": "rev-true-2",
+          "kind": "circle",
+          "label": "Equals one year",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true",
+          "interaction": "drag-to-bin",
+          "targetBin": "true"
+        },
+        {
+          "id": "rev-false-1",
+          "kind": "circle",
+          "label": "Takes 24 hours",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "false",
+          "interaction": "drag-to-bin",
+          "targetBin": "false"
+        },
+        {
+          "id": "rev-false-2",
+          "kind": "circle",
+          "label": "Causes day and night",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "false",
+          "interaction": "drag-to-bin",
+          "targetBin": "false"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "rev-true-1",
+          "label": "Takes 365.25 days",
+          "emoji": "",
+          "correctBin": "true"
+        },
+        {
+          "id": "rev-true-2",
+          "label": "Equals one year",
+          "emoji": "",
+          "correctBin": "true"
+        },
+        {
+          "id": "rev-false-1",
+          "label": "Takes 24 hours",
+          "emoji": "",
+          "correctBin": "false"
+        },
+        {
+          "id": "rev-false-2",
+          "label": "Causes day and night",
+          "emoji": "",
+          "correctBin": "false"
+        }
+      ],
+      "bins": [
+        {
+          "id": "true",
+          "label": "TRUE about Revolution ✅",
+          "color": "#22C55E"
+        },
+        {
+          "id": "false",
+          "label": "FALSE about Revolution ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What causes SEASONS on Earth?",
+      "answer": "Revolution around the Sun COMBINED with the 23.5-degree axis tilt",
+      "options": [
+        "Revolution around the Sun COMBINED with the 23.5-degree axis tilt",
+        "Only the daily rotation of the Earth",
+        "The Earth getting closer to or farther from the Sun"
+      ],
+      "hint": "Remember: seasons need BOTH the yearly journey and the leaning 23.5-degree axis!",
+      "misconception": "Seasons are NOT caused by distance from the Sun! They are caused by revolution combined with the 23.5-degree axis tilt!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Revolution around the Sun COMBINED with the 23.5-degree axis tilt",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Only the daily rotation of the Earth",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The Earth getting closer to or farther from the Sun",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Revolution around the Sun COMBINED with the 23.5-degree axis tilt",
+          "Only the daily rotation of the Earth"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each hemisphere condition to the correct season!",
+      "answer": "sort",
+      "options": [],
+      "hint": "June: Northern tilted toward Sun = summer; Southern tilted away = winter. December: opposite!",
+      "misconception": "Seasons are opposite in the two hemispheres! When it is summer in India (June), it is winter in Australia!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "june-north",
+            "label": "June: North tilted toward",
+            "correctBin": "summer"
+          },
+          {
+            "id": "dec-south",
+            "label": "Dec: South tilted toward",
+            "correctBin": "summer"
+          },
+          {
+            "id": "june-south",
+            "label": "June: South tilted away",
+            "correctBin": "winter"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "june-north",
+          "kind": "circle",
+          "label": "June: North tilted toward",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "summer",
+          "interaction": "drag-to-bin",
+          "targetBin": "summer"
+        },
+        {
+          "id": "dec-south",
+          "kind": "circle",
+          "label": "Dec: South tilted toward",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "summer",
+          "interaction": "drag-to-bin",
+          "targetBin": "summer"
+        },
+        {
+          "id": "june-south",
+          "kind": "circle",
+          "label": "June: South tilted away",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "winter",
+          "interaction": "drag-to-bin",
+          "targetBin": "winter"
+        },
+        {
+          "id": "dec-north",
+          "kind": "circle",
+          "label": "Dec: North tilted away",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "winter",
+          "interaction": "drag-to-bin",
+          "targetBin": "winter"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "june-north",
+          "label": "June: North tilted toward",
+          "emoji": "",
+          "correctBin": "summer"
+        },
+        {
+          "id": "dec-south",
+          "label": "Dec: South tilted toward",
+          "emoji": "",
+          "correctBin": "summer"
+        },
+        {
+          "id": "june-south",
+          "label": "June: South tilted away",
+          "emoji": "",
+          "correctBin": "winter"
+        },
+        {
+          "id": "dec-north",
+          "label": "Dec: North tilted away",
+          "emoji": "",
+          "correctBin": "winter"
+        }
+      ],
+      "bins": [
+        {
+          "id": "summer",
+          "label": "Summer ☀️",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "winter",
+          "label": "Winter ❄️",
+          "color": "#3B82F6"
+        }
+      ]
+    }
+  ],
+  "theme": "space",
+  "storyArc": {
+    "theme": "An adventurer travels across the world",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-map",
+    "title": "World Map",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_geo_001",
+    "region": "World Explorer",
+    "mapX": 1.04,
+    "mapY": 1.11,
+    "icon": "🌍",
+    "prerequisites": [
+      "c4_geo_002"
+    ]
+  },
+  "subject": "geography"
+}

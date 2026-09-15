@@ -1,0 +1,261 @@
+import type { SimDef } from '../../engine/types';
+import C12_ComputerScienceComputerNetworksSim from '../../../simulations/c6_12/C12_ComputerScienceComputerNetworksSim';
+
+/** v3 wrapped master — C12_ComputerScienceComputerNetworksSim. Rich bespoke scene mounted inside the
+ * adaptive loop; diagnostics generated from its declared node ids.
+ * Regenerate via tools/wrap_masters.mjs. */
+export const w_c12_computersciencecomputernetworkssim: SimDef = {
+    id: 'v3w_c12_computersciencecomputernetworkssim',
+    title: 'Computer Networks',
+    subtitle: 'This node covers the conceptual foundation of computer networks: definition, core.',
+    classLevel: 12, subject: 'computer_science', topic: 'Introduction to Computer Networks and their Need',
+    chapters: [],
+    nodeIds: ['c12_cs_cbse_01_001', 'c12_cs_cbse_01_002', 'c12_cs_cbse_01_003', 'c12_cs_cbse_01_005', 'c12_cs_cbse_01_006', 'c12_cs_cbse_01_008'],
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    scenario: { role: 'a class 12 learner', intro: 'Imagine you are working on a project with three classmates. Each of you has a laptop with part of the code,.', goal: 'Master Computer Networks.' },
+    discovery: {
+        question: 'What are the three fundamental needs that motivate the creation of a computer network?',
+        options: ['The three fundamental needs are: (1) Resource sharing', 'sharing files', 'internet access'],
+        answer: 'The three fundamental needs are: (1) Resource sharing',
+        hook: 'Students often equate "computer network" with "the Internet" or "Wi-Fi".',
+    },
+    teaching: [
+        { title: 'A computer network is a collection of.', text: 'A computer network is a collection of interconnected computing devices (nodes) that can communicate with each other and share resources such as data, applications, and hardware.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+    ],
+    beats: [
+        { type: 'scaffold', nodeId: 'c12_cs_cbse_01_001', title: 'A computer network is a collection of.',
+          scaffold: { problem: 'A small accounting firm has 5 accountants, each with a desktop.',
+            steps: [
+            { text: 'List the pain points — version conflicts (multiple copies), delayed access (waiting for email), no central backup.' },
+            { text: 'Map pain point 1 (version conflicts) to Resource Sharing — a shared network folder ensures one authoritative file.' },
+            { text: 'Map pain point 2 (delayed access) to Communication — real-time chat/presence lets accountants coordinate edits.' },
+            { text: 'Map pain point 3 (no central backup) to Distributed Processing — a backup server (node) runs scheduled backup jobs.' },
+            { text: 'Verify: Each core need addresses a distinct business problem; together they justify the network investment.', faded: true, blankAnswer: 'Resource Sharing → Centralised file server with version.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c12_cs_cbse_01_002', title: 'A computer network is classified by its.',
+          scaffold: { problem: 'A university has three campuses: Campus A and B are 800 m apart; Campus C is 35 km away in the same city.',
+            steps: [
+            { text: 'Identify geographical distances: A↔B = 800 m (<2 km), B↔C = 35 km (>5 km, <50 km).' },
+            { text: 'Map distances to network categories: 800 m falls in LAN range (up to a few km); 35 km falls in MAN range (5–50 km).' },
+            { text: 'Analyze ownership: A↔B is on university-owned land → university can lay its own fibre (private ownership).' },
+            { text: 'Determine media: A↔B can use multimode fibre (MMF) or Cat6a for 10 Gbps; B↔C will use single-mode fibre (SMF) or Metro.' },
+            { text: 'Classify: A↔B is a LAN link (part of Campus Area Network). B↔C is a MAN link (provider-managed Metro Ethernet).', faded: true, blankAnswer: 'A↔B = LAN (private fibre, 800 m, 10 Gbps). B↔C = MAN.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c12_cs_cbse_01_003', title: 'Network devices are hardware components.',
+          scaffold: { problem: 'A school computer lab has 20 computers connected to a 24‑port hub.',
+            steps: [
+            { text: 'Identify the problem — hub operates at Layer 1, creates a single shared collision domain; all 20 PCs contend for the.' },
+            { text: 'Identify the solution — switch operates at Layer 2, learns MAC addresses, and creates a separate collision domain for.' },
+            { text: 'Explain MAC learning — when PC A sends a frame to PC B, the switch records PC A\'s MAC on port 1; when PC B replies, the.' },
+            { text: 'Explain collision elimination — with full‑duplex links, each port can send and receive simultaneously without.' },
+            { text: 'Quantify improvement — theoretical aggregate bandwidth increases from 100 Mbps shared to 20 × 100 Mbps full‑duplex = 2.' },
+            { text: 'Note limitation — broadcast traffic (ARP, DHCP) still floods all ports; broadcast domain remains one.', faded: true, blankAnswer: 'Collisions are eliminated because each switch port is a.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c12_cs_cbse_01_005', title: 'Unguided transmission media (wireless.',
+          scaffold: { problem: 'A microwave link operates at 6 GHz between two towers 40 km apart. Each tower is 50 m high. Verify if line-of-sight exists.',
+            steps: [
+            { text: 'Recall radio horizon formula for standard atmosphere (k = 4/3): d_LOS (km) = 3.57 × (√h₁ + √h₂) where h₁, h₂ are tower.' },
+            { text: 'Substitute h₁ = h₂ = 50 m: d_LOS = 3.57 × (√50 + √50) = 3.57 × (7.07 + 7.07) = 3.57 × 14.14 ≈ 50.5 km.' },
+            { text: 'Compare with required distance: 40 km < 50.5 km → LOS exists. Link is feasible without additional repeaters.' },
+            { text: 'For minimum height if distance were 60 km: Set 60 = 3.57 × (2√h) → √h = 60 / (2 × 3.57) = 8.40 → h = 70.6 m.' },
+            { text: 'Note: At 6 GHz, Fresnel zone clearance also needed. First Fresnel zone radius at midpoint: r = 0.5 × √(λd/2) where λ =.', faded: true, blankAnswer: 'LOS exists (50.5 km > 40 km). Minimum tower height for 60.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c12_cs_cbse_01_006', title: 'An IPv4 address is a 32-bit logical.',
+          scaffold: { problem: 'A company has been assigned the Class B network address 172.20.0.0.',
+            steps: [
+            { text: 'Identify the class from the first octet (172). Since 128 ≤ 172 ≤ 191, this is a Class B address.' },
+            { text: 'Recall Class B default mask: first two octets are network (16 bits), last two are host → mask = 255.255.0.0 or /16.' },
+            { text: 'Calculate usable hosts: 16 host bits → 2^16 total addresses = 65,536.' },
+            { text: 'Network address = host bits all 0 → 172.20.0.0. Broadcast address = host bits all 1 → 172.20.255.255.' },
+            { text: 'Check 172.20.255.255 — this is the broadcast address (all host bits = 1), so it CANNOT be assigned to a host.', faded: true, blankAnswer: '(a) 255.255.0.0 (/16) (b) 65,534 usable hosts (c) Network:.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c12_cs_cbse_01_008', title: 'The Domain Name System (DNS) is a.',
+          scaffold: { problem: 'Trace the complete DNS resolution process when a user in Mumbai types `https://www.iitb.ac.in` in a browser.',
+            steps: [
+            { text: 'Browser checks its internal cache → miss. OS resolver cache → miss.' },
+            { text: 'Recursive resolver checks its cache → miss. It sends an **iterative query** to a **root nameserver** (e.g.,.' },
+            { text: 'Root nameserver does not know the answer but knows the authoritative servers for the `.in` TLD.' },
+            { text: 'Recursive resolver sends an **iterative query** to a **.in TLD nameserver** (e.g., a.in.nic.in) for `www.iitb.ac.in`.' },
+            { text: '.in TLD nameserver does not have the final answer but knows the authoritative nameservers for `iitb.ac.in`.' },
+            { text: 'Recursive resolver sends an **iterative query** to an **authoritative nameserver for iitb.ac.in** (e.g.,.' },
+            { text: 'Authoritative nameserver holds the zone data for `iitb.ac.in`.' },
+            { text: 'Recursive resolver caches the A record (and any other records received) with the given TTL, then sends the final answer.' },
+            { text: 'Browser receives the IP address (103.237.144.10), establishes a TCP connection to port 443 (HTTPS), and sends the HTTP.', faded: true, blankAnswer: 'The final resolved IP address is 103.237.144.10 (example)..' }
+            ] } },
+        { type: 'dissect', nodeId: 'c12_cs_cbse_01_002', title: 'Identify each idea',
+          dissect: { specimen: 'Computer Networks', spots: [
+            { id: 's1', label: 'A computer network is a', prompt: 'Which idea is this? — A computer network is a collection of interconnected computing devices (nodes) that can.', answer: 'A computer network is a', options: ['A computer network is a', 'A computer network is classified', 'Network devices are hardware components', 'Unguided transmission media wireless media'] },
+            { id: 's2', label: 'A computer network is classified', prompt: 'Which idea is this? — A computer network is classified by its geographical span into four primary types: PAN.', answer: 'A computer network is classified', options: ['A computer network is classified', 'A computer network is a', 'Network devices are hardware components', 'Unguided transmission media wireless media'] },
+            { id: 's3', label: 'Network devices are hardware components', prompt: 'Which idea is this? — Network devices are hardware components that connect computers and other devices to share.', answer: 'Network devices are hardware components', options: ['Network devices are hardware components', 'A computer network is a', 'A computer network is classified', 'Unguided transmission media wireless media'] },
+            { id: 's4', label: 'Unguided transmission media wireless media', prompt: 'Which idea is this? — Unguided transmission media (wireless media) transmit electromagnetic signals through.', answer: 'Unguided transmission media wireless media', options: ['Unguided transmission media wireless media', 'A computer network is a', 'A computer network is classified', 'Network devices are hardware components'] },
+            { id: 's5', label: 'An IPv4 address is a', prompt: 'Which idea is this? — An IPv4 address is a 32-bit logical identifier assigned to each device on a network,.', answer: 'An IPv4 address is a', options: ['An IPv4 address is a', 'A computer network is a', 'A computer network is classified', 'Network devices are hardware components'] },
+            { id: 's6', label: 'The Domain Name System DNS', prompt: 'Which idea is this? — The Domain Name System (DNS) is a hierarchical, decentralized naming system that.', answer: 'The Domain Name System DNS', options: ['The Domain Name System DNS', 'A computer network is a', 'A computer network is classified', 'Network devices are hardware components'] }
+          ] } }
+    ],
+    explore: { component: C12_ComputerScienceComputerNetworksSim, prompt: 'Explore the interactive — Computer Networks' },
+    challenges: [
+        { type: 'subpart', nodeId: 'c12_cs_cbse_01_001', difficulty: 'standard',
+          question: 'A computer network is a collection of interconnected computing devices (nodes).',
+          hint: 'If the student cannot articulate why they would want devices to communicate, revisit the.',
+          misconception: 'Students often equate "computer network" with "the Internet" or "Wi-Fi".',
+          parts: [
+                { id: 'a', prompt: 'What are the three fundamental needs that motivate the creation of a computer network?', answer: 'The three fundamental needs are: (1) Resource sharing',
+                  options: ['The three fundamental needs are: (1) Resource sharing', 'sharing files', 'internet access'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often equate "computer network" with "the Internet" or "Wi-Fi".' },
+                { id: 'b', prompt: 'A student says: "A computer network is just two or more computers connected by a cable." Explain why this definition is incomplete.', answer: 'The definition misses protocols',
+                  options: ['The definition misses protocols', 'protocols', 'communication rules'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often equate "computer network" with "the Internet" or "Wi-Fi".' },
+                { id: 'c', prompt: 'Compare and contrast a standalone computer and a networked computer in terms of: (a) software installation and updates, (b) data backup strategy, (c) failure.', answer: '| Aspect | Standalone Computer | Networked Computer |',
+                  options: ['| Aspect | Standalone Computer | Networked Computer |', 'networked is better in all ways'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often equate "computer network" with "the Internet" or "Wi-Fi".' }
+          ],
+            remediations: { 'students-often-equate-computer-network': { steps: ['If the student exhibits the above misconception: (1) Set up a physical demo: connect two laptops with a single Ethernet.', '(2) Ask: "Is this a network?', 'Why?" Force the student to articulate: nodes, link, protocol (TCP/IP), addressing.', '(3) Revisit the definition: highlight "interconnected", "communicate", "share resources" — N/A require internet.'] } } },
+        { type: 'subpart', nodeId: 'c12_cs_cbse_01_002', difficulty: 'standard',
+          question: 'A computer network is classified by its geographical span into four primary.',
+          hint: 'Revisit the definition and need for computer networks in node c12_cs_cbse_01_001 — focus.',
+          misconception: 'Students frequently believe "Wi-Fi = WAN" because Wi-Fi connects to the internet.',
+          parts: [
+                { id: 'a', prompt: 'A student says: "My home Wi-Fi network connecting my laptop, phone, and smart TV is a WAN because it connects to the internet." Is this statement correct?', answer: 'The statement is incorrect',
+                  options: ['The statement is incorrect', 'accessing the internet', 'being a WAN'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students frequently believe "Wi-Fi = WAN" because Wi-Fi connects to the internet.' },
+                { id: 'b', prompt: 'Analyze this scenario: "A wearable fitness tracker syncs data to a smartphone via Bluetooth. The smartphone uploads the data to a cloud server over 4G.', answer: 'tracker↔phone, (',
+                  options: ['tracker↔phone, (', 'city-wide = MAN', '"city-wide = MAN" but cellular architecture is fundamentally WAN'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students frequently believe "Wi-Fi = WAN" because Wi-Fi connects to the internet.' }
+          ],
+            remediations: { 'students-frequently-believe-wi-fi': { steps: ['Revisit the distance-line activity in the Walkthrough — physically draw 0 m, 10 m, 1 km, 50 km, 1000 km on paper and.', 'For each example, write: who owns the cables/airlink? (you / your school / telecom / multiple telecoms).', 'Watch a 5-minute video on "Metro Ethernet vs. IP VPN" to see provider-owned vs. customer-owned distinction.', 'Re-attempt Diagnostic Questions 2 and 4 — if you still mislabel cellular as MAN, re-read the "cellular architecture =.'] } } },
+        { type: 'subpart', nodeId: 'c12_cs_cbse_01_002', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students frequently believe "Wi-Fi = WAN" because Wi-Fi connects to the internet.',
+          parts: [
+                { id: 'a', prompt: 'Analyze this scenario: "A wearable fitness tracker syncs data to a smartphone via Bluetooth. The smartphone uploads the data to a cloud server over 4G.', answer: 'tracker↔phone, (',
+                  options: ['tracker↔phone, (', 'city-wide = MAN', '"city-wide = MAN" but cellular architecture is fundamentally WAN'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students frequently believe "Wi-Fi = WAN" because Wi-Fi connects to the internet.' }
+          ],
+            remediations: { 'students-frequently-believe-wi-fi': { steps: ['Revisit the distance-line activity in the Walkthrough — physically draw 0 m, 10 m, 1 km, 50 km, 1000 km on paper and.', 'For each example, write: who owns the cables/airlink? (you / your school / telecom / multiple telecoms).', 'Watch a 5-minute video on "Metro Ethernet vs. IP VPN" to see provider-owned vs. customer-owned distinction.', 'Re-attempt Diagnostic Questions 2 and 4 — if you still mislabel cellular as MAN, re-read the "cellular architecture =.'] } } },
+        { type: 'subpart', nodeId: 'c12_cs_cbse_01_003', difficulty: 'standard',
+          question: 'Network devices are hardware components that connect computers and other.',
+          hint: 'Review OSI layer functions: Physical = bits/signals, Data Link = frames/MAC, Network =.',
+          misconception: 'Students often think a switch "routes" packets using IP addresses like a router, or that a router "switches" frames.',
+          parts: [
+                { id: 'a', prompt: 'A school has two separate LANs in different buildings connected by a fibre link.', answer: 'A router should be placed at each end',
+                  options: ['A router should be placed at each end', 'routes', 'switches'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think a switch "routes" packets using IP addresses like a router, or that a router "switches" frames using MAC addresses.' },
+                { id: 'b', prompt: 'A network engineer connects a legacy Token Ring network (using MAC addresses) to a modern Ethernet network (also using MAC addresses) using a device that.', answer: 'A gateway is used',
+                  options: ['A gateway is used', 'router', 'routes'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think a switch "routes" packets using IP addresses like a router, or that a router "switches" frames using MAC addresses.' },
+                { id: 'c', prompt: 'Compare the collision domain and broadcast domain count for a 24‑port hub, a 24‑port switch, and a router with 24 interfaces.', answer: 'Hub: 1 collision domain, 1 broadcast domain',
+                  options: ['Hub: 1 collision domain, 1 broadcast domain', 'switch has 24 broadcast domains', 'routes'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think a switch "routes" packets using IP addresses like a router, or that a router "switches" frames using MAC addresses.' }
+          ],
+            remediations: { 'a-switch-routes-packets-using': { steps: ['Revisit the OSI model layers (Physical, Data Link, Network, Transport, Session, Presentation, Application) and write.', 'Create a comparison table with columns: Device, OSI Layer, Addressing Used, Collision Domains, Broadcast Domains,.', 'Fill it from memory, then check against textbook.', 'Practice 5 scenario questions: "Which device separates broadcast domains?" "Which device extends a 100 m Ethernet cable.'] } } },
+        { type: 'subpart', nodeId: 'c12_cs_cbse_01_003', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think a switch "routes" packets using IP addresses like a router, or that a router "switches" frames.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the statement: "A repeater can be used to connect two different network segments that use different data link protocols (e.g., Ethernet and Wi‑Fi).', answer: 'The statement is false',
+                  options: ['The statement is false', 'routes', 'switches'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think a switch "routes" packets using IP addresses like a router, or that a router "switches" frames using MAC addresses.' }
+          ],
+            remediations: { 'a-switch-routes-packets-using': { steps: ['Revisit the OSI model layers (Physical, Data Link, Network, Transport, Session, Presentation, Application) and write.', 'Create a comparison table with columns: Device, OSI Layer, Addressing Used, Collision Domains, Broadcast Domains,.', 'Fill it from memory, then check against textbook.', 'Practice 5 scenario questions: "Which device separates broadcast domains?" "Which device extends a 100 m Ethernet cable.'] } } },
+        { type: 'subpart', nodeId: 'c12_cs_cbse_01_005', difficulty: 'standard',
+          question: 'Unguided transmission media (wireless media) transmit electromagnetic signals.',
+          hint: 'If stuck, revisit Class 12 Physics Chapter 8 (Electromagnetic Waves) — specifically sky.',
+          misconception: 'Students often believe "higher frequency always means better (faster, longer range) wireless." They write: "Microwave.',
+          parts: [
+                { id: 'a', prompt: 'State the frequency range of microwaves used in terrestrial communication and name the propagation mode they primarily use.', answer: 'Microwaves: 300 MHz – 300 GHz (commonly 1–40 GHz for terrestrial links)',
+                  options: ['Microwaves: 300 MHz – 300 GHz (commonly 1–40 GHz for terrestrial links)', 'microwaves use sky wave propagation', 'higher frequency always means better (faster, longer range) wireless'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe "higher frequency always means better (faster, longer range) wireless." They write: "Microwave is better than radio.' },
+                { id: 'b', prompt: 'A company needs to connect two offices 40 km apart in hilly terrain where laying fiber is impossible.', answer: 'Microwave (6 GHz) is best',
+                  options: ['Microwave (6 GHz) is best', 'higher frequency always means better (faster, longer range) wireless', 'Microwave is better than radio'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe "higher frequency always means better (faster, longer range) wireless." They write: "Microwave is better than radio.' }
+          ],
+            remediations: { 'higher-frequency-always-means-better': { steps: ['Revisit electromagnetic spectrum chart (Class 12 Physics Ch 8 node c12_phy_ch08_001) — locate radio/microwave/IR bands.', 'Draw a table: Frequency Band | Range | Propagation | Typical Use | Range Limit. Fill from NCERT.', 'Watch 5-min animation of ionospheric reflection (sky wave) vs LOS microwave vs satellite geometry.', 'Re-attempt Diagnostic Q3 and Q6 — if still wrong, ask teacher to demonstrate path loss calculator (friis equation) for.'] } } },
+        { type: 'subpart', nodeId: 'c12_cs_cbse_01_005', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often believe "higher frequency always means better (faster, longer range) wireless." They write: "Microwave.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate this statement for a board exam answer: "Infrared waves are used for satellite communication because they have very high frequency and hence high.', answer: 'Incorrect',
+                  options: ['Incorrect', 'high frequency = high bandwidth', 'any high frequency works', 'higher frequency always means better (faster, longer range) wireless'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe "higher frequency always means better (faster, longer range) wireless." They write: "Microwave is better than radio.' },
+                { id: 'b', prompt: 'Design a wireless connectivity plan for a disaster relief camp in a remote valley (no cellular, no fiber).', answer: 'camp-to-HQ 500 km, (',
+                  options: ['camp-to-HQ 500 km, (', 'higher frequency always means better (faster, longer range) wireless', 'Microwave is better than radio', '"higher frequency always means better (faster, longer range) wireless'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe "higher frequency always means better (faster, longer range) wireless." They write: "Microwave is better than radio.' }
+          ],
+            remediations: { 'higher-frequency-always-means-better': { steps: ['Revisit electromagnetic spectrum chart (Class 12 Physics Ch 8 node c12_phy_ch08_001) — locate radio/microwave/IR bands.', 'Draw a table: Frequency Band | Range | Propagation | Typical Use | Range Limit. Fill from NCERT.', 'Watch 5-min animation of ionospheric reflection (sky wave) vs LOS microwave vs satellite geometry.', 'Re-attempt Diagnostic Q3 and Q6 — if still wrong, ask teacher to demonstrate path loss calculator (friis equation) for.'] } } },
+        { type: 'subpart', nodeId: 'c12_cs_cbse_01_006', difficulty: 'standard',
+          question: 'An IPv4 address is a 32-bit logical identifier assigned to each device on a.',
+          hint: 'Review 8-bit binary place values (128, 64, 32, 16, 8, 4, 2, 1) and practice converting.',
+          misconception: 'Students often believe the "class" of an IP address is determined by the subnet mask configured on the interface (e.g.,.',
+          parts: [
+                { id: 'a', prompt: 'What is the maximum decimal value of the first octet in a Class A IPv4 address, and which bit pattern in the first octet defines Class A?', answer: 'The maximum first-octet value for Class A is 127',
+                  options: ['The maximum first-octet value for Class A is 127', 'leading bits 10', 'if I set mask 255.255.255.0 on 10.0.0.1, it becomes Class C'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe the "class" of an IP address is determined by the subnet mask configured on the interface (e.g., "if I set mask.' },
+                { id: 'b', prompt: 'A student writes: "The IP address 172.16.255.255 is a Class B broadcast address." Is this statement correct? Explain why or why not.', answer: 'The statement is incorrect',
+                  options: ['The statement is incorrect', 'incorrect', 'if I set mask 255.255.255.0 on 10.0.0.1, it becomes Class C'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe the "class" of an IP address is determined by the subnet mask configured on the interface (e.g., "if I set mask.' },
+                { id: 'c', prompt: 'Given the IPv4 address 203.0.113.45, determine: (a) its class, (b) default subnet mask in dotted-decimal and CIDR notation, (c) network address, (d) broadcast.', answer: 'its class, (',
+                  options: ['its class, (', 'Class B', '/16 mask'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe the "class" of an IP address is determined by the subnet mask configured on the interface (e.g., "if I set mask.' }
+          ],
+            remediations: { 'the-class-of-an-ip': { steps: ['Have the student write the binary of first octets 10, 130, 200, 224, 240 and circle the leading bits.', 'Ask them to map each leading-bit pattern to its class name and first-octet decimal range using a 3-column table.', 'Give 5 addresses (e.g., 10.1.1.1, 128.0.0.1, 191.255.255.255, 192.168.0.1, 239.255.255.255) and have them classify each.', 'Re-diagnose with: "Classify 172.31.255.255 and state its default mask." — if they answer Class B / 255.255.0.0, the fix.'] } } },
+        { type: 'subpart', nodeId: 'c12_cs_cbse_01_006', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often believe the "class" of an IP address is determined by the subnet mask configured on the interface (e.g.,.',
+          parts: [
+                { id: 'a', prompt: 'Design a Class C network addressing scheme for a small office with 4 departments, each needing up to 30 hosts. You may only use ONE Class C network address.', answer: 'A single Class C network (e.g., 192.168.1.0/24) has only 254 usable hosts total',
+                  options: ['A single Class C network (e.g., 192.168.1.0/24) has only 254 usable hosts total', 'just use 4 Class C networks', 'only ONE Class C address', 'change mask to /27 for each'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe the "class" of an IP address is determined by the subnet mask configured on the interface (e.g., "if I set mask.' }
+          ],
+            remediations: { 'the-class-of-an-ip': { steps: ['Have the student write the binary of first octets 10, 130, 200, 224, 240 and circle the leading bits.', 'Ask them to map each leading-bit pattern to its class name and first-octet decimal range using a 3-column table.', 'Give 5 addresses (e.g., 10.1.1.1, 128.0.0.1, 191.255.255.255, 192.168.0.1, 239.255.255.255) and have them classify each.', 'Re-diagnose with: "Classify 172.31.255.255 and state its default mask." — if they answer Class B / 255.255.0.0, the fix.'] } } },
+        { type: 'subpart', nodeId: 'c12_cs_cbse_01_008', difficulty: 'standard',
+          question: 'The Domain Name System (DNS) is a hierarchical, decentralized naming system.',
+          hint: 'Revisit **c12_cs_cbse_01_006** (IPv4 Format and Classes) and **c12_cs_cbse_01_007** (IPv6.',
+          misconception: 'Students often believe that a DNS lookup always returns a single IPv4 address (A record).',
+          parts: [
+                { id: 'a', prompt: 'What does DNS stand for, and what is its primary function in computer networks?', answer: 'DNS stands for Domain Name System',
+                  options: ['DNS stands for Domain Name System', 'DNS assigns IP addresses', 'DNS routes packets'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe that a DNS lookup always returns a single IPv4 address (A record).' },
+                { id: 'b', prompt: 'Given the URL `https://user:pass@www.example.com:8080/path/to/resource?query=value#fragment`, identify each of the six standard URL components and state the.', answer: 'Components: scheme=`https`, authority=`user:pass@www.example.com:8080`',
+                  options: ['Components: scheme=`https`, authority=`user:pass@www.example.com:8080`', 'the DNS resolves the URL', 'DNS resolves the host part of the URL'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe that a DNS lookup always returns a single IPv4 address (A record).' }
+          ],
+            remediations: { 'a-dns-lookup-always-returns': { steps: ['Revisit the DNS hierarchy by drawing a tree: root (.) → TLD (.com, .in) → second-level (example) → subdomains (www,.', 'Label each node with the responsible nameserver.', 'Practice URL parsing: take 5 complex URLs (with userinfo, port, query, fragment) and fill a table with the six.', 'Create flashcards for each DNS record type (A, AAAA, CNAME, MX, NS, TXT) with one-line purpose and example.'] } } },
+        { type: 'subpart', nodeId: 'c12_cs_cbse_01_008', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often believe that a DNS lookup always returns a single IPv4 address (A record).',
+          parts: [
+                { id: 'a', prompt: 'A website changes its hosting provider and thus its IP address every week. The administrator sets the TTL of the A record to 86400 seconds (1 day).', answer: 'The TTL of 86400 seconds is **too high** for weekly IP changes',
+                  options: ['The TTL of 86400 seconds is **too high** for weekly IP changes', 'high TTL is always better for performance', 'the DNS resolves the URL', 'DNS resolves the host part of the URL'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe that a DNS lookup always returns a single IPv4 address (A record).' }
+          ],
+            remediations: { 'a-dns-lookup-always-returns': { steps: ['Revisit the DNS hierarchy by drawing a tree: root (.) → TLD (.com, .in) → second-level (example) → subdomains (www,.', 'Label each node with the responsible nameserver.', 'Practice URL parsing: take 5 complex URLs (with userinfo, port, query, fragment) and fill a table with the six.', 'Create flashcards for each DNS record type (A, AAAA, CNAME, MX, NS, TXT) with one-line purpose and example.'] } } }
+    ],
+    reflect: { prompts: ['What did the interactive reveal?', 'Where can this idea go wrong?'] },
+    successLine: 'Mastered! 🌟', tryAgainLine: 'Revisit the simulation, then retry.',
+};

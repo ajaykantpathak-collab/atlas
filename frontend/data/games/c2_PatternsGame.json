@@ -1,0 +1,646 @@
+{
+  "gameFile": "PatternsGame",
+  "classLevel": 2,
+  "cisceNodes": [
+    "c2_math_024",
+    "c2_math_025",
+    "c2_math_026",
+    "c2_math_027"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "What is a Pattern? 🎨",
+      "text": "A pattern is a sequence of shapes or colours that follows a rule! The same small group comes back again and again in the exact same order!",
+      "emoji": "🎨",
+      "bgColor": "from-pink-400 to-rose-500",
+      "spoken": "A pattern is a sequence of shapes or colours that follows a rule! The same small group comes back again and again in the exact same order!",
+      "diagram": {
+        "type": "pattern-builder",
+        "animate": true,
+        "data": {
+          "pattern": [
+            "red",
+            "blue",
+            "red",
+            "blue"
+          ],
+          "missingIndex": 3
+        }
+      }
+    },
+    {
+      "title": "The Unit of Repeat 🔄",
+      "text": "The smallest block that repeats to build the whole pattern is called the unit of repeat! In red, blue, red, blue, the unit is red and blue!",
+      "emoji": "🔄",
+      "bgColor": "from-purple-400 to-indigo-500",
+      "spoken": "The smallest block that repeats to build the whole pattern is called the unit of repeat!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Extending Patterns ➡️",
+      "text": "To extend a pattern, you find the unit of repeat and copy it again and again! After red and yellow comes red, then yellow!",
+      "emoji": "➡️",
+      "bgColor": "from-blue-400 to-cyan-500",
+      "spoken": "To extend a pattern, you find the unit of repeat and copy it again and again!",
+      "diagram": {
+        "type": "pattern-builder",
+        "animate": true,
+        "data": {
+          "pattern": [
+            "red",
+            "blue",
+            "red",
+            "blue"
+          ],
+          "missingIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Daily Life Patterns 🏠",
+      "text": "Patterns are everywhere around us! Floor tiles, sari borders, necklaces, and even the days of the week from Monday to Sunday follow repeating patterns!",
+      "emoji": "🏠",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "Patterns are everywhere around us! Floor tiles, sari borders, necklaces, and days of the week follow repeating patterns!",
+      "diagram": {
+        "type": "pattern-builder",
+        "animate": true,
+        "data": {
+          "pattern": [
+            "red",
+            "blue",
+            "red",
+            "blue"
+          ],
+          "missingIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Simple Graphs & Charts 📊",
+      "text": "A graph is a picture that shows information clearly! On a bar graph, the tallest bar shows the most popular item, and the shortest bar shows the least!",
+      "emoji": "📊",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "A graph is a picture that shows information clearly! The tallest bar shows the most, and the shortest bar shows the least!",
+      "diagram": {
+        "type": "bar-chart",
+        "animate": true,
+        "data": {
+          "bars": [
+            {
+              "label": "A",
+              "value": 30
+            },
+            {
+              "label": "B",
+              "value": 50
+            },
+            {
+              "label": "C",
+              "value": 40
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What comes next in the pattern: Red, Blue, Red, Blue, Red, ___?",
+      "answer": "Blue",
+      "options": [
+        "Blue",
+        "Red",
+        "Yellow"
+      ],
+      "hint": "Look at the repeating pair: Red, Blue! After Red comes...?",
+      "misconception": "The unit is Red-Blue! After Red, the next item in the repeating pair is always Blue!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Blue",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Red",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Yellow",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Red",
+          "Blue"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "What is the UNIT OF REPEAT in: Circle, Square, Triangle, Circle, Square, Triangle...?",
+      "answer": "Circle, Square, Triangle",
+      "options": [
+        "Circle, Square, Triangle",
+        "Circle, Square",
+        "Just Circle"
+      ],
+      "hint": "Find the shortest block that repeats without missing any shape!",
+      "misconception": "The unit must include all shapes in order! Circle, Square, Triangle is the smallest block that rebuilds the whole pattern!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Circle, Square, Triangle",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Circle, Square",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Just Circle",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Circle, Square, Triangle",
+          "Circle, Square"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag the right beads to extend the pattern: Red, Yellow, Red, Yellow, Red, ___, ___",
+      "answer": "sort",
+      "options": [],
+      "hint": "The unit is Red-Yellow! Keep repeating Red then Yellow!",
+      "misconception": "Always copy the full unit in order! After Red comes Yellow, then Red again!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. The unit is Red-Yellow! Keep repeating Red then Yellow!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "bead-y",
+          "kind": "circle",
+          "label": "Yellow Bead",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-1",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-1"
+        },
+        {
+          "id": "bead-r",
+          "kind": "circle",
+          "label": "Red Bead",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-2"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "bead-y",
+          "label": "Yellow Bead",
+          "emoji": "",
+          "correctBin": "bin-1"
+        },
+        {
+          "id": "bead-r",
+          "label": "Red Bead",
+          "emoji": "",
+          "correctBin": "bin-2"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-1",
+          "label": "Next (6th)",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-2",
+          "label": "Then (7th)",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "graph_read",
+      "question": "On a bar graph of favourite fruits, what does the TALLEST bar show?",
+      "answer": "The most popular fruit",
+      "options": [
+        "The most popular fruit",
+        "The least popular fruit",
+        "Nothing at all"
+      ],
+      "hint": "Tallest bar means highest number of votes! Which fruit did the most children choose?",
+      "misconception": "The tallest bar always shows the item with the most votes (most popular)! The shortest bar shows the least!",
+      "storyBeat": "inciting",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "The most popular fruit",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The least popular fruit",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Nothing at all",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "The least popular fruit",
+          "The most popular fruit"
+        ]
+      }
+    },
+    {
+      "type": "sort",
+      "question": "Complete the repeating pattern: Star, Star, Circle, Star, Star, Circle, Star, ___, ___",
+      "answer": "sort",
+      "options": [],
+      "hint": "The unit is Star-Star-Circle! After one Star, what comes next?",
+      "misconception": "The unit is three items long: Star, Star, Circle! After a single Star, you need another Star and then a Circle!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. The unit is Star-Star-Circle! After one Star, what comes next?"
+      },
+      "interactiveObjects": [
+        {
+          "id": "star-item",
+          "kind": "star",
+          "label": "Star",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#ffd700",
+          "category": "bin-star",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-star"
+        },
+        {
+          "id": "circle-item",
+          "kind": "circle",
+          "label": "Circle",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-circle",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-circle"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "star-item",
+          "label": "Star",
+          "emoji": "",
+          "correctBin": "bin-star"
+        },
+        {
+          "id": "circle-item",
+          "label": "Circle",
+          "emoji": "",
+          "correctBin": "bin-circle"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-star",
+          "label": "Next Item (8th)",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin-circle",
+          "label": "Following (9th)",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of these is a valid repeating pattern from daily life?",
+      "answer": "Floor tiles: Square, Triangle, Square, Triangle",
+      "options": [
+        "Floor tiles: Square, Triangle, Square, Triangle",
+        "Random scattered leaves on ground",
+        "A blank white wall"
+      ],
+      "hint": "A pattern has a regular repeating order, like alternating floor tiles!",
+      "misconception": "Floor tiles alternate in a strict repeating order! Random scattered leaves have no fixed unit of repeat.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Floor tiles: Square, Triangle, Square, Triangle",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Random scattered leaves on ground",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A blank white wall",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Random scattered leaves on ground",
+          "Floor tiles: Square, Triangle, Square, Triangle"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Arrange the sequence of days in a weekly repeating cycle!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Monday comes first in the school week! What comes after Monday?",
+      "misconception": "Days of the week follow a fixed cycle: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, then it repeats!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. Monday comes first in the school week! What comes after Monday?"
+      },
+      "interactiveObjects": [
+        {
+          "id": "tue",
+          "kind": "circle",
+          "label": "Tuesday",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-tue",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-tue"
+        },
+        {
+          "id": "wed",
+          "kind": "circle",
+          "label": "Wednesday",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-wed",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-wed"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tue",
+          "label": "Tuesday",
+          "emoji": "",
+          "correctBin": "bin-tue"
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday",
+          "emoji": "",
+          "correctBin": "bin-wed"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-tue",
+          "label": "After Monday",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-wed",
+          "label": "After Tuesday",
+          "color": "#EAB308"
+        }
+      ]
+    },
+    {
+      "type": "graph_read",
+      "question": "Favourite Fruits Graph: Apple has 5 votes (tallest), Mango 4, Banana 3, Orange 2 (shortest). Which fruit has the LEAST votes?",
+      "answer": "Orange",
+      "options": [
+        "Orange",
+        "Apple",
+        "Mango"
+      ],
+      "hint": "Look for the shortest bar on the graph! Shortest bar = least votes.",
+      "misconception": "The shortest bar represents the fewest votes (least popular)! Here Orange has only 2 votes, making it the shortest bar.",
+      "storyBeat": "resolution",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Orange",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Apple",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Mango",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Apple",
+          "Orange"
+        ]
+      }
+    }
+  ],
+  "theme": "art",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c2_math_024",
+    "region": "Mathland",
+    "mapX": 0.6,
+    "mapY": 0.35,
+    "icon": "🔢",
+    "prerequisites": [
+      "c2_math_025"
+    ]
+  },
+  "subject": "maths"
+}

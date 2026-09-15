@@ -1,0 +1,962 @@
+{
+  "gameFile": "DecimalsGame",
+  "classLevel": 5,
+  "cisceNodes": [
+    "c5_math_022",
+    "c5_math_023",
+    "c5_math_024",
+    "c5_math_025",
+    "c5_math_026",
+    "c5_math_027",
+    "c5_math_028",
+    "c5_math_029",
+    "c5_math_030",
+    "c5_math_031",
+    "c5_math_032"
+  ],
+  "mascot": "Shopkeeper Ravi — a friendly shopkeeper with a calculator,",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Welcome to Ravi's Shop! 🏪",
+      "text": "Shopkeeper Ravi uses decimals every day — pricing items, calculating totals, and giving change! Decimals are fractions with denominators 10, 100, or 1000. Let's learn decimals through shopping!",
+      "emoji": "🏪",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Welcome to Ravi's Shop! Today we learn decimals through shopping — fractions with denominators 10, 100, or 1000. Let's explore decimal place value, operations, and more!",
+      "diagram": {
+        "type": "fraction-bar",
+        "animate": true,
+        "data": {
+          "numerator": 3,
+          "denominator": 4
+        }
+      }
+    },
+    {
+      "title": "Decimal Place Value 📊",
+      "text": "In 3.245: 3 is ones, 2 is tenths (2/10), 4 is hundredths (4/100), 5 is thousandths (5/1000). Each place to the right of the decimal point is 1/10 of the previous place. Expanded form: 3 + 0.2 + 0.04 + 0.005.",
+      "emoji": "📊",
+      "bgColor": "from-emerald-500 to-teal-600",
+      "spoken": "In 3.245, 3 is ones, 2 is tenths, 4 is hundredths, and 5 is thousandths. Each place to the right is one-tenth of the previous place. Expanded form breaks it into 3 plus 0.2 plus 0.04 plus 0.005.",
+      "diagram": {
+        "type": "place-value-chart",
+        "animate": true,
+        "data": {
+          "columns": [
+            "Ones",
+            "Tenths",
+            "Hundredths"
+          ],
+          "digits": [
+            "3",
+            "5",
+            "2"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Comparing & Ordering Decimals 🔍",
+      "text": "To compare decimals, align the decimal points and compare digit by digit from left to right. 0.5 = 0.50 (trailing zeros don't change value). To order: 0.3, 0.25, 0.348 → 0.25, 0.3, 0.348 (ascending). Always compare the same place values!",
+      "emoji": "🔍",
+      "bgColor": "from-purple-500 to-pink-600",
+      "spoken": "To compare decimals, align decimal points and compare digit by digit from left to right. Trailing zeros don't change the value — 0.5 equals 0.50. To order decimals, compare place values carefully!",
+      "diagram": {
+        "type": "place-value-chart",
+        "animate": true,
+        "data": {
+          "columns": [
+            "Crores",
+            "Lakhs",
+            "Thousands",
+            "Ones"
+          ],
+          "digits": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Adding & Subtracting Decimals ➕➖",
+      "text": "Always align decimal points! Write numbers so decimal points are in a column. Add zeros as placeholders if needed. 3.45 + 2.3 = 3.45 + 2.30 = 5.75. For subtraction: 5.00 - 2.75 = 2.25. Word problems use money and measurements!",
+      "emoji": "➕",
+      "bgColor": "from-orange-500 to-red-600",
+      "spoken": "Always align decimal points when adding or subtracting! Write numbers so decimal points line up in a column. Add zeros as placeholders if needed. Word problems often use money and measurements.",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "apple"
+        }
+      }
+    },
+    {
+      "title": "Multiplying Decimals ✖️",
+      "text": "Multiply as usual, then count decimal places in both numbers and place the decimal point in the product. 2.5 × 3 = 7.5 (one decimal place). Multiplying by 10 shifts the decimal right one place: 2.5 × 10 = 25. By 100: 2.5 × 100 = 250!",
+      "emoji": "✖️",
+      "bgColor": "from-cyan-500 to-blue-600",
+      "spoken": "Multiply as usual, then count decimal places in both numbers and place the decimal point in the product. Multiplying by 10 shifts the decimal right one place. By 100, it shifts two places!",
+      "diagram": {
+        "type": "bar-chart",
+        "animate": true,
+        "data": {
+          "bars": [
+            {
+              "label": "1×3",
+              "value": 3
+            },
+            {
+              "label": "2×3",
+              "value": 6
+            },
+            {
+              "label": "3×3",
+              "value": 9
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is the fraction form of 0.25?",
+      "answer": "25/100",
+      "options": [
+        "25/10",
+        "25/100",
+        "25/1000",
+        "1/25"
+      ],
+      "hint": "0.25 has two digits after the decimal point, so the denominator is 100. The numerator is 25.",
+      "misconception": "0.25 means 25 hundredths. Count the digits after the decimal point — there are 2, so the denominator is 100 (not 10 or 1000). Therefore 0.25 = 25/100 = 1/4. The number of decimal places tells you the denominator!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "pizza",
+          "label": "25/10",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ffd700",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "pizza",
+          "label": "25/100",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ffd700",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "pizza",
+          "label": "25/1000",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ffd700",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "pizza",
+          "label": "1/25",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ffd700",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "25/100",
+          "25/10"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each decimal to its correct place value description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "In 3.245: 3=ones, 2=tenths, 4=hundredths, 5=thousandths. Each place is 1/10 of the previous.",
+      "misconception": "In 3.245: the 3 is in the ones place, the 2 is in the tenths place (2/10), the 4 is in the hundredths place (4/100), and the 5 is in the thousandths place (5/1000). Each place to the right of the decimal is one-tenth of the previous place!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "pv1",
+            "label": "3 in 3.245",
+            "correctBin": "ones"
+          },
+          {
+            "id": "pv2",
+            "label": "2 in 3.245",
+            "correctBin": "tenths"
+          },
+          {
+            "id": "pv3",
+            "label": "4 in 3.245",
+            "correctBin": "hundredths"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "pv1",
+          "kind": "circle",
+          "label": "3 in 3.245",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "ones",
+          "interaction": "drag-to-bin",
+          "targetBin": "ones"
+        },
+        {
+          "id": "pv2",
+          "kind": "circle",
+          "label": "2 in 3.245",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "tenths",
+          "interaction": "drag-to-bin",
+          "targetBin": "tenths"
+        },
+        {
+          "id": "pv3",
+          "kind": "circle",
+          "label": "4 in 3.245",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "hundredths",
+          "interaction": "drag-to-bin",
+          "targetBin": "hundredths"
+        },
+        {
+          "id": "pv4",
+          "kind": "circle",
+          "label": "5 in 3.245",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "thousandths",
+          "interaction": "drag-to-bin",
+          "targetBin": "thousandths"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "pv1",
+          "label": "3 in 3.245",
+          "emoji": "",
+          "correctBin": "ones"
+        },
+        {
+          "id": "pv2",
+          "label": "2 in 3.245",
+          "emoji": "",
+          "correctBin": "tenths"
+        },
+        {
+          "id": "pv3",
+          "label": "4 in 3.245",
+          "emoji": "",
+          "correctBin": "hundredths"
+        },
+        {
+          "id": "pv4",
+          "label": "5 in 3.245",
+          "emoji": "",
+          "correctBin": "thousandths"
+        }
+      ],
+      "bins": [
+        {
+          "id": "ones",
+          "label": "Ones",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "tenths",
+          "label": "Tenths",
+          "color": "#10B981"
+        },
+        {
+          "id": "hundredths",
+          "label": "Hundredths",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "thousandths",
+          "label": "Thousandths",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is the expanded form of 4.506?",
+      "answer": "4 + 0.5 + 0.006",
+      "options": [
+        "4 + 0.5 + 0.006",
+        "4 + 0.05 + 0.006",
+        "4 + 5 + 6",
+        "4.5 + 0.06"
+      ],
+      "hint": "Break each digit by its place value: 4 ones, 5 tenths (0.5), 0 hundredths (0.00), 6 thousandths (0.006).",
+      "misconception": "Expanded form breaks each digit by its place value! In 4.506: 4 is ones (4), 5 is tenths (0.5), 0 is hundredths (0.00), 6 is thousandths (0.006). So 4.506 = 4 + 0.5 + 0.00 + 0.006 = 4 + 0.5 + 0.006. Don't forget the zero in hundredths place!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "4 + 0.5 + 0.006",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "4 + 0.05 + 0.006",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "4 + 5 + 6",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "4.5 + 0.06",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "4 + 0.5 + 0.006",
+          "4 + 0.05 + 0.006"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each decimal to its correct order position (ascending: smallest to largest)!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Compare decimals digit by digit from left. 0.25 < 0.3 < 0.348 < 0.4. Align decimal points!",
+      "misconception": "To order decimals, compare digit by digit from left to right. 0.25 (25 hundredths), 0.3 (30 hundredths), 0.348 (348 thousandths), 0.4 (40 hundredths). Ascending order: 0.25, 0.3, 0.348, 0.4. Don't just compare the number of digits — compare place values!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "o1",
+            "label": "0.25",
+            "correctBin": "pos-1"
+          },
+          {
+            "id": "o2",
+            "label": "0.3",
+            "correctBin": "pos-2"
+          },
+          {
+            "id": "o3",
+            "label": "0.348",
+            "correctBin": "pos-3"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "o1",
+          "kind": "circle",
+          "label": "0.25",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pos-1",
+          "interaction": "drag-to-bin",
+          "targetBin": "pos-1"
+        },
+        {
+          "id": "o2",
+          "kind": "circle",
+          "label": "0.3",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pos-2",
+          "interaction": "drag-to-bin",
+          "targetBin": "pos-2"
+        },
+        {
+          "id": "o3",
+          "kind": "circle",
+          "label": "0.348",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pos-3",
+          "interaction": "drag-to-bin",
+          "targetBin": "pos-3"
+        },
+        {
+          "id": "o4",
+          "kind": "circle",
+          "label": "0.4",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pos-4",
+          "interaction": "drag-to-bin",
+          "targetBin": "pos-4"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "o1",
+          "label": "0.25",
+          "emoji": "",
+          "correctBin": "pos-1"
+        },
+        {
+          "id": "o2",
+          "label": "0.3",
+          "emoji": "",
+          "correctBin": "pos-2"
+        },
+        {
+          "id": "o3",
+          "label": "0.348",
+          "emoji": "",
+          "correctBin": "pos-3"
+        },
+        {
+          "id": "o4",
+          "label": "0.4",
+          "emoji": "",
+          "correctBin": "pos-4"
+        }
+      ],
+      "bins": [
+        {
+          "id": "pos-1",
+          "label": "Smallest",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "pos-2",
+          "label": "2nd",
+          "color": "#10B981"
+        },
+        {
+          "id": "pos-3",
+          "label": "3rd",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "pos-4",
+          "label": "Largest",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Ravi bought vegetables for ₹45.75 and fruits for ₹32.50. What is the total cost?",
+      "answer": "₹78.25",
+      "options": [
+        "₹78.25",
+        "₹77.25",
+        "₹78.75",
+        "₹77.125"
+      ],
+      "hint": "Align decimal points: 45.75 + 32.50. Add column by column: 75+50=125 (carry 1), 45+32+1=78. Total = 78.25.",
+      "misconception": "Always align decimal points when adding decimals! 45.75 + 32.50: hundredths 5+0=5, tenths 7+5=12 (write 2, carry 1), ones 5+2+1=8, tens 4+3=7. Total = ₹78.25. Never add without aligning the decimal points — that gives wrong answers!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "₹78.25",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "₹77.25",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "₹78.75",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "₹77.125",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "₹78.25",
+          "₹77.25"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each addition/subtraction problem to its correct result!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Align decimal points! Add zeros as placeholders. 3.45 + 2.3 = 3.45 + 2.30 = 5.75.",
+      "misconception": "Always align decimal points! 3.45 + 2.3 = 3.45 + 2.30 = 5.75 (add zero as placeholder). 7.00 - 3.45 = 3.55 (borrow as needed). 12.6 + 4.85 = 12.60 + 4.85 = 17.45. 10.00 - 6.25 = 3.75. Never add decimals without aligning the decimal points!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "a1",
+            "label": "3.45 + 2.3",
+            "correctBin": "r-5-75"
+          },
+          {
+            "id": "a2",
+            "label": "7.00 - 3.45",
+            "correctBin": "r-3-55"
+          },
+          {
+            "id": "a3",
+            "label": "12.6 + 4.85",
+            "correctBin": "r-17-45"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "a1",
+          "kind": "circle",
+          "label": "3.45 + 2.3",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "r-5-75",
+          "interaction": "drag-to-bin",
+          "targetBin": "r-5-75"
+        },
+        {
+          "id": "a2",
+          "kind": "circle",
+          "label": "7.00 - 3.45",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "r-3-55",
+          "interaction": "drag-to-bin",
+          "targetBin": "r-3-55"
+        },
+        {
+          "id": "a3",
+          "kind": "circle",
+          "label": "12.6 + 4.85",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "r-17-45",
+          "interaction": "drag-to-bin",
+          "targetBin": "r-17-45"
+        },
+        {
+          "id": "a4",
+          "kind": "circle",
+          "label": "10.00 - 6.25",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "r-3-75",
+          "interaction": "drag-to-bin",
+          "targetBin": "r-3-75"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "a1",
+          "label": "3.45 + 2.3",
+          "emoji": "",
+          "correctBin": "r-5-75"
+        },
+        {
+          "id": "a2",
+          "label": "7.00 - 3.45",
+          "emoji": "",
+          "correctBin": "r-3-55"
+        },
+        {
+          "id": "a3",
+          "label": "12.6 + 4.85",
+          "emoji": "",
+          "correctBin": "r-17-45"
+        },
+        {
+          "id": "a4",
+          "label": "10.00 - 6.25",
+          "emoji": "",
+          "correctBin": "r-3-75"
+        }
+      ],
+      "bins": [
+        {
+          "id": "r-5-75",
+          "label": "5.75",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "r-3-55",
+          "label": "3.55",
+          "color": "#10B981"
+        },
+        {
+          "id": "r-17-45",
+          "label": "17.45",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "r-3-75",
+          "label": "3.75",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is 2.5 × 10? (Multiply by power of 10)",
+      "answer": "25",
+      "options": [
+        "25",
+        "2.50",
+        "250",
+        "0.25"
+      ],
+      "hint": "Multiplying by 10 shifts the decimal point one place to the RIGHT. 2.5 → 25.0 = 25.",
+      "misconception": "Multiplying by 10 shifts the decimal point one place to the RIGHT! 2.5 × 10 = 25 (decimal moves right one place). By 100, it moves two places: 2.5 × 100 = 250. By 1000, three places: 2.5 × 1000 = 2500. The decimal moves RIGHT by the number of zeros in the multiplier!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "25",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "2.50",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "250",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "0.25",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "25",
+          "2.50"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each multiplication problem to its correct product!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Multiply normally, then count total decimal places in both numbers and place the decimal in the product.",
+      "misconception": "Multiply as whole numbers, then count decimal places! 2.5 × 3 = 7.5 (1 decimal place). 0.4 × 0.5 = 0.20 = 0.2 (2 decimal places). 1.2 × 1.5 = 1.80 = 1.8 (2 decimal places). 3.25 × 4 = 13.00 = 13 (2 decimal places, but trailing zeros removed). Count decimal places in both factors!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "m1",
+            "label": "2.5 × 3",
+            "correctBin": "p-7-5"
+          },
+          {
+            "id": "m2",
+            "label": "0.4 × 0.5",
+            "correctBin": "p-0-2"
+          },
+          {
+            "id": "m3",
+            "label": "1.2 × 1.5",
+            "correctBin": "p-1-8"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "m1",
+          "kind": "circle",
+          "label": "2.5 × 3",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "p-7-5",
+          "interaction": "drag-to-bin",
+          "targetBin": "p-7-5"
+        },
+        {
+          "id": "m2",
+          "kind": "circle",
+          "label": "0.4 × 0.5",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "p-0-2",
+          "interaction": "drag-to-bin",
+          "targetBin": "p-0-2"
+        },
+        {
+          "id": "m3",
+          "kind": "circle",
+          "label": "1.2 × 1.5",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "p-1-8",
+          "interaction": "drag-to-bin",
+          "targetBin": "p-1-8"
+        },
+        {
+          "id": "m4",
+          "kind": "circle",
+          "label": "3.25 × 4",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "p-13",
+          "interaction": "drag-to-bin",
+          "targetBin": "p-13"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "m1",
+          "label": "2.5 × 3",
+          "emoji": "",
+          "correctBin": "p-7-5"
+        },
+        {
+          "id": "m2",
+          "label": "0.4 × 0.5",
+          "emoji": "",
+          "correctBin": "p-0-2"
+        },
+        {
+          "id": "m3",
+          "label": "1.2 × 1.5",
+          "emoji": "",
+          "correctBin": "p-1-8"
+        },
+        {
+          "id": "m4",
+          "label": "3.25 × 4",
+          "emoji": "",
+          "correctBin": "p-13"
+        }
+      ],
+      "bins": [
+        {
+          "id": "p-7-5",
+          "label": "7.5",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "p-0-2",
+          "label": "0.2",
+          "color": "#10B981"
+        },
+        {
+          "id": "p-1-8",
+          "label": "1.8",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "p-13",
+          "label": "13",
+          "color": "#8B5CF6"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_math_022",
+    "region": "Mathland",
+    "mapX": 0.98,
+    "mapY": 1.07,
+    "icon": "🔢",
+    "prerequisites": [
+      "c5_math_023"
+    ]
+  },
+  "subject": "maths"
+}

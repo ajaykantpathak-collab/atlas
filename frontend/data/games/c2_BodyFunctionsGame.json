@@ -1,0 +1,814 @@
+{
+  "gameFile": "BodyFunctionsGame",
+  "classLevel": 2,
+  "cisceNodes": [
+    "c2_bio_001"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Meet Your Body! 👋",
+      "text": "Your body is made of many outside parts! Legs help you walk and run. Hands help you hold a pencil, lift a lunch box, and wave to friends!",
+      "emoji": "🏃",
+      "bgColor": "from-pink-400 to-rose-500",
+      "spoken": "Your body is made of many outside parts! Legs help you walk and run. Hands help you hold a pencil and wave to friends!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 0
+        }
+      }
+    },
+    {
+      "title": "The Five Sense Organs! 👀",
+      "text": "You have five wonderful sense organs! Eyes help you see, ears help you hear, nose helps you smell, tongue helps you taste, and skin helps you feel!",
+      "emoji": "👁️",
+      "bgColor": "from-blue-450 to-indigo-500",
+      "spoken": "You have five wonderful sense organs! Eyes help you see, ears help you hear, nose helps you smell, tongue helps you taste, and skin helps you feel!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 1
+        }
+      }
+    },
+    {
+      "title": "Special Jobs for Every Part! 🧠",
+      "text": "Each body part has its own special job. Never confuse them! Eyes are for seeing, ears are for hearing. Hands hold things, and legs walk!",
+      "emoji": "🎯",
+      "bgColor": "from-teal-400 to-cyan-500",
+      "spoken": "Each body part has its own special job. Eyes are for seeing, ears are for hearing. Hands hold things, and legs walk!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Keep Clean and Healthy! 🧼",
+      "text": "Take care of your body! Brush teeth every morning, wash hands before eating, and keep sharp objects away from your ears!",
+      "emoji": "🦷",
+      "bgColor": "from-emerald-400 to-green-500",
+      "spoken": "Take care of your body! Brush teeth every morning, wash hands before eating, and keep sharp objects away from your ears!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Protect Your Sense Organs! 💧",
+      "text": "Wash eyes with clean water only — never soap! Cover your nose with a clean handkerchief when dust blows, and stay away from very loud sounds!",
+      "emoji": "🛡️",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Wash eyes with clean water only, never soap! Cover your nose with a handkerchief in dust, and stay away from loud sounds!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_func",
+      "question": "What do our EYES help us do?",
+      "answer": "See pictures and colours",
+      "options": [
+        "See pictures and colours",
+        "Hear school bell",
+        "Smell jasmine flowers"
+      ],
+      "hint": "Think: what do you use when looking at the blackboard or reading a book?",
+      "misconception": "Eyes are the sense organs of sight! They work like a camera to take pictures of everything we see. Ears are for hearing and nose is for smelling!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "See pictures and colours",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Hear school bell",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Smell jasmine flowers",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "See pictures and colours",
+          "Hear school bell"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_func",
+      "question": "What do our LEGS help us do?",
+      "answer": "Walk and run",
+      "options": [
+        "Walk and run",
+        "Hold a pencil",
+        "Taste mangoes"
+      ],
+      "hint": "Legs are our long lower limbs that support us as we move across the room!",
+      "misconception": "Legs help us to walk, run, jump, and stand still! Hands are used for holding pencils and lifting things, not legs!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Walk and run",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Hold a pencil",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Taste mangoes",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Hold a pencil",
+          "Walk and run"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_func",
+      "question": "What do our HANDS help us do?",
+      "answer": "Hold and write",
+      "options": [
+        "Hold and write",
+        "Walk to school",
+        "Hear train whistles"
+      ],
+      "hint": "Hands are upper limbs used for holding a pencil, eating, and waving to friends!",
+      "misconception": "Hands help us to hold things and write! Walking is done by our legs, and hearing is done by our ears!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Hold and write",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Walk to school",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Hear train whistles",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Walk to school",
+          "Hold and write"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_organs",
+      "question": "Drag each sense organ to its correct function!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Eyes see, ears hear, nose smells, tongue tastes, skin feels!",
+      "misconception": "Each sense organ has only one main job! Do not mix up smell and taste, or eyes and ears. Eyes see, ears hear, nose smells, tongue tastes, skin feels!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "eye-item",
+            "label": "Eyes (See)",
+            "correctBin": "see"
+          },
+          {
+            "id": "ear-item",
+            "label": "Ears (Hear)",
+            "correctBin": "hear"
+          },
+          {
+            "id": "nose-item",
+            "label": "Nose (Smell)",
+            "correctBin": "smell"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "eye-item",
+          "kind": "circle",
+          "label": "Eyes (See)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "see",
+          "interaction": "drag-to-bin",
+          "targetBin": "see"
+        },
+        {
+          "id": "ear-item",
+          "kind": "circle",
+          "label": "Ears (Hear)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "hear",
+          "interaction": "drag-to-bin",
+          "targetBin": "hear"
+        },
+        {
+          "id": "nose-item",
+          "kind": "circle",
+          "label": "Nose (Smell)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "smell",
+          "interaction": "drag-to-bin",
+          "targetBin": "smell"
+        },
+        {
+          "id": "tongue-item",
+          "kind": "circle",
+          "label": "Tongue (Taste)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "taste",
+          "interaction": "drag-to-bin",
+          "targetBin": "taste"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "eye-item",
+          "label": "Eyes (See)",
+          "emoji": "",
+          "correctBin": "see"
+        },
+        {
+          "id": "ear-item",
+          "label": "Ears (Hear)",
+          "emoji": "",
+          "correctBin": "hear"
+        },
+        {
+          "id": "nose-item",
+          "label": "Nose (Smell)",
+          "emoji": "",
+          "correctBin": "smell"
+        },
+        {
+          "id": "tongue-item",
+          "label": "Tongue (Taste)",
+          "emoji": "",
+          "correctBin": "taste"
+        }
+      ],
+      "bins": [
+        {
+          "id": "see",
+          "label": "See 👀",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "hear",
+          "label": "Hear 👂",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "smell",
+          "label": "Smell 👃",
+          "color": "#10B981"
+        },
+        {
+          "id": "taste",
+          "label": "Taste 👅",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "identify_func",
+      "question": "What do our EARS help us do?",
+      "answer": "Hear sounds like bells",
+      "options": [
+        "Hear sounds like bells",
+        "See the blackboard",
+        "Feel soft blankets"
+      ],
+      "hint": "Ears are shaped like little bowls to collect sounds from all around!",
+      "misconception": "Ears are the sense organs of hearing! They catch sounds like the school bell or a train whistle. Eyes are for seeing, not hearing!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Hear sounds like bells",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "See the blackboard",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Feel soft blankets",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Hear sounds like bells",
+          "See the blackboard"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_func",
+      "question": "What do our TEETH help us do?",
+      "answer": "Chew our food",
+      "options": [
+        "Chew our food",
+        "Walk in the park",
+        "Smell sweet flowers"
+      ],
+      "hint": "Teeth help us bite and chew food before swallowing. Remember to brush them daily!",
+      "misconception": "Teeth help us chew food! We brush them every morning to keep them clean, just like wiping a dust-free mirror.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Chew our food",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Walk in the park",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Smell sweet flowers",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Chew our food",
+          "Walk in the park"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_organs",
+      "question": "Drag each body part to its main action category!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Legs and hands are for moving/holding. Eyes and ears are for sensing!",
+      "misconception": "Body parts have different jobs! Legs and hands are limbs for movement and holding, while eyes and ears are sense organs!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "leg-item",
+            "label": "Legs",
+            "correctBin": "move"
+          },
+          {
+            "id": "hand-item",
+            "label": "Hands",
+            "correctBin": "move"
+          },
+          {
+            "id": "eye-sort",
+            "label": "Eyes",
+            "correctBin": "sense"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "leg-item",
+          "kind": "circle",
+          "label": "Legs",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "move",
+          "interaction": "drag-to-bin",
+          "targetBin": "move"
+        },
+        {
+          "id": "hand-item",
+          "kind": "circle",
+          "label": "Hands",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "move",
+          "interaction": "drag-to-bin",
+          "targetBin": "move"
+        },
+        {
+          "id": "eye-sort",
+          "kind": "circle",
+          "label": "Eyes",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "sense",
+          "interaction": "drag-to-bin",
+          "targetBin": "sense"
+        },
+        {
+          "id": "ear-sort",
+          "kind": "circle",
+          "label": "Ears",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "sense",
+          "interaction": "drag-to-bin",
+          "targetBin": "sense"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "leg-item",
+          "label": "Legs",
+          "emoji": "",
+          "correctBin": "move"
+        },
+        {
+          "id": "hand-item",
+          "label": "Hands",
+          "emoji": "",
+          "correctBin": "move"
+        },
+        {
+          "id": "eye-sort",
+          "label": "Eyes",
+          "emoji": "",
+          "correctBin": "sense"
+        },
+        {
+          "id": "ear-sort",
+          "label": "Ears",
+          "emoji": "",
+          "correctBin": "sense"
+        }
+      ],
+      "bins": [
+        {
+          "id": "move",
+          "label": "Movement / Limbs 🏃",
+          "color": "#EC4899"
+        },
+        {
+          "id": "sense",
+          "label": "Sense Organs 👁️",
+          "color": "#3B82F6"
+        }
+      ]
+    },
+    {
+      "type": "sort_organs",
+      "question": "Drag each care item or rule to the correct hygiene practice!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Eyes need clean water (never soap!). Teeth need brushing. Ears stay away from sharp things.",
+      "misconception": "Never wash eyes with soap! Soap stings and hurts delicate eyes. Always wash eyes with clean water only, brush teeth daily, and keep sharp objects away from ears!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "water-item",
+            "label": "Clean Water for Eyes",
+            "correctBin": "eyes"
+          },
+          {
+            "id": "brush-item",
+            "label": "Brush Teeth Daily",
+            "correctBin": "teeth"
+          },
+          {
+            "id": "hanky-item",
+            "label": "Handkerchief for Dust",
+            "correctBin": "nose"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "water-item",
+          "kind": "water-drop",
+          "label": "Clean Water for Eyes",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "eyes",
+          "interaction": "drag-to-bin",
+          "targetBin": "eyes"
+        },
+        {
+          "id": "brush-item",
+          "kind": "circle",
+          "label": "Brush Teeth Daily",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "teeth",
+          "interaction": "drag-to-bin",
+          "targetBin": "teeth"
+        },
+        {
+          "id": "hanky-item",
+          "kind": "circle",
+          "label": "Handkerchief for Dust",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "nose",
+          "interaction": "drag-to-bin",
+          "targetBin": "nose"
+        },
+        {
+          "id": "safe-item",
+          "kind": "circle",
+          "label": "No Sharp Objects",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "ears",
+          "interaction": "drag-to-bin",
+          "targetBin": "ears"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "water-item",
+          "label": "Clean Water for Eyes",
+          "emoji": "",
+          "correctBin": "eyes"
+        },
+        {
+          "id": "brush-item",
+          "label": "Brush Teeth Daily",
+          "emoji": "",
+          "correctBin": "teeth"
+        },
+        {
+          "id": "hanky-item",
+          "label": "Handkerchief for Dust",
+          "emoji": "",
+          "correctBin": "nose"
+        },
+        {
+          "id": "safe-item",
+          "label": "No Sharp Objects",
+          "emoji": "",
+          "correctBin": "ears"
+        }
+      ],
+      "bins": [
+        {
+          "id": "eyes",
+          "label": "Eyes (Water) 💧",
+          "color": "#06B6D4"
+        },
+        {
+          "id": "teeth",
+          "label": "Teeth (Brush) 🦷",
+          "color": "#10B981"
+        },
+        {
+          "id": "nose",
+          "label": "Nose (Hanky) 🤧",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "ears",
+          "label": "Ears (Safe) 🛡️",
+          "color": "#8B5CF6"
+        }
+      ]
+    }
+  ],
+  "theme": "body",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c2_bio_001",
+    "region": "Biosphere",
+    "mapX": 0.6,
+    "mapY": 0.35,
+    "icon": "🌱",
+    "prerequisites": []
+  },
+  "subject": "biology"
+}

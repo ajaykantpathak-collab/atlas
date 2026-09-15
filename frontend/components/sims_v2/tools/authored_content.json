@@ -1,0 +1,255 @@
+{
+  "_readme": "Hand-authored overlays keyed by chapterBase id (c12_phy_ch01). Applied at build time — beats extraction where the corpus ran thin. Fields: title, subtitle, role, intro, goal, discovery{question,options,answer,hook}, mission, finale.",
+  "c12_phy_ch01": {
+    "discovery": {
+      "question": "You rub a balloon on your hair and it sticks to a wall. What actually happened?",
+      "options": ["Electrons moved from your hair to the balloon", "The balloon became magnetic", "Air pressure held it against the wall", "Glue molecules formed on the balloon's surface"],
+      "answer": "Electrons moved from your hair to the balloon",
+      "hook": "Most students think rubbing 'creates' charge — it only moves it. Watch what the charges actually do."
+    },
+    "mission": "Make charge A positive and B negative — do the field lines reach across?",
+    "finale": "Charge is never created or destroyed — only moved. You now know why the balloon sticks, why lightning strikes, and what Coulomb's law is really measuring."
+  },
+  "c12_phy_ch02": {
+    "discovery": {
+      "question": "Why does a bird sitting on a high-voltage wire survive unharmed?",
+      "options": ["No potential difference exists across its body", "Its feathers insulate it", "The current takes the wire instead", "Birds are immune to electricity"],
+      "answer": "No potential difference exists across its body",
+      "hook": "It is not voltage that hurts — it is voltage *difference*. That distinction is this whole chapter."
+    },
+    "finale": "Potential, capacitance, stored energy — you now think in terms of difference, not absolute charge. That is the mental shift this chapter demands."
+  },
+  "c12_phy_ch03": {
+    "discovery": {
+      "question": "Electrons drift at millimetres per second — yet your light turns on instantly. How?",
+      "options": ["The electric field pushes all electrons at once", "Electrons move at light speed inside wires", "Photons carry the energy, not electrons", "The switch compresses electrons forward"],
+      "answer": "The electric field pushes all electrons at once",
+      "hook": "A slow drift, an instant response — the queue moves together. That resolves the biggest confusion in current electricity."
+    },
+    "mission": "Close the switch — the bulb lights instantly. Now find out what the electrons were doing.",
+    "finale": "Drift velocity, Ohm's law, resistivity — current is a coordinated march, not a sprint. Part 2 asks what happens when the wire fights back."
+  },
+  "c12_bio_ch06": {
+    "discovery": {
+      "question": "Your DNA is identical in every cell — yet a liver cell is nothing like a neuron. How?",
+      "options": ["Different genes are switched on in each cell type", "Each cell type has different DNA sequences", "Neurons lose their DNA after forming", "Liver cells mutate faster"],
+      "answer": "Different genes are switched on in each cell type",
+      "hook": "Same book, different pages read. Unzip the helix and see which pairs make it possible."
+    },
+    "mission": "Unzip the helix past 70% — which pairs break first?",
+    "finale": "Replication, transcription, translation — the molecule that makes you, you. This is the chapter biology was building toward since class 6."
+  },
+  "c12_bio_ch07": {
+    "discovery": {
+      "question": "Giraffes have long necks — Lamarck said they stretched, Darwin said something else. What?",
+      "options": ["Long-necked giraffes survived and reproduced more", "Necks grew longer each generation through use", "Mutation pushed every giraffe's neck longer", "Trees grew taller so giraffes adapted"],
+      "answer": "Long-necked giraffes survived and reproduced more",
+      "hook": "Evolution does not try — it selects. That one word changes how you read this entire chapter."
+    },
+    "finale": "Variation, selection, drift, speciation — you now hold the framework that explains all of biology."
+  },
+  "c11_chem_ch02": {
+    "discovery": {
+      "question": "Atoms are mostly empty space — so why can't you walk through a wall?",
+      "options": ["Electron clouds repel each other electromagnetically", "Nuclei collide head-on", "Atoms are actually solid", "Walls are quantum-locked"],
+      "answer": "Electron clouds repel each other electromagnetically",
+      "hook": "Solidity is an illusion of repulsion. Rutherford's gold foil proved it a century ago."
+    },
+    "mission": "Place 4 electrons in the atom — which shell fills first?",
+    "finale": "Protons, neutrons, electron clouds, orbitals — the atom stopped being a billiard ball the day you finished this."
+  },
+  "c11_chem_ch07": {
+    "discovery": {
+      "question": "A sealed bottle of soda never 'finishes' reacting — the reaction just seems to stop. What is really happening?",
+      "options": ["Forward and reverse reactions run at equal rates", "All reactants are used up", "The catalyst deactivates", "Temperature drops to zero reaction"],
+      "answer": "Forward and reverse reactions run at equal rates",
+      "hook": "Equilibrium is not stillness — it is two rivers flowing in opposite directions at exactly the same speed."
+    },
+    "mission": "Add more reactant — which way does the balance shift?",
+    "finale": "Kc, Kp, Le Chatelier — you now predict which way a reaction runs before it even starts."
+  },
+  "c12_chem_ch02": {
+    "discovery": {
+      "question": "A lemon, two coins, an LED — a battery from fruit. Where does the electricity come from?",
+      "options": ["Electrons flow from the reactive metal through the circuit", "The lemon produces electrons", "The LED pushes current back", "Acid stores static charge"],
+      "answer": "Electrons flow from the reactive metal through the circuit",
+      "hook": "Every battery is a tug-of-war between two metals. The loser gives up electrons."
+    },
+    "finale": "Galvanic cells, electrode potentials, the Nernst equation — you now know why your phone charges and why iron rusts."
+  },
+  "c12_math_ch05": {
+    "discovery": {
+      "question": "Draw any function without lifting your pen. What breaks at a sharp corner?",
+      "options": ["Differentiability — the slope jumps, so no single tangent exists", "Continuity — the graph is broken", "Nothing breaks, it is still a function", "The function becomes undefined"],
+      "answer": "Differentiability — the slope jumps, so no single tangent exists",
+      "hook": "Smooth versus sharp — differentiability asks whether a curve has a single slope at a point. Corners fail."
+    },
+    "finale": "Continuity is survival; differentiability is smoothness. Every calculus result ahead of you assumes both."
+  },
+  "c12_math_ch07": {
+    "discovery": {
+      "question": "Add up infinitely many infinitely-thin strips of area. What do you get?",
+      "options": ["A finite area — the definite integral", "Infinity — strips add without bound", "Zero — thin strips have no area", "It depends on the pen thickness"],
+      "answer": "A finite area — the definite integral",
+      "hook": "Integration is the art of making infinity finite. That paradox is the engine of all of physics."
+    },
+    "finale": "Substitution, parts, partial fractions — you can now sum the infinite. This is the tool Newton built physics with."
+  },
+  "c11_math_ch11": {
+    "discovery": {
+      "question": "One cone, one plane — tilt the plane and you get four different curves. How?",
+      "options": ["The tilt angle chooses circle, ellipse, parabola, or hyperbola", "Each cone makes only one shape", "The plane creates random curves", "Only circles come from cones"],
+      "answer": "The tilt angle chooses circle, ellipse, parabola, or hyperbola",
+      "hook": "Every satellite orbit and every torch beam is the same cone, sliced differently. Watch it happen."
+    },
+    "mission": "Tilt the plane past 60° — what curve do you get?",
+    "finale": "Circle, ellipse, parabola, hyperbola — four curves, one cone, one idea. Kepler's orbits live here."
+  },
+  "c10_math_ch08": {
+    "discovery": {
+      "question": "You can't climb the flagpole — but you can know its height from the ground. How?",
+      "options": ["Measure your distance and the angle up — trig does the rest", "Guess from the shadow length alone", "Use GPS altitude", "Count the rope segments"],
+      "answer": "Measure your distance and the angle up — trig does the rest",
+      "hook": "Trigonometry is remote measurement — ratios that let you measure what you cannot touch."
+    },
+    "finale": "sin, cos, tan — three ratios that turn angles into distances. Surveyors, astronomers, and your phone's GPS all live here."
+  },
+  "c10_math_ch14": {
+    "discovery": {
+      "question": "A coin lands heads 5 times in a row. What is the chance of heads on flip six?",
+      "options": ["Still 1/2 — the coin has no memory", "Less than 1/2 — tails is 'due'", "More than 1/2 — heads is 'hot'", "It depends on the coin's weight"],
+      "answer": "Still 1/2 — the coin has no memory",
+      "hook": "The gambler's fallacy has bankrupted real people. Probability does not keep score."
+    },
+    "finale": "Sample spaces, events, odds — you now think in likelihoods, not gut feelings. That is a life skill disguised as math."
+  },
+  "c10_chem_ch02": {
+    "discovery": {
+      "question": "Ant bites burn — then soap stops the pain. What just happened on your skin?",
+      "options": ["A base neutralised the ant's acid", "The soap cooled the skin", "Ant venom evaporated", "Soap blocked the nerves"],
+      "answer": "A base neutralised the ant's acid",
+      "hook": "Acid + base → salt + water. One reaction explains ant bites, stomach acid, and soil treatment."
+    },
+    "mission": "Probe a pH below 4 — acid or base?",
+    "finale": "pH, indicators, neutralisation — you can now read any liquid's chemistry by colour alone."
+  },
+  "c10_bio_ch01": {
+    "discovery": {
+      "question": "You ate a samosa an hour ago — where is it right now, doing what?",
+      "options": ["Being broken into molecules your cells absorb", "Sitting whole in your stomach", "Already converted to pure energy", "Filtered out by the liver"],
+      "answer": "Being broken into molecules your cells absorb",
+      "hook": "Digestion is disassembly — a samosa becomes glucose, amino acids, and fatty acids on an assembly line."
+    },
+    "mission": "Push the food to 60% — which organ is it in?",
+    "finale": "Ingestion to egestion — your body is a processing plant. Now you know the floor plan."
+  },
+  "c10_bio_ch02": {
+    "discovery": {
+      "question": "Touch a hot pan — your hand pulls back before you even feel pain. How is that possible?",
+      "options": ["The spinal cord fires the response without waiting for the brain", "Your hand is faster than your nerves", "Pain signals travel slowly", "The brain predicted the heat"],
+      "answer": "The spinal cord fires the response without waiting for the brain",
+      "hook": "Reflexes skip the queue — that shortcut saves your hand before your brain knows why."
+    },
+    "mission": "Speed up the signal — how fast does the reflex fire?",
+    "finale": "Stimulus to response in milliseconds — you traced the fastest circuit your body owns."
+  },
+  "c10_eco_ch03": {
+    "discovery": {
+      "question": "The ₹500 note in your pocket is just paper — why does a shopkeeper accept it?",
+      "options": ["Everyone trusts it can be exchanged for goods", "The paper has intrinsic value", "The RBI stores gold for every note", "Law forces acceptance at gunpoint"],
+      "answer": "Everyone trusts it can be exchanged for goods",
+      "hook": "Money is a promise we all keep together. Break the trust and paper becomes paper again."
+    },
+    "finale": "Barter, money, credit, banks — you now see the invisible agreement holding the whole economy up."
+  },
+  "c10_hist_ch02": {
+    "discovery": {
+      "question": "In 1919 a crowd gathered at Jallianwala Bagh. What turned a protest into a turning point?",
+      "options": ["The massacre showed colonial rule's true face to all of India", "The crowd voted for independence that day", "British apologised and left Punjab", "It was the first protest in India"],
+      "answer": "The massacre showed colonial rule's true face to all of India",
+      "hook": "Some events do not start movements — they reveal them. Scrub the timeline and watch nationalism become mass politics."
+    },
+    "mission": "Scrub to 80% through the era — what came before what?",
+    "finale": "From Khilafat to Non-Cooperation to Civil Disobedience — a nation learning to say no, together."
+  },
+  "c11_math_ch01": {
+    "discovery": {
+      "question": "Is the collection of 'all tall students' a set? Think carefully.",
+      "options": ["No — 'tall' is not well-defined, so membership is ambiguous", "Yes — any collection is a set", "Yes — if the students agree", "Only if you measure them first"],
+      "answer": "No — 'tall' is not well-defined, so membership is ambiguous",
+      "hook": "Sets demand one ruthless rule: you must always be able to say yes or no. Vagueness is not allowed in."
+    },
+    "finale": "Well-defined, ordered, unioned, intersected — you now speak the language all of modern math is written in."
+  },
+  "c8_math_ch09": {
+    "discovery": {
+      "question": "A 2000-year-old Indian text knew the hypotenuse rule before Pythagoras wrote it down. What makes the theorem true forever?",
+      "options": ["a² + b² = c² follows from the geometry itself — provable, not observed", "It worked for the triangles they measured", "Priests declared it sacred law", "Coincidence across many examples"],
+      "answer": "a² + b² = c² follows from the geometry itself — provable, not observed",
+      "hook": "Baudhayana stated it in the Sulba Sutras centuries before Pythagoras. Proof beats observation — that is what math is."
+    },
+    "finale": "Legs, hypotenuse, proof — a theorem older than empires, now yours."
+  },
+  "c11_chem_ch01": {
+    "discovery": {
+      "question": "A dozen eggs, a mole of atoms — why do chemists bother with the mole at all?",
+      "options": ["Atoms are too small to count — the mole groups them by mass", "It measures atomic weight directly", "It is a unit of volume for gases", "It counts electrons in a shell"],
+      "answer": "Atoms are too small to count — the mole groups them by mass",
+      "hook": "6.022 × 10²³ is not magic — it is the conversion factor between grams and particles."
+    }
+  },
+  "c9_math_ch04": {
+    "discovery": {
+      "question": "Compute 103 × 97 in your head — instantly. Which identity does it?",
+      "options": ["(a+b)(a−b) = a² − b² → 100² − 9 = 9991", "(a+b)² → 10000 + 291", "103² − 97²", "No shortcut exists"],
+      "answer": "(a+b)(a−b) = a² − b² → 100² − 9 = 9991",
+      "hook": "Identities are not formulas to memorise — they are shortcuts disguised as algebra. 103×97 just took you 3 seconds."
+    },
+    "finale": "a²−b², (a±b)², (a±b)³ — patterns that make arithmetic collapse into instant answers."
+  },
+  "c7_sci_ch04": {
+    "discovery": {
+      "question": "You feel 'cold' touching metal and 'warm' touching wood in the same room. Same temperature — why different?",
+      "options": ["Metal conducts heat away from your hand faster", "Wood generates its own warmth", "Metal is always colder than wood", "Your nerves only respond to metal"],
+      "answer": "Metal conducts heat away from your hand faster",
+      "hook": "You never feel temperature — you feel the RATE of heat flow. That changes everything about this chapter."
+    }
+  },
+  "c12_math_ch03": {
+    "discovery": {
+      "question": "Flip a matrix, multiply by its inverse — what do you always get back?",
+      "options": ["The identity matrix — ones down the diagonal", "The zero matrix", "The original matrix", "A random matrix"],
+      "answer": "The identity matrix — ones down the diagonal",
+      "hook": "The identity matrix is the '1' of matrix world — everything times it stays itself. That single idea solves equations in 3 unknowns."
+    },
+    "finale": "Rows, columns, determinants — you just learned the algebra that runs every 3D game and every neural network."
+  },
+  "c11_math_ch13": {
+    "discovery": {
+      "question": "What is the speed of a car at the *instant* the photo is taken? Not average — instant.",
+      "options": ["A limit — speed as the time gap shrinks to zero", "Distance divided by exposure time", "The speedometer reading", "Zero — it was still"],
+      "answer": "A limit — speed as the time gap shrinks to zero",
+      "hook": "Calculus was invented to answer this exact question. The limit is the trick that makes 'instant' mathematically real."
+    },
+    "finale": "Limits, slopes, derivatives — the moment Newton cracked the code of change, you just walked through."
+  },
+  "c12_math_ch10": {
+    "discovery": {
+      "question": "Push a box northeast while your friend pushes east — where does it actually go?",
+      "options": ["A single resultant direction — vectors add head-to-tail", "Northeast then east alternately", "The stronger push wins entirely", "It spins in place"],
+      "answer": "A single resultant direction — vectors add head-to-tail",
+      "hook": "Forces, velocities, fields — the world is made of arrows that add. This chapter teaches you to add them."
+    },
+    "mission": "Add vector b to a — is the result just the lengths added?",
+    "finale": "Components, dot, cross — you now navigate in the language physics and game engines share."
+  },
+  "c10_math_ch03": {
+    "discovery": {
+      "question": "Two lines can meet once, never, or everywhere — and each case has a real-world meaning. Which is which?",
+      "options": ["Unique / no / infinite solutions — consistent, inconsistent, dependent", "All three mean no solution", "Lines always meet exactly once", "Parallel lines meet at infinity only in theory"],
+      "answer": "Unique / no / infinite solutions — consistent, inconsistent, dependent",
+      "hook": "Every pair of equations is a question with three possible answers — this chapter teaches you to tell them apart instantly."
+    },
+    "finale": "Graphical, substitution, elimination — three ways to solve the same pair. You now pick the fastest one."
+  }
+}

@@ -1,0 +1,227 @@
+import type { SimDef } from '../../engine/types';
+
+/** v3 generated — c8_physics_ch04_p2 (6 nodes). Deterministic build
+ * from enhanced_nodes/md_cache; regenerate via tools/build_simdefs.mjs. */
+export const c8_physics_ch04_p2: SimDef = {
+    id: 'v3_c8_physics_ch04_p2',
+    title: 'Pressure, Winds, Storms, and Cyclones · Part 2/2',
+    subtitle: 'Why the pin end wins and the flat end loses',
+    classLevel: 8, subject: 'physics', topic: 'Pressure, Winds, Storms, and Cyclones · Part 2/2',
+    chapters: ['c8_physics_ch04'],
+    nodeIds: ['c8_physics_ch4_4', 'c8_physics_ch4_5', 'c8_physics_ch4_6', 'c8_physics_ch4_7', 'c8_physics_ch4_8', 'c8_physics_ch4_9'],
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+
+    scenario: { role: 'a pressure investigator', intro: 'Your thumb pushes a drawing pin with one force — yet only the sharp end pierces the board. Find out what \'per unit area\' really means, and why it decides who sinks and who survives.', goal: 'Understand pressure as force per unit area (P = F/A, in pascals) — why small areas amplify a push and large areas soften it — and compute it with correct unit conversions.' },
+    discovery: {
+        question: 'A camel outweighs a horse, yet its broad feet glide over sand while narrow hooves sink. Same desert, heavier animal — how?',
+        options: ['Pressure = force ÷ area: the camel\'s weight spreads over wide feet, so each patch of sand feels less push', 'Camels are just magically adapted', 'Horses run faster so they dig in', 'Sand is softer under camels'],
+        answer: 'Pressure = force ÷ area: the camel\'s weight spreads over wide feet, so each patch of sand feels less push',
+        hook: 'Force and pressure aren\'t the same word. A drawing pin works because your thumb\'s push gets squeezed into a microscopic tip — and doubling the area doesn\'t double the pressure, it HALVES it.',
+    },
+    teaching: [
+        { title: 'Reducing Pressure by Increasing Area (Broad Straps, Wide Tyres)', text: 'Pressure is the force acting per unit area (P = F/A). For a given force, increasing the contact area reduces the pressure exerted on a surface, which is why broad straps on school bags and wide tyres.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+    ],
+    beats: [
+        { type: 'mission', nodeId: 'c8_physics_ch4_4', title: 'Your mission',
+          mission: { widget: 'gas', validate: 'gas:temperature=80',
+            instruction: 'On the lab: heat the gas — watch the particles. Now compress the piston — same effect?.',
+        context: 'Weaponise and tame pressure: explain why sharp knives slice while blunt ones crush, why two identical bricks press a table 4× differently depending on the face, and compute P = F/A with proper cm²-to-m² conversions.',
+            observePrompt: 'What did the gas interactive show you?' } },
+        { type: 'scaffold', nodeId: 'c8_physics_ch4_4', title: 'Reducing Pressure by Increasing Area (Broad Straps, Wide Tyres)',
+          scaffold: { problem: 'A student\'s school bag has a mass of 4 kg. The two shoulder straps are each 4 cm wide and 40 cm long.',
+            steps: [
+            { text: 'Identify given quantities. Mass m = 4 kg, so weight (force) F = m × g = 4 × 10 = 40 N.' },
+            { text: 'Identify formula. Pressure P = F / A. Check units: Force in N, Area in m² → Pressure in Pa.' },
+            { text: 'Substitute for broad straps. P₁ = 40 N / 0.032 m².' },
+            { text: 'Compute. P₁ = 1,250 Pa. For narrow straps: width w₂ = 2 cm = 0.02 m.' },
+            { text: 'Verify. Halving the width halves the area, so pressure doubles (1,250 → 2,500 Pa).', faded: true, blankAnswer: 'Broad straps: 1,250 Pa. Narrow straps: 2,500 Pa.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_physics_ch4_5', title: 'Atmospheric Pressure: Weight of Air Column',
+          scaffold: { problem: 'A rectangular rooftop in Delhi measures 12 m by 8 m. Calculate the total force exerted by atmospheric pressure on this roof at sea level.',
+            steps: [
+            { text: 'Identify given quantities: P = 1.013 × 10⁵ Pa, length = 12 m, width = 8 m. Find: total force F in newtons.' },
+            { text: 'Calculate area: A = length × width = 12 m × 8 m = 96 m². Formula: F = P × A (from P = F/A).' },
+            { text: 'Substitute with units: F = (1.013 × 10⁵ N/m²) × (96 m²).' },
+            { text: 'Compute: F = 97,24,800 N = 9.72 × 10⁶ N. Unit cancellation: (N/m²) × m² = N ✓' },
+            { text: 'Verify reasonableness: 9.72 × 10⁶ N ≈ 9,92,000 kg weight equivalent.', faded: true, blankAnswer: '9.72 × 10⁶ N (or 97,24,800 N)' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c8_physics_ch4_6', title: 'Measuring Atmospheric Pressure: Barometer',
+          scaffold: { problem: 'In a school laboratory in Mumbai, a mercury barometer reads 75.2 cm. Calculate the atmospheric pressure in pascals.',
+            steps: [
+            { text: 'Identify given quantities: h = 75.2 cm = 0.752 m, ρ = 13,600 kg/m³, g = 9.8 m/s². Find: P in Pa.' },
+            { text: 'Recall formula P = hρg. Check units: m × kg/m³ × m/s² = kg/(m·s²) = N/m² = Pa.' },
+            { text: 'Substitute values: P = 0.752 × 13,600 × 9.8.' },
+            { text: 'Compute stepwise: 0.752 × 13,600 = 10,227.2; 10,227.2 × 9.8 = 100,226.56 Pa.' },
+            { text: 'Round to three significant figures: 1.00 × 10⁵ Pa. This is slightly below standard sea-level pressure (1.013 × 10⁵ Pa).', faded: true, blankAnswer: '1.00 × 10⁵ Pa' }
+            ] } },
+        { type: 'case', nodeId: 'c8_physics_ch4_7', title: 'Wind: Movement of Air Due to Pressure Differences',
+          caseStudy: { intro: 'Stand near an open window on a hot afternoon and feel the warm air rushing in – that is wind caused by pressure differences.',
+            decisions: [{ prompt: 'What is the fundamental cause of wind, and in which direction does air move relative to atmospheric pressure?', options: [
+                { text: 'Wind is caused by differences in atmospheric pressure', outcome: 'Wind is caused by differences in atmospheric pressure. Air moves horizontally from regions.' },
+                { text: 'wind blows from low to high pressure', outcome: 'Not quite — Students often believe wind blows from low pressure to high pressure because they think "low.', reveals: 'wind-blows-from-low-pressure' },
+                { text: 'wind is caused by temperature alone', outcome: 'Not quite — Students often believe wind blows from low pressure to high pressure because they think "low.', reveals: 'wind-blows-from-low-pressure' }
+            ] }] } },
+        { type: 'case', nodeId: 'c8_physics_ch4_8', title: 'Wind Direction and Speed: Factors Influencing Wind',
+          caseStudy: { intro: 'Observe a wind vane on your school roof spinning wildly during a thunderstorm while a flag on the ground barely flutters.',
+            decisions: [{ prompt: 'State the SI unit of wind speed and define wind direction as reported by the India Meteorological Department.', options: [
+                { text: 'SI unit: metre per second (m/s)', outcome: 'SI unit: metre per second (m/s). Wind direction is the direction FROM which the wind blows.' },
+                { text: 'convention used globally in meteorology', outcome: 'Not quite — Students think the Coriolis effect "pushes" wind sideways like a real force, and that it acts.', reveals: 'the-coriolis-effect-pushes-wind' }
+            ] }] } },
+        { type: 'case', nodeId: 'c8_physics_ch4_9', title: 'Thunderstorms: Formation and Conditions',
+          caseStudy: { intro: 'Imagine standing on a playground in Delhi on a hot May afternoon: the air feels heavy and sticky, and suddenly dark, cauliflower-shaped clouds boil up rapidly.',
+            decisions: [{ prompt: 'What are the three necessary atmospheric conditions for a thunderstorm to form?', options: [
+                { text: 'The three necessary conditions are: (1) abundant moisture in the lower atmosphere, (2)', outcome: 'The three necessary conditions are: (1) abundant moisture in the lower atmosphere, (2) atmospheric.' },
+                { text: 'instability', outcome: 'Not quite — Students often believe that **lightning is attracted to tall metal objects** (like a lightning rod.', reveals: 'lightning-is-attracted-to-tall' },
+                { text: 'lifting mechanism', outcome: 'Not quite — Students often believe that **lightning is attracted to tall metal objects** (like a lightning rod.', reveals: 'lightning-is-attracted-to-tall' }
+            ] }] } },
+        { type: 'case', nodeId: 'c8_physics_ch4_4', title: 'Use it in the wild',
+          caseStudy: { intro: 'Chopping vegetables, Mira finds the blunt knife only mashes the tomato while the sharp one slices it cleanly — same hand, same push. Her brother insists, \'Same force means same pressure; the sharp knife just looks better.\'',
+            decisions: [{ prompt: 'Why does the sharp knife really cut?', options: [
+                { text: 'Pressure is force per unit area — the sharp edge concentrates the identical push onto a tiny contact area, producing pressure high enough to break the skin, while the blunt edge spreads it over a larger area and only crushes.', outcome: 'This applies P = F/A directly: the same force on a smaller area means greater pressure — that is the physics of every pin and knife.' },
+                { text: 'The brother is right — pressure is just another name for force, so equal pushes give equal results.', outcome: 'Force and pressure are different quantities; ignoring area predicts both knives should behave identically, which the tomato disproves.', reveals: 'pressure-is-force' },
+                { text: 'The sharp knife works because doubling the contact area doubles the pressure it delivers.', outcome: 'That inverts the relationship — larger area at the same force means less pressure, which is exactly why the blunt edge fails.', reveals: 'area-doubles-pressure' }
+            ] }] } },
+        { type: 'case', nodeId: 'c8_physics_ch4_9', title: 'You made it',
+          caseStudy: { intro: 'Pressure is force concentrated. Same push, smaller area, bigger effect — the rule behind nails, knives, snowshoes and every drawing pin ever pressed.',
+            decisions: [{ prompt: 'Ready to see how far you have come?', options: [
+                { text: 'Show me my results', outcome: 'Your mastery map is waiting.' },
+                { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
+            ] }] } }
+    ],
+    explore: { lab: 'gas', prompt: 'Explore the gas interactive — watch what changes!' },
+    observe: { prompt: 'What did you notice when you changed the controls?', options: ['It changed the outcome', 'Nothing happened'], answer: 'It changed the outcome' },
+    predict: { question: 'Before you play — what do you think will happen?', options: ['The result will change', 'Nothing will change'], answer: 'The result will change', verifyWidget: 'gas', verifyPrompt: 'Try it — were you right?' },
+    challenges: [
+        { type: 'subpart', nodeId: 'c8_physics_ch4_4', difficulty: 'standard',
+          question: 'Pressure is the force acting per unit area (P = F/A). For a given force.',
+          hint: 'If stuck, revisit c8_physics_ch4_3 (Factors Affecting Pressure) to review the inverse.',
+          misconception: 'Students often believe that "broad straps make the bag lighter" or "wide tyres reduce the weight of the vehicle." They.',
+          parts: [
+                { id: 'a', prompt: 'State the formula for pressure and its SI unit. If a force of 200 N acts on an area of 0.5 m², what is the pressure in pascals?', answer: 'Pressure P = F/A',
+                  options: ['Pressure P = F/A', 'broad straps make the bag lighter', 'wide tyres reduce the weight of the vehicle'],
+                  hint: 'If stuck, revisit c8_physics_ch4_3 (Factors Affecting Pressure) to review the inverse relationship.',
+                  misconception: 'Students often believe that "broad straps make the bag lighter" or "wide tyres reduce the weight of the vehicle." They confuse force.' },
+                { id: 'b', prompt: 'A school bag weighs 30 N. When carried with a thin strap of area 0.002 m², the pressure on the shoulder is 15,000 Pa.', answer: 'Pressure is inversely proportional to area when force is constant',
+                  options: ['Pressure is inversely proportional to area when force is constant', 'broad straps make the bag lighter', 'wide tyres reduce the weight of the vehicle'],
+                  hint: 'If stuck, revisit c8_physics_ch4_3 (Factors Affecting Pressure) to review the inverse relationship.',
+                  misconception: 'Students often believe that "broad straps make the bag lighter" or "wide tyres reduce the weight of the vehicle." They confuse force.' },
+                { id: 'c', prompt: 'A tractor has two rear tyres, each with a contact area of 0.15 m². The total weight of the tractor is 12,000 N.', answer: 'Step 1: Force on each rear tyre = 12,000 N / 2 = 6,000 N',
+                  options: ['Step 1: Force on each rear tyre = 12,000 N / 2 = 6,000 N', 'broad straps make the bag lighter', 'wide tyres reduce the weight of the vehicle'],
+                  hint: 'If stuck, revisit c8_physics_ch4_3 (Factors Affecting Pressure) to review the inverse relationship.',
+                  misconception: 'Students often believe that "broad straps make the bag lighter" or "wide tyres reduce the weight of the vehicle." They confuse force.' },
+                { id: 'd', prompt: 'Compare the pressure exerted by a woman wearing high heels (heel area 0.5 cm² each, weight 500 N) versus the same woman wearing flat sandals (sole area 150 cm².', answer: 'High heels: total heel area = 2 × 0.5 cm² = 1 cm² = 0.0001 m²',
+                  options: ['High heels: total heel area = 2 × 0.5 cm² = 1 cm² = 0.0001 m²', 'broad straps make the bag lighter', 'wide tyres reduce the weight of the vehicle'],
+                  hint: 'If stuck, revisit c8_physics_ch4_3 (Factors Affecting Pressure) to review the inverse relationship.',
+                  misconception: 'Students often believe that "broad straps make the bag lighter" or "wide tyres reduce the weight of the vehicle." They confuse force.' }
+          ],
+            remediations: { 'broad-straps-make-the-bag': { steps: ['If a student holds this misconception, conduct a quick demo: Place a 1 kg mass (force ~10 N) on a soft clay slab using.', 'Have the student press each with their finger to feel the pressure difference.', 'Then ask: "Did the mass change?', 'What changed?" Guide them to articulate: "Area increased, so pressure decreased, so the clay dented less." Repeat with.'], labTask: { instruction: 'On the interactive: heat the gas — watch the particles. Now compress the piston — same effect? — then check.', widget: 'gas', validate: 'gas:temperature=80' } } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch4_4', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often believe that "broad straps make the bag lighter" or "wide tyres reduce the weight of the vehicle." They.',
+          parts: [
+                { id: 'a', prompt: 'A student argues: "If I put a heavy book on a sponge, it sinks in. If I put the same book on a table, it doesn\'t sink.', answer: 'The student is incorrect',
+                  options: ['The student is incorrect', 'broad straps make the bag lighter', 'wide tyres reduce the weight of the vehicle'],
+                  hint: 'If stuck, revisit c8_physics_ch4_3 (Factors Affecting Pressure) to review the inverse relationship.',
+                  misconception: 'Students often believe that "broad straps make the bag lighter" or "wide tyres reduce the weight of the vehicle." They confuse force.' },
+                { id: 'b', prompt: 'Design a simple experiment using household items (e.g., a balloon, sand, a ruler, and books) to demonstrate that increasing the area of contact reduces the.', answer: 'Good answer: Place an inflated balloon on a tray of sand',
+                  options: ['Good answer: Place an inflated balloon on a tray of sand', 'broad straps make the bag lighter', 'wide tyres reduce the weight of the vehicle'],
+                  hint: 'If stuck, revisit c8_physics_ch4_3 (Factors Affecting Pressure) to review the inverse relationship.',
+                  misconception: 'Students often believe that "broad straps make the bag lighter" or "wide tyres reduce the weight of the vehicle." They confuse force.' }
+          ],
+            remediations: { 'broad-straps-make-the-bag': { steps: ['If a student holds this misconception, conduct a quick demo: Place a 1 kg mass (force ~10 N) on a soft clay slab using.', 'Have the student press each with their finger to feel the pressure difference.', 'Then ask: "Did the mass change?', 'What changed?" Guide them to articulate: "Area increased, so pressure decreased, so the clay dented less." Repeat with.'], labTask: { instruction: 'On the interactive: heat the gas — watch the particles. Now compress the piston — same effect? — then check.', widget: 'gas', validate: 'gas:temperature=80' } } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch4_5', difficulty: 'standard',
+          question: 'Atmospheric pressure is the pressure exerted by the weight of the air column.',
+          hint: 'Revisit c8_physics_ch4_1 (pressure definition) and c8_physics_ch4_2 (pascal unit) with.',
+          misconception: 'Students believe atmospheric pressure only pushes downward because they visualize the "weight of air column" as.',
+          parts: [
+                { id: 'a', prompt: 'Why don\'t we feel the enormous atmospheric pressure (≈100,000 N/m²) pressing on our bodies, even though it\'s equivalent to having a large truck on every square.', answer: 'We don\'t feel it',
+                  options: ['We don\'t feel it', 'our skin is strong enough', 'pressure only acts downward', 'weight of air column'],
+                  hint: 'Revisit c8_physics_ch4_1 (pressure definition) and c8_physics_ch4_2 (pascal unit) with practice.',
+                  misconception: 'Students believe atmospheric pressure only pushes downward because they visualize the "weight of air column" as a vertical stack pressing.' },
+                { id: 'b', prompt: 'Calculate the force exerted by atmospheric pressure on the top of a student\'s head if the cross-sectional area is 0.015 m².', answer: 'Step 1: Identify given: P = 1.01 × 10⁵ Pa, A = 0.015 m²',
+                  options: ['Step 1: Identify given: P = 1.01 × 10⁵ Pa, A = 0.015 m²', 'weight of air column'],
+                  hint: 'Revisit c8_physics_ch4_1 (pressure definition) and c8_physics_ch4_2 (pascal unit) with practice.',
+                  misconception: 'Students believe atmospheric pressure only pushes downward because they visualize the "weight of air column" as a vertical stack pressing.' },
+                { id: 'c', prompt: 'A student claims: "Atmospheric pressure at the top of Mount Everest (8,848 m) is about one-third of sea level pressure because the air column above.', answer: 'The reasoning is partially correct but incomplete',
+                  options: ['The reasoning is partially correct but incomplete', 'yes, exactly one-third', 'weight of air column'],
+                  hint: 'Revisit c8_physics_ch4_1 (pressure definition) and c8_physics_ch4_2 (pascal unit) with practice.',
+                  misconception: 'Students believe atmospheric pressure only pushes downward because they visualize the "weight of air column" as a vertical stack pressing.' }
+          ],
+            remediations: { 'atmospheric-pressure-only-pushes-downward': { steps: ['Demonstrate the inverted glass-with-card experiment (DIAGNOSTIC_QUESTION_6) - let the student feel the card pushing.', 'Use a suction cup on a smooth surface - have them try to pull it off horizontally and vertically, noting equal.', 'Connect to c8_physics_ch4_1 (pressure = force/area): since air molecules move randomly in all directions, they collide.', 'Explicitly contrast "weight of column" (origin of pressure magnitude) with "fluid nature of air" (reason for isotropic.'], labTask: { instruction: 'On the interactive: heat the gas — watch the particles. Now compress the piston — same effect? — then check.', widget: 'gas', validate: 'gas:temperature=80' } } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch4_6', difficulty: 'standard',
+          question: 'A barometer is an instrument that measures atmospheric pressure by balancing.',
+          hint: 'If stuck, revisit c8_physics_ch4_5 (Atmospheric Pressure: Weight of Air Column) and.',
+          misconception: 'Students often think the mercury column is held up by the vacuum at the top "sucking" the mercury, or that the glass.',
+          parts: [
+                { id: 'a', prompt: 'Calculate the atmospheric pressure in pascals if the mercury column height is 74.5 cm. (Density of mercury = 13,600 kg/m³, g = 9.8 m/s²)', answer: 'Step 1: Convert height to meters: h = 74.5 cm = 0.745 m',
+                  options: ['Step 1: Convert height to meters: h = 74.5 cm = 0.745 m', 'sucking'],
+                  hint: 'If stuck, revisit c8_physics_ch4_5 (Atmospheric Pressure: Weight of Air Column) and.',
+                  misconception: 'Students often think the mercury column is held up by the vacuum at the top "sucking" the mercury, or that the glass tube exerts an upward.' }
+          ],
+            remediations: { 'the-mercury-column-is-held': { steps: ['Show a diagram of a barometer with force arrows: downward atmospheric force on trough surface, upward force from.', 'Perform a simple activity: invert a water-filled test tube in a beaker of water — water stays up to ~10 m; ask "What.', 'Connect to the formula P = hρg — if vacuum "sucked", pressure would be zero, but P = hρg > 0.', 'Reiterate that without atmospheric pressure (space), the column falls completely.'], labTask: { instruction: 'On the interactive: heat the gas — watch the particles. Now compress the piston — same effect? — then check.', widget: 'gas', validate: 'gas:temperature=80' } } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch4_7', difficulty: 'standard',
+          question: 'Wind is the horizontal movement of air from regions of higher atmospheric.',
+          hint: 'If stuck, review c7_physics_ch03_004 (Convection: Heat Transfer in Liquids and Gases) and.',
+          misconception: 'Students often believe wind blows from low pressure to high pressure because they think "low pressure sucks air in".',
+          parts: [
+                { id: 'a', prompt: 'What is the fundamental cause of wind, and in which direction does air move relative to atmospheric pressure?', answer: 'Wind is caused by differences in atmospheric pressure',
+                  options: ['Wind is caused by differences in atmospheric pressure', 'wind blows from low to high pressure', 'wind is caused by temperature alone', '"low pressure sucks air in" like a vacuum cleaner'],
+                  hint: 'If stuck, review c7_physics_ch03_004 (Convection: Heat Transfer in Liquids and Gases) and.',
+                  misconception: 'Students often believe wind blows from low pressure to high pressure because they think "low pressure sucks air in" like a vacuum cleaner.' },
+                { id: 'b', prompt: 'Two locations A and B are at the same altitude. Location A has atmospheric pressure 1015 hPa, and location B has 1005 hPa.', answer: 'Wind will blow from location A (1015 hPa) toward location B (1005 hPa)',
+                  options: ['Wind will blow from location A (1015 hPa) toward location B (1005 hPa)', 'no wind because pressures are close', '"low pressure sucks air in" like a vacuum cleaner'],
+                  hint: 'If stuck, review c7_physics_ch03_004 (Convection: Heat Transfer in Liquids and Gases) and.',
+                  misconception: 'Students often believe wind blows from low pressure to high pressure because they think "low pressure sucks air in" like a vacuum cleaner.' },
+                { id: 'c', prompt: 'During the day, the land heats up faster than the sea. The air above the land warms, expands, and rises. The air above the sea remains cooler.', answer: 'Pressure difference = 1012 hPa – 1008 hPa = 4 hPa',
+                  options: ['Pressure difference = 1012 hPa – 1008 hPa = 4 hPa', 'land to sea', '4 hPa but wrong direction', '"low pressure sucks air in" like a vacuum cleaner'],
+                  hint: 'If stuck, review c7_physics_ch03_004 (Convection: Heat Transfer in Liquids and Gases) and.',
+                  misconception: 'Students often believe wind blows from low pressure to high pressure because they think "low pressure sucks air in" like a vacuum cleaner.' },
+                { id: 'd', prompt: 'A weather map shows isobars (lines of equal pressure) spaced closely together over Rajasthan and widely spaced over Kerala.', answer: 'Stronger winds over Rajasthan',
+                  options: ['Stronger winds over Rajasthan', 'Kerala because it\'s coastal', 'same wind speed', '"low pressure sucks air in" like a vacuum cleaner'],
+                  hint: 'If stuck, review c7_physics_ch03_004 (Convection: Heat Transfer in Liquids and Gases) and.',
+                  misconception: 'Students often believe wind blows from low pressure to high pressure because they think "low pressure sucks air in" like a vacuum cleaner.' }
+          ],
+            remediations: { 'wind-blows-from-low-pressure': { steps: ['Use a bicycle pump analogy – when you push the handle, high pressure inside the pump pushes air out into the.', 'Set up two balloons – one inflated (high pressure), one deflated (low pressure). Connect them with a tube.', 'Relate to atmosphere – the Sun creates "inflated" (high pressure) and "deflated" (low pressure) regions.'], labTask: { instruction: 'On the interactive: heat the gas — watch the particles. Now compress the piston — same effect? — then check.', widget: 'gas', validate: 'gas:temperature=80' } } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch4_8', difficulty: 'standard',
+          question: 'Wind direction is the compass direction from which the wind originates (e.g.,.',
+          hint: 'Review "Wind: Movement of Air Due to Pressure Differences" (c8_physics_ch4_7) and "Land.',
+          misconception: 'Students think the Coriolis effect "pushes" wind sideways like a real force, and that it acts equally at all latitudes.',
+          parts: [
+                { id: 'a', prompt: 'State the SI unit of wind speed and define wind direction as reported by the India Meteorological Department.', answer: 'SI unit: metre per second (m/s)',
+                  options: ['SI unit: metre per second (m/s)', 'convention used globally in meteorology'],
+                  hint: 'Review "Wind: Movement of Air Due to Pressure Differences" (c8_physics_ch4_7) and "Land and Sea.',
+                  misconception: 'Students think the Coriolis effect "pushes" wind sideways like a real force, and that it acts equally at all latitudes.' },
+                { id: 'b', prompt: 'Why does wind not blow directly from high pressure to low pressure in the Northern Hemisphere? Explain the role of Earth\'s rotation.', answer: 'Earth\'s rotation causes the Coriolis effect',
+                  options: ['Earth\'s rotation causes the Coriolis effect', 'friction turns the wind', 'wind goes straight', 'pushes'],
+                  hint: 'Review "Wind: Movement of Air Due to Pressure Differences" (c8_physics_ch4_7) and "Land and Sea.',
+                  misconception: 'Students think the Coriolis effect "pushes" wind sideways like a real force, and that it acts equally at all latitudes.' },
+                { id: 'c', prompt: 'An anemometer at a coastal station records 1200 rotations in 5 minutes. Its calibration is 1 rotation = 0.5 m of air passage.', answer: 'Step 1: Total distance = 1200 rotations × 0.5 m/rotation = 600 m',
+                  options: ['Step 1: Total distance = 1200 rotations × 0.5 m/rotation = 600 m', 'pushes'],
+                  hint: 'Review "Wind: Movement of Air Due to Pressure Differences" (c8_physics_ch4_7) and "Land and Sea.',
+                  misconception: 'Students think the Coriolis effect "pushes" wind sideways like a real force, and that it acts equally at all latitudes.' },
+                { id: 'd', prompt: 'Two cities, A and B, are 500 km apart. City A has pressure 1012 hPa, City B has 1004 hPa. The isobars are straight and parallel.', answer: 'PGF magnitude is the same at both cities',
+                  options: ['PGF magnitude is the same at both cities', 'pushes'],
+                  hint: 'Review "Wind: Movement of Air Due to Pressure Differences" (c8_physics_ch4_7) and "Land and Sea.',
+                  misconception: 'Students think the Coriolis effect "pushes" wind sideways like a real force, and that it acts equally at all latitudes.' }
+          ],
+            remediations: { 'the-coriolis-effect-pushes-wind': { steps: ['Revisit Class 7 convection (c7_physics_ch03_005): recall land-sea breeze is driven by pressure difference.', 'Use a rotating turntable (or merry-go-round) demonstration: roll a ball straight across while rotating; observe curved.', 'This shows deflection is due to rotation, not a sideways push.', 'Draw force diagrams: PGF arrow from high to low, Coriolis arrow perpendicular to velocity (right in NH), friction.'], labTask: { instruction: 'On the interactive: heat the gas — watch the particles. Now compress the piston — same effect? — then check.', widget: 'gas', validate: 'gas:temperature=80' } } } },
+        { type: 'subpart', nodeId: 'c8_physics_ch4_9', difficulty: 'standard',
+          question: 'A thunderstorm is a violent, short-lived weather disturbance characterized.',
+          hint: 'Review "Convection: Heat Transfer in Liquids and Gases" (c7_physics_ch03_004) and "Water.',
+          misconception: 'Students often believe that **lightning is attracted to tall metal objects** (like a lightning rod "pulling" lightning).',
+          parts: [
+                { id: 'a', prompt: 'Why does a thunderstorm cloud (cumulonimbus) grow vertically to great heights instead of spreading horizontally like a stratus cloud?', answer: 'The cloud grows vertically',
+                  options: ['The cloud grows vertically', 'wind pushes it up', 'it\'s just very tall', 'pulling'],
+                  hint: 'Review "Convection: Heat Transfer in Liquids and Gases" (c7_physics_ch03_004) and "Water Cycle and.',
+                  misconception: 'Students often believe that **lightning is attracted to tall metal objects** (like a lightning rod "pulling" lightning) and that **thunder.' },
+                { id: 'b', prompt: 'Compare the dissipating stage of a thunderstorm with its mature stage. What specific change in the cloud\'s internal airflow causes the storm to weaken and die?', answer: 'In the mature stage, strong updrafts and downdrafts coexist, feeding the storm',
+                  options: ['In the mature stage, strong updrafts and downdrafts coexist, feeding the storm', 'the rain stops', 'the cloud runs out of water', 'pulling'],
+                  hint: 'Review "Convection: Heat Transfer in Liquids and Gases" (c7_physics_ch03_004) and "Water Cycle and.',
+                  misconception: 'Students often believe that **lightning is attracted to tall metal objects** (like a lightning rod "pulling" lightning) and that **thunder.' }
+          ],
+            remediations: { 'lightning-is-attracted-to-tall': { steps: ['**Demonstrate the "path of least resistance" concept:** Use a simple circuit with a battery, two parallel paths — one.', 'Show the bulb on the copper path lights up.', 'Explain: lightning doesn\'t get "attracted"; it takes the easiest path to ground.', '**Show thunder mechanism:** Stretch a rubber band, pluck it near ear — hear a snap.'], labTask: { instruction: 'On the interactive: heat the gas — watch the particles. Now compress the piston — same effect? — then check.', widget: 'gas', validate: 'gas:temperature=80' } } } }
+    ],
+    reflect: { prompts: ['Which idea was hardest?', 'Explain one idea to a friend.'] },
+    successLine: 'Chapter mastered! 🌟', tryAgainLine: 'Revisit the idea, then retry.',
+};

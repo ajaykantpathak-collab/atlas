@@ -1,0 +1,844 @@
+{
+  "gameFile": "LivingThingsGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_bio_001",
+    "c3_bio_002",
+    "c3_bio_003",
+    "c3_bio_004",
+    "c3_bio_005"
+  ],
+  "mascot": "Doctor Deepa — friendly doctor with white coat, stethoscope, glasses, clipboard.",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Living & Non-Living Things! 🌱",
+      "text": "Living things grow on their own, need food and water, breathe, move, and reproduce! Examples: plants, animals, humans. Stones and chairs are non-living!",
+      "emoji": "🌱",
+      "bgColor": "from-emerald-400 to-green-600",
+      "spoken": "Living things grow on their own, need food and water, breathe, move, and reproduce! Examples include plants, animals, and humans. Stones and chairs are non-living!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 0
+        }
+      }
+    },
+    {
+      "title": "Internal Organs of Our Body! 🫀",
+      "text": "Hidden safely inside our body are amazing organs! The heart pumps blood, the lungs help us breathe, the stomach digests food, and the brain controls everything!",
+      "emoji": "🫀",
+      "bgColor": "from-red-400 to-rose-600",
+      "spoken": "Hidden safely inside our body are amazing organs! The heart pumps blood, the lungs help us breathe, the stomach digests food, and the brain controls everything!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 1
+        }
+      }
+    },
+    {
+      "title": "The Respiratory System! 👃",
+      "text": "We breathe air through our nose, down the windpipe (trachea), and into the lungs! The nose filters dust with tiny hairs and sticky mucus.",
+      "emoji": "👃",
+      "bgColor": "from-cyan-400 to-blue-600",
+      "spoken": "We breathe air through our nose, down the windpipe, and into the lungs! The nose filters dust with tiny hairs and sticky mucus.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Inhale and Exhale! 💨",
+      "text": "When we inhale (breathe in), our chest expands and ribs move out as air fills the lungs. When we exhale (breathe out), our chest shrinks and air leaves!",
+      "emoji": "💨",
+      "bgColor": "from-amber-400 to-orange-600",
+      "spoken": "When we inhale, our chest expands and ribs move out as air fills the lungs. When we exhale, our chest shrinks and air leaves!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Air Pollution & Clean Lungs! 🌳",
+      "text": "Smoke from vehicles and factories, dust, and burning garbage pollute the air! Polluted air causes coughing and asthma. Plant trees and wear masks to protect your lungs!",
+      "emoji": "🌳",
+      "bgColor": "from-purple-400 to-indigo-600",
+      "spoken": "Smoke from vehicles and factories, dust, and burning garbage pollute the air! Polluted air causes coughing and asthma. Plant trees and wear masks to protect your lungs!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which of these is a LIVING thing?",
+      "answer": "Rose plant",
+      "options": [
+        "Rose plant",
+        "Stone",
+        "Chair"
+      ],
+      "hint": "Think: Which one grows on its own, needs water, and breathes?",
+      "misconception": "A rose plant is living because it grows, needs water, and breathes! Stones and chairs are non-living — they do not grow or breathe.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Rose plant",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Stone",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Chair",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Stone",
+          "Rose plant"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "Which is a true feature of ALL living things?",
+      "answer": "They grow on their own and breathe",
+      "options": [
+        "They grow on their own and breathe",
+        "They are made of wood",
+        "They never change over time"
+      ],
+      "hint": "Living things need food, water, and air, and they grow from inside!",
+      "misconception": "Living things grow, need food and water, breathe, and reproduce! Non-living things do not. Movement alone does not prove something is living (a fan moves with electricity, but is non-living).",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "They grow on their own and breathe",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "They are made of wood",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "They never change over time",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "They grow on their own and breathe",
+          "They are made of wood"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each object to Living or Non-Living!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Living things grow and breathe (Dog, Plant). Non-living things do not (Stone, Chair).",
+      "misconception": "Remember: Plants and dogs are living because they grow, need food, and breathe. Stones and chairs do not grow or breathe, so they are non-living!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "item-plant",
+            "label": "Rose plant",
+            "correctBin": "living"
+          },
+          {
+            "id": "item-dog",
+            "label": "Puppy",
+            "correctBin": "living"
+          },
+          {
+            "id": "item-stone",
+            "label": "Stone",
+            "correctBin": "nonliving"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "item-plant",
+          "kind": "leaf",
+          "label": "Rose plant",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "living",
+          "interaction": "drag-to-bin",
+          "targetBin": "living"
+        },
+        {
+          "id": "item-dog",
+          "kind": "circle",
+          "label": "Puppy",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "living",
+          "interaction": "drag-to-bin",
+          "targetBin": "living"
+        },
+        {
+          "id": "item-stone",
+          "kind": "circle",
+          "label": "Stone",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "nonliving",
+          "interaction": "drag-to-bin",
+          "targetBin": "nonliving"
+        },
+        {
+          "id": "item-chair",
+          "kind": "circle",
+          "label": "Wooden chair",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "nonliving",
+          "interaction": "drag-to-bin",
+          "targetBin": "nonliving"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "item-plant",
+          "label": "Rose plant",
+          "emoji": "",
+          "correctBin": "living"
+        },
+        {
+          "id": "item-dog",
+          "label": "Puppy",
+          "emoji": "",
+          "correctBin": "living"
+        },
+        {
+          "id": "item-stone",
+          "label": "Stone",
+          "emoji": "",
+          "correctBin": "nonliving"
+        },
+        {
+          "id": "item-chair",
+          "label": "Wooden chair",
+          "emoji": "",
+          "correctBin": "nonliving"
+        }
+      ],
+      "bins": [
+        {
+          "id": "living",
+          "label": "Living Things 🌿",
+          "color": "#22C55E"
+        },
+        {
+          "id": "nonliving",
+          "label": "Non-Living 🪨",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which internal organ pumps blood to the whole body?",
+      "answer": "Heart",
+      "options": [
+        "Heart",
+        "Lungs",
+        "Stomach"
+      ],
+      "hint": "Place your hand on the left side of your chest — you can feel it thumping!",
+      "misconception": "The heart is a muscular organ that pumps blood to all parts of the body! The lungs are for breathing, and the stomach is for digesting food.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Heart",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Lungs",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Stomach",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Heart",
+          "Lungs"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each internal organ to its correct job!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Heart = pumps blood. Lungs = breathe air. Stomach = digests food. Liver = cleans blood.",
+      "misconception": "Each organ has its own special job! The heart pumps blood, lungs breathe air, stomach digests food, and liver cleans the blood.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "org-heart",
+            "label": "Heart",
+            "correctBin": "pump"
+          },
+          {
+            "id": "org-lungs",
+            "label": "Lungs",
+            "correctBin": "breathe"
+          },
+          {
+            "id": "org-stomach",
+            "label": "Stomach",
+            "correctBin": "digest"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "org-heart",
+          "kind": "circle",
+          "label": "Heart",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pump",
+          "interaction": "drag-to-bin",
+          "targetBin": "pump"
+        },
+        {
+          "id": "org-lungs",
+          "kind": "circle",
+          "label": "Lungs",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "breathe",
+          "interaction": "drag-to-bin",
+          "targetBin": "breathe"
+        },
+        {
+          "id": "org-stomach",
+          "kind": "circle",
+          "label": "Stomach",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "digest",
+          "interaction": "drag-to-bin",
+          "targetBin": "digest"
+        },
+        {
+          "id": "org-liver",
+          "kind": "circle",
+          "label": "Liver",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "clean",
+          "interaction": "drag-to-bin",
+          "targetBin": "clean"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "org-heart",
+          "label": "Heart",
+          "emoji": "",
+          "correctBin": "pump"
+        },
+        {
+          "id": "org-lungs",
+          "label": "Lungs",
+          "emoji": "",
+          "correctBin": "breathe"
+        },
+        {
+          "id": "org-stomach",
+          "label": "Stomach",
+          "emoji": "",
+          "correctBin": "digest"
+        },
+        {
+          "id": "org-liver",
+          "label": "Liver",
+          "emoji": "",
+          "correctBin": "clean"
+        }
+      ],
+      "bins": [
+        {
+          "id": "pump",
+          "label": "Pumps Blood 🫀",
+          "color": "#EF4444"
+        },
+        {
+          "id": "breathe",
+          "label": "Breathes Air 🫁",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "digest",
+          "label": "Digests Food 🍲",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "clean",
+          "label": "Cleans Blood 🧪",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "When we inhale (breathe in), what happens to our chest?",
+      "answer": "Chest expands and ribs move out",
+      "options": [
+        "Chest expands and ribs move out",
+        "Chest shrinks and ribs move in",
+        "Nothing changes at all"
+      ],
+      "hint": "Take a deep breath in — feel your chest get bigger as air fills your lungs!",
+      "misconception": "When we inhale, our chest expands and ribs move out because the lungs fill with air like a balloon! When we exhale, the chest shrinks.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Chest expands and ribs move out",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Chest shrinks and ribs move in",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Nothing changes at all",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Chest shrinks and ribs move in",
+          "Chest expands and ribs move out"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag the breathing steps in the correct order from start to finish!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Air enters the nose first, goes down the windpipe, and reaches the lungs!",
+      "misconception": "The path of air is: 1. Enters nose nostrils → 2. Travels down windpipe (trachea) → 3. Reaches lungs → 4. Lungs take in oxygen!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. Air enters the nose first, goes down the windpipe, and reaches the lungs!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "step-1",
+          "kind": "circle",
+          "label": "1. Air enters nose",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "s1",
+          "interaction": "drag-to-bin",
+          "targetBin": "s1"
+        },
+        {
+          "id": "step-2",
+          "kind": "circle",
+          "label": "2. Down windpipe",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "s2",
+          "interaction": "drag-to-bin",
+          "targetBin": "s2"
+        },
+        {
+          "id": "step-3",
+          "kind": "circle",
+          "label": "3. Reaches lungs",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "s3",
+          "interaction": "drag-to-bin",
+          "targetBin": "s3"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "step-1",
+          "label": "1. Air enters nose",
+          "emoji": "",
+          "correctBin": "s1"
+        },
+        {
+          "id": "step-2",
+          "label": "2. Down windpipe",
+          "emoji": "",
+          "correctBin": "s2"
+        },
+        {
+          "id": "step-3",
+          "label": "3. Reaches lungs",
+          "emoji": "",
+          "correctBin": "s3"
+        }
+      ],
+      "bins": [
+        {
+          "id": "s1",
+          "label": "Step 1: Nose 👃",
+          "color": "#06B6D4"
+        },
+        {
+          "id": "s2",
+          "label": "Step 2: Windpipe 🌬️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "s3",
+          "label": "Step 3: Lungs 🫁",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag each item into Air Pollution Cause or Protection Way!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Factory smoke causes pollution. Wearing masks and planting trees protect us!",
+      "misconception": "Vehicle exhaust and factory smoke pollute the air and harm our lungs. Wearing a face mask and planting trees are great ways to protect ourselves and keep air clean!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "poll-smoke",
+            "label": "Factory smoke",
+            "correctBin": "pollution"
+          },
+          {
+            "id": "poll-car",
+            "label": "Vehicle exhaust",
+            "correctBin": "pollution"
+          },
+          {
+            "id": "prot-mask",
+            "label": "Wear a face mask",
+            "correctBin": "protect"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "poll-smoke",
+          "kind": "circle",
+          "label": "Factory smoke",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pollution",
+          "interaction": "drag-to-bin",
+          "targetBin": "pollution"
+        },
+        {
+          "id": "poll-car",
+          "kind": "circle",
+          "label": "Vehicle exhaust",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pollution",
+          "interaction": "drag-to-bin",
+          "targetBin": "pollution"
+        },
+        {
+          "id": "prot-mask",
+          "kind": "circle",
+          "label": "Wear a face mask",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "protect",
+          "interaction": "drag-to-bin",
+          "targetBin": "protect"
+        },
+        {
+          "id": "prot-tree",
+          "kind": "leaf",
+          "label": "Plant more trees",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "protect",
+          "interaction": "drag-to-bin",
+          "targetBin": "protect"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "poll-smoke",
+          "label": "Factory smoke",
+          "emoji": "",
+          "correctBin": "pollution"
+        },
+        {
+          "id": "poll-car",
+          "label": "Vehicle exhaust",
+          "emoji": "",
+          "correctBin": "pollution"
+        },
+        {
+          "id": "prot-mask",
+          "label": "Wear a face mask",
+          "emoji": "",
+          "correctBin": "protect"
+        },
+        {
+          "id": "prot-tree",
+          "label": "Plant more trees",
+          "emoji": "",
+          "correctBin": "protect"
+        }
+      ],
+      "bins": [
+        {
+          "id": "pollution",
+          "label": "Causes Pollution 🏭",
+          "color": "#EF4444"
+        },
+        {
+          "id": "protect",
+          "label": "Protects Lungs 🌳",
+          "color": "#22C55E"
+        }
+      ]
+    }
+  ],
+  "theme": "garden",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_bio_001",
+    "region": "Biosphere",
+    "mapX": 0.78,
+    "mapY": 0.67,
+    "icon": "🌱",
+    "prerequisites": [
+      "c3_bio_002"
+    ]
+  },
+  "subject": "biology"
+}

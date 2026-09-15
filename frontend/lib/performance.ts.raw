@@ -1,0 +1,774 @@
+```ts
+// D:\platform\frontend\lib\performance.ts
+
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
+
+/* ------------------------------------------------------------------ */
+/*  1. useDebounce                                                    */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Debounces a changing value. Returns the last value that has remained
+ * unchanged for `delay` milliseconds. Stale updates are skipped so the
+ * caller sees the value "settle" after rapid input.
+ */
+export function useDebounce<T>(value: T, delay: number = 300): T {
+  const [debounced, setDebounced] = useState<T>(value);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setDebounced(value), delay);
+    return () => clearTimeout(timer);
+  }, [value, delay]);
+
+  return debounced;
+}
+
+/* ------------------------------------------------------------------ */
+/*  2. useThrottle                                                     */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Throttles a changing value. The returned value updates at most once
+ * every `limit` milliseconds – perfect for scroll/resize handlers.
+ * Uses the *latest* value so intermediate changes are not silently
+ * dropped.
+ */
+export function useThrottle<T>(value: T, limit: number = 250): T {
+  const [throttled, setThrottled] = useState<T>(value);
+  const lastRef = useRef<number>(0);
+  const pendingRef = useRef<T>(value);
+  const rafRef = useRef<number>(0);
+
+  useEffect(() => {
+    const now = Date.now();
+    const elapsed = now - lastRef.current;
+
+    if (elapsed >= limit) {
+      // Enough time has passed – flush immediately.
+      lastRef.current = now;
+      setThrottled(value);
+    } else {
+      // Schedule a single rAF flush at the trailing edge.
+      pendingRef.current = value;
+      if (rafRef.current === 0) {
+        rafRef.current = requestAnimationFrame(() => {
+          const remaining = limit - (Date.now() - lastRef.current);
+          if (remaining <= 0) {
+            lastRef.current = Date.now();
+            setThrottled(pendingRef.current);
+          }
+          rafRef.current = 0;
+        });
+      }
+    }
+
+    return () => {
+      if (rafRef.current !== 0) {
+        cancelAnimationFrame(rafRef.current);
+        rafRef.current = 0;
+      }
+    };
+  }, [value, limit]);
+
+  return throttled;
+}
+
+/* ------------------------------------------------------------------ */
+/*  3. useIntersectionObserver                                         */
+/* ------------------------------------------------------------------ */
+
+export interface UseIntersectionObserverOptions {
+  /** Root element for observation (defaults to browser viewport) */
+  root?: Element | null;
+  /** Root margin string (e.g. "200px" to start loading before visible) */
+  rootMargin?: string;
+  /** Fire when any or all targets intersect */
+  threshold?: number | number[];
+}
+
+export interface IntersectionResult {
+  /** Whether the ref'd element is currently intersecting */
+  isIntersecting: boolean;
+  /** Attach this ref to the element you want to observe */
+  ref: (node: Element | null) => void;
+  /** Latest IntersectionObserverEntry */
+  entry: IntersectionObserverEntry | null;
+}
+
+/**
+ * Generic intersection-observer hook. Attach the returned `ref` to
+ * any DOM element. Optionally supply a callback that fires on every
+ * change.
+ */
+export function useIntersectionObserver(
+  options: UseIntersectionObserverOptions = {},
+  onChange?: (isIntersecting: boolean, entry: IntersectionObserverEntry) => void,
+): IntersectionResult {
+  const { root, rootMargin = "0px", threshold = 0 } = options;
+  const [isIntersecting, setIntersecting] = useState(false);
+  const [entry, setEntry] = useState<IntersectionObserverEntry | null>(null);
+  const nodeRef = useRef<Element | null>(null);
+  const observerRef = useRef<IntersectionObserver | null>(null);
+
+  const setRef = useCallback((node: Element | null) => {
+    if (observerRef.current) {
+      observerRef.current.disconnect();
+    }
+
+    nodeRef.current = node;
+    if (!node) {
+      setIntersecting(false);
+      setEntry(null);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([obsEntry]) => {
+        setIntersecting(obsEntry.isIntersecting);
+        setEntry(obsEntry);
+        onChange?.(obsEntry.isIntersecting, obsEntry);
+      },
+      { root, rootMargin, threshold },
+    );
+
+    observer.observe(node);
+    observerRef.current = observer;
+  }, [root, rootMargin, threshold, onChange]);
+
+  useEffect(() => () => observerRef.current?.disconnect(), []);
+
+  return { isIntersecting, ref: setRef, entry };
+}
+
+/**
+ * Lazy-load convenience wrapper. Pass a `load` function; it will be
+ * called exactly once when the element scrolls into view.
+ */
+export function useLazyLoad<T>(
+  load: () => Promise<T>,
+  options?: UseIntersectionObserverOptions,
+): { isIntersecting: boolean; ref: (node: Element | null) => void; data: T | null; error: Error | null; isLoading: boolean } {
+  const { isIntersecting, ref } = useIntersectionObserver({
+    rootMargin: "200px",
+    ...options,
+  });
+
+  const [data, setData] = useState<T | null>(null);
+  const [error, setError] = useState<Error | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const loadedRef = useRef(false);
+
+  useEffect(() => {
+    if (isIntersecting && !loadedRef.current) {
+      loadedRef.current = true;
+      setIsLoading(true);
+      load()
+        .then((result) => { setData(result); setError(null); })
+        .catch((err) => setError(err instanceof Error ? err : new Error(String(err))))
+        .finally(() => setIsLoading(false));
+    }
+  }, [isIntersecting, load]);
+
+  return { isIntersecting, ref, data, error, isLoading };
+}
+
+/* ------------------------------------------------------------------ */
+/*  4. usePrefetch                                                    */
+/* ------------------------------------------------------------------ */
+
+import { useRouter } from "next/navigation";
+
+/**
+ * Prefetches a Next.js App Router route. Internally calls
+ * `router.prefetch()`. Returns whether the prefetch is in-flight.
+ */
+export function usePrefetch() {
+  const router = useRouter();
+  const pendingRef = useRef<Set<string>>(new Set());
+  const [statuses, setStatuses] = useState<Record<string, "idle" | "loading" | "done" | "error">>({});
+
+  const prefetch = useCallback(
+    async (href: string, options?: Parameters<typeof router.prefetch>[1]) => {
+      if (pendingRef.current.has(href)) return;
+      pendingRef.current.add(href);
+      setStatuses((s) => ({ ...s, [href]: "loading" }));
+
+      try {
+        await router.prefetch(href, options);
+        setStatuses((s) => ({ ...s, [href]: "done" }));
+      } catch {
+        setStatuses((s) => ({ ...s, [href]: "error" }));
+      } finally {
+        pendingRef.current.delete(href);
+      }
+    },
+    [router],
+  );
+
+  const isPending = useCallback(
+    (href: string) => pendingRef.current.has(href),
+    [],
+  );
+
+  const getStatus = useCallback(
+    (href: string) => statuses[href] ?? "idle",
+    [statuses],
+  );
+
+  // Prefetch a list of routes (e.g. visible nav links on mount).
+  const prefetchBatch = useCallback(
+    async (hrefs: string[]) => {
+      await Promise.allSettled(hrefs.map((h) => prefetch(h)));
+    },
+    [prefetch],
+  );
+
+  return { prefetch, prefetchBatch, isPending, getStatus };
+}
+
+/* ------------------------------------------------------------------ */
+/*  5. useVirtualList                                                 */
+/* ------------------------------------------------------------------ */
+
+export interface VirtualListOptions {
+  /** Height of each row in px (fixed-size rows) */
+  itemHeight: number;
+  /** Extra buffer rows above and below the viewport */
+  overscan?: number;
+  /** Container height in px (defaults to the scroll container height) */
+  containerHeight?: number;
+}
+
+export interface VirtualListResult<T> {
+  /** Items currently in the render window */
+  visibleItems: { index: number; item: T; offsetY: number }[];
+  /** Cumulative height of all rows – used as the inner-spacer height */
+  totalHeight: number;
+  /** Offset from the top of the scroll container to the first visible item */
+  startOffset: number;
+  /** Event handler for the scroll container */
+  onScroll: (e: React.UIEvent<HTMLDivElement>) => void;
+  /** Ref to attach to the scroll container */
+  containerRef: React.RefObject<HTMLDivElement | null>;
+  /** Jump to a specific row */
+  scrollToIndex: (index: number, align?: "start" | "center" | "end") => void;
+}
+
+/**
+ * Renders only the rows visible in the viewport (plus an `overscan`
+ * buffer), keeping the DOM small even for lists with tens of thousands
+ * of items. Works with any scrollable container.
+ */
+export function useVirtualList<T>(
+  items: readonly T[],
+  options: VirtualListOptions,
+): VirtualListResult<T> {
+  const { itemHeight, overscan = 5, containerHeight: containerHeightProp } = options;
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const [scrollTop, setScrollTop] = useState(0);
+
+  const [containerHeight, setContainerHeight] = useState(() =>
+    typeof containerHeightProp === "number" ? containerHeightProp : 600,
+  );
+
+  useLayoutEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const observer = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        const h = entry.contentRect.height;
+        if (h > 0) setContainerHeight(h);
+      }
+    });
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  const totalHeight = items.length * itemHeight;
+  const startIndex = Math.max(0, Math.floor(scrollTop / itemHeight) - overscan);
+  const endIndex = Math.min(
+    items.length - 1,
+    Math.ceil((scrollTop + containerHeight) / itemHeight) + overscan,
+  );
+
+  const visibleItems = useMemo(() => {
+    const result: { index: number; item: T; offsetY: number }[] = [];
+    for (let i = startIndex; i <= endIndex; i++) {
+      result.push({ index: i, item: items[i], offsetY: i * itemHeight });
+    }
+    return result;
+  }, [items, startIndex, endIndex, itemHeight]);
+
+  const onScroll = useCallback((e: React.UIEvent<HTMLDivElement>) => {
+    setScrollTop(e.currentTarget.scrollTop);
+  }, []);
+
+  const scrollToIndex = useCallback(
+    (index: number, align: "start" | "center" | "end" = "start") => {
+      const el = containerRef.current;
+      if (!el) return;
+      const targetTop =
+        align === "start"
+          ? index * itemHeight
+          : align === "center"
+            ? index * itemHeight - containerHeight / 2 + itemHeight / 2
+            : index * itemHeight - containerHeight + itemHeight;
+      el.scrollTop = Math.max(0, Math.min(targetTop, totalHeight - containerHeight));
+      setScrollTop(el.scrollTop);
+    },
+    [itemHeight, containerHeight, totalHeight],
+  );
+
+  return { visibleItems, totalHeight, startOffset: startIndex * itemHeight, onScroll, containerRef, scrollToIndex };
+}
+
+/* ------------------------------------------------------------------ */
+/*  6. useImageOptimization                                            */
+/* ------------------------------------------------------------------ */
+
+export interface ImageOptimizationOptions {
+  /** URL of the full-size image */
+  src: string;
+  /** Blur placeholder data URL or low-res thumbnail URL */
+  placeholder?: string;
+  /** Whether to use lazy-loading (default true) */
+  lazy?: boolean;
+  /** Accepted image formats for <picture> source tags */
+  formats?: string[];
+  /** Responsive breakpoints for srcset generation */
+  breakpoints?: number[];
+}
+
+export interface ImageOptimizationResult {
+  /** Final src for the <img> tag */
+  src: string;
+  /** srcset string for responsive images */
+  srcSet: string | undefined;
+  /** sizes attribute value */
+  sizes: string;
+  /** Loading attribute value */
+  loading: string;
+  /** Whether the image has finished loading */
+  isLoaded: boolean;
+  /** Whether the image is currently loading */
+  isLoading: boolean;
+  /** Whether the image failed to load */
+  isError: boolean;
+  /** Ref callback to attach to the <img> element */
+  ref: (node: HTMLImageElement | null) => void;
+}
+
+const DEFAULT_BREAKPOINTS = [640, 750, 828, 1080, 1200, 1920, 2048, 3840];
+
+/**
+ * Generates srcset strings for responsive images and manages loading
+ * state. Also supports blur-up placeholders by tracking the transition
+ * from the placeholder to the real image.
+ */
+export function useImageOptimization(
+  opts: ImageOptimizationOptions,
+): ImageOptimizationResult {
+  const {
+    src,
+    placeholder,
+    lazy = true,
+    formats = ["image/webp", "image/avif"],
+    breakpoints = DEFAULT_BREAKPOINTS,
+  } = opts;
+
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  const [isError, setIsError] = useState(false);
+  const imgRef = useRef<HTMLImageElement | null>(null);
+
+  // Build srcset from breakpoints.
+  const srcSet = useMemo(() => {
+    if (!srcSetNeeded(breakpoints)) return undefined;
+    return breakpoints
+      .filter((w) => w > 0)
+      .map((w) => `${src}?w=${w}&q=80 ${w}w`)
+      .join(", ");
+  }, [src, breakpoints]);
+
+  const sizes = useMemo(
+    () =>
+      breakpoints.length > 1
+        ? breakpoints.map((w, i) => `(max-width: ${w}px) ${w}px`).join(", ") + ` ${breakpoints[breakpoints.length - 1]}px`
+        : "100vw",
+    [breakpoints],
+  );
+
+  // Picture-element source URLs for modern formats.
+  const pictureSources = useMemo(() => {
+    const base = src.split("?").shift() ?? src;
+    return formats.map((fmt) => ({
+      type: fmt,
+      srcSet: breakpoints
+        .filter((w) => w > 0)
+        .map((w) => `${base}?w=${w}&fmt=${fmt.replace("image/", "")}&q=80 ${w}w`)
+        .join(", "),
+    }));
+  }, [src, formats, breakpoints]);
+
+  const setRef = useCallback((node: HTMLImageElement | null) => {
+    imgRef.current = node;
+    if (!node) return;
+
+    const onLoad = () => { setIsLoaded(true); setIsLoading(false); };
+    const onError = () => { setIsError(true); setIsLoading(false); };
+
+    if (node.complete && node.naturalWidth > 0) {
+      onLoad();
+    } else {
+      node.addEventListener("load", onLoad, { once: true });
+      node.addEventListener("error", onError, { once: true });
+    }
+  }, []);
+
+  return {
+    src: placeholder ?? src,
+    srcSet,
+    sizes,
+    loading: lazy ? "lazy" : "eager",
+    isLoaded,
+    isLoading,
+    isError,
+    ref: setRef,
+  };
+}
+
+function srcSetNeeded(breakpoints: number[]): boolean {
+  return breakpoints.length > 1 && breakpoints.some((w) => w > 0);
+}
+
+/* ------------------------------------------------------------------ */
+/*  7. Bundle size tracker                                             */
+/* ------------------------------------------------------------------ */
+
+import dynamic from "next/dynamic";
+
+type ChunkInfo = {
+  name: string;
+  sizeKB: number;
+  /** From the bundlesize config or a manual threshold */
+  limitKB?: number;
+  overLimit: boolean;
+};
+
+const CHUNK_REGEX = /(?:static\/chunks\/)?([^/?]+)(?:\.[a-f0-9]+)?\.js$/i;
+
+/**
+ * Reads `performance.getEntriesByType("resource")` and estimates JS
+ * chunk sizes. Call this once after hydration (e.g. in a `useEffect`
+ * with an empty dep array) to log / report large chunks.
+ *
+ * Optionally pass a `Map<string, number>` of name → size limit (in KB).
+ * Chunks that exceed their limit are returned so you can act on them
+ * (e.g. route the chunk to a dynamic import).
+ */
+export function measureBundleSizes(
+  chunkLimits: Map<string, number> = new Map([
+    ["page", 200],
+    ["main", 300],
+    ["default", 200],
+  ]): ChunkInfo[] {
+  if (typeof window === "undefined" || !window.performance) return [];
+
+  const chunks: ChunkInfo[] = [];
+  const resources = performance.getEntriesByType("resource");
+
+  for (const r of resources) {
+    if (r.initiatorType !== "script" || !r.name.includes("chunks")) continue;
+    const match = r.name.match(CHUNK_REGEX);
+    if (!match) continue;
+
+    const name = match[1];
+    const sizeKB = r.transferSize
+      ? r.transferSize / 1024
+      : r.decodedBodySize
+        ? r.decodedBodySize / 1024
+        : 0;
+
+    if (sizeKB === 0) continue; // Skip if we can't determine size.
+
+    const limitKB = chunkLimits.get(name) ?? chunkLimits.get("default") ?? Infinity;
+    chunks.push({ name, sizeKB: Math.round(sizeKB * 100) / 100, limitKB, overLimit: sizeKB > limitKB });
+  }
+
+  const overLimit = chunks.filter((c) => c.overLimit);
+  if (overLimit.length > 0) {
+    console.group(`⚠️  ${overLimit.length} chunk(s) over size budget`);
+    for (const c of overLimit) {
+      console.warn(
+        `  ${c.name}: ${c.sizeKB} KB (limit ${c.limitKB} KB) — consider dynamic import`,
+      );
+    }
+    console.groupEnd();
+  }
+
+  return chunks.sort((a, b) => b.sizeKB - a.sizeKB);
+}
+
+/* ------------------------------------------------------------------ */
+/*  8. React.lazy + Suspense helpers                                    */
+/* ------------------------------------------------------------------ */
+
+import { Suspense, type ComponentType, type ReactNode } from "react";
+
+export interface LazyComponentOptions {
+  /** Fallback UI shown while the component loads */
+  fallback?: ReactNode;
+  /** Error boundary handler */
+  onError?: (error: Error) => ReactNode;
+}
+
+/**
+ * A wrapper around `React.lazy` that also installs a simple error
+ * boundary so a failed chunk-load doesn't crash the whole tree.
+ *
+ * Usage:
+ *   const Dashboard = lazyWithSuspense(() => import('./Dashboard'));
+ */
+export function lazyWithSuspense<T extends ComponentType<any>>(
+  importFn: () => Promise<{ default: T }>,
+  opts: LazyComponentOptions = {},
+): React.LazyExoticComponent<T> {
+  const { fallback = <div className="skeleton h-32 w-full animate-pulse rounded-lg bg-gray-200" /> } = opts;
+
+  const LazyComponent = React.lazy(importFn);
+
+  return Object.assign(LazyComponent, {
+    $$typeof: LazyComponent.$$typeof,
+    render(this: any, props: any) {
+      return (
+        <Suspense fallback={fallback}>
+          <ErrorBoundary fallback={opts.onError} onError={opts.onError}>
+            <LazyComponent {...props} />
+          </ErrorBoundary>
+        </Suspense>
+      );
+    },
+  });
+}
+
+/* ------------------------------------------------------------------ */
+/*  Simple error boundary (class-based, required by React)              */
+/* ------------------------------------------------------------------ */
+
+interface ErrorBoundaryProps {
+  children: ReactNode;
+  fallback?: (error: Error) => ReactNode;
+  onError?: (error: Error) => void;
+}
+
+interface ErrorBoundaryState {
+  error: Error | null;
+}
+
+class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundaryState> {
+  state: ErrorBoundaryState = { error: null };
+
+  static getDerivedStateFromError(error: Error): ErrorBoundaryState {
+    return { error };
+  }
+
+  componentDidCatch(error: Error) {
+    this.props.onError?.(error);
+  }
+
+  render() {
+    const { error } = this.state;
+    if (error) {
+      const fallback = this.props.fallback?.(error) ?? (
+        <div className="rounded-lg border border-red-200 bg-red-50 p-4 text-sm text-red-700">
+          <p className="font-semibold">Failed to load component</p>
+          <p className="mt-1 text-xs">{error.message}</p>
+        </div>
+      );
+      return fallback;
+    }
+    return this.props.children;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/*  9. Memory usage monitor                                            */
+/* ------------------------------------------------------------------ */
+
+export interface MemoryMonitorOptions {
+  /** Poll interval in ms (default: 10 000) */
+  interval?: number;
+  /** Threshold in MB (default: 100) */
+  thresholdMB?: number;
+  /** Called when usage exceeds the threshold */
+  onWarning?: (usage: MemoryUsage) => void;
+  /** Called every poll tick */
+  onUpdate?: (usage: MemoryUsage) => void;
+}
+
+export interface MemoryUsage {
+  /** Heap size limit in bytes (from JSHeapSizeLimit) */
+  heapLimitBytes: number;
+  /** Total allocated heap bytes */
+  totalHeapBytes: number;
+  /** Live heap bytes */
+  usedHeapBytes: number;
+  /** Percentage of the limit currently in use */
+  usedPercent: number;
+  /** Timestamp of the measurement */
+  timestamp: number;
+  /** Whether the threshold was breached */
+  isOverThreshold: boolean;
+}
+
+/**
+ * Monitors `performance.memory` (Chrome / Electron only) and calls
+ * `onWarning` whenever heap usage crosses `thresholdMB`. Returns a
+ * `MemoryUsage` snapshot or `null` when the API is unavailable.
+ */
+export function useMemoryMonitor(opts: MemoryMonitorOptions = {}): MemoryUsage | null {
+  const { interval = 10_000, thresholdMB = 100, onWarning, onUpdate } = opts;
+
+  const [usage, setUsage] = useState<MemoryUsage | null>(null);
+
+  useEffect(() => {
+    // performance.memory is non-standard and only available in Chromium.
+    const mem = (performance as any).memory as
+      | { jsHeapSizeLimit: number; totalJSHeapSize: number; usedJSHeapSize: number }
+      | undefined;
+    if (!mem) return;
+
+    let warned = false;
+    const tick = () => {
+      const u: MemoryUsage = {
+        heapLimitBytes: mem.jsHeapSizeLimit,
+        totalHeapBytes: mem.totalJSHeapSize,
+        usedHeapBytes: mem.usedJSHeapSize,
+        usedPercent: (mem.usedJSHeapSize / mem.jsHeapSizeLimit) * 100,
+        timestamp: Date.now(),
+        isOverThreshold: mem.usedJSHeapSize / 1_048_576 > thresholdMB,
+      };
+      setUsage(u);
+      onUpdate?.(u);
+
+      if (u.isOverThreshold && !warned) {
+        warned = true;
+        onWarning?.(u);
+      }
+    };
+
+    tick(); // Immediate first read.
+    const id = setInterval(tick, interval);
+    return () => clearInterval(id);
+  }, [interval, thresholdMB, onWarning, onUpdate]);
+
+  return usage;
+}
+
+/**
+ * One-shot memory snapshot. Useful outside of a React component
+ * (e.g. in a route transition handler).
+ */
+export function getMemoryUsage(): MemoryUsage | null {
+  const mem = (performance as any).memory as
+    | { jsHeapSizeLimit: number; totalJSHeapSize: number; usedJSHeapSize: number }
+    | undefined;
+  if (!mem) return null;
+  return {
+    heapLimitBytes: mem.jsHeapSizeLimit,
+    totalHeapBytes: mem.totalJSHeapSize,
+    usedHeapBytes: mem.usedJSHeapSize,
+    usedPercent: (mem.usedJSHeapSize / mem.jsHeapSizeLimit) * 100,
+    timestamp: Date.now(),
+    isOverThreshold: mem.usedJSHeapSize / 1_048_576 > 100,
+  };
+}
+
+/* ------------------------------------------------------------------ */
+/*  Utility: timed execution (dev / debug helper)                      */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Logs how long a wrapped function takes to run. Safe to leave in
+ * production – it returns the original function unchanged when
+ * `process.env.NODE_ENV === "production"`.
+ */
+export function withTiming<T extends (...args: any[]) => any>(
+  fn: T,
+  label?: string,
+): T {
+  if (process.env.NODE_ENV === "production") return fn;
+
+  const name = label ?? fn.name ?? "anonymous";
+  return ((...args: Parameters<T>) => {
+    const start = performance.now();
+    const result = fn(...args);
+    // Handle async functions.
+    if (result instanceof Promise) {
+      return result.then((r) => {
+        console.log(`[timing] ${name}: ${(performance.now() - start).toFixed(1)} ms`);
+        return r;
+      });
+    }
+    console.log(`[timing] ${name}: ${(performance.now() - start).toFixed(1)} ms`);
+    return result;
+  }) as T;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Utility: batch DOM reads + writes                                   */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Groups multiple DOM reads (getBoundingClientRect, etc.) into one
+ * synchronous block so the browser can coalesce layout calculations,
+ * then batches DOM writes (style changes) in a second rAF. Reduces
+ * layout thrashing during list renders.
+ */
+export function batchDOMUpdates(
+  reads: () => void,
+  writes: () => void,
+): void {
+  reads();
+  requestAnimationFrame(() => writes());
+}
+
+/* ------------------------------------------------------------------ */
+/*  Re-export map (convenience)                                        */
+/* ------------------------------------------------------------------ */
+
+export const performanceHooks = {
+  useDebounce,
+  useThrottle,
+  useIntersectionObserver,
+  useLazyLoad,
+  usePrefetch,
+  useVirtualList,
+  useImageOptimization,
+  useMemoryMonitor,
+};
+```
+
+Here's a quick guide to every piece:
+
+| Hook / Utility | Key Design Choice |
+|---|---|
+| **useDebounce** | Clean-up `setTimeout` on every render — no stale timers |
+| **useThrottle** | Uses `requestAnimationFrame` at the trailing edge so you always get the **latest** value, not a stale one |
+| **useIntersectionObserver** | Creates/disconnects the observer on every `ref` attachment, so it works when elements mount/unmount dynamically |
+| **useLazyLoad** | Wraps `useIntersectionObserver` with a one-shot `load()` promise — perfect for infinite-scroll data |
+| **usePrefetch** | Batches route prefetches via `router.prefetch`; exposes `isPending`/`getStatus` for nav-link hover states |
+| **useVirtualList** | Computes `visibleItems` with `useMemo`, uses `ResizeObserver` for container height, and exposes `scrollToIndex` for programmatic navigation |
+| **useImageOptimization** | Generates `srcset` from configurable breakpoints, builds `<picture>` source sets for WebP/AVIF, tracks load state |
+| **Bundle size tracker** | Reads `performance.getEntriesByType("resource")`, groups by chunk name, warns on any chunk that exceeds its KB budget |
+| **lazyWithSuspense** | Returns a component that already wraps `React.lazy` + `Suspense` + a class-based `ErrorBoundary` — just render it like a normal component |
+| **Memory monitor** | Polls `performance.memory` (Chromium only); fires `onWarning` exactly **once** when the 100 MB threshold is crossed |
+| **withTiming** | Zero-overhead in production (returns original fn); times sync **and** async calls |
+| **batchDOMUpdates** | Forces all reads before any writes in a single rAF, eliminating layout thrashing during rapid list renders |

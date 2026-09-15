@@ -1,0 +1,854 @@
+{
+  "gameFile": "GlobeGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_geo_001",
+    "c3_geo_002"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "The Globe — Model of Earth 🌍",
+      "text": "A globe is a small spherical model of the Earth. Because the Earth is too huge to see all at once, a globe shrinks it down so we can study continents and oceans in proportion!",
+      "emoji": "🌍",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "A globe is a small spherical model of the Earth. Because the Earth is too huge to see all at once, a globe shrinks it down so we can study continents and oceans in proportion!",
+      "diagram": {
+        "type": "solar-system",
+        "animate": true,
+        "data": {
+          "planets": [
+            {
+              "name": "Earth",
+              "color": 4886745,
+              "distance": 70,
+              "size": 8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Shape and Size of Earth 🌐",
+      "text": "The Earth is shaped like a sphere — slightly flattened at the poles and bulging at the equator. It is about 12,742 kilometres across and 40,000 kilometres around!",
+      "emoji": "🌐",
+      "bgColor": "from-cyan-500 to-blue-600",
+      "spoken": "The Earth is shaped like a sphere, slightly flattened at the poles and bulging at the equator. It is about 12,742 kilometres across and 40,000 kilometres around!",
+      "diagram": {
+        "type": "solar-system",
+        "animate": true,
+        "data": {
+          "planets": [
+            {
+              "name": "Earth",
+              "color": 4886745,
+              "distance": 70,
+              "size": 8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Land and Water 🌊",
+      "text": "The Earth is called the blue planet because about two-thirds of its surface is covered with water (oceans), while one-third is land (continents like Asia and Africa)!",
+      "emoji": "🌊",
+      "bgColor": "from-teal-500 to-cyan-600",
+      "spoken": "The Earth is called the blue planet because about two-thirds of its surface is covered with water, while one-third is land!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Axis and Equator 🧭",
+      "text": "A tilted rod passing through the globe is the axis, representing the line Earth spins on. The equator is the imaginary belt around the middle dividing Northern and Southern hemispheres!",
+      "emoji": "🧭",
+      "bgColor": "from-indigo-500 to-purple-600",
+      "spoken": "A tilted rod passing through the globe is the axis, representing the line Earth spins on. The equator is the imaginary belt around the middle!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Globe vs. Flat Map 🗺️",
+      "text": "A globe shows the true round shape of Earth without stretching. Flat maps are easy to carry and show details, but they always distort some parts of the Earth!",
+      "emoji": "🗺️",
+      "bgColor": "from-blue-600 to-teal-600",
+      "spoken": "A globe shows the true round shape of Earth without stretching. Flat maps are easy to carry and show details, but they distort some parts!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {
+          "region": {
+            "x": 0,
+            "y": 0,
+            "label": "India"
+          }
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_globe",
+      "question": "What is a GLOBE?",
+      "answer": "A small round model of the Earth",
+      "options": [
+        "A small round model of the Earth",
+        "A type of flat paper map",
+        "A flying compass"
+      ],
+      "hint": "Think: what do we call the round ball sitting on the classroom table that shows all continents?",
+      "misconception": "A globe is a small spherical model of the Earth that shows its true round shape! It is not a flat map or a compass.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A small round model of the Earth",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A type of flat paper map",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A flying compass",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A type of flat paper map",
+          "A small round model of the Earth"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_shape",
+      "question": "What is the shape of the Earth?",
+      "answer": "Round like a ball (geoid)",
+      "options": [
+        "Round like a ball (geoid)",
+        "Flat like a plate",
+        "Square like a box"
+      ],
+      "hint": "Think about photographs taken by astronauts from space — what shape do they show?",
+      "misconception": "The Earth is not flat! It is round like a ball (a spherical geoid), slightly flattened at the poles and bulging at the equator. Space photos prove this!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Round like a ball (geoid)",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Flat like a plate",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Square like a box",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Flat like a plate",
+          "Round like a ball (geoid)"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort_model",
+      "question": "Drag each feature to Globe or Map!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Globes are 3D round models showing true shapes. Flat maps are 2D paper drawings that can be folded.",
+      "misconception": "Globes show the true round shape and cannot be folded. Flat maps are 2D drawings on paper that can be folded and carried easily!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "g1",
+            "label": "Round 3D model",
+            "correctBin": "globe"
+          },
+          {
+            "id": "g2",
+            "label": "Shows true shape",
+            "correctBin": "globe"
+          },
+          {
+            "id": "m1",
+            "label": "Flat 2D paper",
+            "correctBin": "map"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "g1",
+          "kind": "circle",
+          "label": "Round 3D model",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "globe",
+          "interaction": "drag-to-bin",
+          "targetBin": "globe"
+        },
+        {
+          "id": "g2",
+          "kind": "circle",
+          "label": "Shows true shape",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "globe",
+          "interaction": "drag-to-bin",
+          "targetBin": "globe"
+        },
+        {
+          "id": "m1",
+          "kind": "circle",
+          "label": "Flat 2D paper",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "map",
+          "interaction": "drag-to-bin",
+          "targetBin": "map"
+        },
+        {
+          "id": "m2",
+          "kind": "circle",
+          "label": "Can be folded",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "map",
+          "interaction": "drag-to-bin",
+          "targetBin": "map"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "g1",
+          "label": "Round 3D model",
+          "emoji": "",
+          "correctBin": "globe"
+        },
+        {
+          "id": "g2",
+          "label": "Shows true shape",
+          "emoji": "",
+          "correctBin": "globe"
+        },
+        {
+          "id": "m1",
+          "label": "Flat 2D paper",
+          "emoji": "",
+          "correctBin": "map"
+        },
+        {
+          "id": "m2",
+          "label": "Can be folded",
+          "emoji": "",
+          "correctBin": "map"
+        }
+      ],
+      "bins": [
+        {
+          "id": "globe",
+          "label": "Globe 🌍",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "map",
+          "label": "Flat Map 🗺️",
+          "color": "#14B8A6"
+        }
+      ]
+    },
+    {
+      "type": "identify_water",
+      "question": "Why is the Earth called the 'blue planet'?",
+      "answer": "Because most of it is covered with water",
+      "options": [
+        "Because most of it is covered with water",
+        "Because the sky is blue",
+        "Because it has blue animals"
+      ],
+      "hint": "Look at photographs from space — what covers about two-thirds of the Earth?",
+      "misconception": "Earth is called the blue planet because about two-thirds (71%) of its surface is covered with huge oceans of blue water! The sky is blue too, but the oceans make Earth look blue from space.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Because most of it is covered with water",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Because the sky is blue",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Because it has blue animals",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Because the sky is blue",
+          "Because most of it is covered with water"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_parts",
+      "question": "Drag each part of the Earth to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Land is brown/green, water is blue, equator is the middle belt, poles are top and bottom!",
+      "misconception": "Land is brown and green (continents), water is blue (oceans), the equator is the middle line dividing hemispheres, and the poles are the top and bottom points!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "p1",
+            "label": "Land (Continents)",
+            "correctBin": "land-bin"
+          },
+          {
+            "id": "p2",
+            "label": "Water (Oceans)",
+            "correctBin": "water-bin"
+          },
+          {
+            "id": "p3",
+            "label": "Equator (Belt)",
+            "correctBin": "equator-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "p1",
+          "kind": "circle",
+          "label": "Land (Continents)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "land-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "land-bin"
+        },
+        {
+          "id": "p2",
+          "kind": "water-drop",
+          "label": "Water (Oceans)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "water-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "water-bin"
+        },
+        {
+          "id": "p3",
+          "kind": "circle",
+          "label": "Equator (Belt)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "equator-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "equator-bin"
+        },
+        {
+          "id": "p4",
+          "kind": "circle",
+          "label": "North Pole (Top)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pole-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "pole-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "p1",
+          "label": "Land (Continents)",
+          "emoji": "",
+          "correctBin": "land-bin"
+        },
+        {
+          "id": "p2",
+          "label": "Water (Oceans)",
+          "emoji": "",
+          "correctBin": "water-bin"
+        },
+        {
+          "id": "p3",
+          "label": "Equator (Belt)",
+          "emoji": "",
+          "correctBin": "equator-bin"
+        },
+        {
+          "id": "p4",
+          "label": "North Pole (Top)",
+          "emoji": "",
+          "correctBin": "pole-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "land-bin",
+          "label": "Land 🏔️",
+          "color": "#10B981"
+        },
+        {
+          "id": "water-bin",
+          "label": "Water 🌊",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "equator-bin",
+          "label": "Equator 🌐",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "pole-bin",
+          "label": "Pole ❄️",
+          "color": "#EC4899"
+        }
+      ]
+    },
+    {
+      "type": "identify_size",
+      "question": "How much of the Earth is covered by water?",
+      "answer": "About two-thirds (2/3)",
+      "options": [
+        "About two-thirds (2/3)",
+        "About half (1/2)",
+        "Almost all (9/10)"
+      ],
+      "hint": "Think about the oceans and seas — they take up much more space than land!",
+      "misconception": "About two-thirds (two out of three parts) of the Earth is covered by water! Land takes up only about one-third of the planet.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "water-drop",
+          "label": "About two-thirds (2/3)",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "water-drop",
+          "label": "About half (1/2)",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "water-drop",
+          "label": "Almost all (9/10)",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a90d9",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "About half (1/2)",
+          "About two-thirds (2/3)"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_truefalse",
+      "question": "Drag each fact about Earth to True or False!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Earth is very large, millions live on it (True). Earth is not as small as a football and you cannot walk around it in a day (False)!",
+      "misconception": "Earth is enormously large — it takes days to travel around it and millions live here! It is definitely not as small as a football or smaller than the moon.",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "tf1",
+            "label": "Earth is very large",
+            "correctBin": "true-bin"
+          },
+          {
+            "id": "tf2",
+            "label": "Millions live on Earth",
+            "correctBin": "true-bin"
+          },
+          {
+            "id": "tf3",
+            "label": "Earth is as small as football",
+            "correctBin": "false-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "tf1",
+          "kind": "circle",
+          "label": "Earth is very large",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "true-bin"
+        },
+        {
+          "id": "tf2",
+          "kind": "circle",
+          "label": "Millions live on Earth",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "true-bin"
+        },
+        {
+          "id": "tf3",
+          "kind": "circle",
+          "label": "Earth is as small as football",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "false-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "false-bin"
+        },
+        {
+          "id": "tf4",
+          "kind": "circle",
+          "label": "You can walk around in a day",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "false-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "false-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "tf1",
+          "label": "Earth is very large",
+          "emoji": "",
+          "correctBin": "true-bin"
+        },
+        {
+          "id": "tf2",
+          "label": "Millions live on Earth",
+          "emoji": "",
+          "correctBin": "true-bin"
+        },
+        {
+          "id": "tf3",
+          "label": "Earth is as small as football",
+          "emoji": "",
+          "correctBin": "false-bin"
+        },
+        {
+          "id": "tf4",
+          "label": "You can walk around in a day",
+          "emoji": "",
+          "correctBin": "false-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "true-bin",
+          "label": "True ✅",
+          "color": "#22C55E"
+        },
+        {
+          "id": "false-bin",
+          "label": "False ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "sort_globe_uses",
+      "question": "Can a globe show this? Sort into Globe Can / Cannot!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Globes show continents, oceans, true shapes, and the equator. They are too small to show tiny streets or weather forecasts!",
+      "misconception": "Globes show continents, oceans, and true shapes in proportion! But because they are small models, they CANNOT show tiny streets, house numbers, or live weather forecasts.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "gu1",
+            "label": "Continents & Oceans",
+            "correctBin": "can-bin"
+          },
+          {
+            "id": "gu2",
+            "label": "Equator and Poles",
+            "correctBin": "can-bin"
+          },
+          {
+            "id": "gu3",
+            "label": "Small streets & houses",
+            "correctBin": "cannot-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "gu1",
+          "kind": "circle",
+          "label": "Continents & Oceans",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "can-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "can-bin"
+        },
+        {
+          "id": "gu2",
+          "kind": "circle",
+          "label": "Equator and Poles",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "can-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "can-bin"
+        },
+        {
+          "id": "gu3",
+          "kind": "circle",
+          "label": "Small streets & houses",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "cannot-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "cannot-bin"
+        },
+        {
+          "id": "gu4",
+          "kind": "circle",
+          "label": "Live weather forecast",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "cannot-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "cannot-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "gu1",
+          "label": "Continents & Oceans",
+          "emoji": "",
+          "correctBin": "can-bin"
+        },
+        {
+          "id": "gu2",
+          "label": "Equator and Poles",
+          "emoji": "",
+          "correctBin": "can-bin"
+        },
+        {
+          "id": "gu3",
+          "label": "Small streets & houses",
+          "emoji": "",
+          "correctBin": "cannot-bin"
+        },
+        {
+          "id": "gu4",
+          "label": "Live weather forecast",
+          "emoji": "",
+          "correctBin": "cannot-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "can-bin",
+          "label": "Globe Can ✅",
+          "color": "#22C55E"
+        },
+        {
+          "id": "cannot-bin",
+          "label": "Globe Cannot ❌",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "theme": "outdoor",
+  "storyArc": {
+    "theme": "An adventurer travels across the world",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-map",
+    "title": "World Map",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_geo_001",
+    "region": "World Explorer",
+    "mapX": 0.30000000000000004,
+    "mapY": 0.55,
+    "icon": "🌍",
+    "prerequisites": [
+      "c3_geo_002"
+    ]
+  },
+  "subject": "geography"
+}

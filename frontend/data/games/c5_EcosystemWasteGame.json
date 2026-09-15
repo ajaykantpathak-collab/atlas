@@ -1,0 +1,930 @@
+{
+  "gameFile": "EcosystemWasteGame",
+  "classLevel": 5,
+  "cisceNodes": [
+    "c5_bio_015",
+    "c5_bio_016",
+    "c5_bio_017",
+    "c5_bio_018"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Producers and Consumers 🌱",
+      "text": "Producers are green plants that make their own food using sunlight, water, and carbon dioxide through photosynthesis! Consumers (like cows, lions, and humans) cannot make food and must depend on plants or other animals.",
+      "emoji": "🌱",
+      "bgColor": "from-emerald-400 to-green-600",
+      "spoken": "Producers are green plants that make their own food using sunlight and chlorophyll! Consumers like cows and lions cannot make food and depend on others.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 0
+        }
+      }
+    },
+    {
+      "title": "Food Chains: Who Eats Whom 🦌",
+      "text": "A food chain is a straight-line picture showing the flow of energy. It always starts with a producer (like grass), moves to a primary consumer herbivore (like a deer), and then a secondary consumer carnivore (like a tiger). Arrows point from food to eater!",
+      "emoji": "🌾",
+      "bgColor": "from-green-400 to-teal-600",
+      "spoken": "A food chain shows who eats whom. It always starts with a producer, moves to a herbivore, and then a carnivore. Arrows point from the food to the eater!",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Goat",
+            "Lion"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Scavengers and Decomposers 🍄",
+      "text": "Scavengers (like vultures and crows) feed on dead animals to keep nature clean. Decomposers (like fungi, bacteria, and earthworms) break down dead plants and animals into simple soil nutrients so new plants can grow!",
+      "emoji": "🍄",
+      "bgColor": "from-amber-400 to-orange-600",
+      "spoken": "Scavengers like vultures eat dead animals to keep nature clean. Decomposers like fungi and bacteria break down dead matter and return nutrients to the soil.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Degradable Waste 🍌",
+      "text": "Degradable waste is garbage that can be broken down naturally by decomposers. Examples include fruit peels, vegetable scraps, dry leaves, and paper. They rot and turn into rich compost for gardens!",
+      "emoji": "🍌",
+      "bgColor": "from-lime-400 to-emerald-600",
+      "spoken": "Degradable waste is garbage that can be broken down naturally by decomposers, like fruit peels and dry leaves, turning into rich compost.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Non-Degradable Waste ♻️",
+      "text": "Non-degradable waste cannot be broken down by decomposers and stays in the environment for hundreds of years. Examples include plastic bags, glass bottles, and metal cans. We must reduce, reuse, and recycle them!",
+      "emoji": "♻️",
+      "bgColor": "from-cyan-400 to-blue-600",
+      "spoken": "Non-degradable waste like plastic and glass cannot be broken down by decomposers. We must reduce, reuse, and recycle them to protect Earth.",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which of these is a PRODUCER in a food chain?",
+      "answer": "Grass / Green plant",
+      "options": [
+        "Grass / Green plant",
+        "Deer",
+        "Tiger",
+        "Vulture"
+      ],
+      "hint": "Producers can make their own food using sunlight, water, and carbon dioxide!",
+      "misconception": "Producers are green plants like grass or trees because they make their own food through photosynthesis. Animals like deer and tigers are consumers because they cannot make their own food!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Grass / Green plant",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Deer",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Tiger",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Vulture",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Deer",
+          "Grass / Green plant"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each organism to its correct ecosystem role!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Grass and trees make food (Producers). Deer eat plants (Herbivores). Tigers eat animals (Carnivores). Mushrooms rot dead matter (Decomposers). Vultures eat dead animals (Scavengers)!",
+      "misconception": "Remember: plants make food (Producers), animals that eat plants are herbivores, animals that eat meat are carnivores, fungi rot dead matter (Decomposers), and vultures eat dead animal flesh (Scavengers)!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "s-grass",
+            "label": "Grass",
+            "correctBin": "producer"
+          },
+          {
+            "id": "s-tree",
+            "label": "Mango Tree",
+            "correctBin": "producer"
+          },
+          {
+            "id": "s-deer",
+            "label": "Deer",
+            "correctBin": "herbivore"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "s-grass",
+          "kind": "circle",
+          "label": "Grass",
+          "x": 0.14285714285714285,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "producer",
+          "interaction": "drag-to-bin",
+          "targetBin": "producer"
+        },
+        {
+          "id": "s-tree",
+          "kind": "circle",
+          "label": "Mango Tree",
+          "x": 0.2857142857142857,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "producer",
+          "interaction": "drag-to-bin",
+          "targetBin": "producer"
+        },
+        {
+          "id": "s-deer",
+          "kind": "circle",
+          "label": "Deer",
+          "x": 0.42857142857142855,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "herbivore",
+          "interaction": "drag-to-bin",
+          "targetBin": "herbivore"
+        },
+        {
+          "id": "s-tiger",
+          "kind": "circle",
+          "label": "Tiger",
+          "x": 0.5714285714285714,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "carnivore",
+          "interaction": "drag-to-bin",
+          "targetBin": "carnivore"
+        },
+        {
+          "id": "s-mush",
+          "kind": "circle",
+          "label": "Mushroom",
+          "x": 0.7142857142857142,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "decomposer",
+          "interaction": "drag-to-bin",
+          "targetBin": "decomposer"
+        },
+        {
+          "id": "s-vult",
+          "kind": "circle",
+          "label": "Vulture",
+          "x": 0.8571428571428571,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "scavenger",
+          "interaction": "drag-to-bin",
+          "targetBin": "scavenger"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s-grass",
+          "label": "Grass",
+          "emoji": "",
+          "correctBin": "producer"
+        },
+        {
+          "id": "s-tree",
+          "label": "Mango Tree",
+          "emoji": "",
+          "correctBin": "producer"
+        },
+        {
+          "id": "s-deer",
+          "label": "Deer",
+          "emoji": "",
+          "correctBin": "herbivore"
+        },
+        {
+          "id": "s-tiger",
+          "label": "Tiger",
+          "emoji": "",
+          "correctBin": "carnivore"
+        },
+        {
+          "id": "s-mush",
+          "label": "Mushroom",
+          "emoji": "",
+          "correctBin": "decomposer"
+        },
+        {
+          "id": "s-vult",
+          "label": "Vulture",
+          "emoji": "",
+          "correctBin": "scavenger"
+        }
+      ],
+      "bins": [
+        {
+          "id": "producer",
+          "label": "Producer 🌱",
+          "color": "#16A34A"
+        },
+        {
+          "id": "herbivore",
+          "label": "Herbivore 🦌",
+          "color": "#D97706"
+        },
+        {
+          "id": "carnivore",
+          "label": "Carnivore 🐅",
+          "color": "#F97316"
+        },
+        {
+          "id": "decomposer",
+          "label": "Decomposer 🍄",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "scavenger",
+          "label": "Scavenger 🦅",
+          "color": "#475569"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is the correct order of a simple food chain?",
+      "answer": "Grass -> Deer -> Tiger",
+      "options": [
+        "Grass -> Deer -> Tiger",
+        "Tiger -> Deer -> Grass",
+        "Deer -> Grass -> Tiger",
+        "Grass -> Tiger -> Deer"
+      ],
+      "hint": "A food chain always starts with a plant producer, then a herbivore consumer, then a carnivore consumer!",
+      "misconception": "A food chain always starts with a plant producer (Grass) that makes food from sunlight, followed by a plant-eating herbivore (Deer), and then a meat-eating carnivore (Tiger). Arrows show energy flowing from food to eater!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Grass -> Deer -> Tiger",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Tiger -> Deer -> Grass",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Deer -> Grass -> Tiger",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Grass -> Tiger -> Deer",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Tiger -> Deer -> Grass",
+          "Grass -> Deer -> Tiger"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each food chain to its correct environment!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match the living organisms to where they naturally live (Forest, Grassland, Pond, Farm)!",
+      "misconception": "Make sure the organisms belong to the correct habitat! For example, tigers live in forests, frogs live in grasslands/ponds, and fish live in water.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Match the living organisms to where they naturally live (Forest, Grassland, Pond, Farm)!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "fc-forest",
+          "kind": "circle",
+          "label": "Grass -> Deer -> Tiger",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "forest",
+          "interaction": "drag-to-bin",
+          "targetBin": "forest"
+        },
+        {
+          "id": "fc-pond",
+          "kind": "circle",
+          "label": "Algae -> Small Fish -> Heron",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pond",
+          "interaction": "drag-to-bin",
+          "targetBin": "pond"
+        },
+        {
+          "id": "fc-farm",
+          "kind": "leaf",
+          "label": "Plant -> Goat -> Human",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "farm",
+          "interaction": "drag-to-bin",
+          "targetBin": "farm"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "fc-forest",
+          "label": "Grass -> Deer -> Tiger",
+          "emoji": "",
+          "correctBin": "forest"
+        },
+        {
+          "id": "fc-pond",
+          "label": "Algae -> Small Fish -> Heron",
+          "emoji": "",
+          "correctBin": "pond"
+        },
+        {
+          "id": "fc-farm",
+          "label": "Plant -> Goat -> Human",
+          "emoji": "",
+          "correctBin": "farm"
+        }
+      ],
+      "bins": [
+        {
+          "id": "forest",
+          "label": "Forest 🌲",
+          "color": "#15803D"
+        },
+        {
+          "id": "pond",
+          "label": "Pond 💧",
+          "color": "#0284C7"
+        },
+        {
+          "id": "farm",
+          "label": "Farm 🌾",
+          "color": "#CA8A04"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is the main function of DECOMPOSERS (like fungi and bacteria)?",
+      "answer": "Break down dead matter and return nutrients to the soil",
+      "options": [
+        "Break down dead matter and return nutrients to the soil",
+        "Hunt live animals for food in the forest",
+        "Make food inside leaves using sunlight",
+        "Keep the air clean by flying high"
+      ],
+      "hint": "They rot fallen leaves and dead animals so the soil gets rich food for new plants!",
+      "misconception": "Decomposers do not hunt or fly! Their special job is breaking down dead plants and animals into simple substances, returning vital nutrients to the soil so new plants can grow.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Break down dead matter and return nutrients to the soil",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Hunt live animals for food in the forest",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Make food inside leaves using sunlight",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Keep the air clean by flying high",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Hunt live animals for food in the forest",
+          "Break down dead matter and return nutrients to the soil"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each organism to Decomposer or Scavenger!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Scavengers eat dead animals (vulture, crow). Decomposers rot dead matter into soil nutrients (mushroom, bacteria, earthworm)!",
+      "misconception": "Do not confuse scavengers and decomposers! Vultures and crows are scavengers that eat dead animal flesh. Mushrooms, bacteria, and earthworms are decomposers that rot matter into soil nutrients.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "m-mush",
+            "label": "Mushroom",
+            "correctBin": "dec"
+          },
+          {
+            "id": "m-vult",
+            "label": "Vulture",
+            "correctBin": "scav"
+          },
+          {
+            "id": "m-earth",
+            "label": "Earthworm",
+            "correctBin": "dec"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "m-mush",
+          "kind": "circle",
+          "label": "Mushroom",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "dec",
+          "interaction": "drag-to-bin",
+          "targetBin": "dec"
+        },
+        {
+          "id": "m-vult",
+          "kind": "circle",
+          "label": "Vulture",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "scav",
+          "interaction": "drag-to-bin",
+          "targetBin": "scav"
+        },
+        {
+          "id": "m-earth",
+          "kind": "circle",
+          "label": "Earthworm",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "dec",
+          "interaction": "drag-to-bin",
+          "targetBin": "dec"
+        },
+        {
+          "id": "m-crow",
+          "kind": "circle",
+          "label": "Crow",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "scav",
+          "interaction": "drag-to-bin",
+          "targetBin": "scav"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "m-mush",
+          "label": "Mushroom",
+          "emoji": "",
+          "correctBin": "dec"
+        },
+        {
+          "id": "m-vult",
+          "label": "Vulture",
+          "emoji": "",
+          "correctBin": "scav"
+        },
+        {
+          "id": "m-earth",
+          "label": "Earthworm",
+          "emoji": "",
+          "correctBin": "dec"
+        },
+        {
+          "id": "m-crow",
+          "label": "Crow",
+          "emoji": "",
+          "correctBin": "scav"
+        }
+      ],
+      "bins": [
+        {
+          "id": "dec",
+          "label": "Decomposer 🍄",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "scav",
+          "label": "Scavenger 🦅",
+          "color": "#475569"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which of these is NON-DEGRADABLE waste?",
+      "answer": "Plastic bottle",
+      "options": [
+        "Plastic bottle",
+        "Banana peel",
+        "Dry leaves",
+        "Used paper"
+      ],
+      "hint": "It does not rot or disappear in soil even after hundreds of years!",
+      "misconception": "Plastic bottles are non-degradable because decomposers cannot break them down. Banana peels, dry leaves, and paper are degradable and rot naturally in soil!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Plastic bottle",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Banana peel",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Dry leaves",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Used paper",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Plastic bottle",
+          "Banana peel"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each waste item to Degradable or Non-Degradable!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Can nature helpers (decomposers) eat and rot it? If yes, degradable. If it stays for centuries, non-degradable!",
+      "misconception": "Remember: fruit peels, vegetable scraps, paper, and cotton are degradable because decomposers rot them. Plastic bottles, glass, and metal cans are non-degradable and stay forever!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "w-banana",
+            "label": "Banana Peel",
+            "correctBin": "deg"
+          },
+          {
+            "id": "w-plastic",
+            "label": "Plastic Bottle",
+            "correctBin": "nondeg"
+          },
+          {
+            "id": "w-paper",
+            "label": "Used Notebook Paper",
+            "correctBin": "deg"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "w-banana",
+          "kind": "circle",
+          "label": "Banana Peel",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "deg",
+          "interaction": "drag-to-bin",
+          "targetBin": "deg"
+        },
+        {
+          "id": "w-plastic",
+          "kind": "circle",
+          "label": "Plastic Bottle",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "nondeg",
+          "interaction": "drag-to-bin",
+          "targetBin": "nondeg"
+        },
+        {
+          "id": "w-paper",
+          "kind": "circle",
+          "label": "Used Notebook Paper",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "deg",
+          "interaction": "drag-to-bin",
+          "targetBin": "deg"
+        },
+        {
+          "id": "w-glass",
+          "kind": "circle",
+          "label": "Glass Bangle",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "nondeg",
+          "interaction": "drag-to-bin",
+          "targetBin": "nondeg"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "w-banana",
+          "label": "Banana Peel",
+          "emoji": "",
+          "correctBin": "deg"
+        },
+        {
+          "id": "w-plastic",
+          "label": "Plastic Bottle",
+          "emoji": "",
+          "correctBin": "nondeg"
+        },
+        {
+          "id": "w-paper",
+          "label": "Used Notebook Paper",
+          "emoji": "",
+          "correctBin": "deg"
+        },
+        {
+          "id": "w-glass",
+          "label": "Glass Bangle",
+          "emoji": "",
+          "correctBin": "nondeg"
+        }
+      ],
+      "bins": [
+        {
+          "id": "deg",
+          "label": "Degradable 🍌",
+          "color": "#16A34A"
+        },
+        {
+          "id": "nondeg",
+          "label": "Non-Degradable ♻️",
+          "color": "#2563EB"
+        }
+      ]
+    }
+  ],
+  "theme": "garden",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_bio_015",
+    "region": "Biosphere",
+    "mapX": 1.1400000000000001,
+    "mapY": 1.31,
+    "icon": "🌱",
+    "prerequisites": [
+      "c5_bio_016"
+    ]
+  },
+  "subject": "biology"
+}

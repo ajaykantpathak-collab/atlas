@@ -1,0 +1,770 @@
+{
+  "gameFile": "AirGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_phy_001",
+    "c1_phy_002",
+    "c1_phy_003"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Air is All Around Us! 🌬️",
+      "text": "Air is an invisible substance present everywhere around us — in rooms, playgrounds, and bottle spaces! It has no colour, no smell, and takes the shape of whatever container it fills.",
+      "emoji": "💨",
+      "bgColor": "from-sky-400 to-blue-600",
+      "spoken": "",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Feeling the Wind! 🍃",
+      "text": "Wind is simply moving air! When wind blows, it pushes against your skin, flutters flags, and makes tree leaves rustle. Waving your hand quickly also feels like air pushing against you!",
+      "emoji": "🍃",
+      "bgColor": "from-blue-400 to-indigo-600",
+      "spoken": "",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Air Fills Space! 🎈",
+      "text": "When you blow air into a balloon, it gets bigger because air fills the space inside! A bottle that looks empty is actually full of air. Breathing proves air is always around us!",
+      "emoji": "🎈",
+      "bgColor": "from-cyan-400 to-sky-600",
+      "spoken": "",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Uses of Air! 🪁",
+      "text": "People, animals, and plants need air to breathe and live! Moving air helps kites fly high, dries wet clothes on a clothesline, and turns windmill blades to make power!",
+      "emoji": "🪁",
+      "bgColor": "from-teal-400 to-cyan-600",
+      "spoken": "",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Keep Air Clean! 🌱",
+      "text": "Clean air has no smoke or dust. Dirty air from factories and vehicles makes us cough and sick! Planting more trees keeps the air fresh and clean for everyone.",
+      "emoji": "🌳",
+      "bgColor": "from-emerald-400 to-teal-600",
+      "spoken": "",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_use",
+      "question": "Can we SEE air with our eyes?",
+      "answer": "No, air is invisible",
+      "options": [
+        "No, air is invisible",
+        "Yes, air is bright blue",
+        "Yes, air is white like milk"
+      ],
+      "hint": "Think: can you see the air in this room right now? It has no colour!",
+      "misconception": "Air is invisible — it has no colour! Being invisible does not mean air is absent. We feel it when wind blows or when we wave our hands!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "No, air is invisible",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Yes, air is bright blue",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Yes, air is white like milk",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Yes, air is bright blue",
+          "No, air is invisible"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_use",
+      "question": "What happens when you blow air into a balloon?",
+      "answer": "It gets bigger",
+      "options": [
+        "It gets bigger",
+        "It stays the same size",
+        "It turns into water"
+      ],
+      "hint": "Why does the balloon stretch out and grow when you blow into it?",
+      "misconception": "The balloon gets bigger because air fills the space inside it! This proves that air is real and takes up space!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "ball",
+          "label": "It gets bigger",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "ball",
+          "label": "It stays the same size",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "ball",
+          "label": "It turns into water",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "It stays the same size",
+          "It gets bigger"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_source",
+      "question": "What is wind?",
+      "answer": "Air that is moving",
+      "options": [
+        "Air that is moving",
+        "Water falling from clouds",
+        "Sunlight shining brightly"
+      ],
+      "hint": "Think about what happens to the air when you feel a cool breeze on your face!",
+      "misconception": "Wind is simply moving air! The same air that sits still around us, when it blows, is called wind!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Air that is moving",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Water falling from clouds",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Sunlight shining brightly",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Air that is moving",
+          "Water falling from clouds"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_uses",
+      "question": "Drag each item! Which ones contain or are filled with air?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Balloons and open bottles are full of air! Solid stones or sealed vacuum jars are different!",
+      "misconception": "An \"empty\" bottle is actually full of air! Air fills every open space around us, even in jars that look empty!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "balloon",
+            "label": "Inflated Balloon",
+            "correctBin": "has-air"
+          },
+          {
+            "id": "bottle",
+            "label": "Open Empty Bottle",
+            "correctBin": "has-air"
+          },
+          {
+            "id": "rock",
+            "label": "Solid Rock",
+            "correctBin": "no-air"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "balloon",
+          "kind": "circle",
+          "label": "Inflated Balloon",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "has-air",
+          "interaction": "drag-to-bin",
+          "targetBin": "has-air"
+        },
+        {
+          "id": "bottle",
+          "kind": "circle",
+          "label": "Open Empty Bottle",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "has-air",
+          "interaction": "drag-to-bin",
+          "targetBin": "has-air"
+        },
+        {
+          "id": "rock",
+          "kind": "circle",
+          "label": "Solid Rock",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "no-air",
+          "interaction": "drag-to-bin",
+          "targetBin": "no-air"
+        },
+        {
+          "id": "sealed",
+          "kind": "circle",
+          "label": "Vacuum Sealed Jar",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "no-air",
+          "interaction": "drag-to-bin",
+          "targetBin": "no-air"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "balloon",
+          "label": "Inflated Balloon",
+          "emoji": "🎈",
+          "correctBin": "has-air"
+        },
+        {
+          "id": "bottle",
+          "label": "Open Empty Bottle",
+          "emoji": "🍾",
+          "correctBin": "has-air"
+        },
+        {
+          "id": "rock",
+          "label": "Solid Rock",
+          "emoji": "🪨",
+          "correctBin": "no-air"
+        },
+        {
+          "id": "sealed",
+          "label": "Vacuum Sealed Jar",
+          "emoji": "🏺",
+          "correctBin": "no-air"
+        }
+      ],
+      "bins": [
+        {
+          "id": "has-air",
+          "label": "Full of Air 🌬️",
+          "color": "#0284C7"
+        },
+        {
+          "id": "no-air",
+          "label": "Solid / No Air 🪨",
+          "color": "#64748B"
+        }
+      ]
+    },
+    {
+      "type": "identify_use",
+      "question": "What helps a kite fly high in the sky on a windy day?",
+      "answer": "Moving air (wind)",
+      "options": [
+        "Moving air (wind)",
+        "Water on the string",
+        "Bright sunshine"
+      ],
+      "hint": "What pushes against the kite paper and lifts it up high?",
+      "misconception": "Moving air (wind) pushes against the kite and lifts it up! The string only holds it; the wind does the lifting!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Moving air (wind)",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Water on the string",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Bright sunshine",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Moving air (wind)",
+          "Water on the string"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_habit",
+      "question": "What should we plant to keep the air clean and fresh?",
+      "answer": "Trees and plants",
+      "options": [
+        "Trees and plants",
+        "Plastic bags",
+        "Garbage piles"
+      ],
+      "hint": "Which green living things take in bad air and give out fresh air?",
+      "misconception": "Planting trees and green plants keeps the air clean! Trees take in the gas we breathe out and give out fresh air, while trapping dust on their leaves.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Trees and plants",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Plastic bags",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Garbage piles",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Trees and plants",
+          "Plastic bags"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_sources",
+      "question": "Drag each item! Is it Clean Air or Dirty Air?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Trees give clean air! Factory smoke and car fumes make air dirty!",
+      "misconception": "Unclean air has smoke and dust from factories and vehicles. It causes coughing and burning eyes! Clean air from trees keeps us healthy!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "trees",
+            "label": "Green Trees",
+            "correctBin": "clean"
+          },
+          {
+            "id": "breeze",
+            "label": "Fresh Breeze",
+            "correctBin": "clean"
+          },
+          {
+            "id": "factory",
+            "label": "Factory Smoke",
+            "correctBin": "dirty"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "trees",
+          "kind": "circle",
+          "label": "Green Trees",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "clean",
+          "interaction": "drag-to-bin",
+          "targetBin": "clean"
+        },
+        {
+          "id": "breeze",
+          "kind": "circle",
+          "label": "Fresh Breeze",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "clean",
+          "interaction": "drag-to-bin",
+          "targetBin": "clean"
+        },
+        {
+          "id": "factory",
+          "kind": "circle",
+          "label": "Factory Smoke",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "dirty",
+          "interaction": "drag-to-bin",
+          "targetBin": "dirty"
+        },
+        {
+          "id": "car",
+          "kind": "circle",
+          "label": "Car Exhaust",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "dirty",
+          "interaction": "drag-to-bin",
+          "targetBin": "dirty"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "trees",
+          "label": "Green Trees",
+          "emoji": "🌳",
+          "correctBin": "clean"
+        },
+        {
+          "id": "breeze",
+          "label": "Fresh Breeze",
+          "emoji": "🍃",
+          "correctBin": "clean"
+        },
+        {
+          "id": "factory",
+          "label": "Factory Smoke",
+          "emoji": "🏭",
+          "correctBin": "dirty"
+        },
+        {
+          "id": "car",
+          "label": "Car Exhaust",
+          "emoji": "🚗",
+          "correctBin": "dirty"
+        }
+      ],
+      "bins": [
+        {
+          "id": "clean",
+          "label": "Clean Air 🍃",
+          "color": "#10B981"
+        },
+        {
+          "id": "dirty",
+          "label": "Dirty Air 🏭",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "sort_habits",
+      "question": "Drag each activity to how we use air!",
+      "answer": "sort",
+      "options": [],
+      "hint": "We breathe air to live! We fill balloons and kites with air! Windmills use wind to spin!",
+      "misconception": "Air has many uses: breathing to stay alive, filling balloons and kites, and turning windmill blades!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "breathe",
+            "label": "Breathing",
+            "correctBin": "life"
+          },
+          {
+            "id": "kite",
+            "label": "Flying Kite",
+            "correctBin": "fly"
+          },
+          {
+            "id": "balloon",
+            "label": "Inflating Balloon",
+            "correctBin": "fly"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "breathe",
+          "kind": "circle",
+          "label": "Breathing",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "life",
+          "interaction": "drag-to-bin",
+          "targetBin": "life"
+        },
+        {
+          "id": "kite",
+          "kind": "circle",
+          "label": "Flying Kite",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fly",
+          "interaction": "drag-to-bin",
+          "targetBin": "fly"
+        },
+        {
+          "id": "balloon",
+          "kind": "circle",
+          "label": "Inflating Balloon",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fly",
+          "interaction": "drag-to-bin",
+          "targetBin": "fly"
+        },
+        {
+          "id": "windmill",
+          "kind": "circle",
+          "label": "Turning Windmill",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "spin",
+          "interaction": "drag-to-bin",
+          "targetBin": "spin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "breathe",
+          "label": "Breathing",
+          "emoji": "🫁",
+          "correctBin": "life"
+        },
+        {
+          "id": "kite",
+          "label": "Flying Kite",
+          "emoji": "🪁",
+          "correctBin": "fly"
+        },
+        {
+          "id": "balloon",
+          "label": "Inflating Balloon",
+          "emoji": "🎈",
+          "correctBin": "fly"
+        },
+        {
+          "id": "windmill",
+          "label": "Turning Windmill",
+          "emoji": "windmill",
+          "correctBin": "spin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "life",
+          "label": "Breathing 🫁",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "fly",
+          "label": "Flying 🪁",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "spin",
+          "label": "Spinning ⚙️",
+          "color": "#F59E0B"
+        }
+      ]
+    }
+  ],
+  "theme": "outdoor",
+  "storyArc": {
+    "theme": "A curious physicist explores the forces of nature",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Physics Lab Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_phy_001",
+    "region": "Physics Realm",
+    "mapX": 0.18,
+    "mapY": 0.27,
+    "icon": "⚡",
+    "prerequisites": [
+      "c1_phy_002"
+    ]
+  },
+  "subject": "physics"
+}

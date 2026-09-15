@@ -1,0 +1,674 @@
+{
+  "gameFile": "MentalMathGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_math_014",
+    "c3_math_015",
+    "c3_math_016"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Mental Addition & Subtraction! 🧠",
+      "text": "Do sums and differences in your head without paper! Use strategies like breaking into tens and ones (45 + 23 = 45 + 20 + 3 = 68) or compensation!",
+      "emoji": "➕",
+      "bgColor": "from-purple-500 to-indigo-600",
+      "spoken": "Do sums and differences in your head without paper! Use strategies like breaking into tens and ones or compensation!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "apple"
+        }
+      }
+    },
+    {
+      "title": "Mental Multiplication! ✖️",
+      "text": "Multiply numbers without a pencil! Recall your tables instantly, or use the break-apart strategy for two-digit numbers (15 x 4: 10 x 4 = 40, 5 x 4 = 20, total 60)!",
+      "emoji": "✨",
+      "bgColor": "from-blue-500 to-cyan-600",
+      "spoken": "Multiply numbers without a pencil! Recall your tables or use the break-apart strategy for two-digit numbers!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Estimation Magic! 🔮",
+      "text": "Estimation gives you a quick close guess before you calculate! Round each number to the nearest ten (0-4 round down, 5-9 round up), then compute!",
+      "emoji": "🎯",
+      "bgColor": "from-emerald-500 to-teal-600",
+      "spoken": "Estimation gives you a quick close guess before you calculate! Round each number to the nearest ten, then compute!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Verify Your Answers! 🔍",
+      "text": "Estimation is just a guide! Always verify your estimate by actually computing the exact answer using standard addition, subtraction, or multiplication.",
+      "emoji": "📝",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "Estimation is just a guide! Always verify your estimate by actually computing the exact answer.",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "apple"
+        }
+      }
+    },
+    {
+      "title": "Be a Mental Math Wizard! 🧙‍♂️",
+      "text": "With practice, you can calculate faster than lightning in your head. No paper, no eraser, just pure math wizardry!",
+      "emoji": "🌟",
+      "bgColor": "from-violet-500 to-purple-600",
+      "spoken": "With practice, you can calculate faster than lightning in your head. No paper, no eraser, just pure math wizardry!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_add_sub",
+      "question": "What is 45 + 23 computed mentally?",
+      "answer": "68",
+      "options": [
+        "68",
+        "65",
+        "423"
+      ],
+      "hint": "Break 23 into 20 and 3. Add 20 to 45 (65), then add 3 more!",
+      "misconception": "Mental math uses exact steps! 45 + 20 = 65, and 65 + 3 = 68. 423 is just guessing digits, not real mental computation!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "68",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "65",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "423",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "68",
+          "65"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_sub",
+      "question": "What is 80 - 35 computed mentally?",
+      "answer": "45",
+      "options": [
+        "45",
+        "55",
+        "115"
+      ],
+      "hint": "Count on or break 35 into 30 and 5. 80 - 30 = 50, then 50 - 5 = 45!",
+      "misconception": "When subtracting, 80 minus 30 is 50, and 50 minus 5 leaves 45. Mental subtraction needs clear steps in your head!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "45",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "55",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "115",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "55",
+          "45"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort_strategies",
+      "question": "Drag each mental math strategy to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Break apart splits into tens and ones. Round & adjust rounds numbers and corrects!",
+      "misconception": "Strategies are tools! Breaking apart splits numbers into tens and ones. Rounding and adjusting tweaks numbers to friendly tens.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Break apart splits into tens and ones. Round & adjust rounds numbers and corrects!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "break",
+          "kind": "circle",
+          "label": "Break Apart (23 = 20+3)",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin1",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin1"
+        },
+        {
+          "id": "round",
+          "kind": "circle",
+          "label": "Round & Adjust (48+1=49)",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin2"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "break",
+          "label": "Break Apart (23 = 20+3)",
+          "emoji": "",
+          "correctBin": "bin1"
+        },
+        {
+          "id": "round",
+          "label": "Round & Adjust (48+1=49)",
+          "emoji": "",
+          "correctBin": "bin2"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin1",
+          "label": "Tens & Ones Split",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "bin2",
+          "label": "Friendly Tens Tweak",
+          "color": "#06B6D4"
+        }
+      ]
+    },
+    {
+      "type": "identify_mult",
+      "question": "What is 15 x 4 computed mentally?",
+      "answer": "60",
+      "options": [
+        "60",
+        "19",
+        "54"
+      ],
+      "hint": "Multiplication is repeated addition! 15 + 15 + 15 + 15, or 10 x 4 = 40 plus 5 x 4 = 20!",
+      "misconception": "15 x 4 is NOT 15 + 4 = 19! Multiplication means adding 15 four times: 40 + 20 = 60. No paper needed when you break it apart!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "60",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "19",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "54",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "19",
+          "60"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_mult",
+      "question": "Drag each mental multiplication to its correct answer!",
+      "answer": "sort",
+      "options": [],
+      "hint": "12 x 5 = 60 (10x5 + 2x5). 15 x 3 = 45 (10x3 + 5x3).",
+      "misconception": "Break two-digit numbers into tens and ones! 12 x 5: 10 x 5 = 50, 2 x 5 = 10, total 60. 15 x 3: 30 + 15 = 45.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. 12 x 5 = 60 (10x5 + 2x5). 15 x 3 = 45 (10x3 + 5x3)."
+      },
+      "interactiveObjects": [
+        {
+          "id": "m12x5",
+          "kind": "circle",
+          "label": "12 x 5 = 60",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin60",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin60"
+        },
+        {
+          "id": "m15x3",
+          "kind": "circle",
+          "label": "15 x 3 = 45",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin45",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin45"
+        },
+        {
+          "id": "m20x4",
+          "kind": "circle",
+          "label": "20 x 4 = 80",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin80",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin80"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "m12x5",
+          "label": "12 x 5 = 60",
+          "emoji": "",
+          "correctBin": "bin60"
+        },
+        {
+          "id": "m15x3",
+          "label": "15 x 3 = 45",
+          "emoji": "",
+          "correctBin": "bin45"
+        },
+        {
+          "id": "m20x4",
+          "label": "20 x 4 = 80",
+          "emoji": "",
+          "correctBin": "bin80"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin60",
+          "label": "Equals 60",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin45",
+          "label": "Equals 45",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin80",
+          "label": "Equals 80",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "identify_estimate",
+      "question": "ESTIMATE: 48 + 31 (round to nearest 10). What is the estimated sum?",
+      "answer": "80",
+      "options": [
+        "80",
+        "79",
+        "70"
+      ],
+      "hint": "48 rounds up to 50. 31 rounds down to 30. 50 + 30 = ?",
+      "misconception": "Estimation rounds first! 48 rounds to 50, 31 rounds to 30, so 50 + 30 = 80. 79 is the actual exact sum, not the estimate!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "80",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "79",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "70",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "80",
+          "79"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_rounding",
+      "question": "Drag each number to its correct rounded ten!",
+      "answer": "sort",
+      "options": [],
+      "hint": "0-4 round down, 5-9 round up! 48 -> 50, 24 -> 20, 73 -> 70.",
+      "misconception": "Remember rounding rules! 48 has 8 (>=5), so round UP to 50. 24 has 4 (<5), so round DOWN to 20. 73 rounds to 70.",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. 0-4 round down, 5-9 round up! 48 -> 50, 24 -> 20, 73 -> 70."
+      },
+      "interactiveObjects": [
+        {
+          "id": "r48",
+          "kind": "circle",
+          "label": "48 rounds to 50",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin50",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin50"
+        },
+        {
+          "id": "r24",
+          "kind": "circle",
+          "label": "24 rounds to 20",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin20",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin20"
+        },
+        {
+          "id": "r73",
+          "kind": "circle",
+          "label": "73 rounds to 70",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin70",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin70"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "r48",
+          "label": "48 rounds to 50",
+          "emoji": "",
+          "correctBin": "bin50"
+        },
+        {
+          "id": "r24",
+          "label": "24 rounds to 20",
+          "emoji": "",
+          "correctBin": "bin20"
+        },
+        {
+          "id": "r73",
+          "label": "73 rounds to 70",
+          "emoji": "",
+          "correctBin": "bin70"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin50",
+          "label": "Rounds to 50",
+          "color": "#EC4899"
+        },
+        {
+          "id": "bin20",
+          "label": "Rounds to 20",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "bin70",
+          "label": "Rounds to 70",
+          "color": "#3B82F6"
+        }
+      ]
+    },
+    {
+      "type": "sort_estimation_verify",
+      "question": "Match each problem to its estimate and actual verified answer!",
+      "answer": "sort",
+      "options": [],
+      "hint": "48+31: Estimate 80, Actual 79. 73-28: Estimate 40, Actual 45.",
+      "misconception": "Estimation is an approximate guide! Always verify by computing the exact answer to check how close your estimate was.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. 48+31: Estimate 80, Actual 79. 73-28: Estimate 40, Actual 45."
+      },
+      "interactiveObjects": [
+        {
+          "id": "e48",
+          "kind": "circle",
+          "label": "48 + 31 (Est: 80, Act: 79)",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "binA",
+          "interaction": "drag-to-bin",
+          "targetBin": "binA"
+        },
+        {
+          "id": "e73",
+          "kind": "circle",
+          "label": "73 - 28 (Est: 40, Act: 45)",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "binB",
+          "interaction": "drag-to-bin",
+          "targetBin": "binB"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "e48",
+          "label": "48 + 31 (Est: 80, Act: 79)",
+          "emoji": "",
+          "correctBin": "binA"
+        },
+        {
+          "id": "e73",
+          "label": "73 - 28 (Est: 40, Act: 45)",
+          "emoji": "",
+          "correctBin": "binB"
+        }
+      ],
+      "bins": [
+        {
+          "id": "binA",
+          "label": "Sum (Est 80 / Act 79)",
+          "color": "#10B981"
+        },
+        {
+          "id": "binB",
+          "label": "Difference (Est 40 / Act 45)",
+          "color": "#F97316"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_math_014",
+    "region": "Mathland",
+    "mapX": 1.02,
+    "mapY": 1.03,
+    "icon": "🔢",
+    "prerequisites": [
+      "c3_math_015"
+    ]
+  },
+  "subject": "maths"
+}

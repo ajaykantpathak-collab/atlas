@@ -1,0 +1,644 @@
+{
+  "gameFile": "PlantsGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_evs_004"
+  ],
+  "mascot": "Gardener Gita (friendly young gardener with a straw hat and watering can)",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Welcome to Plants! 🌱",
+      "text": "Plants are living things all around us — in gardens, parks, and pots! Every plant has visible parts: stem, leaves, flowers, and fruits, plus roots hiding under the soil!",
+      "emoji": "🌿",
+      "bgColor": "from-green-400 to-emerald-600",
+      "spoken": "Plants are living things all around us in gardens and parks!",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Five Parts of a Plant 🌳",
+      "text": "1. Root (under ground, holds plant)\\n2. Stem (stands up, carries water)\\n3. Leaf (flat green part)\\n4. Flower (colourful & sweet)\\n5. Fruit (grows from flower)",
+      "emoji": "🌸",
+      "bgColor": "from-emerald-400 to-teal-600",
+      "spoken": "Five parts of a plant are root, stem, leaf, flower, and fruit!",
+      "diagram": {
+        "type": "plant-parts",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Trees, Shrubs, and Herbs 🌳🌿🌾",
+      "text": "• Trees: Tall with thick woody trunks (Mango, Banyan, Neem)\\n• Shrubs: Medium with thin woody stems & thorns (Rose)\\n• Herbs: Small with soft green stems (Marigold, Grass)",
+      "emoji": "🌳",
+      "bgColor": "from-lime-400 to-green-600",
+      "spoken": "Trees are tall with thick trunks, shrubs are medium with woody stems, and herbs are small with soft stems!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Colours and Shapes 🍃🌼",
+      "text": "Leaves and flowers come in many shapes and colours! A mango leaf is long and dark green. A neem leaf is small, narrow, and bitter. A marigold is round and orange!",
+      "emoji": "🍂",
+      "bgColor": "from-amber-400 to-orange-600",
+      "spoken": "Leaves and flowers come in many shapes and colours like mango and neem leaves!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "Careful Observation 🔍",
+      "text": "Always look closely at height and stem before naming a plant type! Size alone is not enough — a rose plant is small, but it has woody stems so it is a shrub!",
+      "emoji": "🔍",
+      "bgColor": "from-teal-400 to-cyan-600",
+      "spoken": "Always look closely at height and stem before naming a plant type!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_type",
+      "question": "Which plant is very TALL with one thick, hard, woody TRUNK?",
+      "answer": "Mango tree",
+      "options": [
+        "Mango tree",
+        "Rose plant",
+        "Marigold herb"
+      ],
+      "hint": "Think: which of these is huge with a thick brown trunk?",
+      "misconception": "A mango tree is tall with a thick woody trunk! Small plants with soft stems are herbs, and medium plants with woody stems are shrubs.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Mango tree",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Rose plant",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Marigold herb",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Mango tree",
+          "Rose plant"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_type",
+      "question": "Which plant is medium-height with many thin WOODY stems and thorns?",
+      "answer": "Rose plant",
+      "options": [
+        "Banyan tree",
+        "Rose plant",
+        "Grass"
+      ],
+      "hint": "It has small sharp thorns and several thin woody stems rising from the base.",
+      "misconception": "The rose plant is a shrub! Even though it is smaller than a tree, it has woody stems and thorns, so it is NOT a herb.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Banyan tree",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Rose plant",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Grass",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Rose plant",
+          "Banyan tree"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_type",
+      "question": "Which plant is very small with a soft, green, juicy STEM?",
+      "answer": "Marigold herb",
+      "options": [
+        "Neem tree",
+        "Rose plant",
+        "Marigold herb"
+      ],
+      "hint": "It is small and you can easily pinch its stem between your fingers.",
+      "misconception": "The marigold is a herb because its stem is soft and green, not woody! Trees and shrubs have hard woody stems.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Neem tree",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Rose plant",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Marigold herb",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Marigold herb",
+          "Neem tree"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_types",
+      "question": "Drag each plant into the correct group: Tree, Shrub, or Herb!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Mango = Tree (tall, thick trunk). Rose = Shrub (medium, woody stems). Marigold = Herb (small, soft green stem).",
+      "misconception": "Check both height and stem! Mango is tall with a thick trunk (Tree), Rose has woody stems (Shrub), Marigold has a soft green stem (Herb).",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Mango = Tree (tall, thick trunk). Rose = Shrub (medium, woody stems). Marigold = Herb (small, soft green stem)."
+      },
+      "interactiveObjects": [
+        {
+          "id": "mango",
+          "kind": "circle",
+          "label": "Mango Tree",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "tree",
+          "interaction": "drag-to-bin",
+          "targetBin": "tree"
+        },
+        {
+          "id": "rose",
+          "kind": "leaf",
+          "label": "Rose Plant",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "shrub",
+          "interaction": "drag-to-bin",
+          "targetBin": "shrub"
+        },
+        {
+          "id": "marigold",
+          "kind": "circle",
+          "label": "Marigold",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "herb",
+          "interaction": "drag-to-bin",
+          "targetBin": "herb"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "mango",
+          "label": "Mango Tree",
+          "emoji": "🌳",
+          "correctBin": "tree"
+        },
+        {
+          "id": "rose",
+          "label": "Rose Plant",
+          "emoji": "🌹",
+          "correctBin": "shrub"
+        },
+        {
+          "id": "marigold",
+          "label": "Marigold",
+          "emoji": "🌼",
+          "correctBin": "herb"
+        }
+      ],
+      "bins": [
+        {
+          "id": "tree",
+          "label": "Tree 🌳",
+          "color": "#15803D"
+        },
+        {
+          "id": "shrub",
+          "label": "Shrub 🌿",
+          "color": "#B45309"
+        },
+        {
+          "id": "herb",
+          "label": "Herb 🌱",
+          "color": "#047857"
+        }
+      ]
+    },
+    {
+      "type": "identify_part",
+      "question": "Which part of the plant grows UNDER the soil and holds it firmly?",
+      "answer": "Root",
+      "options": [
+        "Root",
+        "Leaf",
+        "Flower"
+      ],
+      "hint": "It hides under the dirt and drinks water for the plant!",
+      "misconception": "The root IS a real part of the plant, even though it is hidden under the soil! It holds the plant firmly so the wind does not blow it away.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Root",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Leaf",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Flower",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Root",
+          "Leaf"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_part",
+      "question": "Which flat green part of the plant makes food using sunlight?",
+      "answer": "Leaf",
+      "options": [
+        "Root",
+        "Leaf",
+        "Fruit"
+      ],
+      "hint": "It is flat and green, and grows out of the stem in many shapes!",
+      "misconception": "Leaves are the flat green parts that grow from the stem. Mango leaves are long and pointed; neem leaves are small and narrow.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "Root",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "Leaf",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "leaf",
+          "label": "Fruit",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Leaf",
+          "Root"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_parts",
+      "question": "Drag each plant part to what it does!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Root drinks water, Stem carries water, Leaf makes food!",
+      "misconception": "Every plant part has a special job! Root drinks from soil, stem stands upright, leaf makes food, flower makes seeds, and fruit holds seeds!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. Root drinks water, Stem carries water, Leaf makes food!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "p-root",
+          "kind": "water-drop",
+          "label": "Root (drinks water)",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "root-job",
+          "interaction": "drag-to-bin",
+          "targetBin": "root-job"
+        },
+        {
+          "id": "p-stem",
+          "kind": "water-drop",
+          "label": "Stem (carries water)",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "stem-job",
+          "interaction": "drag-to-bin",
+          "targetBin": "stem-job"
+        },
+        {
+          "id": "p-leaf",
+          "kind": "leaf",
+          "label": "Leaf (makes food)",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a8b3a",
+          "category": "leaf-job",
+          "interaction": "drag-to-bin",
+          "targetBin": "leaf-job"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "p-root",
+          "label": "Root (drinks water)",
+          "emoji": "🪨",
+          "correctBin": "root-job"
+        },
+        {
+          "id": "p-stem",
+          "label": "Stem (carries water)",
+          "emoji": "🪵",
+          "correctBin": "stem-job"
+        },
+        {
+          "id": "p-leaf",
+          "label": "Leaf (makes food)",
+          "emoji": "🍃",
+          "correctBin": "leaf-job"
+        }
+      ],
+      "bins": [
+        {
+          "id": "root-job",
+          "label": "Underground 🪨",
+          "color": "#854D0E"
+        },
+        {
+          "id": "stem-job",
+          "label": "Upright 🪵",
+          "color": "#3F6212"
+        },
+        {
+          "id": "leaf-job",
+          "label": "Green 🍃",
+          "color": "#16A34A"
+        }
+      ]
+    },
+    {
+      "type": "identify_type",
+      "question": "True or False: A rose plant is a herb because it is small.",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "hint": "Think about the rose stem: is it soft and green, or woody with thorns?",
+      "misconception": "False! Size alone is not enough. The rose plant has woody stems and thorns, so it is a shrub, not a herb!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "leaf",
+          "label": "True",
+          "x": 0.3333333333333333,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "leaf",
+          "label": "False",
+          "x": 0.6666666666666666,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4a8b3a",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Think about the rose stem: is it soft and green, or woody with thorns?"
+      }
+    }
+  ],
+  "theme": "garden",
+  "storyArc": {
+    "theme": "A nature lover discovers the world around them",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-garden",
+    "title": "Learning Garden",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_evs_004",
+    "region": "Nature Park",
+    "mapX": 0.5,
+    "mapY": 0.15,
+    "icon": "🌿",
+    "prerequisites": []
+  },
+  "subject": "evs"
+}

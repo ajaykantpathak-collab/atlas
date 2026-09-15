@@ -1,0 +1,759 @@
+{
+  "gameFile": "SolarSystemGame",
+  "classLevel": 2,
+  "cisceNodes": [
+    "c2_phy_006",
+    "c2_phy_007",
+    "c2_phy_008",
+    "c2_phy_009",
+    "c2_phy_010"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Day and Night 🌞🌙",
+      "text": "Earth is a round ball spinning in space! The sun shines all the time. When our side faces the sun, it is DAY. When our side turns away, it is NIGHT!",
+      "emoji": "🌍",
+      "bgColor": "from-amber-400 to-indigo-600",
+      "spoken": "",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Our Solar Family 🪐",
+      "text": "The sun is at the center of our solar system! Eight planets circle around the sun. Earth is our home planet. The moon goes around Earth!",
+      "emoji": "☀️",
+      "bgColor": "from-yellow-400 to-orange-500",
+      "spoken": "",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Ladder of Time ⏳",
+      "text": "Time climbs from a single day, to 7 days in a week (Monday to Sunday), about 4 weeks in a month, and 12 months in a full year!",
+      "emoji": "📅",
+      "bgColor": "from-blue-400 to-cyan-500",
+      "spoken": "",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Relative Directions 📍",
+      "text": "We use relative words: left and right for our hands, above and below for height, and near and far for distance!",
+      "emoji": "👈",
+      "bgColor": "from-emerald-400 to-teal-600",
+      "spoken": "",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Four Main Directions 🧭",
+      "text": "The sun always rises in the EAST and sets in the WEST. If you face the rising sun, North is to your left and South is to your right!",
+      "emoji": "🧭",
+      "bgColor": "from-purple-400 to-indigo-600",
+      "spoken": "",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Why do we have day and night on Earth?",
+      "answer": "Earth rotates on its axis",
+      "options": [
+        "Earth rotates on its axis",
+        "The sun moves around Earth",
+        "The moon blocks the sun"
+      ],
+      "hint": "Think of Earth spinning like a top in front of a lamp!",
+      "misconception": "The sun does NOT move around Earth! Earth spins (rotates) on its axis. When our side faces the sun, it is day; when it turns away, it is night!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Earth rotates on its axis",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The sun moves around Earth",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The moon blocks the sun",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "The sun moves around Earth",
+          "Earth rotates on its axis"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "When our side of Earth faces the sun, what time of day is it?",
+      "answer": "Day",
+      "options": [
+        "Day",
+        "Night",
+        "Midnight"
+      ],
+      "hint": "When the sun is shining brightly on your side, are you awake in the day or sleeping at night?",
+      "misconception": "When sunlight reaches our side of Earth, we experience DAY! Night happens when our side turns away from the sun!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Day",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Night",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Midnight",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Day",
+          "Night"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "What is at the CENTER of our solar system?",
+      "answer": "The Sun",
+      "options": [
+        "The Sun",
+        "The Earth",
+        "The Moon"
+      ],
+      "hint": "It is a huge, hot, glowing ball of burning gases that is the boss of our solar system!",
+      "misconception": "The Sun is at the center! Earth and all the planets move around the sun, not the other way around!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "The Sun",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The Earth",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The Moon",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "The Sun",
+          "The Earth"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag the planets into their correct order from the sun (closest to farthest)!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Mercury is closest to the sun, then Venus, then Earth, then Mars!",
+      "misconception": "The order from the sun is: 1st Mercury, 2nd Venus, 3rd Earth, 4th Mars! Mercury is the closest planet to the sun.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "planet-mercury",
+            "label": "1. Mercury",
+            "correctBin": "bin-1"
+          },
+          {
+            "id": "planet-venus",
+            "label": "2. Venus",
+            "correctBin": "bin-2"
+          },
+          {
+            "id": "planet-earth",
+            "label": "3. Earth",
+            "correctBin": "bin-3"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "planet-mercury",
+          "kind": "circle",
+          "label": "1. Mercury",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-1",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-1"
+        },
+        {
+          "id": "planet-venus",
+          "kind": "circle",
+          "label": "2. Venus",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-2",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-2"
+        },
+        {
+          "id": "planet-earth",
+          "kind": "circle",
+          "label": "3. Earth",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-3",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-3"
+        },
+        {
+          "id": "planet-mars",
+          "kind": "circle",
+          "label": "4. Mars",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-4",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-4"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "planet-mercury",
+          "label": "1. Mercury",
+          "emoji": "",
+          "correctBin": "bin-1"
+        },
+        {
+          "id": "planet-venus",
+          "label": "2. Venus",
+          "emoji": "",
+          "correctBin": "bin-2"
+        },
+        {
+          "id": "planet-earth",
+          "label": "3. Earth",
+          "emoji": "",
+          "correctBin": "bin-3"
+        },
+        {
+          "id": "planet-mars",
+          "label": "4. Mars",
+          "emoji": "",
+          "correctBin": "bin-4"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-1",
+          "label": "1st (Closest)",
+          "color": "#9E9E9E"
+        },
+        {
+          "id": "bin-2",
+          "label": "2nd",
+          "color": "#E53935"
+        },
+        {
+          "id": "bin-3",
+          "label": "3rd (Earth)",
+          "color": "#1E88E5"
+        },
+        {
+          "id": "bin-4",
+          "label": "4th",
+          "color": "#FB8C00"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "How many days are in a complete week?",
+      "answer": "7 days",
+      "options": [
+        "7 days",
+        "5 days",
+        "30 days"
+      ],
+      "hint": "Count from Sunday, Monday, Tuesday... all the way to Saturday!",
+      "misconception": "A week ALWAYS has 7 days — Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday! School days are 5, but the week has 7 days.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "7 days",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "5 days",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "30 days",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "7 days",
+          "5 days"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag the units of time from SHORTEST to LONGEST!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Day is shortest, then Week, then Month, and Year is longest!",
+      "misconception": "The time ladder goes: Day (shortest) → Week (7 days) → Month (about 4 weeks) → Year (12 months, longest)!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "time-day",
+            "label": "1. Day",
+            "correctBin": "bin-day"
+          },
+          {
+            "id": "time-week",
+            "label": "2. Week",
+            "correctBin": "bin-week"
+          },
+          {
+            "id": "time-month",
+            "label": "3. Month",
+            "correctBin": "bin-month"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "time-day",
+          "kind": "circle",
+          "label": "1. Day",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-day",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-day"
+        },
+        {
+          "id": "time-week",
+          "kind": "circle",
+          "label": "2. Week",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-week",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-week"
+        },
+        {
+          "id": "time-month",
+          "kind": "circle",
+          "label": "3. Month",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-month",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-month"
+        },
+        {
+          "id": "time-year",
+          "kind": "circle",
+          "label": "4. Year",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-year",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-year"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "time-day",
+          "label": "1. Day",
+          "emoji": "",
+          "correctBin": "bin-day"
+        },
+        {
+          "id": "time-week",
+          "label": "2. Week",
+          "emoji": "",
+          "correctBin": "bin-week"
+        },
+        {
+          "id": "time-month",
+          "label": "3. Month",
+          "emoji": "",
+          "correctBin": "bin-month"
+        },
+        {
+          "id": "time-year",
+          "label": "4. Year",
+          "emoji": "",
+          "correctBin": "bin-year"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-day",
+          "label": "Day",
+          "color": "#FFB300"
+        },
+        {
+          "id": "bin-week",
+          "label": "Week",
+          "color": "#00ACC1"
+        },
+        {
+          "id": "bin-month",
+          "label": "Month",
+          "color": "#7E57C2"
+        },
+        {
+          "id": "bin-year",
+          "label": "Year",
+          "color": "#43A047"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "If you face the rising sun in the morning (East), which direction is on your LEFT?",
+      "answer": "North",
+      "options": [
+        "North",
+        "South",
+        "West"
+      ],
+      "hint": "Facing East: front is East, back is West, left is North, right is South!",
+      "misconception": "When facing East (rising sun), your left hand points to NORTH and your right hand points to SOUTH! Cardinal directions are fixed in space.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "North",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "South",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "West",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "South",
+          "North"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each direction to match its OPPOSITE cardinal direction!",
+      "answer": "sort",
+      "options": [],
+      "hint": "North is opposite to South, and East is opposite to West!",
+      "misconception": "Opposite pairs: North is opposite South, and East is opposite West! They form a cross in space.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. North is opposite to South, and East is opposite to West!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "dir-north",
+          "kind": "circle",
+          "label": "North opposite",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-south",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-south"
+        },
+        {
+          "id": "dir-east",
+          "kind": "circle",
+          "label": "East opposite",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-west",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-west"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "dir-north",
+          "label": "North opposite",
+          "emoji": "",
+          "correctBin": "bin-south"
+        },
+        {
+          "id": "dir-east",
+          "label": "East opposite",
+          "emoji": "",
+          "correctBin": "bin-west"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-south",
+          "label": "South",
+          "color": "#E91E63"
+        },
+        {
+          "id": "bin-west",
+          "label": "West",
+          "color": "#9C27B0"
+        }
+      ]
+    }
+  ],
+  "theme": "space",
+  "storyArc": {
+    "theme": "A curious physicist explores the forces of nature",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Physics Lab Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c2_phy_006",
+    "region": "Physics Realm",
+    "mapX": 0.9199999999999999,
+    "mapY": 0.83,
+    "icon": "⚡",
+    "prerequisites": [
+      "c2_phy_007"
+    ]
+  },
+  "subject": "physics"
+}

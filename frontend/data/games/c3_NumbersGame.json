@@ -1,0 +1,917 @@
+{
+  "gameFile": "NumbersGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_math_001",
+    "c3_math_002",
+    "c3_math_003",
+    "c3_math_004",
+    "c3_math_005"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Meet 4-Digit Numbers! 🔢",
+      "text": "Numbers up to 9,999 have four places: Thousands, Hundreds, Tens, and Ones! In 4,527, we read four thousand five hundred twenty-seven!",
+      "emoji": "🏛️",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Numbers up to 9,999 have four places: Thousands, Hundreds, Tens, and Ones! In 4,527, we read four thousand five hundred twenty-seven!",
+      "diagram": {
+        "type": "place-value-chart",
+        "animate": true,
+        "data": {
+          "columns": [
+            "Crores",
+            "Lakhs",
+            "Thousands",
+            "Ones"
+          ],
+          "digits": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Place Value & Expanded Form 🧱",
+      "text": "Every digit has a place value! In 3,456, 3 is 3000, 4 is 400, 5 is 50, and 6 is 6. Expanded form adds them up: 3000 + 400 + 50 + 6!",
+      "emoji": "📦",
+      "bgColor": "from-indigo-500 to-purple-600",
+      "spoken": "Every digit has a place value! In 3,456, 3 is 3000, 4 is 400, 5 is 50, and 6 is 6. Expanded form adds them up: 3000 + 400 + 50 + 6!",
+      "diagram": {
+        "type": "place-value-chart",
+        "animate": true,
+        "data": {
+          "columns": [
+            "Crores",
+            "Lakhs",
+            "Thousands",
+            "Ones"
+          ],
+          "digits": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Skip Counting in Different Ways! 🏃",
+      "text": "We can count forward or backward starting from any number! Counting by 10s from 2350 gives 2350, 2360, 2370 — only the tens digit changes!",
+      "emoji": "👟",
+      "bgColor": "from-purple-500 to-pink-600",
+      "spoken": "We can count forward or backward starting from any number! Counting by 10s from 2350 gives 2350, 2360, 2370 — only the tens digit changes!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    },
+    {
+      "title": "Comparing & Ordering Numbers ⚖️",
+      "text": "Compare numbers from left to right! 3,456 is less than 3,462 because 5 tens is less than 6 tens. Ascending goes small to big; descending goes big to small!",
+      "emoji": "📊",
+      "bgColor": "from-teal-550 to-emerald-600",
+      "spoken": "Compare numbers from left to right! 3,456 is less than 3,462 because 5 tens is less than 6 tens. Ascending goes small to big; descending goes big to small!",
+      "diagram": {
+        "type": "place-value-chart",
+        "animate": true,
+        "data": {
+          "columns": [
+            "Crores",
+            "Lakhs",
+            "Thousands",
+            "Ones"
+          ],
+          "digits": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Greatest & Smallest Digits 👑",
+      "text": "To make the greatest number, put the largest digit first! To make the smallest, put the smallest non-zero digit first — remember, 0 can never lead!",
+      "emoji": "💎",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "To make the greatest number, put the largest digit first! To make the smallest, put the smallest non-zero digit first — remember, 0 can never lead!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "star"
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_place",
+      "question": "What is the place value of the digit 5 in the number 5,432?",
+      "answer": "5,000",
+      "options": [
+        "5",
+        "50",
+        "500",
+        "5,000"
+      ],
+      "hint": "Look at where 5 sits: Thousands, Hundreds, Tens, or Ones? It is in the thousands place!",
+      "misconception": "The place value of 5 in 5432 is 5000, NOT 5! Face value is 5, but its position in the thousands place makes it 5 x 1000 = 5000!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "5",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "50",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "500",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "5,000",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "5,000",
+          "5"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_expanded",
+      "question": "How do you write 3,000 + 400 + 20 + 7 in standard form?",
+      "answer": "3,427",
+      "options": [
+        "342",
+        "3,427",
+        "34,270",
+        "7,243"
+      ],
+      "hint": "Combine the thousands, hundreds, tens, and ones together: 3 thousands, 4 hundreds, 2 tens, 7 ones!",
+      "misconception": "Combining 3000 + 400 + 20 + 7 gives 3,427! Do not add face values (3+4+2+7 = 18) — you are adding place value blocks!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "342",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "3,427",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "34,270",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "7,243",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "3,427",
+          "342"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort_place",
+      "question": "Drag each digit of 4,567 to its correct place value box!",
+      "answer": "sort",
+      "options": [],
+      "hint": "4 is in thousands (4000), 5 in hundreds (500), 6 in tens (60), 7 in ones (7)!",
+      "misconception": "Each place has a fixed value! Thousands is 1000, hundreds is 100, tens is 10, ones is 1. Match each digit to its correct home!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "digit-4",
+            "label": "4 (Thousands)",
+            "correctBin": "th-bin"
+          },
+          {
+            "id": "digit-5",
+            "label": "5 (Hundreds)",
+            "correctBin": "h-bin"
+          },
+          {
+            "id": "digit-6",
+            "label": "6 (Tens)",
+            "correctBin": "t-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "digit-4",
+          "kind": "circle",
+          "label": "4 (Thousands)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "th-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "th-bin"
+        },
+        {
+          "id": "digit-5",
+          "kind": "circle",
+          "label": "5 (Hundreds)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "h-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "h-bin"
+        },
+        {
+          "id": "digit-6",
+          "kind": "circle",
+          "label": "6 (Tens)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "t-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "t-bin"
+        },
+        {
+          "id": "digit-7",
+          "kind": "circle",
+          "label": "7 (Ones)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "o-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "o-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "digit-4",
+          "label": "4 (Thousands)",
+          "emoji": "",
+          "correctBin": "th-bin"
+        },
+        {
+          "id": "digit-5",
+          "label": "5 (Hundreds)",
+          "emoji": "",
+          "correctBin": "h-bin"
+        },
+        {
+          "id": "digit-6",
+          "label": "6 (Tens)",
+          "emoji": "",
+          "correctBin": "t-bin"
+        },
+        {
+          "id": "digit-7",
+          "label": "7 (Ones)",
+          "emoji": "",
+          "correctBin": "o-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "th-bin",
+          "label": "4,000",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "h-bin",
+          "label": "500",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "t-bin",
+          "label": "60",
+          "color": "#EC4899"
+        },
+        {
+          "id": "o-bin",
+          "label": "7",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify_greatest",
+      "question": "Which of these numbers is the GREATEST?",
+      "answer": "8,765",
+      "options": [
+        "8,567",
+        "8,756",
+        "8,765",
+        "8,675"
+      ],
+      "hint": "Compare thousands first (all 8), then hundreds (7 vs 5), then tens (6 vs 5)!",
+      "misconception": "8,765 is greater than 8,756 because in the tens place, 6 tens is greater than 5 tens! Always compare from left to right!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "8,567",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "8,756",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "8,765",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "8,675",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "8,567",
+          "8,765"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_ascending",
+      "question": "Drag these numbers into ASCENDING order (smallest to largest)!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Ascending means climbing stairs — start with the smallest thousands digit!",
+      "misconception": "Ascending order goes from smallest to largest! Check the thousands digits first (1, 2, 2, 3), then break ties using hundreds!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "num-1234",
+            "label": "1,234",
+            "correctBin": "pos-1"
+          },
+          {
+            "id": "num-2345",
+            "label": "2,345",
+            "correctBin": "pos-2"
+          },
+          {
+            "id": "num-2567",
+            "label": "2,567",
+            "correctBin": "pos-3"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "num-1234",
+          "kind": "circle",
+          "label": "1,234",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pos-1",
+          "interaction": "drag-to-bin",
+          "targetBin": "pos-1"
+        },
+        {
+          "id": "num-2345",
+          "kind": "circle",
+          "label": "2,345",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pos-2",
+          "interaction": "drag-to-bin",
+          "targetBin": "pos-2"
+        },
+        {
+          "id": "num-2567",
+          "kind": "circle",
+          "label": "2,567",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pos-3",
+          "interaction": "drag-to-bin",
+          "targetBin": "pos-3"
+        },
+        {
+          "id": "num-3456",
+          "kind": "circle",
+          "label": "3,456",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "pos-4",
+          "interaction": "drag-to-bin",
+          "targetBin": "pos-4"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "num-1234",
+          "label": "1,234",
+          "emoji": "",
+          "correctBin": "pos-1"
+        },
+        {
+          "id": "num-2345",
+          "label": "2,345",
+          "emoji": "",
+          "correctBin": "pos-2"
+        },
+        {
+          "id": "num-2567",
+          "label": "2,567",
+          "emoji": "",
+          "correctBin": "pos-3"
+        },
+        {
+          "id": "num-3456",
+          "label": "3,456",
+          "emoji": "",
+          "correctBin": "pos-4"
+        }
+      ],
+      "bins": [
+        {
+          "id": "pos-1",
+          "label": "1st (Smallest)",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "pos-2",
+          "label": "2nd",
+          "color": "#6366F1"
+        },
+        {
+          "id": "pos-3",
+          "label": "3rd",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "pos-4",
+          "label": "4th (Largest)",
+          "color": "#EC4899"
+        }
+      ]
+    },
+    {
+      "type": "sort_descending",
+      "question": "Drag these numbers into DESCENDING order (largest to smallest)!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Descending means coming down stairs — start with the largest thousands digit!",
+      "misconception": "Descending order goes from largest to smallest! 9,876 is largest because its thousands digit is 9!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "num-9876",
+            "label": "9,876",
+            "correctBin": "d-1"
+          },
+          {
+            "id": "num-7890",
+            "label": "7,890",
+            "correctBin": "d-2"
+          },
+          {
+            "id": "num-5678",
+            "label": "5,678",
+            "correctBin": "d-3"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "num-9876",
+          "kind": "circle",
+          "label": "9,876",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "d-1",
+          "interaction": "drag-to-bin",
+          "targetBin": "d-1"
+        },
+        {
+          "id": "num-7890",
+          "kind": "circle",
+          "label": "7,890",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "d-2",
+          "interaction": "drag-to-bin",
+          "targetBin": "d-2"
+        },
+        {
+          "id": "num-5678",
+          "kind": "circle",
+          "label": "5,678",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "d-3",
+          "interaction": "drag-to-bin",
+          "targetBin": "d-3"
+        },
+        {
+          "id": "num-1234",
+          "kind": "circle",
+          "label": "1,234",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "d-4",
+          "interaction": "drag-to-bin",
+          "targetBin": "d-4"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "num-9876",
+          "label": "9,876",
+          "emoji": "",
+          "correctBin": "d-1"
+        },
+        {
+          "id": "num-7890",
+          "label": "7,890",
+          "emoji": "",
+          "correctBin": "d-2"
+        },
+        {
+          "id": "num-5678",
+          "label": "5,678",
+          "emoji": "",
+          "correctBin": "d-3"
+        },
+        {
+          "id": "num-1234",
+          "label": "1,234",
+          "emoji": "",
+          "correctBin": "d-4"
+        }
+      ],
+      "bins": [
+        {
+          "id": "d-1",
+          "label": "1st (Largest)",
+          "color": "#EF4444"
+        },
+        {
+          "id": "d-2",
+          "label": "2nd",
+          "color": "#F97316"
+        },
+        {
+          "id": "d-3",
+          "label": "3rd",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "d-4",
+          "label": "4th (Smallest)",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify_digits",
+      "question": "What is the GREATEST 4-digit number you can make using digits 3, 7, 1, 9 (no repeats)?",
+      "answer": "9,731",
+      "options": [
+        "1,379",
+        "9,713",
+        "9,731",
+        "3,791"
+      ],
+      "hint": "To make the greatest number, put the largest digit in the thousands place and sort descending!",
+      "misconception": "The greatest number from 3, 7, 1, 9 is 9,731! Put 9 in thousands, 7 in hundreds, 3 in tens, and 1 in ones. Largest digit goes first!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "1,379",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "9,713",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "9,731",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "3,791",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "9,731",
+          "1,379"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort_expanded_form",
+      "question": "Match each 4-digit number to its correct expanded form!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Break each number into thousands + hundreds + tens + ones!",
+      "misconception": "Expanded form shows the exact value of each place! 2,081 is 2000 + 0 + 80 + 1 (the hundreds place has 0, so it contributes 0)!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Break each number into thousands + hundreds + tens + ones!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "exp-3456",
+          "kind": "circle",
+          "label": "3,456",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-3456",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-3456"
+        },
+        {
+          "id": "exp-2081",
+          "kind": "circle",
+          "label": "2,081",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-2081",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-2081"
+        },
+        {
+          "id": "exp-7604",
+          "kind": "circle",
+          "label": "7,604",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-7604",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-7604"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "exp-3456",
+          "label": "3,456",
+          "emoji": "",
+          "correctBin": "bin-3456"
+        },
+        {
+          "id": "exp-2081",
+          "label": "2,081",
+          "emoji": "",
+          "correctBin": "bin-2081"
+        },
+        {
+          "id": "exp-7604",
+          "label": "7,604",
+          "emoji": "",
+          "correctBin": "bin-7604"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-3456",
+          "label": "3000+400+50+6",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-2081",
+          "label": "2000+0+80+1",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "bin-7604",
+          "label": "7000+600+0+4",
+          "color": "#EC4899"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_math_001",
+    "region": "Mathland",
+    "mapX": 0.38,
+    "mapY": 0.67,
+    "icon": "🔢",
+    "prerequisites": [
+      "c3_math_002"
+    ]
+  },
+  "subject": "maths"
+}

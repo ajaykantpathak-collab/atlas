@@ -1,0 +1,916 @@
+{
+  "gameFile": "MulDivGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_math_009",
+    "c3_math_010",
+    "c3_math_011",
+    "c3_math_012",
+    "c3_math_013"
+  ],
+  "mascot": "Garden Manager Gita with a watering can, garden glove, flower basket, and seed packet.",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Multiplication is Repeated Addition! 🌸",
+      "text": "Multiplication is adding the same group again and again! If you have 4 rows of 3 flowers, 4 × 3 = 3 + 3 + 3 + 3 = 12 flowers in total!",
+      "emoji": "🌸",
+      "bgColor": "from-pink-400 to-rose-500",
+      "spoken": "Multiplication is adding the same group again and again! 4 times 3 means 4 groups of 3 flowers, giving 12 flowers in total!",
+      "diagram": {
+        "type": "counting-objects",
+        "animate": true,
+        "data": {
+          "count": 5,
+          "shape": "apple"
+        }
+      }
+    },
+    {
+      "title": "Multiplying Two-Digit Numbers! 🪴",
+      "text": "To multiply 34 × 5, multiply the ones first (4 × 5 = 20, write 0 carry 2), then multiply the tens (3 × 5 = 15, add carry 2 = 17)! Answer: 170!",
+      "emoji": "🪴",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "To multiply a two-digit number by a one-digit number, multiply the ones first, write down the ones digit and carry over the tens, then multiply the tens and add the carry!",
+      "diagram": {
+        "type": "place-value-chart",
+        "animate": true,
+        "data": {
+          "columns": [
+            "Crores",
+            "Lakhs",
+            "Thousands",
+            "Ones"
+          ],
+          "digits": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Division: Sharing Equally! 🧺",
+      "text": "Division splits a total into equal parts! If 18 apples are shared equally among 3 children, each child gets 6 apples. We write 18 ÷ 3 = 6!",
+      "emoji": "🧺",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "Division splits a total quantity into equal groups or shares. 18 apples divided among 3 children gives 6 apples to each child!",
+      "diagram": {
+        "type": "fraction-pizza",
+        "animate": true,
+        "data": {
+          "slices": 8,
+          "filled": 4
+        }
+      }
+    },
+    {
+      "title": "Division Facts & Tables! 📊",
+      "text": "Multiplication tables are the key to division! To solve 20 ÷ 5, ask: 5 times what gives 20? Since 5 × 4 = 20, 20 ÷ 5 = 4 instantly!",
+      "emoji": "📊",
+      "bgColor": "from-purple-400 to-violet-500",
+      "spoken": "Multiplication tables unlock division! Since 5 times 4 is 20, 20 divided by 5 equals 4!",
+      "diagram": {
+        "type": "bar-chart",
+        "animate": true,
+        "data": {
+          "bars": [
+            {
+              "label": "1×3",
+              "value": 3
+            },
+            {
+              "label": "2×3",
+              "value": 6
+            },
+            {
+              "label": "3×3",
+              "value": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Inverse Operation & Fact Families! 🔄",
+      "text": "Multiplication and division are inverse operations! If 3 × 4 = 12, then 12 ÷ 3 = 4 and 12 ÷ 4 = 3. They form a cozy fact family of three numbers!",
+      "emoji": "🔄",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Multiplication and division are inverse operations! One undoes the other, forming a complete fact family sharing the same three numbers!",
+      "diagram": {
+        "type": "bar-chart",
+        "animate": true,
+        "data": {
+          "bars": [
+            {
+              "label": "1×3",
+              "value": 3
+            },
+            {
+              "label": "2×3",
+              "value": 6
+            },
+            {
+              "label": "3×3",
+              "value": 9
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is 7 × 6 in the multiplication table of 7?",
+      "answer": "42",
+      "options": [
+        "35",
+        "42",
+        "49",
+        "56"
+      ],
+      "hint": "Think of repeated addition: add 7 six times (7, 14, 21, 28, 35, 42).",
+      "misconception": "Multiplication is repeated addition, not addition of exponents or random guessing! 7 taken 6 times is 42, not 35 or 49.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "35",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "42",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "49",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "56",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "35",
+          "42"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "What is 24 ÷ 4 using the multiplication table of 4?",
+      "answer": "6",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "hint": "Ask yourself: 4 times what number gives 24?",
+      "misconception": "Division is the reverse of multiplication. Since 4 × 6 = 24, 24 ÷ 4 = 6. Do not subtract or guess randomly!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "4",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "5",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "6",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "8",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "6",
+          "4"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each multiplication fact to its correct product!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match each multiplication problem with its correct product!",
+      "misconception": "Always recall your multiplication tables carefully: 3×4=12, 5×6=30, 7×8=56, 9×3=27.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "m1",
+            "label": "3 × 4 = 12",
+            "correctBin": "bin12"
+          },
+          {
+            "id": "m2",
+            "label": "5 × 6 = 30",
+            "correctBin": "bin30"
+          },
+          {
+            "id": "m3",
+            "label": "7 × 8 = 56",
+            "correctBin": "bin56"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "m1",
+          "kind": "circle",
+          "label": "3 × 4 = 12",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin12",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin12"
+        },
+        {
+          "id": "m2",
+          "kind": "circle",
+          "label": "5 × 6 = 30",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin30",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin30"
+        },
+        {
+          "id": "m3",
+          "kind": "circle",
+          "label": "7 × 8 = 56",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin56",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin56"
+        },
+        {
+          "id": "m4",
+          "kind": "circle",
+          "label": "9 × 3 = 27",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin27",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin27"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "m1",
+          "label": "3 × 4 = 12",
+          "emoji": "",
+          "correctBin": "bin12"
+        },
+        {
+          "id": "m2",
+          "label": "5 × 6 = 30",
+          "emoji": "",
+          "correctBin": "bin30"
+        },
+        {
+          "id": "m3",
+          "label": "7 × 8 = 56",
+          "emoji": "",
+          "correctBin": "bin56"
+        },
+        {
+          "id": "m4",
+          "label": "9 × 3 = 27",
+          "emoji": "",
+          "correctBin": "bin27"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin12",
+          "label": "12",
+          "color": "#EC4899"
+        },
+        {
+          "id": "bin30",
+          "label": "30",
+          "color": "#10B981"
+        },
+        {
+          "id": "bin56",
+          "label": "56",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin27",
+          "label": "27",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "A garden has 5 rows with 6 flowers in each row. How many flowers in total?",
+      "answer": "30",
+      "options": [
+        "11",
+        "25",
+        "30",
+        "35"
+      ],
+      "hint": "5 groups of 6 means multiplying 5 × 6.",
+      "misconception": "Do not add the numbers (5 + 6 = 11)! Equal groups mean we multiply: 5 rows × 6 flowers = 30 flowers.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "flower",
+          "label": "11",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff69b4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "flower",
+          "label": "25",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff69b4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "flower",
+          "label": "30",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff69b4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "flower",
+          "label": "35",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff69b4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "30",
+          "11"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag the steps for multiplying 34 × 5 using the standard algorithm in order!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Start with the ones place first, then the tens place, remembering any carry!",
+      "misconception": "Always multiply ones first (4×5=20, write 0 carry 2), then tens (3×5=15, add carry 2 = 17)! Never multiply the carry.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. Start with the ones place first, then the tens place, remembering any carry!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "s1",
+          "kind": "circle",
+          "label": "1. Multiply ones: 4 × 5 = 20 (write 0, carry 2)",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "step1",
+          "interaction": "drag-to-bin",
+          "targetBin": "step1"
+        },
+        {
+          "id": "s2",
+          "kind": "circle",
+          "label": "2. Multiply tens: 3 × 5 = 15, add carry 2 = 17",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "step2",
+          "interaction": "drag-to-bin",
+          "targetBin": "step2"
+        },
+        {
+          "id": "s3",
+          "kind": "circle",
+          "label": "3. Final product is 170",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "step3",
+          "interaction": "drag-to-bin",
+          "targetBin": "step3"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s1",
+          "label": "1. Multiply ones: 4 × 5 = 20 (write 0, carry 2)",
+          "emoji": "",
+          "correctBin": "step1"
+        },
+        {
+          "id": "s2",
+          "label": "2. Multiply tens: 3 × 5 = 15, add carry 2 = 17",
+          "emoji": "",
+          "correctBin": "step2"
+        },
+        {
+          "id": "s3",
+          "label": "3. Final product is 170",
+          "emoji": "",
+          "correctBin": "step3"
+        }
+      ],
+      "bins": [
+        {
+          "id": "step1",
+          "label": "Step 1 (Ones)",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "step2",
+          "label": "Step 2 (Tens)",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "step3",
+          "label": "Step 3 (Result)",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "18 apples are shared equally among 3 children. How many does each child get?",
+      "answer": "6",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "9"
+      ],
+      "hint": "This is equal sharing: 18 divided by 3 (18 ÷ 3).",
+      "misconception": "Equal sharing is division! 18 ÷ 3 = 6 because 3 × 6 = 18. Each child gets 6 apples.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "apple",
+          "label": "5",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "apple",
+          "label": "6",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "apple",
+          "label": "7",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "apple",
+          "label": "9",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "5",
+          "6"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each division problem to its correct quotient!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Use related multiplication facts to find each quotient!",
+      "misconception": "Division makes numbers smaller by splitting into equal groups: 20÷5=4, 36÷6=6, 48÷8=6, 27÷9=3.",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "d1",
+            "label": "20 ÷ 5",
+            "correctBin": "q4"
+          },
+          {
+            "id": "d2",
+            "label": "36 ÷ 6",
+            "correctBin": "q6"
+          },
+          {
+            "id": "d3",
+            "label": "48 ÷ 8",
+            "correctBin": "q6"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "d1",
+          "kind": "circle",
+          "label": "20 ÷ 5",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "q4",
+          "interaction": "drag-to-bin",
+          "targetBin": "q4"
+        },
+        {
+          "id": "d2",
+          "kind": "circle",
+          "label": "36 ÷ 6",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "q6",
+          "interaction": "drag-to-bin",
+          "targetBin": "q6"
+        },
+        {
+          "id": "d3",
+          "kind": "circle",
+          "label": "48 ÷ 8",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "q6",
+          "interaction": "drag-to-bin",
+          "targetBin": "q6"
+        },
+        {
+          "id": "d4",
+          "kind": "circle",
+          "label": "27 ÷ 9",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "q3",
+          "interaction": "drag-to-bin",
+          "targetBin": "q3"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "d1",
+          "label": "20 ÷ 5",
+          "emoji": "",
+          "correctBin": "q4"
+        },
+        {
+          "id": "d2",
+          "label": "36 ÷ 6",
+          "emoji": "",
+          "correctBin": "q6"
+        },
+        {
+          "id": "d3",
+          "label": "48 ÷ 8",
+          "emoji": "",
+          "correctBin": "q6"
+        },
+        {
+          "id": "d4",
+          "label": "27 ÷ 9",
+          "emoji": "",
+          "correctBin": "q3"
+        }
+      ],
+      "bins": [
+        {
+          "id": "q4",
+          "label": "4",
+          "color": "#EC4899"
+        },
+        {
+          "id": "q6",
+          "label": "6",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "q3",
+          "label": "3",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Drag each multiplication fact to its matching inverse division fact!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Multiplication and inverse division share the same three numbers in a fact family!",
+      "misconception": "Multiplication and division are inverse operations! Every multiplication fact yields two division facts.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "f1",
+            "label": "3 × 4 = 12",
+            "correctBin": "inv12"
+          },
+          {
+            "id": "f2",
+            "label": "5 × 6 = 30",
+            "correctBin": "inv30"
+          },
+          {
+            "id": "f3",
+            "label": "7 × 8 = 56",
+            "correctBin": "inv56"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "f1",
+          "kind": "circle",
+          "label": "3 × 4 = 12",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "inv12",
+          "interaction": "drag-to-bin",
+          "targetBin": "inv12"
+        },
+        {
+          "id": "f2",
+          "kind": "circle",
+          "label": "5 × 6 = 30",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "inv30",
+          "interaction": "drag-to-bin",
+          "targetBin": "inv30"
+        },
+        {
+          "id": "f3",
+          "kind": "circle",
+          "label": "7 × 8 = 56",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "inv56",
+          "interaction": "drag-to-bin",
+          "targetBin": "inv56"
+        },
+        {
+          "id": "f4",
+          "kind": "circle",
+          "label": "9 × 3 = 27",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "inv27",
+          "interaction": "drag-to-bin",
+          "targetBin": "inv27"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "f1",
+          "label": "3 × 4 = 12",
+          "emoji": "",
+          "correctBin": "inv12"
+        },
+        {
+          "id": "f2",
+          "label": "5 × 6 = 30",
+          "emoji": "",
+          "correctBin": "inv30"
+        },
+        {
+          "id": "f3",
+          "label": "7 × 8 = 56",
+          "emoji": "",
+          "correctBin": "inv56"
+        },
+        {
+          "id": "f4",
+          "label": "9 × 3 = 27",
+          "emoji": "",
+          "correctBin": "inv27"
+        }
+      ],
+      "bins": [
+        {
+          "id": "inv12",
+          "label": "12 ÷ 3 = 4",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "inv30",
+          "label": "30 ÷ 5 = 6",
+          "color": "#EC4899"
+        },
+        {
+          "id": "inv56",
+          "label": "56 ÷ 7 = 8",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "inv27",
+          "label": "27 ÷ 9 = 3",
+          "color": "#10B981"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A young mathematician discovers the power of numbers",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-chart",
+    "title": "Math Master Chart",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_math_009",
+    "region": "Mathland",
+    "mapX": 0.30000000000000004,
+    "mapY": 0.55,
+    "icon": "🔢",
+    "prerequisites": [
+      "c3_math_010"
+    ]
+  },
+  "subject": "maths"
+}

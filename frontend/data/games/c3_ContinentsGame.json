@@ -1,0 +1,680 @@
+{
+  "gameFile": "ContinentsGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_geo_003",
+    "c3_geo_004",
+    "c3_geo_005"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Welcome to Earth! 🌍",
+      "text": "Earth is our wonderful home! When we look at a globe, the blue parts are water (oceans) and the coloured parts are land (continents). About 71% of Earth is covered in water!",
+      "emoji": "���",
+      "bgColor": "from-blue-500 to-indigo-600",
+      "spoken": "Earth is our wonderful home! When we look at a globe, the blue parts are water and the coloured parts are land. About seventy-one percent of Earth is covered in water!",
+      "diagram": {
+        "type": "solar-system",
+        "animate": true,
+        "data": {
+          "planets": [
+            {
+              "name": "Earth",
+              "color": 4886745,
+              "distance": 70,
+              "size": 8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The 7 Continents! 🏔️",
+      "text": "A continent is a very large landmass. There are 7 continents: Asia (largest), Africa, North America, South America, Antarctica (covered in ice), Europe, and Australia (smallest)!",
+      "emoji": "🏔️",
+      "bgColor": "from-amber-500 to-orange-600",
+      "spoken": "A continent is a very large landmass. There are seven continents: Asia is the largest, followed by Africa, North America, South America, Antarctica covered in ice, Europe, and Australia the smallest!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "The 5 Oceans! 🌊",
+      "text": "An ocean is a vast body of salty water. The 5 oceans are the Pacific Ocean (largest), Atlantic Ocean (S-shaped), Indian Ocean, Southern Ocean, and the cold Arctic Ocean!",
+      "emoji": "🌊",
+      "bgColor": "from-cyan-500 to-blue-600",
+      "spoken": "An ocean is a vast body of salty water. The five oceans are the Pacific Ocean, Atlantic Ocean, Indian Ocean, Southern Ocean, and the cold Arctic Ocean!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "India on the Globe! 🇮🇳",
+      "text": "India is a large country located in the southern part of Asia! It lies in the Northern Hemisphere. The Tropic of Cancer passes through its middle.",
+      "emoji": "🇮🇳",
+      "bgColor": "from-emerald-500 to-teal-600",
+      "spoken": "India is a large country located in the southern part of Asia! It lies in the Northern Hemisphere, and the Tropic of Cancer passes through its middle.",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {
+          "region": {
+            "x": 0,
+            "y": 0,
+            "label": "India"
+          }
+        }
+      }
+    },
+    {
+      "title": "Seas Around India! 🗺️",
+      "text": "India has natural water boundaries on three sides: the Arabian Sea to the west, the Bay of Bengal to the east, and the Indian Ocean to the south!",
+      "emoji": "🗺️",
+      "bgColor": "from-sky-500 to-blue-700",
+      "spoken": "India has natural water boundaries on three sides: the Arabian Sea to the west, the Bay of Bengal to the east, and the Indian Ocean to the south!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {
+          "region": {
+            "x": 0,
+            "y": 0,
+            "label": "India"
+          }
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is a continent?",
+      "answer": "A very large area of land",
+      "options": [
+        "A very large area of land",
+        "A small island in a pond",
+        "A type of ocean water"
+      ],
+      "hint": "Think about what makes up the green and brown parts on a globe — they are huge blocks of land!",
+      "misconception": "A continent is a very large, continuous landmass! It is much bigger than an island or a country. There are seven of them on Earth!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A very large area of land",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A small island in a pond",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A type of ocean water",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A small island in a pond",
+          "A very large area of land"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify",
+      "question": "How many continents are there on Earth?",
+      "answer": "7",
+      "options": [
+        "5",
+        "7",
+        "10"
+      ],
+      "hint": "Count them: Asia, Africa, North America, South America, Antarctica, Europe, Australia!",
+      "misconception": "There are exactly 7 continents on Earth! Asia is the largest and Australia is the smallest.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "5",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "7",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "10",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "7",
+          "5"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each continent to its special feature!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Match Asia to largest, Antarctica to ice, Australia to smallest island continent!",
+      "misconception": "Each continent has a unique feature: Asia is largest, Antarctica is covered in ice, and Australia is the smallest island continent!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Match Asia to largest, Antarctica to ice, Australia to smallest island continent!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "asia",
+          "kind": "circle",
+          "label": "Asia",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-asia",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-asia"
+        },
+        {
+          "id": "antarctica",
+          "kind": "circle",
+          "label": "Antarctica",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-antarctica",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-antarctica"
+        },
+        {
+          "id": "australia",
+          "kind": "circle",
+          "label": "Australia",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-australia",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-australia"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "asia",
+          "label": "Asia",
+          "emoji": "",
+          "correctBin": "bin-asia"
+        },
+        {
+          "id": "antarctica",
+          "label": "Antarctica",
+          "emoji": "",
+          "correctBin": "bin-antarctica"
+        },
+        {
+          "id": "australia",
+          "label": "Australia",
+          "emoji": "",
+          "correctBin": "bin-australia"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-asia",
+          "label": "Largest, most people 🌏",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-antarctica",
+          "label": "Covered in thick ice ❄️",
+          "color": "#06B6D4"
+        },
+        {
+          "id": "bin-australia",
+          "label": "Smallest, island continent 🦘",
+          "color": "#10B981"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which is the LARGEST continent on Earth?",
+      "answer": "Asia",
+      "options": [
+        "Australia",
+        "Asia",
+        "Europe"
+      ],
+      "hint": "It covers about one-third of all land on Earth and is home to India!",
+      "misconception": "Asia is the LARGEST continent! Australia is the smallest. Never confuse the two!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Australia",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Asia",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Europe",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Australia",
+          "Asia"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each ocean to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Pacific is biggest, Indian is south of India, Arctic is coldest at north pole!",
+      "misconception": "The Pacific Ocean is the largest, the Indian Ocean is south of India, and the Arctic Ocean is the coldest around the North Pole!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. Pacific is biggest, Indian is south of India, Arctic is coldest at north pole!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "pacific",
+          "kind": "circle",
+          "label": "Pacific Ocean",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-pacific",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-pacific"
+        },
+        {
+          "id": "indian",
+          "kind": "circle",
+          "label": "Indian Ocean",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-indian",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-indian"
+        },
+        {
+          "id": "arctic",
+          "kind": "circle",
+          "label": "Arctic Ocean",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-arctic",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-arctic"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "pacific",
+          "label": "Pacific Ocean",
+          "emoji": "",
+          "correctBin": "bin-pacific"
+        },
+        {
+          "id": "indian",
+          "label": "Indian Ocean",
+          "emoji": "",
+          "correctBin": "bin-indian"
+        },
+        {
+          "id": "arctic",
+          "label": "Arctic Ocean",
+          "emoji": "",
+          "correctBin": "bin-arctic"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-pacific",
+          "label": "Largest & deepest ocean 🌊",
+          "color": "#2563EB"
+        },
+        {
+          "id": "bin-indian",
+          "label": "South of India 🇮🇳",
+          "color": "#0D9488"
+        },
+        {
+          "id": "bin-arctic",
+          "label": "Coldest near North Pole 🧊",
+          "color": "#4F46E5"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which ocean is named after our country India?",
+      "answer": "Indian Ocean",
+      "options": [
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Atlantic Ocean"
+      ],
+      "hint": "Look at the ocean that lies directly to the south of India!",
+      "misconception": "The Indian Ocean is named after India because it washes against India’s southern shores!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "apple",
+          "label": "Pacific Ocean",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "apple",
+          "label": "Indian Ocean",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "apple",
+          "label": "Atlantic Ocean",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#ff4444",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Pacific Ocean",
+          "Indian Ocean"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Sort these statements about India into True or False!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Is India a continent or a country? Is it in Asia or Africa?",
+      "misconception": "India is a country located IN Asia — India is NOT a continent itself! And India is entirely in the Northern Hemisphere!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "hint": "Take it slow. Is India a continent or a country? Is it in Asia or Africa?"
+      },
+      "interactiveObjects": [
+        {
+          "id": "india-asia",
+          "kind": "circle",
+          "label": "India is in Asia",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-true",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-true"
+        },
+        {
+          "id": "india-continent",
+          "kind": "circle",
+          "label": "India is a continent",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-false",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-false"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "india-asia",
+          "label": "India is in Asia",
+          "emoji": "",
+          "correctBin": "bin-true"
+        },
+        {
+          "id": "india-continent",
+          "label": "India is a continent",
+          "emoji": "",
+          "correctBin": "bin-false"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-true",
+          "label": "True ✅",
+          "color": "#16A34A"
+        },
+        {
+          "id": "bin-false",
+          "label": "False ❌",
+          "color": "#DC2626"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "question": "Sort these places into Continent or Ocean!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Asia and Africa are big landmasses (Continents). Pacific and Atlantic are big water bodies (Oceans).",
+      "misconception": "Continents are landmasses (like Africa), while Oceans are huge bodies of salt water (like the Atlantic Ocean)!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Asia and Africa are big landmasses (Continents). Pacific and Atlantic are big water bodies (Oceans)."
+      },
+      "interactiveObjects": [
+        {
+          "id": "africa-item",
+          "kind": "circle",
+          "label": "Africa",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-continent",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-continent"
+        },
+        {
+          "id": "atlantic-item",
+          "kind": "circle",
+          "label": "Atlantic Ocean",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ocean",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ocean"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "africa-item",
+          "label": "Africa",
+          "emoji": "",
+          "correctBin": "bin-continent"
+        },
+        {
+          "id": "atlantic-item",
+          "label": "Atlantic Ocean",
+          "emoji": "",
+          "correctBin": "bin-ocean"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-continent",
+          "label": "Continent (Land) 🏔️",
+          "color": "#D97706"
+        },
+        {
+          "id": "bin-ocean",
+          "label": "Ocean (Water) 🌊",
+          "color": "#0284C7"
+        }
+      ]
+    }
+  ],
+  "theme": "outdoor",
+  "storyArc": {
+    "theme": "An adventurer travels across the world",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-map",
+    "title": "World Map",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_geo_003",
+    "region": "World Explorer",
+    "mapX": 0.6200000000000001,
+    "mapY": 1.03,
+    "icon": "🌍",
+    "prerequisites": [
+      "c3_geo_004"
+    ]
+  },
+  "subject": "geography"
+}

@@ -1,0 +1,886 @@
+{
+  "gameFile": "BirdsGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_bio_006",
+    "c3_bio_007",
+    "c3_bio_008",
+    "c3_bio_009"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Common Birds in India! 🐦",
+      "text": "Birds are living animals! Around us in India, we see sparrows, crows, pigeons, parrots, and majestic eagles. Every bird has a head, eyes, beak, wings, feathers, a tail, and feet!",
+      "emoji": "🦜",
+      "bgColor": "from-sky-400 to-blue-500",
+      "spoken": "Birds are living animals! Around us in India, we see sparrows, crows, pigeons, parrots, and eagles. Every bird has a beak, wings, feathers, and feet!",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Grasshopper",
+            "Frog",
+            "Snake"
+          ]
+        }
+      }
+    },
+    {
+      "title": "How Birds Fly! ✈️",
+      "text": "Flight is amazing! Birds have wings that push air down to create lift. Their bones are hollow and light with air spaces inside, and strong chest muscles flap the wings!",
+      "emoji": "🦅",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "Flight is amazing! Birds have wings that push air down to create lift. Their bones are hollow and light, and strong chest muscles flap the wings!",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Grasshopper",
+            "Frog",
+            "Snake"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Beaks and Food Habits! 🌰",
+      "text": "A bird has no teeth, so its beak is its tool! Sparrows have short conical beaks for seeds, eagles have hooked beaks for meat, and parrots have curved beaks for cracking hard nuts!",
+      "emoji": "🌰",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "A bird has no teeth, so its beak is its tool! Sparrows have short beaks for seeds, eagles have hooked beaks for meat, and parrots have curved beaks for nuts!",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Goat",
+            "Lion"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Feathers — A Warm Jacket! 🧥",
+      "text": "Feathers cover the whole bird like a cozy warm jacket. They keep the bird warm in winter, stay dry in rain, and make flying possible by giving the wings a smooth surface!",
+      "emoji": "🪶",
+      "bgColor": "from-teal-400 to-emerald-500",
+      "spoken": "Feathers cover the bird like a cozy warm jacket. They keep the bird warm, dry in rain, and make flying possible!",
+      "diagram": {
+        "type": "food-chain",
+        "animate": true,
+        "data": {
+          "chain": [
+            "Plant",
+            "Goat",
+            "Lion"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Nests and Habitats! 🪺",
+      "text": "A nest is a safe cradle built for laying eggs and raising chicks — not just a sleeping bed! Weaver birds weave hanging baskets, tailor birds stitch leaves, and woodpeckers drill tree trunks!",
+      "emoji": "🪺",
+      "bgColor": "from-emerald-400 to-green-600",
+      "spoken": "A nest is a safe cradle built for laying eggs and raising chicks! Weaver birds weave hanging baskets, tailor birds stitch leaves, and woodpeckers drill tree trunks!",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_bird",
+      "question": "Which of these is a common bird we see around us in India?",
+      "answer": "House Sparrow",
+      "options": [
+        "House Sparrow",
+        "Penguin",
+        "Ostrich"
+      ],
+      "hint": "Think of the small brown bird that hops on garden walls and balconies in India!",
+      "misconception": "The House Sparrow is very common in Indian homes and gardens! Penguins live in cold Antarctica and ostriches in Africa — they are not common Indian birds.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "House Sparrow",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Penguin",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Ostrich",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "House Sparrow",
+          "Penguin"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_flight",
+      "question": "Which body part helps a bird leave the ground and stay in the air?",
+      "answer": "Wings",
+      "options": [
+        "Wings",
+        "Heavy beak",
+        "Thick claws"
+      ],
+      "hint": "These are the two feather-covered arms that the bird flaps up and down.",
+      "misconception": "Wings are the flat, feather-covered arms that push air down to lift the bird! Heavy beaks and thick claws do not create lift for flying.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Wings",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Heavy beak",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Thick claws",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Heavy beak",
+          "Wings"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort_body_parts",
+      "question": "Drag each bird body part to its correct function!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Wings push air for flying, feathers keep warm, tail steers, hollow bones make the body light!",
+      "misconception": "Every body part has a special job! Wings give lift, feathers act like a warm jacket, hollow bones keep the body light, and claws help perch.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "wing",
+            "label": "Wings",
+            "correctBin": "fly"
+          },
+          {
+            "id": "feather",
+            "label": "Feathers",
+            "correctBin": "warm"
+          },
+          {
+            "id": "bone",
+            "label": "Hollow bones",
+            "correctBin": "light"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "wing",
+          "kind": "circle",
+          "label": "Wings",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fly",
+          "interaction": "drag-to-bin",
+          "targetBin": "fly"
+        },
+        {
+          "id": "feather",
+          "kind": "circle",
+          "label": "Feathers",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "warm",
+          "interaction": "drag-to-bin",
+          "targetBin": "warm"
+        },
+        {
+          "id": "bone",
+          "kind": "circle",
+          "label": "Hollow bones",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "light",
+          "interaction": "drag-to-bin",
+          "targetBin": "light"
+        },
+        {
+          "id": "tail",
+          "kind": "circle",
+          "label": "Tail",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "steer",
+          "interaction": "drag-to-bin",
+          "targetBin": "steer"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "wing",
+          "label": "Wings",
+          "emoji": "",
+          "correctBin": "fly"
+        },
+        {
+          "id": "feather",
+          "label": "Feathers",
+          "emoji": "",
+          "correctBin": "warm"
+        },
+        {
+          "id": "bone",
+          "label": "Hollow bones",
+          "emoji": "",
+          "correctBin": "light"
+        },
+        {
+          "id": "tail",
+          "label": "Tail",
+          "emoji": "",
+          "correctBin": "steer"
+        }
+      ],
+      "bins": [
+        {
+          "id": "fly",
+          "label": "Push Air / Fly ✈️",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "warm",
+          "label": "Warm & Dry 🧥",
+          "color": "#10B981"
+        },
+        {
+          "id": "light",
+          "label": "Make Body Light 🪶",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "steer",
+          "label": "Steer & Brake 🧭",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "identify_why_fly",
+      "question": "Why can birds fly high in the sky while human beings cannot?",
+      "answer": "Birds have hollow bones and wings",
+      "options": [
+        "Birds have hollow bones and wings",
+        "Humans are too small",
+        "Humans do not eat enough seeds"
+      ],
+      "hint": "Think about what makes a bird light and how its arms are shaped compared to ours.",
+      "misconception": "Birds have hollow bones that make them light and large curved wings that push air! Human bones are solid and heavy, and our arms cannot create lift.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Birds have hollow bones and wings",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Humans are too small",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Humans do not eat enough seeds",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Humans are too small",
+          "Birds have hollow bones and wings"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_food_beak",
+      "question": "Drag each bird to its correct food based on its beak shape!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Parrots crack nuts with curved beaks, eagles tear meat with hooked beaks, sparrows peck seeds!",
+      "misconception": "Beak shape tells us what a bird eats! Parrots eat fruits and nuts with curved beaks; eagles eat meat and fish with hooked beaks.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "parrot",
+            "label": "Parrot (Curved beak)",
+            "correctBin": "fruit"
+          },
+          {
+            "id": "eagle",
+            "label": "Eagle (Hooked beak)",
+            "correctBin": "meat"
+          },
+          {
+            "id": "sparrow",
+            "label": "Sparrow (Conical beak)",
+            "correctBin": "seeds"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "parrot",
+          "kind": "circle",
+          "label": "Parrot (Curved beak)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fruit",
+          "interaction": "drag-to-bin",
+          "targetBin": "fruit"
+        },
+        {
+          "id": "eagle",
+          "kind": "circle",
+          "label": "Eagle (Hooked beak)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "meat",
+          "interaction": "drag-to-bin",
+          "targetBin": "meat"
+        },
+        {
+          "id": "sparrow",
+          "kind": "circle",
+          "label": "Sparrow (Conical beak)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "seeds",
+          "interaction": "drag-to-bin",
+          "targetBin": "seeds"
+        },
+        {
+          "id": "woodpecker",
+          "kind": "circle",
+          "label": "Woodpecker (Chisel beak)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "insects",
+          "interaction": "drag-to-bin",
+          "targetBin": "insects"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "parrot",
+          "label": "Parrot (Curved beak)",
+          "emoji": "",
+          "correctBin": "fruit"
+        },
+        {
+          "id": "eagle",
+          "label": "Eagle (Hooked beak)",
+          "emoji": "",
+          "correctBin": "meat"
+        },
+        {
+          "id": "sparrow",
+          "label": "Sparrow (Conical beak)",
+          "emoji": "",
+          "correctBin": "seeds"
+        },
+        {
+          "id": "woodpecker",
+          "label": "Woodpecker (Chisel beak)",
+          "emoji": "",
+          "correctBin": "insects"
+        }
+      ],
+      "bins": [
+        {
+          "id": "fruit",
+          "label": "Fruits & Nuts 🥜",
+          "color": "#EF4444"
+        },
+        {
+          "id": "meat",
+          "label": "Meat & Fish 🐟",
+          "color": "#DC2626"
+        },
+        {
+          "id": "seeds",
+          "label": "Grains & Seeds 🌱",
+          "color": "#10B981"
+        },
+        {
+          "id": "insects",
+          "label": "Insects in bark 🪲",
+          "color": "#D97706"
+        }
+      ]
+    },
+    {
+      "type": "identify_nest_use",
+      "question": "What is the main purpose of a bird building a nest?",
+      "answer": "Laying eggs and raising chicks",
+      "options": [
+        "Laying eggs and raising chicks",
+        "Sleeping comfortably every night",
+        "Storing extra food for winter"
+      ],
+      "hint": "Nests are safe nurseries! Birds do not sleep in nests all year round after chicks grow up.",
+      "misconception": "A nest is NOT just a bedroom for sleeping every night! It is a safe cradle used specifically for laying eggs, sheltering chicks, and raising them until they can fly.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Laying eggs and raising chicks",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Sleeping comfortably every night",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Storing extra food for winter",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Sleeping comfortably every night",
+          "Laying eggs and raising chicks"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_nest_types",
+      "question": "Drag each bird to its special nest-building style!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Weaver birds weave hanging baskets, tailor birds stitch leaves, woodpeckers drill tree holes!",
+      "misconception": "Different birds build unique homes! Weaver birds weave grass baskets, tailor birds stitch leaves together with fibres, and woodpeckers drill tree cavities.",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "weaver",
+            "label": "Baya Weaver",
+            "correctBin": "hanging"
+          },
+          {
+            "id": "tailor",
+            "label": "Tailor Bird",
+            "correctBin": "stitched"
+          },
+          {
+            "id": "woodpecker",
+            "label": "Woodpecker",
+            "correctBin": "cavity"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "weaver",
+          "kind": "circle",
+          "label": "Baya Weaver",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "hanging",
+          "interaction": "drag-to-bin",
+          "targetBin": "hanging"
+        },
+        {
+          "id": "tailor",
+          "kind": "circle",
+          "label": "Tailor Bird",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "stitched",
+          "interaction": "drag-to-bin",
+          "targetBin": "stitched"
+        },
+        {
+          "id": "woodpecker",
+          "kind": "circle",
+          "label": "Woodpecker",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "cavity",
+          "interaction": "drag-to-bin",
+          "targetBin": "cavity"
+        },
+        {
+          "id": "pigeon",
+          "kind": "circle",
+          "label": "Pigeon",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "ledge",
+          "interaction": "drag-to-bin",
+          "targetBin": "ledge"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "weaver",
+          "label": "Baya Weaver",
+          "emoji": "",
+          "correctBin": "hanging"
+        },
+        {
+          "id": "tailor",
+          "label": "Tailor Bird",
+          "emoji": "",
+          "correctBin": "stitched"
+        },
+        {
+          "id": "woodpecker",
+          "label": "Woodpecker",
+          "emoji": "",
+          "correctBin": "cavity"
+        },
+        {
+          "id": "pigeon",
+          "label": "Pigeon",
+          "emoji": "",
+          "correctBin": "ledge"
+        }
+      ],
+      "bins": [
+        {
+          "id": "hanging",
+          "label": "Hanging Basket 🌾",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "stitched",
+          "label": "Stitched Leaves 🍃",
+          "color": "#10B981"
+        },
+        {
+          "id": "cavity",
+          "label": "Tree Cavity 🪵",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "ledge",
+          "label": "Building Ledge 🏛️",
+          "color": "#6B7280"
+        }
+      ]
+    },
+    {
+      "type": "sort_flight_features",
+      "question": "Drag each feature! Does it HELP a bird fly or NOT?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Hollow bones, wings, and feathers help fly! Heavy bones and no wings do not help!",
+      "misconception": "Flight requires lightness and power! Hollow bones, wings, feathers, and strong chest muscles help a bird fly. Heavy solid bones and lack of wings keep animals on the ground.",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "hollow",
+            "label": "Hollow bones",
+            "correctBin": "helps"
+          },
+          {
+            "id": "chest",
+            "label": "Strong chest muscles",
+            "correctBin": "helps"
+          },
+          {
+            "id": "heavy",
+            "label": "Heavy solid bones",
+            "correctBin": "not-helps"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "hollow",
+          "kind": "circle",
+          "label": "Hollow bones",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "helps",
+          "interaction": "drag-to-bin",
+          "targetBin": "helps"
+        },
+        {
+          "id": "chest",
+          "kind": "circle",
+          "label": "Strong chest muscles",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "helps",
+          "interaction": "drag-to-bin",
+          "targetBin": "helps"
+        },
+        {
+          "id": "heavy",
+          "kind": "circle",
+          "label": "Heavy solid bones",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "not-helps",
+          "interaction": "drag-to-bin",
+          "targetBin": "not-helps"
+        },
+        {
+          "id": "nowings",
+          "kind": "circle",
+          "label": "No wings",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "not-helps",
+          "interaction": "drag-to-bin",
+          "targetBin": "not-helps"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "hollow",
+          "label": "Hollow bones",
+          "emoji": "",
+          "correctBin": "helps"
+        },
+        {
+          "id": "chest",
+          "label": "Strong chest muscles",
+          "emoji": "",
+          "correctBin": "helps"
+        },
+        {
+          "id": "heavy",
+          "label": "Heavy solid bones",
+          "emoji": "",
+          "correctBin": "not-helps"
+        },
+        {
+          "id": "nowings",
+          "label": "No wings",
+          "emoji": "",
+          "correctBin": "not-helps"
+        }
+      ],
+      "bins": [
+        {
+          "id": "helps",
+          "label": "Helps Fly ✅",
+          "color": "#10B981"
+        },
+        {
+          "id": "not-helps",
+          "label": "Does Not Help ❌",
+          "color": "#EF4444"
+        }
+      ]
+    }
+  ],
+  "theme": "zoo",
+  "storyArc": {
+    "theme": "A curious explorer uncovers the secrets of living things",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-tree",
+    "title": "Knowledge Tree",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_bio_006",
+    "region": "Biosphere",
+    "mapX": 0.46,
+    "mapY": 0.79,
+    "icon": "🌱",
+    "prerequisites": [
+      "c3_bio_007"
+    ]
+  },
+  "subject": "biology"
+}

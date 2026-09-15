@@ -1,0 +1,846 @@
+{
+  "gameFile": "DirectionsMapsGame",
+  "classLevel": 3,
+  "cisceNodes": [
+    "c3_geo_006",
+    "c3_geo_007"
+  ],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "The Four Main Directions 🧭",
+      "text": "There are four main directions, called cardinal directions: North (top), South (bottom), East (right), and West (left)! They are the backbone of every map and globe.",
+      "emoji": "🧭",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "There are four main directions, called cardinal directions: North, South, East, and West! They are the backbone of every map and globe.",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Four Intermediate Directions ✨",
+      "text": "Between the main directions are four intermediate points: North-East (NE), North-West (NW), South-East (SE), and South-West (SW). Together they form all eight directions!",
+      "emoji": "⭐",
+      "bgColor": "from-blue-400 to-cyan-500",
+      "spoken": "Between the main directions are four intermediate points: North-East, North-West, South-East, and South-West. Together they form all eight directions!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Nature\\'s Compass: The Sun ☀️",
+      "text": "The sun rises in the east in the morning and sets in the west in the evening. If you face the rising sun, East is in front of you, South is on your right, and North is on your left!",
+      "emoji": "🌅",
+      "bgColor": "from-yellow-400 to-amber-500",
+      "spoken": "The sun rises in the east in the morning and sets in the west in the evening. If you face the rising sun, East is in front of you, South is on your right, and North is on your left!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "The Compass Tool 🧭",
+      "text": "A compass is an instrument with a magnetic needle that always points to the North! When you know North, you can work out all the other seven directions around the dial.",
+      "emoji": "📍",
+      "bgColor": "from-teal-400 to-emerald-500",
+      "spoken": "A compass is an instrument with a magnetic needle that always points to the North! When you know North, you can work out all the other seven directions around the dial.",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Globe vs. Map 🌍🗺️",
+      "text": "A globe is a round 3D model of Earth showing true shape and size. A map is a flat 2D drawing that is portable and shows fine details like streets and rivers, but stretches the poles!",
+      "emoji": "🌍",
+      "bgColor": "from-purple-400 to-indigo-500",
+      "spoken": "A globe is a round three-dimensional model of Earth showing true shape and size. A map is a flat two-dimensional drawing that is portable and shows fine details!",
+      "diagram": {
+        "type": "map-india",
+        "animate": true,
+        "data": {
+          "region": {
+            "x": 0,
+            "y": 0,
+            "label": "India"
+          }
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_dir",
+      "question": "In which direction does the sun rise every morning?",
+      "answer": "East",
+      "options": [
+        "North",
+        "East",
+        "West"
+      ],
+      "hint": "Think about morning time! The sun always comes up in this direction.",
+      "misconception": "The sun always rises in the EAST and sets in the WEST! Never in the north or south. Facing the rising sun means you are looking east!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "North",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "East",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "West",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "North",
+          "East"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_sun",
+      "question": "If you stand facing the rising sun (East), which direction is on your RIGHT hand?",
+      "answer": "South",
+      "options": [
+        "North",
+        "South",
+        "West"
+      ],
+      "hint": "Stretch your arms sideways when facing East. Left is North, right is South!",
+      "misconception": "When you face East, South is on your right hand and North is on your left hand! West is directly behind you.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "North",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "South",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "West",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "South",
+          "North"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort_directions",
+      "question": "Drag each cardinal direction to its correct map position!",
+      "answer": "sort",
+      "options": [],
+      "hint": "North points to the top, South to the bottom, East to the right, West to the left!",
+      "misconception": "On a properly oriented map, North is at the top, South at the bottom, East on the right, and West on the left!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "north",
+            "label": "North (N)",
+            "correctBin": "top"
+          },
+          {
+            "id": "south",
+            "label": "South (S)",
+            "correctBin": "bottom"
+          },
+          {
+            "id": "east",
+            "label": "East (E)",
+            "correctBin": "right"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "north",
+          "kind": "circle",
+          "label": "North (N)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "top",
+          "interaction": "drag-to-bin",
+          "targetBin": "top"
+        },
+        {
+          "id": "south",
+          "kind": "circle",
+          "label": "South (S)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bottom",
+          "interaction": "drag-to-bin",
+          "targetBin": "bottom"
+        },
+        {
+          "id": "east",
+          "kind": "circle",
+          "label": "East (E)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "right",
+          "interaction": "drag-to-bin",
+          "targetBin": "right"
+        },
+        {
+          "id": "west",
+          "kind": "circle",
+          "label": "West (W)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "left",
+          "interaction": "drag-to-bin",
+          "targetBin": "left"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "north",
+          "label": "North (N)",
+          "emoji": "",
+          "correctBin": "top"
+        },
+        {
+          "id": "south",
+          "label": "South (S)",
+          "emoji": "",
+          "correctBin": "bottom"
+        },
+        {
+          "id": "east",
+          "label": "East (E)",
+          "emoji": "",
+          "correctBin": "right"
+        },
+        {
+          "id": "west",
+          "label": "West (W)",
+          "emoji": "",
+          "correctBin": "left"
+        }
+      ],
+      "bins": [
+        {
+          "id": "top",
+          "label": "Top (North)",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bottom",
+          "label": "Bottom (South)",
+          "color": "#EF4444"
+        },
+        {
+          "id": "right",
+          "label": "Right (East)",
+          "color": "#10B981"
+        },
+        {
+          "id": "left",
+          "label": "Left (West)",
+          "color": "#F59E0B"
+        }
+      ]
+    },
+    {
+      "type": "identify_dir",
+      "question": "How many total directions do we learn using main and intermediate points?",
+      "answer": "8 directions",
+      "options": [
+        "4 directions",
+        "8 directions",
+        "12 directions"
+      ],
+      "hint": "We have 4 main cardinal points plus 4 intermediate points in between!",
+      "misconception": "There are 8 directions in total: 4 cardinal (N, S, E, W) and 4 intermediate (NE, NW, SE, SW)! Forgetting intermediate points is a common Class 3 error.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "4 directions",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "8 directions",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "12 directions",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "4 directions",
+          "8 directions"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_directions",
+      "question": "Drag each intermediate direction between its correct main neighbours!",
+      "answer": "sort",
+      "options": [],
+      "hint": "NE is between North and East. NW is between North and West!",
+      "misconception": "Intermediate directions fill the gaps: North-East (NE) between North and East, South-East (SE) between South and East!",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "ne",
+            "label": "North-East (NE)",
+            "correctBin": "between-n-e"
+          },
+          {
+            "id": "nw",
+            "label": "North-West (NW)",
+            "correctBin": "between-n-w"
+          },
+          {
+            "id": "se",
+            "label": "South-East (SE)",
+            "correctBin": "between-s-e"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "ne",
+          "kind": "circle",
+          "label": "North-East (NE)",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "between-n-e",
+          "interaction": "drag-to-bin",
+          "targetBin": "between-n-e"
+        },
+        {
+          "id": "nw",
+          "kind": "circle",
+          "label": "North-West (NW)",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "between-n-w",
+          "interaction": "drag-to-bin",
+          "targetBin": "between-n-w"
+        },
+        {
+          "id": "se",
+          "kind": "circle",
+          "label": "South-East (SE)",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "between-s-e",
+          "interaction": "drag-to-bin",
+          "targetBin": "between-s-e"
+        },
+        {
+          "id": "sw",
+          "kind": "circle",
+          "label": "South-West (SW)",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "between-s-w",
+          "interaction": "drag-to-bin",
+          "targetBin": "between-s-w"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "ne",
+          "label": "North-East (NE)",
+          "emoji": "",
+          "correctBin": "between-n-e"
+        },
+        {
+          "id": "nw",
+          "label": "North-West (NW)",
+          "emoji": "",
+          "correctBin": "between-n-w"
+        },
+        {
+          "id": "se",
+          "label": "South-East (SE)",
+          "emoji": "",
+          "correctBin": "between-s-e"
+        },
+        {
+          "id": "sw",
+          "label": "South-West (SW)",
+          "emoji": "",
+          "correctBin": "between-s-w"
+        }
+      ],
+      "bins": [
+        {
+          "id": "between-n-e",
+          "label": "Between N & E",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "between-n-w",
+          "label": "Between N & W",
+          "color": "#EC4899"
+        },
+        {
+          "id": "between-s-e",
+          "label": "Between S & E",
+          "color": "#14B8A6"
+        },
+        {
+          "id": "between-s-w",
+          "label": "Between S & W",
+          "color": "#F97316"
+        }
+      ]
+    },
+    {
+      "type": "identify_globe_map",
+      "question": "Which tool shows the TRUE shape and size of Earth without stretching polar land?",
+      "answer": "Globe",
+      "options": [
+        "Globe",
+        "Flat Map",
+        "Drawing on paper"
+      ],
+      "hint": "A globe is round just like the real planet Earth!",
+      "misconception": "A globe is a 3D round model that shows true shape and size! Flat maps stretch land near the poles (distortion), making Greenland look as big as Africa.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "square",
+          "label": "Globe",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "square",
+          "label": "Flat Map",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "square",
+          "label": "Drawing on paper",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#4ecdc4",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Flat Map",
+          "Globe"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_globe_map",
+      "question": "Drag each feature into the correct box: Globe or Map?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Globe is 3D and round. Map is 2D flat, portable, and shows street details!",
+      "misconception": "A globe is 3D, round, and non-portable. A map is 2D, flat, portable, can be folded, but distorts shapes near poles!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "globe-3d",
+            "label": "Round 3D Model",
+            "correctBin": "globe-bin"
+          },
+          {
+            "id": "map-fold",
+            "label": "Can be folded & carried",
+            "correctBin": "map-bin"
+          },
+          {
+            "id": "globe-true",
+            "label": "Shows true continent size",
+            "correctBin": "globe-bin"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "globe-3d",
+          "kind": "circle",
+          "label": "Round 3D Model",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "globe-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "globe-bin"
+        },
+        {
+          "id": "map-fold",
+          "kind": "circle",
+          "label": "Can be folded & carried",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "map-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "map-bin"
+        },
+        {
+          "id": "globe-true",
+          "kind": "circle",
+          "label": "Shows true continent size",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "globe-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "globe-bin"
+        },
+        {
+          "id": "map-detail",
+          "kind": "circle",
+          "label": "Shows small street details",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "map-bin",
+          "interaction": "drag-to-bin",
+          "targetBin": "map-bin"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "globe-3d",
+          "label": "Round 3D Model",
+          "emoji": "",
+          "correctBin": "globe-bin"
+        },
+        {
+          "id": "map-fold",
+          "label": "Can be folded & carried",
+          "emoji": "",
+          "correctBin": "map-bin"
+        },
+        {
+          "id": "globe-true",
+          "label": "Shows true continent size",
+          "emoji": "",
+          "correctBin": "globe-bin"
+        },
+        {
+          "id": "map-detail",
+          "label": "Shows small street details",
+          "emoji": "",
+          "correctBin": "map-bin"
+        }
+      ],
+      "bins": [
+        {
+          "id": "globe-bin",
+          "label": "Globe 🌍",
+          "color": "#2563EB"
+        },
+        {
+          "id": "map-bin",
+          "label": "Map 🗺️",
+          "color": "#059669"
+        }
+      ]
+    },
+    {
+      "type": "sort_globe_map_use",
+      "question": "Drag each task to the best tool: Globe or Map?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Use globe to see all continents together. Use map to find street turns or carry in bag!",
+      "misconception": "Use a globe to understand Earth\\'s round shape and true continent proportions. Use a map when you need portability or fine local details!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "use-continents",
+            "label": "See all 7 continents",
+            "correctBin": "globe-use"
+          },
+          {
+            "id": "use-streets",
+            "label": "Find local street turns",
+            "correctBin": "map-use"
+          },
+          {
+            "id": "use-carry",
+            "label": "Carry in school bag",
+            "correctBin": "map-use"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "use-continents",
+          "kind": "circle",
+          "label": "See all 7 continents",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "globe-use",
+          "interaction": "drag-to-bin",
+          "targetBin": "globe-use"
+        },
+        {
+          "id": "use-streets",
+          "kind": "circle",
+          "label": "Find local street turns",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "map-use",
+          "interaction": "drag-to-bin",
+          "targetBin": "map-use"
+        },
+        {
+          "id": "use-carry",
+          "kind": "circle",
+          "label": "Carry in school bag",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "map-use",
+          "interaction": "drag-to-bin",
+          "targetBin": "map-use"
+        },
+        {
+          "id": "use-shape",
+          "kind": "circle",
+          "label": "Learn Earth is a sphere",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "globe-use",
+          "interaction": "drag-to-bin",
+          "targetBin": "globe-use"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "use-continents",
+          "label": "See all 7 continents",
+          "emoji": "",
+          "correctBin": "globe-use"
+        },
+        {
+          "id": "use-streets",
+          "label": "Find local street turns",
+          "emoji": "",
+          "correctBin": "map-use"
+        },
+        {
+          "id": "use-carry",
+          "label": "Carry in school bag",
+          "emoji": "",
+          "correctBin": "map-use"
+        },
+        {
+          "id": "use-shape",
+          "label": "Learn Earth is a sphere",
+          "emoji": "",
+          "correctBin": "globe-use"
+        }
+      ],
+      "bins": [
+        {
+          "id": "globe-use",
+          "label": "Best for Globe 🌍",
+          "color": "#1D4ED8"
+        },
+        {
+          "id": "map-use",
+          "label": "Best for Map 🗺️",
+          "color": "#047857"
+        }
+      ]
+    }
+  ],
+  "theme": "outdoor",
+  "storyArc": {
+    "theme": "An adventurer travels across the world",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-map",
+    "title": "World Map",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c3_geo_006",
+    "region": "World Explorer",
+    "mapX": 0.78,
+    "mapY": 0.67,
+    "icon": "🌍",
+    "prerequisites": [
+      "c3_geo_007"
+    ]
+  },
+  "subject": "geography"
+}

@@ -1,0 +1,655 @@
+{
+  "gameFile": "ComputerMemoryGame",
+  "classLevel": 4,
+  "cisceNodes": [],
+  "mascot": "Unknown",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Data vs Information! 📊",
+      "text": "Data is raw facts and numbers without context, like test marks 90, 80, 70. Information is processed and organised data with meaning, like a report card with student names!",
+      "emoji": "📊",
+      "bgColor": "from-indigo-600 to-blue-600",
+      "spoken": "Data is raw facts and numbers without context, like test marks. Information is processed and organised data with meaning, like a report card!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Data Storage Units! 💾",
+      "text": "Computers measure data storage using special units! A bit is the smallest unit (0 or 1). 8 bits make 1 byte. Then come KB, MB, GB, and TB from smallest to largest!",
+      "emoji": "💾",
+      "bgColor": "from-blue-600 to-cyan-600",
+      "spoken": "Computers measure data storage using special units! A bit is the smallest unit. Eight bits make one byte. Then come kilobyte, megabyte, gigabyte, and terabyte!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "RAM — Working Memory! ⚡",
+      "text": "RAM (Random Access Memory) is volatile working memory. It is super fast and holds your open apps, but it loses ALL data when the computer is turned off!",
+      "emoji": "⚡",
+      "bgColor": "from-emerald-600 to-teal-600",
+      "spoken": "RAM is volatile working memory. It holds your open applications, but it loses all data when the computer is turned off!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "ROM — Startup Memory! 🔒",
+      "text": "ROM (Read Only Memory) is non-volatile. It keeps its data safe forever without electricity! It stores the permanent startup instructions called the BIOS.",
+      "emoji": "🔒",
+      "bgColor": "from-purple-600 to-indigo-600",
+      "spoken": "ROM is non-volatile memory. It keeps its data safe forever without electricity and stores permanent startup instructions called the BIOS.",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Storage Devices & Cloud! ☁️",
+      "text": "Hard disks (HDD), Solid State Drives (SSD), USB flash drives, CDs, DVDs, and cloud storage keep our files safe for the long term. Cloud storage lives on the Internet!",
+      "emoji": "☁️",
+      "bgColor": "from-cyan-600 to-blue-700",
+      "spoken": "Hard disks, solid state drives, USB flash drives, CDs, DVDs, and cloud storage keep our files safe. Cloud storage lives on the Internet!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Input",
+            "Process",
+            "Output"
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "What is the DIFFERENCE between data and information?",
+      "answer": "Data is raw facts without context, information is processed and organised data",
+      "options": [
+        "Data is raw facts without context, information is processed and organised data",
+        "Data and information are exactly the same thing",
+        "Information is raw and data is processed"
+      ],
+      "hint": "Think: uncooked rice vs cooked biryani! Data is raw numbers, information has headings and meaning.",
+      "misconception": "Data and information are NOT the same! Data is raw and unorganised (like 90, 80), while information is processed and has meaning (like a report card with student names).",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Data is raw facts without context, information is processed and organised data",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Data and information are exactly the same thing",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Information is raw and data is processed",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Data is raw facts without context, information is processed and organised data",
+          "Data and information are exactly the same thing"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each item to Data or Information!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Raw numbers without names go to Data. Organised marks with student names go to Information!",
+      "misconception": "Remember: raw numbers without context are Data. Once organised with headings and names, they become Information!",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "hint": "Take it slow. Raw numbers without names go to Data. Organised marks with student names go to Information!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "item-data1",
+          "kind": "circle",
+          "label": "Raw marks: 90, 80",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-data",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-data"
+        },
+        {
+          "id": "item-info1",
+          "kind": "circle",
+          "label": "Rohan: 90, Sita: 80",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-info",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-info"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "item-data1",
+          "label": "Raw marks: 90, 80",
+          "emoji": "",
+          "correctBin": "bin-data"
+        },
+        {
+          "id": "item-info1",
+          "label": "Rohan: 90, Sita: 80",
+          "emoji": "",
+          "correctBin": "bin-info"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-data",
+          "label": "Data 📊",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "bin-info",
+          "label": "Information 📋",
+          "color": "#22C55E"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is the SMALLEST unit of data storage in a computer?",
+      "answer": "A bit (0 or 1)",
+      "options": [
+        "A bit (0 or 1)",
+        "A byte",
+        "A kilobyte"
+      ],
+      "hint": "Think of a single electric switch that is off or on (0 or 1). That is the smallest unit!",
+      "misconception": "A bit is the smallest unit! A byte is made of 8 bits. Never confuse bit with byte.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "A bit (0 or 1)",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "A byte",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A kilobyte",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "A byte",
+          "A bit (0 or 1)"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each storage unit to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "A bit is 0 or 1. A byte is 8 bits. RAM is working memory. ROM is startup memory.",
+      "misconception": "Check your units! A bit is a single binary digit (0 or 1), and 8 bits make one byte.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. A bit is 0 or 1. A byte is 8 bits. RAM is working memory. ROM is startup memory."
+      },
+      "interactiveObjects": [
+        {
+          "id": "item-bit",
+          "kind": "circle",
+          "label": "Bit (0 or 1)",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-bit",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-bit"
+        },
+        {
+          "id": "item-byte",
+          "kind": "circle",
+          "label": "1 Byte (8 bits)",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-byte",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-byte"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "item-bit",
+          "label": "Bit (0 or 1)",
+          "emoji": "",
+          "correctBin": "bin-bit"
+        },
+        {
+          "id": "item-byte",
+          "label": "1 Byte (8 bits)",
+          "emoji": "",
+          "correctBin": "bin-byte"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-bit",
+          "label": "Bit 0/1 ⚡",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-byte",
+          "label": "Byte (8 bits) 📦",
+          "color": "#8B5CF6"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What is RAM and what happens to its data when the computer is turned off?",
+      "answer": "RAM is volatile memory — all data is lost when power is off",
+      "options": [
+        "RAM is volatile memory — all data is lost when power is off",
+        "RAM keeps data forever even without electricity",
+        "RAM is the same thing as a hard disk drive"
+      ],
+      "hint": "RAM is like a whiteboard! Fast to write on, but wiped clean when the power goes off.",
+      "misconception": "RAM is VOLATILE memory! It needs constant electricity. When the power goes off, EVERYTHING in RAM disappears!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "RAM is volatile memory — all data is lost when power is off",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "RAM keeps data forever even without electricity",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "RAM is the same thing as a hard disk drive",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "RAM keeps data forever even without electricity",
+          "RAM is volatile memory — all data is lost when power is off"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each memory type to its correct description!",
+      "answer": "sort",
+      "options": [],
+      "hint": "RAM is volatile working memory. ROM is non-volatile startup memory with BIOS.",
+      "misconception": "RAM loses data without power (volatile), while ROM keeps startup instructions safe without power (non-volatile).",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "hint": "Take it slow. RAM is volatile working memory. ROM is non-volatile startup memory with BIOS."
+      },
+      "interactiveObjects": [
+        {
+          "id": "item-ram",
+          "kind": "circle",
+          "label": "RAM (Volatile)",
+          "x": 0.3333333333333333,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-ram",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-ram"
+        },
+        {
+          "id": "item-rom",
+          "kind": "circle",
+          "label": "ROM (Non-volatile)",
+          "x": 0.6666666666666666,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-rom",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-rom"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "item-ram",
+          "label": "RAM (Volatile)",
+          "emoji": "",
+          "correctBin": "bin-ram"
+        },
+        {
+          "id": "item-rom",
+          "label": "ROM (Non-volatile)",
+          "emoji": "",
+          "correctBin": "bin-rom"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-ram",
+          "label": "RAM (Loses data)",
+          "color": "#EF4444"
+        },
+        {
+          "id": "bin-rom",
+          "label": "ROM (Keeps BIOS)",
+          "color": "#22C55E"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Which storage device has NO moving parts and uses flash memory chips?",
+      "answer": "SSD (Solid State Drive)",
+      "options": [
+        "SSD (Solid State Drive)",
+        "HDD (Hard Disk Drive)",
+        "Compact Disc (CD)"
+      ],
+      "hint": "An HDD has spinning platters. This modern drive has no moving parts and is super fast!",
+      "misconception": "An SSD has NO moving parts and uses flash memory chips, making it much faster and tougher than an HDD with spinning platters!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "SSD (Solid State Drive)",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "HDD (Hard Disk Drive)",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Compact Disc (CD)",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "HDD (Hard Disk Drive)",
+          "SSD (Solid State Drive)"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each storage device to Internal or External!",
+      "answer": "sort",
+      "options": [],
+      "hint": "HDDs and SSDs live inside the computer. USBs, CDs, and Cloud live outside!",
+      "misconception": "Internal devices (HDD, SSD) are fixed inside the computer cabinet. External devices (USB, CD, DVD, Cloud) are portable or accessed via Internet!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. HDDs and SSDs live inside the computer. USBs, CDs, and Cloud live outside!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "item-ssd",
+          "kind": "circle",
+          "label": "Internal SSD",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-internal",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-internal"
+        },
+        {
+          "id": "item-usb",
+          "kind": "circle",
+          "label": "USB Flash Drive",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-external",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-external"
+        },
+        {
+          "id": "item-cloud",
+          "kind": "circle",
+          "label": "Cloud Storage",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "bin-external",
+          "interaction": "drag-to-bin",
+          "targetBin": "bin-external"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "item-ssd",
+          "label": "Internal SSD",
+          "emoji": "",
+          "correctBin": "bin-internal"
+        },
+        {
+          "id": "item-usb",
+          "label": "USB Flash Drive",
+          "emoji": "",
+          "correctBin": "bin-external"
+        },
+        {
+          "id": "item-cloud",
+          "label": "Cloud Storage",
+          "emoji": "",
+          "correctBin": "bin-external"
+        }
+      ],
+      "bins": [
+        {
+          "id": "bin-internal",
+          "label": "Internal Storage 💻",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "bin-external",
+          "label": "External Storage ☁️",
+          "color": "#10B981"
+        }
+      ]
+    }
+  ],
+  "theme": "classroom",
+  "storyArc": {
+    "theme": "A tech-savvy kid learns how computers work",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "building-structure",
+    "title": "Computer Tower",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c4_ComputerMemoryGame",
+    "region": "Tech City",
+    "mapX": 0.8,
+    "mapY": 0.7500000000000001,
+    "icon": "💻",
+    "prerequisites": []
+  },
+  "subject": "cs"
+}

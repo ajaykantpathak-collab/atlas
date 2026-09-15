@@ -1,0 +1,903 @@
+{
+  "gameFile": "LightEclipseGame",
+  "classLevel": 5,
+  "cisceNodes": [
+    "c5_phy_009",
+    "c5_phy_010",
+    "c5_phy_011",
+    "c5_phy_012",
+    "c5_phy_013"
+  ],
+  "mascot": "Astronomer Aryan — an astronomer with a telescope, star map, and moon badge.",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Luminous vs Non-Luminous ✨",
+      "text": "Luminous objects emit their own light — like the sun, stars, a lit candle, or a glowing bulb! Non-luminous objects do NOT produce their own light; they only reflect light from luminous sources — like books, chairs, and the moon!",
+      "emoji": "☀️",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "Luminous objects emit their own light like the sun and a lit candle. Non-luminous objects do not emit light and only reflect it, like a book and the moon!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Transparent, Translucent & Opaque 🔍",
+      "text": "Transparent materials let light pass through completely so you see clearly (clear glass, water). Translucent materials let partial light pass through with a blurred view (frosted glass, butter paper). Opaque materials block light completely (wood, metal, stone)!",
+      "emoji": "🔍",
+      "bgColor": "from-blue-400 to-cyan-500",
+      "spoken": "Transparent materials let light pass through completely like clear glass. Translucent materials let partial light pass through like frosted glass. Opaque materials block light completely like wood!",
+      "diagram": {
+        "type": "water-cycle",
+        "animate": true,
+        "data": {}
+      }
+    },
+    {
+      "title": "Conditions for Shadow Formation 👥",
+      "text": "A shadow is a dark shape formed when an opaque object blocks light. Three conditions are needed: (1) a light source, (2) an opaque object, and (3) a surface or screen! Transparent objects do not cast dark shadows because they let light pass through.",
+      "emoji": "👥",
+      "bgColor": "from-indigo-400 to-purple-500",
+      "spoken": "A shadow needs three conditions: a light source, an opaque object, and a surface or screen. Without all three, no shadow can form!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Day and Night by Earth's Rotation 🌍",
+      "text": "Day and night happen because the earth rotates on its axis from west to east once every 24 hours. The half facing the sun has day, while the opposite half is in the earth's own shadow and has night!",
+      "emoji": "🌍",
+      "bgColor": "from-emerald-400 to-teal-600",
+      "spoken": "Day and night are caused by the earth rotating on its axis from west to east every 24 hours. One half faces the sun for day, and the opposite half is in shadow for night!",
+      "diagram": {
+        "type": "generic-flow",
+        "animate": true,
+        "data": {
+          "steps": [
+            "Observe",
+            "Experiment",
+            "Conclude"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Solar and Lunar Eclipses 🌑",
+      "text": "An eclipse is a cosmic shadow! A solar eclipse happens when the moon is between the sun and earth, casting its shadow on earth. A lunar eclipse happens when the earth is between the sun and moon, casting its shadow on the moon!",
+      "emoji": "🌑",
+      "bgColor": "from-purple-500 to-slate-800",
+      "spoken": "An eclipse is a cosmic shadow! A solar eclipse happens when the moon blocks the sun from earth. A lunar eclipse happens when the earth blocks sunlight from reaching the moon.",
+      "diagram": {
+        "type": "solar-system",
+        "animate": true,
+        "data": {
+          "planets": [
+            {
+              "name": "Sun",
+              "color": 16766720,
+              "distance": 0,
+              "size": 15
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify",
+      "question": "Which of these is a LUMINOUS object?",
+      "answer": "The sun",
+      "options": [
+        "The sun",
+        "The moon",
+        "A wooden book",
+        "A mirror"
+      ],
+      "hint": "Think: which object produces its own light and glows in the dark without borrowing light?",
+      "misconception": "The moon and mirror are non-luminous! They appear bright only because they reflect sunlight. The sun emits its own light, making it luminous.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "The sun",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The moon",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "A wooden book",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "A mirror",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "The moon",
+          "The sun"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each object to Luminous or Non-luminous!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Luminous = makes its own light (Sun, Star, Lit candle, Bulb). Non-luminous = needs borrowed light (Moon, Book, Mirror, Chair)!",
+      "misconception": "Remember: the moon does not produce its own light; it reflects sunlight and is non-luminous. A lit candle and the sun emit their own light.",
+      "storyBeat": "setup",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "sun",
+            "label": "The Sun",
+            "correctBin": "luminous"
+          },
+          {
+            "id": "moon",
+            "label": "The Moon",
+            "correctBin": "non-luminous"
+          },
+          {
+            "id": "candle",
+            "label": "Lit Candle",
+            "correctBin": "luminous"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "sun",
+          "kind": "circle",
+          "label": "The Sun",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "luminous",
+          "interaction": "drag-to-bin",
+          "targetBin": "luminous"
+        },
+        {
+          "id": "moon",
+          "kind": "circle",
+          "label": "The Moon",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "non-luminous",
+          "interaction": "drag-to-bin",
+          "targetBin": "non-luminous"
+        },
+        {
+          "id": "candle",
+          "kind": "circle",
+          "label": "Lit Candle",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "luminous",
+          "interaction": "drag-to-bin",
+          "targetBin": "luminous"
+        },
+        {
+          "id": "book",
+          "kind": "circle",
+          "label": "A Book",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "non-luminous",
+          "interaction": "drag-to-bin",
+          "targetBin": "non-luminous"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "sun",
+          "label": "The Sun",
+          "emoji": "",
+          "correctBin": "luminous"
+        },
+        {
+          "id": "moon",
+          "label": "The Moon",
+          "emoji": "",
+          "correctBin": "non-luminous"
+        },
+        {
+          "id": "candle",
+          "label": "Lit Candle",
+          "emoji": "",
+          "correctBin": "luminous"
+        },
+        {
+          "id": "book",
+          "label": "A Book",
+          "emoji": "",
+          "correctBin": "non-luminous"
+        }
+      ],
+      "bins": [
+        {
+          "id": "luminous",
+          "label": "Luminous ✨",
+          "color": "#EAB308"
+        },
+        {
+          "id": "non-luminous",
+          "label": "Non-luminous 📚",
+          "color": "#64748B"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "Through which material can you see objects clearly?",
+      "answer": "Transparent",
+      "options": [
+        "Transparent",
+        "Translucent",
+        "Opaque",
+        "Reflective"
+      ],
+      "hint": "Think of looking through a clean plain glass windowpane.",
+      "misconception": "Transparent materials let light pass through completely so images are sharp and clear. Translucent only blurs light, and opaque blocks it entirely.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Transparent",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Translucent",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Opaque",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Reflective",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Transparent",
+          "Translucent"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each material to Transparent, Translucent, or Opaque!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Transparent = clear glass! Translucent = frosted glass / butter paper! Opaque = wood / stone!",
+      "misconception": "Frosted glass is translucent because it scatters light and blurs images — it is not transparent! Opaque materials like wood allow zero light through.",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "glass",
+            "label": "Clear Glass",
+            "correctBin": "transparent"
+          },
+          {
+            "id": "frosted",
+            "label": "Frosted Glass",
+            "correctBin": "translucent"
+          },
+          {
+            "id": "wood",
+            "label": "Wooden Block",
+            "correctBin": "opaque"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "glass",
+          "kind": "circle",
+          "label": "Clear Glass",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "transparent",
+          "interaction": "drag-to-bin",
+          "targetBin": "transparent"
+        },
+        {
+          "id": "frosted",
+          "kind": "circle",
+          "label": "Frosted Glass",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "translucent",
+          "interaction": "drag-to-bin",
+          "targetBin": "translucent"
+        },
+        {
+          "id": "wood",
+          "kind": "circle",
+          "label": "Wooden Block",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "opaque",
+          "interaction": "drag-to-bin",
+          "targetBin": "opaque"
+        },
+        {
+          "id": "water",
+          "kind": "water-drop",
+          "label": "Pure Water",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#4a90d9",
+          "category": "transparent",
+          "interaction": "drag-to-bin",
+          "targetBin": "transparent"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "glass",
+          "label": "Clear Glass",
+          "emoji": "",
+          "correctBin": "transparent"
+        },
+        {
+          "id": "frosted",
+          "label": "Frosted Glass",
+          "emoji": "",
+          "correctBin": "translucent"
+        },
+        {
+          "id": "wood",
+          "label": "Wooden Block",
+          "emoji": "",
+          "correctBin": "opaque"
+        },
+        {
+          "id": "water",
+          "label": "Pure Water",
+          "emoji": "",
+          "correctBin": "transparent"
+        }
+      ],
+      "bins": [
+        {
+          "id": "transparent",
+          "label": "Transparent 🔍",
+          "color": "#06B6D4"
+        },
+        {
+          "id": "translucent",
+          "label": "Translucent 🌥️",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "opaque",
+          "label": "Opaque 🧱",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What THREE conditions are required for a shadow to form?",
+      "answer": "Light source, opaque object, and surface",
+      "options": [
+        "Light source, opaque object, and surface",
+        "Light source, transparent object, and air",
+        "Sun, water, and mirror",
+        "Torch, transparent glass, and open space"
+      ],
+      "hint": "Think: what three things do you need to make a hand shadow on your classroom wall?",
+      "misconception": "A shadow requires a light source, an opaque object to block the light, and a surface or screen to catch the dark shape. Without all three, no shadow appears.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Light source, opaque object, and surface",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Light source, transparent object, and air",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Sun, water, and mirror",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Torch, transparent glass, and open space",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Light source, transparent object, and air",
+          "Light source, opaque object, and surface"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each shadow statement to True or False!",
+      "answer": "sort",
+      "options": [],
+      "hint": "True = shadow is opposite light source, transparent objects cast no shadow! False = shadows can form without any light!",
+      "misconception": "Transparent objects do NOT cast dark shadows because they let light pass through! Also, shadows are always formed on the side opposite to the light source.",
+      "storyBeat": "rising",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "s1",
+            "label": "Shadow is opposite to light",
+            "correctBin": "true"
+          },
+          {
+            "id": "s2",
+            "label": "Transparent objects cast dark shadows",
+            "correctBin": "false"
+          },
+          {
+            "id": "s3",
+            "label": "Shadows need an opaque blocker",
+            "correctBin": "true"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "s1",
+          "kind": "circle",
+          "label": "Shadow is opposite to light",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true",
+          "interaction": "drag-to-bin",
+          "targetBin": "true"
+        },
+        {
+          "id": "s2",
+          "kind": "circle",
+          "label": "Transparent objects cast dark shadows",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "false",
+          "interaction": "drag-to-bin",
+          "targetBin": "false"
+        },
+        {
+          "id": "s3",
+          "kind": "circle",
+          "label": "Shadows need an opaque blocker",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "true",
+          "interaction": "drag-to-bin",
+          "targetBin": "true"
+        },
+        {
+          "id": "s4",
+          "kind": "circle",
+          "label": "Shadows can form in total darkness",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "false",
+          "interaction": "drag-to-bin",
+          "targetBin": "false"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "s1",
+          "label": "Shadow is opposite to light",
+          "emoji": "",
+          "correctBin": "true"
+        },
+        {
+          "id": "s2",
+          "label": "Transparent objects cast dark shadows",
+          "emoji": "",
+          "correctBin": "false"
+        },
+        {
+          "id": "s3",
+          "label": "Shadows need an opaque blocker",
+          "emoji": "",
+          "correctBin": "true"
+        },
+        {
+          "id": "s4",
+          "label": "Shadows can form in total darkness",
+          "emoji": "",
+          "correctBin": "false"
+        }
+      ],
+      "bins": [
+        {
+          "id": "true",
+          "label": "True Statement ✅",
+          "color": "#22C55E"
+        },
+        {
+          "id": "false",
+          "label": "False Statement ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "identify",
+      "question": "What causes day and night on Earth?",
+      "answer": "Earth's rotation on its axis",
+      "options": [
+        "Earth's rotation on its axis",
+        "The sun moving around the earth",
+        "The moon blocking the sun",
+        "Earth's revolution around the stars"
+      ],
+      "hint": "Think about the earth spinning like a top on an imaginary line from North to South pole.",
+      "misconception": "The sun does not move around the earth — the earth rotates on its axis from west to east once every 24 hours, causing the sun to appear to rise and set.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Earth's rotation on its axis",
+          "x": 0.2,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "The sun moving around the earth",
+          "x": 0.4,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "The moon blocking the sun",
+          "x": 0.6000000000000001,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_3",
+          "kind": "circle",
+          "label": "Earth's revolution around the stars",
+          "x": 0.8,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Earth's rotation on its axis",
+          "The sun moving around the earth"
+        ]
+      },
+      "storyBeat": "climax"
+    },
+    {
+      "type": "sort",
+      "question": "Drag each eclipse feature to Solar Eclipse or Lunar Eclipse!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Solar eclipse = Moon between Sun and Earth! Lunar eclipse = Earth between Sun and Moon!",
+      "misconception": "In a solar eclipse, the moon is in the middle and casts its shadow on earth (seen during day). In a lunar eclipse, the earth is in the middle and casts its shadow on the moon (seen at night).",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "e1",
+            "label": "Moon between Sun & Earth",
+            "correctBin": "solar"
+          },
+          {
+            "id": "e2",
+            "label": "Earth between Sun & Moon",
+            "correctBin": "lunar"
+          },
+          {
+            "id": "e3",
+            "label": "Occurs during the Day",
+            "correctBin": "solar"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "e1",
+          "kind": "circle",
+          "label": "Moon between Sun & Earth",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "solar",
+          "interaction": "drag-to-bin",
+          "targetBin": "solar"
+        },
+        {
+          "id": "e2",
+          "kind": "circle",
+          "label": "Earth between Sun & Moon",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "lunar",
+          "interaction": "drag-to-bin",
+          "targetBin": "lunar"
+        },
+        {
+          "id": "e3",
+          "kind": "circle",
+          "label": "Occurs during the Day",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "solar",
+          "interaction": "drag-to-bin",
+          "targetBin": "solar"
+        },
+        {
+          "id": "e4",
+          "kind": "circle",
+          "label": "Occurs at Night",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "lunar",
+          "interaction": "drag-to-bin",
+          "targetBin": "lunar"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "e1",
+          "label": "Moon between Sun & Earth",
+          "emoji": "",
+          "correctBin": "solar"
+        },
+        {
+          "id": "e2",
+          "label": "Earth between Sun & Moon",
+          "emoji": "",
+          "correctBin": "lunar"
+        },
+        {
+          "id": "e3",
+          "label": "Occurs during the Day",
+          "emoji": "",
+          "correctBin": "solar"
+        },
+        {
+          "id": "e4",
+          "label": "Occurs at Night",
+          "emoji": "",
+          "correctBin": "lunar"
+        }
+      ],
+      "bins": [
+        {
+          "id": "solar",
+          "label": "Solar Eclipse ☀️",
+          "color": "#F59E0B"
+        },
+        {
+          "id": "lunar",
+          "label": "Lunar Eclipse 🌙",
+          "color": "#3B82F6"
+        }
+      ]
+    }
+  ],
+  "theme": "space",
+  "storyArc": {
+    "theme": "A curious physicist explores the forces of nature",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "filling-shelves",
+    "title": "Physics Lab Shelf",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c5_phy_009",
+    "region": "Physics Realm",
+    "mapX": 0.5,
+    "mapY": 0.9500000000000001,
+    "icon": "⚡",
+    "prerequisites": [
+      "c5_phy_010"
+    ]
+  },
+  "subject": "physics"
+}

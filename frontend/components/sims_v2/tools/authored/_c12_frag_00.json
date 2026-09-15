@@ -1,0 +1,287 @@
+{
+"c12_acc_ch01": {
+ "discovery": {
+  "question": "Rohan and Sohan pool money for a food truck, share recipes, and split profits 60:40 — but never sign anything. Under the Indian Partnership Act, 1932, are they legally a partnership?",
+  "options": [
+   "Yes — an agreement to run a business and share profits is enough; writing is not mandatory",
+   "No — a partnership exists only once a written deed is registered",
+   "No — a firm needs at least three partners to be recognised",
+   "Yes — but only after they register the firm with the Registrar"
+  ],
+  "answer": "Yes — an agreement to run a business and share profits is enough; writing is not mandatory",
+  "hook": "Students assume law demands paperwork; Section 4 only demands agreement, business, profit-sharing and mutual agency — the deed is evidence, not existence."
+ },
+ "mission": "Run a two-partner venture and test every 'are we a partnership?' scenario against Section 4 — then draft the deed clauses that protect both partners before a dispute does it for them.",
+ "finale": "You can now spot a partnership in the wild and write the deed that keeps it alive. Board questions love the 'is this a partnership?' trap — and future founders live it.",
+ "subtitle": "Two friends, one food truck, and the law that decides if they're partners",
+ "role": "Founding partner & agreements drafter",
+ "intro": "Every business you'll ever build or audit starts with one question: what exactly binds these people together?",
+ "goal": "Apply Section 4's essential features and design deed clauses for profit-sharing, capital and disputes."
+},
+"c12_acc_ch02": {
+ "discovery": {
+  "question": "Three partners sharing 3:2:1 admit a new chef for a 1/6 share. How much does each old partner give up?",
+  "options": [
+   "Whatever their agreement says — the sacrificing ratio is decided by the partners, not fixed by law",
+   "Exactly 1/18 each — the new share is always divided equally among old partners",
+   "Nothing — the new partner's 1/6 is created fresh, not taken from anyone",
+   "Always in their old 3:2:1 ratio — the law mandates it"
+  ],
+  "answer": "Whatever their agreement says — the sacrificing ratio is decided by the partners, not fixed by law",
+  "hook": "The reflex is to split the new partner's share equally; in reality sacrifice can follow the old ratio, a fixed ratio, or fall on one partner alone — and goodwill payment rides on that choice."
+ },
+ "mission": "Negotiate an admission: compute the new ratio under different sacrifice deals, value the firm's goodwill, and decide what the incoming partner must pay for the reputation they're buying into.",
+ "finale": "You now control the two numbers every admission hinges on — new ratio and goodwill. Boards test the ratio algebra; real firms test your negotiation.",
+ "subtitle": "A new partner walks in — who gives up what, and what is the goodwill worth?",
+ "role": "Partnership accountant handling an admission",
+ "intro": "Admitting a partner rewrites the firm's entire economics in one afternoon — ratio, goodwill, capital.",
+ "goal": "Compute new and sacrificing ratios under varied agreements and account for goodwill on admission."
+},
+"c12_acc_ch03": {
+ "discovery": {
+  "question": "Chirag retires from a firm where Aryan, Bhavya and Chirag shared 3:2:1. The deed says nothing about who inherits his 1/6 share. What does the law assume?",
+  "options": [
+   "The continuing partners gain in their old ratio — Aryan and Bhavya absorb it 3:2",
+   "The share is split equally between the two remaining partners",
+   "The share lapses — profits are now shared only between two, with no gain computed",
+   "The retiring partner chooses who inherits the share in his will"
+  ],
+  "answer": "The continuing partners gain in their old ratio — Aryan and Bhavya absorb it 3:2",
+  "hook": "Silence in the deed is itself an answer: absent an explicit deal, the gaining ratio defaults to the old ratio — and that default decides who funds the retiring partner's goodwill."
+ },
+ "mission": "Handle a retirement end-to-end: compute the gaining ratio, compensate the outgoing partner's goodwill share through the gainers' capital accounts, and restate the firm's future profit split.",
+ "finale": "Retirement is admission run in reverse — and you've now mastered both directions. Boards love gaining-ratio puzzles; real practice hands you the same arithmetic with real money.",
+ "subtitle": "One partner exits — who gains his share, and who pays for his goodwill?",
+ "role": "Firm accountant managing a partner's exit",
+ "intro": "When a partner leaves, the firm doesn't just lose a person — it silently redistributes every future rupee of profit.",
+ "goal": "Compute gaining and new ratios and settle the retiring partner's goodwill through capital adjustments."
+},
+"c12_acc_ch04": {
+ "discovery": {
+  "question": "Sohan retires and Mohan joins the same firm on a fresh agreement. Has the partnership firm been dissolved?",
+  "options": [
+   "No — this is dissolution of partnership; the firm continues under a new agreement",
+   "Yes — any change in partners dissolves the firm itself",
+   "Yes — retirement always triggers full closure and asset sale",
+   "No — because no court order was issued, nothing was dissolved at all"
+  ],
+  "answer": "No — this is dissolution of partnership; the firm continues under a new agreement",
+  "hook": "The single most-confused distinction in partnership law: dissolving the *partnership* rewrites the contract while the business runs on; dissolving the *firm* means selling everything and paying everyone off."
+ },
+ "mission": "Adjudicate dissolution scenarios — agreement, notice, court order — and decide in each case whether the business survives or the firm must be wound up, assets realised and liabilities cleared.",
+ "finale": "You'll never again mix up 'the deal changed' with 'the business died'. This distinction is a guaranteed board question and the first thing a practising CA checks.",
+ "subtitle": "Rewrite the contract — or bury the company? Learn to tell which is which.",
+ "role": "Legal advisor ruling on firm closures",
+ "intro": "The word 'dissolution' hides two completely different events — and examiners bet you can't separate them.",
+ "goal": "Distinguish dissolution of partnership from dissolution of firm and apply the legal modes of each."
+},
+"c12_acc_ch05": {
+ "discovery": {
+  "question": "A company offers shares paying a fixed 8% dividend, paid before anyone else, and refunded first on winding up — but holders cannot vote. What are these?",
+  "options": [
+   "Preference shares — fixed dividend and priority in payment, but no voting rights",
+   "Equity shares — because every shareholder owns the company equally",
+   "Debentures — because the 8% return is fixed like interest",
+   "Sweat equity — issued for fixed consideration to employees"
+  ],
+  "answer": "Preference shares — fixed dividend and priority in payment, but no voting rights",
+  "hook": "Fixed return tempts students to call it debt — but preference dividends come from profits, not contractual interest, and that single difference rewrites the balance sheet."
+ },
+ "mission": "Structure a ₹1 crore raise: weigh equity against preference capital, then choose between public issue, private placement and a rights issue — matching each route to the company's situation.",
+ "finale": "You can now read a capital structure like an investor does. Equity vs preference and issue methods are board staples — and the actual vocabulary of every IPO headline you'll ever read.",
+ "subtitle": "Fixed dividend or voting power? Every rupee of capital makes you choose.",
+ "role": "CFO designing the company's share capital",
+ "intro": "Raising ownership capital is a trade: what rights you sell decides what the money costs you.",
+ "goal": "Compare equity and preference shares and select among public issue, private placement and rights issue."
+},
+"c12_acc_ch06": {
+ "discovery": {
+  "question": "Volt Motors needs ₹500 crore but refuses to dilute ownership or accept 12% bank covenants. Investors accept 10% instead. What did the company issue — and why did investors take less?",
+  "options": [
+   "Secured debentures — lenders accept lower fixed interest because assets back the debt",
+   "Equity shares — investors always accept lower returns for voting rights",
+   "Preference shares — fixed dividend with ownership dilution",
+   "A bank overdraft — the cheapest form of long-term borrowing"
+  ],
+  "answer": "Secured debentures — lenders accept lower fixed interest because assets back the debt",
+  "hook": "Students think lower return means worse deal — but security changes the risk, not just the rate. Debentures let a company borrow without surrendering a single vote."
+ },
+ "mission": "Structure a debenture issue: classify the instrument, then record it issued at par, premium and discount — tracing how each pricing choice moves cash, liabilities and reserves.",
+ "finale": "Debt without dilution is a superpower — and you now know its price list. Debenture entries are pure board marks; understanding risk-vs-rate is pure investing wisdom.",
+ "subtitle": "Borrow ₹500 crore without selling a single vote — welcome to debentures.",
+ "role": "Corporate treasurer raising debt capital",
+ "intro": "The smartest companies grow on other people's money — debentures are the IOU that makes it possible.",
+ "goal": "Classify debentures and journalise issue at par, premium and discount."
+},
+"c12_acc_ch07": {
+ "discovery": {
+  "question": "You open the annual reports of Reliance, TCS and a small unlisted company — and find the Balance Sheet laid out identically in all three. Who forces this uniformity?",
+  "options": [
+   "Schedule III of the Companies Act, 2013 — one prescribed format for every company",
+   "The company's auditor chooses the layout each year",
+   "SEBI dictates formats only to listed companies; others are free",
+   "Each board of directors designs its own Balance Sheet"
+  ],
+  "answer": "Schedule III of the Companies Act, 2013 — one prescribed format for every company",
+  "hook": "It feels like coincidence or convention — it's actually law. Schedule III standardises classification (current vs non-current, shareholders' funds vs liabilities) so any investor can compare any two companies."
+ },
+ "mission": "Build a company's Balance Sheet the Schedule III way: order the Equity & Liabilities blocks, split every item into current and non-current, and explain why the format exists at all.",
+ "finale": "You can now navigate any Indian company's annual report without a guide. Schedule III formats are direct board marks — and the skeleton key to real financial analysis.",
+ "subtitle": "Why does every Indian company's Balance Sheet look exactly the same?",
+ "role": "Reporting accountant preparing statutory statements",
+ "intro": "A company's financial statements aren't just records — they're a regulated language every business must speak identically.",
+ "goal": "Apply Schedule III classification to prepare a compliant company Balance Sheet."
+},
+"c12_acc_ch08": {
+ "discovery": {
+  "question": "Two firms report identical current ratios of 2:1 — but one uses FIFO with straight-line depreciation, the other LIFO with written-down value. Can you say their liquidity is equal?",
+  "options": [
+   "No — different accounting policies can manufacture identical ratios from very different realities",
+   "Yes — identical ratios always mean identical liquidity",
+   "Yes — ratio analysis eliminates all policy differences automatically",
+   "No — because LIFO is illegal under Indian accounting standards"
+  ],
+  "answer": "No — different accounting policies can manufacture identical ratios from very different realities",
+  "hook": "Numbers feel objective; they're not. Analysis begins where blind trust ends — every statement rests on historical cost, policy choices and estimates that the raw ratio never reveals."
+ },
+ "mission": "Play the bank manager: take raw Balance Sheet and P&L data from a loan applicant, run the analysis, and stress-test your conclusion against the known limitations of financial statements.",
+ "finale": "You now read statements like a lender — extracting signal while doubting the noise. Objective-and-limitation questions are board favourites; sceptical reading is a career skill.",
+ "subtitle": "The ratio says 2:1. The truth says 'depends'. Learn the difference.",
+ "role": "Credit analyst vetting a ₹50 lakh loan",
+ "intro": "Financial statements are raw numbers until someone asks the right questions — that someone is the analyst.",
+ "goal": "State the objectives of financial statement analysis and apply its limitations to real comparisons."
+},
+"c12_acc_ch09": {
+ "discovery": {
+  "question": "Your bakery's P&L shows ₹50,000 profit — yet your bank balance fell. Which statement explains the disappearance?",
+  "options": [
+   "The Cash Flow Statement — it tracks actual cash, stripping out credit sales and non-cash items like depreciation",
+   "The Balance Sheet — it lists where every rupee went during the year",
+   "The P&L again — profit and cash are the same number if calculated correctly",
+   "The auditor's report — it reconciles profit to bank balance"
+  ],
+  "answer": "The Cash Flow Statement — it tracks actual cash, stripping out credit sales and non-cash items like depreciation",
+  "hook": "Profit is an opinion; cash is a fact. Credit sales inflate profit without moving a rupee, and depreciation cuts profit without spending one — AS-3 exists to expose that gap."
+ },
+ "mission": "Reconcile profit to bank balance: classify movements into operating, investing and financing, then decide which near-cash items — 6-month FD, 45-day T-bills, blue-chip shares — qualify as cash equivalents.",
+ "finale": "You can now answer the question that bankrupts profitable companies: where did the cash go? AS-3 classification is a guaranteed board question — and the core skill of every CFO.",
+ "subtitle": "₹50,000 profit, shrinking bank balance — solve the mystery of the missing cash.",
+ "role": "CFO explaining liquidity to investors",
+ "intro": "Companies don't die of losses — they die of empty bank accounts. This statement is the early-warning system.",
+ "goal": "Define cash and cash equivalents per AS-3 and classify flows into operating, investing and financing."
+},
+"c12_bio_ch01": {
+ "discovery": {
+  "question": "A potato sprouts a new plant from an 'eye' while a mango needs flowers, pollen and seeds. What single feature truly separates these two modes of reproduction?",
+  "options": [
+   "Whether gametes fuse — the potato clones itself through mitosis; the mango requires fertilisation between gametes",
+   "Whether a seed forms — everything producing seeds is sexual, everything else asexual",
+   "Whether two parents exist — sexual reproduction always needs two separate individuals",
+   "Whether the offspring looks different — identical offspring always mean asexual reproduction"
+  ],
+  "answer": "Whether gametes fuse — the potato clones itself through mitosis; the mango requires fertilisation between gametes",
+  "hook": "Students count parents or look for seeds — the real boundary is gamete fusion, which is why a single organism can still reproduce sexually and identical-looking offspring can come from either mode."
+ },
+ "mission": "Sort a field of organisms — Amoeba, yeast in idli batter, Spirogyra, flowering plants — into their reproductive modes, then defend why variation matters more than speed for a species' future.",
+ "finale": "You can now classify any reproduction you meet by its mechanism, not its looks. Asexual vs sexual anchoring is core board content — and the opening question of all evolutionary biology.",
+ "subtitle": "A potato eye and a mango flower perform the same miracle by opposite logic.",
+ "role": "Field biologist cataloguing reproduction strategies",
+ "intro": "Life has exactly two ways to copy itself — and the difference decides whether a species survives change.",
+ "goal": "Distinguish asexual from sexual reproduction by mechanism and evaluate the significance of each."
+},
+"c12_bio_ch02": {
+ "discovery": {
+  "question": "Tap a hibiscus anther over dark paper and yellow dust falls — pollen. Inside that anther, what actually produced each grain?",
+  "options": [
+   "Microspore mother cells in the pollen sacs underwent meiosis to form haploid microspores",
+   "The stigma secreted pollen onto the anther during pollination",
+   "Petals shed cells that matured into pollen grains on the anther surface",
+   "Pollen mother cells divided by mitosis, keeping the diploid number"
+  ],
+  "answer": "Microspore mother cells in the pollen sacs underwent meiosis to form haploid microspores",
+  "hook": "Pollen feels like powder, not biology — but each grain is a meiotic product carrying half the genome, made inside the anther's microsporangia long before any pollinator arrives."
+ },
+ "mission": "Dissect a flower layer by layer: identify all four whorls on the thalamus, slice a young anther to expose its four microsporangia, and trace pollen from meiosis to the stigma.",
+ "finale": "You now see a flower as a reproductive machine, not decoration. Floral whorls and anther anatomy are board-diagram gold — and the foundation of every crop-breeding programme.",
+ "subtitle": "Inside a hibiscus: four whorls, four pollen sacs, one precise machine.",
+ "role": "Plant anatomist mapping a flower",
+ "intro": "Every fruit you eat began as a flower executing a sequence older than humans — here's its blueprint.",
+ "goal": "Identify floral whorls and trace microsporogenesis in the anther."
+},
+"c12_bio_ch03": {
+ "discovery": {
+  "question": "The testes sit outside the abdominal cavity in the scrotum — a seemingly odd design. Why does sperm production demand it?",
+  "options": [
+   "Spermatogenesis needs a temperature a few degrees below core body temperature",
+   "The scrotum protects testes from the pressure of the abdominal muscles",
+   "Sperm can only mature where oxygen concentration is highest",
+   "External placement allows the vas deferens to shorten its transport route"
+  ],
+  "answer": "Spermatogenesis needs a temperature a few degrees below core body temperature",
+  "hook": "It looks like an anatomical accident; it's a thermal requirement. The scrotum is a cooling system — and the same logic explains undescended-testis infertility in clinical practice."
+ },
+ "mission": "Map both reproductive systems end-to-end: trace sperm from seminiferous tubules through the duct system, and ova from ovary through fimbriae to uterus — matching each structure to its function.",
+ "finale": "You can now walk a gamete's entire journey in either system. Histology of testis and ovary is heavy board weightage — and the literal anatomy of fertility medicine.",
+ "subtitle": "Why sperm needs a cooler room — and other design logic of human reproduction.",
+ "role": "Medical student tracing the gamete's journey",
+ "intro": "Every structure here exists because a gamete demanded it — anatomy is frozen function.",
+ "goal": "Describe the anatomy and histology of male and female reproductive systems and their ducts."
+},
+"c12_bio_ch04": {
+ "discovery": {
+  "question": "A couple tells an ASHA worker: no pills, no surgery — but we want to plan our family. Which methods remain available to them?",
+  "options": [
+   "Natural methods like periodic abstinence and lactational amenorrhoea, plus barriers like condoms",
+   "Nothing — effective contraception requires either drugs or devices",
+   "Only surgical options, since natural methods are unreliable by definition",
+   "Only hormone-free IUDs, which count as natural methods"
+  ],
+  "answer": "Natural methods like periodic abstinence and lactational amenorrhoea, plus barriers like condoms",
+  "hook": "Students think contraception means intervention — but behavioural awareness and physical barriers prevent fertilisation without any drug, which is exactly why counselling starts with the full menu, not the prescription."
+ },
+ "mission": "Advise families across real scenarios: match natural, barrier and other contraceptive methods to each couple's needs, and connect reproductive health to its full WHO definition — physical, mental and social well-being.",
+ "finale": "You now understand reproductive health as well-being, not just biology. Contraception comparison is board-critical — and this knowledge genuinely changes lives in public health.",
+ "subtitle": "No pills, no surgery — can a family still be planned? Absolutely.",
+ "role": "Community health counsellor",
+ "intro": "Reproductive health is where biology meets real life — choices, dignity and well-being included.",
+ "goal": "Define reproductive health per WHO and compare natural and barrier contraceptive methods."
+},
+"c12_bio_ch05": {
+ "discovery": {
+  "question": "Cross tall with dwarf peas and every F1 plant is tall — dwarfness vanishes. Self-pollinate the F1 and it returns at exactly 3:1. What was the dwarf trait doing in F1?",
+  "options": [
+   "Present but masked — the recessive allele stayed intact, hidden by the dominant one",
+   "Destroyed — the dominant allele eliminated it permanently",
+   "Converted — the dwarf allele mutated into a tall allele",
+   "Blended — tall and dwarf merged into an intermediate that re-separated later"
+  ],
+  "answer": "Present but masked — the recessive allele stayed intact, hidden by the dominant one",
+  "hook": "The blending intuition is deeply wrong: alleles are discrete units that segregate cleanly into gametes. The F2's precise 3:1 is the receipt proving nothing was lost or merged."
+ },
+ "mission": "Re-run Mendel's logic: predict F1 and F2 for a monohybrid cross, derive the 3:1 phenotypic and 1:2:1 genotypic ratios, and connect each law to what chromosomes physically do in meiosis.",
+ "finale": "You now think in alleles, not appearances — the single biggest upgrade in genetics. Mendelian crosses are guaranteed board marks and the entry ticket to all of modern biology.",
+ "subtitle": "The dwarf trait never left — it was hiding. Mendel proved inheritance has rules.",
+ "role": "Geneticist running a pea-plant cross",
+ "intro": "One monk's garden arithmetic became the operating system of all heredity — here's the proof.",
+ "goal": "Apply Mendel's laws to predict monohybrid cross outcomes and their ratios."
+},
+"c12_bio_ch06": {
+ "discovery": {
+  "question": "Hershey and Chase tagged a phage's DNA with ³²P and its protein with ³⁵S, then let it infect bacteria. Which label entered the cell — and what did that prove?",
+  "options": [
+   "³²P entered — DNA, not protein, is the genetic material passed to the next generation",
+   "³⁵S entered — protein carries the instructions for building new phages",
+   "Both entered — DNA and protein share the role of genetic material equally",
+   "Neither entered — the phage replicates entirely on the cell surface"
+  ],
+  "answer": "³²P entered — DNA, not protein, is the genetic material passed to the next generation",
+  "hook": "Protein was the favourite candidate — it seemed complex enough to carry information. Radioactive tracing settled it: only DNA crosses the cell wall, which is why the double helix matters at all."
+ },
+ "mission": "Reconstruct the evidence chain: follow Griffith's transforming principle through Hershey-Chase's radioactive verdict, then read the Watson-Crick double helix — antiparallel strands, A-T and G-C base pairs.",
+ "finale": "You've just re-derived the most important conclusion in biology from raw evidence. Transformation, the helix and base-pairing are board heavyweights — and the foundation of all biotechnology.",
+ "subtitle": "A radioactive label settled biology's biggest argument: DNA is the instruction book.",
+ "role": "Molecular biologist decoding genetic material",
+ "intro": "Every gene edit and DNA test stands on two experiments and one elegant spiral staircase.",
+ "goal": "Explain the evidence for DNA as genetic material and describe the double helix structure."
+}
+}

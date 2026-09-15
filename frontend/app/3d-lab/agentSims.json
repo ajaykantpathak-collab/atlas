@@ -1,0 +1,282 @@
+[
+ {
+  "id": "vsepr-molecular-shapes",
+  "title": "VSEPR Molecular Shapes — AXₙEₘ builder",
+  "subject": "Chemistry",
+  "chapter": "Class 11 · Chemical Bonding",
+  "why3d": "Bond angles, lone-pair lobes and pyramidal vs planar shapes are spatial — orbit the molecule and watch lone pairs crush 109.5° down to 104.5°."
+ },
+ {
+  "id": "hybridization-orbitals",
+  "title": "Hybridisation — sp · sp² · sp³ lobes & σ overlap",
+  "subject": "Chemistry",
+  "chapter": "Class 11 · Chemical Bonding",
+  "why3d": "Hybridisation is a claim about directions: see the four sp³ lobes at true 109.47°, the leftover π-ready p orbitals, and slide an H 1s sphere into a live overlap integral."
+ },
+ {
+  "id": "pn-junction-diode",
+  "title": "p–n Junction Diode — depletion region vs bias",
+  "subject": "Physics",
+  "chapter": "Class 12 · Semiconductor Electronics",
+  "why3d": "The depletion slab is a 3D object that breathes with √(Vbi+VR); watch it widen under reverse bias and carriers pour across only in forward."
+ },
+ {
+  "id": "electric-dipole-field",
+  "title": "Electric Dipole — field lines & torque",
+  "subject": "Physics",
+  "chapter": "Class 12 · Electric Charges & Fields",
+  "why3d": "Dipole field lines are 3D loops (r = C·sin²θ), not flat arrows — and the torque dynamics Iφ̈ = −pE·sinφ only make sense when you can watch the dipole swing."
+ },
+ {
+  "id": "current-loop-magnetic-field",
+  "title": "Current Loop & Solenoid — Biot–Savart B on axis",
+  "subject": "Physics",
+  "chapter": "Class 12 · Moving Charges & Magnetism",
+  "why3d": "The right-hand rule is a 3D gesture: orbit the loop while every axial arrow keeps its length ∝ the true B(x) = μ₀IR²/2(R²+x²)^{3/2}."
+ },
+ {
+  "id": "em-wave-propagation",
+  "title": "EM Wave — E⊥B⊥k travelling wave",
+  "subject": "Physics",
+  "chapter": "Class 12 · Electromagnetic Waves",
+  "why3d": "Transversality is a 3D fact: red E and blue B arrows lock perpendicular to the travel axis and to each other, verified from any orbit angle."
+ },
+ {
+  "id": "shm-circular-projection",
+  "title": "SHM as Circular Projection — phasor lab",
+  "subject": "Physics",
+  "chapter": "Class 11 · Oscillations",
+  "why3d": "The circle-to-sine projection is the proof that a = −ω²x: watch the bob orbit while its shadow traces the sine live, with v, a and energy readouts."
+ },
+ {
+  "id": "transverse-longitudinal-waves",
+  "title": "Transverse vs Longitudinal Waves — polarisation",
+  "subject": "Physics",
+  "chapter": "Class 11 · Waves",
+  "why3d": "Particle direction vs propagation and the transverse-only polarisation plane are 3D facts: rotate the displacement through ŷ, ẑ and 45° and watch longitudinal compressions glow."
+ },
+ {
+  "id": "gyroscope-precession",
+  "title": "Gyroscope — precession & angular momentum",
+  "subject": "Physics",
+  "chapter": "Class 11 · Rotational Motion",
+  "why3d": "Precession is motion about two axes at once — spin the wheel up and the L vector sweeps a cone (Ω = Mgr/Iω); switch it off and the axle drops as a live-integrated pendulum."
+ },
+ {
+  "id": "young-double-slit",
+  "title": "Young's Double Slit — path difference & fringes",
+  "subject": "Physics",
+  "chapter": "Class 12 · Wave Optics",
+  "why3d": "Interference is 3D geometry: march the wavefront arcs from both slits to the probe and watch Δ/λ decide bright vs dark on a true-scale screen."
+ },
+ {
+  "id": "prism-refraction",
+  "title": "Prism Refraction — Snell trace & i–D curve",
+  "subject": "Physics",
+  "chapter": "Class 12 · Ray Optics",
+  "why3d": "Watch a real vector-Snell ray bend twice through the prism, ride the i–D curve to its minimum (n = sin((A+Dm)/2)/sin(A/2)) and catch total internal reflection red-handed."
+ },
+ {
+  "id": "bohr-atom",
+  "title": "Bohr Atom — quantized orbits & photon jumps",
+  "subject": "Physics",
+  "chapter": "Class 12 · Atoms",
+  "why3d": "Orbits spaced by the true n² law with energies −13.6/n² eV on a live ladder; fire transitions and the photon pops out coloured by its computed λ."
+ },
+ {
+  "id": "rutherford-scattering",
+  "title": "Rutherford Scattering — α paths vs impact parameter",
+  "subject": "Physics",
+  "chapter": "Class 12 · Atoms",
+  "why3d": "The fan of hyperbolic α-paths integrated live from F ∝ 1/r² makes \"mostly empty atom\" visible: only tiny-b trajectories feel the tiny massive nucleus."
+ },
+ {
+  "id": "straight-line-motion",
+  "title": "Straight-Line Motion — v = u+at ribbons race",
+  "subject": "Physics",
+  "chapter": "Class 11 · Motion in a Straight Line",
+  "why3d": "Two cars integrate a = const live while their x–t and v–t graphs weave as 3D ribbons — the equations, the graphs and the motion are one object."
+ },
+ {
+  "id": "centre-of-mass-composite",
+  "title": "Centre of Mass — composite bodies & balance test",
+  "subject": "Physics",
+  "chapter": "Class 11 · System of Particles",
+  "why3d": "The COM is a 3D point that may float in empty space — slide masses, watch the flag track Σmᵢrᵢ/Σmᵢ exactly, then drop the body on a pivot: it holds level only at the true COM."
+ },
+ {
+  "id": "close-packing-voids",
+  "title": "Close Packing Voids — tetrahedral & octahedral holes",
+  "subject": "Chemistry",
+  "chapter": "Class 12 · Solid State",
+  "why3d": "Voids live between layers: explode the ABC stack and the holes appear at true positions, with the r⁺/r⁻ slider classifying cations against the derived 0.225/0.414 limits."
+ },
+ {
+  "id": "metallic-crystals-ccp-hcp",
+  "title": "Metallic Crystals — CCP vs HCP layer stacking",
+  "subject": "Chemistry",
+  "chapter": "Class 12 · Solid State",
+  "why3d": "The entire FCC/HCP difference is where layer 3 lands — watch both stacks build with ghost markers, then explode them to compare 74.05% packing and c/a = 1.633."
+ },
+ {
+  "id": "band-gap-conductors-insulators",
+  "title": "Band Gap — conductors, semiconductors, insulators",
+  "subject": "Physics",
+  "chapter": "Class 12 · Semiconductor Electronics",
+  "why3d": "Bands are 3D ladders of states: heat the crystal and exactly e^(−Eg/2kT) of the drawn electrons promote, leaving holes — the count on screen is the live Boltzmann factor."
+ },
+ {
+  "id": "satellite-orbits-escape",
+  "title": "Satellite Orbits & Escape — LEO to GEO, √2 rule",
+  "subject": "Physics",
+  "chapter": "Class 11 · Gravitation",
+  "why3d": "Orbit radii are drawn to scale with Earth at 6371 km: slide LEO→GEO and watch v ∝ 1/√r and T ∝ r^{3/2}, then launch at k·v_circ and the live-integrated probe escapes at k = √2."
+ },
+ {
+  "id": "huygens-wavefronts",
+  "title": "Huygens' Wavefronts — reflection & refraction built",
+  "subject": "Physics",
+  "chapter": "Class 12 · Wave Optics",
+  "why3d": "Secondary wavelets are 3D spheres: the new wavefront is their common tangent. March them live and both the law of reflection and Snell (with TIR) fall out as geometry."
+ },
+ {
+  "id": "vectors-dot-cross",
+  "title": "Vectors: Dot & Cross Product",
+  "subject": "Maths",
+  "chapter": "Class 11 · Vector Algebra",
+  "why3d": "a×b is the vector perpendicular to both a and b — orbit the parallelogram and watch the product stay normal to it, with |a×b| = area live."
+ },
+ {
+  "id": "conic-sections-cone",
+  "title": "Conic Sections from a Cone",
+  "subject": "Maths",
+  "chapter": "Class 11 · Conic Sections",
+  "why3d": "Slice one double cone with a tiltable blade: circle → ellipse → parabola → hyperbola, e = sinγ/cosα measured against the true intersection curve."
+ },
+ {
+  "id": "solids-of-revolution",
+  "title": "Solids of Revolution (Disc Method)",
+  "subject": "Maths",
+  "chapter": "Class 12 · Application of Integrals",
+  "why3d": "Spin y = f(x) about the axis and watch V = π∫f(x)²dx build disc by disc, Simpson-checked against the hand-integrated analytic volume live."
+ },
+ {
+  "id": "lines-planes-space",
+  "title": "Lines & Planes in Space",
+  "subject": "Maths",
+  "chapter": "Class 12 · 3D Geometry",
+  "why3d": "Skew lines only exist in 3D — drag one line through intersecting/parallel/skew while the drop from Q to its foot F proves |n·Q−d|/|n| geometrically."
+ },
+ {
+  "id": "plane-through-3-points",
+  "title": "Plane Through 3 Points",
+  "subject": "Maths",
+  "chapter": "Class 12 · 3D Geometry",
+  "why3d": "Drag three points and watch n = (P₂−P₁)×(P₃−P₁) stand perpendicular out of the triangle — collinearity collapses it to zero and kills the plane."
+ },
+ {
+  "id": "maxima-minima-surfaces",
+  "title": "Maxima, Minima & Saddles on Surfaces",
+  "subject": "Maths",
+  "chapter": "Class 12 · Application of Derivatives",
+  "why3d": "Saddle points are unseeable in 2D — probe z = f(x,y) with a live tangent plane, gradient arrow and the D = f_xx·f_yy − f_xy² verdict."
+ },
+ {
+  "id": "definite-integral-riemann",
+  "title": "Definite Integral: Riemann Sums",
+  "subject": "Maths",
+  "chapter": "Class 12 · Integrals",
+  "why3d": "Riemann towers rise above the axis, wells sink below it — Sₙ = Σf(xᵢ*)Δx converges to the signed integral against a live Simpson reference."
+ },
+ {
+  "id": "matrix-transforms",
+  "title": "Matrix Linear Transforms",
+  "subject": "Maths",
+  "chapter": "Class 12 · Matrices",
+  "why3d": "Apply M to a unit cube live: the basis arrows show the move, and det M appears twice on screen — cofactor expansion AND the image volume — always equal."
+ },
+ {
+  "id": "direction-cosines-lab",
+  "title": "Direction Cosines Lab",
+  "subject": "Maths",
+  "chapter": "Class 11 · 3D Geometry",
+  "why3d": "The unit sphere is the lie detector: a valid direction always lands on it, because l²+m²+n² = 1 — break the identity and the ray visibly falls short."
+ },
+ {
+  "id": "scalar-triple-product",
+  "title": "Scalar Triple Product",
+  "subject": "Maths",
+  "chapter": "Class 12 · Vector Algebra",
+  "why3d": "[a b c] is the volume of a box: slide the three vectors coplanar and watch the determinant hit zero as the box pancake-flats in front of you."
+ },
+ {
+  "id": "probability-dice-tower",
+  "title": "Probability: Two-Dice Sample Space",
+  "subject": "Maths",
+  "chapter": "Class 11 · Probability",
+  "why3d": "The 6×6 outcome field makes events into shapes: sum = 7 is a diagonal of 6 cells, and the sum distribution stacks into a counting mountain."
+ },
+ {
+  "id": "dna-double-helix",
+  "title": "DNA Double Helix",
+  "subject": "Biology",
+  "chapter": "Class 12 · Molecular Basis of Inheritance",
+  "why3d": "Real 2 nm × 3.4 nm B-DNA proportions with antiparallel strands, major/minor grooves, and A=T vs G≡C rungs whose GC% drives Tm live."
+ },
+ {
+  "id": "protein-structure-levels",
+  "title": "Protein Structure: Primary to Quaternary",
+  "subject": "Biology",
+  "chapter": "Class 12 · Biomolecules",
+  "why3d": "The α-helix is 100° and 1.5 Å per residue — see the derived 5.4 Å pitch, the i→i+4 H-bond ladder, hydrophobic burial and the 2α+2β tetramer."
+ },
+ {
+  "id": "lipid-bilayer-membrane",
+  "title": "Lipid Bilayer Membrane",
+  "subject": "Biology",
+  "chapter": "Class 11 · Cell: The Unit of Life",
+  "why3d": "Cross Tm live: tails freeze into gel or wiggle at 30° tilt, thickness d = 2L·cos(tilt) follows, and mosaic proteins float in the fluid sea."
+ },
+ {
+  "id": "cell-ultrastructure",
+  "title": "Cell Ultrastructure at True Scale",
+  "subject": "Biology",
+  "chapter": "Class 11 · Cell: The Unit of Life",
+  "why3d": "Every organelle built at real µm proportions, with a live optics desk: FOV = FN/M and the Abbe limit decide which organelles a microscope can see."
+ },
+ {
+  "id": "mitosis-spindle",
+  "title": "Mitosis Spindle & Chromosome Capture",
+  "subject": "Biology",
+  "chapter": "Class 11 · Cell Cycle and Division",
+  "why3d": "Watch kinetochore MTs hunt, capture and walk chromatids poleward at the real ~1 µm/min — displacement x = v·t and ETA computed live."
+ },
+ {
+  "id": "neuron-synapse",
+  "title": "Neuron & Synapse",
+  "subject": "Biology",
+  "chapter": "Class 11 · Neural Control and Coordination",
+  "why3d": "The Nernst battery E = 61.5·log₁₀(out/in) mV recomputes live, the AP spark runs myelinated vs bare, and transmitter dots cross the 20 nm cleft."
+ },
+ {
+  "id": "nephron-filtration",
+  "title": "Nephron Filtration & Reabsorption",
+  "subject": "Biology",
+  "chapter": "Class 11 · Excretory Products",
+  "why3d": "The loop dives a live 300→1200 mOsm ladder while FF = GFR/RPF and the glucose Tm cliff (load = GFR×P/100 vs 375 mg/min) decide glycosuria."
+ },
+ {
+  "id": "heart-chambers-flow",
+  "title": "Heart Chambers & Double Flow",
+  "subject": "Biology",
+  "chapter": "Class 11 · Body Fluids and Circulation",
+  "why3d": "The heart pulses at the slider rate while CO = SV×HR, EF = SV/EDV and MAP ≈ CO×TPR recompute live, with blue/red tracks that never mix."
+ },
+ {
+  "id": "transpiration-xylem-pull",
+  "title": "Transpiration: Xylem Pull",
+  "subject": "Biology",
+  "chapter": "Class 11 · Transport in Plants",
+  "why3d": "ΔP = ρgh tension vs capillary rise h = 2γ/(ρgr) drawn to scale: capillarity manages centimetres while cohesion-tension climbs the whole tree."
+ }
+]

@@ -1,0 +1,737 @@
+{
+  "gameFile": "SafetyGame",
+  "classLevel": 1,
+  "cisceNodes": [
+    "c1_evs_009"
+  ],
+  "mascot": "Safety Star Sana ─────────────────────────────────",
+  "slideCount": 5,
+  "challengeCount": 8,
+  "slides": [
+    {
+      "title": "Welcome to Safety School! 🛡️",
+      "text": "Accidents happen suddenly and can hurt us like a cut or a burn. Hazards are things around us that can cause accidents. Safety rules help us stay safe!",
+      "emoji": "🛡️",
+      "bgColor": "from-amber-400 to-orange-500",
+      "spoken": "",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 0
+        }
+      }
+    },
+    {
+      "title": "Sharp Objects & Fire 🔪🔥",
+      "text": "Knives, scissors, and broken glass can cut our skin. Matchsticks, candles, and stoves can burn us. Never touch them without a grown-up beside you!",
+      "emoji": "🔪",
+      "bgColor": "from-red-400 to-rose-500",
+      "spoken": "",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 1
+        }
+      }
+    },
+    {
+      "title": "Electricity & Falls ⚡🪜",
+      "text": "Never touch a switch or socket with wet hands because water carries electricity and gives a shock. Walk slowly on stairs and never climb chairs or tables!",
+      "emoji": "⚡",
+      "bgColor": "from-blue-400 to-indigo-500",
+      "spoken": "",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 2
+        }
+      }
+    },
+    {
+      "title": "Road Safety on Indian Roads 🚦🚶",
+      "text": "Always hold a grown-up hand, walk on the footpath, and look left, then right, then left again before crossing the road where vehicles move fast!",
+      "emoji": "🚦",
+      "bgColor": "from-emerald-400 to-teal-500",
+      "spoken": "",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 3
+        }
+      }
+    },
+    {
+      "title": "When You Get Hurt 🩹👩‍⚕️",
+      "text": "If you get a cut or burn, never hide it! Tell a teacher, parent, or grown-up right away so they can give first aid and keep you safe!",
+      "emoji": "🩹",
+      "bgColor": "from-purple-400 to-indigo-600",
+      "spoken": "",
+      "diagram": {
+        "type": "body-diagram",
+        "animate": true,
+        "data": {
+          "parts": [
+            "Head",
+            "Chest",
+            "Arms",
+            "Legs"
+          ],
+          "highlightIndex": 4
+        }
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "type": "identify_road",
+      "question": "What should we do before crossing the road?",
+      "answer": "Look left-right-left and hold a grown-up hand",
+      "options": [
+        "Look left-right-left and hold a grown-up hand",
+        "Run fast across the road",
+        "Close eyes and walk"
+      ],
+      "hint": "Think about Indian roads with fast vehicles. We check both sides and hold a hand!",
+      "misconception": "Never run or close your eyes on the road! Always look left, then right, then left again and hold a grown-up hand!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Look left-right-left and hold a grown-up hand",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Run fast across the road",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Close eyes and walk",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Run fast across the road",
+          "Look left-right-left and hold a grown-up hand"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_fire",
+      "question": "Should we touch matches or a lighted stove?",
+      "answer": "No, never without a grown-up",
+      "options": [
+        "No, never without a grown-up",
+        "Yes, it is fun to play",
+        "Only sometimes"
+      ],
+      "hint": "A single matchstick can start a fire that burns clothes and houses!",
+      "misconception": "A small matchstick is NOT harmless! It can ignite curtains or clothes in seconds. Never touch matches or go near a lighted stove without a grown-up!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "No, never without a grown-up",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Yes, it is fun to play",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Only sometimes",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Yes, it is fun to play",
+          "No, never without a grown-up"
+        ]
+      },
+      "storyBeat": "setup"
+    },
+    {
+      "type": "identify_electricity",
+      "question": "What should we do with wet hands near electrical switches?",
+      "answer": "Keep them away and dry hands first",
+      "options": [
+        "Keep them away and dry hands first",
+        "Touch the switch quickly",
+        "Splash water on it"
+      ],
+      "hint": "Water carries electricity and can give you a dangerous shock!",
+      "misconception": "Even slightly wet hands are dangerous! Water carries electric current through the skin. Always dry your hands fully before touching any switch!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Keep them away and dry hands first",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Touch the switch quickly",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Splash water on it",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Keep them away and dry hands first",
+          "Touch the switch quickly"
+        ]
+      },
+      "storyBeat": "inciting"
+    },
+    {
+      "type": "sort_rules",
+      "question": "Drag each hazard item to the correct safety rule!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Matchstick = fire hazard, Knife = sharp hazard, Socket = electrical hazard!",
+      "misconception": "Each hazard has its own rule: sharp objects need a grown-up, matches must never be played with, and wet hands stay away from switches!",
+      "storyBeat": "inciting",
+      "easierVariant": {
+        "hint": "Take it slow. Matchstick = fire hazard, Knife = sharp hazard, Socket = electrical hazard!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "knife",
+          "kind": "circle",
+          "label": "Knife / Scissors",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "sharp",
+          "interaction": "drag-to-bin",
+          "targetBin": "sharp"
+        },
+        {
+          "id": "match",
+          "kind": "circle",
+          "label": "Matchstick",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "fire",
+          "interaction": "drag-to-bin",
+          "targetBin": "fire"
+        },
+        {
+          "id": "socket",
+          "kind": "circle",
+          "label": "Electric Socket",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "electric",
+          "interaction": "drag-to-bin",
+          "targetBin": "electric"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "knife",
+          "label": "Knife / Scissors",
+          "emoji": "🔪",
+          "correctBin": "sharp"
+        },
+        {
+          "id": "match",
+          "label": "Matchstick",
+          "emoji": "🔥",
+          "correctBin": "fire"
+        },
+        {
+          "id": "socket",
+          "label": "Electric Socket",
+          "emoji": "🔌",
+          "correctBin": "electric"
+        }
+      ],
+      "bins": [
+        {
+          "id": "sharp",
+          "label": "Sharp (No Grown-up)",
+          "color": "#EF4444"
+        },
+        {
+          "id": "fire",
+          "label": "Fire (No Matches)",
+          "color": "#F97316"
+        },
+        {
+          "id": "electric",
+          "label": "Electric (Dry Hands)",
+          "color": "#3B82F6"
+        }
+      ]
+    },
+    {
+      "type": "identify_footpath",
+      "question": "Where is the safest place to walk when walking along a road?",
+      "answer": "On the footpath",
+      "options": [
+        "On the footpath",
+        "In the middle of the road",
+        "Behind fast cars"
+      ],
+      "hint": "Footpaths are built away from moving traffic for pedestrians!",
+      "misconception": "Walking in the middle of the road is extremely dangerous because of fast vehicles. Always walk safely on the footpath!",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "On the footpath",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "In the middle of the road",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Behind fast cars",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "On the footpath",
+          "In the middle of the road"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "identify_hurt",
+      "question": "What should you do if you fall in the playground and scrape your knee?",
+      "answer": "Tell a grown-up right away",
+      "options": [
+        "Tell a grown-up right away",
+        "Hide it and say nothing",
+        "Try to fix it with dirty water"
+      ],
+      "hint": "Grown-ups know how to give first aid and keep you safe!",
+      "misconception": "Never hide an injury! Hiding a cut or burn is dangerous because it needs proper first aid from a parent, teacher, or nurse.",
+      "interactiveObjects": [
+        {
+          "id": "obj_0",
+          "kind": "circle",
+          "label": "Tell a grown-up right away",
+          "x": 0.25,
+          "y": 0.65,
+          "size": 55,
+          "color": "#22c55e",
+          "isCorrect": true,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_1",
+          "kind": "circle",
+          "label": "Hide it and say nothing",
+          "x": 0.5,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        },
+        {
+          "id": "obj_2",
+          "kind": "circle",
+          "label": "Try to fix it with dirty water",
+          "x": 0.75,
+          "y": 0.65,
+          "size": 55,
+          "color": "#6c5ce7",
+          "isCorrect": false,
+          "interaction": "tap"
+        }
+      ],
+      "easierVariant": {
+        "options": [
+          "Hide it and say nothing",
+          "Tell a grown-up right away"
+        ]
+      },
+      "storyBeat": "rising"
+    },
+    {
+      "type": "sort_safe_unsafe",
+      "question": "Drag each action into Safe or Unsafe!",
+      "answer": "sort",
+      "options": [],
+      "hint": "Holding hands and walking slowly are safe. Running on stairs or touching switches with wet hands is unsafe!",
+      "misconception": "Safety rules protect us from falls, shocks, and cuts. Skipping them is an unnecessary risk!",
+      "storyBeat": "climax",
+      "easierVariant": {
+        "sortItems": [
+          {
+            "id": "stairs",
+            "label": "Walk slowly on stairs",
+            "correctBin": "safe"
+          },
+          {
+            "id": "hand",
+            "label": "Hold adult hand on road",
+            "correctBin": "safe"
+          },
+          {
+            "id": "wet-switch",
+            "label": "Touch switch wet-handed",
+            "correctBin": "unsafe"
+          }
+        ]
+      },
+      "interactiveObjects": [
+        {
+          "id": "stairs",
+          "kind": "circle",
+          "label": "Walk slowly on stairs",
+          "x": 0.2,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "safe",
+          "interaction": "drag-to-bin",
+          "targetBin": "safe"
+        },
+        {
+          "id": "hand",
+          "kind": "circle",
+          "label": "Hold adult hand on road",
+          "x": 0.4,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "safe",
+          "interaction": "drag-to-bin",
+          "targetBin": "safe"
+        },
+        {
+          "id": "wet-switch",
+          "kind": "circle",
+          "label": "Touch switch wet-handed",
+          "x": 0.6000000000000001,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "unsafe",
+          "interaction": "drag-to-bin",
+          "targetBin": "unsafe"
+        },
+        {
+          "id": "climb-chair",
+          "kind": "circle",
+          "label": "Climb high on chairs",
+          "x": 0.8,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "unsafe",
+          "interaction": "drag-to-bin",
+          "targetBin": "unsafe"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "stairs",
+          "label": "Walk slowly on stairs",
+          "emoji": "🪜",
+          "correctBin": "safe"
+        },
+        {
+          "id": "hand",
+          "label": "Hold adult hand on road",
+          "emoji": "🤝",
+          "correctBin": "safe"
+        },
+        {
+          "id": "wet-switch",
+          "label": "Touch switch wet-handed",
+          "emoji": "⚡",
+          "correctBin": "unsafe"
+        },
+        {
+          "id": "climb-chair",
+          "label": "Climb high on chairs",
+          "emoji": "🪑",
+          "correctBin": "unsafe"
+        }
+      ],
+      "bins": [
+        {
+          "id": "safe",
+          "label": "Safe Action ✅",
+          "color": "#22C55E"
+        },
+        {
+          "id": "unsafe",
+          "label": "Unsafe Hazard ❌",
+          "color": "#EF4444"
+        }
+      ]
+    },
+    {
+      "type": "sort_locations",
+      "question": "Where do these safety rules belong?",
+      "answer": "sort",
+      "options": [],
+      "hint": "Knives and matches are at home. Stairs and pushing rules are at school. Footpaths are on the road!",
+      "misconception": "Different places have different hazards. We must follow safety rules everywhere — at home, at school, and on the road!",
+      "storyBeat": "resolution",
+      "easierVariant": {
+        "hint": "Take it slow. Knives and matches are at home. Stairs and pushing rules are at school. Footpaths are on the road!"
+      },
+      "interactiveObjects": [
+        {
+          "id": "home-knife",
+          "kind": "circle",
+          "label": "No knives without adult",
+          "x": 0.25,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "home",
+          "interaction": "drag-to-bin",
+          "targetBin": "home"
+        },
+        {
+          "id": "school-stairs",
+          "kind": "circle",
+          "label": "Walk slowly on stairs",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "school",
+          "interaction": "drag-to-bin",
+          "targetBin": "school"
+        },
+        {
+          "id": "road-left",
+          "kind": "circle",
+          "label": "Look left-right-left",
+          "x": 0.75,
+          "y": 0.85,
+          "size": 55,
+          "color": "#6c5ce7",
+          "category": "road",
+          "interaction": "drag-to-bin",
+          "targetBin": "road"
+        }
+      ],
+      "sortItems": [
+        {
+          "id": "home-knife",
+          "label": "No knives without adult",
+          "emoji": "🔪",
+          "correctBin": "home"
+        },
+        {
+          "id": "school-stairs",
+          "label": "Walk slowly on stairs",
+          "emoji": "🏫",
+          "correctBin": "school"
+        },
+        {
+          "id": "road-left",
+          "label": "Look left-right-left",
+          "emoji": "🚦",
+          "correctBin": "road"
+        }
+      ],
+      "bins": [
+        {
+          "id": "home",
+          "label": "Home 🏡",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "school",
+          "label": "School 🏫",
+          "color": "#EC4899"
+        },
+        {
+          "id": "road",
+          "label": "Road 🛣️",
+          "color": "#F59E0B"
+        }
+      ]
+    }
+  ],
+  "theme": "city",
+  "storyArc": {
+    "theme": "A nature lover discovers the world around them",
+    "beats": [
+      {
+        "name": "setup",
+        "challengeIndices": [
+          0,
+          1
+        ],
+        "sceneDescription": "The mascot welcomes the student and introduces the topic",
+        "mascotDialogue": "Welcome! Let's explore this together!"
+      },
+      {
+        "name": "inciting",
+        "challengeIndices": [
+          2,
+          3
+        ],
+        "sceneDescription": "A problem is presented that requires the new knowledge",
+        "mascotDialogue": "Here is a challenge — can you figure it out?"
+      },
+      {
+        "name": "rising",
+        "challengeIndices": [
+          4,
+          5
+        ],
+        "sceneDescription": "The challenges get harder as understanding deepens",
+        "mascotDialogue": "You are getting better! Try these harder ones!"
+      },
+      {
+        "name": "climax",
+        "challengeIndices": [
+          6
+        ],
+        "sceneDescription": "The hardest challenge — a real test of mastery",
+        "mascotDialogue": "This is the big one! Show me what you have learned!"
+      },
+      {
+        "name": "resolution",
+        "challengeIndices": [
+          7
+        ],
+        "sceneDescription": "The student demonstrates mastery and celebrates",
+        "mascotDialogue": "Amazing! You have mastered this topic!"
+      }
+    ]
+  },
+  "learningArtifact": {
+    "type": "growing-garden",
+    "title": "Learning Garden",
+    "totalPieces": 8
+  },
+  "worldMapNode": {
+    "nodeId": "c1_evs_009",
+    "region": "Nature Park",
+    "mapX": 0.58,
+    "mapY": 0.27,
+    "icon": "🌿",
+    "prerequisites": []
+  },
+  "subject": "evs"
+}

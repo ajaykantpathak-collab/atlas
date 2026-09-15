@@ -1,0 +1,263 @@
+import type { SimDef } from '../../engine/types';
+import C9_MathematicsRationalNumbersRealSim from '../../../simulations/c6_12/C9_MathematicsRationalNumbersRealSim';
+
+/** v3 wrapped master — C9_MathematicsRationalNumbersRealSim. Rich bespoke scene mounted inside the
+ * adaptive loop; diagnostics generated from its declared node ids.
+ * Regenerate via tools/wrap_masters.mjs. */
+export const w_c9_mathematicsrationalnumbersrealsim: SimDef = {
+    id: 'v3w_c9_mathematicsrationalnumbersrealsim',
+    title: 'Rational Numbers Real',
+    subtitle: 'This node covers the rigorous definition of natural numbers and whole numbers, the.',
+    classLevel: 9, subject: 'mathematics', topic: 'Natural Numbers and the Discovery of Zero',
+    chapters: [],
+    nodeIds: ['c9_math_ch3_1', 'c9_math_ch3_2', 'c9_math_ch3_5', 'c9_math_ch3_6', 'c9_math_ch3_9', 'c9_math_ch3_3', 'c9_math_ch3_4', 'c9_math_ch3_7', 'c9_math_ch3_8', 'c9_math_ch3_10', 'c9_math_ch3_11', 'c9_math_ch1_7', 'c9_math_ch4_3', 'c9_math_ch1_3', 'c9_math_ch1_4'],
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    scenario: { role: 'a class 9 learner', intro: 'Imagine a Class 9 teacher asks: "If you have ₹50 and spend exactly ₹50, how much money do you have left?" You.', goal: 'Master Rational Numbers Real.' },
+    discovery: {
+        question: 'State the additive inverse of $-17$ and explain what happens when you add an integer to its additive inverse.',
+        options: ['The additive inverse of $-17$ is $17$', 'additive inverse', 'absolute value'],
+        answer: 'The additive inverse of $-17$ is $17$',
+        hook: 'Students treat subtraction of a negative integer as subtraction of its absolute value.',
+    },
+    teaching: [
+        { title: 'Natural numbers (denoted by ℕ) are the set.', text: 'Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...} used for ordering and quantifying discrete objects.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+    ],
+    beats: [
+        { type: 'scaffold', nodeId: 'c9_math_ch3_1', title: 'Natural numbers (denoted by ℕ) are the.',
+          scaffold: { problem: 'A school library has 12 shelves. Each shelf holds 25 books. During renovation, 0 shelves are used for 3 days.',
+            steps: [
+            { text: 'Identify the given quantities: number of shelves = 12, books per shelf = 25, shelves in use during renovation = 0,.' },
+            { text: 'Recognise that "books on shelves" = (shelves in use) × (books per shelf).' },
+            { text: 'Substitute the value for shelves in use: 0 × 25.' },
+            { text: 'Apply the Multiplicative Annihilation Property of zero: for any whole number a, a × 0 = 0. Here 0 × 25 = 0.' },
+            { text: 'Interpret the result: 0 books are on the shelves during renovation. The answer is 0 books.', faded: true, blankAnswer: '0 books' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c9_math_ch3_2', title: 'Integers are the set of numbers.',
+          scaffold: { problem: 'The temperature in Srinagar at 6 AM was $-4^\\circ\\text{C}$. By noon, it rose by $9^\\circ\\text{C}$.',
+            steps: [
+            { text: 'Identify the starting temperature: $T_1 = -4^\\circ\\text{C}$.' },
+            { text: 'Noon temperature = morning temperature + rise = $-4 + 9$. Since signs differ, subtract absolute values: $9 - 4 = 5$,.' },
+            { text: 'Midnight temperature = noon temperature - fall = $5 - 13$. Subtracting a larger positive from a smaller positive: $5 -.' },
+            { text: 'Combine into a single expression: $(-4) + 9 - 13$. Group as $[(-4) + 9] - 13 = 5 - 13 = -8$.' },
+            { text: 'Verify on a vertical number line: start at $-4$, move up 9 steps to $5$, then move down 13 steps to $-8$.', faded: true, blankAnswer: '$-8^\\circ\\text{C}$' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c9_math_ch3_5', title: 'An irrational number is a real number.',
+          scaffold: { problem: 'A square garden has an area of 5 square metres. The owner wants to put a fence along the diagonal.',
+            steps: [
+            { text: 'Identify the given: Area of square = 5 m². Need diagonal length.' },
+            { text: 'Find side length: side = \\( \\sqrt{\\text{Area}} = \\sqrt{5} \\) m.' },
+            { text: 'Use Pythagoras theorem for diagonal of square: diagonal = \\( \\sqrt{(\\sqrt{5})^2 + (\\sqrt{5})^2} = \\sqrt{5+5} =.' },
+            { text: 'Estimate \\( \\sqrt{10} \\) by successive approximation: \\( 3^2=9 \\), \\( 3.1^2=9.61 \\), \\( 3.16^2=9.9856 \\), \\(.' },
+            { text: 'Check if decimal terminates or recurs: \\( \\sqrt{10} \\) is not a perfect square (no integer squared gives 10), and its.', faded: true, blankAnswer: 'The diagonal length is \\( \\sqrt{10} \\) m ≈ 3.1623 m, which.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c9_math_ch3_6', title: 'The set of real numbers, denoted by ℝ,.',
+          scaffold: { problem: 'A carpenter cuts a square wooden board of side 1.5 metres along its diagonal.',
+            steps: [
+            { text: 'Identify the given information: side of square = 1.5 m = 3/2 m.' },
+            { text: 'Recall the formula for diagonal of a square: d = side × √2.' },
+            { text: 'Substitute the side length: d = (3/2) × √2 = (3√2)/2.' },
+            { text: 'Analyze the number: √2 is irrational (known from previous node).' },
+            { text: 'Conclude: Since irrational numbers are a subset of real numbers (𝕀 ⊂ ℝ), the diagonal length is a real number.', faded: true, blankAnswer: 'The diagonal length is (3√2)/2 metres, which is an.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c9_math_ch3_9', title: 'An irrational number is a real number.',
+          scaffold: { problem: 'Show that the number 0.12112111211112... (where the number of 1s between 2s increases by 1 each time) is irrational.',
+            steps: [
+            { text: 'Identify the decimal pattern: 0.12 112 1112 11112 ... i.e., after the decimal point, we have a \'2\' preceded by one \'1\',.' },
+            { text: 'Check if the decimal terminates: The pattern continues indefinitely (we can always add another block with one more.' },
+            { text: 'Check if the decimal is recurring: A recurring decimal has a fixed finite block of digits that repeats exactly.' },
+            { text: 'Conclude: Since the decimal expansion is non-terminating AND non-recurring, by definition the number is irrational.' },
+            { text: 'Verify: Could this number be expressed as p/q? If it were rational, its decimal would eventually repeat a fixed block.', faded: true, blankAnswer: 'The number is irrational.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c9_math_ch3_3', title: 'A rational number is any number that.',
+          scaffold: { problem: 'A recipe requires $\\frac{3}{4}$ cup of sugar. You only have a $\\frac{1}{8}$ cup measure. How many $\\frac{1}{8}$ cup scoops do you need?',
+            steps: [
+            { text: 'Identify what is given — required amount $= \\frac{3}{4}$ cup, scoop size $= \\frac{1}{8}$ cup.' },
+            { text: 'Set up the equation: $n = \\frac{3}{4} \\div \\frac{1}{8} = \\frac{3}{4} \\times \\frac{8}{1}$ (division by a fraction =.' },
+            { text: 'Compute: $n = \\frac{3 \\times 8}{4 \\times 1} = \\frac{24}{4} = 6$. So $n = 6 = \\frac{6}{1}$.' },
+            { text: 'Check standard form: $\\frac{6}{1}$ has $q=1 > 0$ and $\\text{HCF}(6,1)=1$ ✓.' },
+            { text: 'Interpret: You need 6 scoops of $\\frac{1}{8}$ cup. The rational number is $6$ (or $\\frac{6}{1}$), confirming that whole.', faded: true, blankAnswer: '6 scoops; rational number $\\frac{6}{1}$ (or simply $6$).' }
+            ] } },
+        { type: 'dissect', nodeId: 'c9_math_ch3_2', title: 'Identify each idea',
+          dissect: { specimen: 'Rational Numbers Real', spots: [
+            { id: 's1', label: 'Natural numbers denoted by', prompt: 'Which idea is this? — Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...} used for.', answer: 'Natural numbers denoted by', options: ['Natural numbers denoted by', 'Integers are the set of', 'An irrational number is a', 'The set of real numbers'] },
+            { id: 's2', label: 'Integers are the set of', prompt: 'Which idea is this? — Integers are the set of numbers consisting of all positive whole numbers, their negative.', answer: 'Integers are the set of', options: ['Integers are the set of', 'Natural numbers denoted by', 'An irrational number is a', 'The set of real numbers'] },
+            { id: 's3', label: 'An irrational number is a', prompt: 'Which idea is this? — An irrational number is a real number that cannot be expressed as a ratio of two integers.', answer: 'An irrational number is a', options: ['An irrational number is a', 'Natural numbers denoted by', 'Integers are the set of', 'The set of real numbers'] },
+            { id: 's4', label: 'The set of real numbers', prompt: 'Which idea is this? — The set of real numbers, denoted by ℝ, is the union of the set of rational numbers (ℚ).', answer: 'The set of real numbers', options: ['The set of real numbers', 'Natural numbers denoted by', 'Integers are the set of', 'An irrational number is a'] },
+            { id: 's5', label: 'A rational number is any', prompt: 'Which idea is this? — A rational number is any number that can be expressed in the form $\\frac{p}{q}$ where $p$.', answer: 'A rational number is any', options: ['A rational number is any', 'Natural numbers denoted by', 'Integers are the set of', 'An irrational number is a'] }
+          ] } }
+    ],
+    explore: { component: C9_MathematicsRationalNumbersRealSim, prompt: 'Explore the interactive — Rational Numbers Real' },
+    challenges: [
+        { type: 'subpart', nodeId: 'c9_math_ch3_1', difficulty: 'standard',
+          question: 'Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...}.',
+          hint: 'If stuck, revisit c6_math_ch01_002 (Natural Numbers and Whole Numbers) and.',
+          misconception: 'Students treat zero as "nothing" rather than a number with specific algebraic properties.',
+          parts: [
+                { id: 'a', prompt: 'State the exact difference between the set of natural numbers (ℕ) and the set of whole numbers (W). Write both sets in roster form.', answer: 'ℕ = {1, 2, 3, 4, ...} and W = {0, 1, 2, 3, 4, ...}',
+                  options: ['ℕ = {1, 2, 3, 4, ...} and W = {0, 1, 2, 3, 4, ...}', 'Is 0 a rational number?'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students treat zero as "nothing" rather than a number with specific algebraic properties.' },
+                { id: 'b', prompt: 'Explain why zero is called the "additive identity" for whole numbers but the "multiplicative annihilator".', answer: 'Additive identity: for any whole number a, a + 0 = a (e.g., 7 + 0 = 7)',
+                  options: ['Additive identity: for any whole number a, a + 0 = a (e.g., 7 + 0 = 7)', 'adding zero changes the number'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students treat zero as "nothing" rather than a number with specific algebraic properties.' },
+                { id: 'c', prompt: 'Compare the closure property of whole numbers under addition and under subtraction. Is W closed under subtraction?', answer: 'W is closed under addition: for any a, b ∈ W, a + b ∈ W (e.g., 3 + 5 = 8 ∈ W)',
+                  options: ['W is closed under addition: for any a, b ∈ W, a + b ∈ W (e.g., 3 + 5 = 8 ∈ W)', 'W is closed under subtraction'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students treat zero as "nothing" rather than a number with specific algebraic properties.' }
+          ],
+            remediations: { 'students-treat-zero-as-nothing': { steps: ['Remediation: 1) Return to the definition: a ÷ b = c means c × b = a.', '2) Test with b = 0: ask "What number c makes c × 0 = 5?" — none exists, so 5 ÷ 0 is undefined.', '3) Test with a = 0, b = 0: "What number c makes c × 0 = 0?" — every number works, so 0 ÷ 0 has no unique answer.', '4) Contrast with 0 ÷ 5 = 0 because 0 × 5 = 0 (unique).'] } } },
+        { type: 'subpart', nodeId: 'c9_math_ch3_1', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students treat zero as "nothing" rather than a number with specific algebraic properties.',
+          parts: [
+                { id: 'a', prompt: 'A student writes: "Since 0 is the additive identity, dividing any number by 0 should give that number back, because division is the inverse of multiplication.".', answer: 'The conclusion is incorrect',
+                  options: ['The conclusion is incorrect', 'the inverse of multiplication (a × b = c ⇒ c ÷ b = a) works for b = 0'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students treat zero as "nothing" rather than a number with specific algebraic properties.' }
+          ],
+            remediations: { 'students-treat-zero-as-nothing': { steps: ['Remediation: 1) Return to the definition: a ÷ b = c means c × b = a.', '2) Test with b = 0: ask "What number c makes c × 0 = 5?" — none exists, so 5 ÷ 0 is undefined.', '3) Test with a = 0, b = 0: "What number c makes c × 0 = 0?" — every number works, so 0 ÷ 0 has no unique answer.', '4) Contrast with 0 ÷ 5 = 0 because 0 × 5 = 0 (unique).'] } } },
+        { type: 'subpart', nodeId: 'c9_math_ch3_2', difficulty: 'standard',
+          question: 'Integers are the set of numbers consisting of all positive whole numbers, their.',
+          hint: 'Revisit the number line model for integer addition/subtraction (Class 6/7): physically.',
+          misconception: 'Students treat subtraction of a negative integer as subtraction of its absolute value.',
+          parts: [
+                { id: 'a', prompt: 'State the additive inverse of $-17$ and explain what happens when you add an integer to its additive inverse.', answer: 'The additive inverse of $-17$ is $17$',
+                  options: ['The additive inverse of $-17$ is $17$', 'additive inverse', 'absolute value'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students treat subtraction of a negative integer as subtraction of its absolute value.' },
+                { id: 'b', prompt: 'Why does the product of two negative integers, say $(-4) \\times (-3)$, have to be positive $12$?', answer: 'Consider $(-4) \\times (3 + (-3)) = (-4) \\times 0 = 0$',
+                  options: ['Consider $(-4) \\times (3 + (-3)) = (-4) \\times 0 = 0$', 'it\'s just a rule'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students treat subtraction of a negative integer as subtraction of its absolute value.' },
+                { id: 'c', prompt: 'A submarine is at $-250$ metres (below sea level). It ascends $120$ metres, then descends $80$ metres, and finally ascends $50$ metres.', answer: 'Start: $-250$',
+                  options: ['Start: $-250$', 'descend'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students treat subtraction of a negative integer as subtraction of its absolute value.' }
+          ],
+            remediations: { 'students-treat-subtraction-of-a': { steps: ['Return to the number line: physically act out "start at 7, subtract -5".', 'Subtracting means "move in the opposite direction of the number".', 'The number is $-5$ (left), so opposite direction is right.', 'Use the additive inverse definition: $a - b = a + (-b)$.'] } } },
+        { type: 'subpart', nodeId: 'c9_math_ch3_2', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students treat subtraction of a negative integer as subtraction of its absolute value.',
+          parts: [
+                { id: 'a', prompt: 'A student solved $(-36) \\div (-4)$ as follows: "Both are negative, so the answer is negative. $36 \\div 4 = 9$, so the answer is $-9$." Evaluate this solution.', answer: 'The solution is incorrect',
+                  options: ['The solution is incorrect', 'same signs give positive'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students treat subtraction of a negative integer as subtraction of its absolute value.' }
+          ],
+            remediations: { 'students-treat-subtraction-of-a': { steps: ['Return to the number line: physically act out "start at 7, subtract -5".', 'Subtracting means "move in the opposite direction of the number".', 'The number is $-5$ (left), so opposite direction is right.', 'Use the additive inverse definition: $a - b = a + (-b)$.'] } } },
+        { type: 'subpart', nodeId: 'c9_math_ch3_5', difficulty: 'standard',
+          question: 'An irrational number is a real number that cannot be expressed as a ratio of.',
+          hint: 'If stuck, revisit **c9_math_ch3_3 (Rational Numbers: Definition and Representation)** for.',
+          misconception: 'Students believe **any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**.',
+          parts: [
+                { id: 'a', prompt: 'Explain why \\( 0.101001000100001\\ldots \\) (where the number of zeros between ones increases by one each time) is irrational, but \\( 0.\\overline{101} \\) is.', answer: '\\( 0.101001000100001\\ldots \\) has a pattern but **no fixed repeating block**',
+                  options: ['\\( 0.101001000100001\\ldots \\) has a pattern but **no fixed repeating block**', 'any pattern', '**any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe **any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**.' },
+                { id: 'b', prompt: 'Compare the decimal expansions of \\( \\sqrt{2} \\) and \\( \\sqrt{4} \\). Why does the presence of a square root symbol not guarantee irrationality?', answer: '\\( \\sqrt{4}=2.0 \\) (terminating decimal) → rational',
+                  options: ['\\( \\sqrt{4}=2.0 \\) (terminating decimal) → rational', 'all square roots are irrational', '**any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe **any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**.' }
+          ],
+            remediations: { 'any-number-written-with-a': { steps: ['**Simplify first**: Ask the student to simplify \\( \\sqrt{9}, \\sqrt{16}, \\sqrt{0.25}, \\sqrt{\\frac{4}{9}} \\) completely.', '**Check the result**: After simplification, if the answer is an integer or a fraction \\( \\frac{p}{q} \\), it is rational.', '**Decimal test**: For non-terminating decimals, ask: "Does a *fixed block* of digits repeat forever?" If yes →.', '**Practice set**: Give 10 numbers mixing perfect squares, non-perfect squares, terminating, recurring, and.'] } } },
+        { type: 'subpart', nodeId: 'c9_math_ch3_5', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe **any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**.',
+          parts: [
+                { id: 'a', prompt: 'A student claims: "\\( 0.123456789101112\\ldots \\) (writing natural numbers in order) is rational because it has a clear pattern." Evaluate this claim and.', answer: 'The claim is **false**',
+                  options: ['The claim is **false**', 'pattern', 'recurring block', '**any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe **any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**.' },
+                { id: 'b', prompt: 'Create two irrational numbers between \\( \\sqrt{2} \\) and \\( \\sqrt{3} \\). Explain how you know they are irrational and lie in that interval.', answer: '\\( \\sqrt{2}\\approx1.414 \\), \\( \\sqrt{3}\\approx1.732 \\)',
+                  options: ['\\( \\sqrt{2}\\approx1.414 \\), \\( \\sqrt{3}\\approx1.732 \\)', '**any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe **any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**.' },
+                { id: 'c', prompt: 'Compare the decimal expansions of \\( \\sqrt{2} \\) and \\( \\sqrt{4} \\). Why does the presence of a square root symbol not guarantee irrationality?', answer: '\\( \\sqrt{4}=2.0 \\) (terminating decimal) → rational',
+                  options: ['\\( \\sqrt{4}=2.0 \\) (terminating decimal) → rational', 'all square roots are irrational', '**any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe **any number written with a square root symbol (\\( \\sqrt{} \\)) is irrational**.' }
+          ],
+            remediations: { 'any-number-written-with-a': { steps: ['**Simplify first**: Ask the student to simplify \\( \\sqrt{9}, \\sqrt{16}, \\sqrt{0.25}, \\sqrt{\\frac{4}{9}} \\) completely.', '**Check the result**: After simplification, if the answer is an integer or a fraction \\( \\frac{p}{q} \\), it is rational.', '**Decimal test**: For non-terminating decimals, ask: "Does a *fixed block* of digits repeat forever?" If yes →.', '**Practice set**: Give 10 numbers mixing perfect squares, non-perfect squares, terminating, recurring, and.'] } } },
+        { type: 'subpart', nodeId: 'c9_math_ch3_6', difficulty: 'standard',
+          question: 'The set of real numbers, denoted by ℝ, is the union of the set of rational.',
+          hint: 'If stuck, revisit the definition of rational numbers (p/q form) and the examples of.',
+          misconception: 'Students often think "irrational" means "not a real number" or "not a valid number".',
+          parts: [
+                { id: 'a', prompt: 'Explain why the number 0.101001000100001... (where the number of zeros between ones increases by one each time) is a real number. Is it rational or irrational?', answer: 'The given decimal is non-terminating and non-repeating, so it is irrational',
+                  options: ['The given decimal is non-terminating and non-repeating, so it is irrational', 'or that irrational numbers are somehow', 'not a valid number'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think "irrational" means "not a real number" or "not a valid number".' },
+                { id: 'b', prompt: 'Classify each of the following numbers as rational or irrational, and hence state whether each is a real number: (a) √(49/64) (b) √(2/3) (c) 0.121221222...', answer: '√(49/64) (',
+                  options: ['√(49/64) (', 'irrational', 'not a real number'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think "irrational" means "not a real number" or "not a valid number".' },
+                { id: 'c', prompt: 'Consider the statement: "Every real number is either rational or irrational, but not both." Analyze this statement and prove that the sets ℚ and 𝕀 are.', answer: 'By definition, a rational number can be expressed as p/q where p,q ∈ ℤ, q≠0',
+                  options: ['By definition, a rational number can be expressed as p/q where p,q ∈ ℤ, q≠0', 'irrational', 'not a real number'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think "irrational" means "not a real number" or "not a valid number".' }
+          ],
+            remediations: { 'irrational-means-not-a-real': { steps: ['If a student says "√2 is not real because it\'s irrational", do the following: (1) Draw a number line and mark 0, 1, 2.', '(2) Construct a right triangle with legs 1 cm each; the hypotenuse is √2 cm.', '(3) Use a compass to transfer this length to the number line from 0.', '(4) Point to the mark and say: "This point exists on the number line.'] } } },
+        { type: 'subpart', nodeId: 'c9_math_ch3_6', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often think "irrational" means "not a real number" or "not a valid number".',
+          parts: [
+                { id: 'a', prompt: 'Create a Venn diagram showing the relationship between natural numbers (ℕ), whole numbers (𝕎), integers (ℤ), rational numbers (ℚ), irrational numbers (𝕀),.', answer: 'The Venn diagram should show ℕ ⊂ 𝕎 ⊂ ℤ ⊂ ℚ ⊂ ℝ, and 𝕀 ⊂ ℝ with ℚ ∩ 𝕀 = ∅',
+                  options: ['The Venn diagram should show ℕ ⊂ 𝕎 ⊂ ℤ ⊂ ℚ ⊂ ℝ, and 𝕀 ⊂ ℝ with ℚ ∩ 𝕀 = ∅', 'irrational', 'not a real number', 'not a valid number'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often think "irrational" means "not a real number" or "not a valid number".' }
+          ],
+            remediations: { 'irrational-means-not-a-real': { steps: ['If a student says "√2 is not real because it\'s irrational", do the following: (1) Draw a number line and mark 0, 1, 2.', '(2) Construct a right triangle with legs 1 cm each; the hypotenuse is √2 cm.', '(3) Use a compass to transfer this length to the number line from 0.', '(4) Point to the mark and say: "This point exists on the number line.'] } } },
+        { type: 'subpart', nodeId: 'c9_math_ch3_9', difficulty: 'standard',
+          question: 'An irrational number is a real number whose decimal expansion is.',
+          hint: 'Review c9_math_ch3_7 and c9_math_ch3_8 for the two types of rational decimal expansions.',
+          misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case.',
+          parts: [
+                { id: 'a', prompt: 'Which of the following decimal expansions represents an irrational number? (A) 0.125 (B) 0.333... (C) 0.101001000100001... (D) 0.142857142857...', answer: 'Correct answer: (C) 0.101001000100001',
+                  options: ['Correct answer: (C) 0.101001000100001', 'any infinite decimal is irrational', 'any non-terminating decimal is irrational, ignoring the recurring case'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case. For example, they classify 0.333...' },
+                { id: 'b', prompt: 'A student claims: "Since 1/7 = 0.142857142857... has a repeating block, it is irrational because the decimals go on forever." Explain why this reasoning is.', answer: 'Correct answer: The student confuses "non-terminating" with "non-recurring"',
+                  options: ['Correct answer: The student confuses "non-terminating" with "non-recurring"', 'non-terminating', 'non-recurring'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case. For example, they classify 0.333...' },
+                { id: 'c', prompt: 'Determine whether the number 0.1234567891011121314... (formed by concatenating natural numbers) is rational or irrational. Justify your answer.', answer: 'Correct answer: Irrational',
+                  options: ['Correct answer: Irrational', 'counting numbers', 'any non-terminating decimal is irrational, ignoring the recurring case'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case. For example, they classify 0.333...' }
+          ],
+            remediations: { 'any-non-terminating-decimal-is': { steps: ['To fix: Have the student write the definition of rational decimal expansion: "terminating OR non-terminating recurring".', 'Then give them a set of decimals: 0.5, 0.333..., 0.121212..., 0.1010010001...', 'Ask them to classify each using the definition.', 'For each non-terminating one, explicitly ask: "Does a block of digits repeat exactly?'] } } },
+        { type: 'subpart', nodeId: 'c9_math_ch3_9', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case.',
+          parts: [
+                { id: 'a', prompt: 'A student writes: "π = 3.14159... is irrational because its decimal expansion is non-terminating.', answer: 'Correct answer: The statement is false',
+                  options: ['Correct answer: The statement is false', 'any non-terminating decimal is irrational, ignoring the recurring case'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case. For example, they classify 0.333...' },
+                { id: 'b', prompt: 'Construct a decimal number between 0.5 and 0.6 that is guaranteed to be irrational. Explain your construction method and prove it is irrational.', answer: 'Correct answer: Example: 0.501001000100001',
+                  options: ['Correct answer: Example: 0.501001000100001', 'any non-terminating decimal is irrational, ignoring the recurring case'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe that any non-terminating decimal is irrational, ignoring the recurring case. For example, they classify 0.333...' }
+          ],
+            remediations: { 'any-non-terminating-decimal-is': { steps: ['To fix: Have the student write the definition of rational decimal expansion: "terminating OR non-terminating recurring".', 'Then give them a set of decimals: 0.5, 0.333..., 0.121212..., 0.1010010001...', 'Ask them to classify each using the definition.', 'For each non-terminating one, explicitly ask: "Does a block of digits repeat exactly?'] } } },
+        { type: 'subpart', nodeId: 'c9_math_ch3_3', difficulty: 'standard',
+          question: 'A rational number is any number that can be expressed in the form $\\frac{p}{q}$.',
+          hint: 'If stuck, revisit c6_math_ch03_031 (Equivalent Fractions) and c6_math_ch02_024.',
+          misconception: '**Misconception:** "A number is rational only if it is *written* as a fraction $\\frac{p}{q}$." **Exact error:**.',
+          parts: [
+                { id: 'a', prompt: 'Which statement is correct about this idea?', answer: 'A rational number is any number that can be expressed in the form $\\frac{p}{q}$ where $p$',
+                  options: ['A rational number is any number that can be expressed in the form $\\frac{p}{q}$ where $p$', 'Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...} used for', 'Integers are the set of numbers consisting of all positive whole numbers, their negative', 'An irrational number is a real number that cannot be expressed as a ratio of two integers'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: '**Misconception:** "A number is rational only if it is *written* as a fraction $\\frac{p}{q}$." **Exact error:** Students classify $0.75$,.' }
+          ],
+            remediations: { 'misconception-a-number-is-rational': { steps: ['**Revisit conversion:** Give 10 numbers in mixed forms (integers, decimals, fractions, roots, repeating decimals).', 'For each, student *must* write the $\\frac{p}{q}$ form explicitly before classifying.', '**Use the definition as a checklist:** "Is $p$ integer?', 'If yes to all → rational." Do this aloud for $\\sqrt{16}$, $0.\\overline{3}$, $-7$, $\\frac{22}{7}$.'] } } }
+    ],
+    reflect: { prompts: ['What did the interactive reveal?', 'Where can this idea go wrong?'] },
+    successLine: 'Mastered! 🌟', tryAgainLine: 'Revisit the simulation, then retry.',
+};

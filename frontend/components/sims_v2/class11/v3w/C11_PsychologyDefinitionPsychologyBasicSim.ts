@@ -1,0 +1,272 @@
+import type { SimDef } from '../../engine/types';
+import C11_PsychologyDefinitionPsychologyBasicSim from '../../../simulations/c6_12/C11_PsychologyDefinitionPsychologyBasicSim';
+
+/** v3 wrapped master — C11_PsychologyDefinitionPsychologyBasicSim. Rich bespoke scene mounted inside the
+ * adaptive loop; diagnostics generated from its declared node ids.
+ * Regenerate via tools/wrap_masters.mjs. */
+export const w_c11_psychologydefinitionpsychologybasicsim: SimDef = {
+    id: 'v3w_c11_psychologydefinitionpsychologybasicsim',
+    title: 'Definition Psychology',
+    subtitle: 'Covers all eight stages (infancy to late adulthood) including crises, virtues,.',
+    classLevel: 11, subject: 'psychology', topic: 'Erikson\'s Stages of Psychosocial Development',
+    chapters: [],
+    nodeIds: ['c11_psy_cbse_03_006', 'c11_psy_cbse_02_008', 'c11_psy_cbse_07_002', 'c11_psy_cbse_08_005', 'c11_psy_cbse_03_001', 'c11_psy_cbse_03_002', 'c11_psy_cbse_03_005', 'c11_psy_cbse_03_009', 'c11_psy_cbse_01_004', 'c11_psy_cbse_01_007', 'c11_psy_cbse_02_003', 'c11_psy_cbse_02_009', 'c11_psy_cbse_08_008', 'c11_psy_cbse_08_009', 'c11_psy_cbse_05_005'],
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    scenario: { role: 'a class 11 learner', intro: 'Imagine a 14-year-old student, Rohan, who suddenly refuses to attend family functions, experiments with.', goal: 'Master Definition Psychology.' },
+    discovery: {
+        question: 'A REMEMBER level question: List the eight psychosocial stages in correct sequential order along with their corresponding crises (e.g., Stage 1: Trust vs.',
+        options: ['Correct sequence: 1', 'Autonomy', 'independence'],
+        answer: 'Correct sequence: 1',
+        hook: '**Students treat the eight stages as independent "boxes" to memorize, ignoring the epigenetic principle.** They write:.',
+    },
+    teaching: [
+        { title: 'Erikson\'s psychosocial theory proposes eight.', text: 'Erikson\'s psychosocial theory proposes eight sequential stages across the lifespan, each defined by a specific psychosocial crisis (e.g., Trust vs.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+    ],
+    beats: [
+        { type: 'scaffold', nodeId: 'c11_psy_cbse_03_006', title: 'Erikson\'s psychosocial theory proposes.',
+          scaffold: { problem: 'Arjun, 8, loves building complex LEGO sets but destroys them if a single piece is misaligned.',
+            steps: [
+            { text: 'Identify age (8) → Stage 4: Industry vs. Inferiority (6-12 yrs). Crisis: Mastering skills vs. feeling inadequate.' },
+            { text: 'Analyze behavior: "Destroys if misaligned" + "gives up easily" → Not malignancy (inertia) but **maladaptation: Narrow.' },
+            { text: 'Virtue at stake: **Competence** (belief "I can make things work").' },
+            { text: 'Microsystem factor: Parent\'s social comparison ("sister never...") → conditional worth.' },
+            { text: 'Psychosocial intervention: **Process-based mastery logs**. Teacher creates "Version History" board: Arjun photos each.', faded: true, blankAnswer: '(a) Stage 4, Industry vs. Inferiority; (b) Maladaptation:.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c11_psy_cbse_02_008', title: 'The case study method is an in-depth,.',
+          scaffold: { problem: 'A Class 11 student wants to study "How do siblings of children with autism experience family life?" using the case study method.',
+            steps: [
+            { text: 'Identify the case type — the phenomenon involves *shared family dynamics*, so a single sibling is insufficient; the.' },
+            { text: 'Check data source triangulation — one 30-minute interview is a *single method, single source, single timepoint*; NCERT.' },
+            { text: 'Add triangulation: (a) Semi-structured interviews with *all* siblings (separately and jointly) at two timepoints (6.' },
+            { text: 'Address researcher bias — assign *two investigators* to independently code interview transcripts and observation notes,.' },
+            { text: 'Ensure chain of evidence — create a master spreadsheet linking each research question (e.g., "What support do siblings.' },
+            { text: 'Ethical safeguard — since the family is identifiable in their community, obtain *family-level consent* plus individual.', faded: true, blankAnswer: 'Three flaws: (1) Case definition too narrow (individual vs..' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c11_psy_cbse_07_002', title: 'The building blocks of thought are the.',
+          scaffold: { problem: 'A Class 11 student is asked to solve: "How many windows are in your house?" They report "seeing" each room and counting windows.',
+            steps: [
+            { text: 'Identify the task type—window counting requires access to specific spatial layout of a particular house (episodic,.' },
+            { text: 'Recognize the student\'s report ("seeing each room") indicates mental imagery: a depictive representation preserving.' },
+            { text: 'Trace the process: (a) Retrieve house schema from long-term memory, (b) Generate mental image of each room.' },
+            { text: 'Contrast with "What is a window?"—this asks for category knowledge (concept), not a specific instance.' },
+            { text: 'Explain format difference: Image is analog, modality-specific (visual), particular (this house); concept is amodal,.' },
+            { text: 'Note efficiency: Counting via image is slow (serial scan); concept retrieval is fast (parallel access to defining.', faded: true, blankAnswer: 'Window counting uses mental imagery (depictive, analog,.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c11_psy_cbse_08_005', title: 'Emotion is a complex psychological.',
+          scaffold: { problem: 'Analyze the emotional episode of Meera, a Class 11 student, who receives her Physics test paper with a score of 95/100.',
+            steps: [
+            { text: 'Identify the physiological arousal indicators in the description (gasps, widened eyes - autonomic nervous system.' },
+            { text: 'Identify the cognitive appraisal/interpretation ("I did it! My parents will be so proud" - evaluation of event as.' },
+            { text: 'Identify the behavioral/expressive responses (smiles broadly, rushes to show friend - facial expression and approach.' },
+            { text: 'Classify the emotion: The event is a positive, unexpected success.' },
+            { text: 'Differentiate from mood: This episode has a clear, specific antecedent (the test score), is short-lived (episode), high.', faded: true, blankAnswer: 'Components: Physiological (gasp, eye widening), Cognitive.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c11_psy_cbse_03_001', title: 'Development is the pattern of.',
+          scaffold: { problem: 'A longitudinal study tracks 100 children from birth to age 5. Researchers record: (a) monthly height and weight; (b) age at first.',
+            steps: [
+            { text: 'Identify the core definition of each concept from NCERT Box 3.1 — growth = measurable size increase; maturation =.' },
+            { text: 'Analyze measurement (a) — monthly height/weight. These are direct, quantifiable physical dimensions.' },
+            { text: 'Analyze measurement (b) — ages of motor milestones. Sitting, crawling, walking appear in fixed sequence across.' },
+            { text: 'Analyze measurement (c) — object permanence / A-not-B error. This is a qualitative cognitive restructuring.' },
+            { text: 'Analyze measurement (d) — attachment quality. Socio-emotional process involving relationship history, caregiver.' },
+            { text: 'Synthesize — note that (b) maturation provides the foundation for (c) and (d) (e.g., neural maturation enables.', faded: true, blankAnswer: '(a) Growth; (b) Maturation; (c) Development (cognitive);.' }
+            ] } },
+        { type: 'scaffold', nodeId: 'c11_psy_cbse_03_002', title: 'Life-Span Perspective (LSP) is a.',
+          scaffold: { problem: 'Analyse the developmental trajectory of Arjun, a 72-year-old retired engineer who recently joined a community theatre group.',
+            steps: [
+            { text: 'Identify the lifelong development assumption — Arjun\'s engagement in new creative activity at 72 demonstrates.' },
+            { text: 'Identify multi-directionality — simultaneous gains (socio-emotional: mood, friendships) and losses.' },
+            { text: 'Identify plasticity — his ability to learn acting skills and form new social bonds at 72 shows psychological.' },
+            { text: 'Identify historical embeddedness — streaming platform access to documentary on senior artists is a historical condition.' },
+            { text: 'Identify interwoven processes — biological (fatigue, memory), cognitive (script learning, role interpretation), and.' },
+            { text: 'Identify multidisciplinary nature — understanding Arjun\'s trajectory requires gerontology (aging biology), cognitive.' },
+            { text: 'Identify contextual responsiveness — his engineering background (inherited/acquired context), urban retirement.', faded: true, blankAnswer: 'All seven LSP assumptions are illustrated: lifelong.' }
+            ] } },
+        { type: 'dissect', nodeId: 'c11_psy_cbse_02_008', title: 'Identify each idea',
+          dissect: { specimen: 'Definition Psychology', spots: [
+            { id: 's1', label: 'Eriksons psychosocial theory proposes eight', prompt: 'Which idea is this? — Erikson\'s psychosocial theory proposes eight sequential stages across the lifespan, each.', answer: 'Eriksons psychosocial theory proposes eight', options: ['Eriksons psychosocial theory proposes eight', 'The case study method is', 'The building blocks of thought', 'Emotion is a complex psychological'] },
+            { id: 's2', label: 'The case study method is', prompt: 'Which idea is this? — The case study method is an in-depth, qualitative research approach that investigates a.', answer: 'The case study method is', options: ['The case study method is', 'Eriksons psychosocial theory proposes eight', 'The building blocks of thought', 'Emotion is a complex psychological'] },
+            { id: 's3', label: 'The building blocks of thought', prompt: 'Which idea is this? — The building blocks of thought are the fundamental mental representations—mental images.', answer: 'The building blocks of thought', options: ['The building blocks of thought', 'Eriksons psychosocial theory proposes eight', 'The case study method is', 'Emotion is a complex psychological'] },
+            { id: 's4', label: 'Emotion is a complex psychological', prompt: 'Which idea is this? — Emotion is a complex psychological state involving three distinct components: a.', answer: 'Emotion is a complex psychological', options: ['Emotion is a complex psychological', 'Eriksons psychosocial theory proposes eight', 'The case study method is', 'The building blocks of thought'] },
+            { id: 's5', label: 'Development is the pattern of', prompt: 'Which idea is this? — Development is the pattern of progressive, orderly, and predictable changes that begin at.', answer: 'Development is the pattern of', options: ['Development is the pattern of', 'Eriksons psychosocial theory proposes eight', 'The case study method is', 'The building blocks of thought'] },
+            { id: 's6', label: 'Life-Span Perspective LSP is a', prompt: 'Which idea is this? — Life-Span Perspective (LSP) is a comprehensive theoretical framework that conceptualises.', answer: 'Life-Span Perspective LSP is a', options: ['Life-Span Perspective LSP is a', 'Eriksons psychosocial theory proposes eight', 'The case study method is', 'The building blocks of thought'] }
+          ] } }
+    ],
+    explore: { component: C11_PsychologyDefinitionPsychologyBasicSim, prompt: 'Explore the interactive — Definition Psychology' },
+    challenges: [
+        { type: 'subpart', nodeId: 'c11_psy_cbse_03_006', difficulty: 'standard',
+          question: 'Erikson\'s psychosocial theory proposes eight sequential stages across the.',
+          hint: 'If stuck on "why stages are fixed sequence," revisit **Epigenetic Principle** in.',
+          misconception: '**Students treat the eight stages as independent "boxes" to memorize, ignoring the epigenetic principle.** They write:.',
+          parts: [
+                { id: 'a', prompt: 'A REMEMBER level question: List the eight psychosocial stages in correct sequential order along with their corresponding crises (e.g., Stage 1: Trust vs.', answer: 'Correct sequence: 1',
+                  options: ['Correct sequence: 1', 'Autonomy', 'independence'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: '**Students treat the eight stages as independent "boxes" to memorize, ignoring the epigenetic principle.** They write: "Stage 5 is Identity.' },
+                { id: 'b', prompt: 'An UNDERSTAND level question: A 4-year-old child insists on pouring her own milk, spills it, and says "I do it myself!" Her mother scolds her: "You\'re clumsy,.', answer: 'Stage: Preschool (3-6 yr)',
+                  options: ['Stage: Preschool (3-6 yr)', 'Autonomy vs', 'doing things myself'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: '**Students treat the eight stages as independent "boxes" to memorize, ignoring the epigenetic principle.** They write: "Stage 5 is Identity.' },
+                { id: 'c', prompt: 'An APPLY level question: Priya, 35, has a successful career but avoids deep friendships and romantic relationships, saying "I don\'t need anyone; people just.', answer: 'Unresolved crisis: **Intimacy vs',
+                  options: ['Unresolved crisis: **Intimacy vs', 'Identity vs', 'Autonomy'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: '**Students treat the eight stages as independent "boxes" to memorize, ignoring the epigenetic principle.** They write: "Stage 5 is Identity.' }
+          ],
+            remediations: { 'students-treat-the-eight-stages': { steps: ['** Draw the **Epigenetic Diagram** (8 overlapping ovals, each emerging from the previous). **', '** Pick ONE stage (e.g., Stage 3 Initiative). Trace **backward**: What Stage 2 outcome (Autonomy/Shame) does Initiative.', '** Write one sentence for each link: "Without ______, ______ cannot develop." **', '** Re-attempt Diagnostic Q3 and Q4 using this chain logic. Do not re-memorize the table.'] } } },
+        { type: 'subpart', nodeId: 'c11_psy_cbse_03_006', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: '**Students treat the eight stages as independent "boxes" to memorize, ignoring the epigenetic principle.** They write:.',
+          parts: [
+                { id: 'a', prompt: 'An EVALUATE level question: "Erikson\'s stages are culturally biased because they reflect Western individualistic values (e.g., autonomy, identity, intimacy).', answer: 'The claim is partially valid but overstated',
+                  options: ['The claim is partially valid but overstated', 'Autonomy', 'independence', 'Indian toddlers don\'t show autonomy'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: '**Students treat the eight stages as independent "boxes" to memorize, ignoring the epigenetic principle.** They write: "Stage 5 is Identity.' },
+                { id: 'b', prompt: 'A CREATE level question: Design a 5-minute role-play scenario for a Class 11 psychology class demonstrating **maladaptation** (not malignancy) at the.', answer: '**Scenario:** "The Super-Principal" (52, school principal)',
+                  options: ['**Scenario:** "The Super-Principal" (52, school principal)', 'Autonomy', 'independence', 'Indian toddlers don\'t show autonomy'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: '**Students treat the eight stages as independent "boxes" to memorize, ignoring the epigenetic principle.** They write: "Stage 5 is Identity.' }
+          ],
+            remediations: { 'students-treat-the-eight-stages': { steps: ['** Draw the **Epigenetic Diagram** (8 overlapping ovals, each emerging from the previous). **', '** Pick ONE stage (e.g., Stage 3 Initiative). Trace **backward**: What Stage 2 outcome (Autonomy/Shame) does Initiative.', '** Write one sentence for each link: "Without ______, ______ cannot develop." **', '** Re-attempt Diagnostic Q3 and Q4 using this chain logic. Do not re-memorize the table.'] } } },
+        { type: 'subpart', nodeId: 'c11_psy_cbse_02_008', difficulty: 'standard',
+          question: 'The case study method is an in-depth, qualitative research approach that.',
+          hint: 'Revisit c11_psy_cbse_02_001 (Goals of Psychological Enquiry) and create a 2x4 table:.',
+          misconception: 'Students often believe "case study = just writing a detailed biography of one person." They miss that (1) a case can be.',
+          parts: [
+                { id: 'a', prompt: 'A student claims: "Case studies are useless because you cannot generalize from one person to the whole population." Explain why this statement is an.', answer: 'The statement oversimplifies',
+                  options: ['The statement oversimplifies', 'case study = just writing a detailed biography of one person', '"case study = just writing a detailed biography of one person'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe "case study = just writing a detailed biography of one person." They miss that (1) a case can be a *group,.' },
+                { id: 'b', prompt: 'A researcher wants to study the long-term psychological impact of the 2013 Uttarakhand floods on children who lost their families.', answer: 'triangulation, (',
+                  options: ['triangulation, (', 'case study = just writing a detailed biography of one person', '"case study = just writing a detailed biography of one person'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe "case study = just writing a detailed biography of one person." They miss that (1) a case can be a *group,.' },
+                { id: 'c', prompt: 'Compare the case study method and the experimental method on three dimensions: (i) control over extraneous variables, (ii) ability to establish cause-effect.', answer: '(i) Control: Experimental method high (random assignment, lab control)',
+                  options: ['(i) Control: Experimental method high (random assignment, lab control)', 'case studies have no control', 'case study = just writing a detailed biography of one person'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe "case study = just writing a detailed biography of one person." They miss that (1) a case can be a *group,.' }
+          ],
+            remediations: { 'case-study-just-writing-a': { steps: ['If a student conflates case study with biography: (1) Show the NCERT examples — Freud (clinical theory building),.', 'What *multiple sources* did they use?" (2) Give a 5-minute exercise: "Convert this biography into a case study: \'Rahul,.', 'He says he hates math.\' Add: two more data sources, one theoretical question, one triangulation step." (3) Require the.', 'silent learning experiment) and then redesign it as a case study of *one* child\'s learning process — this contrast.'] } } },
+        { type: 'subpart', nodeId: 'c11_psy_cbse_02_008', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often believe "case study = just writing a detailed biography of one person." They miss that (1) a case can be.',
+          parts: [
+                { id: 'a', prompt: 'Critique this research claim: "A case study of a 16-year-old prodigy who practices piano 6 hours daily proves that deliberate practice alone causes exceptional.', answer: 'Two limitations: (1) *No control over extraneous variables*',
+                  options: ['Two limitations: (1) *No control over extraneous variables*', 'case studies can\'t prove causation', 'no causality', 'case study = just writing a detailed biography of one person'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe "case study = just writing a detailed biography of one person." They miss that (1) a case can be a *group,.' }
+          ],
+            remediations: { 'case-study-just-writing-a': { steps: ['If a student conflates case study with biography: (1) Show the NCERT examples — Freud (clinical theory building),.', 'What *multiple sources* did they use?" (2) Give a 5-minute exercise: "Convert this biography into a case study: \'Rahul,.', 'He says he hates math.\' Add: two more data sources, one theoretical question, one triangulation step." (3) Require the.', 'silent learning experiment) and then redesign it as a case study of *one* child\'s learning process — this contrast.'] } } },
+        { type: 'subpart', nodeId: 'c11_psy_cbse_07_002', difficulty: 'standard',
+          question: 'The building blocks of thought are the fundamental mental.',
+          hint: 'Revisit "Nature of Thinking: Definition and Characteristics" (c11_psy_cbse_07_001).',
+          misconception: 'Students believe "thinking in words" and "thinking in images" are mutually exclusive styles (verbalizer vs.',
+          parts: [
+                { id: 'a', prompt: 'Compare linguistic relativity (Whorf) and cognitive primacy (Piaget) on the thought-language relationship.', answer: 'Whorf: language structure constrains thought categories (strong determinism) or',
+                  options: ['Whorf: language structure constrains thought categories (strong determinism) or', 'thinking in words', 'thinking in images'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "thinking in words" and "thinking in images" are mutually exclusive styles (verbalizer vs. visualizer).' }
+          ],
+            remediations: { 'thinking-in-words-and-thinking': { steps: ['Have student perform two tasks: (a) mentally rotate letter \'R\' to match target (image-based), (b) evaluate "All A are.', 'Ask: "Which format did each task require?', 'Explain: Cognitive flexibility means selecting representation fit-for-task.', 'Assign: Read Kosslyn\'s "Image and Mind" Ch.'] } } },
+        { type: 'subpart', nodeId: 'c11_psy_cbse_07_002', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students believe "thinking in words" and "thinking in images" are mutually exclusive styles (verbalizer vs.',
+          parts: [
+                { id: 'a', prompt: 'Evaluate the claim: "The telegraphic speech stage (two-word utterances) proves children have innate syntactic knowledge because they omit function words but.', answer: 'The claim overinterprets',
+                  options: ['The claim overinterprets', 'thinking in words', 'thinking in images', 'I\'m a visual thinker so I can\'t do logic problems'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "thinking in words" and "thinking in images" are mutually exclusive styles (verbalizer vs. visualizer).' },
+                { id: 'b', prompt: 'Design a simple experiment to test whether forming a mental image interferes with concurrent visual perception (perceptual interference hypothesis).', answer: 'IV: Task type (mental imagery vs',
+                  options: ['IV: Task type (mental imagery vs', 'thinking in words', 'thinking in images', 'I\'m a visual thinker so I can\'t do logic problems'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "thinking in words" and "thinking in images" are mutually exclusive styles (verbalizer vs. visualizer).' },
+                { id: 'c', prompt: 'Compare linguistic relativity (Whorf) and cognitive primacy (Piaget) on the thought-language relationship.', answer: 'Whorf: language structure constrains thought categories (strong determinism) or',
+                  options: ['Whorf: language structure constrains thought categories (strong determinism) or', 'thinking in words', 'thinking in images', 'I\'m a visual thinker so I can\'t do logic problems'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students believe "thinking in words" and "thinking in images" are mutually exclusive styles (verbalizer vs. visualizer).' }
+          ],
+            remediations: { 'thinking-in-words-and-thinking': { steps: ['Have student perform two tasks: (a) mentally rotate letter \'R\' to match target (image-based), (b) evaluate "All A are.', 'Ask: "Which format did each task require?', 'Explain: Cognitive flexibility means selecting representation fit-for-task.', 'Assign: Read Kosslyn\'s "Image and Mind" Ch.'] } } },
+        { type: 'subpart', nodeId: 'c11_psy_cbse_08_005', difficulty: 'standard',
+          question: 'Emotion is a complex psychological state involving three distinct components: a.',
+          hint: 'Revisit the "Motivational Cycle" diagram (Fig 8.1) in c11_psy_cbse_08_001 and identify.',
+          misconception: 'Students often believe that **physiological arousal alone determines the emotion** (e.g., "My heart is racing, so I.',
+          parts: [
+                { id: 'a', prompt: 'Rohan sees a snake on a trek. His heart pounds, he thinks "Danger!", and he freezes. Map each of Rohan\'s responses to the three components of emotion.', answer: 'Heart pounding = physiological arousal',
+                  options: ['Heart pounding = physiological arousal', 'anxiety', 'My heart is racing, so I must be afraid'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe that **physiological arousal alone determines the emotion** (e.g., "My heart is racing, so I must be afraid").' }
+          ],
+            remediations: { 'physiological-arousal-alone-determines-the': { steps: ['**Re-read the definition** in the NCERT text (Chapter 8, "Nature of Emotions"): "Emotions are a complex pattern of.', '**Do the "Same Arousal, Different Label" exercise**: Write three scenarios causing identical physiological arousal.', 'Explicitly write the *cognitive thought* for each (e.g., "Threat," "Insult," "Opportunity").', '**Verify with a peer**: Explain why the James-Lange theory (node c11_psy_cbse_08_006) is a *theory about the sequence*,.'] } } },
+        { type: 'subpart', nodeId: 'c11_psy_cbse_08_005', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students often believe that **physiological arousal alone determines the emotion** (e.g., "My heart is racing, so I.',
+          parts: [
+                { id: 'a', prompt: 'Critique the statement: "Women are more emotional than men." Use the textbook\'s evidence on gender differences in specific emotions (intensity and frequency).', answer: 'The statement is an oversimplification',
+                  options: ['The statement is an oversimplification', 'My heart is racing, so I must be afraid', '**physiological arousal alone determines the emotion** (e'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe that **physiological arousal alone determines the emotion** (e.g., "My heart is racing, so I must be afraid").' },
+                { id: 'b', prompt: 'Create a novel example of a "cultural display rule" for an Indian context that modifies the expression of a basic emotion.', answer: 'Example: **Emotion**: Anger (basic)',
+                  options: ['Example: **Emotion**: Anger (basic)', 'My heart is racing, so I must be afraid', '**physiological arousal alone determines the emotion** (e'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students often believe that **physiological arousal alone determines the emotion** (e.g., "My heart is racing, so I must be afraid").' }
+          ],
+            remediations: { 'physiological-arousal-alone-determines-the': { steps: ['**Re-read the definition** in the NCERT text (Chapter 8, "Nature of Emotions"): "Emotions are a complex pattern of.', '**Do the "Same Arousal, Different Label" exercise**: Write three scenarios causing identical physiological arousal.', 'Explicitly write the *cognitive thought* for each (e.g., "Threat," "Insult," "Opportunity").', '**Verify with a peer**: Explain why the James-Lange theory (node c11_psy_cbse_08_006) is a *theory about the sequence*,.'] } } },
+        { type: 'subpart', nodeId: 'c11_psy_cbse_03_001', difficulty: 'standard',
+          question: 'Development is the pattern of progressive, orderly, and predictable changes.',
+          hint: 'If stuck, revisit c10_bio_cbse_04_007 (Darwin\'s natural selection) for evolution.',
+          misconception: 'Students frequently treat "maturation" and "learning" as synonyms, or assume maturation means "becoming mature" in the.',
+          parts: [
+                { id: 'a', prompt: 'A researcher claims: "Since maturation is genetically programmed, environmental enrichment cannot accelerate motor milestones like walking." Using the concepts.', answer: 'The claim is partially correct but incomplete',
+                  options: ['The claim is partially correct but incomplete', 'environment has no role', 'practice can make a 6-month-old walk'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students frequently treat "maturation" and "learning" as synonyms, or assume maturation means "becoming mature" in the colloquial sense.' }
+          ],
+            remediations: { 'students-frequently-treat-maturation-and': { steps: ['Ask the student to list three behaviours that appear "automatically" in infancy (e.g., sucking, grasping reflex,.', 'For each, ask: "Would this behaviour appear if the infant were physically restrained 24/7? If the infant were deaf?', 'Guide them to see that reflexes (sucking, grasping) are robust to deprivation (strong maturation), but babbling.', 'Use the NCERT Box 3.1 line: "Once the underlying physical structure is sufficiently developed, proficiency requires.', 'Assign a mini-case: "Twin A grows up in an orphanage with minimal interaction; Twin B grows up in a responsive home.'] } } },
+        { type: 'subpart', nodeId: 'c11_psy_cbse_03_001', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students frequently treat "maturation" and "learning" as synonyms, or assume maturation means "becoming mature" in the.',
+          parts: [
+                { id: 'a', prompt: 'Critique the following statement: "Development is just growth plus maturation." Use the NCERT definition of development (biological, cognitive, socio-emotional.', answer: 'The statement is reductionist and inaccurate',
+                  options: ['The statement is reductionist and inaccurate', 'proficiency requires adequate environment and little practice', 'he evolved to be smart', 'A baby walking at 10 months instead of 12 months shows faster maturation'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students frequently treat "maturation" and "learning" as synonyms, or assume maturation means "becoming mature" in the colloquial sense.' }
+          ],
+            remediations: { 'students-frequently-treat-maturation-and': { steps: ['Ask the student to list three behaviours that appear "automatically" in infancy (e.g., sucking, grasping reflex,.', 'For each, ask: "Would this behaviour appear if the infant were physically restrained 24/7? If the infant were deaf?', 'Guide them to see that reflexes (sucking, grasping) are robust to deprivation (strong maturation), but babbling.', 'Use the NCERT Box 3.1 line: "Once the underlying physical structure is sufficiently developed, proficiency requires.', 'Assign a mini-case: "Twin A grows up in an orphanage with minimal interaction; Twin B grows up in a responsive home.'] } } },
+        { type: 'subpart', nodeId: 'c11_psy_cbse_03_002', difficulty: 'standard',
+          question: 'Life-Span Perspective (LSP) is a comprehensive theoretical framework that.',
+          hint: 'Revisit c11_psy_cbse_03_001: Practice classifying changes as growth, maturation, or.',
+          misconception: 'Students equate Life-Span Perspective with "development continues throughout life" (simple continuity) and miss its.',
+          parts: [
+                { id: 'a', prompt: 'A 60-year-old retired professor decides to learn Spanish using a language app, practicing 30 minutes daily.', answer: 'Step 1: Plasticity',
+                  options: ['Step 1: Plasticity', 'age-related decline', 'LSP means we keep developing until we die'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students equate Life-Span Perspective with "development continues throughout life" (simple continuity) and miss its five other defining.' },
+                { id: 'b', prompt: 'Compare and contrast the Life-Span Perspective with traditional stage theories (e.g., Piaget\'s cognitive stages, Erikson\'s psychosocial stages) on three.', answer: 'endpoint of development, (',
+                  options: ['endpoint of development, (', 'stage theories also cover adulthood', 'LSP means we keep developing until we die'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students equate Life-Span Perspective with "development continues throughout life" (simple continuity) and miss its five other defining.' }
+          ],
+            remediations: { 'students-equate-life-span-perspective': { steps: ['Create a 7-column table with each LSP assumption as a column header.', 'For a single case (e.g., 50-year-old learning coding), fill each column with specific evidence from the case — this.', 'Contrast with a stage theory prediction for the same case (e.g., "Piaget would say formal operations are complete by.', 'Identify which LSP assumptions explain the discrepancy — this reveals LSP\'s explanatory power beyond mere timeline.', 'Practice with three diverse cases (child, adolescent, older adult) until the student can automatically generate.'] } } },
+        { type: 'subpart', nodeId: 'c11_psy_cbse_03_002', difficulty: 'advanced',
+          question: 'Prove it again — new questions.',
+          hint: 'Same idea, different angle.',
+          misconception: 'Students equate Life-Span Perspective with "development continues throughout life" (simple continuity) and miss its.',
+          parts: [
+                { id: 'a', prompt: 'Critically evaluate the claim: "The Life-Span Perspective\'s assumption that \'development is plastic\' implies that any skill can be learned to expert level at.', answer: 'The claim is false',
+                  options: ['The claim is false', 'modifiability', 'limitless malleability', 'LSP means we keep developing until we die'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students equate Life-Span Perspective with "development continues throughout life" (simple continuity) and miss its five other defining.' },
+                { id: 'b', prompt: 'Compare and contrast the Life-Span Perspective with traditional stage theories (e.g., Piaget\'s cognitive stages, Erikson\'s psychosocial stages) on three.', answer: 'endpoint of development, (',
+                  options: ['endpoint of development, (', 'stage theories also cover adulthood', 'LSP means we keep developing until we die'],
+                  hint: 'Check your reasoning on the interactive.',
+                  misconception: 'Students equate Life-Span Perspective with "development continues throughout life" (simple continuity) and miss its five other defining.' }
+          ],
+            remediations: { 'students-equate-life-span-perspective': { steps: ['Create a 7-column table with each LSP assumption as a column header.', 'For a single case (e.g., 50-year-old learning coding), fill each column with specific evidence from the case — this.', 'Contrast with a stage theory prediction for the same case (e.g., "Piaget would say formal operations are complete by.', 'Identify which LSP assumptions explain the discrepancy — this reveals LSP\'s explanatory power beyond mere timeline.', 'Practice with three diverse cases (child, adolescent, older adult) until the student can automatically generate.'] } } }
+    ],
+    reflect: { prompts: ['What did the interactive reveal?', 'Where can this idea go wrong?'] },
+    successLine: 'Mastered! 🌟', tryAgainLine: 'Revisit the simulation, then retry.',
+};
