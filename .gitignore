@@ -7,6 +7,9 @@
 *.key
 backend/.env
 frontend/.env*
+.gemini_keys
+*_keys
+*.secrets
 
 # ── Python ─────────────────────────────────────────────────────
 __pycache__/
