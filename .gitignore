@@ -67,3 +67,5 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+frontend/scripts/vertex-service-account.json
+*.service-account.json
