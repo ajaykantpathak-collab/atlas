@@ -20,6 +20,7 @@ from backend.api.teacher_analytics import router as teacher_analytics_router
 from backend.api.analytics import router as analytics_router
 from backend.api.accessibility import router as accessibility_router
 from backend.api.student_shim import router as student_router
+from backend.api.student_shim import sync_router
 
 __all__ = [
     "auth_router",
@@ -40,4 +41,5 @@ __all__ = [
     "analytics_router",
     "accessibility_router",
     "student_router",
+    "sync_router",
 ]

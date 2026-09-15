@@ -481,7 +481,7 @@ export default function TutorPage({
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    const wsUrl = `${TUTOR_WS_URL}/api/tutor/ws?user_id=${encodeURIComponent(effectiveUserId)}`;
+    const wsUrl = `${TUTOR_WS_URL}/api/tutor/its/ws?user_id=${encodeURIComponent(effectiveUserId)}`;
     let ws: WebSocket | null = null;
     let reconnectTimer: ReturnType<typeof setTimeout>;
 

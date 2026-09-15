@@ -17,12 +17,11 @@ clickhouse-connect==0.7.16
 psycopg2-binary==2.9.9
 
 # ==================== AI / LLM ====================
+# openai: used by services/llm_grader.py + ai/ clients
+# langfuse: used by services/langfuse_tracer.py (observability)
+# langchain/langgraph/dspy-ai/pyautogen REMOVED — not imported anywhere
+# outside _archive; langgraph==0.1.0 doesn't exist on PyPI anyway.
 openai==1.30.0
-langchain==0.2.0
-langchain-core==0.2.0
-langgraph==0.1.0
-dspy-ai==2.4.0
-pyautogen==0.2.25
 langfuse==2.36.0
 sympy==1.12
 

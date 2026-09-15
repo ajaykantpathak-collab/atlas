@@ -26,6 +26,7 @@ from backend.routers import (
     analytics_router,
     accessibility_router,
     student_router,
+    sync_router,
 )
 
 settings = get_settings()
@@ -85,6 +86,7 @@ app.include_router(teacher_analytics_router)
 app.include_router(analytics_router)
 app.include_router(accessibility_router)
 app.include_router(student_router)
+app.include_router(sync_router)
 
 
 @app.get("/health")

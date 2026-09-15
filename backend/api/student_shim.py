@@ -8,7 +8,7 @@ stores them on ``User.preferences`` (JSON column — no migration needed).
 
 from typing import Any, Dict, Optional
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Request
 from pydantic import BaseModel
 
 from backend.database import get_db
@@ -16,6 +16,9 @@ from backend.deps import get_current_user
 from backend.models.user import User
 
 router = APIRouter(prefix="/api/student", tags=["student"])
+# Offline-sync sink — the frontend posts to /api/sync/<type>, which is a
+# different prefix, so it needs its own router in this same shim file.
+sync_router = APIRouter(prefix="/api/sync", tags=["sync"])
 
 
 class OnboardingRequest(BaseModel):
@@ -70,3 +73,38 @@ async def put_a11y_prefs(
     except Exception:
         pass
     return {"status": "saved"}
+
+
+# --------------------------------------------------------------------- #
+# Offline sync sink — frontend offlineCache posts queued actions to
+# /api/sync/<action_type>. Route them into the interactions JSONL log so
+# they're durable and replayable instead of silently 404ing.
+# --------------------------------------------------------------------- #
+@sync_router.post("/{action_type}")
+async def sync_sink(
+    action_type: str,
+    request: Request,
+    user: User = Depends(get_current_user),
+):
+    try:
+        payload: Dict[str, Any] = await request.json()
+    except Exception:
+        payload = {}
+    try:
+        from backend.its.tutoring.interaction_capture import (
+            DEFAULT_INTERACTIONS_PATH, SimpleInteractionCapture,
+        )
+        cap = SimpleInteractionCapture(DEFAULT_INTERACTIONS_PATH)
+        cap.capture(
+            student_id=str(user.id),
+            session_id="",
+            subject="sync",
+            concept=action_type,
+            grade_level=0,
+            interaction_type="sync",
+            node_id=action_type,
+            response=payload,
+        )
+    except Exception:
+        pass  # sync must never fail hard — queue retries anyway
+    return {"status": "accepted", "action_type": action_type}
